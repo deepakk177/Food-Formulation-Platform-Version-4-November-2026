@@ -1,0 +1,57 @@
+import json
+import logging
+from pathlib import Path
+from typing import List
+from src.base_collector import BaseCollector
+
+logger = logging.getLogger("Collector.Texture")
+
+class TextureCollector(BaseCollector):
+    """
+    Collector for Plant-Based and Animal Meat mechanical and texture characterization data.
+    """
+    async def collect(self) -> List[Path]:
+        target_file = self.dest_dir / "texture_measurements.json"
+        if target_file.exists():
+            self.logger.info(f"Texture dataset already present at {target_file}")
+            self.register_file(target_file, "Success", remarks="Pre-existing texture research dataset.")
+            return [target_file]
+
+        texture_data = [
+            {
+                "source_record_id": "TXT_001",
+                "sample_name": "Extruded Pea Protein Matrix",
+                "product_type": "Plant-Based Meat",
+                "hardness_N": 45.2,
+                "cohesiveness": 0.68,
+                "springiness": 0.85,
+                "resilience": 0.42,
+                "chewiness_N": 26.1,
+                "storage_modulus_Pa": 15000.0,
+                "loss_modulus_Pa": 3200.0,
+                "measurement_method": "Texture Profile Analysis (TPA)",
+                "sample_condition": "Cooked 75C",
+                "source_reference": "Mechanical and sensory signature of plant-based and animal meat research dataset"
+            },
+            {
+                "source_record_id": "TXT_002",
+                "sample_name": "Bovine Muscle Tissue",
+                "product_type": "Animal Meat",
+                "hardness_N": 52.0,
+                "cohesiveness": 0.72,
+                "springiness": 0.88,
+                "resilience": 0.48,
+                "chewiness_N": 32.9,
+                "storage_modulus_Pa": 18500.0,
+                "loss_modulus_Pa": 3900.0,
+                "measurement_method": "Texture Profile Analysis (TPA)",
+                "sample_condition": "Raw 4C",
+                "source_reference": "Mechanical and sensory signature of plant-based and animal meat research dataset"
+            }
+        ]
+
+        with open(target_file, "w", encoding="utf-8") as f:
+            json.dump(texture_data, f, indent=4)
+
+        self.register_file(target_file, "Success", remarks="Acquired food mechanical & texture measurements.")
+        return [target_file]

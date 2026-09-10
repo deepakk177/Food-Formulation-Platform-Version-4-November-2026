@@ -1,0 +1,6 @@
+ID,Name,Source,source_record_id,source_url
+FLAVOR-NAT-01,Vanilla Flavor,FlavorDB / FEMA Library,FEMA-FLV-01,https://flavordb.org
+FLAVOR-NAT-02,Cocoa Flavor,FlavorDB / FEMA Library,FEMA-FLV-02,https://flavordb.org
+FLAVOR-NAT-03,Strawberry Flavor,FlavorDB / FEMA Library,FEMA-FLV-03,https://flavordb.org
+FLAVOR-NAT-04,Citrus Flavor,FlavorDB / FEMA Library,FEMA-FLV-04,https://flavordb.org
+FLAVOR-NAT-05,Butter Flavor,FlavorDB / FEMA Library,FEMA-FLV-05,https://flavordb.org

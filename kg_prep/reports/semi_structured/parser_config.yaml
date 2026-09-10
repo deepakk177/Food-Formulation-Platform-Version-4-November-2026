@@ -1,0 +1,222 @@
+Flavordb:
+  files:
+    entity_1.html:
+      encoding: utf-8
+      mime_type: text/html
+      parser: BeautifulSoup
+    entity_1.json:
+      encoding: utf-8
+      mime_type: application/json
+      parser: orjson
+    entity_10.html:
+      encoding: utf-8
+      mime_type: text/html
+      parser: BeautifulSoup
+    entity_10.json:
+      encoding: utf-8
+      mime_type: application/json
+      parser: orjson
+    entity_11.html:
+      encoding: utf-8
+      mime_type: text/html
+      parser: BeautifulSoup
+    entity_11.json:
+      encoding: utf-8
+      mime_type: application/json
+      parser: orjson
+    entity_12.html:
+      encoding: utf-8
+      mime_type: text/html
+      parser: BeautifulSoup
+    entity_12.json:
+      encoding: utf-8
+      mime_type: application/json
+      parser: orjson
+    entity_13.html:
+      encoding: utf-8
+      mime_type: text/html
+      parser: BeautifulSoup
+    entity_13.json:
+      encoding: utf-8
+      mime_type: application/json
+      parser: orjson
+    entity_14.html:
+      encoding: utf-8
+      mime_type: text/html
+      parser: BeautifulSoup
+    entity_14.json:
+      encoding: utf-8
+      mime_type: application/json
+      parser: orjson
+    entity_15.html:
+      encoding: utf-8
+      mime_type: text/html
+      parser: BeautifulSoup
+    entity_15.json:
+      encoding: utf-8
+      mime_type: application/json
+      parser: orjson
+    entity_16.html:
+      encoding: utf-8
+      mime_type: text/html
+      parser: BeautifulSoup
+    entity_16.json:
+      encoding: utf-8
+      mime_type: application/json
+      parser: orjson
+    entity_17.html:
+      encoding: utf-8
+      mime_type: text/html
+      parser: BeautifulSoup
+    entity_17.json:
+      encoding: utf-8
+      mime_type: application/json
+      parser: orjson
+    entity_18.html:
+      encoding: utf-8
+      mime_type: text/html
+      parser: BeautifulSoup
+    entity_18.json:
+      encoding: utf-8
+      mime_type: application/json
+      parser: orjson
+    entity_19.html:
+      encoding: utf-8
+      mime_type: text/html
+      parser: BeautifulSoup
+    entity_19.json:
+      encoding: utf-8
+      mime_type: application/json
+      parser: orjson
+    entity_2.html:
+      encoding: utf-8
+      mime_type: text/html
+      parser: BeautifulSoup
+    entity_2.json:
+      encoding: utf-8
+      mime_type: application/json
+      parser: orjson
+    entity_20.html:
+      encoding: utf-8
+      mime_type: text/html
+      parser: BeautifulSoup
+    entity_20.json:
+      encoding: utf-8
+      mime_type: application/json
+      parser: orjson
+    entity_3.html:
+      encoding: utf-8
+      mime_type: text/html
+      parser: BeautifulSoup
+    entity_3.json:
+      encoding: utf-8
+      mime_type: application/json
+      parser: orjson
+    entity_4.html:
+      encoding: utf-8
+      mime_type: text/html
+      parser: BeautifulSoup
+    entity_4.json:
+      encoding: utf-8
+      mime_type: application/json
+      parser: orjson
+    entity_5.html:
+      encoding: utf-8
+      mime_type: text/html
+      parser: BeautifulSoup
+    entity_5.json:
+      encoding: utf-8
+      mime_type: application/json
+      parser: orjson
+    entity_6.html:
+      encoding: utf-8
+      mime_type: text/html
+      parser: BeautifulSoup
+    entity_6.json:
+      encoding: utf-8
+      mime_type: application/json
+      parser: orjson
+    entity_7.html:
+      encoding: utf-8
+      mime_type: text/html
+      parser: BeautifulSoup
+    entity_7.json:
+      encoding: utf-8
+      mime_type: application/json
+      parser: orjson
+    entity_8.html:
+      encoding: utf-8
+      mime_type: text/html
+      parser: BeautifulSoup
+    entity_8.json:
+      encoding: utf-8
+      mime_type: application/json
+      parser: orjson
+    entity_9.html:
+      encoding: utf-8
+      mime_type: text/html
+      parser: BeautifulSoup
+    entity_9.json:
+      encoding: utf-8
+      mime_type: application/json
+      parser: orjson
+    flavordb_home.html:
+      encoding: utf-8
+      mime_type: text/html
+      parser: BeautifulSoup
+Gsfa_html:
+  files:
+    gsfa_additives.html:
+      encoding: utf-8
+      mime_type: text/html
+      parser: BeautifulSoup
+    gsfa_categories.html:
+      encoding: utf-8
+      mime_type: text/html
+      parser: BeautifulSoup
+    gsfa_home.html:
+      encoding: utf-8
+      mime_type: text/html
+      parser: BeautifulSoup
+    gsfa_ins.html:
+      encoding: utf-8
+      mime_type: text/html
+      parser: BeautifulSoup
+Ontology:
+  files:
+    foodon.owl:
+      encoding: utf-8
+      mime_type: application/rdf+xml
+      parser: rdflib
+Product_labels:
+  files:
+    product_3017620422003.html:
+      encoding: utf-8
+      mime_type: text/html
+      parser: BeautifulSoup
+    product_3228022030018.html:
+      encoding: utf-8
+      mime_type: text/html
+      parser: BeautifulSoup
+    product_5449000000996.html:
+      encoding: utf-8
+      mime_type: text/html
+      parser: BeautifulSoup
+    product_7622300440604.html:
+      encoding: utf-8
+      mime_type: text/html
+      parser: BeautifulSoup
+Specification_sheets:
+  files:
+    cargill_products.html:
+      encoding: utf-8
+      mime_type: text/html
+      parser: BeautifulSoup
+    ingredion_products.html:
+      encoding: utf-8
+      mime_type: text/html
+      parser: BeautifulSoup
+    tate_lyle_products.html:
+      encoding: utf-8
+      mime_type: text/html
+      parser: BeautifulSoup

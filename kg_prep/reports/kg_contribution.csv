@@ -1,0 +1,13 @@
+Dataset Name,Possible Node Types,Possible Relationship Types,Confidence
+Foodb,"Ingredient, Compound",INGREDIENT_TO_COMPOUND,0.78
+Usda_fdc,Ingredient,None,0.8
+Flavordb,"Flavor Molecule, Flavor, Functional Role",None,0.0
+Gsfa_html,None,None,0.0
+Product_labels,None,None,0.0
+Specification_sheets,None,None,0.0
+Ontology,None,None,0.0
+Codex,None,None,0.0
+Fssai,None,None,0.0
+Ins,None,None,0.0
+Patents,Evidence,None,0.64
+Research_papers,Regulation,None,0.8

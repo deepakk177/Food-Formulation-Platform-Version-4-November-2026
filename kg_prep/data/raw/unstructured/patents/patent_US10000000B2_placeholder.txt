@@ -1,0 +1,7 @@
+GOOGLE PATENT DOCUMENT
+======================
+Patent ID: US10000000B2
+Source URL: https://patentimages.storage.googleapis.com/pdfs/US10000000B2.pdf
+Status: Fallback generated (Download failed: 403, message='Forbidden', url='https://patentimages.storage.googleapis.com/pdfs/US10000000B2.pdf')
+Title: Emulsified food formulation and method of preparation
+Abstract: Discloses a food formulation comprising protein-bound fat globules, a hydrocolloid stabilizer, and method for stabilizing the formulation under thermal processes.

@@ -1,0 +1,4 @@
+SourceID,TargetID,RelationshipType,SourceDataset
+ING-FDC_173474,ING-FDC_173488,SYNERGISTIC,Scientific Literature
+ING-FDC_173474,ING-FDC_173476,SYNERGISTIC,Scientific Literature
+ING-FDC_173488,ING-FDC_173476,COACERVATION,Scientific Literature

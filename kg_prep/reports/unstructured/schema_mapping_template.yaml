@@ -1,0 +1,53 @@
+Codex:
+  CXS_192e.pdf:
+    mappings: {}
+    schema_type: Broken PDF
+Fssai:
+  FSSAI_Regulations_placeholder.txt:
+    mappings: {}
+    schema_type: Plain Text Document
+Ins:
+  CXG_036e.pdf:
+    mappings: {}
+    schema_type: Broken PDF
+Patents:
+  patent_US10000000B2_placeholder.txt:
+    mappings:
+      google_patent_document:
+        confidence: 0.64
+        target_entity: Evidence
+    schema_type: Plain Text Document
+  patent_US11012345B2_placeholder.txt:
+    mappings:
+      google_patent_document:
+        confidence: 0.64
+        target_entity: Evidence
+    schema_type: Plain Text Document
+  patent_US9876543B2_placeholder.txt:
+    mappings:
+      google_patent_document:
+        confidence: 0.64
+        target_entity: Evidence
+    schema_type: Plain Text Document
+Research_papers:
+  Applications_of_Novel_Techniques_to_Health_Foods_M.pdf:
+    mappings:
+      abstract:
+        confidence: 0.8
+        target_entity: Regulation
+      extracted_table_rows:
+        confidence: 0.8
+        target_entity: Regulation
+    schema_type: Digital PDF Document
+  Protein-polysaccharide_interactions_and_aggregates.pdf:
+    mappings:
+      extracted_table_rows:
+        confidence: 0.8
+        target_entity: Regulation
+    schema_type: Digital PDF Document
+  edible_polysaccharides_as_stabilizers_and_carriers.pdf:
+    mappings:
+      extracted_table_rows:
+        confidence: 0.8
+        target_entity: Regulation
+    schema_type: Digital PDF Document

@@ -1,0 +1,26 @@
+{
+  "Chocolate": [
+    "Smooth", "Creamy", "Melt-in-mouth", "Firm", "Snappy", "Fudgy", "Crunchy", "Crispy"
+  ],
+  "Confectionery & Chocolate": [
+    "Smooth", "Creamy", "Melt-in-mouth", "Firm", "Snappy", "Fudgy", "Crunchy", "Crispy"
+  ],
+  "Bakery": [
+    "Soft", "Tender", "Chewy", "Elastic", "Moist", "Crumbly", "Aerated", "Firm", "Flaky"
+  ],
+  "Bakery & Bread": [
+    "Soft", "Tender", "Chewy", "Elastic", "Moist", "Crumbly", "Aerated", "Firm", "Flaky"
+  ],
+  "Beverage": [
+    "Liquid", "Viscous", "Smooth", "Creamy", "Foamy", "Thick"
+  ],
+  "Energy Bar": [
+    "Chewy", "Fudgy", "Crunchy", "Dense", "Crispy", "Firm", "Moist"
+  ],
+  "Snacks & Savory": [
+    "Crunchy", "Crispy", "Brittle", "Chewy", "Crumbly", "Dense", "Light"
+  ],
+  "Dairy Alternative": [
+    "Smooth", "Creamy", "Viscous", "Liquid", "Gel-like", "Foamy"
+  ]
+}

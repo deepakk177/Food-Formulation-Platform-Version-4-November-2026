@@ -1,0 +1,5 @@
+:START_ID,:END_ID,:TYPE,evidence_id,source_id,confidence,validation_status
+PRO-NUTELLA_400G,PAC-ASEPTIC_PET_BOTTLE,USES_PACKAGING,EV-Technical Specifications,Technical Specifications,1.0,VALIDATED
+PRO-COCA_COLA_ORIGINAL_TASTE,PAC-MULTI_LAYER_BARRIER_FOIL_POUCH,USES_PACKAGING,EV-Technical Specifications,Technical Specifications,1.0,VALIDATED
+PRO-HEINZ_TOMATO_KETCHUP,PAC-FOOD_GRADE_GLASS_JAR,USES_PACKAGING,EV-Technical Specifications,Technical Specifications,1.0,VALIDATED
+PRO-HELLMANN_S_REAL_MAYONNAISE,PAC-ASEPTIC_PET_BOTTLE,USES_PACKAGING,EV-Technical Specifications,Technical Specifications,1.0,VALIDATED

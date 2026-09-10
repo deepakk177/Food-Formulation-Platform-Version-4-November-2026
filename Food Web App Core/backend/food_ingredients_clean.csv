@@ -1,0 +1,63 @@
+name,category,protein,fat,carbs,calories,functional_role,allergen
+Pea Protein Isolate,Protein Source,80.0,4.0,5.0,380.0,Protein Source,None
+Soy Protein Isolate,Protein Source,90.0,1.0,1.0,370.0,Protein Source,Soy
+Whey Protein Isolate,Protein Source,90.0,0.5,1.0,360.0,Protein Source,Milk
+Brown Rice Protein,Protein Source,75.0,3.0,10.0,370.0,Protein Source,None
+Skim Milk Powder,Protein Source,35.0,1.0,52.0,360.0,Protein Source,Milk
+Egg White Powder,Protein Source,80.0,0.0,4.0,340.0,Protein Source,Egg
+Hemp Protein Powder,Protein Source,50.0,11.0,18.0,370.0,Protein Source,None
+Sunflower Protein,Protein Source,70.0,8.0,8.0,390.0,Protein Source,None
+Oat Flour,Bulking Agent,12.0,7.0,66.0,389.0,Bulking Agent,None
+Wheat Flour,Bulking Agent,10.0,1.0,76.0,364.0,Bulking Agent,Gluten
+Maltodextrin,Bulking Agent,0.0,0.0,95.0,380.0,Bulking Agent,None
+Polydextrose,Bulking Agent,0.0,0.0,90.0,100.0,Bulking Agent,None
+Pea Starch,Bulking Agent,1.0,0.1,88.0,350.0,Bulking Agent,None
+Rice Flour,Bulking Agent,6.0,1.4,80.0,360.0,Bulking Agent,None
+Corn Starch,Bulking Agent,0.3,0.1,91.0,381.0,Bulking Agent,None
+Almond Flour,Bulking Agent,21.0,50.0,22.0,590.0,Bulking Agent,Tree Nuts
+Chickpea Flour,Bulking Agent,22.0,6.0,58.0,387.0,Bulking Agent,None
+Tapioca Starch,Bulking Agent,0.2,0.0,88.0,360.0,Bulking Agent,None
+Coconut Oil,Lipid Source,0.0,100.0,0.0,862.0,Bulking Agent,None
+Sunflower Oil,Lipid Source,0.0,100.0,0.0,884.0,Bulking Agent,None
+Canola Oil,Lipid Source,0.0,100.0,0.0,884.0,Bulking Agent,None
+MCT Oil,Lipid Source,0.0,100.0,0.0,862.0,Bulking Agent,None
+Soy Lecithin,Emulsifier,0.0,100.0,0.0,763.0,Emulsifier,Soy
+Sunflower Lecithin,Emulsifier,0.0,90.0,5.0,720.0,Emulsifier,None
+Mono- and Diglycerides,Emulsifier,0.0,100.0,0.0,800.0,Emulsifier,None
+Polysorbate 80,Emulsifier,0.0,0.0,0.0,0.0,Emulsifier,None
+DATEM,Emulsifier,0.0,100.0,0.0,800.0,Emulsifier,None
+Xanthan Gum,Stabilizer,0.0,0.0,80.0,320.0,Stabilizer,None
+Guar Gum,Stabilizer,0.0,0.0,85.0,340.0,Stabilizer,None
+Locust Bean Gum,Stabilizer,0.0,0.0,80.0,320.0,Stabilizer,None
+Carrageenan,Stabilizer,0.0,0.0,80.0,300.0,Stabilizer,None
+Gellan Gum,Stabilizer,0.0,0.0,85.0,340.0,Stabilizer,None
+Methylcellulose,Stabilizer,0.0,0.0,90.0,360.0,Stabilizer,None
+Pectin,Stabilizer,0.0,0.0,90.0,360.0,Stabilizer,None
+Sodium Alginate,Stabilizer,0.0,0.0,80.0,320.0,Stabilizer,None
+Cane Sugar,Sweetener,0.0,0.0,100.0,387.0,Sweetener,None
+Stevia Extract,Sweetener,0.0,0.0,0.0,0.0,Sweetener,None
+Sucralose,Sweetener,0.0,0.0,0.0,0.0,Sweetener,None
+Erythritol,Sweetener,0.0,0.0,100.0,20.0,Sweetener,None
+Monk Fruit Extract,Sweetener,0.0,0.0,0.0,0.0,Sweetener,None
+Allulose,Sweetener,0.0,0.0,100.0,10.0,Sweetener,None
+Coconut Sugar,Sweetener,0.0,0.0,100.0,375.0,Sweetener,None
+Cocoa Powder,Flavor System,20.0,14.0,58.0,228.0,Flavor System,None
+Vanilla Extract,Flavor System,0.0,0.0,12.0,288.0,Flavor System,None
+Natural Chocolate Flavor,Flavor System,0.0,0.0,5.0,20.0,Flavor System,None
+Natural Strawberry Flavor,Flavor System,0.0,0.0,5.0,20.0,Flavor System,None
+Natural Caramel Flavor,Flavor System,0.0,0.0,5.0,20.0,Flavor System,None
+Salt,Flavor System,0.0,0.0,0.0,0.0,Flavor System,None
+Cinnamon Powder,Flavor System,4.0,1.2,81.0,247.0,Flavor System,None
+Citric Acid,Acidity Control,0.0,0.0,100.0,300.0,Acidity Control,None
+Sodium Bicarbonate,Acidity Control,0.0,0.0,0.0,0.0,Acidity Control,None
+Malic Acid,Acidity Control,0.0,0.0,100.0,300.0,Acidity Control,None
+Lactic Acid,Acidity Control,0.0,0.0,100.0,300.0,Acidity Control,None
+Sodium Citrate,Acidity Control,0.0,0.0,0.0,0.0,Acidity Control,None
+Tartaric Acid,Acidity Control,0.0,0.0,100.0,300.0,Acidity Control,None
+Potassium Sorbate,Preservation,0.0,0.0,0.0,0.0,Preservation,None
+Sodium Benzoate,Preservation,0.0,0.0,0.0,0.0,Preservation,None
+Rosemary Extract,Preservation,0.0,0.0,0.0,0.0,Preservation,None
+Mixed Tocopherols,Preservation,0.0,100.0,0.0,900.0,Preservation,None
+Ascorbic Acid,Preservation,0.0,0.0,100.0,400.0,Preservation,None
+Vitamin D3,Preservation,0.0,100.0,0.0,900.0,Preservation,None
+Natamycin,Preservation,0.0,0.0,0.0,0.0,Preservation,None

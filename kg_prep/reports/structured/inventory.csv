@@ -1,0 +1,3 @@
+File Name,Dataset Name,Extension,MIME Type,Size (Bytes),Parent Folder,Last Modified,SHA256 Hash,Local Path,Classification
+foodb_2020_04_07_csv.zip,Foodb,zip,application/zip,545,raw\structured\foodb,2026-07-02 06:47:55,ac12bfb84f088610e927553935acd507bf1f50f2f57c9b4a91932995f8f14178,data/raw/structured/foodb/foodb_2020_04_07_csv.zip,Unknown
+FoodData_Central_csv_2024-04-18.zip,Usda_fdc,zip,application/zip,259,raw\structured\usda_fdc,2026-07-02 06:49:57,c2e0c229fb005bfda9eba7f125346ba98e6f2249deda95aac1504108ebced5bf,data/raw/structured/usda_fdc/FoodData_Central_csv_2024-04-18.zip,Unknown

@@ -1,0 +1,46 @@
+Codex:
+  files:
+    CXS_192e.pdf:
+      encoding: utf-8
+      mime_type: text/html
+      parser: pdfplumber
+Fssai:
+  files:
+    FSSAI_Regulations_placeholder.txt:
+      encoding: utf-8
+      mime_type: text/plain
+      parser: text_reader
+Ins:
+  files:
+    CXG_036e.pdf:
+      encoding: utf-8
+      mime_type: text/html
+      parser: pdfplumber
+Patents:
+  files:
+    patent_US10000000B2_placeholder.txt:
+      encoding: utf-8
+      mime_type: text/plain
+      parser: text_reader
+    patent_US11012345B2_placeholder.txt:
+      encoding: utf-8
+      mime_type: text/plain
+      parser: text_reader
+    patent_US9876543B2_placeholder.txt:
+      encoding: utf-8
+      mime_type: text/plain
+      parser: text_reader
+Research_papers:
+  files:
+    Applications_of_Novel_Techniques_to_Health_Foods_M.pdf:
+      encoding: utf-8
+      mime_type: application/pdf
+      parser: pdfplumber
+    Protein-polysaccharide_interactions_and_aggregates.pdf:
+      encoding: utf-8
+      mime_type: application/pdf
+      parser: pdfplumber
+    edible_polysaccharides_as_stabilizers_and_carriers.pdf:
+      encoding: utf-8
+      mime_type: application/pdf
+      parser: pdfplumber

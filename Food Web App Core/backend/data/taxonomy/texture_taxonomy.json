@@ -1,0 +1,8 @@
+{
+  "textures": [
+    "Smooth", "Creamy", "Crunchy", "Crispy", "Chewy", "Fudgy", "Liquid", 
+    "Viscous", "Thick", "Gel-like", "Gummy", "Firm", "Soft", "Tender", 
+    "Elastic", "Brittle", "Flaky", "Crumbly", "Aerated", "Foamy", "Dense", 
+    "Light", "Melt-in-mouth", "Powdery", "Fibrous", "Juicy", "Moist", "Dry"
+  ]
+}

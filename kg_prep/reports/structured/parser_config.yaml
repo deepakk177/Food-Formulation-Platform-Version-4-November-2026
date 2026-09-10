@@ -1,0 +1,12 @@
+Foodb:
+  files:
+    foodb_2020_04_07_csv.zip:
+      encoding: utf-8
+      mime_type: application/zip
+      parser: unknown
+Usda_fdc:
+  files:
+    FoodData_Central_csv_2024-04-18.zip:
+      encoding: utf-8
+      mime_type: application/zip
+      parser: unknown

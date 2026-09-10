@@ -1,0 +1,13 @@
+Dataset Name,Total Files,Total Size (KB),Formats,Approximate Records,Readiness Score
+Foodb,1,0.53,zip,5,1.0
+Usda_fdc,1,0.25,zip,3,1.0
+Flavordb,41,3533.6,"html, json",20,1.0
+Gsfa_html,4,48.98,html,0,1.0
+Product_labels,4,392.16,html,0,1.0
+Specification_sheets,3,227.16,html,0,1.0
+Ontology,1,39482.39,owl,1,1.0
+Codex,1,46.1,pdf,1,0.0
+Fssai,1,0.39,txt,1,1.0
+Ins,1,45.86,pdf,1,0.0
+Patents,3,1.56,txt,3,1.0
+Research_papers,3,1782.3,pdf,132,1.0

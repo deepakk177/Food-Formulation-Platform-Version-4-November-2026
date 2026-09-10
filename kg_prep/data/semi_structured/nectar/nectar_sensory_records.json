@@ -1,0 +1,28 @@
+[
+    {
+        "source_record_id": "NEC_001",
+        "product_category": "Plant-Based Meat Substitutes",
+        "sensory_attribute": "Juiciness",
+        "consumer_preference_score": 7.8,
+        "appearance_score": 8.1,
+        "texture_score": 7.4,
+        "flavor_score": 7.6,
+        "savoriness_score": 8.0,
+        "acceptance_pct": 82.5,
+        "observation_type": "AGGREGATED",
+        "source_reference": "NECTAR Sensory Research 2026"
+    },
+    {
+        "source_record_id": "NEC_002",
+        "product_category": "Dairy Alternative Yogurt",
+        "sensory_attribute": "Creaminess",
+        "consumer_preference_score": 8.4,
+        "appearance_score": 8.5,
+        "texture_score": 8.2,
+        "flavor_score": 8.3,
+        "savoriness_score": 6.5,
+        "acceptance_pct": 89.0,
+        "observation_type": "AGGREGATED",
+        "source_reference": "NECTAR Sensory Research 2026"
+    }
+]

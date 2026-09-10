@@ -1,0 +1,6 @@
+SourceID,TargetID,RelationshipType,SourceDataset
+PROC-TECH-01,COND-TECH-01,HAS_CONDITION,Scientific Literature
+PROC-TECH-02,COND-TECH-02,HAS_CONDITION,Scientific Literature
+PROC-TECH-03,COND-TECH-03,HAS_CONDITION,Scientific Literature
+PROC-TECH-04,COND-TECH-04,HAS_CONDITION,Scientific Literature
+PROC-TECH-05,COND-TECH-05,HAS_CONDITION,Scientific Literature

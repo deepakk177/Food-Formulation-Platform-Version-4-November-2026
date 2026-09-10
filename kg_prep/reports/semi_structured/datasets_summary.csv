@@ -1,0 +1,6 @@
+Dataset Name,Total Files,Total Size (KB),Formats,Approximate Records,Readiness Score
+Flavordb,41,3533.6,"html, json",20,1.0
+Gsfa_html,4,48.98,html,0,1.0
+Product_labels,4,392.16,html,0,1.0
+Specification_sheets,3,227.16,html,0,1.0
+Ontology,1,39482.39,owl,1,1.0

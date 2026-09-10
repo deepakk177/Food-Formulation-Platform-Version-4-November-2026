@@ -1,0 +1,3 @@
+ID,Name,PubChemID,FEMANumber,CASNumber,Source,source_record_id,source_url
+FLVMOL-FEMA-3107,Vanillin,5284448,3107,121-33-5,FEMA Flavor Library,3107,https://www.femaflavor.org/flavor/3107
+FLVMOL-FEMA-2633,Limonene,31279,2633,5989-27-5,FEMA Flavor Library,2633,https://www.femaflavor.org/flavor/2633

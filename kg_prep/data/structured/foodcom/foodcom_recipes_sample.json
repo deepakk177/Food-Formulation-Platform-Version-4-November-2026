@@ -1,0 +1,36 @@
+[
+    {
+        "recipe_id": "REC_FC_001",
+        "name": "Classic Pea Protein Vegan Burger",
+        "ingredients": [
+            "Pea Protein Isolate",
+            "Water",
+            "Sunflower Oil",
+            "Methylcellulose",
+            "Salt",
+            "Onion Powder",
+            "Beet Powder"
+        ],
+        "servings": 4,
+        "prep_time_min": 20,
+        "rating_avg": 4.7,
+        "interaction_count": 152,
+        "source_reference": "Food.com Recipes and User Interactions Dataset"
+    },
+    {
+        "recipe_id": "REC_FC_002",
+        "name": "Plant-Based Chocolate Milkshake",
+        "ingredients": [
+            "Soy Milk",
+            "Cocoa Powder",
+            "Cane Sugar",
+            "Vanilla Extract",
+            "Xanthan Gum"
+        ],
+        "servings": 2,
+        "prep_time_min": 5,
+        "rating_avg": 4.9,
+        "interaction_count": 310,
+        "source_reference": "Food.com Recipes and User Interactions Dataset"
+    }
+]

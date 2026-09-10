@@ -1,0 +1,42 @@
+# Structured Profiler Configuration (Module 2)
+
+scanner:
+  raw_dir: "data/raw/structured"
+  output_dir: "reports/structured"
+  allowed_extensions: [".csv", ".tsv", ".json", ".jsonl", ".xml", ".zip"]
+
+candidate_entities:
+  Ingredient:
+    keywords: ["ingredient", "food", "item", "constituent", "substance", "name", "raw_material"]
+    weight: 1.0
+  Compound:
+    keywords: ["compound", "chemical", "molecule", "formula", "cas", "pubchem", "cid"]
+    weight: 1.0
+  Nutrient:
+    keywords: ["nutrient", "protein", "fat", "carbohydrate", "vitamin", "mineral", "energy", "calorie", "zinc", "iron", "calcium"]
+    weight: 1.0
+  Food Category:
+    keywords: ["category", "group", "class", "division", "food_group"]
+    weight: 0.8
+
+candidate_relationships:
+  - source: "Ingredient"
+    target: "Compound"
+    co_occurrence_indicators: ["contains", "has_compound", "constituent"]
+  - source: "Ingredient"
+    target: "Nutrient"
+    co_occurrence_indicators: ["nutrition", "nutrient", "contains"]
+  - source: "Ingredient"
+    target: "Food Category"
+    co_occurrence_indicators: ["category", "type", "group"]
+
+builder_mappings:
+  entity_builders:
+    Ingredient: "IngredientBuilder"
+    Compound: "CompoundBuilder"
+    Nutrient: "NutritionBuilder"
+    Food Category: "CategoryBuilder"
+  relationship_builders:
+    "Ingredient -> Compound": "IngredientContainsCompoundBuilder"
+    "Ingredient -> Nutrient": "IngredientHasNutrientBuilder"
+    "Ingredient -> Food Category": "IngredientInGroupBuilder"

@@ -1,0 +1,54 @@
+# Semi-Structured Profiler Configuration (Module 3)
+
+scanner:
+  raw_dirs: ["data/raw/semi_structured", "data/raw/ontology"]
+  output_dir: "reports/semi_structured"
+  allowed_extensions: [".html", ".htm", ".json", ".jsonl", ".xml", ".owl", ".rdf"]
+
+candidate_entities:
+  Flavor:
+    keywords: ["flavor", "odour", "taste", "smell", "scent", "aroma", "sensory"]
+    weight: 1.0
+  Flavor Molecule:
+    keywords: ["molecule", "compound", "constituent", "pubchem", "cid"]
+    weight: 0.9
+  Functional Role:
+    keywords: ["role", "function", "additive_class", "purpose", "application"]
+    weight: 0.8
+  Packaging:
+    keywords: ["packaging", "package", "wrap", "container", "box", "bottle", "can"]
+    weight: 0.8
+  Property:
+    keywords: ["property", "moisture", "viscosity", "ph", "solubility", "ash", "purity"]
+    weight: 0.9
+  Brand:
+    keywords: ["brand", "label", "make", "trademark"]
+    weight: 0.8
+  Product:
+    keywords: ["product", "item", "good", "retail_item", "food_product"]
+    weight: 1.0
+
+candidate_relationships:
+  - source: "Product"
+    target: "Ingredient"
+    co_occurrence_indicators: ["ingredients", "contains", "made_from"]
+  - source: "Product"
+    target: "Brand"
+    co_occurrence_indicators: ["brand", "manufacturer"]
+  - source: "Ingredient"
+    target: "Flavor"
+    co_occurrence_indicators: ["flavor", "odor", "taste"]
+
+builder_mappings:
+  entity_builders:
+    Flavor: "FlavorBuilder"
+    Flavor Molecule: "FlavorMoleculeBuilder"
+    Functional Role: "RoleBuilder"
+    Packaging: "PackagingBuilder"
+    Property: "PropertyBuilder"
+    Brand: "BrandBuilder"
+    Product: "ProductBuilder"
+  relationship_builders:
+    "Product -> Ingredient": "ProductContainsIngredientBuilder"
+    "Product -> Brand": "ProductHasBrandBuilder"
+    "Ingredient -> Flavor": "IngredientExhibitsFlavorBuilder"

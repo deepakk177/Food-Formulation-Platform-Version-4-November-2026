@@ -1,0 +1,50 @@
+# Unstructured Profiler Configuration (Module 4)
+
+scanner:
+  raw_dir: "data/raw/unstructured"
+  output_dir: "reports/unstructured"
+  allowed_extensions: [".pdf", ".txt", ".docx"]
+
+candidate_entities:
+  Food Additive:
+    keywords: ["additive", "color", "colour", "preservative", "emulsifier", "stabilizer", "thickener", "sweetener"]
+    weight: 1.0
+  INS Number:
+    keywords: ["ins", "ins_number", "e_number", "numbering_system"]
+    weight: 1.0
+  Regulation:
+    keywords: ["regulation", "limit", "standard", "permitted", "threshold", "law", "act", "section", "article", "codex", "fssai"]
+    weight: 1.0
+  Constraint:
+    keywords: ["constraint", "maximum_level", "ml", "limit", "bound", "maximum", "gmp"]
+    weight: 0.9
+  Evidence:
+    keywords: ["evidence", "paper", "patent", "study", "citation", "reference", "source", "journal"]
+    weight: 0.8
+
+candidate_relationships:
+  - source: "Food Additive"
+    target: "INS Number"
+    co_occurrence_indicators: ["ins", "ins_number", "maps_to"]
+  - source: "Food Additive"
+    target: "Food Category"
+    co_occurrence_indicators: ["permitted_in", "category", "applied_to"]
+  - source: "Product"
+    target: "Regulation"
+    co_occurrence_indicators: ["complies", "standard", "limit"]
+  - source: "Product"
+    target: "Constraint"
+    co_occurrence_indicators: ["maximum", "limit", "bound"]
+
+builder_mappings:
+  entity_builders:
+    Food Additive: "AdditiveBuilder"
+    INS Number: "INSBuilder"
+    Regulation: "RegulationBuilder"
+    Constraint: "ConstraintBuilder"
+    Evidence: "EvidenceBuilder"
+  relationship_builders:
+    "Food Additive -> INS Number": "AdditiveMapsToINSBuilder"
+    "Food Additive -> Food Category": "AdditiveAllowedInCategoryBuilder"
+    "Product -> Regulation": "ProductCompliesWithRegulationBuilder"
+    "Product -> Constraint": "ProductGovernedByConstraintBuilder"

@@ -1,0 +1,11 @@
+ID,Name,Source,source_record_id,source_url
+CAT-FOODON-MASTER,FoodOn Taxonomy Hierarchy,FoodOn,FOODON_00000000,http://purl.obolibrary.org/obo/FOODON_00000000
+CAT-GSFA-01.0,Dairy products and analogues,Codex GSFA,01.0,https://www.fao.org/gsfaonline/foods/index.html
+CAT-GSFA-02.0,"Fats and oils, and fat emulsions",Codex GSFA,02.0,https://www.fao.org/gsfaonline/foods/index.html
+CAT-GSFA-03.0,"Edible ices, including sherbet and sorbet",Codex GSFA,03.0,https://www.fao.org/gsfaonline/foods/index.html
+CAT-GSFA-04.0,Fruits and vegetables,Codex GSFA,04.0,https://www.fao.org/gsfaonline/foods/index.html
+CAT-GSFA-05.0,Confectionery,Codex GSFA,05.0,https://www.fao.org/gsfaonline/foods/index.html
+CAT-GSFA-06.0,Cereals and cereal products,Codex GSFA,06.0,https://www.fao.org/gsfaonline/foods/index.html
+CAT-GSFA-07.0,Bakery wares,Codex GSFA,07.0,https://www.fao.org/gsfaonline/foods/index.html
+CAT-GSFA-12.0,"Salts, spices, soups, sauces, salads and protein products",Codex GSFA,12.0,https://www.fao.org/gsfaonline/foods/index.html
+CAT-GSFA-14.0,"Beverages, excluding dairy products",Codex GSFA,14.0,https://www.fao.org/gsfaonline/foods/index.html

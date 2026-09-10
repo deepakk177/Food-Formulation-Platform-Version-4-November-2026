@@ -1,0 +1,36 @@
+{
+    "Codex": {
+        "builders": {}
+    },
+    "Fssai": {
+        "builders": {}
+    },
+    "Ins": {
+        "builders": {}
+    },
+    "Patents": {
+        "builders": {
+            "Evidence": {
+                "builder_class": "EvidenceBuilder",
+                "fields": [
+                    "google_patent_document",
+                    "google_patent_document",
+                    "google_patent_document"
+                ]
+            }
+        }
+    },
+    "Research_papers": {
+        "builders": {
+            "Regulation": {
+                "builder_class": "RegulationBuilder",
+                "fields": [
+                    "extracted_table_rows",
+                    "abstract",
+                    "extracted_table_rows",
+                    "extracted_table_rows"
+                ]
+            }
+        }
+    }
+}

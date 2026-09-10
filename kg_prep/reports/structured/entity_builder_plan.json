@@ -1,0 +1,30 @@
+{
+    "Foodb": {
+        "builders": {
+            "Compound": {
+                "builder_class": "CompoundBuilder",
+                "fields": [
+                    "id",
+                    "chemical_formula",
+                    "cas_number"
+                ]
+            },
+            "Ingredient": {
+                "builder_class": "IngredientBuilder",
+                "fields": [
+                    "name"
+                ]
+            }
+        }
+    },
+    "Usda_fdc": {
+        "builders": {
+            "Ingredient": {
+                "builder_class": "IngredientBuilder",
+                "fields": [
+                    "food_category_id"
+                ]
+            }
+        }
+    }
+}

@@ -1,0 +1,3 @@
+entity_type,entity_id,name,orphan_classification,reason
+Ingredient,ING-ORPHAN-001,Isolated Raw Sample,VALID_ORPHAN,No nutrient or compound mapping in raw source
+Product,PROD-UNLINKED-001,Experimental Prototype,VALID_ORPHAN,Unlinked commercial prototype

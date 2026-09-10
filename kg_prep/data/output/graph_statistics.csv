@@ -1,0 +1,2 @@
+total_nodes,total_relationships,connected_nodes,orphan_nodes,connected_components,largest_component_size,nodes_reachable_from_product_category,percentage_reachable
+24928,12582,3174,21734,21738,3174,3174,12.73

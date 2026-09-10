@@ -1,0 +1,12 @@
+ID,Name,Type,Source,source_record_id,source_url,organization,jurisdiction,version,authority_level
+SRC-CODEX,Codex General Standard for Food Additives (CXS 192-1995),REGULATION,Codex Alimentarius Commission,CXS_192-1995,https://www.fao.org/gsfaonline,FAO/WHO Codex Alimentarius,International,2025.1,LEVEL_5
+SRC-FSSAI,FSSAI Food Product Standards & Regulations,REGULATION,FSSAI Govt of India,FSSAI-2011,https://fssai.gov.in,,,,
+SRC-FDA,US FDA Code of Federal Regulations Title 21 (21 CFR),REGULATION,US Food and Drug Administration,21CFR,https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfcfr/cfrsearch.cfm,,,,
+SRC-SCIENTIFIC-LITERATURE,PubMed / PMC / arXiv Literature,SCIENTIFIC_PAPER,Peer-Reviewed Journals,PUBMED-PMC,https://pubmed.ncbi.nlm.nih.gov,,,,
+SRC-PATENT,Google / EPO Patent Databases,PATENT,Patent Offices,PATENTS-US-EP,https://patents.google.com,,,,
+SRC-SUPPLIER-TDS,Manufacturer Technical Data Sheets & Specifications,TECHNICAL_SPEC,Ingredient Manufacturers (Cargill/ADM/Tate&Lyle/Ingredion/IFF),SUPPLIER-TDS,https://www.cargill.com,,,,
+SRC-FOODON,FoodOn Ontology,ONTOLOGY,System,SRC-FOODON,http://purl.obolibrary.org/obo/foodon.owl,,,,
+SRC-USDA-FDC,USDA FoodData Central,COMPOSITION_DATABASE,System,SRC-USDA-FDC,https://fdc.nal.usda.gov,,,,
+SRC-IFCT-2017,ICMR-NIN Indian Food Composition Tables,COMPOSITION_DATABASE,System,SRC-IFCT-2017,https://www.nin.res.in,,,,
+SRC-PUBCHEM,PubChem Chemical Database,CHEMICAL_DATABASE,System,SRC-PUBCHEM,https://pubchem.ncbi.nlm.nih.gov,,,,
+SRC-OPENFOODFACTS,Open Food Facts,PRODUCT_DATABASE,System,SRC-OPENFOODFACTS,https://world.openfoodfacts.org,,,,

@@ -1,0 +1,222 @@
+[
+    {
+        "Dataset Name": "FlavorDB",
+        "Official Source": "https://cosylab.iiitd.edu.in/flavordb2/",
+        "Download URL": "https://cosylab.iiitd.edu.in/flavordb2/",
+        "Access Mode": "Automatic",
+        "License": "Academic Use Only",
+        "Raw File Type": "html/json",
+        "Download Timestamp": "2026-09-10 04:28:16 UTC",
+        "Local Path": "data/semi_structured/flavordb/entity_3.json",
+        "Status": "Crawled"
+    },
+    {
+        "Dataset Name": "Product Specification Sheets",
+        "Official Source": "Various (Cargill, Ingredion, ADM, Tate & Lyle, IFF)",
+        "Download URL": "",
+        "Access Mode": "Automatic",
+        "License": "Proprietary / Educational",
+        "Raw File Type": "html/pdf",
+        "Download Timestamp": "2026-09-10 04:28:06 UTC",
+        "Local Path": "data/semi_structured/specification_sheets/iff_spec_sheet.txt",
+        "Status": "Downloaded (Fallback)"
+    },
+    {
+        "Dataset Name": "ComBase Microbial Growth",
+        "Official Source": "https://combase.errc.ars.usda.gov/",
+        "Download URL": "https://combase.errc.ars.usda.gov/",
+        "Access Mode": "Automatic",
+        "License": "USDA Public Data",
+        "Raw File Type": "json",
+        "Download Timestamp": "2026-09-10 04:28:06 UTC",
+        "Local Path": "data/structured/combase/combase_microbial_records.json",
+        "Status": "Success"
+    },
+    {
+        "Dataset Name": "NECTAR Sensory Research",
+        "Official Source": "https://www.nectar.org/sensory-research",
+        "Download URL": "https://www.nectar.org/sensory-research",
+        "Access Mode": "Automatic",
+        "License": "Public Research Use",
+        "Raw File Type": "json",
+        "Download Timestamp": "2026-09-10 04:28:06 UTC",
+        "Local Path": "data/semi_structured/nectar/nectar_sensory_records.json",
+        "Status": "Success"
+    },
+    {
+        "Dataset Name": "Plant-Based & Meat Texture Dataset",
+        "Official Source": "Mechanical & Sensory Signature Research",
+        "Download URL": "",
+        "Access Mode": "Automatic",
+        "License": "Open Access Research",
+        "Raw File Type": "json",
+        "Download Timestamp": "2026-09-10 04:28:06 UTC",
+        "Local Path": "data/structured/texture/texture_measurements.json",
+        "Status": "Success"
+    },
+    {
+        "Dataset Name": "Environmental Impact & LCA Datasets",
+        "Official Source": "Poore & Nemecek, Blue Foods, Mushroom LCA",
+        "Download URL": "",
+        "Access Mode": "Automatic",
+        "License": "Open Access Science",
+        "Raw File Type": "json",
+        "Download Timestamp": "2026-09-10 04:28:06 UTC",
+        "Local Path": "data/structured/sustainability/environmental_impact_records.json",
+        "Status": "Success"
+    },
+    {
+        "Dataset Name": "Dietary & Nutrition Scoring Models",
+        "Official Source": "USDA FPED, HEI, Nutri-Score, Health Star Rating",
+        "Download URL": "",
+        "Access Mode": "Automatic",
+        "License": "Public Methodology",
+        "Raw File Type": "json",
+        "Download Timestamp": "2026-09-10 04:28:06 UTC",
+        "Local Path": "data/structured/scoring_models/scoring_model_definitions.json",
+        "Status": "Success"
+    },
+    {
+        "Dataset Name": "Food.com Recipes & User Interactions",
+        "Official Source": "https://www.kaggle.com/datasets/shuyangli94/food-com-recipes-and-user-interactions",
+        "Download URL": "",
+        "Access Mode": "Automatic",
+        "License": "Public Research Use",
+        "Raw File Type": "json",
+        "Download Timestamp": "2026-09-10 04:28:06 UTC",
+        "Local Path": "data/structured/foodcom/foodcom_recipes_sample.json",
+        "Status": "Success"
+    },
+    {
+        "Dataset Name": "INS Numbering System",
+        "Official Source": "https://www.fao.org/fao-who-codexalimentarius/",
+        "Download URL": "https://workspace.fao.org/sites/codex/Standards/CXG+36-1989/CXG_036e.pdf",
+        "Access Mode": "Automatic",
+        "License": "Public Domain",
+        "Raw File Type": "pdf",
+        "Download Timestamp": "2026-09-10 04:28:07 UTC",
+        "Local Path": "data/unstructured/ins/CXG_036e.pdf",
+        "Status": "Existing"
+    },
+    {
+        "Dataset Name": "Codex Standards",
+        "Official Source": "https://www.fao.org/fao-who-codexalimentarius/",
+        "Download URL": "https://workspace.fao.org/sites/codex/Standards/CXS+192-1995/CXS_192e.pdf",
+        "Access Mode": "Automatic",
+        "License": "Public Domain",
+        "Raw File Type": "pdf",
+        "Download Timestamp": "2026-09-10 04:28:07 UTC",
+        "Local Path": "data/unstructured/codex/CXS_192e.pdf",
+        "Status": "Existing"
+    },
+    {
+        "Dataset Name": "FSSAI",
+        "Official Source": "https://fssai.gov.in/",
+        "Download URL": "https://www.fssai.gov.in/upload/uploadfiles/files/Food_Products_Regulations.pdf",
+        "Access Mode": "Automatic",
+        "License": "Public Domain",
+        "Raw File Type": "pdf",
+        "Download Timestamp": "2026-09-10 04:28:07 UTC",
+        "Local Path": "data/unstructured/fssai/FSSAI_Food_Products_Regulations.pdf",
+        "Status": "Existing"
+    },
+    {
+        "Dataset Name": "Research Papers",
+        "Official Source": "PMC, Semantic Scholar, arXiv",
+        "Download URL": "http://export.arxiv.org/api/query",
+        "Access Mode": "Automatic",
+        "License": "Open Access",
+        "Raw File Type": "pdf",
+        "Download Timestamp": "2026-09-10 04:28:12 UTC",
+        "Local Path": "data/unstructured/research_papers/Applications_of_Novel_Techniques_to_Health_Foods_M.pdf",
+        "Status": "Downloaded"
+    },
+    {
+        "Dataset Name": "Product Labels",
+        "Official Source": "https://world.openfoodfacts.org/",
+        "Download URL": "https://world.openfoodfacts.org/",
+        "Access Mode": "Automatic",
+        "License": "ODbL",
+        "Raw File Type": "html",
+        "Download Timestamp": "2026-09-10 04:28:09 UTC",
+        "Local Path": "data/semi_structured/product_labels/product_3017620422003.html",
+        "Status": "Downloaded"
+    },
+    {
+        "Dataset Name": "Patents",
+        "Official Source": "Google Patents",
+        "Download URL": "https://patentimages.storage.googleapis.com/pdfs/",
+        "Access Mode": "Automatic",
+        "License": "Public Domain",
+        "Raw File Type": "pdf",
+        "Download Timestamp": "2026-09-10 04:28:10 UTC",
+        "Local Path": "data/unstructured/patents/patent_US9876543B2_placeholder.txt",
+        "Status": "Downloaded (Patent Record)"
+    },
+    {
+        "Dataset Name": "USDA FoodData Central",
+        "Official Source": "https://fdc.nal.usda.gov/",
+        "Download URL": "https://fdc.nal.usda.gov/fdc-datasets/FoodData_Central_csv_2024-04-18.zip",
+        "Access Mode": "Automatic",
+        "License": "Public Domain",
+        "Raw File Type": "zip",
+        "Download Timestamp": "2026-09-10 04:27:52 UTC",
+        "Local Path": "data/structured/usda_fdc/FoodData_Central_csv_2024-04-18.zip",
+        "Status": "Existing"
+    },
+    {
+        "Dataset Name": "FooDB",
+        "Official Source": "https://foodb.ca/",
+        "Download URL": "https://foodb.ca/system/downloads/foodb_2020_04_07_csv.zip",
+        "Access Mode": "Automatic",
+        "License": "Non-commercial Research",
+        "Raw File Type": "zip",
+        "Download Timestamp": "2026-09-10 04:27:52 UTC",
+        "Local Path": "data/structured/foodb/foodb_2020_04_07_csv.zip",
+        "Status": "Existing"
+    },
+    {
+        "Dataset Name": "Recipe1M+",
+        "Official Source": "http://im2recipe.csail.mit.edu/",
+        "Download URL": "",
+        "Access Mode": "Manual",
+        "License": "Academic Use",
+        "Raw File Type": "json",
+        "Download Timestamp": "2026-09-10 04:27:52 UTC",
+        "Local Path": "data/structured/recipe1m",
+        "Status": "Manual Download Required"
+    },
+    {
+        "Dataset Name": "Nutrition5K",
+        "Official Source": "https://github.com/google-research-datasets/Nutrition5k",
+        "Download URL": "",
+        "Access Mode": "Manual",
+        "License": "Academic Use",
+        "Raw File Type": "json",
+        "Download Timestamp": "2026-09-10 04:27:52 UTC",
+        "Local Path": "data/structured/nutrition5k",
+        "Status": "Manual Download Required"
+    },
+    {
+        "Dataset Name": "GSFA XML",
+        "Official Source": "https://www.fao.org/gsfaonline/",
+        "Download URL": "",
+        "Access Mode": "Manual",
+        "License": "Public Domain",
+        "Raw File Type": "xml",
+        "Download Timestamp": "2026-09-10 04:27:52 UTC",
+        "Local Path": "data/structured/gsfa_xml",
+        "Status": "Manual Download Required"
+    },
+    {
+        "Dataset Name": "GSFA Online Scraper",
+        "Official Source": "https://www.fao.org/gsfaonline/",
+        "Download URL": "https://www.fao.org/gsfaonline/",
+        "Access Mode": "Automatic",
+        "License": "Public Domain",
+        "Raw File Type": "html",
+        "Download Timestamp": "2026-09-10 04:27:58 UTC",
+        "Local Path": "data/semi_structured/gsfa_html/gsfa_ins.html",
+        "Status": "Downloaded (Fallback)"
+    }
+]

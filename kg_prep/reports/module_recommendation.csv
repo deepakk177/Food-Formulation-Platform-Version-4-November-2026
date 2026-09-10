@@ -1,0 +1,13 @@
+Dataset Name,Recommended Module,Size (KB)
+Foodb,Module 2: Structured Processor,0.53
+Usda_fdc,Module 2: Structured Processor,0.25
+Flavordb,Module 3: Semi-Structured Processor,3533.6
+Gsfa_html,Module 3: Semi-Structured Processor,48.98
+Product_labels,Module 3: Semi-Structured Processor,392.16
+Specification_sheets,Module 3: Semi-Structured Processor,227.16
+Ontology,Module 5: Ontology / Knowledge Fusion,39482.39
+Codex,Module 4: Unstructured Processor,46.1
+Fssai,Module 4: Unstructured Processor,0.39
+Ins,Module 4: Unstructured Processor,45.86
+Patents,Module 4: Unstructured Processor,1.56
+Research_papers,Module 4: Unstructured Processor,1782.3

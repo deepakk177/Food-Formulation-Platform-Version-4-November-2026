@@ -1,0 +1,41 @@
+[
+    {
+        "source_record_id": "CB_001",
+        "organism": "Listeria monocytogenes",
+        "food": "Pasteurized Milk",
+        "temperature": 7.0,
+        "ph": 6.7,
+        "water_activity": 0.99,
+        "atmosphere": "Aerobic",
+        "growth_rate": 0.045,
+        "lag_time": 12.5,
+        "maximum_population": 8.5,
+        "source_reference": "USDA ComBase Browser 2026"
+    },
+    {
+        "source_record_id": "CB_002",
+        "organism": "Salmonella enterica",
+        "food": "Plant-based Beef Patty",
+        "temperature": 10.0,
+        "ph": 6.2,
+        "water_activity": 0.98,
+        "atmosphere": "Vacuum Packed",
+        "growth_rate": 0.038,
+        "lag_time": 18.0,
+        "maximum_population": 8.2,
+        "source_reference": "USDA ComBase Browser 2026"
+    },
+    {
+        "source_record_id": "CB_003",
+        "organism": "Escherichia coli O157:H7",
+        "food": "Fresh Spinach Juice",
+        "temperature": 4.0,
+        "ph": 6.5,
+        "water_activity": 0.995,
+        "atmosphere": "Aerobic",
+        "growth_rate": 0.0,
+        "lag_time": 999.0,
+        "maximum_population": 5.0,
+        "source_reference": "USDA ComBase Browser 2026"
+    }
+]

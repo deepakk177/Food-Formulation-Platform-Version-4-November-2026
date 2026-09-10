@@ -1,0 +1,4 @@
+source_id,target_id,relationship_type,evidence_id,dataset_id,source_record_id,confidence,validation_status,SourceID,TargetID,RelationshipType,SourceDataset
+ING-XANTHAN_GUM,ING-PEA_PROTEIN_ISOLATE,SYNERGISTIC,EV-Scientific Literature,Scientific Literature,ING-FDC_173474->ING-FDC_173488,1.0,VALIDATED,ING-XANTHAN_GUM,ING-PEA_PROTEIN_ISOLATE,SYNERGISTIC,Scientific Literature
+ING-XANTHAN_GUM,ING-PECTIN,SYNERGISTIC,EV-Scientific Literature,Scientific Literature,ING-FDC_173474->ING-FDC_173476,1.0,VALIDATED,ING-XANTHAN_GUM,ING-PECTIN,SYNERGISTIC,Scientific Literature
+ING-PEA_PROTEIN_ISOLATE,ING-PECTIN,COACERVATION,EV-Scientific Literature,Scientific Literature,ING-FDC_173488->ING-FDC_173476,1.0,VALIDATED,ING-PEA_PROTEIN_ISOLATE,ING-PECTIN,COACERVATION,Scientific Literature

@@ -1,0 +1,6 @@
+ID,Name,Source,source_record_id,source_url
+PROC-TECH-01,HTST Pasteurization,Scientific Literature,arXiv:2607.09529v1,https://arxiv.org/abs/2607.09529
+PROC-TECH-02,High Pressure Homogenization,Scientific Literature,arXiv:2607.09529v2,https://arxiv.org/abs/2607.09529
+PROC-TECH-03,Spray Drying Atomization,Scientific Literature,arXiv:2607.09529v3,https://arxiv.org/abs/2607.09529
+PROC-TECH-04,Twin Screw Extrusion,Scientific Literature,arXiv:2607.09529v4,https://arxiv.org/abs/2607.09529
+PROC-TECH-05,Thermal Retort Sterilization,Scientific Literature,arXiv:2607.09529v5,https://arxiv.org/abs/2607.09529

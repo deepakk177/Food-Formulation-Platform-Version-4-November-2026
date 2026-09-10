@@ -1,0 +1,3603 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+	<meta name="description" content="">
+	<meta name="author" content="">
+	<link rel="icon" href="/flavordb2/static/images/favicon.ico">
+
+	<title>FlavorDB2</title>
+
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+	<!-- Optional theme -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+	<script type="application/javascript" src="/flavordb2/static/Jmol/Jmol.js"></script>
+
+	<!-- Latest compiled and minified JavaScript -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+	<link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+	<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+	<link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/v/bs/dt-1.10.15/r-2.1.1/se-1.2.2/datatables.min.css"/>
+
+	<script type="text/javascript" src="https://cdn.datatables.net/v/bs/dt-1.10.15/r-2.1.1/se-1.2.2/datatables.min.js"></script>
+	<script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+
+
+	<script>
+	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+		(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+		m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+	ga('create', 'UA-102869016-1', 'auto');
+	ga('send', 'pageview');
+
+	</script>
+	
+	
+
+</head>
+
+<body>
+
+	<!-- Fixed navbar -->
+	<nav class="navbar navbar-inverse">
+		<div class="container">
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+					<span class="sr-only">Toggle navigation</span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+				<a  class="navbar-brand" style="padding-top: 0.5em;" href="/flavordb2/home/"><img src="/flavordb2/static/images/FDB_Logo.png"></a>
+			</div>
+			<div id="navbar" class="navbar-collapse collapse">
+				<!-- <ul class="nav navbar-nav">
+					<li><a href="http://faculty.iiitd.ac.in/~bagler/">Lab Home</a></li>
+					<li><a href="/flavordb2/search">Flavor DB</a></li>
+					<li><a href="/flavordb2/faq">FAQs</a></li>
+					<li><a href="/flavordb2/contact">Contact Us</a></li>
+					<li><a href="/flavordb2/how_to_use">How To Use FlavorDB</a></li>
+				</ul> -->
+				<ul class="nav navbar-nav navbar-right">
+					<!-- <li><a target="_blank" href="https://www.iiitd.ac.in"><img src="/flavordb2/static/images/iiitd.png"></a></li> -->
+					<li><a href="/flavordb2/search">FlavorDB Search</a></li>
+					<li><a href="/flavordb2/how_to_use">How To Use</a></li>
+					<li><a href="/flavordb2/receptors">Receptors</a></li>
+					<li><a href="/flavordb2/faq">FAQs</a></li>
+					<li><a href="/flavordb2/contact">Contact Us</a></li>
+						<li><a href="/flavordb2/home/">Home</a></li>
+
+				</ul>
+			</div>
+			<!--/.nav-collapse -->
+		</div>
+	</nav>
+	
+<style type="text/css">
+	.tab-pane{
+		padding: 1em;
+	}
+</style>
+<div class="container">
+	<div id="ingredient_details" class="thumbnail">
+		<div class="row">
+			
+
+			
+
+			
+
+<div id="entity_details" class="col-md-12 text-center">
+	<h1 class="text-primary text-capitalize">Bread</h1>
+	<hr />
+	<div class="caption">
+		<div class="row">
+			<div class="col-md-3 text-center">
+
+
+				 <img style="max-height: 100%; max-width: 100%;" src="/flavordb2/static/entities_images/2.jpg" onerror="if (this.src != '/flavordb2/static/images/placeholder.png') this.src = '/flavordb2/static/images/placeholder.png';">
+				<!-- <img id="entity_img" style="max-height: 100%; max-width: 100%;" src="/static/entities_images/2.jpg"> -->
+				
+
+					
+				
+				<h5><strong><a target="_blank" href="https://en.wikipedia.org/wiki/Bread" class="text-capitalize">Bread <span class="glyphicon glyphicon-new-window"></span></a></strong></h5>
+				
+				<h5>Category: <strong><span class="text-capitalize">Bakery</span></strong> </h5>
+
+				<h5>Synonyms: <strong><span class="text-capitalize">Bread</span></strong> </h5>
+				
+				<a style="width: 100%;" href="/flavordb2/food_pairing?id=2" role="button" class="btn btn-primary">Pair It</a>
+				<a style="width: 100%; margin-top: 1em;" href="/flavordb2/entities_json?id=2" role="button" class="btn btn-primary" download='2.json'>Download</a>
+				
+			</div>
+			<div class="col-md-6 text-center">
+
+			
+
+				<table class="table table-striped table-hover">
+					
+					<tr>
+
+						<td>Natural Source of <strong>Bread</strong>:</td>
+						<td>
+							
+							<a target="_blank" href="https://en.wikipedia.org/wiki/Poaceae">Poacceae</a>
+							
+						</td>
+
+					</tr>
+					
+					
+					<tr>
+<td>Kingdom:</td>
+<td><a href="https://en.wikipedia.org/wiki/Plant" target="_blank" title="Plant">Plantae</a></td>
+</tr>
+<tr>
+<td><i>Clade</i>:</td>
+<td><a href="https://en.wikipedia.org/wiki/Flowering_plant" target="_blank" title="Flowering plant">Angiosperms</a></td>
+</tr>
+<tr>
+<td><i>Clade</i>:</td>
+<td><a href="https://en.wikipedia.org/wiki/Monocotyledon" target="_blank" title="Monocotyledon">Monocots</a></td>
+</tr>
+<tr>
+<td><i>Clade</i>:</td>
+<td><a href="https://en.wikipedia.org/wiki/Commelinids" target="_blank" title="Commelinids">Commelinids</a></td>
+</tr>
+<tr>
+<td>Order:</td>
+<td><a href="https://en.wikipedia.org/wiki/Poales" target="_blank" title="Poales">Poales</a></td>
+</tr>
+<tr>
+<td><i>Clade</i>:</td>
+<td><a href="https://en.wikipedia.org/wiki/Graminid_clade" target="_blank" title="Graminid clade">Graminid clade</a></td>
+</tr>
+<tr>
+<td>Family:</td>
+<td><b>Poaceae</b><br/>
+</td>
+</tr>
+
+					
+				</table>
+				
+
+			
+			</div>
+
+			<div class="col-md-3 text-center">
+			
+
+				<img style="max-height: 100%; max-width: 100%;" src="/flavordb2/static/natural_source_images/2.jpg" onerror="if (this.src != '/flavordb2/static/images/placeholder.png') this.src = '/flavordb2/static/images/placeholder.png';">
+				<!-- <img style="max-height: 100%; max-width: 100%;" src="static/natural_source_images/2.jpg"> -->
+				<h5><strong>Natural Source of <a target="_blank" href="https://en.wikipedia.org/wiki/Bread" class="text-capitalize">Bread</a> : <a target="_blank" href="https://en.wikipedia.org/wiki/Poaceae" class="text-capitalize">Poacceae  <span class="glyphicon glyphicon-new-window"></span></a> </strong></h5>
+
+			
+				
+				
+			</div>
+
+		</div>
+	</div>
+</div>
+
+			
+			
+			<style type="text/css">
+				#entity_details{
+					height: 100%;
+				}
+			</style>
+
+
+		</div>
+		<div class="row caption">
+			<div class="col-md-12" id="molecules_panel">
+				
+				<h2 class="text-primary page-header">Flavor Molecules in <strong class="text-capitalize">Bread</strong></h2>
+				
+				<table id="molecules" class="table table-striped table-hover table-expandable">
+					<thead>
+						<tr>
+							<th>Common Name</th>
+							<th>PubChem ID <span class="glyphicon glyphicon-new-window"></span></th>
+							<th>Flavor Profile</th>
+							<th>More Info.</th>
+						</tr>
+					</thead>
+					<tbody>
+						
+						<tr>
+							<td class="text-capitalize">coumarin</td> 
+							<td><a href="https://pubchem.ncbi.nlm.nih.gov/compound/323" target="_blank">323</a></td> 
+							<td>
+								
+								<a href="/flavordb2/molecules?flavor_profile=sweet&page=1" class="text-capitalize">sweet</a>, 
+								
+								<a href="/flavordb2/molecules?flavor_profile=new%20mown%20hay&page=1" class="text-capitalize">new mown hay</a>, 
+								
+								<a href="/flavordb2/molecules?flavor_profile=green&page=1" class="text-capitalize">green</a>, 
+								
+								<a href="/flavordb2/molecules?flavor_profile=tonka&page=1" class="text-capitalize">tonka</a>, 
+								
+								<a href="/flavordb2/molecules?flavor_profile=bitter&page=1" class="text-capitalize">bitter</a>
+								
+							</td> 
+							<td><button id="323" type="button" class="btn btn-info btn-xs molecules_details" data-toggle="modal" data-target="#molecules_details_modal">
+								More info.
+							</button></td> 
+						</tr>
+						
+						<tr>
+							<td class="text-capitalize">Methyl Benzoate</td> 
+							<td><a href="https://pubchem.ncbi.nlm.nih.gov/compound/7150" target="_blank">7150</a></td> 
+							<td>
+								
+								<a href="/flavordb2/molecules?flavor_profile=prune&page=1" class="text-capitalize">prune</a>, 
+								
+								<a href="/flavordb2/molecules?flavor_profile=cananga&page=1" class="text-capitalize">cananga</a>, 
+								
+								<a href="/flavordb2/molecules?flavor_profile=floral&page=1" class="text-capitalize">floral</a>, 
+								
+								<a href="/flavordb2/molecules?flavor_profile=wintergreen&page=1" class="text-capitalize">wintergreen</a>, 
+								
+								<a href="/flavordb2/molecules?flavor_profile=lettuce&page=1" class="text-capitalize">lettuce</a>, 
+								
+								<a href="/flavordb2/molecules?flavor_profile=sweet&page=1" class="text-capitalize">sweet</a>, 
+								
+								<a href="/flavordb2/molecules?flavor_profile=almond&page=1" class="text-capitalize">almond</a>, 
+								
+								<a href="/flavordb2/molecules?flavor_profile=herb&page=1" class="text-capitalize">herb</a>, 
+								
+								<a href="/flavordb2/molecules?flavor_profile=phenolic&page=1" class="text-capitalize">phenolic</a>
+								
+							</td> 
+							<td><button id="7150" type="button" class="btn btn-info btn-xs molecules_details" data-toggle="modal" data-target="#molecules_details_modal">
+								More info.
+							</button></td> 
+						</tr>
+						
+						<tr>
+							<td class="text-capitalize">3-Hexanone</td> 
+							<td><a href="https://pubchem.ncbi.nlm.nih.gov/compound/11509" target="_blank">11509</a></td> 
+							<td>
+								
+								<a href="/flavordb2/molecules?flavor_profile=ether&page=1" class="text-capitalize">ether</a>, 
+								
+								<a href="/flavordb2/molecules?flavor_profile=waxy&page=1" class="text-capitalize">waxy</a>, 
+								
+								<a href="/flavordb2/molecules?flavor_profile=grape&page=1" class="text-capitalize">grape</a>, 
+								
+								<a href="/flavordb2/molecules?flavor_profile=sweet&page=1" class="text-capitalize">sweet</a>, 
+								
+								<a href="/flavordb2/molecules?flavor_profile=rum&page=1" class="text-capitalize">rum</a>, 
+								
+								<a href="/flavordb2/molecules?flavor_profile=fruity&page=1" class="text-capitalize">fruity</a>
+								
+							</td> 
+							<td><button id="11509" type="button" class="btn btn-info btn-xs molecules_details" data-toggle="modal" data-target="#molecules_details_modal">
+								More info.
+							</button></td> 
+						</tr>
+						
+						<tr>
+							<td class="text-capitalize">Geraniol</td> 
+							<td><a href="https://pubchem.ncbi.nlm.nih.gov/compound/637566" target="_blank">637566</a></td> 
+							<td>
+								
+								<a href="/flavordb2/molecules?flavor_profile=citrus&page=1" class="text-capitalize">citrus</a>, 
+								
+								<a href="/flavordb2/molecules?flavor_profile=rose&page=1" class="text-capitalize">rose</a>, 
+								
+								<a href="/flavordb2/molecules?flavor_profile=waxy&page=1" class="text-capitalize">waxy</a>, 
+								
+								<a href="/flavordb2/molecules?flavor_profile=floral&page=1" class="text-capitalize">floral</a>, 
+								
+								<a href="/flavordb2/molecules?flavor_profile=sweet&page=1" class="text-capitalize">sweet</a>, 
+								
+								<a href="/flavordb2/molecules?flavor_profile=fruity&page=1" class="text-capitalize">fruity</a>, 
+								
+								<a href="/flavordb2/molecules?flavor_profile=geranium&page=1" class="text-capitalize">geranium</a>
+								
+							</td> 
+							<td><button id="637566" type="button" class="btn btn-info btn-xs molecules_details" data-toggle="modal" data-target="#molecules_details_modal">
+								More info.
+							</button></td> 
+						</tr>
+						
+						<tr>
+							<td class="text-capitalize">alpha-Maltose</td> 
+							<td><a href="https://pubchem.ncbi.nlm.nih.gov/compound/439341" target="_blank">439341</a></td> 
+							<td>
+								
+								<a href="/flavordb2/molecules?flavor_profile=odorless&page=1" class="text-capitalize">odorless</a>, 
+								
+								<a href="/flavordb2/molecules?flavor_profile=sweet&page=1" class="text-capitalize">sweet</a>
+								
+							</td> 
+							<td><button id="439341" type="button" class="btn btn-info btn-xs molecules_details" data-toggle="modal" data-target="#molecules_details_modal">
+								More info.
+							</button></td> 
+						</tr>
+						
+						<tr>
+							<td class="text-capitalize">2-Ethyl-4-hydroxy-5-methyl-3(2H)-furanone</td> 
+							<td><a href="https://pubchem.ncbi.nlm.nih.gov/compound/33931" target="_blank">33931</a></td> 
+							<td>
+								
+								<a href="/flavordb2/molecules?flavor_profile=butterscotch&page=1" class="text-capitalize">butterscotch</a>, 
+								
+								<a href="/flavordb2/molecules?flavor_profile=caramel&page=1" class="text-capitalize">caramel</a>, 
+								
+								<a href="/flavordb2/molecules?flavor_profile=sweet&page=1" class="text-capitalize">sweet</a>, 
+								
+								<a href="/flavordb2/molecules?flavor_profile=candy&page=1" class="text-capitalize">candy</a>
+								
+							</td> 
+							<td><button id="33931" type="button" class="btn btn-info btn-xs molecules_details" data-toggle="modal" data-target="#molecules_details_modal">
+								More info.
+							</button></td> 
+						</tr>
+						
+						<tr>
+							<td class="text-capitalize">Pyrazine</td> 
+							<td><a href="https://pubchem.ncbi.nlm.nih.gov/compound/9261" target="_blank">9261</a></td> 
+							<td>
+								
+								<a href="/flavordb2/molecules?flavor_profile=hazelnut&page=1" class="text-capitalize">hazelnut</a>, 
+								
+								<a href="/flavordb2/molecules?flavor_profile=roasted&page=1" class="text-capitalize">roasted</a>, 
+								
+								<a href="/flavordb2/molecules?flavor_profile=barley&page=1" class="text-capitalize">barley</a>, 
+								
+								<a href="/flavordb2/molecules?flavor_profile=sweet%20corn&page=1" class="text-capitalize">sweet corn</a>, 
+								
+								<a href="/flavordb2/molecules?flavor_profile=pungent&page=1" class="text-capitalize">pungent</a>
+								
+							</td> 
+							<td><button id="9261" type="button" class="btn btn-info btn-xs molecules_details" data-toggle="modal" data-target="#molecules_details_modal">
+								More info.
+							</button></td> 
+						</tr>
+						
+						<tr>
+							<td class="text-capitalize">Phlorizin</td> 
+							<td><a href="https://pubchem.ncbi.nlm.nih.gov/compound/6072" target="_blank">6072</a></td> 
+							<td>
+								
+								<a href="/flavordb2/molecules?flavor_profile=bitter&page=1" class="text-capitalize">bitter</a>
+								
+							</td> 
+							<td><button id="6072" type="button" class="btn btn-info btn-xs molecules_details" data-toggle="modal" data-target="#molecules_details_modal">
+								More info.
+							</button></td> 
+						</tr>
+						
+						<tr>
+							<td class="text-capitalize">4-Methylpentanoic Acid</td> 
+							<td><a href="https://pubchem.ncbi.nlm.nih.gov/compound/12587" target="_blank">12587</a></td> 
+							<td>
+								
+								<a href="/flavordb2/molecules?flavor_profile=pungent&page=1" class="text-capitalize">pungent</a>, 
+								
+								<a href="/flavordb2/molecules?flavor_profile=cheese&page=1" class="text-capitalize">cheese</a>
+								
+							</td> 
+							<td><button id="12587" type="button" class="btn btn-info btn-xs molecules_details" data-toggle="modal" data-target="#molecules_details_modal">
+								More info.
+							</button></td> 
+						</tr>
+						
+						<tr>
+							<td class="text-capitalize">methanethiol</td> 
+							<td><a href="https://pubchem.ncbi.nlm.nih.gov/compound/878" target="_blank">878</a></td> 
+							<td>
+								
+								<a href="/flavordb2/molecules?flavor_profile=sulfur&page=1" class="text-capitalize">sulfur</a>, 
+								
+								<a href="/flavordb2/molecules?flavor_profile=garlic&page=1" class="text-capitalize">garlic</a>, 
+								
+								<a href="/flavordb2/molecules?flavor_profile=gasoline&page=1" class="text-capitalize">gasoline</a>, 
+								
+								<a href="/flavordb2/molecules?flavor_profile=decomposing%20cabbage&page=1" class="text-capitalize">decomposing cabbage</a>
+								
+							</td> 
+							<td><button id="878" type="button" class="btn btn-info btn-xs molecules_details" data-toggle="modal" data-target="#molecules_details_modal">
+								More info.
+							</button></td> 
+						</tr>
+						
+						<tr>
+							<td class="text-capitalize">daidzein</td> 
+							<td><a href="https://pubchem.ncbi.nlm.nih.gov/compound/5281708" target="_blank">5281708</a></td> 
+							<td>
+								
+								<a href="/flavordb2/molecules?flavor_profile=bitter&page=1" class="text-capitalize">bitter</a>
+								
+							</td> 
+							<td><button id="5281708" type="button" class="btn btn-info btn-xs molecules_details" data-toggle="modal" data-target="#molecules_details_modal">
+								More info.
+							</button></td> 
+						</tr>
+						
+						<tr>
+							<td class="text-capitalize">benzaldehyde</td> 
+							<td><a href="https://pubchem.ncbi.nlm.nih.gov/compound/240" target="_blank">240</a></td> 
+							<td>
+								
+								<a href="/flavordb2/molecules?flavor_profile=cherry&page=1" class="text-capitalize">cherry</a>, 
+								
+								<a href="/flavordb2/molecules?flavor_profile=almond&page=1" class="text-capitalize">almond</a>, 
+								
+								<a href="/flavordb2/molecules?flavor_profile=sweet&page=1" class="text-capitalize">sweet</a>, 
+								
+								<a href="/flavordb2/molecules?flavor_profile=burnt%20sugar&page=1" class="text-capitalize">burnt sugar</a>, 
+								
+								<a href="/flavordb2/molecules?flavor_profile=sharp&page=1" class="text-capitalize">sharp</a>, 
+								
+								<a href="/flavordb2/molecules?flavor_profile=strong&page=1" class="text-capitalize">strong</a>, 
+								
+								<a href="/flavordb2/molecules?flavor_profile=bitter&page=1" class="text-capitalize">bitter</a>
+								
+							</td> 
+							<td><button id="240" type="button" class="btn btn-info btn-xs molecules_details" data-toggle="modal" data-target="#molecules_details_modal">
+								More info.
+							</button></td> 
+						</tr>
+						
+						<tr>
+							<td class="text-capitalize">benzyl alcohol</td> 
+							<td><a href="https://pubchem.ncbi.nlm.nih.gov/compound/244" target="_blank">244</a></td> 
+							<td>
+								
+								<a href="/flavordb2/molecules?flavor_profile=berry&page=1" class="text-capitalize">berry</a>, 
+								
+								<a href="/flavordb2/molecules?flavor_profile=balsamic&page=1" class="text-capitalize">balsamic</a>, 
+								
+								<a href="/flavordb2/molecules?flavor_profile=rose&page=1" class="text-capitalize">rose</a>, 
+								
+								<a href="/flavordb2/molecules?flavor_profile=floral&page=1" class="text-capitalize">floral</a>, 
+								
+								<a href="/flavordb2/molecules?flavor_profile=walnut&page=1" class="text-capitalize">walnut</a>, 
+								
+								<a href="/flavordb2/molecules?flavor_profile=sweet&page=1" class="text-capitalize">sweet</a>, 
+								
+								<a href="/flavordb2/molecules?flavor_profile=cherry&page=1" class="text-capitalize">cherry</a>, 
+								
+								<a href="/flavordb2/molecules?flavor_profile=phenolic&page=1" class="text-capitalize">phenolic</a>, 
+								
+								<a href="/flavordb2/molecules?flavor_profile=flower&page=1" class="text-capitalize">flower</a>, 
+								
+								<a href="/flavordb2/molecules?flavor_profile=grapefruit&page=1" class="text-capitalize">grapefruit</a>
+								
+							</td> 
+							<td><button id="244" type="button" class="btn btn-info btn-xs molecules_details" data-toggle="modal" data-target="#molecules_details_modal">
+								More info.
+							</button></td> 
+						</tr>
+						
+						<tr>
+							<td class="text-capitalize">alpha-L-Sorbopyranose</td> 
+							<td><a href="https://pubchem.ncbi.nlm.nih.gov/compound/441484" target="_blank">441484</a></td> 
+							<td>
+								
+								<a href="/flavordb2/molecules?flavor_profile=sweet&page=1" class="text-capitalize">sweet</a>, 
+								
+								<a href="/flavordb2/molecules?flavor_profile=bitter&page=1" class="text-capitalize">bitter</a>
+								
+							</td> 
+							<td><button id="441484" type="button" class="btn btn-info btn-xs molecules_details" data-toggle="modal" data-target="#molecules_details_modal">
+								More info.
+							</button></td> 
+						</tr>
+						
+						<tr>
+							<td class="text-capitalize">DL-Liquiritigenin</td> 
+							<td><a href="https://pubchem.ncbi.nlm.nih.gov/compound/1889" target="_blank">1889</a></td> 
+							<td>
+								
+								<a href="/flavordb2/molecules?flavor_profile=bitter&page=1" class="text-capitalize">bitter</a>
+								
+							</td> 
+							<td><button id="1889" type="button" class="btn btn-info btn-xs molecules_details" data-toggle="modal" data-target="#molecules_details_modal">
+								More info.
+							</button></td> 
+						</tr>
+						
+						<tr>
+							<td class="text-capitalize">phloretin</td> 
+							<td><a href="https://pubchem.ncbi.nlm.nih.gov/compound/4788" target="_blank">4788</a></td> 
+							<td>
+								
+								<a href="/flavordb2/molecules?flavor_profile=odorless&page=1" class="text-capitalize">odorless</a>, 
+								
+								<a href="/flavordb2/molecules?flavor_profile=bitter&page=1" class="text-capitalize">bitter</a>
+								
+							</td> 
+							<td><button id="4788" type="button" class="btn btn-info btn-xs molecules_details" data-toggle="modal" data-target="#molecules_details_modal">
+								More info.
+							</button></td> 
+						</tr>
+						
+						<tr>
+							<td class="text-capitalize">Hexanal</td> 
+							<td><a href="https://pubchem.ncbi.nlm.nih.gov/compound/6184" target="_blank">6184</a></td> 
+							<td>
+								
+								<a href="/flavordb2/molecules?flavor_profile=leafy&page=1" class="text-capitalize">leafy</a>, 
+								
+								<a href="/flavordb2/molecules?flavor_profile=grass&page=1" class="text-capitalize">grass</a>, 
+								
+								<a href="/flavordb2/molecules?flavor_profile=sweaty&page=1" class="text-capitalize">sweaty</a>, 
+								
+								<a href="/flavordb2/molecules?flavor_profile=tallow&page=1" class="text-capitalize">tallow</a>, 
+								
+								<a href="/flavordb2/molecules?flavor_profile=fat&page=1" class="text-capitalize">fat</a>, 
+								
+								<a href="/flavordb2/molecules?flavor_profile=fresh&page=1" class="text-capitalize">fresh</a>, 
+								
+								<a href="/flavordb2/molecules?flavor_profile=fatty&page=1" class="text-capitalize">fatty</a>, 
+								
+								<a href="/flavordb2/molecules?flavor_profile=fruity&page=1" class="text-capitalize">fruity</a>, 
+								
+								<a href="/flavordb2/molecules?flavor_profile=aldehydic&page=1" class="text-capitalize">aldehydic</a>, 
+								
+								<a href="/flavordb2/molecules?flavor_profile=green&page=1" class="text-capitalize">green</a>
+								
+							</td> 
+							<td><button id="6184" type="button" class="btn btn-info btn-xs molecules_details" data-toggle="modal" data-target="#molecules_details_modal">
+								More info.
+							</button></td> 
+						</tr>
+						
+						<tr>
+							<td class="text-capitalize">Linamarin</td> 
+							<td><a href="https://pubchem.ncbi.nlm.nih.gov/compound/11128" target="_blank">11128</a></td> 
+							<td>
+								
+								<a href="/flavordb2/molecules?flavor_profile=bitter&page=1" class="text-capitalize">bitter</a>
+								
+							</td> 
+							<td><button id="11128" type="button" class="btn btn-info btn-xs molecules_details" data-toggle="modal" data-target="#molecules_details_modal">
+								More info.
+							</button></td> 
+						</tr>
+						
+						<tr>
+							<td class="text-capitalize">2-Methyl-1-Butanol</td> 
+							<td><a href="https://pubchem.ncbi.nlm.nih.gov/compound/8723" target="_blank">8723</a></td> 
+							<td>
+								
+								<a href="/flavordb2/molecules?flavor_profile=roasted&page=1" class="text-capitalize">roasted</a>, 
+								
+								<a href="/flavordb2/molecules?flavor_profile=onion&page=1" class="text-capitalize">onion</a>, 
+								
+								<a href="/flavordb2/molecules?flavor_profile=malt&page=1" class="text-capitalize">malt</a>, 
+								
+								<a href="/flavordb2/molecules?flavor_profile=wine&page=1" class="text-capitalize">wine</a>, 
+								
+								<a href="/flavordb2/molecules?flavor_profile=fruity&page=1" class="text-capitalize">fruity</a>
+								
+							</td> 
+							<td><button id="8723" type="button" class="btn btn-info btn-xs molecules_details" data-toggle="modal" data-target="#molecules_details_modal">
+								More info.
+							</button></td> 
+						</tr>
+						
+						<tr>
+							<td class="text-capitalize">gamma-Caprolactone</td> 
+							<td><a href="https://pubchem.ncbi.nlm.nih.gov/compound/12756" target="_blank">12756</a></td> 
+							<td>
+								
+								<a href="/flavordb2/molecules?flavor_profile=coconut&page=1" class="text-capitalize">coconut</a>, 
+								
+								<a href="/flavordb2/molecules?flavor_profile=tobacco&page=1" class="text-capitalize">tobacco</a>, 
+								
+								<a href="/flavordb2/molecules?flavor_profile=coumarin&page=1" class="text-capitalize">coumarin</a>, 
+								
+								<a href="/flavordb2/molecules?flavor_profile=herbal&page=1" class="text-capitalize">herbal</a>, 
+								
+								<a href="/flavordb2/molecules?flavor_profile=sweet&page=1" class="text-capitalize">sweet</a>
+								
+							</td> 
+							<td><button id="12756" type="button" class="btn btn-info btn-xs molecules_details" data-toggle="modal" data-target="#molecules_details_modal">
+								More info.
+							</button></td> 
+						</tr>
+						
+						<tr>
+							<td class="text-capitalize">Heptanoic Acid</td> 
+							<td><a href="https://pubchem.ncbi.nlm.nih.gov/compound/8094" target="_blank">8094</a></td> 
+							<td>
+								
+								<a href="/flavordb2/molecules?flavor_profile=sour&page=1" class="text-capitalize">sour</a>, 
+								
+								<a href="/flavordb2/molecules?flavor_profile=cheesy&page=1" class="text-capitalize">cheesy</a>, 
+								
+								<a href="/flavordb2/molecules?flavor_profile=sweat&page=1" class="text-capitalize">sweat</a>, 
+								
+								<a href="/flavordb2/molecules?flavor_profile=rancid&page=1" class="text-capitalize">rancid</a>, 
+								
+								<a href="/flavordb2/molecules?flavor_profile=cheese&page=1" class="text-capitalize">cheese</a>
+								
+							</td> 
+							<td><button id="8094" type="button" class="btn btn-info btn-xs molecules_details" data-toggle="modal" data-target="#molecules_details_modal">
+								More info.
+							</button></td> 
+						</tr>
+						
+						<tr>
+							<td class="text-capitalize">salicylic acid</td> 
+							<td><a href="https://pubchem.ncbi.nlm.nih.gov/compound/338" target="_blank">338</a></td> 
+							<td>
+								
+								<a href="/flavordb2/molecules?flavor_profile=nutty&page=1" class="text-capitalize">nutty</a>, 
+								
+								<a href="/flavordb2/molecules?flavor_profile=faint&page=1" class="text-capitalize">faint</a>, 
+								
+								<a href="/flavordb2/molecules?flavor_profile=phenolic&page=1" class="text-capitalize">phenolic</a>
+								
+							</td> 
+							<td><button id="338" type="button" class="btn btn-info btn-xs molecules_details" data-toggle="modal" data-target="#molecules_details_modal">
+								More info.
+							</button></td> 
+						</tr>
+						
+						<tr>
+							<td class="text-capitalize">Tetradecanoic acid</td> 
+							<td><a href="https://pubchem.ncbi.nlm.nih.gov/compound/11005" target="_blank">11005</a></td> 
+							<td>
+								
+								<a href="/flavordb2/molecules?flavor_profile=fatty&page=1" class="text-capitalize">fatty</a>, 
+								
+								<a href="/flavordb2/molecules?flavor_profile=soapy&page=1" class="text-capitalize">soapy</a>, 
+								
+								<a href="/flavordb2/molecules?flavor_profile=waxy&page=1" class="text-capitalize">waxy</a>, 
+								
+								<a href="/flavordb2/molecules?flavor_profile=coconut&page=1" class="text-capitalize">coconut</a>
+								
+							</td> 
+							<td><button id="11005" type="button" class="btn btn-info btn-xs molecules_details" data-toggle="modal" data-target="#molecules_details_modal">
+								More info.
+							</button></td> 
+						</tr>
+						
+						<tr>
+							<td class="text-capitalize">vanillin</td> 
+							<td><a href="https://pubchem.ncbi.nlm.nih.gov/compound/1183" target="_blank">1183</a></td> 
+							<td>
+								
+								<a href="/flavordb2/molecules?flavor_profile=vanilla&page=1" class="text-capitalize">vanilla</a>, 
+								
+								<a href="/flavordb2/molecules?flavor_profile=chocolate&page=1" class="text-capitalize">chocolate</a>, 
+								
+								<a href="/flavordb2/molecules?flavor_profile=sweet&page=1" class="text-capitalize">sweet</a>, 
+								
+								<a href="/flavordb2/molecules?flavor_profile=creamy&page=1" class="text-capitalize">creamy</a>
+								
+							</td> 
+							<td><button id="1183" type="button" class="btn btn-info btn-xs molecules_details" data-toggle="modal" data-target="#molecules_details_modal">
+								More info.
+							</button></td> 
+						</tr>
+						
+						<tr>
+							<td class="text-capitalize">Dimethyl disulfide</td> 
+							<td><a href="https://pubchem.ncbi.nlm.nih.gov/compound/12232" target="_blank">12232</a></td> 
+							<td>
+								
+								<a href="/flavordb2/molecules?flavor_profile=citrus&page=1" class="text-capitalize">citrus</a>, 
+								
+								<a href="/flavordb2/molecules?flavor_profile=cabbage&page=1" class="text-capitalize">cabbage</a>, 
+								
+								<a href="/flavordb2/molecules?flavor_profile=sulfurous&page=1" class="text-capitalize">sulfurous</a>, 
+								
+								<a href="/flavordb2/molecules?flavor_profile=putrid&page=1" class="text-capitalize">putrid</a>, 
+								
+								<a href="/flavordb2/molecules?flavor_profile=wine_like&page=1" class="text-capitalize">wine_like</a>, 
+								
+								<a href="/flavordb2/molecules?flavor_profile=onion&page=1" class="text-capitalize">onion</a>, 
+								
+								<a href="/flavordb2/molecules?flavor_profile=vegetable&page=1" class="text-capitalize">vegetable</a>, 
+								
+								<a href="/flavordb2/molecules?flavor_profile=fatty&page=1" class="text-capitalize">fatty</a>, 
+								
+								<a href="/flavordb2/molecules?flavor_profile=floral&page=1" class="text-capitalize">floral</a>, 
+								
+								<a href="/flavordb2/molecules?flavor_profile=earthy&page=1" class="text-capitalize">earthy</a>, 
+								
+								<a href="/flavordb2/molecules?flavor_profile=woody&page=1" class="text-capitalize">woody</a>, 
+								
+								<a href="/flavordb2/molecules?flavor_profile=fruity&page=1" class="text-capitalize">fruity</a>, 
+								
+								<a href="/flavordb2/molecules?flavor_profile=herbaceous&page=1" class="text-capitalize">herbaceous</a>, 
+								
+								<a href="/flavordb2/molecules?flavor_profile=nutty&page=1" class="text-capitalize">nutty</a>, 
+								
+								<a href="/flavordb2/molecules?flavor_profile=meaty&page=1" class="text-capitalize">meaty</a>, 
+								
+								<a href="/flavordb2/molecules?flavor_profile=spicy&page=1" class="text-capitalize">spicy</a>, 
+								
+								<a href="/flavordb2/molecules?flavor_profile=green&page=1" class="text-capitalize">green</a>
+								
+							</td> 
+							<td><button id="12232" type="button" class="btn btn-info btn-xs molecules_details" data-toggle="modal" data-target="#molecules_details_modal">
+								More info.
+							</button></td> 
+						</tr>
+						
+						<tr>
+							<td class="text-capitalize">(Z)-cinnamyl alcohol</td> 
+							<td><a href="https://pubchem.ncbi.nlm.nih.gov/compound/5280511" target="_blank">5280511</a></td> 
+							<td>
+								
+								<a href="/flavordb2/molecules?flavor_profile=oil&page=1" class="text-capitalize">oil</a>, 
+								
+								<a href="/flavordb2/molecules?flavor_profile=powdery&page=1" class="text-capitalize">powdery</a>, 
+								
+								<a href="/flavordb2/molecules?flavor_profile=cinnamic&page=1" class="text-capitalize">cinnamic</a>, 
+								
+								<a href="/flavordb2/molecules?flavor_profile=bitter&page=1" class="text-capitalize">bitter</a>, 
+								
+								<a href="/flavordb2/molecules?flavor_profile=sweet&page=1" class="text-capitalize">sweet</a>, 
+								
+								<a href="/flavordb2/molecules?flavor_profile=balsam&page=1" class="text-capitalize">balsam</a>, 
+								
+								<a href="/flavordb2/molecules?flavor_profile=hyacinth&page=1" class="text-capitalize">hyacinth</a>, 
+								
+								<a href="/flavordb2/molecules?flavor_profile=spicy&page=1" class="text-capitalize">spicy</a>, 
+								
+								<a href="/flavordb2/molecules?flavor_profile=green&page=1" class="text-capitalize">green</a>
+								
+							</td> 
+							<td><button id="5280511" type="button" class="btn btn-info btn-xs molecules_details" data-toggle="modal" data-target="#molecules_details_modal">
+								More info.
+							</button></td> 
+						</tr>
+						
+						<tr>
+							<td class="text-capitalize">cinnamyl alcohol</td> 
+							<td><a href="https://pubchem.ncbi.nlm.nih.gov/compound/5315892" target="_blank">5315892</a></td> 
+							<td>
+								
+								<a href="/flavordb2/molecules?flavor_profile=hyacinth&page=1" class="text-capitalize">hyacinth</a>, 
+								
+								<a href="/flavordb2/molecules?flavor_profile=spicy&page=1" class="text-capitalize">spicy</a>, 
+								
+								<a href="/flavordb2/molecules?flavor_profile=powdery&page=1" class="text-capitalize">powdery</a>, 
+								
+								<a href="/flavordb2/molecules?flavor_profile=sweet&page=1" class="text-capitalize">sweet</a>, 
+								
+								<a href="/flavordb2/molecules?flavor_profile=cinnamic&page=1" class="text-capitalize">cinnamic</a>, 
+								
+								<a href="/flavordb2/molecules?flavor_profile=balsam&page=1" class="text-capitalize">balsam</a>, 
+								
+								<a href="/flavordb2/molecules?flavor_profile=green&page=1" class="text-capitalize">green</a>, 
+								
+								<a href="/flavordb2/molecules?flavor_profile=bitter&page=1" class="text-capitalize">bitter</a>
+								
+							</td> 
+							<td><button id="5315892" type="button" class="btn btn-info btn-xs molecules_details" data-toggle="modal" data-target="#molecules_details_modal">
+								More info.
+							</button></td> 
+						</tr>
+						
+						<tr>
+							<td class="text-capitalize">Ethyl Vinyl Ketone</td> 
+							<td><a href="https://pubchem.ncbi.nlm.nih.gov/compound/15394" target="_blank">15394</a></td> 
+							<td>
+								
+								<a href="/flavordb2/molecules?flavor_profile=peppery&page=1" class="text-capitalize">peppery</a>, 
+								
+								<a href="/flavordb2/molecules?flavor_profile=mustard&page=1" class="text-capitalize">mustard</a>, 
+								
+								<a href="/flavordb2/molecules?flavor_profile=garlic&page=1" class="text-capitalize">garlic</a>, 
+								
+								<a href="/flavordb2/molecules?flavor_profile=onion&page=1" class="text-capitalize">onion</a>, 
+								
+								<a href="/flavordb2/molecules?flavor_profile=fish&page=1" class="text-capitalize">fish</a>, 
+								
+								<a href="/flavordb2/molecules?flavor_profile=pungent&page=1" class="text-capitalize">pungent</a>
+								
+							</td> 
+							<td><button id="15394" type="button" class="btn btn-info btn-xs molecules_details" data-toggle="modal" data-target="#molecules_details_modal">
+								More info.
+							</button></td> 
+						</tr>
+						
+						<tr>
+							<td class="text-capitalize">hydrogen peroxide</td> 
+							<td><a href="https://pubchem.ncbi.nlm.nih.gov/compound/784" target="_blank">784</a></td> 
+							<td>
+								
+								<a href="/flavordb2/molecules?flavor_profile=bitter&page=1" class="text-capitalize">bitter</a>
+								
+							</td> 
+							<td><button id="784" type="button" class="btn btn-info btn-xs molecules_details" data-toggle="modal" data-target="#molecules_details_modal">
+								More info.
+							</button></td> 
+						</tr>
+						
+						<tr>
+							<td class="text-capitalize">2-Acetylpyridine</td> 
+							<td><a href="https://pubchem.ncbi.nlm.nih.gov/compound/14286" target="_blank">14286</a></td> 
+							<td>
+								
+								<a href="/flavordb2/molecules?flavor_profile=tobacco&page=1" class="text-capitalize">tobacco</a>, 
+								
+								<a href="/flavordb2/molecules?flavor_profile=oily&page=1" class="text-capitalize">oily</a>, 
+								
+								<a href="/flavordb2/molecules?flavor_profile=fatty&page=1" class="text-capitalize">fatty</a>, 
+								
+								<a href="/flavordb2/molecules?flavor_profile=heavy&page=1" class="text-capitalize">heavy</a>, 
+								
+								<a href="/flavordb2/molecules?flavor_profile=popcorn&page=1" class="text-capitalize">popcorn</a>, 
+								
+								<a href="/flavordb2/molecules?flavor_profile=corn&page=1" class="text-capitalize">corn</a>, 
+								
+								<a href="/flavordb2/molecules?flavor_profile=chip&page=1" class="text-capitalize">chip</a>
+								
+							</td> 
+							<td><button id="14286" type="button" class="btn btn-info btn-xs molecules_details" data-toggle="modal" data-target="#molecules_details_modal">
+								More info.
+							</button></td> 
+						</tr>
+						
+						<tr>
+							<td class="text-capitalize">Hexanoic Acid</td> 
+							<td><a href="https://pubchem.ncbi.nlm.nih.gov/compound/8892" target="_blank">8892</a></td> 
+							<td>
+								
+								<a href="/flavordb2/molecules?flavor_profile=fatty&page=1" class="text-capitalize">fatty</a>, 
+								
+								<a href="/flavordb2/molecules?flavor_profile=sour&page=1" class="text-capitalize">sour</a>, 
+								
+								<a href="/flavordb2/molecules?flavor_profile=sweat&page=1" class="text-capitalize">sweat</a>, 
+								
+								<a href="/flavordb2/molecules?flavor_profile=cheese&page=1" class="text-capitalize">cheese</a>
+								
+							</td> 
+							<td><button id="8892" type="button" class="btn btn-info btn-xs molecules_details" data-toggle="modal" data-target="#molecules_details_modal">
+								More info.
+							</button></td> 
+						</tr>
+						
+						<tr>
+							<td class="text-capitalize">Isoeugenol</td> 
+							<td><a href="https://pubchem.ncbi.nlm.nih.gov/compound/853433" target="_blank">853433</a></td> 
+							<td>
+								
+								<a href="/flavordb2/molecules?flavor_profile=carnation&page=1" class="text-capitalize">carnation</a>, 
+								
+								<a href="/flavordb2/molecules?flavor_profile=clove&page=1" class="text-capitalize">clove</a>, 
+								
+								<a href="/flavordb2/molecules?flavor_profile=floral&page=1" class="text-capitalize">floral</a>, 
+								
+								<a href="/flavordb2/molecules?flavor_profile=sweet&page=1" class="text-capitalize">sweet</a>, 
+								
+								<a href="/flavordb2/molecules?flavor_profile=woody&page=1" class="text-capitalize">woody</a>, 
+								
+								<a href="/flavordb2/molecules?flavor_profile=flower&page=1" class="text-capitalize">flower</a>, 
+								
+								<a href="/flavordb2/molecules?flavor_profile=spicy&page=1" class="text-capitalize">spicy</a>, 
+								
+								<a href="/flavordb2/molecules?flavor_profile=phenolic&page=1" class="text-capitalize">phenolic</a>
+								
+							</td> 
+							<td><button id="853433" type="button" class="btn btn-info btn-xs molecules_details" data-toggle="modal" data-target="#molecules_details_modal">
+								More info.
+							</button></td> 
+						</tr>
+						
+						<tr>
+							<td class="text-capitalize">betaine</td> 
+							<td><a href="https://pubchem.ncbi.nlm.nih.gov/compound/247" target="_blank">247</a></td> 
+							<td>
+								
+								<a href="/flavordb2/molecules?flavor_profile=bland&page=1" class="text-capitalize">bland</a>
+								
+							</td> 
+							<td><button id="247" type="button" class="btn btn-info btn-xs molecules_details" data-toggle="modal" data-target="#molecules_details_modal">
+								More info.
+							</button></td> 
+						</tr>
+						
+						<tr>
+							<td class="text-capitalize">Phenethyl acetate</td> 
+							<td><a href="https://pubchem.ncbi.nlm.nih.gov/compound/7654" target="_blank">7654</a></td> 
+							<td>
+								
+								<a href="/flavordb2/molecules?flavor_profile=tobacco&page=1" class="text-capitalize">tobacco</a>, 
+								
+								<a href="/flavordb2/molecules?flavor_profile=rose&page=1" class="text-capitalize">rose</a>, 
+								
+								<a href="/flavordb2/molecules?flavor_profile=floral&page=1" class="text-capitalize">floral</a>, 
+								
+								<a href="/flavordb2/molecules?flavor_profile=sweet&page=1" class="text-capitalize">sweet</a>, 
+								
+								<a href="/flavordb2/molecules?flavor_profile=honey&page=1" class="text-capitalize">honey</a>, 
+								
+								<a href="/flavordb2/molecules?flavor_profile=fruity&page=1" class="text-capitalize">fruity</a>, 
+								
+								<a href="/flavordb2/molecules?flavor_profile=tropical&page=1" class="text-capitalize">tropical</a>
+								
+							</td> 
+							<td><button id="7654" type="button" class="btn btn-info btn-xs molecules_details" data-toggle="modal" data-target="#molecules_details_modal">
+								More info.
+							</button></td> 
+						</tr>
+						
+						<tr>
+							<td class="text-capitalize">ethanol</td> 
+							<td><a href="https://pubchem.ncbi.nlm.nih.gov/compound/702" target="_blank">702</a></td> 
+							<td>
+								
+								<a href="/flavordb2/molecules?flavor_profile=alcoholic&page=1" class="text-capitalize">alcoholic</a>, 
+								
+								<a href="/flavordb2/molecules?flavor_profile=ethereal&page=1" class="text-capitalize">ethereal</a>, 
+								
+								<a href="/flavordb2/molecules?flavor_profile=medical&page=1" class="text-capitalize">medical</a>, 
+								
+								<a href="/flavordb2/molecules?flavor_profile=sweet&page=1" class="text-capitalize">sweet</a>, 
+								
+								<a href="/flavordb2/molecules?flavor_profile=strong&page=1" class="text-capitalize">strong</a>
+								
+							</td> 
+							<td><button id="702" type="button" class="btn btn-info btn-xs molecules_details" data-toggle="modal" data-target="#molecules_details_modal">
+								More info.
+							</button></td> 
+						</tr>
+						
+						<tr>
+							<td class="text-capitalize">Phenylacetic Acid</td> 
+							<td><a href="https://pubchem.ncbi.nlm.nih.gov/compound/999" target="_blank">999</a></td> 
+							<td>
+								
+								<a href="/flavordb2/molecules?flavor_profile=honeysuckle&page=1" class="text-capitalize">honeysuckle</a>, 
+								
+								<a href="/flavordb2/molecules?flavor_profile=sour&page=1" class="text-capitalize">sour</a>, 
+								
+								<a href="/flavordb2/molecules?flavor_profile=waxy&page=1" class="text-capitalize">waxy</a>, 
+								
+								<a href="/flavordb2/molecules?flavor_profile=floral&page=1" class="text-capitalize">floral</a>, 
+								
+								<a href="/flavordb2/molecules?flavor_profile=sweet&page=1" class="text-capitalize">sweet</a>, 
+								
+								<a href="/flavordb2/molecules?flavor_profile=honey&page=1" class="text-capitalize">honey</a>, 
+								
+								<a href="/flavordb2/molecules?flavor_profile=civet&page=1" class="text-capitalize">civet</a>, 
+								
+								<a href="/flavordb2/molecules?flavor_profile=flower&page=1" class="text-capitalize">flower</a>
+								
+							</td> 
+							<td><button id="999" type="button" class="btn btn-info btn-xs molecules_details" data-toggle="modal" data-target="#molecules_details_modal">
+								More info.
+							</button></td> 
+						</tr>
+						
+						<tr>
+							<td class="text-capitalize">cis-3-Hexenal</td> 
+							<td><a href="https://pubchem.ncbi.nlm.nih.gov/compound/643941" target="_blank">643941</a></td> 
+							<td>
+								
+								<a href="/flavordb2/molecules?flavor_profile=apple&page=1" class="text-capitalize">apple</a>, 
+								
+								<a href="/flavordb2/molecules?flavor_profile=fatty&page=1" class="text-capitalize">fatty</a>, 
+								
+								<a href="/flavordb2/molecules?flavor_profile=fruity&page=1" class="text-capitalize">fruity</a>, 
+								
+								<a href="/flavordb2/molecules?flavor_profile=leaf&page=1" class="text-capitalize">leaf</a>, 
+								
+								<a href="/flavordb2/molecules?flavor_profile=grassy&page=1" class="text-capitalize">grassy</a>, 
+								
+								<a href="/flavordb2/molecules?flavor_profile=weedy&page=1" class="text-capitalize">weedy</a>, 
+								
+								<a href="/flavordb2/molecules?flavor_profile=green&page=1" class="text-capitalize">green</a>
+								
+							</td> 
+							<td><button id="643941" type="button" class="btn btn-info btn-xs molecules_details" data-toggle="modal" data-target="#molecules_details_modal">
+								More info.
+							</button></td> 
+						</tr>
+						
+						<tr>
+							<td class="text-capitalize">cinnamaldehyde</td> 
+							<td><a href="https://pubchem.ncbi.nlm.nih.gov/compound/637511" target="_blank">637511</a></td> 
+							<td>
+								
+								<a href="/flavordb2/molecules?flavor_profile=spice&page=1" class="text-capitalize">spice</a>, 
+								
+								<a href="/flavordb2/molecules?flavor_profile=warm&page=1" class="text-capitalize">warm</a>, 
+								
+								<a href="/flavordb2/molecules?flavor_profile=red%20hots&page=1" class="text-capitalize">red hots</a>, 
+								
+								<a href="/flavordb2/molecules?flavor_profile=paint&page=1" class="text-capitalize">paint</a>, 
+								
+								<a href="/flavordb2/molecules?flavor_profile=clove&page=1" class="text-capitalize">clove</a>, 
+								
+								<a href="/flavordb2/molecules?flavor_profile=sweet&page=1" class="text-capitalize">sweet</a>, 
+								
+								<a href="/flavordb2/molecules?flavor_profile=candy&page=1" class="text-capitalize">candy</a>, 
+								
+								<a href="/flavordb2/molecules?flavor_profile=cinnamon&page=1" class="text-capitalize">cinnamon</a>
+								
+							</td> 
+							<td><button id="637511" type="button" class="btn btn-info btn-xs molecules_details" data-toggle="modal" data-target="#molecules_details_modal">
+								More info.
+							</button></td> 
+						</tr>
+						
+						<tr>
+							<td class="text-capitalize">Pentanal</td> 
+							<td><a href="https://pubchem.ncbi.nlm.nih.gov/compound/8063" target="_blank">8063</a></td> 
+							<td>
+								
+								<a href="/flavordb2/molecules?flavor_profile=bready&page=1" class="text-capitalize">bready</a>, 
+								
+								<a href="/flavordb2/molecules?flavor_profile=fermented&page=1" class="text-capitalize">fermented</a>, 
+								
+								<a href="/flavordb2/molecules?flavor_profile=berry&page=1" class="text-capitalize">berry</a>, 
+								
+								<a href="/flavordb2/molecules?flavor_profile=malt&page=1" class="text-capitalize">malt</a>, 
+								
+								<a href="/flavordb2/molecules?flavor_profile=pungent&page=1" class="text-capitalize">pungent</a>, 
+								
+								<a href="/flavordb2/molecules?flavor_profile=fruity&page=1" class="text-capitalize">fruity</a>, 
+								
+								<a href="/flavordb2/molecules?flavor_profile=nutty&page=1" class="text-capitalize">nutty</a>, 
+								
+								<a href="/flavordb2/molecules?flavor_profile=almond&page=1" class="text-capitalize">almond</a>
+								
+							</td> 
+							<td><button id="8063" type="button" class="btn btn-info btn-xs molecules_details" data-toggle="modal" data-target="#molecules_details_modal">
+								More info.
+							</button></td> 
+						</tr>
+						
+						<tr>
+							<td class="text-capitalize">Sinapic Acid</td> 
+							<td><a href="https://pubchem.ncbi.nlm.nih.gov/compound/637775" target="_blank">637775</a></td> 
+							<td>
+								
+								<a href="/flavordb2/molecules?flavor_profile=odorless&page=1" class="text-capitalize">odorless</a>
+								
+							</td> 
+							<td><button id="637775" type="button" class="btn btn-info btn-xs molecules_details" data-toggle="modal" data-target="#molecules_details_modal">
+								More info.
+							</button></td> 
+						</tr>
+						
+						<tr>
+							<td class="text-capitalize">Cyclopentanone</td> 
+							<td><a href="https://pubchem.ncbi.nlm.nih.gov/compound/8452" target="_blank">8452</a></td> 
+							<td>
+								
+								<a href="/flavordb2/molecules?flavor_profile=minty&page=1" class="text-capitalize">minty</a>
+								
+							</td> 
+							<td><button id="8452" type="button" class="btn btn-info btn-xs molecules_details" data-toggle="modal" data-target="#molecules_details_modal">
+								More info.
+							</button></td> 
+						</tr>
+						
+						<tr>
+							<td class="text-capitalize">2-Isopropyl-5-methylcyclohexanone</td> 
+							<td><a href="https://pubchem.ncbi.nlm.nih.gov/compound/6986" target="_blank">6986</a></td> 
+							<td>
+								
+								<a href="/flavordb2/molecules?flavor_profile=mint&page=1" class="text-capitalize">mint</a>, 
+								
+								<a href="/flavordb2/molecules?flavor_profile=fresh&page=1" class="text-capitalize">fresh</a>, 
+								
+								<a href="/flavordb2/molecules?flavor_profile=peppermint&page=1" class="text-capitalize">peppermint</a>, 
+								
+								<a href="/flavordb2/molecules?flavor_profile=sweet&page=1" class="text-capitalize">sweet</a>, 
+								
+								<a href="/flavordb2/molecules?flavor_profile=cool&page=1" class="text-capitalize">cool</a>, 
+								
+								<a href="/flavordb2/molecules?flavor_profile=minty&page=1" class="text-capitalize">minty</a>, 
+								
+								<a href="/flavordb2/molecules?flavor_profile=green&page=1" class="text-capitalize">green</a>
+								
+							</td> 
+							<td><button id="6986" type="button" class="btn btn-info btn-xs molecules_details" data-toggle="modal" data-target="#molecules_details_modal">
+								More info.
+							</button></td> 
+						</tr>
+						
+						<tr>
+							<td class="text-capitalize">2-Phenylethanol</td> 
+							<td><a href="https://pubchem.ncbi.nlm.nih.gov/compound/6054" target="_blank">6054</a></td> 
+							<td>
+								
+								<a href="/flavordb2/molecules?flavor_profile=lilac&page=1" class="text-capitalize">lilac</a>, 
+								
+								<a href="/flavordb2/molecules?flavor_profile=rose&page=1" class="text-capitalize">rose</a>, 
+								
+								<a href="/flavordb2/molecules?flavor_profile=rose%20water&page=1" class="text-capitalize">rose water</a>, 
+								
+								<a href="/flavordb2/molecules?flavor_profile=honey&page=1" class="text-capitalize">honey</a>, 
+								
+								<a href="/flavordb2/molecules?flavor_profile=rose%20flower&page=1" class="text-capitalize">rose flower</a>, 
+								
+								<a href="/flavordb2/molecules?flavor_profile=floral&page=1" class="text-capitalize">floral</a>, 
+								
+								<a href="/flavordb2/molecules?flavor_profile=spice&page=1" class="text-capitalize">spice</a>, 
+								
+								<a href="/flavordb2/molecules?flavor_profile=bitter&page=1" class="text-capitalize">bitter</a>, 
+								
+								<a href="/flavordb2/molecules?flavor_profile=rose%20dried&page=1" class="text-capitalize">rose dried</a>
+								
+							</td> 
+							<td><button id="6054" type="button" class="btn btn-info btn-xs molecules_details" data-toggle="modal" data-target="#molecules_details_modal">
+								More info.
+							</button></td> 
+						</tr>
+						
+						<tr>
+							<td class="text-capitalize">(+)-Neomenthol</td> 
+							<td><a href="https://pubchem.ncbi.nlm.nih.gov/compound/439263" target="_blank">439263</a></td> 
+							<td>
+								
+								<a href="/flavordb2/molecules?flavor_profile=camphoraceous&page=1" class="text-capitalize">camphoraceous</a>, 
+								
+								<a href="/flavordb2/molecules?flavor_profile=minty&page=1" class="text-capitalize">minty</a>, 
+								
+								<a href="/flavordb2/molecules?flavor_profile=sweet&page=1" class="text-capitalize">sweet</a>, 
+								
+								<a href="/flavordb2/molecules?flavor_profile=mentholic&page=1" class="text-capitalize">mentholic</a>
+								
+							</td> 
+							<td><button id="439263" type="button" class="btn btn-info btn-xs molecules_details" data-toggle="modal" data-target="#molecules_details_modal">
+								More info.
+							</button></td> 
+						</tr>
+						
+						<tr>
+							<td class="text-capitalize">2,6-Dimethylpyridine</td> 
+							<td><a href="https://pubchem.ncbi.nlm.nih.gov/compound/7937" target="_blank">7937</a></td> 
+							<td>
+								
+								<a href="/flavordb2/molecules?flavor_profile=bready&page=1" class="text-capitalize">bready</a>, 
+								
+								<a href="/flavordb2/molecules?flavor_profile=oily&page=1" class="text-capitalize">oily</a>, 
+								
+								<a href="/flavordb2/molecules?flavor_profile=woody&page=1" class="text-capitalize">woody</a>, 
+								
+								<a href="/flavordb2/molecules?flavor_profile=cocoa&page=1" class="text-capitalize">cocoa</a>, 
+								
+								<a href="/flavordb2/molecules?flavor_profile=nutty&page=1" class="text-capitalize">nutty</a>, 
+								
+								<a href="/flavordb2/molecules?flavor_profile=amine&page=1" class="text-capitalize">amine</a>
+								
+							</td> 
+							<td><button id="7937" type="button" class="btn btn-info btn-xs molecules_details" data-toggle="modal" data-target="#molecules_details_modal">
+								More info.
+							</button></td> 
+						</tr>
+						
+						<tr>
+							<td class="text-capitalize">succinic acid</td> 
+							<td><a href="https://pubchem.ncbi.nlm.nih.gov/compound/1110" target="_blank">1110</a></td> 
+							<td>
+								
+								<a href="/flavordb2/molecules?flavor_profile=sour&page=1" class="text-capitalize">sour</a>, 
+								
+								<a href="/flavordb2/molecules?flavor_profile=odorless&page=1" class="text-capitalize">odorless</a>
+								
+							</td> 
+							<td><button id="1110" type="button" class="btn btn-info btn-xs molecules_details" data-toggle="modal" data-target="#molecules_details_modal">
+								More info.
+							</button></td> 
+						</tr>
+						
+						<tr>
+							<td class="text-capitalize">NSC5112</td> 
+							<td><a href="https://pubchem.ncbi.nlm.nih.gov/compound/5284639" target="_blank">5284639</a></td> 
+							<td>
+								
+								<a href="/flavordb2/molecules?flavor_profile=bitter&page=1" class="text-capitalize">bitter</a>
+								
+							</td> 
+							<td><button id="5284639" type="button" class="btn btn-info btn-xs molecules_details" data-toggle="modal" data-target="#molecules_details_modal">
+								More info.
+							</button></td> 
+						</tr>
+						
+						<tr>
+							<td class="text-capitalize">Nonanal</td> 
+							<td><a href="https://pubchem.ncbi.nlm.nih.gov/compound/31289" target="_blank">31289</a></td> 
+							<td>
+								
+								<a href="/flavordb2/molecules?flavor_profile=citrus&page=1" class="text-capitalize">citrus</a>, 
+								
+								<a href="/flavordb2/molecules?flavor_profile=lime&page=1" class="text-capitalize">lime</a>, 
+								
+								<a href="/flavordb2/molecules?flavor_profile=orange%20peel&page=1" class="text-capitalize">orange peel</a>, 
+								
+								<a href="/flavordb2/molecules?flavor_profile=rose&page=1" class="text-capitalize">rose</a>, 
+								
+								<a href="/flavordb2/molecules?flavor_profile=fat&page=1" class="text-capitalize">fat</a>, 
+								
+								<a href="/flavordb2/molecules?flavor_profile=green&page=1" class="text-capitalize">green</a>, 
+								
+								<a href="/flavordb2/molecules?flavor_profile=fishy&page=1" class="text-capitalize">fishy</a>, 
+								
+								<a href="/flavordb2/molecules?flavor_profile=waxy&page=1" class="text-capitalize">waxy</a>, 
+								
+								<a href="/flavordb2/molecules?flavor_profile=fresh&page=1" class="text-capitalize">fresh</a>, 
+								
+								<a href="/flavordb2/molecules?flavor_profile=fatty&page=1" class="text-capitalize">fatty</a>, 
+								
+								<a href="/flavordb2/molecules?flavor_profile=peely&page=1" class="text-capitalize">peely</a>, 
+								
+								<a href="/flavordb2/molecules?flavor_profile=aldehydic&page=1" class="text-capitalize">aldehydic</a>, 
+								
+								<a href="/flavordb2/molecules?flavor_profile=orris&page=1" class="text-capitalize">orris</a>, 
+								
+								<a href="/flavordb2/molecules?flavor_profile=grapefruit&page=1" class="text-capitalize">grapefruit</a>
+								
+							</td> 
+							<td><button id="31289" type="button" class="btn btn-info btn-xs molecules_details" data-toggle="modal" data-target="#molecules_details_modal">
+								More info.
+							</button></td> 
+						</tr>
+						
+						<tr>
+							<td class="text-capitalize">apigenin</td> 
+							<td><a href="https://pubchem.ncbi.nlm.nih.gov/compound/5280443" target="_blank">5280443</a></td> 
+							<td>
+								
+								<a href="/flavordb2/molecules?flavor_profile=bitter&page=1" class="text-capitalize">bitter</a>
+								
+							</td> 
+							<td><button id="5280443" type="button" class="btn btn-info btn-xs molecules_details" data-toggle="modal" data-target="#molecules_details_modal">
+								More info.
+							</button></td> 
+						</tr>
+						
+						<tr>
+							<td class="text-capitalize">phenylacetaldehyde</td> 
+							<td><a href="https://pubchem.ncbi.nlm.nih.gov/compound/998" target="_blank">998</a></td> 
+							<td>
+								
+								<a href="/flavordb2/molecules?flavor_profile=hyacinth&page=1" class="text-capitalize">hyacinth</a>, 
+								
+								<a href="/flavordb2/molecules?flavor_profile=honey&page=1" class="text-capitalize">honey</a>, 
+								
+								<a href="/flavordb2/molecules?flavor_profile=clover&page=1" class="text-capitalize">clover</a>, 
+								
+								<a href="/flavordb2/molecules?flavor_profile=sweet&page=1" class="text-capitalize">sweet</a>, 
+								
+								<a href="/flavordb2/molecules?flavor_profile=hawthorne&page=1" class="text-capitalize">hawthorne</a>, 
+								
+								<a href="/flavordb2/molecules?flavor_profile=cocoa&page=1" class="text-capitalize">cocoa</a>, 
+								
+								<a href="/flavordb2/molecules?flavor_profile=grapefruit&page=1" class="text-capitalize">grapefruit</a>, 
+								
+								<a href="/flavordb2/molecules?flavor_profile=green&page=1" class="text-capitalize">green</a>, 
+								
+								<a href="/flavordb2/molecules?flavor_profile=peanut&page=1" class="text-capitalize">peanut</a>, 
+								
+								<a href="/flavordb2/molecules?flavor_profile=floral&page=1" class="text-capitalize">floral</a>, 
+								
+								<a href="/flavordb2/molecules?flavor_profile=bitter&page=1" class="text-capitalize">bitter</a>
+								
+							</td> 
+							<td><button id="998" type="button" class="btn btn-info btn-xs molecules_details" data-toggle="modal" data-target="#molecules_details_modal">
+								More info.
+							</button></td> 
+						</tr>
+						
+						<tr>
+							<td class="text-capitalize">trans-2-Hexen-1-Ol</td> 
+							<td><a href="https://pubchem.ncbi.nlm.nih.gov/compound/5318042" target="_blank">5318042</a></td> 
+							<td>
+								
+								<a href="/flavordb2/molecules?flavor_profile=leafy&page=1" class="text-capitalize">leafy</a>, 
+								
+								<a href="/flavordb2/molecules?flavor_profile=alcohol&page=1" class="text-capitalize">alcohol</a>, 
+								
+								<a href="/flavordb2/molecules?flavor_profile=pepper&page=1" class="text-capitalize">pepper</a>, 
+								
+								<a href="/flavordb2/molecules?flavor_profile=wine&page=1" class="text-capitalize">wine</a>, 
+								
+								<a href="/flavordb2/molecules?flavor_profile=green&page=1" class="text-capitalize">green</a>, 
+								
+								<a href="/flavordb2/molecules?flavor_profile=fresh&page=1" class="text-capitalize">fresh</a>, 
+								
+								<a href="/flavordb2/molecules?flavor_profile=fruit&page=1" class="text-capitalize">fruit</a>, 
+								
+								<a href="/flavordb2/molecules?flavor_profile=unripe%20banana&page=1" class="text-capitalize">unripe banana</a>, 
+								
+								<a href="/flavordb2/molecules?flavor_profile=fruity&page=1" class="text-capitalize">fruity</a>, 
+								
+								<a href="/flavordb2/molecules?flavor_profile=leaf&page=1" class="text-capitalize">leaf</a>, 
+								
+								<a href="/flavordb2/molecules?flavor_profile=walnut&page=1" class="text-capitalize">walnut</a>
+								
+							</td> 
+							<td><button id="5318042" type="button" class="btn btn-info btn-xs molecules_details" data-toggle="modal" data-target="#molecules_details_modal">
+								More info.
+							</button></td> 
+						</tr>
+						
+						<tr>
+							<td class="text-capitalize">lauric acid</td> 
+							<td><a href="https://pubchem.ncbi.nlm.nih.gov/compound/3893" target="_blank">3893</a></td> 
+							<td>
+								
+								<a href="/flavordb2/molecules?flavor_profile=coconut&page=1" class="text-capitalize">coconut</a>, 
+								
+								<a href="/flavordb2/molecules?flavor_profile=mild&page=1" class="text-capitalize">mild</a>, 
+								
+								<a href="/flavordb2/molecules?flavor_profile=fatty&page=1" class="text-capitalize">fatty</a>, 
+								
+								<a href="/flavordb2/molecules?flavor_profile=metal&page=1" class="text-capitalize">metal</a>, 
+								
+								<a href="/flavordb2/molecules?flavor_profile=bay%20oil&page=1" class="text-capitalize">bay oil</a>
+								
+							</td> 
+							<td><button id="3893" type="button" class="btn btn-info btn-xs molecules_details" data-toggle="modal" data-target="#molecules_details_modal">
+								More info.
+							</button></td> 
+						</tr>
+						
+						<tr>
+							<td class="text-capitalize">octanoic acid</td> 
+							<td><a href="https://pubchem.ncbi.nlm.nih.gov/compound/379" target="_blank">379</a></td> 
+							<td>
+								
+								<a href="/flavordb2/molecules?flavor_profile=cheesy&page=1" class="text-capitalize">cheesy</a>, 
+								
+								<a href="/flavordb2/molecules?flavor_profile=sweat&page=1" class="text-capitalize">sweat</a>, 
+								
+								<a href="/flavordb2/molecules?flavor_profile=vegetable&page=1" class="text-capitalize">vegetable</a>, 
+								
+								<a href="/flavordb2/molecules?flavor_profile=waxy&page=1" class="text-capitalize">waxy</a>, 
+								
+								<a href="/flavordb2/molecules?flavor_profile=fatty&page=1" class="text-capitalize">fatty</a>, 
+								
+								<a href="/flavordb2/molecules?flavor_profile=rancid&page=1" class="text-capitalize">rancid</a>, 
+								
+								<a href="/flavordb2/molecules?flavor_profile=oily&page=1" class="text-capitalize">oily</a>, 
+								
+								<a href="/flavordb2/molecules?flavor_profile=cheese&page=1" class="text-capitalize">cheese</a>
+								
+							</td> 
+							<td><button id="379" type="button" class="btn btn-info btn-xs molecules_details" data-toggle="modal" data-target="#molecules_details_modal">
+								More info.
+							</button></td> 
+						</tr>
+						
+						<tr>
+							<td class="text-capitalize">5-Methylfurfural</td> 
+							<td><a href="https://pubchem.ncbi.nlm.nih.gov/compound/12097" target="_blank">12097</a></td> 
+							<td>
+								
+								<a href="/flavordb2/molecules?flavor_profile=caramel&page=1" class="text-capitalize">caramel</a>, 
+								
+								<a href="/flavordb2/molecules?flavor_profile=spice&page=1" class="text-capitalize">spice</a>, 
+								
+								<a href="/flavordb2/molecules?flavor_profile=burnt%20sugar&page=1" class="text-capitalize">burnt sugar</a>, 
+								
+								<a href="/flavordb2/molecules?flavor_profile=maple&page=1" class="text-capitalize">maple</a>, 
+								
+								<a href="/flavordb2/molecules?flavor_profile=almond&page=1" class="text-capitalize">almond</a>
+								
+							</td> 
+							<td><button id="12097" type="button" class="btn btn-info btn-xs molecules_details" data-toggle="modal" data-target="#molecules_details_modal">
+								More info.
+							</button></td> 
+						</tr>
+						
+						<tr>
+							<td class="text-capitalize">thiamine</td> 
+							<td><a href="https://pubchem.ncbi.nlm.nih.gov/compound/1130" target="_blank">1130</a></td> 
+							<td>
+								
+								<a href="/flavordb2/molecules?flavor_profile=bitter&page=1" class="text-capitalize">bitter</a>
+								
+							</td> 
+							<td><button id="1130" type="button" class="btn btn-info btn-xs molecules_details" data-toggle="modal" data-target="#molecules_details_modal">
+								More info.
+							</button></td> 
+						</tr>
+						
+						<tr>
+							<td class="text-capitalize">3-Methyl-1-butanol</td> 
+							<td><a href="https://pubchem.ncbi.nlm.nih.gov/compound/31260" target="_blank">31260</a></td> 
+							<td>
+								
+								<a href="/flavordb2/molecules?flavor_profile=oil&page=1" class="text-capitalize">oil</a>, 
+								
+								<a href="/flavordb2/molecules?flavor_profile=alcoholic&page=1" class="text-capitalize">alcoholic</a>, 
+								
+								<a href="/flavordb2/molecules?flavor_profile=burnt&page=1" class="text-capitalize">burnt</a>, 
+								
+								<a href="/flavordb2/molecules?flavor_profile=whiskey&page=1" class="text-capitalize">whiskey</a>, 
+								
+								<a href="/flavordb2/molecules?flavor_profile=malt&page=1" class="text-capitalize">malt</a>, 
+								
+								<a href="/flavordb2/molecules?flavor_profile=banana&page=1" class="text-capitalize">banana</a>, 
+								
+								<a href="/flavordb2/molecules?flavor_profile=fusel&page=1" class="text-capitalize">fusel</a>, 
+								
+								<a href="/flavordb2/molecules?flavor_profile=fruity&page=1" class="text-capitalize">fruity</a>
+								
+							</td> 
+							<td><button id="31260" type="button" class="btn btn-info btn-xs molecules_details" data-toggle="modal" data-target="#molecules_details_modal">
+								More info.
+							</button></td> 
+						</tr>
+						
+						<tr>
+							<td class="text-capitalize">3-Phenylpropanoic acid</td> 
+							<td><a href="https://pubchem.ncbi.nlm.nih.gov/compound/107" target="_blank">107</a></td> 
+							<td>
+								
+								<a href="/flavordb2/molecules?flavor_profile=balsamic&page=1" class="text-capitalize">balsamic</a>, 
+								
+								<a href="/flavordb2/molecules?flavor_profile=rose&page=1" class="text-capitalize">rose</a>, 
+								
+								<a href="/flavordb2/molecules?flavor_profile=fatty&page=1" class="text-capitalize">fatty</a>, 
+								
+								<a href="/flavordb2/molecules?flavor_profile=sweet&page=1" class="text-capitalize">sweet</a>, 
+								
+								<a href="/flavordb2/molecules?flavor_profile=musk&page=1" class="text-capitalize">musk</a>, 
+								
+								<a href="/flavordb2/molecules?flavor_profile=cinnamon&page=1" class="text-capitalize">cinnamon</a>
+								
+							</td> 
+							<td><button id="107" type="button" class="btn btn-info btn-xs molecules_details" data-toggle="modal" data-target="#molecules_details_modal">
+								More info.
+							</button></td> 
+						</tr>
+						
+						<tr>
+							<td class="text-capitalize">Propionaldehyde</td> 
+							<td><a href="https://pubchem.ncbi.nlm.nih.gov/compound/527" target="_blank">527</a></td> 
+							<td>
+								
+								<a href="/flavordb2/molecules?flavor_profile=solvent&page=1" class="text-capitalize">solvent</a>, 
+								
+								<a href="/flavordb2/molecules?flavor_profile=alcohol&page=1" class="text-capitalize">alcohol</a>, 
+								
+								<a href="/flavordb2/molecules?flavor_profile=whiskey&page=1" class="text-capitalize">whiskey</a>, 
+								
+								<a href="/flavordb2/molecules?flavor_profile=wine&page=1" class="text-capitalize">wine</a>, 
+								
+								<a href="/flavordb2/molecules?flavor_profile=earthy&page=1" class="text-capitalize">earthy</a>, 
+								
+								<a href="/flavordb2/molecules?flavor_profile=cocoa&page=1" class="text-capitalize">cocoa</a>, 
+								
+								<a href="/flavordb2/molecules?flavor_profile=pungent&page=1" class="text-capitalize">pungent</a>, 
+								
+								<a href="/flavordb2/molecules?flavor_profile=nutty&page=1" class="text-capitalize">nutty</a>
+								
+							</td> 
+							<td><button id="527" type="button" class="btn btn-info btn-xs molecules_details" data-toggle="modal" data-target="#molecules_details_modal">
+								More info.
+							</button></td> 
+						</tr>
+						
+						<tr>
+							<td class="text-capitalize">2-(4-Hydroxyphenyl)ethanol</td> 
+							<td><a href="https://pubchem.ncbi.nlm.nih.gov/compound/10393" target="_blank">10393</a></td> 
+							<td>
+								
+								<a href="/flavordb2/molecules?flavor_profile=floral&page=1" class="text-capitalize">floral</a>, 
+								
+								<a href="/flavordb2/molecules?flavor_profile=sweet&page=1" class="text-capitalize">sweet</a>, 
+								
+								<a href="/flavordb2/molecules?flavor_profile=fruity&page=1" class="text-capitalize">fruity</a>, 
+								
+								<a href="/flavordb2/molecules?flavor_profile=mild&page=1" class="text-capitalize">mild</a>
+								
+							</td> 
+							<td><button id="10393" type="button" class="btn btn-info btn-xs molecules_details" data-toggle="modal" data-target="#molecules_details_modal">
+								More info.
+							</button></td> 
+						</tr>
+						
+						<tr>
+							<td class="text-capitalize">Acrolein</td> 
+							<td><a href="https://pubchem.ncbi.nlm.nih.gov/compound/7847" target="_blank">7847</a></td> 
+							<td>
+								
+								<a href="/flavordb2/molecules?flavor_profile=cherry&page=1" class="text-capitalize">cherry</a>, 
+								
+								<a href="/flavordb2/molecules?flavor_profile=almond&page=1" class="text-capitalize">almond</a>
+								
+							</td> 
+							<td><button id="7847" type="button" class="btn btn-info btn-xs molecules_details" data-toggle="modal" data-target="#molecules_details_modal">
+								More info.
+							</button></td> 
+						</tr>
+						
+						<tr>
+							<td class="text-capitalize">(+)-delta-Cadinene</td> 
+							<td><a href="https://pubchem.ncbi.nlm.nih.gov/compound/441005" target="_blank">441005</a></td> 
+							<td>
+								
+								<a href="/flavordb2/molecules?flavor_profile=herbal&page=1" class="text-capitalize">herbal</a>, 
+								
+								<a href="/flavordb2/molecules?flavor_profile=woody&page=1" class="text-capitalize">woody</a>, 
+								
+								<a href="/flavordb2/molecules?flavor_profile=thyme&page=1" class="text-capitalize">thyme</a>, 
+								
+								<a href="/flavordb2/molecules?flavor_profile=wood&page=1" class="text-capitalize">wood</a>, 
+								
+								<a href="/flavordb2/molecules?flavor_profile=medicine&page=1" class="text-capitalize">medicine</a>, 
+								
+								<a href="/flavordb2/molecules?flavor_profile=dry&page=1" class="text-capitalize">dry</a>
+								
+							</td> 
+							<td><button id="441005" type="button" class="btn btn-info btn-xs molecules_details" data-toggle="modal" data-target="#molecules_details_modal">
+								More info.
+							</button></td> 
+						</tr>
+						
+						<tr>
+							<td class="text-capitalize">indole</td> 
+							<td><a href="https://pubchem.ncbi.nlm.nih.gov/compound/798" target="_blank">798</a></td> 
+							<td>
+								
+								<a href="/flavordb2/molecules?flavor_profile=burnt&page=1" class="text-capitalize">burnt</a>, 
+								
+								<a href="/flavordb2/molecules?flavor_profile=jasmine&page=1" class="text-capitalize">jasmine</a>, 
+								
+								<a href="/flavordb2/molecules?flavor_profile=mothball&page=1" class="text-capitalize">mothball</a>, 
+								
+								<a href="/flavordb2/molecules?flavor_profile=animal&page=1" class="text-capitalize">animal</a>, 
+								
+								<a href="/flavordb2/molecules?flavor_profile=fishy&page=1" class="text-capitalize">fishy</a>, 
+								
+								<a href="/flavordb2/molecules?flavor_profile=floral&page=1" class="text-capitalize">floral</a>, 
+								
+								<a href="/flavordb2/molecules?flavor_profile=moth%20ball&page=1" class="text-capitalize">moth ball</a>, 
+								
+								<a href="/flavordb2/molecules?flavor_profile=naphthelene&page=1" class="text-capitalize">naphthelene</a>, 
+								
+								<a href="/flavordb2/molecules?flavor_profile=honey&page=1" class="text-capitalize">honey</a>, 
+								
+								<a href="/flavordb2/molecules?flavor_profile=fecal&page=1" class="text-capitalize">fecal</a>
+								
+							</td> 
+							<td><button id="798" type="button" class="btn btn-info btn-xs molecules_details" data-toggle="modal" data-target="#molecules_details_modal">
+								More info.
+							</button></td> 
+						</tr>
+						
+						<tr>
+							<td class="text-capitalize">Tributyrin</td> 
+							<td><a href="https://pubchem.ncbi.nlm.nih.gov/compound/6050" target="_blank">6050</a></td> 
+							<td>
+								
+								<a href="/flavordb2/molecules?flavor_profile=waxy&page=1" class="text-capitalize">waxy</a>, 
+								
+								<a href="/flavordb2/molecules?flavor_profile=bitter&page=1" class="text-capitalize">bitter</a>, 
+								
+								<a href="/flavordb2/molecules?flavor_profile=fatty&page=1" class="text-capitalize">fatty</a>, 
+								
+								<a href="/flavordb2/molecules?flavor_profile=cheese&page=1" class="text-capitalize">cheese</a>, 
+								
+								<a href="/flavordb2/molecules?flavor_profile=creamy&page=1" class="text-capitalize">creamy</a>
+								
+							</td> 
+							<td><button id="6050" type="button" class="btn btn-info btn-xs molecules_details" data-toggle="modal" data-target="#molecules_details_modal">
+								More info.
+							</button></td> 
+						</tr>
+						
+						<tr>
+							<td class="text-capitalize">2-Methylfuran</td> 
+							<td><a href="https://pubchem.ncbi.nlm.nih.gov/compound/10797" target="_blank">10797</a></td> 
+							<td>
+								
+								<a href="/flavordb2/molecules?flavor_profile=ethereal&page=1" class="text-capitalize">ethereal</a>, 
+								
+								<a href="/flavordb2/molecules?flavor_profile=acetone&page=1" class="text-capitalize">acetone</a>, 
+								
+								<a href="/flavordb2/molecules?flavor_profile=chocolate&page=1" class="text-capitalize">chocolate</a>
+								
+							</td> 
+							<td><button id="10797" type="button" class="btn btn-info btn-xs molecules_details" data-toggle="modal" data-target="#molecules_details_modal">
+								More info.
+							</button></td> 
+						</tr>
+						
+						<tr>
+							<td class="text-capitalize">calcium lactate</td> 
+							<td><a href="https://pubchem.ncbi.nlm.nih.gov/compound/13144" target="_blank">13144</a></td> 
+							<td>
+								
+								<a href="/flavordb2/molecules?flavor_profile=odorless&page=1" class="text-capitalize">odorless</a>
+								
+							</td> 
+							<td><button id="13144" type="button" class="btn btn-info btn-xs molecules_details" data-toggle="modal" data-target="#molecules_details_modal">
+								More info.
+							</button></td> 
+						</tr>
+						
+						<tr>
+							<td class="text-capitalize">2,3-butanedione</td> 
+							<td><a href="https://pubchem.ncbi.nlm.nih.gov/compound/650" target="_blank">650</a></td> 
+							<td>
+								
+								<a href="/flavordb2/molecules?flavor_profile=butter&page=1" class="text-capitalize">butter</a>, 
+								
+								<a href="/flavordb2/molecules?flavor_profile=caramel&page=1" class="text-capitalize">caramel</a>, 
+								
+								<a href="/flavordb2/molecules?flavor_profile=oily&page=1" class="text-capitalize">oily</a>, 
+								
+								<a href="/flavordb2/molecules?flavor_profile=creamy&page=1" class="text-capitalize">creamy</a>, 
+								
+								<a href="/flavordb2/molecules?flavor_profile=sweet&page=1" class="text-capitalize">sweet</a>, 
+								
+								<a href="/flavordb2/molecules?flavor_profile=pungent&page=1" class="text-capitalize">pungent</a>, 
+								
+								<a href="/flavordb2/molecules?flavor_profile=strong&page=1" class="text-capitalize">strong</a>
+								
+							</td> 
+							<td><button id="650" type="button" class="btn btn-info btn-xs molecules_details" data-toggle="modal" data-target="#molecules_details_modal">
+								More info.
+							</button></td> 
+						</tr>
+						
+						<tr>
+							<td class="text-capitalize">isoliquiritigenin</td> 
+							<td><a href="https://pubchem.ncbi.nlm.nih.gov/compound/638278" target="_blank">638278</a></td> 
+							<td>
+								
+								<a href="/flavordb2/molecules?flavor_profile=bitter&page=1" class="text-capitalize">bitter</a>
+								
+							</td> 
+							<td><button id="638278" type="button" class="btn btn-info btn-xs molecules_details" data-toggle="modal" data-target="#molecules_details_modal">
+								More info.
+							</button></td> 
+						</tr>
+						
+						<tr>
+							<td class="text-capitalize">Cinnamic Acid</td> 
+							<td><a href="https://pubchem.ncbi.nlm.nih.gov/compound/444539" target="_blank">444539</a></td> 
+							<td>
+								
+								<a href="/flavordb2/molecules?flavor_profile=storax&page=1" class="text-capitalize">storax</a>, 
+								
+								<a href="/flavordb2/molecules?flavor_profile=sweet&page=1" class="text-capitalize">sweet</a>, 
+								
+								<a href="/flavordb2/molecules?flavor_profile=honey&page=1" class="text-capitalize">honey</a>, 
+								
+								<a href="/flavordb2/molecules?flavor_profile=balsam&page=1" class="text-capitalize">balsam</a>
+								
+							</td> 
+							<td><button id="444539" type="button" class="btn btn-info btn-xs molecules_details" data-toggle="modal" data-target="#molecules_details_modal">
+								More info.
+							</button></td> 
+						</tr>
+						
+						<tr>
+							<td class="text-capitalize">Farnesal</td> 
+							<td><a href="https://pubchem.ncbi.nlm.nih.gov/compound/5280598" target="_blank">5280598</a></td> 
+							<td>
+								
+								<a href="/flavordb2/molecules?flavor_profile=floral&page=1" class="text-capitalize">floral</a>, 
+								
+								<a href="/flavordb2/molecules?flavor_profile=minty&page=1" class="text-capitalize">minty</a>
+								
+							</td> 
+							<td><button id="5280598" type="button" class="btn btn-info btn-xs molecules_details" data-toggle="modal" data-target="#molecules_details_modal">
+								More info.
+							</button></td> 
+						</tr>
+						
+						<tr>
+							<td class="text-capitalize">3,4-Dihydroxybenzaldehyde</td> 
+							<td><a href="https://pubchem.ncbi.nlm.nih.gov/compound/8768" target="_blank">8768</a></td> 
+							<td>
+								
+								<a href="/flavordb2/molecules?flavor_profile=almond&page=1" class="text-capitalize">almond</a>, 
+								
+								<a href="/flavordb2/molecules?flavor_profile=medical&page=1" class="text-capitalize">medical</a>, 
+								
+								<a href="/flavordb2/molecules?flavor_profile=bitter&page=1" class="text-capitalize">bitter</a>, 
+								
+								<a href="/flavordb2/molecules?flavor_profile=dry&page=1" class="text-capitalize">dry</a>
+								
+							</td> 
+							<td><button id="8768" type="button" class="btn btn-info btn-xs molecules_details" data-toggle="modal" data-target="#molecules_details_modal">
+								More info.
+							</button></td> 
+						</tr>
+						
+						<tr>
+							<td class="text-capitalize">propionic acid</td> 
+							<td><a href="https://pubchem.ncbi.nlm.nih.gov/compound/1032" target="_blank">1032</a></td> 
+							<td>
+								
+								<a href="/flavordb2/molecules?flavor_profile=cheesy&page=1" class="text-capitalize">cheesy</a>, 
+								
+								<a href="/flavordb2/molecules?flavor_profile=soy&page=1" class="text-capitalize">soy</a>, 
+								
+								<a href="/flavordb2/molecules?flavor_profile=acidic&page=1" class="text-capitalize">acidic</a>, 
+								
+								<a href="/flavordb2/molecules?flavor_profile=vinegar&page=1" class="text-capitalize">vinegar</a>, 
+								
+								<a href="/flavordb2/molecules?flavor_profile=rancid&page=1" class="text-capitalize">rancid</a>, 
+								
+								<a href="/flavordb2/molecules?flavor_profile=pungent&page=1" class="text-capitalize">pungent</a>
+								
+							</td> 
+							<td><button id="1032" type="button" class="btn btn-info btn-xs molecules_details" data-toggle="modal" data-target="#molecules_details_modal">
+								More info.
+							</button></td> 
+						</tr>
+						
+						<tr>
+							<td class="text-capitalize">3-Methylbutanal</td> 
+							<td><a href="https://pubchem.ncbi.nlm.nih.gov/compound/11552" target="_blank">11552</a></td> 
+							<td>
+								
+								<a href="/flavordb2/molecules?flavor_profile=peach&page=1" class="text-capitalize">peach</a>, 
+								
+								<a href="/flavordb2/molecules?flavor_profile=sour&page=1" class="text-capitalize">sour</a>, 
+								
+								<a href="/flavordb2/molecules?flavor_profile=chocolate&page=1" class="text-capitalize">chocolate</a>, 
+								
+								<a href="/flavordb2/molecules?flavor_profile=ethereal&page=1" class="text-capitalize">ethereal</a>, 
+								
+								<a href="/flavordb2/molecules?flavor_profile=malt&page=1" class="text-capitalize">malt</a>, 
+								
+								<a href="/flavordb2/molecules?flavor_profile=fatty&page=1" class="text-capitalize">fatty</a>, 
+								
+								<a href="/flavordb2/molecules?flavor_profile=aldehydic&page=1" class="text-capitalize">aldehydic</a>
+								
+							</td> 
+							<td><button id="11552" type="button" class="btn btn-info btn-xs molecules_details" data-toggle="modal" data-target="#molecules_details_modal">
+								More info.
+							</button></td> 
+						</tr>
+						
+						<tr>
+							<td class="text-capitalize">farnesol</td> 
+							<td><a href="https://pubchem.ncbi.nlm.nih.gov/compound/445070" target="_blank">445070</a></td> 
+							<td>
+								
+								<a href="/flavordb2/molecules?flavor_profile=orange&page=1" class="text-capitalize">orange</a>, 
+								
+								<a href="/flavordb2/molecules?flavor_profile=linden&page=1" class="text-capitalize">linden</a>, 
+								
+								<a href="/flavordb2/molecules?flavor_profile=mild&page=1" class="text-capitalize">mild</a>, 
+								
+								<a href="/flavordb2/molecules?flavor_profile=clove&page=1" class="text-capitalize">clove</a>, 
+								
+								<a href="/flavordb2/molecules?flavor_profile=fresh&page=1" class="text-capitalize">fresh</a>, 
+								
+								<a href="/flavordb2/molecules?flavor_profile=waxy&page=1" class="text-capitalize">waxy</a>, 
+								
+								<a href="/flavordb2/molecules?flavor_profile=floral&page=1" class="text-capitalize">floral</a>, 
+								
+								<a href="/flavordb2/molecules?flavor_profile=muguet&page=1" class="text-capitalize">muguet</a>, 
+								
+								<a href="/flavordb2/molecules?flavor_profile=sweet&page=1" class="text-capitalize">sweet</a>, 
+								
+								<a href="/flavordb2/molecules?flavor_profile=anise&page=1" class="text-capitalize">anise</a>, 
+								
+								<a href="/flavordb2/molecules?flavor_profile=lily&page=1" class="text-capitalize">lily</a>, 
+								
+								<a href="/flavordb2/molecules?flavor_profile=balsam&page=1" class="text-capitalize">balsam</a>, 
+								
+								<a href="/flavordb2/molecules?flavor_profile=angelica&page=1" class="text-capitalize">angelica</a>, 
+								
+								<a href="/flavordb2/molecules?flavor_profile=pear&page=1" class="text-capitalize">pear</a>, 
+								
+								<a href="/flavordb2/molecules?flavor_profile=grapefruit&page=1" class="text-capitalize">grapefruit</a>
+								
+							</td> 
+							<td><button id="445070" type="button" class="btn btn-info btn-xs molecules_details" data-toggle="modal" data-target="#molecules_details_modal">
+								More info.
+							</button></td> 
+						</tr>
+						
+						<tr>
+							<td class="text-capitalize">Daidzin</td> 
+							<td><a href="https://pubchem.ncbi.nlm.nih.gov/compound/107971" target="_blank">107971</a></td> 
+							<td>
+								
+								<a href="/flavordb2/molecules?flavor_profile=bitter&page=1" class="text-capitalize">bitter</a>
+								
+							</td> 
+							<td><button id="107971" type="button" class="btn btn-info btn-xs molecules_details" data-toggle="modal" data-target="#molecules_details_modal">
+								More info.
+							</button></td> 
+						</tr>
+						
+						<tr>
+							<td class="text-capitalize">2-Methylbutyraldehyde</td> 
+							<td><a href="https://pubchem.ncbi.nlm.nih.gov/compound/7284" target="_blank">7284</a></td> 
+							<td>
+								
+								<a href="/flavordb2/molecules?flavor_profile=musty&page=1" class="text-capitalize">musty</a>, 
+								
+								<a href="/flavordb2/molecules?flavor_profile=coffee&page=1" class="text-capitalize">coffee</a>, 
+								
+								<a href="/flavordb2/molecules?flavor_profile=cocoa&page=1" class="text-capitalize">cocoa</a>, 
+								
+								<a href="/flavordb2/molecules?flavor_profile=nutty&page=1" class="text-capitalize">nutty</a>, 
+								
+								<a href="/flavordb2/molecules?flavor_profile=almond&page=1" class="text-capitalize">almond</a>
+								
+							</td> 
+							<td><button id="7284" type="button" class="btn btn-info btn-xs molecules_details" data-toggle="modal" data-target="#molecules_details_modal">
+								More info.
+							</button></td> 
+						</tr>
+						
+						<tr>
+							<td class="text-capitalize">3-methylthiopropanol</td> 
+							<td><a href="https://pubchem.ncbi.nlm.nih.gov/compound/10448" target="_blank">10448</a></td> 
+							<td>
+								
+								<a href="/flavordb2/molecules?flavor_profile=sulfurous&page=1" class="text-capitalize">sulfurous</a>, 
+								
+								<a href="/flavordb2/molecules?flavor_profile=potato&page=1" class="text-capitalize">potato</a>, 
+								
+								<a href="/flavordb2/molecules?flavor_profile=onion&page=1" class="text-capitalize">onion</a>, 
+								
+								<a href="/flavordb2/molecules?flavor_profile=vegetable&page=1" class="text-capitalize">vegetable</a>, 
+								
+								<a href="/flavordb2/molecules?flavor_profile=sweet&page=1" class="text-capitalize">sweet</a>, 
+								
+								<a href="/flavordb2/molecules?flavor_profile=soup&page=1" class="text-capitalize">soup</a>
+								
+							</td> 
+							<td><button id="10448" type="button" class="btn btn-info btn-xs molecules_details" data-toggle="modal" data-target="#molecules_details_modal">
+								More info.
+							</button></td> 
+						</tr>
+						
+						<tr>
+							<td class="text-capitalize">Citral</td> 
+							<td><a href="https://pubchem.ncbi.nlm.nih.gov/compound/638011" target="_blank">638011</a></td> 
+							<td>
+								
+								<a href="/flavordb2/molecules?flavor_profile=lemon&page=1" class="text-capitalize">lemon</a>, 
+								
+								<a href="/flavordb2/molecules?flavor_profile=citrus&page=1" class="text-capitalize">citrus</a>, 
+								
+								<a href="/flavordb2/molecules?flavor_profile=bitter&page=1" class="text-capitalize">bitter</a>, 
+								
+								<a href="/flavordb2/molecules?flavor_profile=sweet&page=1" class="text-capitalize">sweet</a>, 
+								
+								<a href="/flavordb2/molecules?flavor_profile=sharp&page=1" class="text-capitalize">sharp</a>, 
+								
+								<a href="/flavordb2/molecules?flavor_profile=mint&page=1" class="text-capitalize">mint</a>
+								
+							</td> 
+							<td><button id="638011" type="button" class="btn btn-info btn-xs molecules_details" data-toggle="modal" data-target="#molecules_details_modal">
+								More info.
+							</button></td> 
+						</tr>
+						
+						<tr>
+							<td class="text-capitalize">2-Methyl-1-propanol</td> 
+							<td><a href="https://pubchem.ncbi.nlm.nih.gov/compound/6560" target="_blank">6560</a></td> 
+							<td>
+								
+								<a href="/flavordb2/molecules?flavor_profile=solvent&page=1" class="text-capitalize">solvent</a>, 
+								
+								<a href="/flavordb2/molecules?flavor_profile=ether&page=1" class="text-capitalize">ether</a>, 
+								
+								<a href="/flavordb2/molecules?flavor_profile=wine&page=1" class="text-capitalize">wine</a>, 
+								
+								<a href="/flavordb2/molecules?flavor_profile=bitter&page=1" class="text-capitalize">bitter</a>
+								
+							</td> 
+							<td><button id="6560" type="button" class="btn btn-info btn-xs molecules_details" data-toggle="modal" data-target="#molecules_details_modal">
+								More info.
+							</button></td> 
+						</tr>
+						
+						<tr>
+							<td class="text-capitalize">formic acid</td> 
+							<td><a href="https://pubchem.ncbi.nlm.nih.gov/compound/284" target="_blank">284</a></td> 
+							<td>
+								
+								<a href="/flavordb2/molecules?flavor_profile=pungent&page=1" class="text-capitalize">pungent</a>, 
+								
+								<a href="/flavordb2/molecules?flavor_profile=vinegar&page=1" class="text-capitalize">vinegar</a>, 
+								
+								<a href="/flavordb2/molecules?flavor_profile=formyl&page=1" class="text-capitalize">formyl</a>
+								
+							</td> 
+							<td><button id="284" type="button" class="btn btn-info btn-xs molecules_details" data-toggle="modal" data-target="#molecules_details_modal">
+								More info.
+							</button></td> 
+						</tr>
+						
+						<tr>
+							<td class="text-capitalize">palmitic acid</td> 
+							<td><a href="https://pubchem.ncbi.nlm.nih.gov/compound/985" target="_blank">985</a></td> 
+							<td>
+								
+								<a href="/flavordb2/molecules?flavor_profile=fatty&page=1" class="text-capitalize">fatty</a>, 
+								
+								<a href="/flavordb2/molecules?flavor_profile=slightly%20waxy&page=1" class="text-capitalize">slightly waxy</a>
+								
+							</td> 
+							<td><button id="985" type="button" class="btn btn-info btn-xs molecules_details" data-toggle="modal" data-target="#molecules_details_modal">
+								More info.
+							</button></td> 
+						</tr>
+						
+						<tr>
+							<td class="text-capitalize">Isobutyric Acid</td> 
+							<td><a href="https://pubchem.ncbi.nlm.nih.gov/compound/6590" target="_blank">6590</a></td> 
+							<td>
+								
+								<a href="/flavordb2/molecules?flavor_profile=rancid&page=1" class="text-capitalize">rancid</a>, 
+								
+								<a href="/flavordb2/molecules?flavor_profile=butter&page=1" class="text-capitalize">butter</a>, 
+								
+								<a href="/flavordb2/molecules?flavor_profile=strawberry&page=1" class="text-capitalize">strawberry</a>, 
+								
+								<a href="/flavordb2/molecules?flavor_profile=cheese&page=1" class="text-capitalize">cheese</a>
+								
+							</td> 
+							<td><button id="6590" type="button" class="btn btn-info btn-xs molecules_details" data-toggle="modal" data-target="#molecules_details_modal">
+								More info.
+							</button></td> 
+						</tr>
+						
+						<tr>
+							<td class="text-capitalize">Methyl Acetate</td> 
+							<td><a href="https://pubchem.ncbi.nlm.nih.gov/compound/6584" target="_blank">6584</a></td> 
+							<td>
+								
+								<a href="/flavordb2/molecules?flavor_profile=sweet&page=1" class="text-capitalize">sweet</a>, 
+								
+								<a href="/flavordb2/molecules?flavor_profile=bitter&page=1" class="text-capitalize">bitter</a>, 
+								
+								<a href="/flavordb2/molecules?flavor_profile=ether&page=1" class="text-capitalize">ether</a>, 
+								
+								<a href="/flavordb2/molecules?flavor_profile=fruity&page=1" class="text-capitalize">fruity</a>
+								
+							</td> 
+							<td><button id="6584" type="button" class="btn btn-info btn-xs molecules_details" data-toggle="modal" data-target="#molecules_details_modal">
+								More info.
+							</button></td> 
+						</tr>
+						
+						<tr>
+							<td class="text-capitalize">Methyl jasmonate</td> 
+							<td><a href="https://pubchem.ncbi.nlm.nih.gov/compound/5367719" target="_blank">5367719</a></td> 
+							<td>
+								
+								<a href="/flavordb2/molecules?flavor_profile=magnolia&page=1" class="text-capitalize">magnolia</a>, 
+								
+								<a href="/flavordb2/molecules?flavor_profile=jasmine&page=1" class="text-capitalize">jasmine</a>, 
+								
+								<a href="/flavordb2/molecules?flavor_profile=fresh&page=1" class="text-capitalize">fresh</a>, 
+								
+								<a href="/flavordb2/molecules?flavor_profile=waxy&page=1" class="text-capitalize">waxy</a>, 
+								
+								<a href="/flavordb2/molecules?flavor_profile=floral&page=1" class="text-capitalize">floral</a>, 
+								
+								<a href="/flavordb2/molecules?flavor_profile=oily&page=1" class="text-capitalize">oily</a>, 
+								
+								<a href="/flavordb2/molecules?flavor_profile=melon&page=1" class="text-capitalize">melon</a>, 
+								
+								<a href="/flavordb2/molecules?flavor_profile=petal&page=1" class="text-capitalize">petal</a>
+								
+							</td> 
+							<td><button id="5367719" type="button" class="btn btn-info btn-xs molecules_details" data-toggle="modal" data-target="#molecules_details_modal">
+								More info.
+							</button></td> 
+						</tr>
+						
+						<tr>
+							<td class="text-capitalize">3,4-Dihydroxybenzoic Acid</td> 
+							<td><a href="https://pubchem.ncbi.nlm.nih.gov/compound/72" target="_blank">72</a></td> 
+							<td>
+								
+								<a href="/flavordb2/molecules?flavor_profile=phenolic&page=1" class="text-capitalize">phenolic</a>, 
+								
+								<a href="/flavordb2/molecules?flavor_profile=balsamic&page=1" class="text-capitalize">balsamic</a>, 
+								
+								<a href="/flavordb2/molecules?flavor_profile=mild&page=1" class="text-capitalize">mild</a>
+								
+							</td> 
+							<td><button id="72" type="button" class="btn btn-info btn-xs molecules_details" data-toggle="modal" data-target="#molecules_details_modal">
+								More info.
+							</button></td> 
+						</tr>
+						
+						<tr>
+							<td class="text-capitalize">nicotine</td> 
+							<td><a href="https://pubchem.ncbi.nlm.nih.gov/compound/89594" target="_blank">89594</a></td> 
+							<td>
+								
+								<a href="/flavordb2/molecules?flavor_profile=bitter&page=1" class="text-capitalize">bitter</a>
+								
+							</td> 
+							<td><button id="89594" type="button" class="btn btn-info btn-xs molecules_details" data-toggle="modal" data-target="#molecules_details_modal">
+								More info.
+							</button></td> 
+						</tr>
+						
+						<tr>
+							<td class="text-capitalize">kaempferol</td> 
+							<td><a href="https://pubchem.ncbi.nlm.nih.gov/compound/5280863" target="_blank">5280863</a></td> 
+							<td>
+								
+								<a href="/flavordb2/molecules?flavor_profile=bitter&page=1" class="text-capitalize">bitter</a>
+								
+							</td> 
+							<td><button id="5280863" type="button" class="btn btn-info btn-xs molecules_details" data-toggle="modal" data-target="#molecules_details_modal">
+								More info.
+							</button></td> 
+						</tr>
+						
+						<tr>
+							<td class="text-capitalize">1-Hexanol</td> 
+							<td><a href="https://pubchem.ncbi.nlm.nih.gov/compound/8103" target="_blank">8103</a></td> 
+							<td>
+								
+								<a href="/flavordb2/molecules?flavor_profile=oil&page=1" class="text-capitalize">oil</a>, 
+								
+								<a href="/flavordb2/molecules?flavor_profile=alcoholic&page=1" class="text-capitalize">alcoholic</a>, 
+								
+								<a href="/flavordb2/molecules?flavor_profile=ethereal&page=1" class="text-capitalize">ethereal</a>, 
+								
+								<a href="/flavordb2/molecules?flavor_profile=resin&page=1" class="text-capitalize">resin</a>, 
+								
+								<a href="/flavordb2/molecules?flavor_profile=fusel&page=1" class="text-capitalize">fusel</a>, 
+								
+								<a href="/flavordb2/molecules?flavor_profile=sweet&page=1" class="text-capitalize">sweet</a>, 
+								
+								<a href="/flavordb2/molecules?flavor_profile=fruity&page=1" class="text-capitalize">fruity</a>, 
+								
+								<a href="/flavordb2/molecules?flavor_profile=flower&page=1" class="text-capitalize">flower</a>, 
+								
+								<a href="/flavordb2/molecules?flavor_profile=green&page=1" class="text-capitalize">green</a>
+								
+							</td> 
+							<td><button id="8103" type="button" class="btn btn-info btn-xs molecules_details" data-toggle="modal" data-target="#molecules_details_modal">
+								More info.
+							</button></td> 
+						</tr>
+						
+						<tr>
+							<td class="text-capitalize">hydrogen sulfide</td> 
+							<td><a href="https://pubchem.ncbi.nlm.nih.gov/compound/402" target="_blank">402</a></td> 
+							<td>
+								
+								<a href="/flavordb2/molecules?flavor_profile=egg&page=1" class="text-capitalize">egg</a>, 
+								
+								<a href="/flavordb2/molecules?flavor_profile=rotten&page=1" class="text-capitalize">rotten</a>
+								
+							</td> 
+							<td><button id="402" type="button" class="btn btn-info btn-xs molecules_details" data-toggle="modal" data-target="#molecules_details_modal">
+								More info.
+							</button></td> 
+						</tr>
+						
+						<tr>
+							<td class="text-capitalize">Isovaleric Acid</td> 
+							<td><a href="https://pubchem.ncbi.nlm.nih.gov/compound/10430" target="_blank">10430</a></td> 
+							<td>
+								
+								<a href="/flavordb2/molecules?flavor_profile=sour&page=1" class="text-capitalize">sour</a>, 
+								
+								<a href="/flavordb2/molecules?flavor_profile=sweat&page=1" class="text-capitalize">sweat</a>, 
+								
+								<a href="/flavordb2/molecules?flavor_profile=acid&page=1" class="text-capitalize">acid</a>, 
+								
+								<a href="/flavordb2/molecules?flavor_profile=stinky&page=1" class="text-capitalize">stinky</a>, 
+								
+								<a href="/flavordb2/molecules?flavor_profile=sweaty&page=1" class="text-capitalize">sweaty</a>, 
+								
+								<a href="/flavordb2/molecules?flavor_profile=animal&page=1" class="text-capitalize">animal</a>, 
+								
+								<a href="/flavordb2/molecules?flavor_profile=rancid&page=1" class="text-capitalize">rancid</a>, 
+								
+								<a href="/flavordb2/molecules?flavor_profile=tropical&page=1" class="text-capitalize">tropical</a>, 
+								
+								<a href="/flavordb2/molecules?flavor_profile=feet&page=1" class="text-capitalize">feet</a>, 
+								
+								<a href="/flavordb2/molecules?flavor_profile=cheese&page=1" class="text-capitalize">cheese</a>
+								
+							</td> 
+							<td><button id="10430" type="button" class="btn btn-info btn-xs molecules_details" data-toggle="modal" data-target="#molecules_details_modal">
+								More info.
+							</button></td> 
+						</tr>
+						
+						<tr>
+							<td class="text-capitalize">CID 644104</td> 
+							<td><a href="https://pubchem.ncbi.nlm.nih.gov/compound/644104" target="_blank">644104</a></td> 
+							<td>
+								
+								<a href="/flavordb2/molecules?flavor_profile=grassy&page=1" class="text-capitalize">grassy</a>, 
+								
+								<a href="/flavordb2/molecules?flavor_profile=very%20mild&page=1" class="text-capitalize">very mild</a>
+								
+							</td> 
+							<td><button id="644104" type="button" class="btn btn-info btn-xs molecules_details" data-toggle="modal" data-target="#molecules_details_modal">
+								More info.
+							</button></td> 
+						</tr>
+						
+						<tr>
+							<td class="text-capitalize">Taxifolin</td> 
+							<td><a href="https://pubchem.ncbi.nlm.nih.gov/compound/439533" target="_blank">439533</a></td> 
+							<td>
+								
+								<a href="/flavordb2/molecules?flavor_profile=bitter&page=1" class="text-capitalize">bitter</a>
+								
+							</td> 
+							<td><button id="439533" type="button" class="btn btn-info btn-xs molecules_details" data-toggle="modal" data-target="#molecules_details_modal">
+								More info.
+							</button></td> 
+						</tr>
+						
+						<tr>
+							<td class="text-capitalize">D-mannitol</td> 
+							<td><a href="https://pubchem.ncbi.nlm.nih.gov/compound/6251" target="_blank">6251</a></td> 
+							<td>
+								
+								<a href="/flavordb2/molecules?flavor_profile=odorless&page=1" class="text-capitalize">odorless</a>, 
+								
+								<a href="/flavordb2/molecules?flavor_profile=sweet&page=1" class="text-capitalize">sweet</a>
+								
+							</td> 
+							<td><button id="6251" type="button" class="btn btn-info btn-xs molecules_details" data-toggle="modal" data-target="#molecules_details_modal">
+								More info.
+							</button></td> 
+						</tr>
+						
+						<tr>
+							<td class="text-capitalize">2-Pentanone</td> 
+							<td><a href="https://pubchem.ncbi.nlm.nih.gov/compound/7895" target="_blank">7895</a></td> 
+							<td>
+								
+								<a href="/flavordb2/molecules?flavor_profile=potato&page=1" class="text-capitalize">potato</a>, 
+								
+								<a href="/flavordb2/molecules?flavor_profile=alcohol&page=1" class="text-capitalize">alcohol</a>, 
+								
+								<a href="/flavordb2/molecules?flavor_profile=ether&page=1" class="text-capitalize">ether</a>, 
+								
+								<a href="/flavordb2/molecules?flavor_profile=ethereal&page=1" class="text-capitalize">ethereal</a>, 
+								
+								<a href="/flavordb2/molecules?flavor_profile=wine&page=1" class="text-capitalize">wine</a>, 
+								
+								<a href="/flavordb2/molecules?flavor_profile=banana&page=1" class="text-capitalize">banana</a>, 
+								
+								<a href="/flavordb2/molecules?flavor_profile=fishy&page=1" class="text-capitalize">fishy</a>, 
+								
+								<a href="/flavordb2/molecules?flavor_profile=fruit&page=1" class="text-capitalize">fruit</a>, 
+								
+								<a href="/flavordb2/molecules?flavor_profile=sweet&page=1" class="text-capitalize">sweet</a>, 
+								
+								<a href="/flavordb2/molecules?flavor_profile=woody&page=1" class="text-capitalize">woody</a>, 
+								
+								<a href="/flavordb2/molecules?flavor_profile=fruity&page=1" class="text-capitalize">fruity</a>
+								
+							</td> 
+							<td><button id="7895" type="button" class="btn btn-info btn-xs molecules_details" data-toggle="modal" data-target="#molecules_details_modal">
+								More info.
+							</button></td> 
+						</tr>
+						
+						<tr>
+							<td class="text-capitalize">indole-3-acetic acid</td> 
+							<td><a href="https://pubchem.ncbi.nlm.nih.gov/compound/802" target="_blank">802</a></td> 
+							<td>
+								
+								<a href="/flavordb2/molecules?flavor_profile=sour&page=1" class="text-capitalize">sour</a>, 
+								
+								<a href="/flavordb2/molecules?flavor_profile=odorless&page=1" class="text-capitalize">odorless</a>, 
+								
+								<a href="/flavordb2/molecules?flavor_profile=mild&page=1" class="text-capitalize">mild</a>
+								
+							</td> 
+							<td><button id="802" type="button" class="btn btn-info btn-xs molecules_details" data-toggle="modal" data-target="#molecules_details_modal">
+								More info.
+							</button></td> 
+						</tr>
+						
+						<tr>
+							<td class="text-capitalize">3-Methyl-2-oxobutanoic acid</td> 
+							<td><a href="https://pubchem.ncbi.nlm.nih.gov/compound/49" target="_blank">49</a></td> 
+							<td>
+								
+								<a href="/flavordb2/molecules?flavor_profile=fruity&page=1" class="text-capitalize">fruity</a>
+								
+							</td> 
+							<td><button id="49" type="button" class="btn btn-info btn-xs molecules_details" data-toggle="modal" data-target="#molecules_details_modal">
+								More info.
+							</button></td> 
+						</tr>
+						
+						<tr>
+							<td class="text-capitalize">1-Pyrroline</td> 
+							<td><a href="https://pubchem.ncbi.nlm.nih.gov/compound/79803" target="_blank">79803</a></td> 
+							<td>
+								
+								<a href="/flavordb2/molecules?flavor_profile=shrimp&page=1" class="text-capitalize">shrimp</a>, 
+								
+								<a href="/flavordb2/molecules?flavor_profile=ammoniacal&page=1" class="text-capitalize">ammoniacal</a>
+								
+							</td> 
+							<td><button id="79803" type="button" class="btn btn-info btn-xs molecules_details" data-toggle="modal" data-target="#molecules_details_modal">
+								More info.
+							</button></td> 
+						</tr>
+						
+						<tr>
+							<td class="text-capitalize">ethyl acetoacetate</td> 
+							<td><a href="https://pubchem.ncbi.nlm.nih.gov/compound/8868" target="_blank">8868</a></td> 
+							<td>
+								
+								<a href="/flavordb2/molecules?flavor_profile=apple&page=1" class="text-capitalize">apple</a>, 
+								
+								<a href="/flavordb2/molecules?flavor_profile=fresh&page=1" class="text-capitalize">fresh</a>, 
+								
+								<a href="/flavordb2/molecules?flavor_profile=fatty&page=1" class="text-capitalize">fatty</a>, 
+								
+								<a href="/flavordb2/molecules?flavor_profile=fruity&page=1" class="text-capitalize">fruity</a>, 
+								
+								<a href="/flavordb2/molecules?flavor_profile=green&page=1" class="text-capitalize">green</a>
+								
+							</td> 
+							<td><button id="8868" type="button" class="btn btn-info btn-xs molecules_details" data-toggle="modal" data-target="#molecules_details_modal">
+								More info.
+							</button></td> 
+						</tr>
+						
+						<tr>
+							<td class="text-capitalize">Menthone</td> 
+							<td><a href="https://pubchem.ncbi.nlm.nih.gov/compound/26447" target="_blank">26447</a></td> 
+							<td>
+								
+								<a href="/flavordb2/molecules?flavor_profile=menthol&page=1" class="text-capitalize">menthol</a>, 
+								
+								<a href="/flavordb2/molecules?flavor_profile=camphor&page=1" class="text-capitalize">camphor</a>, 
+								
+								<a href="/flavordb2/molecules?flavor_profile=peppermint&page=1" class="text-capitalize">peppermint</a>, 
+								
+								<a href="/flavordb2/molecules?flavor_profile=deep&page=1" class="text-capitalize">deep</a>, 
+								
+								<a href="/flavordb2/molecules?flavor_profile=herbal&page=1" class="text-capitalize">herbal</a>, 
+								
+								<a href="/flavordb2/molecules?flavor_profile=raspberry&page=1" class="text-capitalize">raspberry</a>, 
+								
+								<a href="/flavordb2/molecules?flavor_profile=bitter&page=1" class="text-capitalize">bitter</a>, 
+								
+								<a href="/flavordb2/molecules?flavor_profile=camphoraceous&page=1" class="text-capitalize">camphoraceous</a>
+								
+							</td> 
+							<td><button id="26447" type="button" class="btn btn-info btn-xs molecules_details" data-toggle="modal" data-target="#molecules_details_modal">
+								More info.
+							</button></td> 
+						</tr>
+						
+						<tr>
+							<td class="text-capitalize">Geranyl Acetate</td> 
+							<td><a href="https://pubchem.ncbi.nlm.nih.gov/compound/1549026" target="_blank">1549026</a></td> 
+							<td>
+								
+								<a href="/flavordb2/molecules?flavor_profile=waxy&page=1" class="text-capitalize">waxy</a>, 
+								
+								<a href="/flavordb2/molecules?flavor_profile=rose&page=1" class="text-capitalize">rose</a>, 
+								
+								<a href="/flavordb2/molecules?flavor_profile=lavender&page=1" class="text-capitalize">lavender</a>, 
+								
+								<a href="/flavordb2/molecules?flavor_profile=green&page=1" class="text-capitalize">green</a>, 
+								
+								<a href="/flavordb2/molecules?flavor_profile=floral&page=1" class="text-capitalize">floral</a>, 
+								
+								<a href="/flavordb2/molecules?flavor_profile=bitter&page=1" class="text-capitalize">bitter</a>
+								
+							</td> 
+							<td><button id="1549026" type="button" class="btn btn-info btn-xs molecules_details" data-toggle="modal" data-target="#molecules_details_modal">
+								More info.
+							</button></td> 
+						</tr>
+						
+						<tr>
+							<td class="text-capitalize">cis-3-Hexenyl acetate</td> 
+							<td><a href="https://pubchem.ncbi.nlm.nih.gov/compound/5363388" target="_blank">5363388</a></td> 
+							<td>
+								
+								<a href="/flavordb2/molecules?flavor_profile=apple&page=1" class="text-capitalize">apple</a>, 
+								
+								<a href="/flavordb2/molecules?flavor_profile=fresh&page=1" class="text-capitalize">fresh</a>, 
+								
+								<a href="/flavordb2/molecules?flavor_profile=banana&page=1" class="text-capitalize">banana</a>, 
+								
+								<a href="/flavordb2/molecules?flavor_profile=sweet&page=1" class="text-capitalize">sweet</a>, 
+								
+								<a href="/flavordb2/molecules?flavor_profile=fruity&page=1" class="text-capitalize">fruity</a>, 
+								
+								<a href="/flavordb2/molecules?flavor_profile=grassy&page=1" class="text-capitalize">grassy</a>, 
+								
+								<a href="/flavordb2/molecules?flavor_profile=green&page=1" class="text-capitalize">green</a>
+								
+							</td> 
+							<td><button id="5363388" type="button" class="btn btn-info btn-xs molecules_details" data-toggle="modal" data-target="#molecules_details_modal">
+								More info.
+							</button></td> 
+						</tr>
+						
+						<tr>
+							<td class="text-capitalize">Acetylpyrazine</td> 
+							<td><a href="https://pubchem.ncbi.nlm.nih.gov/compound/30914" target="_blank">30914</a></td> 
+							<td>
+								
+								<a href="/flavordb2/molecules?flavor_profile=tomato&page=1" class="text-capitalize">tomato</a>, 
+								
+								<a href="/flavordb2/molecules?flavor_profile=coffee&page=1" class="text-capitalize">coffee</a>, 
+								
+								<a href="/flavordb2/molecules?flavor_profile=corn&page=1" class="text-capitalize">corn</a>, 
+								
+								<a href="/flavordb2/molecules?flavor_profile=chocolate&page=1" class="text-capitalize">chocolate</a>, 
+								
+								<a href="/flavordb2/molecules?flavor_profile=nutty&page=1" class="text-capitalize">nutty</a>, 
+								
+								<a href="/flavordb2/molecules?flavor_profile=bread%20crust&page=1" class="text-capitalize">bread crust</a>, 
+								
+								<a href="/flavordb2/molecules?flavor_profile=roast&page=1" class="text-capitalize">roast</a>, 
+								
+								<a href="/flavordb2/molecules?flavor_profile=hazelnut&page=1" class="text-capitalize">hazelnut</a>, 
+								
+								<a href="/flavordb2/molecules?flavor_profile=popcorn&page=1" class="text-capitalize">popcorn</a>, 
+								
+								<a href="/flavordb2/molecules?flavor_profile=bitter&page=1" class="text-capitalize">bitter</a>, 
+								
+								<a href="/flavordb2/molecules?flavor_profile=chip&page=1" class="text-capitalize">chip</a>
+								
+							</td> 
+							<td><button id="30914" type="button" class="btn btn-info btn-xs molecules_details" data-toggle="modal" data-target="#molecules_details_modal">
+								More info.
+							</button></td> 
+						</tr>
+						
+						<tr>
+							<td class="text-capitalize">Allyl Alcohol</td> 
+							<td><a href="https://pubchem.ncbi.nlm.nih.gov/compound/7858" target="_blank">7858</a></td> 
+							<td>
+								
+								<a href="/flavordb2/molecules?flavor_profile=mustard&page=1" class="text-capitalize">mustard</a>, 
+								
+								<a href="/flavordb2/molecules?flavor_profile=pungent&page=1" class="text-capitalize">pungent</a>
+								
+							</td> 
+							<td><button id="7858" type="button" class="btn btn-info btn-xs molecules_details" data-toggle="modal" data-target="#molecules_details_modal">
+								More info.
+							</button></td> 
+						</tr>
+						
+						<tr>
+							<td class="text-capitalize">Pyrrolidine</td> 
+							<td><a href="https://pubchem.ncbi.nlm.nih.gov/compound/31268" target="_blank">31268</a></td> 
+							<td>
+								
+								<a href="/flavordb2/molecules?flavor_profile=alkaline&page=1" class="text-capitalize">alkaline</a>, 
+								
+								<a href="/flavordb2/molecules?flavor_profile=egg&page=1" class="text-capitalize">egg</a>, 
+								
+								<a href="/flavordb2/molecules?flavor_profile=animal&page=1" class="text-capitalize">animal</a>, 
+								
+								<a href="/flavordb2/molecules?flavor_profile=ammoniacal&page=1" class="text-capitalize">ammoniacal</a>, 
+								
+								<a href="/flavordb2/molecules?flavor_profile=amine&page=1" class="text-capitalize">amine</a>
+								
+							</td> 
+							<td><button id="31268" type="button" class="btn btn-info btn-xs molecules_details" data-toggle="modal" data-target="#molecules_details_modal">
+								More info.
+							</button></td> 
+						</tr>
+						
+						<tr>
+							<td class="text-capitalize">naringenin</td> 
+							<td><a href="https://pubchem.ncbi.nlm.nih.gov/compound/439246" target="_blank">439246</a></td> 
+							<td>
+								
+								<a href="/flavordb2/molecules?flavor_profile=bitter&page=1" class="text-capitalize">bitter</a>
+								
+							</td> 
+							<td><button id="439246" type="button" class="btn btn-info btn-xs molecules_details" data-toggle="modal" data-target="#molecules_details_modal">
+								More info.
+							</button></td> 
+						</tr>
+						
+						<tr>
+							<td class="text-capitalize">Isobutyraldehyde</td> 
+							<td><a href="https://pubchem.ncbi.nlm.nih.gov/compound/6561" target="_blank">6561</a></td> 
+							<td>
+								
+								<a href="/flavordb2/molecules?flavor_profile=malt&page=1" class="text-capitalize">malt</a>, 
+								
+								<a href="/flavordb2/molecules?flavor_profile=fresh&page=1" class="text-capitalize">fresh</a>, 
+								
+								<a href="/flavordb2/molecules?flavor_profile=floral&page=1" class="text-capitalize">floral</a>, 
+								
+								<a href="/flavordb2/molecules?flavor_profile=pungent&page=1" class="text-capitalize">pungent</a>, 
+								
+								<a href="/flavordb2/molecules?flavor_profile=aldehydic&page=1" class="text-capitalize">aldehydic</a>, 
+								
+								<a href="/flavordb2/molecules?flavor_profile=green&page=1" class="text-capitalize">green</a>
+								
+							</td> 
+							<td><button id="6561" type="button" class="btn btn-info btn-xs molecules_details" data-toggle="modal" data-target="#molecules_details_modal">
+								More info.
+							</button></td> 
+						</tr>
+						
+						<tr>
+							<td class="text-capitalize">6-Methyl-5-Hepten-2-One</td> 
+							<td><a href="https://pubchem.ncbi.nlm.nih.gov/compound/9862" target="_blank">9862</a></td> 
+							<td>
+								
+								<a href="/flavordb2/molecules?flavor_profile=pepper&page=1" class="text-capitalize">pepper</a>, 
+								
+								<a href="/flavordb2/molecules?flavor_profile=apple&page=1" class="text-capitalize">apple</a>, 
+								
+								<a href="/flavordb2/molecules?flavor_profile=mushroom&page=1" class="text-capitalize">mushroom</a>, 
+								
+								<a href="/flavordb2/molecules?flavor_profile=citrus&page=1" class="text-capitalize">citrus</a>, 
+								
+								<a href="/flavordb2/molecules?flavor_profile=musty&page=1" class="text-capitalize">musty</a>, 
+								
+								<a href="/flavordb2/molecules?flavor_profile=rubber&page=1" class="text-capitalize">rubber</a>, 
+								
+								<a href="/flavordb2/molecules?flavor_profile=nutty&page=1" class="text-capitalize">nutty</a>, 
+								
+								<a href="/flavordb2/molecules?flavor_profile=green&page=1" class="text-capitalize">green</a>, 
+								
+								<a href="/flavordb2/molecules?flavor_profile=hazelnut&page=1" class="text-capitalize">hazelnut</a>, 
+								
+								<a href="/flavordb2/molecules?flavor_profile=bitter&page=1" class="text-capitalize">bitter</a>, 
+								
+								<a href="/flavordb2/molecules?flavor_profile=lemongrass&page=1" class="text-capitalize">lemongrass</a>
+								
+							</td> 
+							<td><button id="9862" type="button" class="btn btn-info btn-xs molecules_details" data-toggle="modal" data-target="#molecules_details_modal">
+								More info.
+							</button></td> 
+						</tr>
+						
+						<tr>
+							<td class="text-capitalize">3-(Methylthio)propionaldehyde</td> 
+							<td><a href="https://pubchem.ncbi.nlm.nih.gov/compound/18635" target="_blank">18635</a></td> 
+							<td>
+								
+								<a href="/flavordb2/molecules?flavor_profile=potato&page=1" class="text-capitalize">potato</a>, 
+								
+								<a href="/flavordb2/molecules?flavor_profile=vegetable&page=1" class="text-capitalize">vegetable</a>, 
+								
+								<a href="/flavordb2/molecules?flavor_profile=tomato&page=1" class="text-capitalize">tomato</a>, 
+								
+								<a href="/flavordb2/molecules?flavor_profile=fishy&page=1" class="text-capitalize">fishy</a>, 
+								
+								<a href="/flavordb2/molecules?flavor_profile=musty&page=1" class="text-capitalize">musty</a>, 
+								
+								<a href="/flavordb2/molecules?flavor_profile=earthy&page=1" class="text-capitalize">earthy</a>, 
+								
+								<a href="/flavordb2/molecules?flavor_profile=creamy&page=1" class="text-capitalize">creamy</a>, 
+								
+								<a href="/flavordb2/molecules?flavor_profile=peanut&page=1" class="text-capitalize">peanut</a>, 
+								
+								<a href="/flavordb2/molecules?flavor_profile=cooked%20potato&page=1" class="text-capitalize">cooked potato</a>, 
+								
+								<a href="/flavordb2/molecules?flavor_profile=beef&page=1" class="text-capitalize">beef</a>
+								
+							</td> 
+							<td><button id="18635" type="button" class="btn btn-info btn-xs molecules_details" data-toggle="modal" data-target="#molecules_details_modal">
+								More info.
+							</button></td> 
+						</tr>
+						
+						<tr>
+							<td class="text-capitalize">Octanal</td> 
+							<td><a href="https://pubchem.ncbi.nlm.nih.gov/compound/454" target="_blank">454</a></td> 
+							<td>
+								
+								<a href="/flavordb2/molecules?flavor_profile=lemon&page=1" class="text-capitalize">lemon</a>, 
+								
+								<a href="/flavordb2/molecules?flavor_profile=citrus&page=1" class="text-capitalize">citrus</a>, 
+								
+								<a href="/flavordb2/molecules?flavor_profile=soap&page=1" class="text-capitalize">soap</a>, 
+								
+								<a href="/flavordb2/molecules?flavor_profile=orange%20peel&page=1" class="text-capitalize">orange peel</a>, 
+								
+								<a href="/flavordb2/molecules?flavor_profile=fat&page=1" class="text-capitalize">fat</a>, 
+								
+								<a href="/flavordb2/molecules?flavor_profile=waxy&page=1" class="text-capitalize">waxy</a>, 
+								
+								<a href="/flavordb2/molecules?flavor_profile=fatty&page=1" class="text-capitalize">fatty</a>, 
+								
+								<a href="/flavordb2/molecules?flavor_profile=aldehydic&page=1" class="text-capitalize">aldehydic</a>, 
+								
+								<a href="/flavordb2/molecules?flavor_profile=green&page=1" class="text-capitalize">green</a>
+								
+							</td> 
+							<td><button id="454" type="button" class="btn btn-info btn-xs molecules_details" data-toggle="modal" data-target="#molecules_details_modal">
+								More info.
+							</button></td> 
+						</tr>
+						
+						<tr>
+							<td class="text-capitalize">Thiamine Hydrochloride</td> 
+							<td><a href="https://pubchem.ncbi.nlm.nih.gov/compound/6202" target="_blank">6202</a></td> 
+							<td>
+								
+								<a href="/flavordb2/molecules?flavor_profile=mild&page=1" class="text-capitalize">mild</a>, 
+								
+								<a href="/flavordb2/molecules?flavor_profile=sour&page=1" class="text-capitalize">sour</a>, 
+								
+								<a href="/flavordb2/molecules?flavor_profile=bitter&page=1" class="text-capitalize">bitter</a>
+								
+							</td> 
+							<td><button id="6202" type="button" class="btn btn-info btn-xs molecules_details" data-toggle="modal" data-target="#molecules_details_modal">
+								More info.
+							</button></td> 
+						</tr>
+						
+						<tr>
+							<td class="text-capitalize">hydrogen cyanide</td> 
+							<td><a href="https://pubchem.ncbi.nlm.nih.gov/compound/768" target="_blank">768</a></td> 
+							<td>
+								
+								<a href="/flavordb2/molecules?flavor_profile=bitter&page=1" class="text-capitalize">bitter</a>
+								
+							</td> 
+							<td><button id="768" type="button" class="btn btn-info btn-xs molecules_details" data-toggle="modal" data-target="#molecules_details_modal">
+								More info.
+							</button></td> 
+						</tr>
+						
+						<tr>
+							<td class="text-capitalize">Benzyl Benzoate</td> 
+							<td><a href="https://pubchem.ncbi.nlm.nih.gov/compound/2345" target="_blank">2345</a></td> 
+							<td>
+								
+								<a href="/flavordb2/molecules?flavor_profile=oil&page=1" class="text-capitalize">oil</a>, 
+								
+								<a href="/flavordb2/molecules?flavor_profile=pineapple&page=1" class="text-capitalize">pineapple</a>, 
+								
+								<a href="/flavordb2/molecules?flavor_profile=balsamic&page=1" class="text-capitalize">balsamic</a>, 
+								
+								<a href="/flavordb2/molecules?flavor_profile=herbal&page=1" class="text-capitalize">herbal</a>, 
+								
+								<a href="/flavordb2/molecules?flavor_profile=strawberry&page=1" class="text-capitalize">strawberry</a>, 
+								
+								<a href="/flavordb2/molecules?flavor_profile=oily&page=1" class="text-capitalize">oily</a>, 
+								
+								<a href="/flavordb2/molecules?flavor_profile=faint&page=1" class="text-capitalize">faint</a>, 
+								
+								<a href="/flavordb2/molecules?flavor_profile=sweet&page=1" class="text-capitalize">sweet</a>, 
+								
+								<a href="/flavordb2/molecules?flavor_profile=balsam&page=1" class="text-capitalize">balsam</a>, 
+								
+								<a href="/flavordb2/molecules?flavor_profile=cherry&page=1" class="text-capitalize">cherry</a>, 
+								
+								<a href="/flavordb2/molecules?flavor_profile=almond&page=1" class="text-capitalize">almond</a>, 
+								
+								<a href="/flavordb2/molecules?flavor_profile=herb&page=1" class="text-capitalize">herb</a>, 
+								
+								<a href="/flavordb2/molecules?flavor_profile=cheese&page=1" class="text-capitalize">cheese</a>
+								
+							</td> 
+							<td><button id="2345" type="button" class="btn btn-info btn-xs molecules_details" data-toggle="modal" data-target="#molecules_details_modal">
+								More info.
+							</button></td> 
+						</tr>
+						
+						<tr>
+							<td class="text-capitalize">trans-3-Hexen-1-ol</td> 
+							<td><a href="https://pubchem.ncbi.nlm.nih.gov/compound/5284503" target="_blank">5284503</a></td> 
+							<td>
+								
+								<a href="/flavordb2/molecules?flavor_profile=moss&page=1" class="text-capitalize">moss</a>, 
+								
+								<a href="/flavordb2/molecules?flavor_profile=bitter&page=1" class="text-capitalize">bitter</a>, 
+								
+								<a href="/flavordb2/molecules?flavor_profile=fresh&page=1" class="text-capitalize">fresh</a>, 
+								
+								<a href="/flavordb2/molecules?flavor_profile=fatty&page=1" class="text-capitalize">fatty</a>, 
+								
+								<a href="/flavordb2/molecules?flavor_profile=earthy&page=1" class="text-capitalize">earthy</a>, 
+								
+								<a href="/flavordb2/molecules?flavor_profile=intensely&page=1" class="text-capitalize">intensely</a>, 
+								
+								<a href="/flavordb2/molecules?flavor_profile=green&page=1" class="text-capitalize">green</a>
+								
+							</td> 
+							<td><button id="5284503" type="button" class="btn btn-info btn-xs molecules_details" data-toggle="modal" data-target="#molecules_details_modal">
+								More info.
+							</button></td> 
+						</tr>
+						
+						<tr>
+							<td class="text-capitalize">Ethyl Acetate</td> 
+							<td><a href="https://pubchem.ncbi.nlm.nih.gov/compound/8857" target="_blank">8857</a></td> 
+							<td>
+								
+								<a href="/flavordb2/molecules?flavor_profile=pineapple&page=1" class="text-capitalize">pineapple</a>, 
+								
+								<a href="/flavordb2/molecules?flavor_profile=ethereal&page=1" class="text-capitalize">ethereal</a>, 
+								
+								<a href="/flavordb2/molecules?flavor_profile=sweet&page=1" class="text-capitalize">sweet</a>, 
+								
+								<a href="/flavordb2/molecules?flavor_profile=anise&page=1" class="text-capitalize">anise</a>, 
+								
+								<a href="/flavordb2/molecules?flavor_profile=fruity&page=1" class="text-capitalize">fruity</a>, 
+								
+								<a href="/flavordb2/molecules?flavor_profile=balsam&page=1" class="text-capitalize">balsam</a>, 
+								
+								<a href="/flavordb2/molecules?flavor_profile=weedy&page=1" class="text-capitalize">weedy</a>, 
+								
+								<a href="/flavordb2/molecules?flavor_profile=green&page=1" class="text-capitalize">green</a>
+								
+							</td> 
+							<td><button id="8857" type="button" class="btn btn-info btn-xs molecules_details" data-toggle="modal" data-target="#molecules_details_modal">
+								More info.
+							</button></td> 
+						</tr>
+						
+						<tr>
+							<td class="text-capitalize">4-Hexen-3-One</td> 
+							<td><a href="https://pubchem.ncbi.nlm.nih.gov/compound/5365811" target="_blank">5365811</a></td> 
+							<td>
+								
+								<a href="/flavordb2/molecules?flavor_profile=ethereal&page=1" class="text-capitalize">ethereal</a>, 
+								
+								<a href="/flavordb2/molecules?flavor_profile=pungent&page=1" class="text-capitalize">pungent</a>, 
+								
+								<a href="/flavordb2/molecules?flavor_profile=tropical&page=1" class="text-capitalize">tropical</a>, 
+								
+								<a href="/flavordb2/molecules?flavor_profile=metallic&page=1" class="text-capitalize">metallic</a>, 
+								
+								<a href="/flavordb2/molecules?flavor_profile=spicy&page=1" class="text-capitalize">spicy</a>, 
+								
+								<a href="/flavordb2/molecules?flavor_profile=green&page=1" class="text-capitalize">green</a>
+								
+							</td> 
+							<td><button id="5365811" type="button" class="btn btn-info btn-xs molecules_details" data-toggle="modal" data-target="#molecules_details_modal">
+								More info.
+							</button></td> 
+						</tr>
+						
+						<tr>
+							<td class="text-capitalize">Neral</td> 
+							<td><a href="https://pubchem.ncbi.nlm.nih.gov/compound/643779" target="_blank">643779</a></td> 
+							<td>
+								
+								<a href="/flavordb2/molecules?flavor_profile=lemon&page=1" class="text-capitalize">lemon</a>, 
+								
+								<a href="/flavordb2/molecules?flavor_profile=lemon%20peel&page=1" class="text-capitalize">lemon peel</a>, 
+								
+								<a href="/flavordb2/molecules?flavor_profile=sweet&page=1" class="text-capitalize">sweet</a>, 
+								
+								<a href="/flavordb2/molecules?flavor_profile=citral&page=1" class="text-capitalize">citral</a>
+								
+							</td> 
+							<td><button id="643779" type="button" class="btn btn-info btn-xs molecules_details" data-toggle="modal" data-target="#molecules_details_modal">
+								More info.
+							</button></td> 
+						</tr>
+						
+						<tr>
+							<td class="text-capitalize">Decanoic acid</td> 
+							<td><a href="https://pubchem.ncbi.nlm.nih.gov/compound/2969" target="_blank">2969</a></td> 
+							<td>
+								
+								<a href="/flavordb2/molecules?flavor_profile=sour&page=1" class="text-capitalize">sour</a>, 
+								
+								<a href="/flavordb2/molecules?flavor_profile=citrus&page=1" class="text-capitalize">citrus</a>, 
+								
+								<a href="/flavordb2/molecules?flavor_profile=fat&page=1" class="text-capitalize">fat</a>, 
+								
+								<a href="/flavordb2/molecules?flavor_profile=rancid&page=1" class="text-capitalize">rancid</a>, 
+								
+								<a href="/flavordb2/molecules?flavor_profile=fatty&page=1" class="text-capitalize">fatty</a>, 
+								
+								<a href="/flavordb2/molecules?flavor_profile=unpleasant&page=1" class="text-capitalize">unpleasant</a>
+								
+							</td> 
+							<td><button id="2969" type="button" class="btn btn-info btn-xs molecules_details" data-toggle="modal" data-target="#molecules_details_modal">
+								More info.
+							</button></td> 
+						</tr>
+						
+						<tr>
+							<td class="text-capitalize">2-Furaldehyde</td> 
+							<td><a href="https://pubchem.ncbi.nlm.nih.gov/compound/7362" target="_blank">7362</a></td> 
+							<td>
+								
+								<a href="/flavordb2/molecules?flavor_profile=fragrant&page=1" class="text-capitalize">fragrant</a>, 
+								
+								<a href="/flavordb2/molecules?flavor_profile=bread&page=1" class="text-capitalize">bread</a>, 
+								
+								<a href="/flavordb2/molecules?flavor_profile=woody&page=1" class="text-capitalize">woody</a>, 
+								
+								<a href="/flavordb2/molecules?flavor_profile=sweet&page=1" class="text-capitalize">sweet</a>, 
+								
+								<a href="/flavordb2/molecules?flavor_profile=baked&page=1" class="text-capitalize">baked</a>, 
+								
+								<a href="/flavordb2/molecules?flavor_profile=almond&page=1" class="text-capitalize">almond</a>
+								
+							</td> 
+							<td><button id="7362" type="button" class="btn btn-info btn-xs molecules_details" data-toggle="modal" data-target="#molecules_details_modal">
+								More info.
+							</button></td> 
+						</tr>
+						
+						<tr>
+							<td class="text-capitalize">3-Methyl-2-butenal</td> 
+							<td><a href="https://pubchem.ncbi.nlm.nih.gov/compound/61020" target="_blank">61020</a></td> 
+							<td>
+								
+								<a href="/flavordb2/molecules?flavor_profile=brown&page=1" class="text-capitalize">brown</a>, 
+								
+								<a href="/flavordb2/molecules?flavor_profile=sweet&page=1" class="text-capitalize">sweet</a>, 
+								
+								<a href="/flavordb2/molecules?flavor_profile=pungent&page=1" class="text-capitalize">pungent</a>, 
+								
+								<a href="/flavordb2/molecules?flavor_profile=fruity&page=1" class="text-capitalize">fruity</a>, 
+								
+								<a href="/flavordb2/molecules?flavor_profile=cherry&page=1" class="text-capitalize">cherry</a>, 
+								
+								<a href="/flavordb2/molecules?flavor_profile=nutty&page=1" class="text-capitalize">nutty</a>, 
+								
+								<a href="/flavordb2/molecules?flavor_profile=almond&page=1" class="text-capitalize">almond</a>
+								
+							</td> 
+							<td><button id="61020" type="button" class="btn btn-info btn-xs molecules_details" data-toggle="modal" data-target="#molecules_details_modal">
+								More info.
+							</button></td> 
+						</tr>
+						
+						<tr>
+							<td class="text-capitalize">3-Pentanone</td> 
+							<td><a href="https://pubchem.ncbi.nlm.nih.gov/compound/7288" target="_blank">7288</a></td> 
+							<td>
+								
+								<a href="/flavordb2/molecules?flavor_profile=ethereal&page=1" class="text-capitalize">ethereal</a>, 
+								
+								<a href="/flavordb2/molecules?flavor_profile=acetone&page=1" class="text-capitalize">acetone</a>, 
+								
+								<a href="/flavordb2/molecules?flavor_profile=ether&page=1" class="text-capitalize">ether</a>
+								
+							</td> 
+							<td><button id="7288" type="button" class="btn btn-info btn-xs molecules_details" data-toggle="modal" data-target="#molecules_details_modal">
+								More info.
+							</button></td> 
+						</tr>
+						
+						<tr>
+							<td class="text-capitalize">14400-67-0</td> 
+							<td><a href="https://pubchem.ncbi.nlm.nih.gov/compound/85730" target="_blank">85730</a></td> 
+							<td>
+								
+								<a href="/flavordb2/molecules?flavor_profile=caramel&page=1" class="text-capitalize">caramel</a>, 
+								
+								<a href="/flavordb2/molecules?flavor_profile=ester&page=1" class="text-capitalize">ester</a>, 
+								
+								<a href="/flavordb2/molecules?flavor_profile=fruity&page=1" class="text-capitalize">fruity</a>
+								
+							</td> 
+							<td><button id="85730" type="button" class="btn btn-info btn-xs molecules_details" data-toggle="modal" data-target="#molecules_details_modal">
+								More info.
+							</button></td> 
+						</tr>
+						
+						<tr>
+							<td class="text-capitalize">1-propanol</td> 
+							<td><a href="https://pubchem.ncbi.nlm.nih.gov/compound/1031" target="_blank">1031</a></td> 
+							<td>
+								
+								<a href="/flavordb2/molecules?flavor_profile=alcoholic&page=1" class="text-capitalize">alcoholic</a>, 
+								
+								<a href="/flavordb2/molecules?flavor_profile=fermented&page=1" class="text-capitalize">fermented</a>, 
+								
+								<a href="/flavordb2/molecules?flavor_profile=alcohol&page=1" class="text-capitalize">alcohol</a>, 
+								
+								<a href="/flavordb2/molecules?flavor_profile=musty&page=1" class="text-capitalize">musty</a>, 
+								
+								<a href="/flavordb2/molecules?flavor_profile=fusel&page=1" class="text-capitalize">fusel</a>, 
+								
+								<a href="/flavordb2/molecules?flavor_profile=pungent&page=1" class="text-capitalize">pungent</a>, 
+								
+								<a href="/flavordb2/molecules?flavor_profile=peanut&page=1" class="text-capitalize">peanut</a>
+								
+							</td> 
+							<td><button id="1031" type="button" class="btn btn-info btn-xs molecules_details" data-toggle="modal" data-target="#molecules_details_modal">
+								More info.
+							</button></td> 
+						</tr>
+						
+						<tr>
+							<td class="text-capitalize">2-Pentylfuran</td> 
+							<td><a href="https://pubchem.ncbi.nlm.nih.gov/compound/19602" target="_blank">19602</a></td> 
+							<td>
+								
+								<a href="/flavordb2/molecules?flavor_profile=butter&page=1" class="text-capitalize">butter</a>, 
+								
+								<a href="/flavordb2/molecules?flavor_profile=green%20bean&page=1" class="text-capitalize">green bean</a>, 
+								
+								<a href="/flavordb2/molecules?flavor_profile=vegetable&page=1" class="text-capitalize">vegetable</a>, 
+								
+								<a href="/flavordb2/molecules?flavor_profile=earthy&page=1" class="text-capitalize">earthy</a>, 
+								
+								<a href="/flavordb2/molecules?flavor_profile=beany&page=1" class="text-capitalize">beany</a>, 
+								
+								<a href="/flavordb2/molecules?flavor_profile=fruity&page=1" class="text-capitalize">fruity</a>, 
+								
+								<a href="/flavordb2/molecules?flavor_profile=metallic&page=1" class="text-capitalize">metallic</a>, 
+								
+								<a href="/flavordb2/molecules?flavor_profile=green&page=1" class="text-capitalize">green</a>
+								
+							</td> 
+							<td><button id="19602" type="button" class="btn btn-info btn-xs molecules_details" data-toggle="modal" data-target="#molecules_details_modal">
+								More info.
+							</button></td> 
+						</tr>
+						
+						<tr>
+							<td class="text-capitalize">Heptanal</td> 
+							<td><a href="https://pubchem.ncbi.nlm.nih.gov/compound/8130" target="_blank">8130</a></td> 
+							<td>
+								
+								<a href="/flavordb2/molecules?flavor_profile=citrus&page=1" class="text-capitalize">citrus</a>, 
+								
+								<a href="/flavordb2/molecules?flavor_profile=ozone&page=1" class="text-capitalize">ozone</a>, 
+								
+								<a href="/flavordb2/molecules?flavor_profile=fat&page=1" class="text-capitalize">fat</a>, 
+								
+								<a href="/flavordb2/molecules?flavor_profile=herbal&page=1" class="text-capitalize">herbal</a>, 
+								
+								<a href="/flavordb2/molecules?flavor_profile=fresh&page=1" class="text-capitalize">fresh</a>, 
+								
+								<a href="/flavordb2/molecules?flavor_profile=wine-lee&page=1" class="text-capitalize">wine-lee</a>, 
+								
+								<a href="/flavordb2/molecules?flavor_profile=rancid&page=1" class="text-capitalize">rancid</a>, 
+								
+								<a href="/flavordb2/molecules?flavor_profile=fatty&page=1" class="text-capitalize">fatty</a>, 
+								
+								<a href="/flavordb2/molecules?flavor_profile=aldehydic&page=1" class="text-capitalize">aldehydic</a>, 
+								
+								<a href="/flavordb2/molecules?flavor_profile=green&page=1" class="text-capitalize">green</a>
+								
+							</td> 
+							<td><button id="8130" type="button" class="btn btn-info btn-xs molecules_details" data-toggle="modal" data-target="#molecules_details_modal">
+								More info.
+							</button></td> 
+						</tr>
+						
+						<tr>
+							<td class="text-capitalize">acetone</td> 
+							<td><a href="https://pubchem.ncbi.nlm.nih.gov/compound/180" target="_blank">180</a></td> 
+							<td>
+								
+								<a href="/flavordb2/molecules?flavor_profile=solvent&page=1" class="text-capitalize">solvent</a>, 
+								
+								<a href="/flavordb2/molecules?flavor_profile=apple&page=1" class="text-capitalize">apple</a>, 
+								
+								<a href="/flavordb2/molecules?flavor_profile=pear&page=1" class="text-capitalize">pear</a>, 
+								
+								<a href="/flavordb2/molecules?flavor_profile=ethereal&page=1" class="text-capitalize">ethereal</a>
+								
+							</td> 
+							<td><button id="180" type="button" class="btn btn-info btn-xs molecules_details" data-toggle="modal" data-target="#molecules_details_modal">
+								More info.
+							</button></td> 
+						</tr>
+						
+						<tr>
+							<td class="text-capitalize">2-Butanone</td> 
+							<td><a href="https://pubchem.ncbi.nlm.nih.gov/compound/6569" target="_blank">6569</a></td> 
+							<td>
+								
+								<a href="/flavordb2/molecules?flavor_profile=ethereal&page=1" class="text-capitalize">ethereal</a>, 
+								
+								<a href="/flavordb2/molecules?flavor_profile=ether&page=1" class="text-capitalize">ether</a>, 
+								
+								<a href="/flavordb2/molecules?flavor_profile=fruity&page=1" class="text-capitalize">fruity</a>, 
+								
+								<a href="/flavordb2/molecules?flavor_profile=acetone&page=1" class="text-capitalize">acetone</a>, 
+								
+								<a href="/flavordb2/molecules?flavor_profile=camphor&page=1" class="text-capitalize">camphor</a>
+								
+							</td> 
+							<td><button id="6569" type="button" class="btn btn-info btn-xs molecules_details" data-toggle="modal" data-target="#molecules_details_modal">
+								More info.
+							</button></td> 
+						</tr>
+						
+						<tr>
+							<td class="text-capitalize">D-Lactic acid</td> 
+							<td><a href="https://pubchem.ncbi.nlm.nih.gov/compound/61503" target="_blank">61503</a></td> 
+							<td>
+								
+								<a href="/flavordb2/molecules?flavor_profile=acidic&page=1" class="text-capitalize">acidic</a>, 
+								
+								<a href="/flavordb2/molecules?flavor_profile=odorless&page=1" class="text-capitalize">odorless</a>
+								
+							</td> 
+							<td><button id="61503" type="button" class="btn btn-info btn-xs molecules_details" data-toggle="modal" data-target="#molecules_details_modal">
+								More info.
+							</button></td> 
+						</tr>
+						
+						<tr>
+							<td class="text-capitalize">4-hydroxybenzaldehyde</td> 
+							<td><a href="https://pubchem.ncbi.nlm.nih.gov/compound/126" target="_blank">126</a></td> 
+							<td>
+								
+								<a href="/flavordb2/molecules?flavor_profile=woody&page=1" class="text-capitalize">woody</a>, 
+								
+								<a href="/flavordb2/molecules?flavor_profile=sweet&page=1" class="text-capitalize">sweet</a>, 
+								
+								<a href="/flavordb2/molecules?flavor_profile=balsam&page=1" class="text-capitalize">balsam</a>, 
+								
+								<a href="/flavordb2/molecules?flavor_profile=nutty&page=1" class="text-capitalize">nutty</a>, 
+								
+								<a href="/flavordb2/molecules?flavor_profile=almond&page=1" class="text-capitalize">almond</a>
+								
+							</td> 
+							<td><button id="126" type="button" class="btn btn-info btn-xs molecules_details" data-toggle="modal" data-target="#molecules_details_modal">
+								More info.
+							</button></td> 
+						</tr>
+						
+						<tr>
+							<td class="text-capitalize">luteolin</td> 
+							<td><a href="https://pubchem.ncbi.nlm.nih.gov/compound/5280445" target="_blank">5280445</a></td> 
+							<td>
+								
+								<a href="/flavordb2/molecules?flavor_profile=bitter&page=1" class="text-capitalize">bitter</a>
+								
+							</td> 
+							<td><button id="5280445" type="button" class="btn btn-info btn-xs molecules_details" data-toggle="modal" data-target="#molecules_details_modal">
+								More info.
+							</button></td> 
+						</tr>
+						
+						<tr>
+							<td class="text-capitalize">p-coumaric acid</td> 
+							<td><a href="https://pubchem.ncbi.nlm.nih.gov/compound/637542" target="_blank">637542</a></td> 
+							<td>
+								
+								<a href="/flavordb2/molecules?flavor_profile=balsam&page=1" class="text-capitalize">balsam</a>, 
+								
+								<a href="/flavordb2/molecules?flavor_profile=balsamic&page=1" class="text-capitalize">balsamic</a>
+								
+							</td> 
+							<td><button id="637542" type="button" class="btn btn-info btn-xs molecules_details" data-toggle="modal" data-target="#molecules_details_modal">
+								More info.
+							</button></td> 
+						</tr>
+						
+					</tbody>
+
+				</table>
+				<div id="molecules_details_modal" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" style="z-index: 99999;">
+
+	</div>
+
+	<script type="text/javascript">
+		$('.molecules_details').click(function(event){
+			$.ajax({
+				url: "/flavordb2/molecules_details?id="+this.id,
+				dataType: "html",
+				success: function( data ) {
+					$('#molecules_details_modal').html(data);
+				}
+			});
+		});
+	</script>
+
+				<hr />
+			</div>
+		</div>
+	</div>
+	<hr />
+
+
+
+</div>
+
+<script type="text/javascript">
+
+	$(document).ready(function(){
+		$('#molecules').DataTable({
+			"order": [[ 1, "asc" ]],
+			"paging": true,
+			"info": true,
+			"pageLength": 25
+		});
+		
+		$('#323').on('shown.bs.modal', function () {
+			$('#323').focus()
+		})
+		
+		$('#7150').on('shown.bs.modal', function () {
+			$('#7150').focus()
+		})
+		
+		$('#11509').on('shown.bs.modal', function () {
+			$('#11509').focus()
+		})
+		
+		$('#637566').on('shown.bs.modal', function () {
+			$('#637566').focus()
+		})
+		
+		$('#439341').on('shown.bs.modal', function () {
+			$('#439341').focus()
+		})
+		
+		$('#33931').on('shown.bs.modal', function () {
+			$('#33931').focus()
+		})
+		
+		$('#9261').on('shown.bs.modal', function () {
+			$('#9261').focus()
+		})
+		
+		$('#6072').on('shown.bs.modal', function () {
+			$('#6072').focus()
+		})
+		
+		$('#12587').on('shown.bs.modal', function () {
+			$('#12587').focus()
+		})
+		
+		$('#878').on('shown.bs.modal', function () {
+			$('#878').focus()
+		})
+		
+		$('#5281708').on('shown.bs.modal', function () {
+			$('#5281708').focus()
+		})
+		
+		$('#240').on('shown.bs.modal', function () {
+			$('#240').focus()
+		})
+		
+		$('#244').on('shown.bs.modal', function () {
+			$('#244').focus()
+		})
+		
+		$('#441484').on('shown.bs.modal', function () {
+			$('#441484').focus()
+		})
+		
+		$('#1889').on('shown.bs.modal', function () {
+			$('#1889').focus()
+		})
+		
+		$('#4788').on('shown.bs.modal', function () {
+			$('#4788').focus()
+		})
+		
+		$('#6184').on('shown.bs.modal', function () {
+			$('#6184').focus()
+		})
+		
+		$('#11128').on('shown.bs.modal', function () {
+			$('#11128').focus()
+		})
+		
+		$('#8723').on('shown.bs.modal', function () {
+			$('#8723').focus()
+		})
+		
+		$('#12756').on('shown.bs.modal', function () {
+			$('#12756').focus()
+		})
+		
+		$('#8094').on('shown.bs.modal', function () {
+			$('#8094').focus()
+		})
+		
+		$('#338').on('shown.bs.modal', function () {
+			$('#338').focus()
+		})
+		
+		$('#11005').on('shown.bs.modal', function () {
+			$('#11005').focus()
+		})
+		
+		$('#1183').on('shown.bs.modal', function () {
+			$('#1183').focus()
+		})
+		
+		$('#12232').on('shown.bs.modal', function () {
+			$('#12232').focus()
+		})
+		
+		$('#5280511').on('shown.bs.modal', function () {
+			$('#5280511').focus()
+		})
+		
+		$('#5315892').on('shown.bs.modal', function () {
+			$('#5315892').focus()
+		})
+		
+		$('#15394').on('shown.bs.modal', function () {
+			$('#15394').focus()
+		})
+		
+		$('#784').on('shown.bs.modal', function () {
+			$('#784').focus()
+		})
+		
+		$('#14286').on('shown.bs.modal', function () {
+			$('#14286').focus()
+		})
+		
+		$('#8892').on('shown.bs.modal', function () {
+			$('#8892').focus()
+		})
+		
+		$('#853433').on('shown.bs.modal', function () {
+			$('#853433').focus()
+		})
+		
+		$('#247').on('shown.bs.modal', function () {
+			$('#247').focus()
+		})
+		
+		$('#7654').on('shown.bs.modal', function () {
+			$('#7654').focus()
+		})
+		
+		$('#702').on('shown.bs.modal', function () {
+			$('#702').focus()
+		})
+		
+		$('#999').on('shown.bs.modal', function () {
+			$('#999').focus()
+		})
+		
+		$('#643941').on('shown.bs.modal', function () {
+			$('#643941').focus()
+		})
+		
+		$('#637511').on('shown.bs.modal', function () {
+			$('#637511').focus()
+		})
+		
+		$('#8063').on('shown.bs.modal', function () {
+			$('#8063').focus()
+		})
+		
+		$('#637775').on('shown.bs.modal', function () {
+			$('#637775').focus()
+		})
+		
+		$('#8452').on('shown.bs.modal', function () {
+			$('#8452').focus()
+		})
+		
+		$('#6986').on('shown.bs.modal', function () {
+			$('#6986').focus()
+		})
+		
+		$('#6054').on('shown.bs.modal', function () {
+			$('#6054').focus()
+		})
+		
+		$('#439263').on('shown.bs.modal', function () {
+			$('#439263').focus()
+		})
+		
+		$('#7937').on('shown.bs.modal', function () {
+			$('#7937').focus()
+		})
+		
+		$('#1110').on('shown.bs.modal', function () {
+			$('#1110').focus()
+		})
+		
+		$('#5284639').on('shown.bs.modal', function () {
+			$('#5284639').focus()
+		})
+		
+		$('#31289').on('shown.bs.modal', function () {
+			$('#31289').focus()
+		})
+		
+		$('#5280443').on('shown.bs.modal', function () {
+			$('#5280443').focus()
+		})
+		
+		$('#998').on('shown.bs.modal', function () {
+			$('#998').focus()
+		})
+		
+		$('#5318042').on('shown.bs.modal', function () {
+			$('#5318042').focus()
+		})
+		
+		$('#3893').on('shown.bs.modal', function () {
+			$('#3893').focus()
+		})
+		
+		$('#379').on('shown.bs.modal', function () {
+			$('#379').focus()
+		})
+		
+		$('#12097').on('shown.bs.modal', function () {
+			$('#12097').focus()
+		})
+		
+		$('#1130').on('shown.bs.modal', function () {
+			$('#1130').focus()
+		})
+		
+		$('#31260').on('shown.bs.modal', function () {
+			$('#31260').focus()
+		})
+		
+		$('#107').on('shown.bs.modal', function () {
+			$('#107').focus()
+		})
+		
+		$('#527').on('shown.bs.modal', function () {
+			$('#527').focus()
+		})
+		
+		$('#10393').on('shown.bs.modal', function () {
+			$('#10393').focus()
+		})
+		
+		$('#7847').on('shown.bs.modal', function () {
+			$('#7847').focus()
+		})
+		
+		$('#441005').on('shown.bs.modal', function () {
+			$('#441005').focus()
+		})
+		
+		$('#798').on('shown.bs.modal', function () {
+			$('#798').focus()
+		})
+		
+		$('#6050').on('shown.bs.modal', function () {
+			$('#6050').focus()
+		})
+		
+		$('#10797').on('shown.bs.modal', function () {
+			$('#10797').focus()
+		})
+		
+		$('#13144').on('shown.bs.modal', function () {
+			$('#13144').focus()
+		})
+		
+		$('#650').on('shown.bs.modal', function () {
+			$('#650').focus()
+		})
+		
+		$('#638278').on('shown.bs.modal', function () {
+			$('#638278').focus()
+		})
+		
+		$('#444539').on('shown.bs.modal', function () {
+			$('#444539').focus()
+		})
+		
+		$('#5280598').on('shown.bs.modal', function () {
+			$('#5280598').focus()
+		})
+		
+		$('#8768').on('shown.bs.modal', function () {
+			$('#8768').focus()
+		})
+		
+		$('#1032').on('shown.bs.modal', function () {
+			$('#1032').focus()
+		})
+		
+		$('#11552').on('shown.bs.modal', function () {
+			$('#11552').focus()
+		})
+		
+		$('#445070').on('shown.bs.modal', function () {
+			$('#445070').focus()
+		})
+		
+		$('#107971').on('shown.bs.modal', function () {
+			$('#107971').focus()
+		})
+		
+		$('#7284').on('shown.bs.modal', function () {
+			$('#7284').focus()
+		})
+		
+		$('#10448').on('shown.bs.modal', function () {
+			$('#10448').focus()
+		})
+		
+		$('#638011').on('shown.bs.modal', function () {
+			$('#638011').focus()
+		})
+		
+		$('#6560').on('shown.bs.modal', function () {
+			$('#6560').focus()
+		})
+		
+		$('#284').on('shown.bs.modal', function () {
+			$('#284').focus()
+		})
+		
+		$('#985').on('shown.bs.modal', function () {
+			$('#985').focus()
+		})
+		
+		$('#6590').on('shown.bs.modal', function () {
+			$('#6590').focus()
+		})
+		
+		$('#6584').on('shown.bs.modal', function () {
+			$('#6584').focus()
+		})
+		
+		$('#5367719').on('shown.bs.modal', function () {
+			$('#5367719').focus()
+		})
+		
+		$('#72').on('shown.bs.modal', function () {
+			$('#72').focus()
+		})
+		
+		$('#89594').on('shown.bs.modal', function () {
+			$('#89594').focus()
+		})
+		
+		$('#5280863').on('shown.bs.modal', function () {
+			$('#5280863').focus()
+		})
+		
+		$('#8103').on('shown.bs.modal', function () {
+			$('#8103').focus()
+		})
+		
+		$('#402').on('shown.bs.modal', function () {
+			$('#402').focus()
+		})
+		
+		$('#10430').on('shown.bs.modal', function () {
+			$('#10430').focus()
+		})
+		
+		$('#644104').on('shown.bs.modal', function () {
+			$('#644104').focus()
+		})
+		
+		$('#439533').on('shown.bs.modal', function () {
+			$('#439533').focus()
+		})
+		
+		$('#6251').on('shown.bs.modal', function () {
+			$('#6251').focus()
+		})
+		
+		$('#7895').on('shown.bs.modal', function () {
+			$('#7895').focus()
+		})
+		
+		$('#802').on('shown.bs.modal', function () {
+			$('#802').focus()
+		})
+		
+		$('#49').on('shown.bs.modal', function () {
+			$('#49').focus()
+		})
+		
+		$('#79803').on('shown.bs.modal', function () {
+			$('#79803').focus()
+		})
+		
+		$('#8868').on('shown.bs.modal', function () {
+			$('#8868').focus()
+		})
+		
+		$('#26447').on('shown.bs.modal', function () {
+			$('#26447').focus()
+		})
+		
+		$('#1549026').on('shown.bs.modal', function () {
+			$('#1549026').focus()
+		})
+		
+		$('#5363388').on('shown.bs.modal', function () {
+			$('#5363388').focus()
+		})
+		
+		$('#30914').on('shown.bs.modal', function () {
+			$('#30914').focus()
+		})
+		
+		$('#7858').on('shown.bs.modal', function () {
+			$('#7858').focus()
+		})
+		
+		$('#31268').on('shown.bs.modal', function () {
+			$('#31268').focus()
+		})
+		
+		$('#439246').on('shown.bs.modal', function () {
+			$('#439246').focus()
+		})
+		
+		$('#6561').on('shown.bs.modal', function () {
+			$('#6561').focus()
+		})
+		
+		$('#9862').on('shown.bs.modal', function () {
+			$('#9862').focus()
+		})
+		
+		$('#18635').on('shown.bs.modal', function () {
+			$('#18635').focus()
+		})
+		
+		$('#454').on('shown.bs.modal', function () {
+			$('#454').focus()
+		})
+		
+		$('#6202').on('shown.bs.modal', function () {
+			$('#6202').focus()
+		})
+		
+		$('#768').on('shown.bs.modal', function () {
+			$('#768').focus()
+		})
+		
+		$('#2345').on('shown.bs.modal', function () {
+			$('#2345').focus()
+		})
+		
+		$('#5284503').on('shown.bs.modal', function () {
+			$('#5284503').focus()
+		})
+		
+		$('#8857').on('shown.bs.modal', function () {
+			$('#8857').focus()
+		})
+		
+		$('#5365811').on('shown.bs.modal', function () {
+			$('#5365811').focus()
+		})
+		
+		$('#643779').on('shown.bs.modal', function () {
+			$('#643779').focus()
+		})
+		
+		$('#2969').on('shown.bs.modal', function () {
+			$('#2969').focus()
+		})
+		
+		$('#7362').on('shown.bs.modal', function () {
+			$('#7362').focus()
+		})
+		
+		$('#61020').on('shown.bs.modal', function () {
+			$('#61020').focus()
+		})
+		
+		$('#7288').on('shown.bs.modal', function () {
+			$('#7288').focus()
+		})
+		
+		$('#85730').on('shown.bs.modal', function () {
+			$('#85730').focus()
+		})
+		
+		$('#1031').on('shown.bs.modal', function () {
+			$('#1031').focus()
+		})
+		
+		$('#19602').on('shown.bs.modal', function () {
+			$('#19602').focus()
+		})
+		
+		$('#8130').on('shown.bs.modal', function () {
+			$('#8130').focus()
+		})
+		
+		$('#180').on('shown.bs.modal', function () {
+			$('#180').focus()
+		})
+		
+		$('#6569').on('shown.bs.modal', function () {
+			$('#6569').focus()
+		})
+		
+		$('#61503').on('shown.bs.modal', function () {
+			$('#61503').focus()
+		})
+		
+		$('#126').on('shown.bs.modal', function () {
+			$('#126').focus()
+		})
+		
+		$('#5280445').on('shown.bs.modal', function () {
+			$('#5280445').focus()
+		})
+		
+		$('#637542').on('shown.bs.modal', function () {
+			$('#637542').focus()
+		})
+		
+		// $('.collapse').collapse()
+	});
+
+
+</script>
+
+
+
+
+
+<footer class="primary-footer">
+	<div class="copyright-wrap">
+		<div class="panel">
+			<div class="content">
+				<p><img alt="" src="/flavordb2/static/images/iiitd.png"></p>
+				<P>Copyright &copy; 2017 &nbsp All rights reserved.<br><br>
+					<a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/3.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/3.0/88x31.png" /></a><br />This work is licensed under a <a style="font-weight: bold;" rel="license" href="http://creativecommons.org/licenses/by-nc-sa/3.0/">Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License</a>.
+				</P>
+				<p><a href="https://iiitd.ac.in/" target="_blank"><strong>Indraprastha Institute of Information Technology Delhi (IIIT-Delhi)</strong></a> | <a       href="http://faculty.iiitd.ac.in/~bagler/" target="_blank">Dr. Ganesh Bagler</a></p>
+				<P><a target="_blank" href="https://www.facebook.com/ganesh.bagler"><img src="/flavordb2/static/images/facebook.png" alt="facebook" /></a>
+					<a target="_blank" href="https://twitter.com/gansbags"><img src="/flavordb2/static/images/twitter.png" alt="tiwwter" /></a>
+					<a target="_blank" href="https://www.linkedin.com/in/ganeshbagler"><img src="/flavordb2/static/images/linkedin.png" alt="linkedin'" /></a>
+				</P>
+
+			</div>
+		</div>
+	</div>
+</footer>
+<style type="text/css">
+	.primary-footer{margin-top:10px;}
+	.footer-wrap{ background:#1a202c;padding-top:50px; margin-top:50px; padding-bottom:50px;}
+	.footer .panel{float:left; background:none; width:300px;}
+	.footer .panel .title h1{ color:#ffffff;}
+	.footer .panel .content{padding-top:25px;}
+	.footer .panel .content p{ color:#435059;}
+	.footer .panel .content .button a{ margin-top:30px; background:#d13f31;}
+	.footer .panel .content .button a:hover{ margin-top:30px; background:#1f7872;}
+	.footer .panel .content ul li{ list-style:url(/flavordb2/static/images/arrow.png) inside;}
+	.footer .panel .content ul li a{text-decoration:none; color:#435059;}
+	.footer .panel .content ul li a:hover{color:#d13f31;}
+	.copyright-wrap{ background:#1f7872; overflow:hidden; padding:40px 0px 40px 0px;}
+	.copyright-wrap .panel{margin:0 auto; background:none;}
+	.copyright-wrap .panel .content p{ color:#ffffff; text-align:center; font-size:12px;}
+	.copyright-wrap .panel .content p a{ text-decoration:none; color:#ffffff;}
+	.copyright-wrap .panel .content p a:hover{ color:#1a202c;}
+</style>
+
+
+</body>
+</html>

@@ -1,0 +1,35 @@
+Codex:
+  classification: Unstructured
+  formats:
+  - pdf
+  local_path: data/raw/unstructured/codex
+  total_files: 1
+  total_size_bytes: 47202
+Fssai:
+  classification: Unstructured
+  formats:
+  - txt
+  local_path: data/raw/unstructured/fssai
+  total_files: 1
+  total_size_bytes: 399
+Ins:
+  classification: Unstructured
+  formats:
+  - pdf
+  local_path: data/raw/unstructured/ins
+  total_files: 1
+  total_size_bytes: 46962
+Patents:
+  classification: Unstructured
+  formats:
+  - txt
+  local_path: data/raw/unstructured/patents
+  total_files: 3
+  total_size_bytes: 1596
+Research_papers:
+  classification: Unstructured
+  formats:
+  - pdf
+  local_path: data/raw/unstructured/research_papers
+  total_files: 3
+  total_size_bytes: 1825071

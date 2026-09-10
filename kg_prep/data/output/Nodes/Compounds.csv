@@ -1,0 +1,7 @@
+ID,Name,IUPACName,ChemicalFormula,SMILES,MolecularWeight,CASNumber,PubChemCID,Source,source_record_id,source_url
+CMP-CAS-50-81-7,L-Ascorbic Acid,L-Ascorbic Acid,C6H8O6,C(C(C1C(=C(C(=O)O1)O)O)O)O,176.12,50-81-7,6322,PubChem,6322,https://pubchem.ncbi.nlm.nih.gov/compound/6322
+CMP-CAS-77-92-9,Citric Acid,Citric Acid,C6H8O7,C(C(=O)O)C(CC(=O)O)(C(=O)O)O,192.12,77-92-9,6118,PubChem,6118,https://pubchem.ncbi.nlm.nih.gov/compound/6118
+CMP-CAS-142-47-2,Monosodium Glutamate,Monosodium Glutamate,C5H8NNaO4,C(CC(=O)[O-])C(C(=O)O)N.[Na+],169.11,142-47-2,23665706,PubChem,23665706,https://pubchem.ncbi.nlm.nih.gov/compound/23665706
+CMP-CAS-65-85-0,Benzoic Acid,Benzoic Acid,C7H6O2,C1=CC=C(C=C1)C(=O)O,122.12,65-85-0,243,PubChem,243,https://pubchem.ncbi.nlm.nih.gov/compound/243
+CMP-CAS-121-33-5,Vanillin,Vanillin,C8H8O3,COC1=C(C=CC(=C1)C=O)O,152.15,121-33-5,5284448,PubChem,5284448,https://pubchem.ncbi.nlm.nih.gov/compound/5284448
+CMP-CAS-5989-27-5,Limonene,Limonene,C10H16,CC1=CCC(CC1)C(=C)C,136.23,5989-27-5,31279,PubChem,31279,https://pubchem.ncbi.nlm.nih.gov/compound/31279

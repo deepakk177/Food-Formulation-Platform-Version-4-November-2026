@@ -1,0 +1,6 @@
+ID,Name,Source,source_record_id,source_url
+COND-TECH-01,72°C for 15 seconds,Scientific Literature,arXiv:2607.09529v1,https://arxiv.org/abs/2607.09529
+COND-TECH-02,150 MPa at 25°C,Scientific Literature,arXiv:2607.09529v2,https://arxiv.org/abs/2607.09529
+COND-TECH-03,"Inlet Temp 180°C, Outlet Temp 80°C",Scientific Literature,arXiv:2607.09529v3,https://arxiv.org/abs/2607.09529
+COND-TECH-04,"Moisture 25%, Barrel Temp 140°C, Die Pressure 4 MPa",Scientific Literature,arXiv:2607.09529v4,https://arxiv.org/abs/2607.09529
+COND-TECH-05,121.1°C for 20 minutes (F0=6.0),Scientific Literature,arXiv:2607.09529v5,https://arxiv.org/abs/2607.09529

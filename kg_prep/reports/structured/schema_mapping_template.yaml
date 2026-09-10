@@ -1,0 +1,23 @@
+Foodb:
+  foodb_2020_04_07_csv.zip:
+    mappings:
+      cas_number:
+        confidence: 0.8
+        target_entity: Compound
+      chemical_formula:
+        confidence: 0.8
+        target_entity: Compound
+      id:
+        confidence: 0.5
+        target_entity: Compound
+      name:
+        confidence: 1.0
+        target_entity: Ingredient
+    schema_type: ZIP containing CSV
+Usda_fdc:
+  FoodData_Central_csv_2024-04-18.zip:
+    mappings:
+      food_category_id:
+        confidence: 0.8
+        target_entity: Ingredient
+    schema_type: ZIP containing CSV

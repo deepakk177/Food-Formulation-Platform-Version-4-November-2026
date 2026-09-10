@@ -1,0 +1,47 @@
+================================================================================
+           TCS FOOD FORMULATOR - SYSTEM REQUIREMENTS & PREREQUISITES
+================================================================================
+
+The following software applications must be installed on the system to run the
+TCS Food Formulator project locally without Docker.
+
+--------------------------------------------------------------------------------
+1. APPLICATION REQUIREMENTS
+--------------------------------------------------------------------------------
+
+1. Python 3.11 (or 3.10)
+   - Purpose: Runs the FastAPI backend, LangGraph engine, and database ORM.
+   - Installer: https://www.python.org/downloads/
+   - CLI Setup: winget install Python.Python.3.11
+
+2. Node.js (LTS v18 or v20)
+   - Purpose: Builds and serves the Next.js/Tailwind frontend user interface.
+   - Installer: https://nodejs.org/
+   - CLI Setup: winget install OpenJS.NodeJS.LTS
+
+3. Git (Optional)
+   - Purpose: Cloning and managing codebase repositories.
+   - Installer: https://git-scm.com/
+   - CLI Setup: winget install Git.Git
+
+4. Visual Studio Code (Optional)
+   - Purpose: Recommended integrated development environment (IDE).
+   - Installer: https://code.visualstudio.com/
+   - CLI Setup: winget install Microsoft.VisualStudioCode
+
+--------------------------------------------------------------------------------
+2. POST-INSTALLATION VERSION CHECK
+--------------------------------------------------------------------------------
+Verify the environment variables by opening a new PowerShell console and executing:
+
+  python --version
+  node --version
+  npm --version
+
+--------------------------------------------------------------------------------
+3. PROJECT CONFIGURATION PREREQUISITES
+--------------------------------------------------------------------------------
+Before running the backend, you must obtain a Groq API Key:
+- Register at the Groq Console: https://console.groq.com/
+- Generate an API Key for LLaMA 3.3 model execution.
+================================================================================

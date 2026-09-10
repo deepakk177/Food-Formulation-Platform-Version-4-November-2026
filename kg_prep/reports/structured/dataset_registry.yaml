@@ -1,0 +1,14 @@
+Foodb:
+  classification: Structured
+  formats:
+  - zip
+  local_path: data/raw/structured/foodb
+  total_files: 1
+  total_size_bytes: 545
+Usda_fdc:
+  classification: Structured
+  formats:
+  - zip
+  local_path: data/raw/structured/usda_fdc
+  total_files: 1
+  total_size_bytes: 259

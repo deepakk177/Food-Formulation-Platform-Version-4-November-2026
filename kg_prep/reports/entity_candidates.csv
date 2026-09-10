@@ -1,0 +1,1053 @@
+Dataset Name,File Name,Field,Candidate Entity,Confidence
+Foodb,foodb_2020_04_07_csv.zip,id,Compound,0.5
+Foodb,foodb_2020_04_07_csv.zip,name,Ingredient,1.0
+Foodb,foodb_2020_04_07_csv.zip,chemical_formula,Compound,0.8
+Foodb,foodb_2020_04_07_csv.zip,cas_number,Compound,0.8
+Usda_fdc,FoodData_Central_csv_2024-04-18.zip,food_category_id,Ingredient,0.8
+Flavordb,entity_1.json,flavornet_id,Flavor,0.8
+Flavordb,entity_1.json,fema_flavor_profile,Flavor,0.8
+Flavordb,entity_1.json,flavor_profile,Flavor,0.8
+Flavordb,entity_1.json,pubchem_id,Flavor Molecule,0.72
+Flavordb,entity_1.json,fooddb_flavor_profile,Flavor,0.8
+Flavordb,entity_1.json,functional_groups,Functional Role,0.64
+Flavordb,entity_1.json,taste,Flavor,1.0
+Flavordb,entity_1.json,molecules[*].fema_number,Flavor Molecule,0.72
+Flavordb,entity_1.json,molecules[*],Flavor Molecule,0.72
+Flavordb,entity_1.json,molecules[*].molecular_weight,Flavor Molecule,0.72
+Flavordb,entity_1.json,molecules[*].flavornet_id,Flavor,0.8
+Flavordb,entity_1.json,molecules[*].fema_flavor_profile,Flavor,0.8
+Flavordb,entity_1.json,molecules[*].charge,Flavor Molecule,0.72
+Flavordb,entity_1.json,molecules[*].bond_stereo_count,Flavor Molecule,0.72
+Flavordb,entity_1.json,molecules[*].odor,Flavor Molecule,0.72
+Flavordb,entity_1.json,molecules[*].defined_bond_stereocenter_count,Flavor Molecule,0.72
+Flavordb,entity_1.json,molecules[*].monoisotopic_mass,Flavor Molecule,0.72
+Flavordb,entity_1.json,molecules[*].volume3d,Flavor Molecule,0.72
+Flavordb,entity_1.json,molecules[*].cas_id,Flavor Molecule,0.72
+Flavordb,entity_1.json,molecules[*].bitterdb_id,Flavor Molecule,0.72
+Flavordb,entity_1.json,molecules[*].xlogp,Flavor Molecule,0.72
+Flavordb,entity_1.json,molecules[*].undefined_bond_stereocenter_count,Flavor Molecule,0.72
+Flavordb,entity_1.json,molecules[*].bitter,Flavor Molecule,0.72
+Flavordb,entity_1.json,molecules[*].iupac_name,Flavor Molecule,0.72
+Flavordb,entity_1.json,molecules[*].isotope_atom_count,Flavor Molecule,0.72
+Flavordb,entity_1.json,molecules[*].common_name,Flavor Molecule,0.72
+Flavordb,entity_1.json,molecules[*].supersweetdb_id,Flavor Molecule,0.72
+Flavordb,entity_1.json,molecules[*].covalently_bonded_unit_count,Flavor Molecule,0.72
+Flavordb,entity_1.json,molecules[*].defined_atom_stereocenter_count,Flavor Molecule,0.72
+Flavordb,entity_1.json,molecules[*].flavor_profile,Flavor,0.8
+Flavordb,entity_1.json,molecules[*].smile,Flavor Molecule,0.72
+Flavordb,entity_1.json,molecules[*].num_rotatablebonds,Flavor Molecule,0.72
+Flavordb,entity_1.json,molecules[*].hba_count,Flavor Molecule,0.72
+Flavordb,entity_1.json,molecules[*].undefined_atom_stereocenter_count,Flavor Molecule,0.72
+Flavordb,entity_1.json,molecules[*].pubchem_id,Flavor Molecule,0.72
+Flavordb,entity_1.json,molecules[*].fooddb_flavor_profile,Flavor,0.8
+Flavordb,entity_1.json,molecules[*].fooddb_id,Flavor Molecule,0.72
+Flavordb,entity_1.json,molecules[*].heavy_atom_count,Flavor Molecule,0.72
+Flavordb,entity_1.json,molecules,Flavor Molecule,0.72
+Flavordb,entity_1.json,molecules[*].functional_groups,Flavor Molecule,0.72
+Flavordb,entity_1.json,molecules[*].inchi,Flavor Molecule,0.72
+Flavordb,entity_1.json,molecules[*].natural,Flavor Molecule,0.72
+Flavordb,entity_1.json,molecules[*].synthetic,Flavor Molecule,0.72
+Flavordb,entity_1.json,molecules[*].topological_polor_surfacearea,Flavor Molecule,0.72
+Flavordb,entity_1.json,molecules[*].unknown_natural,Flavor Molecule,0.72
+Flavordb,entity_1.json,molecules[*].exact_mass,Flavor Molecule,0.72
+Flavordb,entity_1.json,molecules[*].atom_stereo_count,Flavor Molecule,0.72
+Flavordb,entity_1.json,molecules[*].super_sweet,Flavor Molecule,0.72
+Flavordb,entity_1.json,molecules[*].taste,Flavor,0.8
+Flavordb,entity_1.json,molecules[*].fenoroli_and_os,Flavor Molecule,0.72
+Flavordb,entity_1.json,molecules[*].complexity,Flavor Molecule,0.72
+Flavordb,entity_1.json,molecules[*].hbd_count,Flavor Molecule,0.72
+Flavordb,entity_10.json,flavornet_id,Flavor,0.8
+Flavordb,entity_10.json,fema_flavor_profile,Flavor,0.8
+Flavordb,entity_10.json,flavor_profile,Flavor,0.8
+Flavordb,entity_10.json,pubchem_id,Flavor Molecule,0.72
+Flavordb,entity_10.json,fooddb_flavor_profile,Flavor,0.8
+Flavordb,entity_10.json,functional_groups,Functional Role,0.64
+Flavordb,entity_10.json,taste,Flavor,1.0
+Flavordb,entity_10.json,molecules[*].fema_number,Flavor Molecule,0.72
+Flavordb,entity_10.json,molecules[*],Flavor Molecule,0.72
+Flavordb,entity_10.json,molecules[*].molecular_weight,Flavor Molecule,0.72
+Flavordb,entity_10.json,molecules[*].flavornet_id,Flavor,0.8
+Flavordb,entity_10.json,molecules[*].fema_flavor_profile,Flavor,0.8
+Flavordb,entity_10.json,molecules[*].charge,Flavor Molecule,0.72
+Flavordb,entity_10.json,molecules[*].bond_stereo_count,Flavor Molecule,0.72
+Flavordb,entity_10.json,molecules[*].odor,Flavor Molecule,0.72
+Flavordb,entity_10.json,molecules[*].defined_bond_stereocenter_count,Flavor Molecule,0.72
+Flavordb,entity_10.json,molecules[*].monoisotopic_mass,Flavor Molecule,0.72
+Flavordb,entity_10.json,molecules[*].volume3d,Flavor Molecule,0.72
+Flavordb,entity_10.json,molecules[*].cas_id,Flavor Molecule,0.72
+Flavordb,entity_10.json,molecules[*].bitterdb_id,Flavor Molecule,0.72
+Flavordb,entity_10.json,molecules[*].xlogp,Flavor Molecule,0.72
+Flavordb,entity_10.json,molecules[*].undefined_bond_stereocenter_count,Flavor Molecule,0.72
+Flavordb,entity_10.json,molecules[*].bitter,Flavor Molecule,0.72
+Flavordb,entity_10.json,molecules[*].iupac_name,Flavor Molecule,0.72
+Flavordb,entity_10.json,molecules[*].isotope_atom_count,Flavor Molecule,0.72
+Flavordb,entity_10.json,molecules[*].common_name,Flavor Molecule,0.72
+Flavordb,entity_10.json,molecules[*].supersweetdb_id,Flavor Molecule,0.72
+Flavordb,entity_10.json,molecules[*].covalently_bonded_unit_count,Flavor Molecule,0.72
+Flavordb,entity_10.json,molecules[*].defined_atom_stereocenter_count,Flavor Molecule,0.72
+Flavordb,entity_10.json,molecules[*].flavor_profile,Flavor,0.8
+Flavordb,entity_10.json,molecules[*].smile,Flavor Molecule,0.72
+Flavordb,entity_10.json,molecules[*].num_rotatablebonds,Flavor Molecule,0.72
+Flavordb,entity_10.json,molecules[*].hba_count,Flavor Molecule,0.72
+Flavordb,entity_10.json,molecules[*].undefined_atom_stereocenter_count,Flavor Molecule,0.72
+Flavordb,entity_10.json,molecules[*].pubchem_id,Flavor Molecule,0.72
+Flavordb,entity_10.json,molecules[*].fooddb_flavor_profile,Flavor,0.8
+Flavordb,entity_10.json,molecules[*].fooddb_id,Flavor Molecule,0.72
+Flavordb,entity_10.json,molecules[*].heavy_atom_count,Flavor Molecule,0.72
+Flavordb,entity_10.json,molecules,Flavor Molecule,0.72
+Flavordb,entity_10.json,molecules[*].functional_groups,Flavor Molecule,0.72
+Flavordb,entity_10.json,molecules[*].inchi,Flavor Molecule,0.72
+Flavordb,entity_10.json,molecules[*].natural,Flavor Molecule,0.72
+Flavordb,entity_10.json,molecules[*].synthetic,Flavor Molecule,0.72
+Flavordb,entity_10.json,molecules[*].topological_polor_surfacearea,Flavor Molecule,0.72
+Flavordb,entity_10.json,molecules[*].unknown_natural,Flavor Molecule,0.72
+Flavordb,entity_10.json,molecules[*].exact_mass,Flavor Molecule,0.72
+Flavordb,entity_10.json,molecules[*].atom_stereo_count,Flavor Molecule,0.72
+Flavordb,entity_10.json,molecules[*].super_sweet,Flavor Molecule,0.72
+Flavordb,entity_10.json,molecules[*].taste,Flavor,0.8
+Flavordb,entity_10.json,molecules[*].fenoroli_and_os,Flavor Molecule,0.72
+Flavordb,entity_10.json,molecules[*].complexity,Flavor Molecule,0.72
+Flavordb,entity_10.json,molecules[*].hbd_count,Flavor Molecule,0.72
+Flavordb,entity_11.json,flavornet_id,Flavor,0.8
+Flavordb,entity_11.json,fema_flavor_profile,Flavor,0.8
+Flavordb,entity_11.json,flavor_profile,Flavor,0.8
+Flavordb,entity_11.json,pubchem_id,Flavor Molecule,0.72
+Flavordb,entity_11.json,fooddb_flavor_profile,Flavor,0.8
+Flavordb,entity_11.json,functional_groups,Functional Role,0.64
+Flavordb,entity_11.json,taste,Flavor,1.0
+Flavordb,entity_11.json,molecules[*].fema_number,Flavor Molecule,0.72
+Flavordb,entity_11.json,molecules[*],Flavor Molecule,0.72
+Flavordb,entity_11.json,molecules[*].molecular_weight,Flavor Molecule,0.72
+Flavordb,entity_11.json,molecules[*].flavornet_id,Flavor,0.8
+Flavordb,entity_11.json,molecules[*].fema_flavor_profile,Flavor,0.8
+Flavordb,entity_11.json,molecules[*].charge,Flavor Molecule,0.72
+Flavordb,entity_11.json,molecules[*].bond_stereo_count,Flavor Molecule,0.72
+Flavordb,entity_11.json,molecules[*].odor,Flavor Molecule,0.72
+Flavordb,entity_11.json,molecules[*].defined_bond_stereocenter_count,Flavor Molecule,0.72
+Flavordb,entity_11.json,molecules[*].monoisotopic_mass,Flavor Molecule,0.72
+Flavordb,entity_11.json,molecules[*].volume3d,Flavor Molecule,0.72
+Flavordb,entity_11.json,molecules[*].cas_id,Flavor Molecule,0.72
+Flavordb,entity_11.json,molecules[*].bitterdb_id,Flavor Molecule,0.72
+Flavordb,entity_11.json,molecules[*].xlogp,Flavor Molecule,0.72
+Flavordb,entity_11.json,molecules[*].undefined_bond_stereocenter_count,Flavor Molecule,0.72
+Flavordb,entity_11.json,molecules[*].bitter,Flavor Molecule,0.72
+Flavordb,entity_11.json,molecules[*].iupac_name,Flavor Molecule,0.72
+Flavordb,entity_11.json,molecules[*].isotope_atom_count,Flavor Molecule,0.72
+Flavordb,entity_11.json,molecules[*].common_name,Flavor Molecule,0.72
+Flavordb,entity_11.json,molecules[*].supersweetdb_id,Flavor Molecule,0.72
+Flavordb,entity_11.json,molecules[*].covalently_bonded_unit_count,Flavor Molecule,0.72
+Flavordb,entity_11.json,molecules[*].defined_atom_stereocenter_count,Flavor Molecule,0.72
+Flavordb,entity_11.json,molecules[*].flavor_profile,Flavor,0.8
+Flavordb,entity_11.json,molecules[*].smile,Flavor Molecule,0.72
+Flavordb,entity_11.json,molecules[*].num_rotatablebonds,Flavor Molecule,0.72
+Flavordb,entity_11.json,molecules[*].hba_count,Flavor Molecule,0.72
+Flavordb,entity_11.json,molecules[*].undefined_atom_stereocenter_count,Flavor Molecule,0.72
+Flavordb,entity_11.json,molecules[*].pubchem_id,Flavor Molecule,0.72
+Flavordb,entity_11.json,molecules[*].fooddb_flavor_profile,Flavor,0.8
+Flavordb,entity_11.json,molecules[*].fooddb_id,Flavor Molecule,0.72
+Flavordb,entity_11.json,molecules[*].heavy_atom_count,Flavor Molecule,0.72
+Flavordb,entity_11.json,molecules,Flavor Molecule,0.72
+Flavordb,entity_11.json,molecules[*].functional_groups,Flavor Molecule,0.72
+Flavordb,entity_11.json,molecules[*].inchi,Flavor Molecule,0.72
+Flavordb,entity_11.json,molecules[*].natural,Flavor Molecule,0.72
+Flavordb,entity_11.json,molecules[*].synthetic,Flavor Molecule,0.72
+Flavordb,entity_11.json,molecules[*].topological_polor_surfacearea,Flavor Molecule,0.72
+Flavordb,entity_11.json,molecules[*].unknown_natural,Flavor Molecule,0.72
+Flavordb,entity_11.json,molecules[*].exact_mass,Flavor Molecule,0.72
+Flavordb,entity_11.json,molecules[*].atom_stereo_count,Flavor Molecule,0.72
+Flavordb,entity_11.json,molecules[*].super_sweet,Flavor Molecule,0.72
+Flavordb,entity_11.json,molecules[*].taste,Flavor,0.8
+Flavordb,entity_11.json,molecules[*].fenoroli_and_os,Flavor Molecule,0.72
+Flavordb,entity_11.json,molecules[*].complexity,Flavor Molecule,0.72
+Flavordb,entity_11.json,molecules[*].hbd_count,Flavor Molecule,0.72
+Flavordb,entity_12.json,flavornet_id,Flavor,0.8
+Flavordb,entity_12.json,fema_flavor_profile,Flavor,0.8
+Flavordb,entity_12.json,flavor_profile,Flavor,0.8
+Flavordb,entity_12.json,pubchem_id,Flavor Molecule,0.72
+Flavordb,entity_12.json,fooddb_flavor_profile,Flavor,0.8
+Flavordb,entity_12.json,functional_groups,Functional Role,0.64
+Flavordb,entity_12.json,taste,Flavor,1.0
+Flavordb,entity_12.json,molecules[*].fema_number,Flavor Molecule,0.72
+Flavordb,entity_12.json,molecules[*],Flavor Molecule,0.72
+Flavordb,entity_12.json,molecules[*].molecular_weight,Flavor Molecule,0.72
+Flavordb,entity_12.json,molecules[*].flavornet_id,Flavor,0.8
+Flavordb,entity_12.json,molecules[*].fema_flavor_profile,Flavor,0.8
+Flavordb,entity_12.json,molecules[*].charge,Flavor Molecule,0.72
+Flavordb,entity_12.json,molecules[*].bond_stereo_count,Flavor Molecule,0.72
+Flavordb,entity_12.json,molecules[*].odor,Flavor Molecule,0.72
+Flavordb,entity_12.json,molecules[*].defined_bond_stereocenter_count,Flavor Molecule,0.72
+Flavordb,entity_12.json,molecules[*].monoisotopic_mass,Flavor Molecule,0.72
+Flavordb,entity_12.json,molecules[*].volume3d,Flavor Molecule,0.72
+Flavordb,entity_12.json,molecules[*].cas_id,Flavor Molecule,0.72
+Flavordb,entity_12.json,molecules[*].bitterdb_id,Flavor Molecule,0.72
+Flavordb,entity_12.json,molecules[*].xlogp,Flavor Molecule,0.72
+Flavordb,entity_12.json,molecules[*].undefined_bond_stereocenter_count,Flavor Molecule,0.72
+Flavordb,entity_12.json,molecules[*].bitter,Flavor Molecule,0.72
+Flavordb,entity_12.json,molecules[*].iupac_name,Flavor Molecule,0.72
+Flavordb,entity_12.json,molecules[*].isotope_atom_count,Flavor Molecule,0.72
+Flavordb,entity_12.json,molecules[*].common_name,Flavor Molecule,0.72
+Flavordb,entity_12.json,molecules[*].supersweetdb_id,Flavor Molecule,0.72
+Flavordb,entity_12.json,molecules[*].covalently_bonded_unit_count,Flavor Molecule,0.72
+Flavordb,entity_12.json,molecules[*].defined_atom_stereocenter_count,Flavor Molecule,0.72
+Flavordb,entity_12.json,molecules[*].flavor_profile,Flavor,0.8
+Flavordb,entity_12.json,molecules[*].smile,Flavor Molecule,0.72
+Flavordb,entity_12.json,molecules[*].num_rotatablebonds,Flavor Molecule,0.72
+Flavordb,entity_12.json,molecules[*].hba_count,Flavor Molecule,0.72
+Flavordb,entity_12.json,molecules[*].undefined_atom_stereocenter_count,Flavor Molecule,0.72
+Flavordb,entity_12.json,molecules[*].pubchem_id,Flavor Molecule,0.72
+Flavordb,entity_12.json,molecules[*].fooddb_flavor_profile,Flavor,0.8
+Flavordb,entity_12.json,molecules[*].fooddb_id,Flavor Molecule,0.72
+Flavordb,entity_12.json,molecules[*].heavy_atom_count,Flavor Molecule,0.72
+Flavordb,entity_12.json,molecules,Flavor Molecule,0.72
+Flavordb,entity_12.json,molecules[*].functional_groups,Flavor Molecule,0.72
+Flavordb,entity_12.json,molecules[*].inchi,Flavor Molecule,0.72
+Flavordb,entity_12.json,molecules[*].natural,Flavor Molecule,0.72
+Flavordb,entity_12.json,molecules[*].synthetic,Flavor Molecule,0.72
+Flavordb,entity_12.json,molecules[*].topological_polor_surfacearea,Flavor Molecule,0.72
+Flavordb,entity_12.json,molecules[*].unknown_natural,Flavor Molecule,0.72
+Flavordb,entity_12.json,molecules[*].exact_mass,Flavor Molecule,0.72
+Flavordb,entity_12.json,molecules[*].atom_stereo_count,Flavor Molecule,0.72
+Flavordb,entity_12.json,molecules[*].super_sweet,Flavor Molecule,0.72
+Flavordb,entity_12.json,molecules[*].taste,Flavor,0.8
+Flavordb,entity_12.json,molecules[*].fenoroli_and_os,Flavor Molecule,0.72
+Flavordb,entity_12.json,molecules[*].complexity,Flavor Molecule,0.72
+Flavordb,entity_12.json,molecules[*].hbd_count,Flavor Molecule,0.72
+Flavordb,entity_13.json,flavornet_id,Flavor,0.8
+Flavordb,entity_13.json,fema_flavor_profile,Flavor,0.8
+Flavordb,entity_13.json,flavor_profile,Flavor,0.8
+Flavordb,entity_13.json,pubchem_id,Flavor Molecule,0.72
+Flavordb,entity_13.json,fooddb_flavor_profile,Flavor,0.8
+Flavordb,entity_13.json,functional_groups,Functional Role,0.64
+Flavordb,entity_13.json,taste,Flavor,1.0
+Flavordb,entity_13.json,molecules[*].fema_number,Flavor Molecule,0.72
+Flavordb,entity_13.json,molecules[*],Flavor Molecule,0.72
+Flavordb,entity_13.json,molecules[*].molecular_weight,Flavor Molecule,0.72
+Flavordb,entity_13.json,molecules[*].flavornet_id,Flavor,0.8
+Flavordb,entity_13.json,molecules[*].fema_flavor_profile,Flavor,0.8
+Flavordb,entity_13.json,molecules[*].charge,Flavor Molecule,0.72
+Flavordb,entity_13.json,molecules[*].bond_stereo_count,Flavor Molecule,0.72
+Flavordb,entity_13.json,molecules[*].odor,Flavor Molecule,0.72
+Flavordb,entity_13.json,molecules[*].defined_bond_stereocenter_count,Flavor Molecule,0.72
+Flavordb,entity_13.json,molecules[*].monoisotopic_mass,Flavor Molecule,0.72
+Flavordb,entity_13.json,molecules[*].volume3d,Flavor Molecule,0.72
+Flavordb,entity_13.json,molecules[*].cas_id,Flavor Molecule,0.72
+Flavordb,entity_13.json,molecules[*].bitterdb_id,Flavor Molecule,0.72
+Flavordb,entity_13.json,molecules[*].xlogp,Flavor Molecule,0.72
+Flavordb,entity_13.json,molecules[*].undefined_bond_stereocenter_count,Flavor Molecule,0.72
+Flavordb,entity_13.json,molecules[*].bitter,Flavor Molecule,0.72
+Flavordb,entity_13.json,molecules[*].iupac_name,Flavor Molecule,0.72
+Flavordb,entity_13.json,molecules[*].isotope_atom_count,Flavor Molecule,0.72
+Flavordb,entity_13.json,molecules[*].common_name,Flavor Molecule,0.72
+Flavordb,entity_13.json,molecules[*].supersweetdb_id,Flavor Molecule,0.72
+Flavordb,entity_13.json,molecules[*].covalently_bonded_unit_count,Flavor Molecule,0.72
+Flavordb,entity_13.json,molecules[*].defined_atom_stereocenter_count,Flavor Molecule,0.72
+Flavordb,entity_13.json,molecules[*].flavor_profile,Flavor,0.8
+Flavordb,entity_13.json,molecules[*].smile,Flavor Molecule,0.72
+Flavordb,entity_13.json,molecules[*].num_rotatablebonds,Flavor Molecule,0.72
+Flavordb,entity_13.json,molecules[*].hba_count,Flavor Molecule,0.72
+Flavordb,entity_13.json,molecules[*].undefined_atom_stereocenter_count,Flavor Molecule,0.72
+Flavordb,entity_13.json,molecules[*].pubchem_id,Flavor Molecule,0.72
+Flavordb,entity_13.json,molecules[*].fooddb_flavor_profile,Flavor,0.8
+Flavordb,entity_13.json,molecules[*].fooddb_id,Flavor Molecule,0.72
+Flavordb,entity_13.json,molecules[*].heavy_atom_count,Flavor Molecule,0.72
+Flavordb,entity_13.json,molecules,Flavor Molecule,0.72
+Flavordb,entity_13.json,molecules[*].functional_groups,Flavor Molecule,0.72
+Flavordb,entity_13.json,molecules[*].inchi,Flavor Molecule,0.72
+Flavordb,entity_13.json,molecules[*].natural,Flavor Molecule,0.72
+Flavordb,entity_13.json,molecules[*].synthetic,Flavor Molecule,0.72
+Flavordb,entity_13.json,molecules[*].topological_polor_surfacearea,Flavor Molecule,0.72
+Flavordb,entity_13.json,molecules[*].unknown_natural,Flavor Molecule,0.72
+Flavordb,entity_13.json,molecules[*].exact_mass,Flavor Molecule,0.72
+Flavordb,entity_13.json,molecules[*].atom_stereo_count,Flavor Molecule,0.72
+Flavordb,entity_13.json,molecules[*].super_sweet,Flavor Molecule,0.72
+Flavordb,entity_13.json,molecules[*].taste,Flavor,0.8
+Flavordb,entity_13.json,molecules[*].fenoroli_and_os,Flavor Molecule,0.72
+Flavordb,entity_13.json,molecules[*].complexity,Flavor Molecule,0.72
+Flavordb,entity_13.json,molecules[*].hbd_count,Flavor Molecule,0.72
+Flavordb,entity_14.json,flavornet_id,Flavor,0.8
+Flavordb,entity_14.json,fema_flavor_profile,Flavor,0.8
+Flavordb,entity_14.json,flavor_profile,Flavor,0.8
+Flavordb,entity_14.json,pubchem_id,Flavor Molecule,0.72
+Flavordb,entity_14.json,fooddb_flavor_profile,Flavor,0.8
+Flavordb,entity_14.json,functional_groups,Functional Role,0.64
+Flavordb,entity_14.json,taste,Flavor,1.0
+Flavordb,entity_14.json,molecules[*].fema_number,Flavor Molecule,0.72
+Flavordb,entity_14.json,molecules[*],Flavor Molecule,0.72
+Flavordb,entity_14.json,molecules[*].molecular_weight,Flavor Molecule,0.72
+Flavordb,entity_14.json,molecules[*].flavornet_id,Flavor,0.8
+Flavordb,entity_14.json,molecules[*].fema_flavor_profile,Flavor,0.8
+Flavordb,entity_14.json,molecules[*].charge,Flavor Molecule,0.72
+Flavordb,entity_14.json,molecules[*].bond_stereo_count,Flavor Molecule,0.72
+Flavordb,entity_14.json,molecules[*].odor,Flavor Molecule,0.72
+Flavordb,entity_14.json,molecules[*].defined_bond_stereocenter_count,Flavor Molecule,0.72
+Flavordb,entity_14.json,molecules[*].monoisotopic_mass,Flavor Molecule,0.72
+Flavordb,entity_14.json,molecules[*].volume3d,Flavor Molecule,0.72
+Flavordb,entity_14.json,molecules[*].cas_id,Flavor Molecule,0.72
+Flavordb,entity_14.json,molecules[*].bitterdb_id,Flavor Molecule,0.72
+Flavordb,entity_14.json,molecules[*].xlogp,Flavor Molecule,0.72
+Flavordb,entity_14.json,molecules[*].undefined_bond_stereocenter_count,Flavor Molecule,0.72
+Flavordb,entity_14.json,molecules[*].bitter,Flavor Molecule,0.72
+Flavordb,entity_14.json,molecules[*].iupac_name,Flavor Molecule,0.72
+Flavordb,entity_14.json,molecules[*].isotope_atom_count,Flavor Molecule,0.72
+Flavordb,entity_14.json,molecules[*].common_name,Flavor Molecule,0.72
+Flavordb,entity_14.json,molecules[*].supersweetdb_id,Flavor Molecule,0.72
+Flavordb,entity_14.json,molecules[*].covalently_bonded_unit_count,Flavor Molecule,0.72
+Flavordb,entity_14.json,molecules[*].defined_atom_stereocenter_count,Flavor Molecule,0.72
+Flavordb,entity_14.json,molecules[*].flavor_profile,Flavor,0.8
+Flavordb,entity_14.json,molecules[*].smile,Flavor Molecule,0.72
+Flavordb,entity_14.json,molecules[*].num_rotatablebonds,Flavor Molecule,0.72
+Flavordb,entity_14.json,molecules[*].hba_count,Flavor Molecule,0.72
+Flavordb,entity_14.json,molecules[*].undefined_atom_stereocenter_count,Flavor Molecule,0.72
+Flavordb,entity_14.json,molecules[*].pubchem_id,Flavor Molecule,0.72
+Flavordb,entity_14.json,molecules[*].fooddb_flavor_profile,Flavor,0.8
+Flavordb,entity_14.json,molecules[*].fooddb_id,Flavor Molecule,0.72
+Flavordb,entity_14.json,molecules[*].heavy_atom_count,Flavor Molecule,0.72
+Flavordb,entity_14.json,molecules,Flavor Molecule,0.72
+Flavordb,entity_14.json,molecules[*].functional_groups,Flavor Molecule,0.72
+Flavordb,entity_14.json,molecules[*].inchi,Flavor Molecule,0.72
+Flavordb,entity_14.json,molecules[*].natural,Flavor Molecule,0.72
+Flavordb,entity_14.json,molecules[*].synthetic,Flavor Molecule,0.72
+Flavordb,entity_14.json,molecules[*].topological_polor_surfacearea,Flavor Molecule,0.72
+Flavordb,entity_14.json,molecules[*].unknown_natural,Flavor Molecule,0.72
+Flavordb,entity_14.json,molecules[*].exact_mass,Flavor Molecule,0.72
+Flavordb,entity_14.json,molecules[*].atom_stereo_count,Flavor Molecule,0.72
+Flavordb,entity_14.json,molecules[*].super_sweet,Flavor Molecule,0.72
+Flavordb,entity_14.json,molecules[*].taste,Flavor,0.8
+Flavordb,entity_14.json,molecules[*].fenoroli_and_os,Flavor Molecule,0.72
+Flavordb,entity_14.json,molecules[*].complexity,Flavor Molecule,0.72
+Flavordb,entity_14.json,molecules[*].hbd_count,Flavor Molecule,0.72
+Flavordb,entity_15.json,flavornet_id,Flavor,0.8
+Flavordb,entity_15.json,fema_flavor_profile,Flavor,0.8
+Flavordb,entity_15.json,flavor_profile,Flavor,0.8
+Flavordb,entity_15.json,pubchem_id,Flavor Molecule,0.72
+Flavordb,entity_15.json,fooddb_flavor_profile,Flavor,0.8
+Flavordb,entity_15.json,functional_groups,Functional Role,0.64
+Flavordb,entity_15.json,taste,Flavor,1.0
+Flavordb,entity_15.json,molecules[*].fema_number,Flavor Molecule,0.72
+Flavordb,entity_15.json,molecules[*],Flavor Molecule,0.72
+Flavordb,entity_15.json,molecules[*].molecular_weight,Flavor Molecule,0.72
+Flavordb,entity_15.json,molecules[*].flavornet_id,Flavor,0.8
+Flavordb,entity_15.json,molecules[*].fema_flavor_profile,Flavor,0.8
+Flavordb,entity_15.json,molecules[*].charge,Flavor Molecule,0.72
+Flavordb,entity_15.json,molecules[*].bond_stereo_count,Flavor Molecule,0.72
+Flavordb,entity_15.json,molecules[*].odor,Flavor Molecule,0.72
+Flavordb,entity_15.json,molecules[*].defined_bond_stereocenter_count,Flavor Molecule,0.72
+Flavordb,entity_15.json,molecules[*].monoisotopic_mass,Flavor Molecule,0.72
+Flavordb,entity_15.json,molecules[*].volume3d,Flavor Molecule,0.72
+Flavordb,entity_15.json,molecules[*].cas_id,Flavor Molecule,0.72
+Flavordb,entity_15.json,molecules[*].bitterdb_id,Flavor Molecule,0.72
+Flavordb,entity_15.json,molecules[*].xlogp,Flavor Molecule,0.72
+Flavordb,entity_15.json,molecules[*].undefined_bond_stereocenter_count,Flavor Molecule,0.72
+Flavordb,entity_15.json,molecules[*].bitter,Flavor Molecule,0.72
+Flavordb,entity_15.json,molecules[*].iupac_name,Flavor Molecule,0.72
+Flavordb,entity_15.json,molecules[*].isotope_atom_count,Flavor Molecule,0.72
+Flavordb,entity_15.json,molecules[*].common_name,Flavor Molecule,0.72
+Flavordb,entity_15.json,molecules[*].supersweetdb_id,Flavor Molecule,0.72
+Flavordb,entity_15.json,molecules[*].covalently_bonded_unit_count,Flavor Molecule,0.72
+Flavordb,entity_15.json,molecules[*].defined_atom_stereocenter_count,Flavor Molecule,0.72
+Flavordb,entity_15.json,molecules[*].flavor_profile,Flavor,0.8
+Flavordb,entity_15.json,molecules[*].smile,Flavor Molecule,0.72
+Flavordb,entity_15.json,molecules[*].num_rotatablebonds,Flavor Molecule,0.72
+Flavordb,entity_15.json,molecules[*].hba_count,Flavor Molecule,0.72
+Flavordb,entity_15.json,molecules[*].undefined_atom_stereocenter_count,Flavor Molecule,0.72
+Flavordb,entity_15.json,molecules[*].pubchem_id,Flavor Molecule,0.72
+Flavordb,entity_15.json,molecules[*].fooddb_flavor_profile,Flavor,0.8
+Flavordb,entity_15.json,molecules[*].fooddb_id,Flavor Molecule,0.72
+Flavordb,entity_15.json,molecules[*].heavy_atom_count,Flavor Molecule,0.72
+Flavordb,entity_15.json,molecules,Flavor Molecule,0.72
+Flavordb,entity_15.json,molecules[*].functional_groups,Flavor Molecule,0.72
+Flavordb,entity_15.json,molecules[*].inchi,Flavor Molecule,0.72
+Flavordb,entity_15.json,molecules[*].natural,Flavor Molecule,0.72
+Flavordb,entity_15.json,molecules[*].synthetic,Flavor Molecule,0.72
+Flavordb,entity_15.json,molecules[*].topological_polor_surfacearea,Flavor Molecule,0.72
+Flavordb,entity_15.json,molecules[*].unknown_natural,Flavor Molecule,0.72
+Flavordb,entity_15.json,molecules[*].exact_mass,Flavor Molecule,0.72
+Flavordb,entity_15.json,molecules[*].atom_stereo_count,Flavor Molecule,0.72
+Flavordb,entity_15.json,molecules[*].super_sweet,Flavor Molecule,0.72
+Flavordb,entity_15.json,molecules[*].taste,Flavor,0.8
+Flavordb,entity_15.json,molecules[*].fenoroli_and_os,Flavor Molecule,0.72
+Flavordb,entity_15.json,molecules[*].complexity,Flavor Molecule,0.72
+Flavordb,entity_15.json,molecules[*].hbd_count,Flavor Molecule,0.72
+Flavordb,entity_16.json,flavornet_id,Flavor,0.8
+Flavordb,entity_16.json,fema_flavor_profile,Flavor,0.8
+Flavordb,entity_16.json,flavor_profile,Flavor,0.8
+Flavordb,entity_16.json,pubchem_id,Flavor Molecule,0.72
+Flavordb,entity_16.json,fooddb_flavor_profile,Flavor,0.8
+Flavordb,entity_16.json,functional_groups,Functional Role,0.64
+Flavordb,entity_16.json,taste,Flavor,1.0
+Flavordb,entity_16.json,molecules[*].fema_number,Flavor Molecule,0.72
+Flavordb,entity_16.json,molecules[*],Flavor Molecule,0.72
+Flavordb,entity_16.json,molecules[*].molecular_weight,Flavor Molecule,0.72
+Flavordb,entity_16.json,molecules[*].flavornet_id,Flavor,0.8
+Flavordb,entity_16.json,molecules[*].fema_flavor_profile,Flavor,0.8
+Flavordb,entity_16.json,molecules[*].charge,Flavor Molecule,0.72
+Flavordb,entity_16.json,molecules[*].bond_stereo_count,Flavor Molecule,0.72
+Flavordb,entity_16.json,molecules[*].odor,Flavor Molecule,0.72
+Flavordb,entity_16.json,molecules[*].defined_bond_stereocenter_count,Flavor Molecule,0.72
+Flavordb,entity_16.json,molecules[*].monoisotopic_mass,Flavor Molecule,0.72
+Flavordb,entity_16.json,molecules[*].volume3d,Flavor Molecule,0.72
+Flavordb,entity_16.json,molecules[*].cas_id,Flavor Molecule,0.72
+Flavordb,entity_16.json,molecules[*].bitterdb_id,Flavor Molecule,0.72
+Flavordb,entity_16.json,molecules[*].xlogp,Flavor Molecule,0.72
+Flavordb,entity_16.json,molecules[*].undefined_bond_stereocenter_count,Flavor Molecule,0.72
+Flavordb,entity_16.json,molecules[*].bitter,Flavor Molecule,0.72
+Flavordb,entity_16.json,molecules[*].iupac_name,Flavor Molecule,0.72
+Flavordb,entity_16.json,molecules[*].isotope_atom_count,Flavor Molecule,0.72
+Flavordb,entity_16.json,molecules[*].common_name,Flavor Molecule,0.72
+Flavordb,entity_16.json,molecules[*].supersweetdb_id,Flavor Molecule,0.72
+Flavordb,entity_16.json,molecules[*].covalently_bonded_unit_count,Flavor Molecule,0.72
+Flavordb,entity_16.json,molecules[*].defined_atom_stereocenter_count,Flavor Molecule,0.72
+Flavordb,entity_16.json,molecules[*].flavor_profile,Flavor,0.8
+Flavordb,entity_16.json,molecules[*].smile,Flavor Molecule,0.72
+Flavordb,entity_16.json,molecules[*].num_rotatablebonds,Flavor Molecule,0.72
+Flavordb,entity_16.json,molecules[*].hba_count,Flavor Molecule,0.72
+Flavordb,entity_16.json,molecules[*].undefined_atom_stereocenter_count,Flavor Molecule,0.72
+Flavordb,entity_16.json,molecules[*].pubchem_id,Flavor Molecule,0.72
+Flavordb,entity_16.json,molecules[*].fooddb_flavor_profile,Flavor,0.8
+Flavordb,entity_16.json,molecules[*].fooddb_id,Flavor Molecule,0.72
+Flavordb,entity_16.json,molecules[*].heavy_atom_count,Flavor Molecule,0.72
+Flavordb,entity_16.json,molecules,Flavor Molecule,0.72
+Flavordb,entity_16.json,molecules[*].functional_groups,Flavor Molecule,0.72
+Flavordb,entity_16.json,molecules[*].inchi,Flavor Molecule,0.72
+Flavordb,entity_16.json,molecules[*].natural,Flavor Molecule,0.72
+Flavordb,entity_16.json,molecules[*].synthetic,Flavor Molecule,0.72
+Flavordb,entity_16.json,molecules[*].topological_polor_surfacearea,Flavor Molecule,0.72
+Flavordb,entity_16.json,molecules[*].unknown_natural,Flavor Molecule,0.72
+Flavordb,entity_16.json,molecules[*].exact_mass,Flavor Molecule,0.72
+Flavordb,entity_16.json,molecules[*].atom_stereo_count,Flavor Molecule,0.72
+Flavordb,entity_16.json,molecules[*].super_sweet,Flavor Molecule,0.72
+Flavordb,entity_16.json,molecules[*].taste,Flavor,0.8
+Flavordb,entity_16.json,molecules[*].fenoroli_and_os,Flavor Molecule,0.72
+Flavordb,entity_16.json,molecules[*].complexity,Flavor Molecule,0.72
+Flavordb,entity_16.json,molecules[*].hbd_count,Flavor Molecule,0.72
+Flavordb,entity_17.json,flavornet_id,Flavor,0.8
+Flavordb,entity_17.json,fema_flavor_profile,Flavor,0.8
+Flavordb,entity_17.json,flavor_profile,Flavor,0.8
+Flavordb,entity_17.json,pubchem_id,Flavor Molecule,0.72
+Flavordb,entity_17.json,fooddb_flavor_profile,Flavor,0.8
+Flavordb,entity_17.json,functional_groups,Functional Role,0.64
+Flavordb,entity_17.json,taste,Flavor,1.0
+Flavordb,entity_17.json,molecules[*].fema_number,Flavor Molecule,0.72
+Flavordb,entity_17.json,molecules[*],Flavor Molecule,0.72
+Flavordb,entity_17.json,molecules[*].molecular_weight,Flavor Molecule,0.72
+Flavordb,entity_17.json,molecules[*].flavornet_id,Flavor,0.8
+Flavordb,entity_17.json,molecules[*].fema_flavor_profile,Flavor,0.8
+Flavordb,entity_17.json,molecules[*].charge,Flavor Molecule,0.72
+Flavordb,entity_17.json,molecules[*].bond_stereo_count,Flavor Molecule,0.72
+Flavordb,entity_17.json,molecules[*].odor,Flavor Molecule,0.72
+Flavordb,entity_17.json,molecules[*].defined_bond_stereocenter_count,Flavor Molecule,0.72
+Flavordb,entity_17.json,molecules[*].monoisotopic_mass,Flavor Molecule,0.72
+Flavordb,entity_17.json,molecules[*].volume3d,Flavor Molecule,0.72
+Flavordb,entity_17.json,molecules[*].cas_id,Flavor Molecule,0.72
+Flavordb,entity_17.json,molecules[*].bitterdb_id,Flavor Molecule,0.72
+Flavordb,entity_17.json,molecules[*].xlogp,Flavor Molecule,0.72
+Flavordb,entity_17.json,molecules[*].undefined_bond_stereocenter_count,Flavor Molecule,0.72
+Flavordb,entity_17.json,molecules[*].bitter,Flavor Molecule,0.72
+Flavordb,entity_17.json,molecules[*].iupac_name,Flavor Molecule,0.72
+Flavordb,entity_17.json,molecules[*].isotope_atom_count,Flavor Molecule,0.72
+Flavordb,entity_17.json,molecules[*].common_name,Flavor Molecule,0.72
+Flavordb,entity_17.json,molecules[*].supersweetdb_id,Flavor Molecule,0.72
+Flavordb,entity_17.json,molecules[*].covalently_bonded_unit_count,Flavor Molecule,0.72
+Flavordb,entity_17.json,molecules[*].defined_atom_stereocenter_count,Flavor Molecule,0.72
+Flavordb,entity_17.json,molecules[*].flavor_profile,Flavor,0.8
+Flavordb,entity_17.json,molecules[*].smile,Flavor Molecule,0.72
+Flavordb,entity_17.json,molecules[*].num_rotatablebonds,Flavor Molecule,0.72
+Flavordb,entity_17.json,molecules[*].hba_count,Flavor Molecule,0.72
+Flavordb,entity_17.json,molecules[*].undefined_atom_stereocenter_count,Flavor Molecule,0.72
+Flavordb,entity_17.json,molecules[*].pubchem_id,Flavor Molecule,0.72
+Flavordb,entity_17.json,molecules[*].fooddb_flavor_profile,Flavor,0.8
+Flavordb,entity_17.json,molecules[*].fooddb_id,Flavor Molecule,0.72
+Flavordb,entity_17.json,molecules[*].heavy_atom_count,Flavor Molecule,0.72
+Flavordb,entity_17.json,molecules,Flavor Molecule,0.72
+Flavordb,entity_17.json,molecules[*].functional_groups,Flavor Molecule,0.72
+Flavordb,entity_17.json,molecules[*].inchi,Flavor Molecule,0.72
+Flavordb,entity_17.json,molecules[*].natural,Flavor Molecule,0.72
+Flavordb,entity_17.json,molecules[*].synthetic,Flavor Molecule,0.72
+Flavordb,entity_17.json,molecules[*].topological_polor_surfacearea,Flavor Molecule,0.72
+Flavordb,entity_17.json,molecules[*].unknown_natural,Flavor Molecule,0.72
+Flavordb,entity_17.json,molecules[*].exact_mass,Flavor Molecule,0.72
+Flavordb,entity_17.json,molecules[*].atom_stereo_count,Flavor Molecule,0.72
+Flavordb,entity_17.json,molecules[*].super_sweet,Flavor Molecule,0.72
+Flavordb,entity_17.json,molecules[*].taste,Flavor,0.8
+Flavordb,entity_17.json,molecules[*].fenoroli_and_os,Flavor Molecule,0.72
+Flavordb,entity_17.json,molecules[*].complexity,Flavor Molecule,0.72
+Flavordb,entity_17.json,molecules[*].hbd_count,Flavor Molecule,0.72
+Flavordb,entity_18.json,flavornet_id,Flavor,0.8
+Flavordb,entity_18.json,fema_flavor_profile,Flavor,0.8
+Flavordb,entity_18.json,flavor_profile,Flavor,0.8
+Flavordb,entity_18.json,pubchem_id,Flavor Molecule,0.72
+Flavordb,entity_18.json,fooddb_flavor_profile,Flavor,0.8
+Flavordb,entity_18.json,functional_groups,Functional Role,0.64
+Flavordb,entity_18.json,taste,Flavor,1.0
+Flavordb,entity_18.json,molecules[*].fema_number,Flavor Molecule,0.72
+Flavordb,entity_18.json,molecules[*],Flavor Molecule,0.72
+Flavordb,entity_18.json,molecules[*].molecular_weight,Flavor Molecule,0.72
+Flavordb,entity_18.json,molecules[*].flavornet_id,Flavor,0.8
+Flavordb,entity_18.json,molecules[*].fema_flavor_profile,Flavor,0.8
+Flavordb,entity_18.json,molecules[*].charge,Flavor Molecule,0.72
+Flavordb,entity_18.json,molecules[*].bond_stereo_count,Flavor Molecule,0.72
+Flavordb,entity_18.json,molecules[*].odor,Flavor Molecule,0.72
+Flavordb,entity_18.json,molecules[*].defined_bond_stereocenter_count,Flavor Molecule,0.72
+Flavordb,entity_18.json,molecules[*].monoisotopic_mass,Flavor Molecule,0.72
+Flavordb,entity_18.json,molecules[*].volume3d,Flavor Molecule,0.72
+Flavordb,entity_18.json,molecules[*].cas_id,Flavor Molecule,0.72
+Flavordb,entity_18.json,molecules[*].bitterdb_id,Flavor Molecule,0.72
+Flavordb,entity_18.json,molecules[*].xlogp,Flavor Molecule,0.72
+Flavordb,entity_18.json,molecules[*].undefined_bond_stereocenter_count,Flavor Molecule,0.72
+Flavordb,entity_18.json,molecules[*].bitter,Flavor Molecule,0.72
+Flavordb,entity_18.json,molecules[*].iupac_name,Flavor Molecule,0.72
+Flavordb,entity_18.json,molecules[*].isotope_atom_count,Flavor Molecule,0.72
+Flavordb,entity_18.json,molecules[*].common_name,Flavor Molecule,0.72
+Flavordb,entity_18.json,molecules[*].supersweetdb_id,Flavor Molecule,0.72
+Flavordb,entity_18.json,molecules[*].covalently_bonded_unit_count,Flavor Molecule,0.72
+Flavordb,entity_18.json,molecules[*].defined_atom_stereocenter_count,Flavor Molecule,0.72
+Flavordb,entity_18.json,molecules[*].flavor_profile,Flavor,0.8
+Flavordb,entity_18.json,molecules[*].smile,Flavor Molecule,0.72
+Flavordb,entity_18.json,molecules[*].num_rotatablebonds,Flavor Molecule,0.72
+Flavordb,entity_18.json,molecules[*].hba_count,Flavor Molecule,0.72
+Flavordb,entity_18.json,molecules[*].undefined_atom_stereocenter_count,Flavor Molecule,0.72
+Flavordb,entity_18.json,molecules[*].pubchem_id,Flavor Molecule,0.72
+Flavordb,entity_18.json,molecules[*].fooddb_flavor_profile,Flavor,0.8
+Flavordb,entity_18.json,molecules[*].fooddb_id,Flavor Molecule,0.72
+Flavordb,entity_18.json,molecules[*].heavy_atom_count,Flavor Molecule,0.72
+Flavordb,entity_18.json,molecules,Flavor Molecule,0.72
+Flavordb,entity_18.json,molecules[*].functional_groups,Flavor Molecule,0.72
+Flavordb,entity_18.json,molecules[*].inchi,Flavor Molecule,0.72
+Flavordb,entity_18.json,molecules[*].natural,Flavor Molecule,0.72
+Flavordb,entity_18.json,molecules[*].synthetic,Flavor Molecule,0.72
+Flavordb,entity_18.json,molecules[*].topological_polor_surfacearea,Flavor Molecule,0.72
+Flavordb,entity_18.json,molecules[*].unknown_natural,Flavor Molecule,0.72
+Flavordb,entity_18.json,molecules[*].exact_mass,Flavor Molecule,0.72
+Flavordb,entity_18.json,molecules[*].atom_stereo_count,Flavor Molecule,0.72
+Flavordb,entity_18.json,molecules[*].super_sweet,Flavor Molecule,0.72
+Flavordb,entity_18.json,molecules[*].taste,Flavor,0.8
+Flavordb,entity_18.json,molecules[*].fenoroli_and_os,Flavor Molecule,0.72
+Flavordb,entity_18.json,molecules[*].complexity,Flavor Molecule,0.72
+Flavordb,entity_18.json,molecules[*].hbd_count,Flavor Molecule,0.72
+Flavordb,entity_19.json,flavornet_id,Flavor,0.8
+Flavordb,entity_19.json,fema_flavor_profile,Flavor,0.8
+Flavordb,entity_19.json,flavor_profile,Flavor,0.8
+Flavordb,entity_19.json,pubchem_id,Flavor Molecule,0.72
+Flavordb,entity_19.json,fooddb_flavor_profile,Flavor,0.8
+Flavordb,entity_19.json,functional_groups,Functional Role,0.64
+Flavordb,entity_19.json,taste,Flavor,1.0
+Flavordb,entity_19.json,molecules[*].fema_number,Flavor Molecule,0.72
+Flavordb,entity_19.json,molecules[*],Flavor Molecule,0.72
+Flavordb,entity_19.json,molecules[*].molecular_weight,Flavor Molecule,0.72
+Flavordb,entity_19.json,molecules[*].flavornet_id,Flavor,0.8
+Flavordb,entity_19.json,molecules[*].fema_flavor_profile,Flavor,0.8
+Flavordb,entity_19.json,molecules[*].charge,Flavor Molecule,0.72
+Flavordb,entity_19.json,molecules[*].bond_stereo_count,Flavor Molecule,0.72
+Flavordb,entity_19.json,molecules[*].odor,Flavor Molecule,0.72
+Flavordb,entity_19.json,molecules[*].defined_bond_stereocenter_count,Flavor Molecule,0.72
+Flavordb,entity_19.json,molecules[*].monoisotopic_mass,Flavor Molecule,0.72
+Flavordb,entity_19.json,molecules[*].volume3d,Flavor Molecule,0.72
+Flavordb,entity_19.json,molecules[*].cas_id,Flavor Molecule,0.72
+Flavordb,entity_19.json,molecules[*].bitterdb_id,Flavor Molecule,0.72
+Flavordb,entity_19.json,molecules[*].xlogp,Flavor Molecule,0.72
+Flavordb,entity_19.json,molecules[*].undefined_bond_stereocenter_count,Flavor Molecule,0.72
+Flavordb,entity_19.json,molecules[*].bitter,Flavor Molecule,0.72
+Flavordb,entity_19.json,molecules[*].iupac_name,Flavor Molecule,0.72
+Flavordb,entity_19.json,molecules[*].isotope_atom_count,Flavor Molecule,0.72
+Flavordb,entity_19.json,molecules[*].common_name,Flavor Molecule,0.72
+Flavordb,entity_19.json,molecules[*].supersweetdb_id,Flavor Molecule,0.72
+Flavordb,entity_19.json,molecules[*].covalently_bonded_unit_count,Flavor Molecule,0.72
+Flavordb,entity_19.json,molecules[*].defined_atom_stereocenter_count,Flavor Molecule,0.72
+Flavordb,entity_19.json,molecules[*].flavor_profile,Flavor,0.8
+Flavordb,entity_19.json,molecules[*].smile,Flavor Molecule,0.72
+Flavordb,entity_19.json,molecules[*].num_rotatablebonds,Flavor Molecule,0.72
+Flavordb,entity_19.json,molecules[*].hba_count,Flavor Molecule,0.72
+Flavordb,entity_19.json,molecules[*].undefined_atom_stereocenter_count,Flavor Molecule,0.72
+Flavordb,entity_19.json,molecules[*].pubchem_id,Flavor Molecule,0.72
+Flavordb,entity_19.json,molecules[*].fooddb_flavor_profile,Flavor,0.8
+Flavordb,entity_19.json,molecules[*].fooddb_id,Flavor Molecule,0.72
+Flavordb,entity_19.json,molecules[*].heavy_atom_count,Flavor Molecule,0.72
+Flavordb,entity_19.json,molecules,Flavor Molecule,0.72
+Flavordb,entity_19.json,molecules[*].functional_groups,Flavor Molecule,0.72
+Flavordb,entity_19.json,molecules[*].inchi,Flavor Molecule,0.72
+Flavordb,entity_19.json,molecules[*].natural,Flavor Molecule,0.72
+Flavordb,entity_19.json,molecules[*].synthetic,Flavor Molecule,0.72
+Flavordb,entity_19.json,molecules[*].topological_polor_surfacearea,Flavor Molecule,0.72
+Flavordb,entity_19.json,molecules[*].unknown_natural,Flavor Molecule,0.72
+Flavordb,entity_19.json,molecules[*].exact_mass,Flavor Molecule,0.72
+Flavordb,entity_19.json,molecules[*].atom_stereo_count,Flavor Molecule,0.72
+Flavordb,entity_19.json,molecules[*].super_sweet,Flavor Molecule,0.72
+Flavordb,entity_19.json,molecules[*].taste,Flavor,0.8
+Flavordb,entity_19.json,molecules[*].fenoroli_and_os,Flavor Molecule,0.72
+Flavordb,entity_19.json,molecules[*].complexity,Flavor Molecule,0.72
+Flavordb,entity_19.json,molecules[*].hbd_count,Flavor Molecule,0.72
+Flavordb,entity_2.json,flavornet_id,Flavor,0.8
+Flavordb,entity_2.json,fema_flavor_profile,Flavor,0.8
+Flavordb,entity_2.json,flavor_profile,Flavor,0.8
+Flavordb,entity_2.json,pubchem_id,Flavor Molecule,0.72
+Flavordb,entity_2.json,fooddb_flavor_profile,Flavor,0.8
+Flavordb,entity_2.json,functional_groups,Functional Role,0.64
+Flavordb,entity_2.json,taste,Flavor,1.0
+Flavordb,entity_2.json,molecules[*].fema_number,Flavor Molecule,0.72
+Flavordb,entity_2.json,molecules[*],Flavor Molecule,0.72
+Flavordb,entity_2.json,molecules[*].molecular_weight,Flavor Molecule,0.72
+Flavordb,entity_2.json,molecules[*].flavornet_id,Flavor,0.8
+Flavordb,entity_2.json,molecules[*].fema_flavor_profile,Flavor,0.8
+Flavordb,entity_2.json,molecules[*].charge,Flavor Molecule,0.72
+Flavordb,entity_2.json,molecules[*].bond_stereo_count,Flavor Molecule,0.72
+Flavordb,entity_2.json,molecules[*].odor,Flavor Molecule,0.72
+Flavordb,entity_2.json,molecules[*].defined_bond_stereocenter_count,Flavor Molecule,0.72
+Flavordb,entity_2.json,molecules[*].monoisotopic_mass,Flavor Molecule,0.72
+Flavordb,entity_2.json,molecules[*].volume3d,Flavor Molecule,0.72
+Flavordb,entity_2.json,molecules[*].cas_id,Flavor Molecule,0.72
+Flavordb,entity_2.json,molecules[*].bitterdb_id,Flavor Molecule,0.72
+Flavordb,entity_2.json,molecules[*].xlogp,Flavor Molecule,0.72
+Flavordb,entity_2.json,molecules[*].undefined_bond_stereocenter_count,Flavor Molecule,0.72
+Flavordb,entity_2.json,molecules[*].bitter,Flavor Molecule,0.72
+Flavordb,entity_2.json,molecules[*].iupac_name,Flavor Molecule,0.72
+Flavordb,entity_2.json,molecules[*].isotope_atom_count,Flavor Molecule,0.72
+Flavordb,entity_2.json,molecules[*].common_name,Flavor Molecule,0.72
+Flavordb,entity_2.json,molecules[*].supersweetdb_id,Flavor Molecule,0.72
+Flavordb,entity_2.json,molecules[*].covalently_bonded_unit_count,Flavor Molecule,0.72
+Flavordb,entity_2.json,molecules[*].defined_atom_stereocenter_count,Flavor Molecule,0.72
+Flavordb,entity_2.json,molecules[*].flavor_profile,Flavor,0.8
+Flavordb,entity_2.json,molecules[*].smile,Flavor Molecule,0.72
+Flavordb,entity_2.json,molecules[*].num_rotatablebonds,Flavor Molecule,0.72
+Flavordb,entity_2.json,molecules[*].hba_count,Flavor Molecule,0.72
+Flavordb,entity_2.json,molecules[*].undefined_atom_stereocenter_count,Flavor Molecule,0.72
+Flavordb,entity_2.json,molecules[*].pubchem_id,Flavor Molecule,0.72
+Flavordb,entity_2.json,molecules[*].fooddb_flavor_profile,Flavor,0.8
+Flavordb,entity_2.json,molecules[*].fooddb_id,Flavor Molecule,0.72
+Flavordb,entity_2.json,molecules[*].heavy_atom_count,Flavor Molecule,0.72
+Flavordb,entity_2.json,molecules,Flavor Molecule,0.72
+Flavordb,entity_2.json,molecules[*].functional_groups,Flavor Molecule,0.72
+Flavordb,entity_2.json,molecules[*].inchi,Flavor Molecule,0.72
+Flavordb,entity_2.json,molecules[*].natural,Flavor Molecule,0.72
+Flavordb,entity_2.json,molecules[*].synthetic,Flavor Molecule,0.72
+Flavordb,entity_2.json,molecules[*].topological_polor_surfacearea,Flavor Molecule,0.72
+Flavordb,entity_2.json,molecules[*].unknown_natural,Flavor Molecule,0.72
+Flavordb,entity_2.json,molecules[*].exact_mass,Flavor Molecule,0.72
+Flavordb,entity_2.json,molecules[*].atom_stereo_count,Flavor Molecule,0.72
+Flavordb,entity_2.json,molecules[*].super_sweet,Flavor Molecule,0.72
+Flavordb,entity_2.json,molecules[*].taste,Flavor,0.8
+Flavordb,entity_2.json,molecules[*].fenoroli_and_os,Flavor Molecule,0.72
+Flavordb,entity_2.json,molecules[*].complexity,Flavor Molecule,0.72
+Flavordb,entity_2.json,molecules[*].hbd_count,Flavor Molecule,0.72
+Flavordb,entity_20.json,flavornet_id,Flavor,0.8
+Flavordb,entity_20.json,fema_flavor_profile,Flavor,0.8
+Flavordb,entity_20.json,flavor_profile,Flavor,0.8
+Flavordb,entity_20.json,pubchem_id,Flavor Molecule,0.72
+Flavordb,entity_20.json,fooddb_flavor_profile,Flavor,0.8
+Flavordb,entity_20.json,functional_groups,Functional Role,0.64
+Flavordb,entity_20.json,taste,Flavor,1.0
+Flavordb,entity_20.json,molecules[*].fema_number,Flavor Molecule,0.72
+Flavordb,entity_20.json,molecules[*],Flavor Molecule,0.72
+Flavordb,entity_20.json,molecules[*].molecular_weight,Flavor Molecule,0.72
+Flavordb,entity_20.json,molecules[*].flavornet_id,Flavor,0.8
+Flavordb,entity_20.json,molecules[*].fema_flavor_profile,Flavor,0.8
+Flavordb,entity_20.json,molecules[*].charge,Flavor Molecule,0.72
+Flavordb,entity_20.json,molecules[*].bond_stereo_count,Flavor Molecule,0.72
+Flavordb,entity_20.json,molecules[*].odor,Flavor Molecule,0.72
+Flavordb,entity_20.json,molecules[*].defined_bond_stereocenter_count,Flavor Molecule,0.72
+Flavordb,entity_20.json,molecules[*].monoisotopic_mass,Flavor Molecule,0.72
+Flavordb,entity_20.json,molecules[*].volume3d,Flavor Molecule,0.72
+Flavordb,entity_20.json,molecules[*].cas_id,Flavor Molecule,0.72
+Flavordb,entity_20.json,molecules[*].bitterdb_id,Flavor Molecule,0.72
+Flavordb,entity_20.json,molecules[*].xlogp,Flavor Molecule,0.72
+Flavordb,entity_20.json,molecules[*].undefined_bond_stereocenter_count,Flavor Molecule,0.72
+Flavordb,entity_20.json,molecules[*].bitter,Flavor Molecule,0.72
+Flavordb,entity_20.json,molecules[*].iupac_name,Flavor Molecule,0.72
+Flavordb,entity_20.json,molecules[*].isotope_atom_count,Flavor Molecule,0.72
+Flavordb,entity_20.json,molecules[*].common_name,Flavor Molecule,0.72
+Flavordb,entity_20.json,molecules[*].supersweetdb_id,Flavor Molecule,0.72
+Flavordb,entity_20.json,molecules[*].covalently_bonded_unit_count,Flavor Molecule,0.72
+Flavordb,entity_20.json,molecules[*].defined_atom_stereocenter_count,Flavor Molecule,0.72
+Flavordb,entity_20.json,molecules[*].flavor_profile,Flavor,0.8
+Flavordb,entity_20.json,molecules[*].smile,Flavor Molecule,0.72
+Flavordb,entity_20.json,molecules[*].num_rotatablebonds,Flavor Molecule,0.72
+Flavordb,entity_20.json,molecules[*].hba_count,Flavor Molecule,0.72
+Flavordb,entity_20.json,molecules[*].undefined_atom_stereocenter_count,Flavor Molecule,0.72
+Flavordb,entity_20.json,molecules[*].pubchem_id,Flavor Molecule,0.72
+Flavordb,entity_20.json,molecules[*].fooddb_flavor_profile,Flavor,0.8
+Flavordb,entity_20.json,molecules[*].fooddb_id,Flavor Molecule,0.72
+Flavordb,entity_20.json,molecules[*].heavy_atom_count,Flavor Molecule,0.72
+Flavordb,entity_20.json,molecules,Flavor Molecule,0.72
+Flavordb,entity_20.json,molecules[*].functional_groups,Flavor Molecule,0.72
+Flavordb,entity_20.json,molecules[*].inchi,Flavor Molecule,0.72
+Flavordb,entity_20.json,molecules[*].natural,Flavor Molecule,0.72
+Flavordb,entity_20.json,molecules[*].synthetic,Flavor Molecule,0.72
+Flavordb,entity_20.json,molecules[*].topological_polor_surfacearea,Flavor Molecule,0.72
+Flavordb,entity_20.json,molecules[*].unknown_natural,Flavor Molecule,0.72
+Flavordb,entity_20.json,molecules[*].exact_mass,Flavor Molecule,0.72
+Flavordb,entity_20.json,molecules[*].atom_stereo_count,Flavor Molecule,0.72
+Flavordb,entity_20.json,molecules[*].super_sweet,Flavor Molecule,0.72
+Flavordb,entity_20.json,molecules[*].taste,Flavor,0.8
+Flavordb,entity_20.json,molecules[*].fenoroli_and_os,Flavor Molecule,0.72
+Flavordb,entity_20.json,molecules[*].complexity,Flavor Molecule,0.72
+Flavordb,entity_20.json,molecules[*].hbd_count,Flavor Molecule,0.72
+Flavordb,entity_3.json,flavornet_id,Flavor,0.8
+Flavordb,entity_3.json,fema_flavor_profile,Flavor,0.8
+Flavordb,entity_3.json,flavor_profile,Flavor,0.8
+Flavordb,entity_3.json,pubchem_id,Flavor Molecule,0.72
+Flavordb,entity_3.json,fooddb_flavor_profile,Flavor,0.8
+Flavordb,entity_3.json,functional_groups,Functional Role,0.64
+Flavordb,entity_3.json,taste,Flavor,1.0
+Flavordb,entity_3.json,molecules[*].fema_number,Flavor Molecule,0.72
+Flavordb,entity_3.json,molecules[*],Flavor Molecule,0.72
+Flavordb,entity_3.json,molecules[*].molecular_weight,Flavor Molecule,0.72
+Flavordb,entity_3.json,molecules[*].flavornet_id,Flavor,0.8
+Flavordb,entity_3.json,molecules[*].fema_flavor_profile,Flavor,0.8
+Flavordb,entity_3.json,molecules[*].charge,Flavor Molecule,0.72
+Flavordb,entity_3.json,molecules[*].bond_stereo_count,Flavor Molecule,0.72
+Flavordb,entity_3.json,molecules[*].odor,Flavor Molecule,0.72
+Flavordb,entity_3.json,molecules[*].defined_bond_stereocenter_count,Flavor Molecule,0.72
+Flavordb,entity_3.json,molecules[*].monoisotopic_mass,Flavor Molecule,0.72
+Flavordb,entity_3.json,molecules[*].volume3d,Flavor Molecule,0.72
+Flavordb,entity_3.json,molecules[*].cas_id,Flavor Molecule,0.72
+Flavordb,entity_3.json,molecules[*].bitterdb_id,Flavor Molecule,0.72
+Flavordb,entity_3.json,molecules[*].xlogp,Flavor Molecule,0.72
+Flavordb,entity_3.json,molecules[*].undefined_bond_stereocenter_count,Flavor Molecule,0.72
+Flavordb,entity_3.json,molecules[*].bitter,Flavor Molecule,0.72
+Flavordb,entity_3.json,molecules[*].iupac_name,Flavor Molecule,0.72
+Flavordb,entity_3.json,molecules[*].isotope_atom_count,Flavor Molecule,0.72
+Flavordb,entity_3.json,molecules[*].common_name,Flavor Molecule,0.72
+Flavordb,entity_3.json,molecules[*].supersweetdb_id,Flavor Molecule,0.72
+Flavordb,entity_3.json,molecules[*].covalently_bonded_unit_count,Flavor Molecule,0.72
+Flavordb,entity_3.json,molecules[*].defined_atom_stereocenter_count,Flavor Molecule,0.72
+Flavordb,entity_3.json,molecules[*].flavor_profile,Flavor,0.8
+Flavordb,entity_3.json,molecules[*].smile,Flavor Molecule,0.72
+Flavordb,entity_3.json,molecules[*].num_rotatablebonds,Flavor Molecule,0.72
+Flavordb,entity_3.json,molecules[*].hba_count,Flavor Molecule,0.72
+Flavordb,entity_3.json,molecules[*].undefined_atom_stereocenter_count,Flavor Molecule,0.72
+Flavordb,entity_3.json,molecules[*].pubchem_id,Flavor Molecule,0.72
+Flavordb,entity_3.json,molecules[*].fooddb_flavor_profile,Flavor,0.8
+Flavordb,entity_3.json,molecules[*].fooddb_id,Flavor Molecule,0.72
+Flavordb,entity_3.json,molecules[*].heavy_atom_count,Flavor Molecule,0.72
+Flavordb,entity_3.json,molecules,Flavor Molecule,0.72
+Flavordb,entity_3.json,molecules[*].functional_groups,Flavor Molecule,0.72
+Flavordb,entity_3.json,molecules[*].inchi,Flavor Molecule,0.72
+Flavordb,entity_3.json,molecules[*].natural,Flavor Molecule,0.72
+Flavordb,entity_3.json,molecules[*].synthetic,Flavor Molecule,0.72
+Flavordb,entity_3.json,molecules[*].topological_polor_surfacearea,Flavor Molecule,0.72
+Flavordb,entity_3.json,molecules[*].unknown_natural,Flavor Molecule,0.72
+Flavordb,entity_3.json,molecules[*].exact_mass,Flavor Molecule,0.72
+Flavordb,entity_3.json,molecules[*].atom_stereo_count,Flavor Molecule,0.72
+Flavordb,entity_3.json,molecules[*].super_sweet,Flavor Molecule,0.72
+Flavordb,entity_3.json,molecules[*].taste,Flavor,0.8
+Flavordb,entity_3.json,molecules[*].fenoroli_and_os,Flavor Molecule,0.72
+Flavordb,entity_3.json,molecules[*].complexity,Flavor Molecule,0.72
+Flavordb,entity_3.json,molecules[*].hbd_count,Flavor Molecule,0.72
+Flavordb,entity_4.json,flavornet_id,Flavor,0.8
+Flavordb,entity_4.json,fema_flavor_profile,Flavor,0.8
+Flavordb,entity_4.json,flavor_profile,Flavor,0.8
+Flavordb,entity_4.json,pubchem_id,Flavor Molecule,0.72
+Flavordb,entity_4.json,fooddb_flavor_profile,Flavor,0.8
+Flavordb,entity_4.json,functional_groups,Functional Role,0.64
+Flavordb,entity_4.json,taste,Flavor,1.0
+Flavordb,entity_4.json,molecules[*].fema_number,Flavor Molecule,0.72
+Flavordb,entity_4.json,molecules[*],Flavor Molecule,0.72
+Flavordb,entity_4.json,molecules[*].molecular_weight,Flavor Molecule,0.72
+Flavordb,entity_4.json,molecules[*].flavornet_id,Flavor,0.8
+Flavordb,entity_4.json,molecules[*].fema_flavor_profile,Flavor,0.8
+Flavordb,entity_4.json,molecules[*].charge,Flavor Molecule,0.72
+Flavordb,entity_4.json,molecules[*].bond_stereo_count,Flavor Molecule,0.72
+Flavordb,entity_4.json,molecules[*].odor,Flavor Molecule,0.72
+Flavordb,entity_4.json,molecules[*].defined_bond_stereocenter_count,Flavor Molecule,0.72
+Flavordb,entity_4.json,molecules[*].monoisotopic_mass,Flavor Molecule,0.72
+Flavordb,entity_4.json,molecules[*].volume3d,Flavor Molecule,0.72
+Flavordb,entity_4.json,molecules[*].cas_id,Flavor Molecule,0.72
+Flavordb,entity_4.json,molecules[*].bitterdb_id,Flavor Molecule,0.72
+Flavordb,entity_4.json,molecules[*].xlogp,Flavor Molecule,0.72
+Flavordb,entity_4.json,molecules[*].undefined_bond_stereocenter_count,Flavor Molecule,0.72
+Flavordb,entity_4.json,molecules[*].bitter,Flavor Molecule,0.72
+Flavordb,entity_4.json,molecules[*].iupac_name,Flavor Molecule,0.72
+Flavordb,entity_4.json,molecules[*].isotope_atom_count,Flavor Molecule,0.72
+Flavordb,entity_4.json,molecules[*].common_name,Flavor Molecule,0.72
+Flavordb,entity_4.json,molecules[*].supersweetdb_id,Flavor Molecule,0.72
+Flavordb,entity_4.json,molecules[*].covalently_bonded_unit_count,Flavor Molecule,0.72
+Flavordb,entity_4.json,molecules[*].defined_atom_stereocenter_count,Flavor Molecule,0.72
+Flavordb,entity_4.json,molecules[*].flavor_profile,Flavor,0.8
+Flavordb,entity_4.json,molecules[*].smile,Flavor Molecule,0.72
+Flavordb,entity_4.json,molecules[*].num_rotatablebonds,Flavor Molecule,0.72
+Flavordb,entity_4.json,molecules[*].hba_count,Flavor Molecule,0.72
+Flavordb,entity_4.json,molecules[*].undefined_atom_stereocenter_count,Flavor Molecule,0.72
+Flavordb,entity_4.json,molecules[*].pubchem_id,Flavor Molecule,0.72
+Flavordb,entity_4.json,molecules[*].fooddb_flavor_profile,Flavor,0.8
+Flavordb,entity_4.json,molecules[*].fooddb_id,Flavor Molecule,0.72
+Flavordb,entity_4.json,molecules[*].heavy_atom_count,Flavor Molecule,0.72
+Flavordb,entity_4.json,molecules,Flavor Molecule,0.72
+Flavordb,entity_4.json,molecules[*].functional_groups,Flavor Molecule,0.72
+Flavordb,entity_4.json,molecules[*].inchi,Flavor Molecule,0.72
+Flavordb,entity_4.json,molecules[*].natural,Flavor Molecule,0.72
+Flavordb,entity_4.json,molecules[*].synthetic,Flavor Molecule,0.72
+Flavordb,entity_4.json,molecules[*].topological_polor_surfacearea,Flavor Molecule,0.72
+Flavordb,entity_4.json,molecules[*].unknown_natural,Flavor Molecule,0.72
+Flavordb,entity_4.json,molecules[*].exact_mass,Flavor Molecule,0.72
+Flavordb,entity_4.json,molecules[*].atom_stereo_count,Flavor Molecule,0.72
+Flavordb,entity_4.json,molecules[*].super_sweet,Flavor Molecule,0.72
+Flavordb,entity_4.json,molecules[*].taste,Flavor,0.8
+Flavordb,entity_4.json,molecules[*].fenoroli_and_os,Flavor Molecule,0.72
+Flavordb,entity_4.json,molecules[*].complexity,Flavor Molecule,0.72
+Flavordb,entity_4.json,molecules[*].hbd_count,Flavor Molecule,0.72
+Flavordb,entity_5.json,flavornet_id,Flavor,0.8
+Flavordb,entity_5.json,fema_flavor_profile,Flavor,0.8
+Flavordb,entity_5.json,flavor_profile,Flavor,0.8
+Flavordb,entity_5.json,pubchem_id,Flavor Molecule,0.72
+Flavordb,entity_5.json,fooddb_flavor_profile,Flavor,0.8
+Flavordb,entity_5.json,functional_groups,Functional Role,0.64
+Flavordb,entity_5.json,taste,Flavor,1.0
+Flavordb,entity_5.json,molecules[*].fema_number,Flavor Molecule,0.72
+Flavordb,entity_5.json,molecules[*],Flavor Molecule,0.72
+Flavordb,entity_5.json,molecules[*].molecular_weight,Flavor Molecule,0.72
+Flavordb,entity_5.json,molecules[*].flavornet_id,Flavor,0.8
+Flavordb,entity_5.json,molecules[*].fema_flavor_profile,Flavor,0.8
+Flavordb,entity_5.json,molecules[*].charge,Flavor Molecule,0.72
+Flavordb,entity_5.json,molecules[*].bond_stereo_count,Flavor Molecule,0.72
+Flavordb,entity_5.json,molecules[*].odor,Flavor Molecule,0.72
+Flavordb,entity_5.json,molecules[*].defined_bond_stereocenter_count,Flavor Molecule,0.72
+Flavordb,entity_5.json,molecules[*].monoisotopic_mass,Flavor Molecule,0.72
+Flavordb,entity_5.json,molecules[*].volume3d,Flavor Molecule,0.72
+Flavordb,entity_5.json,molecules[*].cas_id,Flavor Molecule,0.72
+Flavordb,entity_5.json,molecules[*].bitterdb_id,Flavor Molecule,0.72
+Flavordb,entity_5.json,molecules[*].xlogp,Flavor Molecule,0.72
+Flavordb,entity_5.json,molecules[*].undefined_bond_stereocenter_count,Flavor Molecule,0.72
+Flavordb,entity_5.json,molecules[*].bitter,Flavor Molecule,0.72
+Flavordb,entity_5.json,molecules[*].iupac_name,Flavor Molecule,0.72
+Flavordb,entity_5.json,molecules[*].isotope_atom_count,Flavor Molecule,0.72
+Flavordb,entity_5.json,molecules[*].common_name,Flavor Molecule,0.72
+Flavordb,entity_5.json,molecules[*].supersweetdb_id,Flavor Molecule,0.72
+Flavordb,entity_5.json,molecules[*].covalently_bonded_unit_count,Flavor Molecule,0.72
+Flavordb,entity_5.json,molecules[*].defined_atom_stereocenter_count,Flavor Molecule,0.72
+Flavordb,entity_5.json,molecules[*].flavor_profile,Flavor,0.8
+Flavordb,entity_5.json,molecules[*].smile,Flavor Molecule,0.72
+Flavordb,entity_5.json,molecules[*].num_rotatablebonds,Flavor Molecule,0.72
+Flavordb,entity_5.json,molecules[*].hba_count,Flavor Molecule,0.72
+Flavordb,entity_5.json,molecules[*].undefined_atom_stereocenter_count,Flavor Molecule,0.72
+Flavordb,entity_5.json,molecules[*].pubchem_id,Flavor Molecule,0.72
+Flavordb,entity_5.json,molecules[*].fooddb_flavor_profile,Flavor,0.8
+Flavordb,entity_5.json,molecules[*].fooddb_id,Flavor Molecule,0.72
+Flavordb,entity_5.json,molecules[*].heavy_atom_count,Flavor Molecule,0.72
+Flavordb,entity_5.json,molecules,Flavor Molecule,0.72
+Flavordb,entity_5.json,molecules[*].functional_groups,Flavor Molecule,0.72
+Flavordb,entity_5.json,molecules[*].inchi,Flavor Molecule,0.72
+Flavordb,entity_5.json,molecules[*].natural,Flavor Molecule,0.72
+Flavordb,entity_5.json,molecules[*].synthetic,Flavor Molecule,0.72
+Flavordb,entity_5.json,molecules[*].topological_polor_surfacearea,Flavor Molecule,0.72
+Flavordb,entity_5.json,molecules[*].unknown_natural,Flavor Molecule,0.72
+Flavordb,entity_5.json,molecules[*].exact_mass,Flavor Molecule,0.72
+Flavordb,entity_5.json,molecules[*].atom_stereo_count,Flavor Molecule,0.72
+Flavordb,entity_5.json,molecules[*].super_sweet,Flavor Molecule,0.72
+Flavordb,entity_5.json,molecules[*].taste,Flavor,0.8
+Flavordb,entity_5.json,molecules[*].fenoroli_and_os,Flavor Molecule,0.72
+Flavordb,entity_5.json,molecules[*].complexity,Flavor Molecule,0.72
+Flavordb,entity_5.json,molecules[*].hbd_count,Flavor Molecule,0.72
+Flavordb,entity_6.json,flavornet_id,Flavor,0.8
+Flavordb,entity_6.json,fema_flavor_profile,Flavor,0.8
+Flavordb,entity_6.json,flavor_profile,Flavor,0.8
+Flavordb,entity_6.json,pubchem_id,Flavor Molecule,0.72
+Flavordb,entity_6.json,fooddb_flavor_profile,Flavor,0.8
+Flavordb,entity_6.json,functional_groups,Functional Role,0.64
+Flavordb,entity_6.json,taste,Flavor,1.0
+Flavordb,entity_6.json,molecules[*].fema_number,Flavor Molecule,0.72
+Flavordb,entity_6.json,molecules[*],Flavor Molecule,0.72
+Flavordb,entity_6.json,molecules[*].molecular_weight,Flavor Molecule,0.72
+Flavordb,entity_6.json,molecules[*].flavornet_id,Flavor,0.8
+Flavordb,entity_6.json,molecules[*].fema_flavor_profile,Flavor,0.8
+Flavordb,entity_6.json,molecules[*].charge,Flavor Molecule,0.72
+Flavordb,entity_6.json,molecules[*].bond_stereo_count,Flavor Molecule,0.72
+Flavordb,entity_6.json,molecules[*].odor,Flavor Molecule,0.72
+Flavordb,entity_6.json,molecules[*].defined_bond_stereocenter_count,Flavor Molecule,0.72
+Flavordb,entity_6.json,molecules[*].monoisotopic_mass,Flavor Molecule,0.72
+Flavordb,entity_6.json,molecules[*].volume3d,Flavor Molecule,0.72
+Flavordb,entity_6.json,molecules[*].cas_id,Flavor Molecule,0.72
+Flavordb,entity_6.json,molecules[*].bitterdb_id,Flavor Molecule,0.72
+Flavordb,entity_6.json,molecules[*].xlogp,Flavor Molecule,0.72
+Flavordb,entity_6.json,molecules[*].undefined_bond_stereocenter_count,Flavor Molecule,0.72
+Flavordb,entity_6.json,molecules[*].bitter,Flavor Molecule,0.72
+Flavordb,entity_6.json,molecules[*].iupac_name,Flavor Molecule,0.72
+Flavordb,entity_6.json,molecules[*].isotope_atom_count,Flavor Molecule,0.72
+Flavordb,entity_6.json,molecules[*].common_name,Flavor Molecule,0.72
+Flavordb,entity_6.json,molecules[*].supersweetdb_id,Flavor Molecule,0.72
+Flavordb,entity_6.json,molecules[*].covalently_bonded_unit_count,Flavor Molecule,0.72
+Flavordb,entity_6.json,molecules[*].defined_atom_stereocenter_count,Flavor Molecule,0.72
+Flavordb,entity_6.json,molecules[*].flavor_profile,Flavor,0.8
+Flavordb,entity_6.json,molecules[*].smile,Flavor Molecule,0.72
+Flavordb,entity_6.json,molecules[*].num_rotatablebonds,Flavor Molecule,0.72
+Flavordb,entity_6.json,molecules[*].hba_count,Flavor Molecule,0.72
+Flavordb,entity_6.json,molecules[*].undefined_atom_stereocenter_count,Flavor Molecule,0.72
+Flavordb,entity_6.json,molecules[*].pubchem_id,Flavor Molecule,0.72
+Flavordb,entity_6.json,molecules[*].fooddb_flavor_profile,Flavor,0.8
+Flavordb,entity_6.json,molecules[*].fooddb_id,Flavor Molecule,0.72
+Flavordb,entity_6.json,molecules[*].heavy_atom_count,Flavor Molecule,0.72
+Flavordb,entity_6.json,molecules,Flavor Molecule,0.72
+Flavordb,entity_6.json,molecules[*].functional_groups,Flavor Molecule,0.72
+Flavordb,entity_6.json,molecules[*].inchi,Flavor Molecule,0.72
+Flavordb,entity_6.json,molecules[*].natural,Flavor Molecule,0.72
+Flavordb,entity_6.json,molecules[*].synthetic,Flavor Molecule,0.72
+Flavordb,entity_6.json,molecules[*].topological_polor_surfacearea,Flavor Molecule,0.72
+Flavordb,entity_6.json,molecules[*].unknown_natural,Flavor Molecule,0.72
+Flavordb,entity_6.json,molecules[*].exact_mass,Flavor Molecule,0.72
+Flavordb,entity_6.json,molecules[*].atom_stereo_count,Flavor Molecule,0.72
+Flavordb,entity_6.json,molecules[*].super_sweet,Flavor Molecule,0.72
+Flavordb,entity_6.json,molecules[*].taste,Flavor,0.8
+Flavordb,entity_6.json,molecules[*].fenoroli_and_os,Flavor Molecule,0.72
+Flavordb,entity_6.json,molecules[*].complexity,Flavor Molecule,0.72
+Flavordb,entity_6.json,molecules[*].hbd_count,Flavor Molecule,0.72
+Flavordb,entity_7.json,flavornet_id,Flavor,0.8
+Flavordb,entity_7.json,fema_flavor_profile,Flavor,0.8
+Flavordb,entity_7.json,flavor_profile,Flavor,0.8
+Flavordb,entity_7.json,pubchem_id,Flavor Molecule,0.72
+Flavordb,entity_7.json,fooddb_flavor_profile,Flavor,0.8
+Flavordb,entity_7.json,functional_groups,Functional Role,0.64
+Flavordb,entity_7.json,taste,Flavor,1.0
+Flavordb,entity_7.json,molecules[*].fema_number,Flavor Molecule,0.72
+Flavordb,entity_7.json,molecules[*],Flavor Molecule,0.72
+Flavordb,entity_7.json,molecules[*].molecular_weight,Flavor Molecule,0.72
+Flavordb,entity_7.json,molecules[*].flavornet_id,Flavor,0.8
+Flavordb,entity_7.json,molecules[*].fema_flavor_profile,Flavor,0.8
+Flavordb,entity_7.json,molecules[*].charge,Flavor Molecule,0.72
+Flavordb,entity_7.json,molecules[*].bond_stereo_count,Flavor Molecule,0.72
+Flavordb,entity_7.json,molecules[*].odor,Flavor Molecule,0.72
+Flavordb,entity_7.json,molecules[*].defined_bond_stereocenter_count,Flavor Molecule,0.72
+Flavordb,entity_7.json,molecules[*].monoisotopic_mass,Flavor Molecule,0.72
+Flavordb,entity_7.json,molecules[*].volume3d,Flavor Molecule,0.72
+Flavordb,entity_7.json,molecules[*].cas_id,Flavor Molecule,0.72
+Flavordb,entity_7.json,molecules[*].bitterdb_id,Flavor Molecule,0.72
+Flavordb,entity_7.json,molecules[*].xlogp,Flavor Molecule,0.72
+Flavordb,entity_7.json,molecules[*].undefined_bond_stereocenter_count,Flavor Molecule,0.72
+Flavordb,entity_7.json,molecules[*].bitter,Flavor Molecule,0.72
+Flavordb,entity_7.json,molecules[*].iupac_name,Flavor Molecule,0.72
+Flavordb,entity_7.json,molecules[*].isotope_atom_count,Flavor Molecule,0.72
+Flavordb,entity_7.json,molecules[*].common_name,Flavor Molecule,0.72
+Flavordb,entity_7.json,molecules[*].supersweetdb_id,Flavor Molecule,0.72
+Flavordb,entity_7.json,molecules[*].covalently_bonded_unit_count,Flavor Molecule,0.72
+Flavordb,entity_7.json,molecules[*].defined_atom_stereocenter_count,Flavor Molecule,0.72
+Flavordb,entity_7.json,molecules[*].flavor_profile,Flavor,0.8
+Flavordb,entity_7.json,molecules[*].smile,Flavor Molecule,0.72
+Flavordb,entity_7.json,molecules[*].num_rotatablebonds,Flavor Molecule,0.72
+Flavordb,entity_7.json,molecules[*].hba_count,Flavor Molecule,0.72
+Flavordb,entity_7.json,molecules[*].undefined_atom_stereocenter_count,Flavor Molecule,0.72
+Flavordb,entity_7.json,molecules[*].pubchem_id,Flavor Molecule,0.72
+Flavordb,entity_7.json,molecules[*].fooddb_flavor_profile,Flavor,0.8
+Flavordb,entity_7.json,molecules[*].fooddb_id,Flavor Molecule,0.72
+Flavordb,entity_7.json,molecules[*].heavy_atom_count,Flavor Molecule,0.72
+Flavordb,entity_7.json,molecules,Flavor Molecule,0.72
+Flavordb,entity_7.json,molecules[*].functional_groups,Flavor Molecule,0.72
+Flavordb,entity_7.json,molecules[*].inchi,Flavor Molecule,0.72
+Flavordb,entity_7.json,molecules[*].natural,Flavor Molecule,0.72
+Flavordb,entity_7.json,molecules[*].synthetic,Flavor Molecule,0.72
+Flavordb,entity_7.json,molecules[*].topological_polor_surfacearea,Flavor Molecule,0.72
+Flavordb,entity_7.json,molecules[*].unknown_natural,Flavor Molecule,0.72
+Flavordb,entity_7.json,molecules[*].exact_mass,Flavor Molecule,0.72
+Flavordb,entity_7.json,molecules[*].atom_stereo_count,Flavor Molecule,0.72
+Flavordb,entity_7.json,molecules[*].super_sweet,Flavor Molecule,0.72
+Flavordb,entity_7.json,molecules[*].taste,Flavor,0.8
+Flavordb,entity_7.json,molecules[*].fenoroli_and_os,Flavor Molecule,0.72
+Flavordb,entity_7.json,molecules[*].complexity,Flavor Molecule,0.72
+Flavordb,entity_7.json,molecules[*].hbd_count,Flavor Molecule,0.72
+Flavordb,entity_8.json,flavornet_id,Flavor,0.8
+Flavordb,entity_8.json,fema_flavor_profile,Flavor,0.8
+Flavordb,entity_8.json,flavor_profile,Flavor,0.8
+Flavordb,entity_8.json,pubchem_id,Flavor Molecule,0.72
+Flavordb,entity_8.json,fooddb_flavor_profile,Flavor,0.8
+Flavordb,entity_8.json,functional_groups,Functional Role,0.64
+Flavordb,entity_8.json,taste,Flavor,1.0
+Flavordb,entity_8.json,molecules[*].fema_number,Flavor Molecule,0.72
+Flavordb,entity_8.json,molecules[*],Flavor Molecule,0.72
+Flavordb,entity_8.json,molecules[*].molecular_weight,Flavor Molecule,0.72
+Flavordb,entity_8.json,molecules[*].flavornet_id,Flavor,0.8
+Flavordb,entity_8.json,molecules[*].fema_flavor_profile,Flavor,0.8
+Flavordb,entity_8.json,molecules[*].charge,Flavor Molecule,0.72
+Flavordb,entity_8.json,molecules[*].bond_stereo_count,Flavor Molecule,0.72
+Flavordb,entity_8.json,molecules[*].odor,Flavor Molecule,0.72
+Flavordb,entity_8.json,molecules[*].defined_bond_stereocenter_count,Flavor Molecule,0.72
+Flavordb,entity_8.json,molecules[*].monoisotopic_mass,Flavor Molecule,0.72
+Flavordb,entity_8.json,molecules[*].volume3d,Flavor Molecule,0.72
+Flavordb,entity_8.json,molecules[*].cas_id,Flavor Molecule,0.72
+Flavordb,entity_8.json,molecules[*].bitterdb_id,Flavor Molecule,0.72
+Flavordb,entity_8.json,molecules[*].xlogp,Flavor Molecule,0.72
+Flavordb,entity_8.json,molecules[*].undefined_bond_stereocenter_count,Flavor Molecule,0.72
+Flavordb,entity_8.json,molecules[*].bitter,Flavor Molecule,0.72
+Flavordb,entity_8.json,molecules[*].iupac_name,Flavor Molecule,0.72
+Flavordb,entity_8.json,molecules[*].isotope_atom_count,Flavor Molecule,0.72
+Flavordb,entity_8.json,molecules[*].common_name,Flavor Molecule,0.72
+Flavordb,entity_8.json,molecules[*].supersweetdb_id,Flavor Molecule,0.72
+Flavordb,entity_8.json,molecules[*].covalently_bonded_unit_count,Flavor Molecule,0.72
+Flavordb,entity_8.json,molecules[*].defined_atom_stereocenter_count,Flavor Molecule,0.72
+Flavordb,entity_8.json,molecules[*].flavor_profile,Flavor,0.8
+Flavordb,entity_8.json,molecules[*].smile,Flavor Molecule,0.72
+Flavordb,entity_8.json,molecules[*].num_rotatablebonds,Flavor Molecule,0.72
+Flavordb,entity_8.json,molecules[*].hba_count,Flavor Molecule,0.72
+Flavordb,entity_8.json,molecules[*].undefined_atom_stereocenter_count,Flavor Molecule,0.72
+Flavordb,entity_8.json,molecules[*].pubchem_id,Flavor Molecule,0.72
+Flavordb,entity_8.json,molecules[*].fooddb_flavor_profile,Flavor,0.8
+Flavordb,entity_8.json,molecules[*].fooddb_id,Flavor Molecule,0.72
+Flavordb,entity_8.json,molecules[*].heavy_atom_count,Flavor Molecule,0.72
+Flavordb,entity_8.json,molecules,Flavor Molecule,0.72
+Flavordb,entity_8.json,molecules[*].functional_groups,Flavor Molecule,0.72
+Flavordb,entity_8.json,molecules[*].inchi,Flavor Molecule,0.72
+Flavordb,entity_8.json,molecules[*].natural,Flavor Molecule,0.72
+Flavordb,entity_8.json,molecules[*].synthetic,Flavor Molecule,0.72
+Flavordb,entity_8.json,molecules[*].topological_polor_surfacearea,Flavor Molecule,0.72
+Flavordb,entity_8.json,molecules[*].unknown_natural,Flavor Molecule,0.72
+Flavordb,entity_8.json,molecules[*].exact_mass,Flavor Molecule,0.72
+Flavordb,entity_8.json,molecules[*].atom_stereo_count,Flavor Molecule,0.72
+Flavordb,entity_8.json,molecules[*].super_sweet,Flavor Molecule,0.72
+Flavordb,entity_8.json,molecules[*].taste,Flavor,0.8
+Flavordb,entity_8.json,molecules[*].fenoroli_and_os,Flavor Molecule,0.72
+Flavordb,entity_8.json,molecules[*].complexity,Flavor Molecule,0.72
+Flavordb,entity_8.json,molecules[*].hbd_count,Flavor Molecule,0.72
+Flavordb,entity_9.json,flavornet_id,Flavor,0.8
+Flavordb,entity_9.json,fema_flavor_profile,Flavor,0.8
+Flavordb,entity_9.json,flavor_profile,Flavor,0.8
+Flavordb,entity_9.json,pubchem_id,Flavor Molecule,0.72
+Flavordb,entity_9.json,fooddb_flavor_profile,Flavor,0.8
+Flavordb,entity_9.json,functional_groups,Functional Role,0.64
+Flavordb,entity_9.json,taste,Flavor,1.0
+Flavordb,entity_9.json,molecules[*].fema_number,Flavor Molecule,0.72
+Flavordb,entity_9.json,molecules[*],Flavor Molecule,0.72
+Flavordb,entity_9.json,molecules[*].molecular_weight,Flavor Molecule,0.72
+Flavordb,entity_9.json,molecules[*].flavornet_id,Flavor,0.8
+Flavordb,entity_9.json,molecules[*].fema_flavor_profile,Flavor,0.8
+Flavordb,entity_9.json,molecules[*].charge,Flavor Molecule,0.72
+Flavordb,entity_9.json,molecules[*].bond_stereo_count,Flavor Molecule,0.72
+Flavordb,entity_9.json,molecules[*].odor,Flavor Molecule,0.72
+Flavordb,entity_9.json,molecules[*].defined_bond_stereocenter_count,Flavor Molecule,0.72
+Flavordb,entity_9.json,molecules[*].monoisotopic_mass,Flavor Molecule,0.72
+Flavordb,entity_9.json,molecules[*].volume3d,Flavor Molecule,0.72
+Flavordb,entity_9.json,molecules[*].cas_id,Flavor Molecule,0.72
+Flavordb,entity_9.json,molecules[*].bitterdb_id,Flavor Molecule,0.72
+Flavordb,entity_9.json,molecules[*].xlogp,Flavor Molecule,0.72
+Flavordb,entity_9.json,molecules[*].undefined_bond_stereocenter_count,Flavor Molecule,0.72
+Flavordb,entity_9.json,molecules[*].bitter,Flavor Molecule,0.72
+Flavordb,entity_9.json,molecules[*].iupac_name,Flavor Molecule,0.72
+Flavordb,entity_9.json,molecules[*].isotope_atom_count,Flavor Molecule,0.72
+Flavordb,entity_9.json,molecules[*].common_name,Flavor Molecule,0.72
+Flavordb,entity_9.json,molecules[*].supersweetdb_id,Flavor Molecule,0.72
+Flavordb,entity_9.json,molecules[*].covalently_bonded_unit_count,Flavor Molecule,0.72
+Flavordb,entity_9.json,molecules[*].defined_atom_stereocenter_count,Flavor Molecule,0.72
+Flavordb,entity_9.json,molecules[*].flavor_profile,Flavor,0.8
+Flavordb,entity_9.json,molecules[*].smile,Flavor Molecule,0.72
+Flavordb,entity_9.json,molecules[*].num_rotatablebonds,Flavor Molecule,0.72
+Flavordb,entity_9.json,molecules[*].hba_count,Flavor Molecule,0.72
+Flavordb,entity_9.json,molecules[*].undefined_atom_stereocenter_count,Flavor Molecule,0.72
+Flavordb,entity_9.json,molecules[*].pubchem_id,Flavor Molecule,0.72
+Flavordb,entity_9.json,molecules[*].fooddb_flavor_profile,Flavor,0.8
+Flavordb,entity_9.json,molecules[*].fooddb_id,Flavor Molecule,0.72
+Flavordb,entity_9.json,molecules[*].heavy_atom_count,Flavor Molecule,0.72
+Flavordb,entity_9.json,molecules,Flavor Molecule,0.72
+Flavordb,entity_9.json,molecules[*].functional_groups,Flavor Molecule,0.72
+Flavordb,entity_9.json,molecules[*].inchi,Flavor Molecule,0.72
+Flavordb,entity_9.json,molecules[*].natural,Flavor Molecule,0.72
+Flavordb,entity_9.json,molecules[*].synthetic,Flavor Molecule,0.72
+Flavordb,entity_9.json,molecules[*].topological_polor_surfacearea,Flavor Molecule,0.72
+Flavordb,entity_9.json,molecules[*].unknown_natural,Flavor Molecule,0.72
+Flavordb,entity_9.json,molecules[*].exact_mass,Flavor Molecule,0.72
+Flavordb,entity_9.json,molecules[*].atom_stereo_count,Flavor Molecule,0.72
+Flavordb,entity_9.json,molecules[*].super_sweet,Flavor Molecule,0.72
+Flavordb,entity_9.json,molecules[*].taste,Flavor,0.8
+Flavordb,entity_9.json,molecules[*].fenoroli_and_os,Flavor Molecule,0.72
+Flavordb,entity_9.json,molecules[*].complexity,Flavor Molecule,0.72
+Flavordb,entity_9.json,molecules[*].hbd_count,Flavor Molecule,0.72
+Patents,patent_US10000000B2_placeholder.txt,google_patent_document,Evidence,0.64
+Patents,patent_US11012345B2_placeholder.txt,google_patent_document,Evidence,0.64
+Patents,patent_US9876543B2_placeholder.txt,google_patent_document,Evidence,0.64
+Research_papers,Applications_of_Novel_Techniques_to_Health_Foods_M.pdf,extracted_table_rows,Regulation,0.8
+Research_papers,Applications_of_Novel_Techniques_to_Health_Foods_M.pdf,abstract,Regulation,0.8
+Research_papers,edible_polysaccharides_as_stabilizers_and_carriers.pdf,extracted_table_rows,Regulation,0.8
+Research_papers,Protein-polysaccharide_interactions_and_aggregates.pdf,extracted_table_rows,Regulation,0.8

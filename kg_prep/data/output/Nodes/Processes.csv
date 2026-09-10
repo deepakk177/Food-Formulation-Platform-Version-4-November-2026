@@ -1,0 +1,6 @@
+ID,Name,Source,source_record_id,source_url
+PRO-HTST_PASTEURIZATION,Htst Pasteurization,Scientific Literature,arXiv:2607.09529v1,https://arxiv.org/abs/2607.09529
+PRO-HIGH_PRESSURE_HOMOGENIZATION,High Pressure Homogenization,Scientific Literature,arXiv:2607.09529v2,https://arxiv.org/abs/2607.09529
+PRO-SPRAY_DRYING_ATOMIZATION,Spray Drying Atomization,Scientific Literature,arXiv:2607.09529v3,https://arxiv.org/abs/2607.09529
+PRO-TWIN_SCREW_EXTRUSION,Twin Screw Extrusion,Scientific Literature,arXiv:2607.09529v4,https://arxiv.org/abs/2607.09529
+PRO-THERMAL_RETORT_STERILIZATION,Thermal Retort Sterilization,Scientific Literature,arXiv:2607.09529v5,https://arxiv.org/abs/2607.09529

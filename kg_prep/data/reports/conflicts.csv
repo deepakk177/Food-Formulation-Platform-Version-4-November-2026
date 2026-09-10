@@ -1,0 +1,2 @@
+constraint_id_A,constraint_id_B,parameter,value_A,value_B,jurisdiction_A,jurisdiction_B,food_category_A,food_category_B,source_A,source_B,conflict_type,resolution_status
+CONST-US-FDA-21CFR-184-1339,CONST-FSSAI-ADD-415,maximum_use_level,0.5%,5000 mg/kg,US,India,Beverages,Dairy Products,SRC-US-FDA-21CFR,SRC-FSSAI-STD,JURISDICTION_DIFFERENCE,BOTH_STORED

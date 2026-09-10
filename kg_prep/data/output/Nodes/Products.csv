@@ -1,0 +1,5 @@
+ID,Name,brand,IngredientsText,Source,source_record_id,source_url
+PRO-NUTELLA_400G,Nutella 400G,Ferrero,"Sugar, Palm Oil, Hazelnuts (13%), Skimmed Milk Powder (8.7%), Fat-Reduced Cocoa (7.4%), Soy Lecithin, Vanillin",OpenFoodFacts,3017620422003,https://world.openfoodfacts.org/product/3017620422003
+PRO-COCA_COLA_ORIGINAL_TASTE,Coca-Cola Original Taste,The Coca-Cola Company,"Carbonated Water, Sugar, Color (Caramel E150d), Phosphoric Acid, Natural Flavors, Caffeine",OpenFoodFacts,5449000000996,https://world.openfoodfacts.org/product/5449000000996
+PRO-HEINZ_TOMATO_KETCHUP,Heinz Tomato Ketchup,Heinz,"Tomatoes, Distilled Vinegar, High Fructose Corn Syrup, Corn Syrup, Salt, Spice, Onion Powder, Natural Flavoring",OpenFoodFacts,41303002055,https://world.openfoodfacts.org/product/0041303002055
+PRO-HELLMANN_S_REAL_MAYONNAISE,Hellmann'S Real Mayonnaise,Unilever,"Soybean Oil, Water, Whole Eggs and Egg Yolks, Vinegar, Salt, Sugar, Lemon Juice Concentrate, Calcium Disodium EDTA, Natural Flavors",OpenFoodFacts,48001000055,https://world.openfoodfacts.org/product/0048001000055

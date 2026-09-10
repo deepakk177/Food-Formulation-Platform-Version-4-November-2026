@@ -1,0 +1,384 @@
+{
+    "Allergens": {
+        "node_type": "Allergens",
+        "csv_file": "Allergens.csv",
+        "primary_key": "ID",
+        "canonical_name_field": "Name",
+        "source_id_field": "Source",
+        "important_fields": [
+            "ID",
+            "Name",
+            "Source",
+            "source_record_id",
+            "source_url"
+        ]
+    },
+    "Compounds": {
+        "node_type": "Compounds",
+        "csv_file": "Compounds.csv",
+        "primary_key": "ID",
+        "canonical_name_field": "Name",
+        "source_id_field": "Source",
+        "important_fields": [
+            "ID",
+            "Name",
+            "IUPACName",
+            "ChemicalFormula",
+            "SMILES",
+            "MolecularWeight",
+            "CASNumber",
+            "PubChemCID",
+            "Source",
+            "source_record_id",
+            "source_url"
+        ]
+    },
+    "Constraints": {
+        "node_type": "Constraints",
+        "csv_file": "Constraints.csv",
+        "primary_key": "ID",
+        "canonical_name_field": "entity_name",
+        "source_id_field": "source_id",
+        "important_fields": [
+            "ID",
+            "constraint_id",
+            "entity_id",
+            "entity_name",
+            "constraint_type",
+            "parameter",
+            "operator",
+            "limit_value",
+            "limit_value_min",
+            "limit_value_max",
+            "original_value",
+            "original_unit",
+            "normalized_value",
+            "normalized_unit",
+            "basis",
+            "food_category",
+            "food_category_id",
+            "application",
+            "jurisdiction",
+            "regulation_id",
+            "regulation_name",
+            "regulation_version",
+            "section",
+            "table",
+            "page",
+            "paragraph",
+            "source_id",
+            "source_record_id",
+            "evidence_id",
+            "evidence_text",
+            "effective_date",
+            "expiry_date",
+            "status",
+            "validation_status",
+            "confidence"
+        ]
+    },
+    "Equipment": {
+        "node_type": "Equipment",
+        "csv_file": "Equipment.csv",
+        "primary_key": "ID",
+        "canonical_name_field": "Name",
+        "source_id_field": "Source",
+        "important_fields": [
+            "ID",
+            "Name",
+            "Source",
+            "source_record_id",
+            "source_url"
+        ]
+    },
+    "Evidence": {
+        "node_type": "Evidence",
+        "csv_file": "Evidence.csv",
+        "primary_key": "ID",
+        "canonical_name_field": "Name",
+        "source_id_field": "Source",
+        "important_fields": [
+            "ID",
+            "evidence_id",
+            "entity_id",
+            "Name",
+            "Text",
+            "claim",
+            "claim_type",
+            "value",
+            "unit",
+            "condition",
+            "food_matrix",
+            "source_id",
+            "source_record_id",
+            "document_id",
+            "title",
+            "doi",
+            "pmid",
+            "patent_number",
+            "page",
+            "section",
+            "paragraph",
+            "evidence_text",
+            "Source",
+            "source_url",
+            "validation_status",
+            "confidence"
+        ]
+    },
+    "FlavorMolecules": {
+        "node_type": "FlavorMolecules",
+        "csv_file": "FlavorMolecules.csv",
+        "primary_key": "ID",
+        "canonical_name_field": "Name",
+        "source_id_field": "Source",
+        "important_fields": [
+            "ID",
+            "Name",
+            "PubChemID",
+            "FEMANumber",
+            "CASNumber",
+            "Source",
+            "source_record_id",
+            "source_url"
+        ]
+    },
+    "Flavors": {
+        "node_type": "Flavors",
+        "csv_file": "Flavors.csv",
+        "primary_key": "ID",
+        "canonical_name_field": "Name",
+        "source_id_field": "Source",
+        "important_fields": [
+            "ID",
+            "Name",
+            "Source",
+            "source_record_id",
+            "source_url"
+        ]
+    },
+    "FoodAdditives": {
+        "node_type": "FoodAdditives",
+        "csv_file": "FoodAdditives.csv",
+        "primary_key": "ID",
+        "canonical_name_field": "Name",
+        "source_id_field": "Source",
+        "important_fields": [
+            "ID",
+            "Name",
+            "Source",
+            "source_record_id",
+            "source_url"
+        ]
+    },
+    "FoodCategories": {
+        "node_type": "FoodCategories",
+        "csv_file": "FoodCategories.csv",
+        "primary_key": "ID",
+        "canonical_name_field": "Name",
+        "source_id_field": "Source",
+        "important_fields": [
+            "ID",
+            "Name",
+            "Source",
+            "source_record_id",
+            "source_url"
+        ]
+    },
+    "FunctionalRoles": {
+        "node_type": "FunctionalRoles",
+        "csv_file": "FunctionalRoles.csv",
+        "primary_key": "ID",
+        "canonical_name_field": "Name",
+        "source_id_field": "Source",
+        "important_fields": [
+            "ID",
+            "Name",
+            "Source",
+            "source_record_id",
+            "source_url"
+        ]
+    },
+    "Ingredients": {
+        "node_type": "Ingredients",
+        "csv_file": "Ingredients.csv",
+        "primary_key": "ID",
+        "canonical_name_field": "Name",
+        "source_id_field": "Source",
+        "important_fields": [
+            "ID",
+            "ingredient_id",
+            "Name",
+            "canonical_name",
+            "preferred_name",
+            "entity_type",
+            "synonyms",
+            "Source",
+            "source_id",
+            "source_name",
+            "source_record_id",
+            "source_identifiers",
+            "source_url",
+            "source_type",
+            "food_category",
+            "ontology_id",
+            "cas_number",
+            "pubchem_cid",
+            "fema_number",
+            "ins_number",
+            "validation_status",
+            "confidence",
+            "created_at"
+        ]
+    },
+    "INS": {
+        "node_type": "INS",
+        "csv_file": "INS.csv",
+        "primary_key": "ID",
+        "canonical_name_field": "Name",
+        "source_id_field": "Source",
+        "important_fields": [
+            "ID",
+            "Name",
+            "Source",
+            "source_record_id",
+            "source_url"
+        ]
+    },
+    "Nutrients": {
+        "node_type": "Nutrients",
+        "csv_file": "Nutrients.csv",
+        "primary_key": "ID",
+        "canonical_name_field": "Name",
+        "source_id_field": "Source",
+        "important_fields": [
+            "ID",
+            "nutrient_id",
+            "Name",
+            "canonical_name",
+            "Value",
+            "Unit",
+            "basis",
+            "Source",
+            "source_id",
+            "source_record_id",
+            "validation_status",
+            "confidence"
+        ]
+    },
+    "Packaging": {
+        "node_type": "Packaging",
+        "csv_file": "Packaging.csv",
+        "primary_key": "ID",
+        "canonical_name_field": "Name",
+        "source_id_field": "Source",
+        "important_fields": [
+            "ID",
+            "Name",
+            "Source",
+            "source_record_id",
+            "source_url"
+        ]
+    },
+    "ProcessConditions": {
+        "node_type": "ProcessConditions",
+        "csv_file": "ProcessConditions.csv",
+        "primary_key": "ID",
+        "canonical_name_field": "Name",
+        "source_id_field": "Source",
+        "important_fields": [
+            "ID",
+            "Name",
+            "Source",
+            "source_record_id",
+            "source_url"
+        ]
+    },
+    "Processes": {
+        "node_type": "Processes",
+        "csv_file": "Processes.csv",
+        "primary_key": "ID",
+        "canonical_name_field": "Name",
+        "source_id_field": "Source",
+        "important_fields": [
+            "ID",
+            "Name",
+            "Source",
+            "source_record_id",
+            "source_url"
+        ]
+    },
+    "Products": {
+        "node_type": "Products",
+        "csv_file": "Products.csv",
+        "primary_key": "ID",
+        "canonical_name_field": "Name",
+        "source_id_field": "Source",
+        "important_fields": [
+            "ID",
+            "Name",
+            "brand",
+            "IngredientsText",
+            "Source",
+            "source_record_id",
+            "source_url"
+        ]
+    },
+    "Properties": {
+        "node_type": "Properties",
+        "csv_file": "Properties.csv",
+        "primary_key": "ID",
+        "canonical_name_field": "Name",
+        "source_id_field": "Source",
+        "important_fields": [
+            "ID",
+            "property_id",
+            "Name",
+            "canonical_name",
+            "Value",
+            "value",
+            "unit",
+            "condition",
+            "concentration",
+            "temperature",
+            "pH",
+            "ionic_strength",
+            "food_matrix",
+            "Source",
+            "source_id",
+            "source_record_id",
+            "evidence_id",
+            "validation_status",
+            "confidence"
+        ]
+    },
+    "Regulations": {
+        "node_type": "Regulations",
+        "csv_file": "Regulations.csv",
+        "primary_key": "ID",
+        "canonical_name_field": "Name",
+        "source_id_field": "Source",
+        "important_fields": [
+            "ID",
+            "Name",
+            "Source",
+            "source_record_id",
+            "source_url"
+        ]
+    },
+    "Sources": {
+        "node_type": "Sources",
+        "csv_file": "Sources.csv",
+        "primary_key": "ID",
+        "canonical_name_field": "Name",
+        "source_id_field": "Source",
+        "important_fields": [
+            "ID",
+            "Name",
+            "Type",
+            "Source",
+            "source_record_id",
+            "source_url"
+        ]
+    }
+}

@@ -1,0 +1,2 @@
+global_entity_id,property_name,source_a_name,source_a_val,source_b_name,source_b_val,variation_type,basis_difference,resolution_status
+ING-FDC_173474,protein_content,USDA FoodData Central,7.0 g/100g,Supplier TDS,7.2 g/100g,MINOR_VARIATION,analytical_method,BOTH_STORED

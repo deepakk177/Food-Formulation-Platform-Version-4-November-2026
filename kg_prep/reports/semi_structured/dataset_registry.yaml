@@ -1,0 +1,36 @@
+Flavordb:
+  classification: Semi_structured
+  formats:
+  - html
+  - json
+  local_path: data/raw/semi_structured/flavordb
+  total_files: 41
+  total_size_bytes: 3618403
+Gsfa_html:
+  classification: Semi_structured
+  formats:
+  - html
+  local_path: data/raw/semi_structured/gsfa_html
+  total_files: 4
+  total_size_bytes: 50152
+Ontology:
+  classification: Semi_structured
+  formats:
+  - owl
+  local_path: data/raw/ontology
+  total_files: 1
+  total_size_bytes: 40429965
+Product_labels:
+  classification: Semi_structured
+  formats:
+  - html
+  local_path: data/raw/semi_structured/product_labels
+  total_files: 4
+  total_size_bytes: 401567
+Specification_sheets:
+  classification: Semi_structured
+  formats:
+  - html
+  local_path: data/raw/semi_structured/specification_sheets
+  total_files: 3
+  total_size_bytes: 232614

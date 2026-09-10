@@ -1,0 +1,6 @@
+ID,Name,Source,source_record_id,source_url
+CON-72_C_FOR_15_SECONDS,72°C For 15 Seconds,Scientific Literature,arXiv:2607.09529v1,https://arxiv.org/abs/2607.09529
+CON-150_MPA_AT_25_C,150 Mpa At 25°C,Scientific Literature,arXiv:2607.09529v2,https://arxiv.org/abs/2607.09529
+CON-INLET_TEMP_180_C__OUTLET_TEMP_80_C,"Inlet Temp 180°C, Outlet Temp 80°C",Scientific Literature,arXiv:2607.09529v3,https://arxiv.org/abs/2607.09529
+CON-MOISTURE_25___BARREL_TEMP_140_C__DIE_PRESSURE_4_MPA,"Moisture 25%, Barrel Temp 140°C, Die Pressure 4 Mpa",Scientific Literature,arXiv:2607.09529v4,https://arxiv.org/abs/2607.09529
+CON-121_1_C_FOR_20_MINUTES__F0_6_0,121.1°C For 20 Minutes (F0=6.0),Scientific Literature,arXiv:2607.09529v5,https://arxiv.org/abs/2607.09529

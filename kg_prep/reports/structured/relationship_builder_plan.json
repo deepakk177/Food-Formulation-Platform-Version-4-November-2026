@@ -1,0 +1,28 @@
+{
+    "Foodb": {
+        "relationships": [
+            {
+                "relationship_type": "INGREDIENT_TO_COMPOUND",
+                "builder_class": "IngredientContainsCompoundBuilder",
+                "source": {
+                    "entity": "Ingredient",
+                    "fields": [
+                        "name"
+                    ]
+                },
+                "target": {
+                    "entity": "Compound",
+                    "fields": [
+                        "id",
+                        "chemical_formula",
+                        "cas_number"
+                    ]
+                },
+                "confidence": 0.8
+            }
+        ]
+    },
+    "Usda_fdc": {
+        "relationships": []
+    }
+}

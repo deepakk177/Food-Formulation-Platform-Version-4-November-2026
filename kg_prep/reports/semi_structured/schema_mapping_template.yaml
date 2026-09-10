@@ -1,0 +1,3284 @@
+Flavordb:
+  entity_1.html:
+    mappings: {}
+    schema_type: HTML Page
+  entity_1.json:
+    mappings:
+      fema_flavor_profile:
+        confidence: 0.8
+        target_entity: Flavor
+      flavor_profile:
+        confidence: 0.8
+        target_entity: Flavor
+      flavornet_id:
+        confidence: 0.8
+        target_entity: Flavor
+      fooddb_flavor_profile:
+        confidence: 0.8
+        target_entity: Flavor
+      functional_groups:
+        confidence: 0.64
+        target_entity: Functional Role
+      molecules:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*]:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].atom_stereo_count:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].bitter:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].bitterdb_id:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].bond_stereo_count:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].cas_id:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].charge:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].common_name:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].complexity:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].covalently_bonded_unit_count:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].defined_atom_stereocenter_count:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].defined_bond_stereocenter_count:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].exact_mass:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].fema_flavor_profile:
+        confidence: 0.8
+        target_entity: Flavor
+      molecules[*].fema_number:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].fenoroli_and_os:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].flavor_profile:
+        confidence: 0.8
+        target_entity: Flavor
+      molecules[*].flavornet_id:
+        confidence: 0.8
+        target_entity: Flavor
+      molecules[*].fooddb_flavor_profile:
+        confidence: 0.8
+        target_entity: Flavor
+      molecules[*].fooddb_id:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].functional_groups:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].hba_count:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].hbd_count:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].heavy_atom_count:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].inchi:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].isotope_atom_count:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].iupac_name:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].molecular_weight:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].monoisotopic_mass:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].natural:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].num_rotatablebonds:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].odor:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].pubchem_id:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].smile:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].super_sweet:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].supersweetdb_id:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].synthetic:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].taste:
+        confidence: 0.8
+        target_entity: Flavor
+      molecules[*].topological_polor_surfacearea:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].undefined_atom_stereocenter_count:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].undefined_bond_stereocenter_count:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].unknown_natural:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].volume3d:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].xlogp:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      pubchem_id:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      taste:
+        confidence: 1.0
+        target_entity: Flavor
+    schema_type: JSON Hierarchy
+  entity_10.html:
+    mappings: {}
+    schema_type: HTML Page
+  entity_10.json:
+    mappings:
+      fema_flavor_profile:
+        confidence: 0.8
+        target_entity: Flavor
+      flavor_profile:
+        confidence: 0.8
+        target_entity: Flavor
+      flavornet_id:
+        confidence: 0.8
+        target_entity: Flavor
+      fooddb_flavor_profile:
+        confidence: 0.8
+        target_entity: Flavor
+      functional_groups:
+        confidence: 0.64
+        target_entity: Functional Role
+      molecules:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*]:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].atom_stereo_count:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].bitter:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].bitterdb_id:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].bond_stereo_count:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].cas_id:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].charge:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].common_name:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].complexity:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].covalently_bonded_unit_count:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].defined_atom_stereocenter_count:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].defined_bond_stereocenter_count:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].exact_mass:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].fema_flavor_profile:
+        confidence: 0.8
+        target_entity: Flavor
+      molecules[*].fema_number:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].fenoroli_and_os:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].flavor_profile:
+        confidence: 0.8
+        target_entity: Flavor
+      molecules[*].flavornet_id:
+        confidence: 0.8
+        target_entity: Flavor
+      molecules[*].fooddb_flavor_profile:
+        confidence: 0.8
+        target_entity: Flavor
+      molecules[*].fooddb_id:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].functional_groups:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].hba_count:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].hbd_count:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].heavy_atom_count:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].inchi:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].isotope_atom_count:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].iupac_name:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].molecular_weight:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].monoisotopic_mass:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].natural:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].num_rotatablebonds:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].odor:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].pubchem_id:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].smile:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].super_sweet:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].supersweetdb_id:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].synthetic:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].taste:
+        confidence: 0.8
+        target_entity: Flavor
+      molecules[*].topological_polor_surfacearea:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].undefined_atom_stereocenter_count:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].undefined_bond_stereocenter_count:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].unknown_natural:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].volume3d:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].xlogp:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      pubchem_id:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      taste:
+        confidence: 1.0
+        target_entity: Flavor
+    schema_type: JSON Hierarchy
+  entity_11.html:
+    mappings: {}
+    schema_type: HTML Page
+  entity_11.json:
+    mappings:
+      fema_flavor_profile:
+        confidence: 0.8
+        target_entity: Flavor
+      flavor_profile:
+        confidence: 0.8
+        target_entity: Flavor
+      flavornet_id:
+        confidence: 0.8
+        target_entity: Flavor
+      fooddb_flavor_profile:
+        confidence: 0.8
+        target_entity: Flavor
+      functional_groups:
+        confidence: 0.64
+        target_entity: Functional Role
+      molecules:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*]:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].atom_stereo_count:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].bitter:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].bitterdb_id:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].bond_stereo_count:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].cas_id:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].charge:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].common_name:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].complexity:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].covalently_bonded_unit_count:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].defined_atom_stereocenter_count:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].defined_bond_stereocenter_count:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].exact_mass:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].fema_flavor_profile:
+        confidence: 0.8
+        target_entity: Flavor
+      molecules[*].fema_number:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].fenoroli_and_os:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].flavor_profile:
+        confidence: 0.8
+        target_entity: Flavor
+      molecules[*].flavornet_id:
+        confidence: 0.8
+        target_entity: Flavor
+      molecules[*].fooddb_flavor_profile:
+        confidence: 0.8
+        target_entity: Flavor
+      molecules[*].fooddb_id:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].functional_groups:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].hba_count:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].hbd_count:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].heavy_atom_count:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].inchi:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].isotope_atom_count:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].iupac_name:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].molecular_weight:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].monoisotopic_mass:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].natural:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].num_rotatablebonds:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].odor:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].pubchem_id:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].smile:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].super_sweet:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].supersweetdb_id:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].synthetic:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].taste:
+        confidence: 0.8
+        target_entity: Flavor
+      molecules[*].topological_polor_surfacearea:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].undefined_atom_stereocenter_count:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].undefined_bond_stereocenter_count:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].unknown_natural:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].volume3d:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].xlogp:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      pubchem_id:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      taste:
+        confidence: 1.0
+        target_entity: Flavor
+    schema_type: JSON Hierarchy
+  entity_12.html:
+    mappings: {}
+    schema_type: HTML Page
+  entity_12.json:
+    mappings:
+      fema_flavor_profile:
+        confidence: 0.8
+        target_entity: Flavor
+      flavor_profile:
+        confidence: 0.8
+        target_entity: Flavor
+      flavornet_id:
+        confidence: 0.8
+        target_entity: Flavor
+      fooddb_flavor_profile:
+        confidence: 0.8
+        target_entity: Flavor
+      functional_groups:
+        confidence: 0.64
+        target_entity: Functional Role
+      molecules:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*]:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].atom_stereo_count:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].bitter:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].bitterdb_id:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].bond_stereo_count:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].cas_id:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].charge:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].common_name:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].complexity:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].covalently_bonded_unit_count:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].defined_atom_stereocenter_count:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].defined_bond_stereocenter_count:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].exact_mass:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].fema_flavor_profile:
+        confidence: 0.8
+        target_entity: Flavor
+      molecules[*].fema_number:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].fenoroli_and_os:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].flavor_profile:
+        confidence: 0.8
+        target_entity: Flavor
+      molecules[*].flavornet_id:
+        confidence: 0.8
+        target_entity: Flavor
+      molecules[*].fooddb_flavor_profile:
+        confidence: 0.8
+        target_entity: Flavor
+      molecules[*].fooddb_id:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].functional_groups:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].hba_count:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].hbd_count:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].heavy_atom_count:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].inchi:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].isotope_atom_count:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].iupac_name:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].molecular_weight:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].monoisotopic_mass:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].natural:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].num_rotatablebonds:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].odor:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].pubchem_id:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].smile:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].super_sweet:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].supersweetdb_id:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].synthetic:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].taste:
+        confidence: 0.8
+        target_entity: Flavor
+      molecules[*].topological_polor_surfacearea:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].undefined_atom_stereocenter_count:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].undefined_bond_stereocenter_count:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].unknown_natural:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].volume3d:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].xlogp:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      pubchem_id:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      taste:
+        confidence: 1.0
+        target_entity: Flavor
+    schema_type: JSON Hierarchy
+  entity_13.html:
+    mappings: {}
+    schema_type: HTML Page
+  entity_13.json:
+    mappings:
+      fema_flavor_profile:
+        confidence: 0.8
+        target_entity: Flavor
+      flavor_profile:
+        confidence: 0.8
+        target_entity: Flavor
+      flavornet_id:
+        confidence: 0.8
+        target_entity: Flavor
+      fooddb_flavor_profile:
+        confidence: 0.8
+        target_entity: Flavor
+      functional_groups:
+        confidence: 0.64
+        target_entity: Functional Role
+      molecules:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*]:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].atom_stereo_count:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].bitter:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].bitterdb_id:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].bond_stereo_count:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].cas_id:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].charge:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].common_name:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].complexity:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].covalently_bonded_unit_count:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].defined_atom_stereocenter_count:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].defined_bond_stereocenter_count:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].exact_mass:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].fema_flavor_profile:
+        confidence: 0.8
+        target_entity: Flavor
+      molecules[*].fema_number:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].fenoroli_and_os:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].flavor_profile:
+        confidence: 0.8
+        target_entity: Flavor
+      molecules[*].flavornet_id:
+        confidence: 0.8
+        target_entity: Flavor
+      molecules[*].fooddb_flavor_profile:
+        confidence: 0.8
+        target_entity: Flavor
+      molecules[*].fooddb_id:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].functional_groups:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].hba_count:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].hbd_count:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].heavy_atom_count:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].inchi:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].isotope_atom_count:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].iupac_name:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].molecular_weight:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].monoisotopic_mass:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].natural:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].num_rotatablebonds:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].odor:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].pubchem_id:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].smile:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].super_sweet:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].supersweetdb_id:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].synthetic:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].taste:
+        confidence: 0.8
+        target_entity: Flavor
+      molecules[*].topological_polor_surfacearea:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].undefined_atom_stereocenter_count:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].undefined_bond_stereocenter_count:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].unknown_natural:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].volume3d:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].xlogp:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      pubchem_id:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      taste:
+        confidence: 1.0
+        target_entity: Flavor
+    schema_type: JSON Hierarchy
+  entity_14.html:
+    mappings: {}
+    schema_type: HTML Page
+  entity_14.json:
+    mappings:
+      fema_flavor_profile:
+        confidence: 0.8
+        target_entity: Flavor
+      flavor_profile:
+        confidence: 0.8
+        target_entity: Flavor
+      flavornet_id:
+        confidence: 0.8
+        target_entity: Flavor
+      fooddb_flavor_profile:
+        confidence: 0.8
+        target_entity: Flavor
+      functional_groups:
+        confidence: 0.64
+        target_entity: Functional Role
+      molecules:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*]:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].atom_stereo_count:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].bitter:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].bitterdb_id:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].bond_stereo_count:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].cas_id:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].charge:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].common_name:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].complexity:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].covalently_bonded_unit_count:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].defined_atom_stereocenter_count:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].defined_bond_stereocenter_count:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].exact_mass:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].fema_flavor_profile:
+        confidence: 0.8
+        target_entity: Flavor
+      molecules[*].fema_number:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].fenoroli_and_os:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].flavor_profile:
+        confidence: 0.8
+        target_entity: Flavor
+      molecules[*].flavornet_id:
+        confidence: 0.8
+        target_entity: Flavor
+      molecules[*].fooddb_flavor_profile:
+        confidence: 0.8
+        target_entity: Flavor
+      molecules[*].fooddb_id:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].functional_groups:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].hba_count:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].hbd_count:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].heavy_atom_count:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].inchi:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].isotope_atom_count:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].iupac_name:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].molecular_weight:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].monoisotopic_mass:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].natural:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].num_rotatablebonds:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].odor:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].pubchem_id:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].smile:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].super_sweet:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].supersweetdb_id:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].synthetic:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].taste:
+        confidence: 0.8
+        target_entity: Flavor
+      molecules[*].topological_polor_surfacearea:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].undefined_atom_stereocenter_count:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].undefined_bond_stereocenter_count:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].unknown_natural:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].volume3d:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].xlogp:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      pubchem_id:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      taste:
+        confidence: 1.0
+        target_entity: Flavor
+    schema_type: JSON Hierarchy
+  entity_15.html:
+    mappings: {}
+    schema_type: HTML Page
+  entity_15.json:
+    mappings:
+      fema_flavor_profile:
+        confidence: 0.8
+        target_entity: Flavor
+      flavor_profile:
+        confidence: 0.8
+        target_entity: Flavor
+      flavornet_id:
+        confidence: 0.8
+        target_entity: Flavor
+      fooddb_flavor_profile:
+        confidence: 0.8
+        target_entity: Flavor
+      functional_groups:
+        confidence: 0.64
+        target_entity: Functional Role
+      molecules:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*]:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].atom_stereo_count:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].bitter:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].bitterdb_id:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].bond_stereo_count:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].cas_id:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].charge:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].common_name:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].complexity:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].covalently_bonded_unit_count:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].defined_atom_stereocenter_count:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].defined_bond_stereocenter_count:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].exact_mass:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].fema_flavor_profile:
+        confidence: 0.8
+        target_entity: Flavor
+      molecules[*].fema_number:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].fenoroli_and_os:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].flavor_profile:
+        confidence: 0.8
+        target_entity: Flavor
+      molecules[*].flavornet_id:
+        confidence: 0.8
+        target_entity: Flavor
+      molecules[*].fooddb_flavor_profile:
+        confidence: 0.8
+        target_entity: Flavor
+      molecules[*].fooddb_id:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].functional_groups:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].hba_count:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].hbd_count:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].heavy_atom_count:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].inchi:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].isotope_atom_count:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].iupac_name:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].molecular_weight:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].monoisotopic_mass:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].natural:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].num_rotatablebonds:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].odor:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].pubchem_id:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].smile:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].super_sweet:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].supersweetdb_id:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].synthetic:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].taste:
+        confidence: 0.8
+        target_entity: Flavor
+      molecules[*].topological_polor_surfacearea:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].undefined_atom_stereocenter_count:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].undefined_bond_stereocenter_count:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].unknown_natural:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].volume3d:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].xlogp:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      pubchem_id:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      taste:
+        confidence: 1.0
+        target_entity: Flavor
+    schema_type: JSON Hierarchy
+  entity_16.html:
+    mappings: {}
+    schema_type: HTML Page
+  entity_16.json:
+    mappings:
+      fema_flavor_profile:
+        confidence: 0.8
+        target_entity: Flavor
+      flavor_profile:
+        confidence: 0.8
+        target_entity: Flavor
+      flavornet_id:
+        confidence: 0.8
+        target_entity: Flavor
+      fooddb_flavor_profile:
+        confidence: 0.8
+        target_entity: Flavor
+      functional_groups:
+        confidence: 0.64
+        target_entity: Functional Role
+      molecules:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*]:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].atom_stereo_count:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].bitter:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].bitterdb_id:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].bond_stereo_count:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].cas_id:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].charge:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].common_name:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].complexity:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].covalently_bonded_unit_count:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].defined_atom_stereocenter_count:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].defined_bond_stereocenter_count:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].exact_mass:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].fema_flavor_profile:
+        confidence: 0.8
+        target_entity: Flavor
+      molecules[*].fema_number:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].fenoroli_and_os:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].flavor_profile:
+        confidence: 0.8
+        target_entity: Flavor
+      molecules[*].flavornet_id:
+        confidence: 0.8
+        target_entity: Flavor
+      molecules[*].fooddb_flavor_profile:
+        confidence: 0.8
+        target_entity: Flavor
+      molecules[*].fooddb_id:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].functional_groups:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].hba_count:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].hbd_count:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].heavy_atom_count:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].inchi:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].isotope_atom_count:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].iupac_name:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].molecular_weight:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].monoisotopic_mass:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].natural:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].num_rotatablebonds:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].odor:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].pubchem_id:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].smile:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].super_sweet:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].supersweetdb_id:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].synthetic:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].taste:
+        confidence: 0.8
+        target_entity: Flavor
+      molecules[*].topological_polor_surfacearea:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].undefined_atom_stereocenter_count:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].undefined_bond_stereocenter_count:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].unknown_natural:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].volume3d:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].xlogp:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      pubchem_id:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      taste:
+        confidence: 1.0
+        target_entity: Flavor
+    schema_type: JSON Hierarchy
+  entity_17.html:
+    mappings: {}
+    schema_type: HTML Page
+  entity_17.json:
+    mappings:
+      fema_flavor_profile:
+        confidence: 0.8
+        target_entity: Flavor
+      flavor_profile:
+        confidence: 0.8
+        target_entity: Flavor
+      flavornet_id:
+        confidence: 0.8
+        target_entity: Flavor
+      fooddb_flavor_profile:
+        confidence: 0.8
+        target_entity: Flavor
+      functional_groups:
+        confidence: 0.64
+        target_entity: Functional Role
+      molecules:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*]:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].atom_stereo_count:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].bitter:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].bitterdb_id:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].bond_stereo_count:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].cas_id:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].charge:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].common_name:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].complexity:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].covalently_bonded_unit_count:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].defined_atom_stereocenter_count:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].defined_bond_stereocenter_count:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].exact_mass:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].fema_flavor_profile:
+        confidence: 0.8
+        target_entity: Flavor
+      molecules[*].fema_number:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].fenoroli_and_os:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].flavor_profile:
+        confidence: 0.8
+        target_entity: Flavor
+      molecules[*].flavornet_id:
+        confidence: 0.8
+        target_entity: Flavor
+      molecules[*].fooddb_flavor_profile:
+        confidence: 0.8
+        target_entity: Flavor
+      molecules[*].fooddb_id:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].functional_groups:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].hba_count:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].hbd_count:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].heavy_atom_count:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].inchi:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].isotope_atom_count:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].iupac_name:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].molecular_weight:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].monoisotopic_mass:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].natural:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].num_rotatablebonds:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].odor:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].pubchem_id:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].smile:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].super_sweet:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].supersweetdb_id:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].synthetic:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].taste:
+        confidence: 0.8
+        target_entity: Flavor
+      molecules[*].topological_polor_surfacearea:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].undefined_atom_stereocenter_count:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].undefined_bond_stereocenter_count:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].unknown_natural:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].volume3d:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].xlogp:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      pubchem_id:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      taste:
+        confidence: 1.0
+        target_entity: Flavor
+    schema_type: JSON Hierarchy
+  entity_18.html:
+    mappings: {}
+    schema_type: HTML Page
+  entity_18.json:
+    mappings:
+      fema_flavor_profile:
+        confidence: 0.8
+        target_entity: Flavor
+      flavor_profile:
+        confidence: 0.8
+        target_entity: Flavor
+      flavornet_id:
+        confidence: 0.8
+        target_entity: Flavor
+      fooddb_flavor_profile:
+        confidence: 0.8
+        target_entity: Flavor
+      functional_groups:
+        confidence: 0.64
+        target_entity: Functional Role
+      molecules:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*]:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].atom_stereo_count:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].bitter:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].bitterdb_id:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].bond_stereo_count:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].cas_id:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].charge:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].common_name:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].complexity:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].covalently_bonded_unit_count:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].defined_atom_stereocenter_count:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].defined_bond_stereocenter_count:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].exact_mass:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].fema_flavor_profile:
+        confidence: 0.8
+        target_entity: Flavor
+      molecules[*].fema_number:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].fenoroli_and_os:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].flavor_profile:
+        confidence: 0.8
+        target_entity: Flavor
+      molecules[*].flavornet_id:
+        confidence: 0.8
+        target_entity: Flavor
+      molecules[*].fooddb_flavor_profile:
+        confidence: 0.8
+        target_entity: Flavor
+      molecules[*].fooddb_id:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].functional_groups:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].hba_count:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].hbd_count:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].heavy_atom_count:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].inchi:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].isotope_atom_count:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].iupac_name:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].molecular_weight:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].monoisotopic_mass:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].natural:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].num_rotatablebonds:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].odor:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].pubchem_id:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].smile:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].super_sweet:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].supersweetdb_id:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].synthetic:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].taste:
+        confidence: 0.8
+        target_entity: Flavor
+      molecules[*].topological_polor_surfacearea:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].undefined_atom_stereocenter_count:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].undefined_bond_stereocenter_count:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].unknown_natural:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].volume3d:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].xlogp:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      pubchem_id:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      taste:
+        confidence: 1.0
+        target_entity: Flavor
+    schema_type: JSON Hierarchy
+  entity_19.html:
+    mappings: {}
+    schema_type: HTML Page
+  entity_19.json:
+    mappings:
+      fema_flavor_profile:
+        confidence: 0.8
+        target_entity: Flavor
+      flavor_profile:
+        confidence: 0.8
+        target_entity: Flavor
+      flavornet_id:
+        confidence: 0.8
+        target_entity: Flavor
+      fooddb_flavor_profile:
+        confidence: 0.8
+        target_entity: Flavor
+      functional_groups:
+        confidence: 0.64
+        target_entity: Functional Role
+      molecules:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*]:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].atom_stereo_count:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].bitter:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].bitterdb_id:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].bond_stereo_count:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].cas_id:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].charge:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].common_name:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].complexity:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].covalently_bonded_unit_count:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].defined_atom_stereocenter_count:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].defined_bond_stereocenter_count:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].exact_mass:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].fema_flavor_profile:
+        confidence: 0.8
+        target_entity: Flavor
+      molecules[*].fema_number:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].fenoroli_and_os:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].flavor_profile:
+        confidence: 0.8
+        target_entity: Flavor
+      molecules[*].flavornet_id:
+        confidence: 0.8
+        target_entity: Flavor
+      molecules[*].fooddb_flavor_profile:
+        confidence: 0.8
+        target_entity: Flavor
+      molecules[*].fooddb_id:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].functional_groups:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].hba_count:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].hbd_count:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].heavy_atom_count:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].inchi:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].isotope_atom_count:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].iupac_name:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].molecular_weight:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].monoisotopic_mass:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].natural:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].num_rotatablebonds:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].odor:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].pubchem_id:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].smile:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].super_sweet:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].supersweetdb_id:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].synthetic:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].taste:
+        confidence: 0.8
+        target_entity: Flavor
+      molecules[*].topological_polor_surfacearea:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].undefined_atom_stereocenter_count:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].undefined_bond_stereocenter_count:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].unknown_natural:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].volume3d:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].xlogp:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      pubchem_id:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      taste:
+        confidence: 1.0
+        target_entity: Flavor
+    schema_type: JSON Hierarchy
+  entity_2.html:
+    mappings: {}
+    schema_type: HTML Page
+  entity_2.json:
+    mappings:
+      fema_flavor_profile:
+        confidence: 0.8
+        target_entity: Flavor
+      flavor_profile:
+        confidence: 0.8
+        target_entity: Flavor
+      flavornet_id:
+        confidence: 0.8
+        target_entity: Flavor
+      fooddb_flavor_profile:
+        confidence: 0.8
+        target_entity: Flavor
+      functional_groups:
+        confidence: 0.64
+        target_entity: Functional Role
+      molecules:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*]:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].atom_stereo_count:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].bitter:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].bitterdb_id:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].bond_stereo_count:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].cas_id:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].charge:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].common_name:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].complexity:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].covalently_bonded_unit_count:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].defined_atom_stereocenter_count:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].defined_bond_stereocenter_count:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].exact_mass:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].fema_flavor_profile:
+        confidence: 0.8
+        target_entity: Flavor
+      molecules[*].fema_number:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].fenoroli_and_os:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].flavor_profile:
+        confidence: 0.8
+        target_entity: Flavor
+      molecules[*].flavornet_id:
+        confidence: 0.8
+        target_entity: Flavor
+      molecules[*].fooddb_flavor_profile:
+        confidence: 0.8
+        target_entity: Flavor
+      molecules[*].fooddb_id:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].functional_groups:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].hba_count:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].hbd_count:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].heavy_atom_count:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].inchi:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].isotope_atom_count:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].iupac_name:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].molecular_weight:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].monoisotopic_mass:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].natural:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].num_rotatablebonds:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].odor:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].pubchem_id:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].smile:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].super_sweet:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].supersweetdb_id:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].synthetic:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].taste:
+        confidence: 0.8
+        target_entity: Flavor
+      molecules[*].topological_polor_surfacearea:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].undefined_atom_stereocenter_count:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].undefined_bond_stereocenter_count:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].unknown_natural:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].volume3d:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].xlogp:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      pubchem_id:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      taste:
+        confidence: 1.0
+        target_entity: Flavor
+    schema_type: JSON Hierarchy
+  entity_20.html:
+    mappings: {}
+    schema_type: HTML Page
+  entity_20.json:
+    mappings:
+      fema_flavor_profile:
+        confidence: 0.8
+        target_entity: Flavor
+      flavor_profile:
+        confidence: 0.8
+        target_entity: Flavor
+      flavornet_id:
+        confidence: 0.8
+        target_entity: Flavor
+      fooddb_flavor_profile:
+        confidence: 0.8
+        target_entity: Flavor
+      functional_groups:
+        confidence: 0.64
+        target_entity: Functional Role
+      molecules:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*]:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].atom_stereo_count:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].bitter:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].bitterdb_id:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].bond_stereo_count:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].cas_id:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].charge:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].common_name:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].complexity:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].covalently_bonded_unit_count:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].defined_atom_stereocenter_count:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].defined_bond_stereocenter_count:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].exact_mass:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].fema_flavor_profile:
+        confidence: 0.8
+        target_entity: Flavor
+      molecules[*].fema_number:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].fenoroli_and_os:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].flavor_profile:
+        confidence: 0.8
+        target_entity: Flavor
+      molecules[*].flavornet_id:
+        confidence: 0.8
+        target_entity: Flavor
+      molecules[*].fooddb_flavor_profile:
+        confidence: 0.8
+        target_entity: Flavor
+      molecules[*].fooddb_id:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].functional_groups:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].hba_count:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].hbd_count:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].heavy_atom_count:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].inchi:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].isotope_atom_count:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].iupac_name:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].molecular_weight:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].monoisotopic_mass:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].natural:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].num_rotatablebonds:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].odor:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].pubchem_id:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].smile:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].super_sweet:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].supersweetdb_id:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].synthetic:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].taste:
+        confidence: 0.8
+        target_entity: Flavor
+      molecules[*].topological_polor_surfacearea:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].undefined_atom_stereocenter_count:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].undefined_bond_stereocenter_count:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].unknown_natural:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].volume3d:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].xlogp:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      pubchem_id:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      taste:
+        confidence: 1.0
+        target_entity: Flavor
+    schema_type: JSON Hierarchy
+  entity_3.html:
+    mappings: {}
+    schema_type: HTML Page
+  entity_3.json:
+    mappings:
+      fema_flavor_profile:
+        confidence: 0.8
+        target_entity: Flavor
+      flavor_profile:
+        confidence: 0.8
+        target_entity: Flavor
+      flavornet_id:
+        confidence: 0.8
+        target_entity: Flavor
+      fooddb_flavor_profile:
+        confidence: 0.8
+        target_entity: Flavor
+      functional_groups:
+        confidence: 0.64
+        target_entity: Functional Role
+      molecules:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*]:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].atom_stereo_count:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].bitter:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].bitterdb_id:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].bond_stereo_count:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].cas_id:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].charge:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].common_name:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].complexity:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].covalently_bonded_unit_count:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].defined_atom_stereocenter_count:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].defined_bond_stereocenter_count:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].exact_mass:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].fema_flavor_profile:
+        confidence: 0.8
+        target_entity: Flavor
+      molecules[*].fema_number:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].fenoroli_and_os:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].flavor_profile:
+        confidence: 0.8
+        target_entity: Flavor
+      molecules[*].flavornet_id:
+        confidence: 0.8
+        target_entity: Flavor
+      molecules[*].fooddb_flavor_profile:
+        confidence: 0.8
+        target_entity: Flavor
+      molecules[*].fooddb_id:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].functional_groups:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].hba_count:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].hbd_count:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].heavy_atom_count:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].inchi:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].isotope_atom_count:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].iupac_name:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].molecular_weight:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].monoisotopic_mass:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].natural:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].num_rotatablebonds:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].odor:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].pubchem_id:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].smile:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].super_sweet:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].supersweetdb_id:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].synthetic:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].taste:
+        confidence: 0.8
+        target_entity: Flavor
+      molecules[*].topological_polor_surfacearea:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].undefined_atom_stereocenter_count:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].undefined_bond_stereocenter_count:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].unknown_natural:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].volume3d:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].xlogp:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      pubchem_id:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      taste:
+        confidence: 1.0
+        target_entity: Flavor
+    schema_type: JSON Hierarchy
+  entity_4.html:
+    mappings: {}
+    schema_type: HTML Page
+  entity_4.json:
+    mappings:
+      fema_flavor_profile:
+        confidence: 0.8
+        target_entity: Flavor
+      flavor_profile:
+        confidence: 0.8
+        target_entity: Flavor
+      flavornet_id:
+        confidence: 0.8
+        target_entity: Flavor
+      fooddb_flavor_profile:
+        confidence: 0.8
+        target_entity: Flavor
+      functional_groups:
+        confidence: 0.64
+        target_entity: Functional Role
+      molecules:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*]:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].atom_stereo_count:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].bitter:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].bitterdb_id:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].bond_stereo_count:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].cas_id:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].charge:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].common_name:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].complexity:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].covalently_bonded_unit_count:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].defined_atom_stereocenter_count:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].defined_bond_stereocenter_count:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].exact_mass:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].fema_flavor_profile:
+        confidence: 0.8
+        target_entity: Flavor
+      molecules[*].fema_number:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].fenoroli_and_os:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].flavor_profile:
+        confidence: 0.8
+        target_entity: Flavor
+      molecules[*].flavornet_id:
+        confidence: 0.8
+        target_entity: Flavor
+      molecules[*].fooddb_flavor_profile:
+        confidence: 0.8
+        target_entity: Flavor
+      molecules[*].fooddb_id:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].functional_groups:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].hba_count:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].hbd_count:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].heavy_atom_count:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].inchi:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].isotope_atom_count:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].iupac_name:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].molecular_weight:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].monoisotopic_mass:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].natural:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].num_rotatablebonds:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].odor:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].pubchem_id:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].smile:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].super_sweet:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].supersweetdb_id:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].synthetic:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].taste:
+        confidence: 0.8
+        target_entity: Flavor
+      molecules[*].topological_polor_surfacearea:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].undefined_atom_stereocenter_count:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].undefined_bond_stereocenter_count:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].unknown_natural:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].volume3d:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].xlogp:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      pubchem_id:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      taste:
+        confidence: 1.0
+        target_entity: Flavor
+    schema_type: JSON Hierarchy
+  entity_5.html:
+    mappings: {}
+    schema_type: HTML Page
+  entity_5.json:
+    mappings:
+      fema_flavor_profile:
+        confidence: 0.8
+        target_entity: Flavor
+      flavor_profile:
+        confidence: 0.8
+        target_entity: Flavor
+      flavornet_id:
+        confidence: 0.8
+        target_entity: Flavor
+      fooddb_flavor_profile:
+        confidence: 0.8
+        target_entity: Flavor
+      functional_groups:
+        confidence: 0.64
+        target_entity: Functional Role
+      molecules:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*]:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].atom_stereo_count:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].bitter:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].bitterdb_id:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].bond_stereo_count:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].cas_id:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].charge:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].common_name:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].complexity:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].covalently_bonded_unit_count:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].defined_atom_stereocenter_count:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].defined_bond_stereocenter_count:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].exact_mass:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].fema_flavor_profile:
+        confidence: 0.8
+        target_entity: Flavor
+      molecules[*].fema_number:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].fenoroli_and_os:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].flavor_profile:
+        confidence: 0.8
+        target_entity: Flavor
+      molecules[*].flavornet_id:
+        confidence: 0.8
+        target_entity: Flavor
+      molecules[*].fooddb_flavor_profile:
+        confidence: 0.8
+        target_entity: Flavor
+      molecules[*].fooddb_id:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].functional_groups:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].hba_count:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].hbd_count:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].heavy_atom_count:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].inchi:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].isotope_atom_count:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].iupac_name:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].molecular_weight:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].monoisotopic_mass:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].natural:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].num_rotatablebonds:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].odor:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].pubchem_id:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].smile:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].super_sweet:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].supersweetdb_id:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].synthetic:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].taste:
+        confidence: 0.8
+        target_entity: Flavor
+      molecules[*].topological_polor_surfacearea:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].undefined_atom_stereocenter_count:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].undefined_bond_stereocenter_count:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].unknown_natural:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].volume3d:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].xlogp:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      pubchem_id:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      taste:
+        confidence: 1.0
+        target_entity: Flavor
+    schema_type: JSON Hierarchy
+  entity_6.html:
+    mappings: {}
+    schema_type: HTML Page
+  entity_6.json:
+    mappings:
+      fema_flavor_profile:
+        confidence: 0.8
+        target_entity: Flavor
+      flavor_profile:
+        confidence: 0.8
+        target_entity: Flavor
+      flavornet_id:
+        confidence: 0.8
+        target_entity: Flavor
+      fooddb_flavor_profile:
+        confidence: 0.8
+        target_entity: Flavor
+      functional_groups:
+        confidence: 0.64
+        target_entity: Functional Role
+      molecules:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*]:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].atom_stereo_count:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].bitter:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].bitterdb_id:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].bond_stereo_count:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].cas_id:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].charge:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].common_name:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].complexity:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].covalently_bonded_unit_count:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].defined_atom_stereocenter_count:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].defined_bond_stereocenter_count:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].exact_mass:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].fema_flavor_profile:
+        confidence: 0.8
+        target_entity: Flavor
+      molecules[*].fema_number:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].fenoroli_and_os:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].flavor_profile:
+        confidence: 0.8
+        target_entity: Flavor
+      molecules[*].flavornet_id:
+        confidence: 0.8
+        target_entity: Flavor
+      molecules[*].fooddb_flavor_profile:
+        confidence: 0.8
+        target_entity: Flavor
+      molecules[*].fooddb_id:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].functional_groups:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].hba_count:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].hbd_count:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].heavy_atom_count:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].inchi:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].isotope_atom_count:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].iupac_name:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].molecular_weight:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].monoisotopic_mass:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].natural:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].num_rotatablebonds:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].odor:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].pubchem_id:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].smile:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].super_sweet:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].supersweetdb_id:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].synthetic:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].taste:
+        confidence: 0.8
+        target_entity: Flavor
+      molecules[*].topological_polor_surfacearea:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].undefined_atom_stereocenter_count:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].undefined_bond_stereocenter_count:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].unknown_natural:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].volume3d:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].xlogp:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      pubchem_id:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      taste:
+        confidence: 1.0
+        target_entity: Flavor
+    schema_type: JSON Hierarchy
+  entity_7.html:
+    mappings: {}
+    schema_type: HTML Page
+  entity_7.json:
+    mappings:
+      fema_flavor_profile:
+        confidence: 0.8
+        target_entity: Flavor
+      flavor_profile:
+        confidence: 0.8
+        target_entity: Flavor
+      flavornet_id:
+        confidence: 0.8
+        target_entity: Flavor
+      fooddb_flavor_profile:
+        confidence: 0.8
+        target_entity: Flavor
+      functional_groups:
+        confidence: 0.64
+        target_entity: Functional Role
+      molecules:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*]:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].atom_stereo_count:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].bitter:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].bitterdb_id:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].bond_stereo_count:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].cas_id:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].charge:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].common_name:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].complexity:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].covalently_bonded_unit_count:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].defined_atom_stereocenter_count:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].defined_bond_stereocenter_count:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].exact_mass:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].fema_flavor_profile:
+        confidence: 0.8
+        target_entity: Flavor
+      molecules[*].fema_number:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].fenoroli_and_os:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].flavor_profile:
+        confidence: 0.8
+        target_entity: Flavor
+      molecules[*].flavornet_id:
+        confidence: 0.8
+        target_entity: Flavor
+      molecules[*].fooddb_flavor_profile:
+        confidence: 0.8
+        target_entity: Flavor
+      molecules[*].fooddb_id:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].functional_groups:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].hba_count:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].hbd_count:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].heavy_atom_count:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].inchi:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].isotope_atom_count:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].iupac_name:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].molecular_weight:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].monoisotopic_mass:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].natural:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].num_rotatablebonds:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].odor:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].pubchem_id:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].smile:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].super_sweet:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].supersweetdb_id:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].synthetic:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].taste:
+        confidence: 0.8
+        target_entity: Flavor
+      molecules[*].topological_polor_surfacearea:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].undefined_atom_stereocenter_count:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].undefined_bond_stereocenter_count:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].unknown_natural:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].volume3d:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].xlogp:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      pubchem_id:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      taste:
+        confidence: 1.0
+        target_entity: Flavor
+    schema_type: JSON Hierarchy
+  entity_8.html:
+    mappings: {}
+    schema_type: HTML Page
+  entity_8.json:
+    mappings:
+      fema_flavor_profile:
+        confidence: 0.8
+        target_entity: Flavor
+      flavor_profile:
+        confidence: 0.8
+        target_entity: Flavor
+      flavornet_id:
+        confidence: 0.8
+        target_entity: Flavor
+      fooddb_flavor_profile:
+        confidence: 0.8
+        target_entity: Flavor
+      functional_groups:
+        confidence: 0.64
+        target_entity: Functional Role
+      molecules:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*]:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].atom_stereo_count:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].bitter:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].bitterdb_id:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].bond_stereo_count:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].cas_id:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].charge:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].common_name:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].complexity:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].covalently_bonded_unit_count:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].defined_atom_stereocenter_count:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].defined_bond_stereocenter_count:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].exact_mass:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].fema_flavor_profile:
+        confidence: 0.8
+        target_entity: Flavor
+      molecules[*].fema_number:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].fenoroli_and_os:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].flavor_profile:
+        confidence: 0.8
+        target_entity: Flavor
+      molecules[*].flavornet_id:
+        confidence: 0.8
+        target_entity: Flavor
+      molecules[*].fooddb_flavor_profile:
+        confidence: 0.8
+        target_entity: Flavor
+      molecules[*].fooddb_id:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].functional_groups:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].hba_count:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].hbd_count:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].heavy_atom_count:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].inchi:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].isotope_atom_count:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].iupac_name:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].molecular_weight:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].monoisotopic_mass:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].natural:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].num_rotatablebonds:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].odor:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].pubchem_id:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].smile:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].super_sweet:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].supersweetdb_id:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].synthetic:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].taste:
+        confidence: 0.8
+        target_entity: Flavor
+      molecules[*].topological_polor_surfacearea:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].undefined_atom_stereocenter_count:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].undefined_bond_stereocenter_count:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].unknown_natural:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].volume3d:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].xlogp:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      pubchem_id:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      taste:
+        confidence: 1.0
+        target_entity: Flavor
+    schema_type: JSON Hierarchy
+  entity_9.html:
+    mappings: {}
+    schema_type: HTML Page
+  entity_9.json:
+    mappings:
+      fema_flavor_profile:
+        confidence: 0.8
+        target_entity: Flavor
+      flavor_profile:
+        confidence: 0.8
+        target_entity: Flavor
+      flavornet_id:
+        confidence: 0.8
+        target_entity: Flavor
+      fooddb_flavor_profile:
+        confidence: 0.8
+        target_entity: Flavor
+      functional_groups:
+        confidence: 0.64
+        target_entity: Functional Role
+      molecules:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*]:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].atom_stereo_count:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].bitter:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].bitterdb_id:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].bond_stereo_count:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].cas_id:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].charge:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].common_name:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].complexity:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].covalently_bonded_unit_count:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].defined_atom_stereocenter_count:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].defined_bond_stereocenter_count:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].exact_mass:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].fema_flavor_profile:
+        confidence: 0.8
+        target_entity: Flavor
+      molecules[*].fema_number:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].fenoroli_and_os:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].flavor_profile:
+        confidence: 0.8
+        target_entity: Flavor
+      molecules[*].flavornet_id:
+        confidence: 0.8
+        target_entity: Flavor
+      molecules[*].fooddb_flavor_profile:
+        confidence: 0.8
+        target_entity: Flavor
+      molecules[*].fooddb_id:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].functional_groups:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].hba_count:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].hbd_count:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].heavy_atom_count:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].inchi:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].isotope_atom_count:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].iupac_name:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].molecular_weight:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].monoisotopic_mass:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].natural:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].num_rotatablebonds:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].odor:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].pubchem_id:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].smile:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].super_sweet:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].supersweetdb_id:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].synthetic:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].taste:
+        confidence: 0.8
+        target_entity: Flavor
+      molecules[*].topological_polor_surfacearea:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].undefined_atom_stereocenter_count:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].undefined_bond_stereocenter_count:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].unknown_natural:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].volume3d:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      molecules[*].xlogp:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      pubchem_id:
+        confidence: 0.72
+        target_entity: Flavor Molecule
+      taste:
+        confidence: 1.0
+        target_entity: Flavor
+    schema_type: JSON Hierarchy
+  flavordb_home.html:
+    mappings: {}
+    schema_type: HTML Page
+Gsfa_html:
+  gsfa_additives.html:
+    mappings: {}
+    schema_type: HTML Page
+  gsfa_categories.html:
+    mappings: {}
+    schema_type: HTML Page
+  gsfa_home.html:
+    mappings: {}
+    schema_type: HTML Page
+  gsfa_ins.html:
+    mappings: {}
+    schema_type: HTML Page
+Ontology:
+  foodon.owl:
+    mappings: {}
+    schema_type: OWL Ontology
+Product_labels:
+  product_3017620422003.html:
+    mappings: {}
+    schema_type: HTML Page
+  product_3228022030018.html:
+    mappings: {}
+    schema_type: HTML Page
+  product_5449000000996.html:
+    mappings: {}
+    schema_type: HTML Page
+  product_7622300440604.html:
+    mappings: {}
+    schema_type: HTML Page
+Specification_sheets:
+  cargill_products.html:
+    mappings: {}
+    schema_type: HTML Page
+  ingredion_products.html:
+    mappings: {}
+    schema_type: HTML Page
+  tate_lyle_products.html:
+    mappings: {}
+    schema_type: HTML Page

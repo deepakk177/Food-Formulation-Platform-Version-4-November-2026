@@ -1,0 +1,209 @@
+{
+    "summary": {
+        "status": "PASSED",
+        "total_errors": 0,
+        "total_warnings": 0,
+        "nodes_validated": 20,
+        "relationships_validated": 26
+    },
+    "errors": [],
+    "warnings": [],
+    "node_stats": {
+        "Ingredients": {
+            "status": "OK",
+            "count": 23824
+        },
+        "Products": {
+            "status": "OK",
+            "count": 4
+        },
+        "Nutrients": {
+            "status": "OK",
+            "count": 100
+        },
+        "Compounds": {
+            "status": "OK",
+            "count": 6
+        },
+        "Flavors": {
+            "status": "OK",
+            "count": 5
+        },
+        "FlavorMolecules": {
+            "status": "OK",
+            "count": 2
+        },
+        "FunctionalRoles": {
+            "status": "OK",
+            "count": 15
+        },
+        "FoodAdditives": {
+            "status": "OK",
+            "count": 199
+        },
+        "INS": {
+            "status": "OK",
+            "count": 199
+        },
+        "FoodCategories": {
+            "status": "OK",
+            "count": 10
+        },
+        "Regulations": {
+            "status": "OK",
+            "count": 1
+        },
+        "Constraints": {
+            "status": "OK",
+            "count": 320
+        },
+        "Processes": {
+            "status": "OK",
+            "count": 5
+        },
+        "ProcessConditions": {
+            "status": "OK",
+            "count": 5
+        },
+        "Allergens": {
+            "status": "OK",
+            "count": 9
+        },
+        "Properties": {
+            "status": "OK",
+            "count": 5
+        },
+        "Packaging": {
+            "status": "OK",
+            "count": 3
+        },
+        "Equipment": {
+            "status": "OK",
+            "count": 5
+        },
+        "Evidence": {
+            "status": "OK",
+            "count": 202
+        },
+        "Sources": {
+            "status": "OK",
+            "count": 11
+        }
+    },
+    "relationship_stats": {
+        "ingredient_contains_compound": {
+            "status": "OK",
+            "count": 1000
+        },
+        "ingredient_has_nutrient": {
+            "status": "OK",
+            "count": 1000
+        },
+        "ingredient_has_flavor": {
+            "status": "OK",
+            "count": 501
+        },
+        "ingredient_performs_role": {
+            "status": "OK",
+            "count": 254
+        },
+        "ingredient_has_property": {
+            "status": "OK",
+            "count": 50
+        },
+        "ingredient_used_in_product": {
+            "status": "OK",
+            "count": 253
+        },
+        "product_in_category": {
+            "status": "OK",
+            "count": 4
+        },
+        "ingredient_has_constraint": {
+            "status": "OK",
+            "count": 9
+        },
+        "product_has_constraint": {
+            "status": "OK",
+            "count": 20
+        },
+        "ingredient_interactions": {
+            "status": "OK",
+            "count": 3
+        },
+        "foodadditive_has_ins": {
+            "status": "OK",
+            "count": 199
+        },
+        "foodadditive_allowed_in_foodcategory": {
+            "status": "OK",
+            "count": 308
+        },
+        "regulation_has_constraint": {
+            "status": "OK",
+            "count": 308
+        },
+        "constraint_applies_to_category": {
+            "status": "OK",
+            "count": 320
+        },
+        "constraint_applies_to_ingredient": {
+            "status": "OK",
+            "count": 317
+        },
+        "product_requires_process": {
+            "status": "OK",
+            "count": 4
+        },
+        "process_has_condition": {
+            "status": "OK",
+            "count": 5
+        },
+        "process_uses_equipment": {
+            "status": "OK",
+            "count": 5
+        },
+        "evidence_supports_entity": {
+            "status": "OK",
+            "count": 202
+        },
+        "constraint_supported_by_evidence": {
+            "status": "OK",
+            "count": 310
+        },
+        "property_supported_by_evidence": {
+            "status": "OK",
+            "count": 5
+        },
+        "process_supported_by_evidence": {
+            "status": "OK",
+            "count": 5
+        },
+        "source_supports_evidence": {
+            "status": "OK",
+            "count": 202
+        },
+        "ingredient_has_allergen": {
+            "status": "OK",
+            "count": 533
+        },
+        "product_has_allergen": {
+            "status": "OK",
+            "count": 5
+        },
+        "product_requires_packaging": {
+            "status": "OK",
+            "count": 4
+        }
+    },
+    "graph_stats": {
+        "total_nodes": 24928,
+        "total_relationships": 12582,
+        "connected_nodes": 3174,
+        "orphan_nodes": 21734,
+        "connected_components": 21738,
+        "largest_component_size": 3174,
+        "nodes_reachable_from_product_category": 3174,
+        "percentage_reachable": 12.73
+    }
+}

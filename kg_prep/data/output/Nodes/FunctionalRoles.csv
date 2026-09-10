@@ -1,0 +1,16 @@
+ID,Name,Source,source_record_id,source_url
+ROL-THICKENER,Thickener,Codex GSFA / FSSAI,ROLE-THICKENER,https://www.fao.org/gsfaonline
+ROL-STABILIZER,Stabilizer,Codex GSFA / FSSAI,ROLE-STABILIZER,https://www.fao.org/gsfaonline
+ROL-EMULSIFIER,Emulsifier,Codex GSFA / FSSAI,ROLE-EMULSIFIER,https://www.fao.org/gsfaonline
+ROL-ACIDULANT,Acidulant,Codex GSFA / FSSAI,ROLE-ACIDULANT,https://www.fao.org/gsfaonline
+ROL-PRESERVATIVE,Preservative,Codex GSFA / FSSAI,ROLE-PRESERVATIVE,https://www.fao.org/gsfaonline
+ROL-ANTIOXIDANT,Antioxidant,Codex GSFA / FSSAI,ROLE-ANTIOXIDANT,https://www.fao.org/gsfaonline
+ROL-SWEETENER,Sweetener,Codex GSFA / FSSAI,ROLE-SWEETENER,https://www.fao.org/gsfaonline
+ROL-COLOR,Color,Codex GSFA / FSSAI,ROLE-COLOR,https://www.fao.org/gsfaonline
+ROL-FLAVOR_ENHANCER,Flavor Enhancer,Codex GSFA / FSSAI,ROLE-FLAVOR_ENHANCER,https://www.fao.org/gsfaonline
+ROL-GLAZING_AGENT,Glazing Agent,Codex GSFA / FSSAI,ROLE-GLAZING_AGENT,https://www.fao.org/gsfaonline
+ROL-HUMECTANT,Humectant,Codex GSFA / FSSAI,ROLE-HUMECTANT,https://www.fao.org/gsfaonline
+ROL-FIRMING_AGENT,Firming Agent,Codex GSFA / FSSAI,ROLE-FIRMING_AGENT,https://www.fao.org/gsfaonline
+ROL-RAISING_AGENT,Raising Agent,Codex GSFA / FSSAI,ROLE-RAISING_AGENT,https://www.fao.org/gsfaonline
+ROL-BULKING_AGENT,Bulking Agent,Codex GSFA / FSSAI,ROLE-BULKING_AGENT,https://www.fao.org/gsfaonline
+ROL-FLOUR_TREATMENT_AGENT,Flour Treatment Agent,Codex GSFA / FSSAI,ROLE-FLOUR_TREATMENT,https://www.fao.org/gsfaonline

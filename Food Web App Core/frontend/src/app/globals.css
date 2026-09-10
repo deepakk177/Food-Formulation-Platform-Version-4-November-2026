@@ -1,0 +1,101 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,600;0,700;1,600&family=Inter:wght@600;700;800;900&family=Plus+Jakarta+Sans:wght@600;700;800;900&display=swap');
+
+:root {
+  --brand-primary: #164E3D;
+  --brand-primary-hover: #123F32;
+  --brand-secondary: #4E7B67;
+  --brand-background: #F7F9F8;
+  --brand-card: #FFFFFF;
+  --brand-card-border: #E5E9E6;
+  --brand-pill: #ECF4F0;
+  --brand-text-dark: #191C1E;
+  --brand-text-muted: #5F6D67;
+
+  --background: 140 10% 97%;
+  --foreground: 150 10% 11%;
+  
+  --card: 0 0% 100%;
+  --card-foreground: 150 10% 11%;
+
+  --radius: 0.75rem;
+}
+
+html {
+  font-size: 17px;
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  font-family: 'Plus Jakarta Sans', 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  background-color: #F7F9F8;
+  color: #191C1E;
+  font-weight: 600;
+  font-size: 0.95rem;
+  line-height: 1.55;
+  margin: 0;
+  padding: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Plus Jakarta Sans', 'Inter', sans-serif;
+  font-weight: 800;
+  letter-spacing: -0.02em;
+}
+
+.font-heading {
+  font-family: 'Plus Jakarta Sans', 'Inter', sans-serif;
+  font-weight: 800;
+}
+
+.font-mono {
+  font-family: 'IBM Plex Mono', monospace;
+  font-weight: 600;
+}
+
+/* Custom Scrollbars */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #F1F5F3;
+}
+::-webkit-scrollbar-thumb {
+  background: #C4D6CD;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #164E3D;
+}
+
+/* Canonical Card Style */
+.canonical-card {
+  background-color: #FFFFFF;
+  border: 1px solid #E5E9E6;
+  border-radius: 1rem;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.02);
+}
+
+/* Hover elevation transitions */
+.hover-lift {
+  transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+}
+.hover-lift:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 20px rgba(22, 78, 61, 0.08);
+  border-color: #164E3D;
+}
+
+/* Step Stepper Connector Lines */
+.stepper-connector {
+  height: 2px;
+  background-color: #E5E9E6;
+  flex: 1;
+}
+.stepper-connector-active {
+  background-color: #164E3D;
+}

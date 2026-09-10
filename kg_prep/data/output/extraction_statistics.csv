@@ -1,0 +1,5 @@
+metric,value
+total_nodes,24930
+total_relationships,5826
+validation_failures,0
+pipeline_status,PASSED

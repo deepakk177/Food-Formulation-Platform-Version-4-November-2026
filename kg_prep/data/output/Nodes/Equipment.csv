@@ -1,0 +1,6 @@
+ID,Name,Source,source_record_id,source_url
+EQ--PLATE_HEAT_EXCHANGER,Plate Heat Exchanger,Scientific Literature,plate_heat_exchanger,https://arxiv.org/abs/2607.09529
+EQ--HIGH_PRESSURE_HOMOGENIZER,High Pressure Homogenizer,Scientific Literature,high_pressure_homogenizer,https://arxiv.org/abs/2607.09529
+EQ--SPRAY_DRYER_TOWER,Spray Dryer Tower,Scientific Literature,spray_dryer_tower,https://arxiv.org/abs/2607.09529
+EQ--TWIN_SCREW_EXTRUDER,Twin Screw Extruder,Scientific Literature,twin_screw_extruder,https://arxiv.org/abs/2607.09529
+EQ--INDUSTRIAL_AUTOCLAVE_RETORT,Industrial Autoclave Retort,Scientific Literature,industrial_autoclave_retort,https://arxiv.org/abs/2607.09529

@@ -1,0 +1,2 @@
+Dataset Name,File Name,Source Entity,Target Entity,Relationship Type,Confidence
+Foodb,foodb_2020_04_07_csv.zip,Ingredient,Compound,INGREDIENT_TO_COMPOUND,0.8

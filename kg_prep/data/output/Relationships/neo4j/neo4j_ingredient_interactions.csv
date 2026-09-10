@@ -1,0 +1,4 @@
+:START_ID,:END_ID,:TYPE,evidence_id,source_id,confidence,validation_status
+ING-XANTHAN_GUM,ING-PEA_PROTEIN_ISOLATE,SYNERGISTIC,EV-Scientific Literature,Scientific Literature,1.0,VALIDATED
+ING-XANTHAN_GUM,ING-PECTIN,SYNERGISTIC,EV-Scientific Literature,Scientific Literature,1.0,VALIDATED
+ING-PEA_PROTEIN_ISOLATE,ING-PECTIN,COACERVATION,EV-Scientific Literature,Scientific Literature,1.0,VALIDATED

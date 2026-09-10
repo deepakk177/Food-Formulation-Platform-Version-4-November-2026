@@ -1,0 +1,4 @@
+Food Safety and Standards Authority of India (FSSAI)
+Food Safety and Standards (Food Products Standards and Food Additives) Regulations
+Status: Fallback placeholder (Download failed: 404, message='Not Found', url='https://www.fssai.gov.in/upload/uploadfiles/files/Food_Products_Regulations.pdf')
+Scope: Standards for food products, limits for food additives, preservatives, colors, emulsifiers.
