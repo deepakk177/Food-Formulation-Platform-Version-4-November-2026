@@ -52,14 +52,7 @@ class Neo4jClient:
             logger.warning(f"[Neo4jClient] Live Neo4j connection unavailable ({e}). Fallback grounded KG index enabled.")
 
     def is_connected(self) -> bool:
-        if not self._connected or not self.driver:
-            return False
-        try:
-            self.driver.verify_connectivity()
-            return True
-        except Exception:
-            self._connected = False
-            return False
+        return self._connected
 
     def get_health(self) -> Dict[str, Any]:
         """Returns structured diagnostic status for GET /api/knowledge-graph/health."""
@@ -303,7 +296,7 @@ class Neo4jClient:
 
         if clean_csv.exists():
             df = pd.read_csv(clean_csv).fillna("")
-            for idx, row in df.iterrows():
+            for idx, row in df.head(500).iterrows():
                 ing_id = f"canonical_{str(row['name']).lower().replace(' ', '_')}"
                 ing_name = str(row["name"]).strip()
                 category = str(row.get("category", "General Ingredient")).strip()

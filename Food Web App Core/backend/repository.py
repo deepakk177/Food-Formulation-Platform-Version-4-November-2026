@@ -361,6 +361,91 @@ SEED_INGREDIENTS = [
         "texture_impact": "None", "flavor_profile": "Salty",
         "evidence_claim": "Flavor enhancer potentiating sweetness perception and ionic balance.",
         "evidence_source": "USDA FDC"
+    },
+    # --- INDUSTRIAL FOOD ADDITIVES & MINOR COMPONENTS ---
+    {
+        "id": "ing_potassium_sorbate",
+        "name": "Potassium Sorbate (INS 202)",
+        "category": "Food Additives",
+        "functional_role": "Preservative",
+        "min_inclusion": 0.01, "max_inclusion": 0.20,
+        "cost_per_kg": 14.50,
+        "protein": 0.0, "fat": 0.0, "saturated_fat": 0.0, "carbs": 0.0, "sugar": 0.0, "fibre": 0.0, "sodium": 0.0, "energy": 0.0,
+        "allergens": "None", "vegan": 1, "gluten_free": 1, "dairy_free": 1, "halal": 1, "kosher": 1,
+        "ins_number": "INS 202", "cas_number": "24634-61-5", "pubchem_id": "23665582",
+        "why_present": "Inhibits mold, yeast, and fungal growth to extend shelf life in intermediate moisture foods.",
+        "evidence_claim": "Permitted antimicrobial preservative per Codex GSFA Standard 192-1995.",
+        "evidence_source": "FSSAI Schedule II / Codex GSFA"
+    },
+    {
+        "id": "ing_tocopherols",
+        "name": "Mixed Tocopherols / Vitamin E (INS 307)",
+        "category": "Food Additives",
+        "functional_role": "Antioxidant",
+        "min_inclusion": 0.005, "max_inclusion": 0.05,
+        "cost_per_kg": 42.00,
+        "protein": 0.0, "fat": 100.0, "saturated_fat": 10.0, "carbs": 0.0, "sugar": 0.0, "fibre": 0.0, "sodium": 0.0, "energy": 900.0,
+        "allergens": "None", "vegan": 1, "gluten_free": 1, "dairy_free": 1, "halal": 1, "kosher": 1,
+        "ins_number": "INS 307", "cas_number": "1406-18-4", "pubchem_id": "14985",
+        "why_present": "Prevents lipid oxidation and rancidity in vegetable oils and fat-rich systems.",
+        "evidence_claim": "Natural lipophilic antioxidant protecting unsaturated fatty acids.",
+        "evidence_source": "EFSA Journal 2015;13(4):4093"
+    },
+    {
+        "id": "ing_citric_acid",
+        "name": "Citric Acid Anhydrous (INS 330)",
+        "category": "Food Additives",
+        "functional_role": "Acidity Regulator",
+        "min_inclusion": 0.05, "max_inclusion": 0.80,
+        "cost_per_kg": 3.20,
+        "protein": 0.0, "fat": 0.0, "saturated_fat": 0.0, "carbs": 100.0, "sugar": 0.0, "fibre": 0.0, "sodium": 0.0, "energy": 247.0,
+        "allergens": "None", "vegan": 1, "gluten_free": 1, "dairy_free": 1, "halal": 1, "kosher": 1,
+        "ins_number": "INS 330", "cas_number": "77-92-9", "pubchem_id": "311",
+        "why_present": "Controls pH, enhances tart flavor profile, and acts as a chelating synergist for antioxidants.",
+        "evidence_claim": "Universal acidulant and pH control agent approved under GMP.",
+        "evidence_source": "FSSAI Food Additive Guidelines 2011"
+    },
+    {
+        "id": "ing_sodium_bicarbonate",
+        "name": "Sodium Bicarbonate / Baking Soda (INS 500ii)",
+        "category": "Food Additives",
+        "functional_role": "Raising Agent",
+        "min_inclusion": 0.10, "max_inclusion": 1.20,
+        "cost_per_kg": 1.80,
+        "protein": 0.0, "fat": 0.0, "saturated_fat": 0.0, "carbs": 0.0, "sugar": 0.0, "fibre": 0.0, "sodium": 27360.0, "energy": 0.0,
+        "allergens": "None", "vegan": 1, "gluten_free": 1, "dairy_free": 1, "halal": 1, "kosher": 1,
+        "ins_number": "INS 500(ii)", "cas_number": "144-55-8", "pubchem_id": "516892",
+        "why_present": "Releases carbon dioxide gas upon thermal activation or acid reaction for product leavening.",
+        "evidence_claim": "Standard chemical leavening base providing aeration and crumb structure.",
+        "evidence_source": "Cereal Chemistry Vol 88"
+    },
+    {
+        "id": "ing_mono_diglycerides",
+        "name": "Mono- and Diglycerides of Fatty Acids (INS 471 / E471)",
+        "category": "Emulsifiers",
+        "functional_role": "Emulsifier",
+        "min_inclusion": 0.10, "max_inclusion": 1.50,
+        "cost_per_kg": 8.50,
+        "protein": 0.0, "fat": 99.0, "saturated_fat": 90.0, "carbs": 0.0, "sugar": 0.0, "fibre": 0.0, "sodium": 0.0, "energy": 890.0,
+        "allergens": "None", "vegan": 1, "gluten_free": 1, "dairy_free": 1, "halal": 1, "kosher": 1,
+        "ins_number": "INS 471", "cas_number": "31566-31-1", "pubchem_id": "92137",
+        "why_present": "Stabilizes oil-in-water emulsions, delays starch retrogradation (anti-staling), and improves crumb softness.",
+        "evidence_claim": "Primary lipophilic emulsifier providing starch complexation and crumb softening.",
+        "evidence_source": "Journal of Agricultural and Food Chemistry"
+    },
+    {
+        "id": "ing_beta_carotene",
+        "name": "Natural Beta-Carotene 1% Powder (INS 160a)",
+        "category": "Colors",
+        "functional_role": "Coloring Agent",
+        "min_inclusion": 0.001, "max_inclusion": 0.02,
+        "cost_per_kg": 65.00,
+        "protein": 0.0, "fat": 1.0, "saturated_fat": 0.0, "carbs": 95.0, "sugar": 0.0, "fibre": 0.0, "sodium": 10.0, "energy": 380.0,
+        "allergens": "None", "vegan": 1, "gluten_free": 1, "dairy_free": 1, "halal": 1, "kosher": 1,
+        "ins_number": "INS 160a(i)", "cas_number": "7235-40-7", "pubchem_id": "5280489",
+        "why_present": "Provides warm yellow-golden hue while contributing pro-vitamin A activity.",
+        "evidence_claim": "Permitted natural carotenoid colorant for bakery and snack systems.",
+        "evidence_source": "Codex Alimentarius Standard 192-1995"
     }
 ]
 
@@ -421,12 +506,15 @@ def init_db():
         conn.commit()
     conn.close()
 
-def get_all_ingredients() -> List[Dict[str, Any]]:
+def get_all_ingredients(limit: Optional[int] = 500) -> List[Dict[str, Any]]:
     init_db()
     conn = sqlite3.connect(DB_PATH)
     conn.row_factory = sqlite3.Row
     cursor = conn.cursor()
-    cursor.execute("SELECT * FROM ingredients")
+    if limit and limit > 0:
+        cursor.execute("SELECT * FROM ingredients LIMIT ?", (limit,))
+    else:
+        cursor.execute("SELECT * FROM ingredients")
     rows = cursor.fetchall()
     conn.close()
     return [dict(row) for row in rows]

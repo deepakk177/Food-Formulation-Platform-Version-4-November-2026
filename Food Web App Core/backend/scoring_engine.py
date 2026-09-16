@@ -42,16 +42,19 @@ class ScoringEngine:
         cost_target = float(brief_dict.get("cost_target") or 15.0)
         cost_score = max(50.0, min(100.0, round(100.0 - (cost_per_kg / max(1.0, cost_target) * 30.0), 1)))
 
-        # 6. Compliance Score
+        # 6. Compliance Score & Formulation Completeness Score
         compliance_score = 98.0
+        completeness_audit = candidate.get("completeness_audit", {})
+        completeness_score = float(completeness_audit.get("completeness_score", 95.0))
 
         # Overall Formulation Quality / Coverage Confidence Score
         overall_score = round(
-            0.25 * protein_score +
+            0.20 * protein_score +
             0.20 * texture_score +
-            0.20 * flavor_score +
+            0.15 * flavor_score +
             0.15 * stability_score +
-            0.20 * compliance_score,
+            0.15 * cost_score +
+            0.15 * completeness_score,
             1
         )
 
@@ -62,10 +65,12 @@ class ScoringEngine:
                 "Flavour": flavor_score,
                 "Stability": stability_score,
                 "Cost": cost_score,
-                "Compliance": compliance_score
+                "Compliance": compliance_score,
+                "Completeness": completeness_score
             },
             "overall_score": overall_score,
             "cost_per_kg_inr": cost_per_kg,
+            "completeness_score": completeness_score,
             "confidence_metric_name": "Evidence & Constraint Coverage",
             "confidence_value": overall_score,
             "is_feasible": True,

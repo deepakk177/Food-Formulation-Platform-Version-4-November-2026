@@ -60,6 +60,32 @@ class ComplianceLogSchema(BaseModel):
         from_attributes = True
 
 # --- Formulation Schemas ---
+class IngredientComponentSchema(BaseModel):
+    id: Optional[str] = None
+    name: str
+    category: str
+    subcategory: Optional[str] = "General"
+    functional_role: str
+    formulation_role: Optional[str] = "Base Ingredient"
+    percentage: float
+    quantity_g: Optional[float] = 0.0
+    ins_number: Optional[str] = None
+    cas_number: Optional[str] = None
+    pubchem_id: Optional[str] = None
+    regulatory_status: Optional[str] = "Permitted"
+    component_status: Optional[str] = "Required"  # Required, Recommended, Optional, Not Required
+    purpose: Optional[str] = ""
+    why_present: Optional[str] = ""
+    addition_stage: Optional[str] = "Main Mixing"
+    addition_order: Optional[int] = 1
+    confidence: Optional[float] = 95.0
+    source_evidence: Optional[str] = "USDA FDC / Codex GSFA"
+    cost_per_kg: Optional[float] = 10.0
+    protein: Optional[float] = 0.0
+    fat: Optional[float] = 0.0
+    carbs: Optional[float] = 0.0
+    calories: Optional[float] = 0.0
+
 class BulkIngredientConc(BaseModel):
     name: str
     category: str
@@ -71,13 +97,31 @@ class FunctionalIngredientConc(BaseModel):
     percentage: float
 
 class FormulationComposition(BaseModel):
-    bulk_ingredients: List[BulkIngredientConc]
-    functional_ingredients: List[FunctionalIngredientConc]
+    bulk_ingredients: List[Dict[str, Any]] = []
+    functional_ingredients: List[Dict[str, Any]] = []
+    
+    # Complete Industrial Component Groups
+    base_ingredients: Optional[List[IngredientComponentSchema]] = []
+    functional_additives: Optional[List[IngredientComponentSchema]] = []
+    sensory_flavor_color: Optional[List[IngredientComponentSchema]] = []
+    preservation_system: Optional[List[IngredientComponentSchema]] = []
+    leavening_system: Optional[List[IngredientComponentSchema]] = []
+    fortification_system: Optional[List[IngredientComponentSchema]] = []
+    processing_aids: Optional[List[IngredientComponentSchema]] = []
+    all_components: Optional[List[IngredientComponentSchema]] = []
+
+class CompletenessCheckResult(BaseModel):
+    completeness_score: float
+    status: str
+    checklist: Dict[str, bool] = {}
+    evaluated_aspects: List[str] = []
+    recommendations: List[str] = []
 
 class FunctionalCoverageSchema(BaseModel):
     roles: Dict[str, str]
     completeness_score: float
     assessment: str
+    completeness_audit: Optional[CompletenessCheckResult] = None
 
 class PerformancePredictionSchema(BaseModel):
     protein: float
@@ -98,6 +142,7 @@ class FormulationDetail(BaseModel):
     performance_prediction: PerformancePredictionSchema
     process_recommendations: List[str]
     status: str
+    candidate_sets: Optional[List[Dict[str, Any]]] = []
 
 class FormulateRequest(BaseModel):
     project_id: Optional[str] = None
@@ -109,3 +154,4 @@ class FormulateResponse(BaseModel):
     compliance: Dict[str, ComplianceLogSchema]
     project_id: str
     formulation_id: str
+

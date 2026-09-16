@@ -93,9 +93,18 @@ def get_vector_store():
     if not _vector_store:
         csv_path = os.path.join(script_dir, "food_ingredients_clean.csv")
         if not os.path.exists(csv_path):
-            # Create a backup csv in case it is run from another directory context
             raise FileNotFoundError(f"Clean ingredients database not found at: {csv_path}")
         df = pd.read_csv(csv_path)
+        
+        # If dataset is very large, prioritize distinct ingredients across functional roles for fast vector indexing
+        if len(df) > 1000:
+            df = pd.concat([
+                df[df['protein'] > 0].head(200),
+                df[df['fat'] > 0].head(200),
+                df[df['carbs'] > 0].head(200),
+                df.head(400)
+            ]).drop_duplicates().reset_index(drop=True)
+
         docs = []
         for _, row in df.iterrows():
             page_content = (
