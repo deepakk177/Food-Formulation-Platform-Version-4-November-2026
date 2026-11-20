@@ -1,0 +1,75 @@
+{
+  "best_model": "RandomForest_Balanced",
+  "validation_metrics": {
+    "accuracy": 0.9053,
+    "balanced_accuracy": 0.7572,
+    "f1_macro": 0.7161,
+    "f1_weighted": 0.9092,
+    "precision_macro": 0.6981,
+    "recall_macro": 0.7572
+  },
+  "all_candidates": {
+    "Baseline_StratifiedDummy": {
+      "accuracy": 0.2274,
+      "balanced_accuracy": 0.1216,
+      "f1_macro": 0.121,
+      "f1_weighted": 0.2308,
+      "precision_macro": 0.121,
+      "recall_macro": 0.1216
+    },
+    "Baseline_MostFrequentDummy": {
+      "accuracy": 0.3263,
+      "balanced_accuracy": 0.125,
+      "f1_macro": 0.0615,
+      "f1_weighted": 0.1606,
+      "precision_macro": 0.0408,
+      "recall_macro": 0.125
+    },
+    "LogisticRegression_Balanced": {
+      "accuracy": 0.8863,
+      "balanced_accuracy": 0.7298,
+      "f1_macro": 0.6825,
+      "f1_weighted": 0.8962,
+      "precision_macro": 0.6785,
+      "recall_macro": 0.7298
+    },
+    "RandomForest_Balanced": {
+      "accuracy": 0.9053,
+      "balanced_accuracy": 0.7572,
+      "f1_macro": 0.7161,
+      "f1_weighted": 0.9092,
+      "precision_macro": 0.6981,
+      "recall_macro": 0.7572
+    },
+    "HistGradientBoosting": {
+      "accuracy": 0.9137,
+      "balanced_accuracy": 0.7001,
+      "f1_macro": 0.7153,
+      "f1_weighted": 0.912,
+      "precision_macro": 0.7356,
+      "recall_macro": 0.7001
+    }
+  },
+  "feature_schema": [
+    "protein",
+    "fat",
+    "carbs",
+    "calories",
+    "protein_ratio",
+    "fat_ratio",
+    "carb_ratio",
+    "caloric_density",
+    "macro_dominance",
+    "energy_per_gram"
+  ],
+  "classes": [
+    "Acidity & Preservation",
+    "Bulking Agent",
+    "Emulsifier",
+    "Flavor System",
+    "Hydrocolloid & Stabilizer",
+    "Lipid Source",
+    "Protein Source",
+    "Sweetener"
+  ]
+}

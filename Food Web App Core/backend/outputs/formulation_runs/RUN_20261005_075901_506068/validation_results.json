@@ -1,0 +1,239 @@
+{
+  "status": "PASS",
+  "hard_constraint_results": [
+    {
+      "constraint": "dietary_pattern FORBIDDEN animal_derived_ingredients",
+      "result": "PASS",
+      "evidence": "Ingredient Catalog Dietary Flags",
+      "reason": "Animal-derived check"
+    }
+  ],
+  "property_completeness_results": [
+    {
+      "ingredient": "Refined Cane Sugar (Granulated)",
+      "status": "PASS",
+      "missing_properties": []
+    },
+    {
+      "ingredient": "Fava Bean Protein Isolate",
+      "status": "PASS",
+      "missing_properties": []
+    },
+    {
+      "ingredient": "High Oleic Sunflower Oil",
+      "status": "PASS",
+      "missing_properties": []
+    },
+    {
+      "ingredient": "Cocoa Solids / Cocoa Liquor (Mass)",
+      "status": "PASS",
+      "missing_properties": []
+    },
+    {
+      "ingredient": "chewing gum containing breath freshener",
+      "status": "PASS",
+      "missing_properties": []
+    },
+    {
+      "ingredient": "Natural Chocolate Flavor",
+      "status": "PASS",
+      "missing_properties": []
+    },
+    {
+      "ingredient": "Natural Sea Salt",
+      "status": "PASS",
+      "missing_properties": []
+    },
+    {
+      "ingredient": "Potassium Sorbate (INS 202)",
+      "status": "PASS",
+      "missing_properties": []
+    }
+  ],
+  "regulatory_results": [
+    {
+      "ingredient": "Refined Cane Sugar (Granulated)",
+      "permitted": true,
+      "ins_number": null,
+      "status": "Permitted",
+      "jurisdiction": "FSSAI / FDA / Codex"
+    },
+    {
+      "ingredient": "Fava Bean Protein Isolate",
+      "permitted": true,
+      "ins_number": null,
+      "status": "Permitted",
+      "jurisdiction": "FSSAI / FDA / Codex"
+    },
+    {
+      "ingredient": "High Oleic Sunflower Oil",
+      "permitted": true,
+      "ins_number": null,
+      "status": "Permitted",
+      "jurisdiction": "FSSAI / FDA / Codex"
+    },
+    {
+      "ingredient": "Cocoa Solids / Cocoa Liquor (Mass)",
+      "permitted": true,
+      "ins_number": null,
+      "status": "Permitted",
+      "jurisdiction": "FSSAI / FDA / Codex"
+    },
+    {
+      "ingredient": "chewing gum containing breath freshener",
+      "permitted": true,
+      "ins_number": null,
+      "status": "Permitted",
+      "jurisdiction": "FSSAI / FDA / Codex"
+    },
+    {
+      "ingredient": "Natural Chocolate Flavor",
+      "permitted": true,
+      "ins_number": null,
+      "status": "Permitted",
+      "jurisdiction": "FSSAI / FDA / Codex"
+    },
+    {
+      "ingredient": "Natural Sea Salt",
+      "permitted": true,
+      "ins_number": null,
+      "status": "Permitted",
+      "jurisdiction": "FSSAI / FDA / Codex"
+    },
+    {
+      "ingredient": "Potassium Sorbate (INS 202)",
+      "permitted": true,
+      "ins_number": null,
+      "status": "Permitted",
+      "jurisdiction": "FSSAI / FDA / Codex"
+    }
+  ],
+  "regional_compliance": {
+    "FSSAI": {
+      "status": "Warning",
+      "alerts": [
+        "Requires Evidence: Additive 'chewing gum containing breath freshener' (No INS) requires regional dossier verification.",
+        "Requires Evidence: Additive 'Potassium Sorbate (INS 202)' (No INS) requires regional dossier verification.",
+        "Partial regulatory clearance: Some ingredients require technical dossier verification."
+      ],
+      "verified_count": 6,
+      "total_evaluated": 8
+    },
+    "FDA": {
+      "status": "Warning",
+      "alerts": [
+        "Requires Evidence: Additive 'chewing gum containing breath freshener' (No INS) requires regional dossier verification.",
+        "Requires Evidence: Additive 'Potassium Sorbate (INS 202)' (No INS) requires regional dossier verification.",
+        "Partial regulatory clearance: Some ingredients require technical dossier verification."
+      ],
+      "verified_count": 6,
+      "total_evaluated": 8
+    },
+    "EFSA": {
+      "status": "Warning",
+      "alerts": [
+        "Requires Evidence: Additive 'chewing gum containing breath freshener' (No INS) requires regional dossier verification.",
+        "Requires Evidence: Additive 'Potassium Sorbate (INS 202)' (No INS) requires regional dossier verification.",
+        "Partial regulatory clearance: Some ingredients require technical dossier verification."
+      ],
+      "verified_count": 6,
+      "total_evaluated": 8
+    }
+  },
+  "allergen_results": [
+    {
+      "ingredient": "Refined Cane Sugar (Granulated)",
+      "allergen": "None Declared",
+      "status": "PASS"
+    },
+    {
+      "ingredient": "Fava Bean Protein Isolate",
+      "allergen": "None Declared",
+      "status": "PASS"
+    },
+    {
+      "ingredient": "High Oleic Sunflower Oil",
+      "allergen": "None Declared",
+      "status": "PASS"
+    },
+    {
+      "ingredient": "Cocoa Solids / Cocoa Liquor (Mass)",
+      "allergen": "None Declared",
+      "status": "PASS"
+    },
+    {
+      "ingredient": "chewing gum containing breath freshener",
+      "allergen": "None Declared",
+      "status": "PASS"
+    },
+    {
+      "ingredient": "Natural Chocolate Flavor",
+      "allergen": "None Declared",
+      "status": "PASS"
+    },
+    {
+      "ingredient": "Natural Sea Salt",
+      "allergen": "None Declared",
+      "status": "PASS"
+    },
+    {
+      "ingredient": "Potassium Sorbate (INS 202)",
+      "allergen": "None Declared",
+      "status": "PASS"
+    }
+  ],
+  "compatibility_results": [],
+  "groundedness_results": [
+    {
+      "claim": "Refined Cane Sugar (Granulated) (Sweetener)",
+      "source": "Grounded Repository DB",
+      "grounded": true
+    },
+    {
+      "claim": "Fava Bean Protein Isolate (Protein Source)",
+      "source": "Grounded Repository DB",
+      "grounded": true
+    },
+    {
+      "claim": "High Oleic Sunflower Oil (Fats & Oils)",
+      "source": "Grounded Repository DB",
+      "grounded": true
+    },
+    {
+      "claim": "Cocoa Solids / Cocoa Liquor (Mass) (Cocoa Solids)",
+      "source": "Grounded Repository DB",
+      "grounded": true
+    },
+    {
+      "claim": "chewing gum containing breath freshener (Emulsifier)",
+      "source": "Grounded Repository DB",
+      "grounded": true
+    },
+    {
+      "claim": "Natural Chocolate Flavor (Flavor System)",
+      "source": "Grounded Repository DB",
+      "grounded": true
+    },
+    {
+      "claim": "Natural Sea Salt (Flavor System)",
+      "source": "Grounded Repository DB",
+      "grounded": true
+    },
+    {
+      "claim": "Potassium Sorbate (INS 202) (Preservative)",
+      "source": "Grounded Repository DB",
+      "grounded": true
+    }
+  ],
+  "mass_balance_result": {
+    "total_percentage": 100.0,
+    "target_percentage": 100.0,
+    "is_feasible": true,
+    "status": "PASS"
+  },
+  "failure_reasons": [],
+  "requires_evidence_reasons": [],
+  "iteration_number": 1,
+  "max_iterations": 3,
+  "iteration_recommendation": "Proceed to Multi-Objective Scoring & Ranking"
+}

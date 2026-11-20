@@ -1,0 +1,646 @@
+[
+  {
+    "overall_score": 91.3,
+    "universal_evaluation_score": 91.3,
+    "optimization_objective_score": 91.3,
+    "nutrition_fit_score": 100.0,
+    "cost_efficiency_score": 86.3,
+    "functional_role_coverage_score": 80.0,
+    "compatibility_score": 91.2,
+    "soft_constraint_score": 100.0,
+    "evaluation_coverage": 100.0,
+    "radar_scores": {
+      "Nutrition": 100.0,
+      "Protein": 20.0,
+      "FRC": 80.0,
+      "Functional_Coverage": 80.0,
+      "Compatibility": 91.2,
+      "Normalized_ICS": 0.825,
+      "Constraint_Satisfaction": 100.0,
+      "Cost": 86.3,
+      "Regulatory": 100.0,
+      "SES": 79.0,
+      "Strategy_Score": 91.3
+    },
+    "radar": {
+      "Nutrition": 100.0,
+      "Protein": 20.0,
+      "FRC": 80.0,
+      "Functional_Coverage": 80.0,
+      "Compatibility": 91.2,
+      "Normalized_ICS": 0.825,
+      "Constraint_Satisfaction": 100.0,
+      "Cost": 86.3,
+      "Regulatory": 100.0,
+      "SES": 79.0,
+      "Strategy_Score": 91.3
+    },
+    "profile_name": "BALANCED",
+    "explanation": "Universal evaluation score 91.3/100. Nutrition Fit: 100.0% (Actual 20.0g vs Target 20.0g). FRC (Role Coverage): 80.0% (4/5 roles). ICS: 0.825 (Status: CALCULATED). Cost Efficiency: 86.3%. Strategy Specific Utility: 91.3% (BALANCED).",
+    "score_calculation_details": {
+      "overall_formula": "25% * Nutrition + 25% * CostEfficiency + 20% * FRC + 15% * ICS + 15% * SoftConstraints",
+      "strategy_formula": "25% * Nutrition + 25% * Cost + 20% * FRC + 15% * ICS + 15% * SoftConstraints",
+      "profile_name": "BALANCED",
+      "universal_weights": {
+        "nutr": 0.25,
+        "cost": 0.25,
+        "frc": 0.2,
+        "comp": 0.15,
+        "soft": 0.15,
+        "ses": 0.0
+      },
+      "strategy_weights": {
+        "nutr": 0.25,
+        "cost": 0.25,
+        "frc": 0.2,
+        "comp": 0.15,
+        "soft": 0.15,
+        "ses": 0.0
+      },
+      "strategy_score": 91.3,
+      "components": [
+        {
+          "name": "Nutrition Fit",
+          "score": 100.0,
+          "weight_pct": 25,
+          "weighted_points": 25.0,
+          "formula": "100 if Actual >= Target else (Actual / Target * 100)",
+          "details": "Delivers 20.0g protein vs target 20.0g."
+        },
+        {
+          "name": "Cost Efficiency",
+          "score": 86.3,
+          "weight_pct": 25,
+          "weighted_points": 21.6,
+          "formula": "70 + 30 * (Target - Cost)/Target if Cost <= Target else max(0, 70 - 70 * (Cost - Target)/Target)",
+          "details": "$5.48/kg vs $12.00/kg target budget."
+        },
+        {
+          "name": "Functional Role Coverage (FRC)",
+          "score": 80.0,
+          "weight_pct": 20,
+          "weighted_points": 16.0,
+          "formula": "(Covered Roles / Required Roles) * 100",
+          "details": "Fulfills 4 of 5 structural roles (emulsifier, fat, protein, sweetener)."
+        },
+        {
+          "name": "Ingredient Compatibility (ICS)",
+          "score": 91.2,
+          "weight_pct": 15,
+          "weighted_points": 13.7,
+          "formula": "Normalized pairwise interaction affinity [-1.0, +1.0]",
+          "details": "Knowledge graph pairwise interaction score: 0.825."
+        },
+        {
+          "name": "Soft Constraint Satisfaction",
+          "score": 100.0,
+          "weight_pct": 15,
+          "weighted_points": 15.0,
+          "formula": "Continuous mathematical transfer functions for targets",
+          "details": "Protein min, calorie max, and target budget threshold satisfaction."
+        }
+      ]
+    },
+    "FRC": 80.0,
+    "FAS": null,
+    "FAS_status": "REQUIRES_EVIDENCE",
+    "SES_details": {
+      "source_quality": 0.837,
+      "directness": 0.762,
+      "relevance": 0.9,
+      "specificity": 0.644,
+      "corroboration": 0.794,
+      "SES": 79.0,
+      "status": "CALCULATED"
+    },
+    "ICS_details": {
+      "normalized_ics": 0.825,
+      "status": "CALCULATED",
+      "score_100": 91.2
+    },
+    "soft_constraints": {
+      "soft_constraint_satisfaction": 1.0,
+      "soft_constraint_score": 100.0,
+      "individual_satisfactions": [
+        {
+          "constraint": "water_activity",
+          "target": 0.6,
+          "actual": 0.58,
+          "satisfaction": 1.0,
+          "type": "maximum_threshold"
+        },
+        {
+          "constraint": "clean_label_ratio",
+          "target": 1.0,
+          "actual": 1.0,
+          "satisfaction": 1.0,
+          "type": "ratio"
+        }
+      ]
+    },
+    "cost_per_kg_inr": 5.48,
+    "cost_score": 86.3,
+    "cost_status": "CALCULATED",
+    "is_feasible": true,
+    "ablation_scores": {
+      "A0_baseline": 95.9,
+      "A1_plus_FRC": 92.6,
+      "A2_plus_ICS": 92.9,
+      "A3_plus_SES": 90.8,
+      "A4_full_model": 91.3,
+      "B1_nutr_cost": 93.2,
+      "B2_nutr_cost_const": 95.9,
+      "M3_with_FRC": 92.6,
+      "M4_with_ICS": 92.9,
+      "M5_full": 91.3
+    },
+    "performance": {
+      "overall": 91.3
+    },
+    "confidence_metric_name": "Data & Provenance Completeness",
+    "confidence_value": 91.3
+  },
+  {
+    "overall_score": 91.3,
+    "universal_evaluation_score": 91.3,
+    "optimization_objective_score": 91.3,
+    "nutrition_fit_score": 100.0,
+    "cost_efficiency_score": 86.3,
+    "functional_role_coverage_score": 80.0,
+    "compatibility_score": 91.2,
+    "soft_constraint_score": 100.0,
+    "evaluation_coverage": 100.0,
+    "radar_scores": {
+      "Nutrition": 100.0,
+      "Protein": 20.0,
+      "FRC": 80.0,
+      "Functional_Coverage": 80.0,
+      "Compatibility": 91.2,
+      "Normalized_ICS": 0.825,
+      "Constraint_Satisfaction": 100.0,
+      "Cost": 86.3,
+      "Regulatory": 100.0,
+      "SES": 80.4,
+      "Strategy_Score": 91.3
+    },
+    "radar": {
+      "Nutrition": 100.0,
+      "Protein": 20.0,
+      "FRC": 80.0,
+      "Functional_Coverage": 80.0,
+      "Compatibility": 91.2,
+      "Normalized_ICS": 0.825,
+      "Constraint_Satisfaction": 100.0,
+      "Cost": 86.3,
+      "Regulatory": 100.0,
+      "SES": 80.4,
+      "Strategy_Score": 91.3
+    },
+    "profile_name": "BALANCED",
+    "explanation": "Universal evaluation score 91.3/100. Nutrition Fit: 100.0% (Actual 20.0g vs Target 20.0g). FRC (Role Coverage): 80.0% (4/5 roles). ICS: 0.825 (Status: CALCULATED). Cost Efficiency: 86.3%. Strategy Specific Utility: 91.3% (BALANCED).",
+    "score_calculation_details": {
+      "overall_formula": "25% * Nutrition + 25% * CostEfficiency + 20% * FRC + 15% * ICS + 15% * SoftConstraints",
+      "strategy_formula": "25% * Nutrition + 25% * Cost + 20% * FRC + 15% * ICS + 15% * SoftConstraints",
+      "profile_name": "BALANCED",
+      "universal_weights": {
+        "nutr": 0.25,
+        "cost": 0.25,
+        "frc": 0.2,
+        "comp": 0.15,
+        "soft": 0.15,
+        "ses": 0.0
+      },
+      "strategy_weights": {
+        "nutr": 0.25,
+        "cost": 0.25,
+        "frc": 0.2,
+        "comp": 0.15,
+        "soft": 0.15,
+        "ses": 0.0
+      },
+      "strategy_score": 91.3,
+      "components": [
+        {
+          "name": "Nutrition Fit",
+          "score": 100.0,
+          "weight_pct": 25,
+          "weighted_points": 25.0,
+          "formula": "100 if Actual >= Target else (Actual / Target * 100)",
+          "details": "Delivers 20.0g protein vs target 20.0g."
+        },
+        {
+          "name": "Cost Efficiency",
+          "score": 86.3,
+          "weight_pct": 25,
+          "weighted_points": 21.6,
+          "formula": "70 + 30 * (Target - Cost)/Target if Cost <= Target else max(0, 70 - 70 * (Cost - Target)/Target)",
+          "details": "$5.49/kg vs $12.00/kg target budget."
+        },
+        {
+          "name": "Functional Role Coverage (FRC)",
+          "score": 80.0,
+          "weight_pct": 20,
+          "weighted_points": 16.0,
+          "formula": "(Covered Roles / Required Roles) * 100",
+          "details": "Fulfills 4 of 5 structural roles (emulsifier, fat, protein, sweetener)."
+        },
+        {
+          "name": "Ingredient Compatibility (ICS)",
+          "score": 91.2,
+          "weight_pct": 15,
+          "weighted_points": 13.7,
+          "formula": "Normalized pairwise interaction affinity [-1.0, +1.0]",
+          "details": "Knowledge graph pairwise interaction score: 0.825."
+        },
+        {
+          "name": "Soft Constraint Satisfaction",
+          "score": 100.0,
+          "weight_pct": 15,
+          "weighted_points": 15.0,
+          "formula": "Continuous mathematical transfer functions for targets",
+          "details": "Protein min, calorie max, and target budget threshold satisfaction."
+        }
+      ]
+    },
+    "FRC": 80.0,
+    "FAS": null,
+    "FAS_status": "REQUIRES_EVIDENCE",
+    "SES_details": {
+      "source_quality": 0.85,
+      "directness": 0.783,
+      "relevance": 0.9,
+      "specificity": 0.678,
+      "corroboration": 0.794,
+      "SES": 80.4,
+      "status": "CALCULATED"
+    },
+    "ICS_details": {
+      "normalized_ics": 0.825,
+      "status": "CALCULATED",
+      "score_100": 91.2
+    },
+    "soft_constraints": {
+      "soft_constraint_satisfaction": 1.0,
+      "soft_constraint_score": 100.0,
+      "individual_satisfactions": [
+        {
+          "constraint": "water_activity",
+          "target": 0.6,
+          "actual": 0.58,
+          "satisfaction": 1.0,
+          "type": "maximum_threshold"
+        },
+        {
+          "constraint": "clean_label_ratio",
+          "target": 1.0,
+          "actual": 1.0,
+          "satisfaction": 1.0,
+          "type": "ratio"
+        }
+      ]
+    },
+    "cost_per_kg_inr": 5.49,
+    "cost_score": 86.3,
+    "cost_status": "CALCULATED",
+    "is_feasible": true,
+    "ablation_scores": {
+      "A0_baseline": 95.9,
+      "A1_plus_FRC": 92.6,
+      "A2_plus_ICS": 92.9,
+      "A3_plus_SES": 91.0,
+      "A4_full_model": 91.3,
+      "B1_nutr_cost": 93.2,
+      "B2_nutr_cost_const": 95.9,
+      "M3_with_FRC": 92.6,
+      "M4_with_ICS": 92.9,
+      "M5_full": 91.3
+    },
+    "performance": {
+      "overall": 91.3
+    },
+    "confidence_metric_name": "Data & Provenance Completeness",
+    "confidence_value": 91.3
+  },
+  {
+    "overall_score": 88.0,
+    "universal_evaluation_score": 88.0,
+    "optimization_objective_score": 88.0,
+    "nutrition_fit_score": 100.0,
+    "cost_efficiency_score": 73.1,
+    "functional_role_coverage_score": 80.0,
+    "compatibility_score": 91.2,
+    "soft_constraint_score": 100.0,
+    "evaluation_coverage": 100.0,
+    "radar_scores": {
+      "Nutrition": 100.0,
+      "Protein": 48.8,
+      "FRC": 80.0,
+      "Functional_Coverage": 80.0,
+      "Compatibility": 91.2,
+      "Normalized_ICS": 0.825,
+      "Constraint_Satisfaction": 100.0,
+      "Cost": 73.1,
+      "Regulatory": 100.0,
+      "SES": 80.4,
+      "Strategy_Score": 88.0
+    },
+    "radar": {
+      "Nutrition": 100.0,
+      "Protein": 48.8,
+      "FRC": 80.0,
+      "Functional_Coverage": 80.0,
+      "Compatibility": 91.2,
+      "Normalized_ICS": 0.825,
+      "Constraint_Satisfaction": 100.0,
+      "Cost": 73.1,
+      "Regulatory": 100.0,
+      "SES": 80.4,
+      "Strategy_Score": 88.0
+    },
+    "profile_name": "BALANCED",
+    "explanation": "Universal evaluation score 88.0/100. Nutrition Fit: 100.0% (Actual 48.8g vs Target 20.0g). FRC (Role Coverage): 80.0% (4/5 roles). ICS: 0.825 (Status: CALCULATED). Cost Efficiency: 73.1%. Strategy Specific Utility: 88.0% (BALANCED).",
+    "score_calculation_details": {
+      "overall_formula": "25% * Nutrition + 25% * CostEfficiency + 20% * FRC + 15% * ICS + 15% * SoftConstraints",
+      "strategy_formula": "25% * Nutrition + 25% * Cost + 20% * FRC + 15% * ICS + 15% * SoftConstraints",
+      "profile_name": "BALANCED",
+      "universal_weights": {
+        "nutr": 0.25,
+        "cost": 0.25,
+        "frc": 0.2,
+        "comp": 0.15,
+        "soft": 0.15,
+        "ses": 0.0
+      },
+      "strategy_weights": {
+        "nutr": 0.25,
+        "cost": 0.25,
+        "frc": 0.2,
+        "comp": 0.15,
+        "soft": 0.15,
+        "ses": 0.0
+      },
+      "strategy_score": 88.0,
+      "components": [
+        {
+          "name": "Nutrition Fit",
+          "score": 100.0,
+          "weight_pct": 25,
+          "weighted_points": 25.0,
+          "formula": "100 if Actual >= Target else (Actual / Target * 100)",
+          "details": "Delivers 48.8g protein vs target 20.0g."
+        },
+        {
+          "name": "Cost Efficiency",
+          "score": 73.1,
+          "weight_pct": 25,
+          "weighted_points": 18.3,
+          "formula": "70 + 30 * (Target - Cost)/Target if Cost <= Target else max(0, 70 - 70 * (Cost - Target)/Target)",
+          "details": "$10.76/kg vs $12.00/kg target budget."
+        },
+        {
+          "name": "Functional Role Coverage (FRC)",
+          "score": 80.0,
+          "weight_pct": 20,
+          "weighted_points": 16.0,
+          "formula": "(Covered Roles / Required Roles) * 100",
+          "details": "Fulfills 4 of 5 structural roles (emulsifier, fat, protein, sweetener)."
+        },
+        {
+          "name": "Ingredient Compatibility (ICS)",
+          "score": 91.2,
+          "weight_pct": 15,
+          "weighted_points": 13.7,
+          "formula": "Normalized pairwise interaction affinity [-1.0, +1.0]",
+          "details": "Knowledge graph pairwise interaction score: 0.825."
+        },
+        {
+          "name": "Soft Constraint Satisfaction",
+          "score": 100.0,
+          "weight_pct": 15,
+          "weighted_points": 15.0,
+          "formula": "Continuous mathematical transfer functions for targets",
+          "details": "Protein min, calorie max, and target budget threshold satisfaction."
+        }
+      ]
+    },
+    "FRC": 80.0,
+    "FAS": null,
+    "FAS_status": "REQUIRES_EVIDENCE",
+    "SES_details": {
+      "source_quality": 0.85,
+      "directness": 0.783,
+      "relevance": 0.9,
+      "specificity": 0.678,
+      "corroboration": 0.794,
+      "SES": 80.4,
+      "status": "CALCULATED"
+    },
+    "ICS_details": {
+      "normalized_ics": 0.825,
+      "status": "CALCULATED",
+      "score_100": 91.2
+    },
+    "soft_constraints": {
+      "soft_constraint_satisfaction": 1.0,
+      "soft_constraint_score": 100.0,
+      "individual_satisfactions": [
+        {
+          "constraint": "water_activity",
+          "target": 0.6,
+          "actual": 0.58,
+          "satisfaction": 1.0,
+          "type": "maximum_threshold"
+        },
+        {
+          "constraint": "clean_label_ratio",
+          "target": 1.0,
+          "actual": 1.0,
+          "satisfaction": 1.0,
+          "type": "ratio"
+        }
+      ]
+    },
+    "cost_per_kg_inr": 10.76,
+    "cost_score": 73.1,
+    "cost_status": "CALCULATED",
+    "is_feasible": true,
+    "ablation_scores": {
+      "A0_baseline": 91.9,
+      "A1_plus_FRC": 89.3,
+      "A2_plus_ICS": 90.3,
+      "A3_plus_SES": 88.3,
+      "A4_full_model": 88.0,
+      "B1_nutr_cost": 86.5,
+      "B2_nutr_cost_const": 91.9,
+      "M3_with_FRC": 89.3,
+      "M4_with_ICS": 90.3,
+      "M5_full": 88.0
+    },
+    "performance": {
+      "overall": 88.0
+    },
+    "confidence_metric_name": "Data & Provenance Completeness",
+    "confidence_value": 88.0
+  },
+  {
+    "overall_score": 87.6,
+    "universal_evaluation_score": 87.6,
+    "optimization_objective_score": 87.6,
+    "nutrition_fit_score": 100.0,
+    "cost_efficiency_score": 71.5,
+    "functional_role_coverage_score": 80.0,
+    "compatibility_score": 91.2,
+    "soft_constraint_score": 100.0,
+    "evaluation_coverage": 100.0,
+    "radar_scores": {
+      "Nutrition": 100.0,
+      "Protein": 48.6,
+      "FRC": 80.0,
+      "Functional_Coverage": 80.0,
+      "Compatibility": 91.2,
+      "Normalized_ICS": 0.825,
+      "Constraint_Satisfaction": 100.0,
+      "Cost": 71.5,
+      "Regulatory": 100.0,
+      "SES": 78.7,
+      "Strategy_Score": 87.6
+    },
+    "radar": {
+      "Nutrition": 100.0,
+      "Protein": 48.6,
+      "FRC": 80.0,
+      "Functional_Coverage": 80.0,
+      "Compatibility": 91.2,
+      "Normalized_ICS": 0.825,
+      "Constraint_Satisfaction": 100.0,
+      "Cost": 71.5,
+      "Regulatory": 100.0,
+      "SES": 78.7,
+      "Strategy_Score": 87.6
+    },
+    "profile_name": "BALANCED",
+    "explanation": "Universal evaluation score 87.6/100. Nutrition Fit: 100.0% (Actual 48.6g vs Target 20.0g). FRC (Role Coverage): 80.0% (4/5 roles). ICS: 0.825 (Status: CALCULATED). Cost Efficiency: 71.5%. Strategy Specific Utility: 87.6% (BALANCED).",
+    "score_calculation_details": {
+      "overall_formula": "25% * Nutrition + 25% * CostEfficiency + 20% * FRC + 15% * ICS + 15% * SoftConstraints",
+      "strategy_formula": "25% * Nutrition + 25% * Cost + 20% * FRC + 15% * ICS + 15% * SoftConstraints",
+      "profile_name": "BALANCED",
+      "universal_weights": {
+        "nutr": 0.25,
+        "cost": 0.25,
+        "frc": 0.2,
+        "comp": 0.15,
+        "soft": 0.15,
+        "ses": 0.0
+      },
+      "strategy_weights": {
+        "nutr": 0.25,
+        "cost": 0.25,
+        "frc": 0.2,
+        "comp": 0.15,
+        "soft": 0.15,
+        "ses": 0.0
+      },
+      "strategy_score": 87.6,
+      "components": [
+        {
+          "name": "Nutrition Fit",
+          "score": 100.0,
+          "weight_pct": 25,
+          "weighted_points": 25.0,
+          "formula": "100 if Actual >= Target else (Actual / Target * 100)",
+          "details": "Delivers 48.6g protein vs target 20.0g."
+        },
+        {
+          "name": "Cost Efficiency",
+          "score": 71.5,
+          "weight_pct": 25,
+          "weighted_points": 17.9,
+          "formula": "70 + 30 * (Target - Cost)/Target if Cost <= Target else max(0, 70 - 70 * (Cost - Target)/Target)",
+          "details": "$11.42/kg vs $12.00/kg target budget."
+        },
+        {
+          "name": "Functional Role Coverage (FRC)",
+          "score": 80.0,
+          "weight_pct": 20,
+          "weighted_points": 16.0,
+          "formula": "(Covered Roles / Required Roles) * 100",
+          "details": "Fulfills 4 of 5 structural roles (emulsifier, fat, protein, sweetener)."
+        },
+        {
+          "name": "Ingredient Compatibility (ICS)",
+          "score": 91.2,
+          "weight_pct": 15,
+          "weighted_points": 13.7,
+          "formula": "Normalized pairwise interaction affinity [-1.0, +1.0]",
+          "details": "Knowledge graph pairwise interaction score: 0.825."
+        },
+        {
+          "name": "Soft Constraint Satisfaction",
+          "score": 100.0,
+          "weight_pct": 15,
+          "weighted_points": 15.0,
+          "formula": "Continuous mathematical transfer functions for targets",
+          "details": "Protein min, calorie max, and target budget threshold satisfaction."
+        }
+      ]
+    },
+    "FRC": 80.0,
+    "FAS": null,
+    "FAS_status": "REQUIRES_EVIDENCE",
+    "SES_details": {
+      "source_quality": 0.837,
+      "directness": 0.762,
+      "relevance": 0.9,
+      "specificity": 0.644,
+      "corroboration": 0.775,
+      "SES": 78.7,
+      "status": "CALCULATED"
+    },
+    "ICS_details": {
+      "normalized_ics": 0.825,
+      "status": "CALCULATED",
+      "score_100": 91.2
+    },
+    "soft_constraints": {
+      "soft_constraint_satisfaction": 1.0,
+      "soft_constraint_score": 100.0,
+      "individual_satisfactions": [
+        {
+          "constraint": "water_activity",
+          "target": 0.6,
+          "actual": 0.58,
+          "satisfaction": 1.0,
+          "type": "maximum_threshold"
+        },
+        {
+          "constraint": "clean_label_ratio",
+          "target": 1.0,
+          "actual": 1.0,
+          "satisfaction": 1.0,
+          "type": "ratio"
+        }
+      ]
+    },
+    "cost_per_kg_inr": 11.42,
+    "cost_score": 71.5,
+    "cost_status": "CALCULATED",
+    "is_feasible": true,
+    "ablation_scores": {
+      "A0_baseline": 91.5,
+      "A1_plus_FRC": 88.9,
+      "A2_plus_ICS": 90.0,
+      "A3_plus_SES": 87.8,
+      "A4_full_model": 87.6,
+      "B1_nutr_cost": 85.8,
+      "B2_nutr_cost_const": 91.5,
+      "M3_with_FRC": 88.9,
+      "M4_with_ICS": 90.0,
+      "M5_full": 87.6
+    },
+    "performance": {
+      "overall": 87.6
+    },
+    "confidence_metric_name": "Data & Provenance Completeness",
+    "confidence_value": 87.6
+  }
+]

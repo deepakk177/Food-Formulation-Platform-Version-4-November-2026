@@ -1,0 +1,50 @@
+{
+  "run_id": "RUN_20261022_113438_6DD369",
+  "timestamp": "2026-10-22T11:34:38+05:30",
+  "system_version": "TCS Food Formulator v3.0 (Enterprise Graph Engine)",
+  "database": {
+    "sqlite_db_path": "Food Web App Core/backend/tcs_food_formulator_kg.db",
+    "total_catalog_ingredients": 23893,
+    "canonical_nodes": 26668,
+    "canonical_relationships": 63758,
+    "reachable_category_nodes": 15271
+  },
+  "product_brief": {
+    "title": "Vegan White Chocolate: Create a dairy-free plant-based white chocolate using cocoa butter and plant-based ingredients. Target >=25% cocoa butter, <=30% sugar and >=5% protein with a smooth, creamy melt. Develop a vanilla-caramel flavor profile and 12-month shelf life.",
+    "target_product_type": "chocolate_bar",
+    "target_category": "Protein Bars / Functional Snacks",
+    "batch_size_g": 1000.0,
+    "hard_constraints": [
+      "Vegan",
+      "Dairy-Free",
+      "Protein >= 5.0%",
+      "Sugar <= 30.0%",
+      "Cocoa Butter >= 25.0%"
+    ],
+    "soft_constraints": [
+      "Smooth Creamy Melt",
+      "Vanilla-Caramel Flavor",
+      "12-month ambient shelf life"
+    ]
+  },
+  "pipeline_execution": {
+    "iterations_executed": 2,
+    "iteration_1_profile": "BALANCED",
+    "iteration_1_selected": "FC-001 (Nutrition-Maximized Strategy)",
+    "iteration_1_score": 87.1,
+    "iteration_1_raw_material_cost_usd_kg": 13.36,
+    "iteration_2_profile": "COST_OPTIMIZED",
+    "iteration_2_selected": "FC-003 (Balanced Strategy)",
+    "iteration_2_score": 86.5,
+    "iteration_2_raw_material_cost_usd_kg": 10.63,
+    "optimizer": "scipy.optimize.minimize (SLSQP)",
+    "optimization_objective": "Minimize loss = w_cost*Cost + w_nutr*NutrViolation subject to sum(x) == 1.0 and bounds [L_i, U_i]",
+    "mass_balance_sum_pct": 100.0,
+    "mass_balance_total_g": 1000.0,
+    "final_validation_status": "FAIL",
+    "blockers_and_anomalies": [
+      "Sugar target <= 30% violated: optimizer returned 34.025% sugar to balance palatability and solids matrix.",
+      "Cocoa butter oil triggered false-positive animal dietary flag in compliance.py due to substring check on 'butter'."
+    ]
+  }
+}

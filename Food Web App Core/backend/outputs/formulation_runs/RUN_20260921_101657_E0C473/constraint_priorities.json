@@ -1,0 +1,100 @@
+{
+  "all_constraints": [
+    {
+      "name": "product_category REQUIRED Confectionery & Chocolate",
+      "type": "category",
+      "weight": 0.7,
+      "hard_or_soft": "SOFT",
+      "reason": "Extracted category requirement",
+      "source": "Product Brief Parser",
+      "parameter": "product_category",
+      "operator": "REQUIRED",
+      "target_value": "Confectionery & Chocolate"
+    },
+    {
+      "name": "flavor_profile PREFERRED cocoa flavour",
+      "type": "sensory",
+      "weight": 0.7,
+      "hard_or_soft": "SOFT",
+      "reason": "Sensory flavor, visual color, and mouthfeel target profile",
+      "source": "Sensory Panel Targets",
+      "parameter": "flavor_profile",
+      "operator": "PREFERRED",
+      "target_value": "cocoa flavour"
+    },
+    {
+      "name": "flavor_profile PREFERRED chocolate flavour",
+      "type": "sensory",
+      "weight": 0.7,
+      "hard_or_soft": "SOFT",
+      "reason": "Sensory flavor, visual color, and mouthfeel target profile",
+      "source": "Sensory Panel Targets",
+      "parameter": "flavor_profile",
+      "operator": "PREFERRED",
+      "target_value": "chocolate flavour"
+    },
+    {
+      "name": "flavor_profile PREFERRED vanilla flavour",
+      "type": "sensory",
+      "weight": 0.7,
+      "hard_or_soft": "SOFT",
+      "reason": "Sensory flavor, visual color, and mouthfeel target profile",
+      "source": "Sensory Panel Targets",
+      "parameter": "flavor_profile",
+      "operator": "PREFERRED",
+      "target_value": "vanilla flavour"
+    }
+  ],
+  "hard_constraints": [],
+  "soft_constraints": [
+    {
+      "name": "product_category REQUIRED Confectionery & Chocolate",
+      "type": "category",
+      "weight": 0.7,
+      "hard_or_soft": "SOFT",
+      "reason": "Extracted category requirement",
+      "source": "Product Brief Parser",
+      "parameter": "product_category",
+      "operator": "REQUIRED",
+      "target_value": "Confectionery & Chocolate"
+    },
+    {
+      "name": "flavor_profile PREFERRED cocoa flavour",
+      "type": "sensory",
+      "weight": 0.7,
+      "hard_or_soft": "SOFT",
+      "reason": "Sensory flavor, visual color, and mouthfeel target profile",
+      "source": "Sensory Panel Targets",
+      "parameter": "flavor_profile",
+      "operator": "PREFERRED",
+      "target_value": "cocoa flavour"
+    },
+    {
+      "name": "flavor_profile PREFERRED chocolate flavour",
+      "type": "sensory",
+      "weight": 0.7,
+      "hard_or_soft": "SOFT",
+      "reason": "Sensory flavor, visual color, and mouthfeel target profile",
+      "source": "Sensory Panel Targets",
+      "parameter": "flavor_profile",
+      "operator": "PREFERRED",
+      "target_value": "chocolate flavour"
+    },
+    {
+      "name": "flavor_profile PREFERRED vanilla flavour",
+      "type": "sensory",
+      "weight": 0.7,
+      "hard_or_soft": "SOFT",
+      "reason": "Sensory flavor, visual color, and mouthfeel target profile",
+      "source": "Sensory Panel Targets",
+      "parameter": "flavor_profile",
+      "operator": "PREFERRED",
+      "target_value": "vanilla flavour"
+    }
+  ],
+  "priority_distribution": {
+    "hard_count": 0,
+    "soft_count": 4,
+    "total_count": 4
+  }
+}

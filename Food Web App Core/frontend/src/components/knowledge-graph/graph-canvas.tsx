@@ -210,6 +210,23 @@ export default function GraphCanvas({
       }
     });
 
+    // High-Contrast Dark Cursor state listeners
+    cy.on('mouseover', 'node, edge', () => {
+      containerRef.current?.classList.add('hovering-node');
+    });
+
+    cy.on('mouseout', 'node, edge', () => {
+      containerRef.current?.classList.remove('hovering-node');
+    });
+
+    cy.on('grabon', () => {
+      containerRef.current?.classList.add('grabbing');
+    });
+
+    cy.on('free', () => {
+      containerRef.current?.classList.remove('grabbing');
+    });
+
     cyRef.current = cy;
 
     return () => {
@@ -258,8 +275,8 @@ export default function GraphCanvas({
   }, [selectedNodeId]);
 
   return (
-    <div className="relative w-full h-full min-h-[500px] bg-[#FAFAF8] rounded-2xl border border-[#E5E9E6] overflow-hidden">
-      <div ref={containerRef} className="w-full h-full absolute inset-0 cursor-grab active:cursor-grabbing" />
+    <div className="relative w-full h-full min-h-[500px] bg-[#FAFAF8] rounded-2xl border border-[#E5E9E6] overflow-hidden kg-canvas-container">
+      <div ref={containerRef} className="w-full h-full absolute inset-0 kg-canvas-container" />
     </div>
   );
 }

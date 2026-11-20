@@ -1,0 +1,232 @@
+{
+  "all_constraints": [
+    {
+      "name": "product_category REQUIRED Confectionery & Chocolate",
+      "type": "category",
+      "weight": 0.7,
+      "hard_or_soft": "SOFT",
+      "reason": "Extracted category requirement",
+      "source": "Product Brief Parser",
+      "parameter": "product_category",
+      "operator": "REQUIRED",
+      "target_value": "Confectionery & Chocolate"
+    },
+    {
+      "name": "protein_min >= 5.0",
+      "type": "nutrition",
+      "weight": 0.7,
+      "hard_or_soft": "SOFT",
+      "reason": "Extracted nutrition requirement",
+      "source": "Product Brief Parser",
+      "parameter": "protein_min",
+      "operator": ">=",
+      "target_value": 5.0
+    },
+    {
+      "name": "water_activity <= 0.6",
+      "type": "processing",
+      "weight": 0.7,
+      "hard_or_soft": "SOFT",
+      "reason": "Extracted processing requirement",
+      "source": "Product Brief Parser",
+      "parameter": "water_activity",
+      "operator": "<=",
+      "target_value": 0.6
+    },
+    {
+      "name": "texture_profile PREFERRED Smooth",
+      "type": "sensory",
+      "weight": 0.7,
+      "hard_or_soft": "SOFT",
+      "reason": "Sensory flavor, visual color, and mouthfeel target profile",
+      "source": "Sensory Panel Targets",
+      "parameter": "texture_profile",
+      "operator": "PREFERRED",
+      "target_value": "Smooth"
+    },
+    {
+      "name": "texture_profile PREFERRED Creamy",
+      "type": "sensory",
+      "weight": 0.7,
+      "hard_or_soft": "SOFT",
+      "reason": "Sensory flavor, visual color, and mouthfeel target profile",
+      "source": "Sensory Panel Targets",
+      "parameter": "texture_profile",
+      "operator": "PREFERRED",
+      "target_value": "Creamy"
+    },
+    {
+      "name": "flavor_profile PREFERRED cocoa flavour",
+      "type": "sensory",
+      "weight": 0.7,
+      "hard_or_soft": "SOFT",
+      "reason": "Sensory flavor, visual color, and mouthfeel target profile",
+      "source": "Sensory Panel Targets",
+      "parameter": "flavor_profile",
+      "operator": "PREFERRED",
+      "target_value": "cocoa flavour"
+    },
+    {
+      "name": "flavor_profile PREFERRED chocolate flavour",
+      "type": "sensory",
+      "weight": 0.7,
+      "hard_or_soft": "SOFT",
+      "reason": "Sensory flavor, visual color, and mouthfeel target profile",
+      "source": "Sensory Panel Targets",
+      "parameter": "flavor_profile",
+      "operator": "PREFERRED",
+      "target_value": "chocolate flavour"
+    },
+    {
+      "name": "flavor_profile PREFERRED vanilla flavour",
+      "type": "sensory",
+      "weight": 0.7,
+      "hard_or_soft": "SOFT",
+      "reason": "Sensory flavor, visual color, and mouthfeel target profile",
+      "source": "Sensory Panel Targets",
+      "parameter": "flavor_profile",
+      "operator": "PREFERRED",
+      "target_value": "vanilla flavour"
+    },
+    {
+      "name": "flavor_profile PREFERRED berry flavour",
+      "type": "sensory",
+      "weight": 0.7,
+      "hard_or_soft": "SOFT",
+      "reason": "Sensory flavor, visual color, and mouthfeel target profile",
+      "source": "Sensory Panel Targets",
+      "parameter": "flavor_profile",
+      "operator": "PREFERRED",
+      "target_value": "berry flavour"
+    },
+    {
+      "name": "shelf_stability REQUIRED 12-month",
+      "type": "shelf_life",
+      "weight": 0.75,
+      "hard_or_soft": "SOFT",
+      "reason": "Target ambient shelf stability requirement",
+      "source": "Quality Assurance Standard",
+      "parameter": "shelf_stability",
+      "operator": "REQUIRED",
+      "target_value": "12-month"
+    }
+  ],
+  "hard_constraints": [],
+  "soft_constraints": [
+    {
+      "name": "product_category REQUIRED Confectionery & Chocolate",
+      "type": "category",
+      "weight": 0.7,
+      "hard_or_soft": "SOFT",
+      "reason": "Extracted category requirement",
+      "source": "Product Brief Parser",
+      "parameter": "product_category",
+      "operator": "REQUIRED",
+      "target_value": "Confectionery & Chocolate"
+    },
+    {
+      "name": "protein_min >= 5.0",
+      "type": "nutrition",
+      "weight": 0.7,
+      "hard_or_soft": "SOFT",
+      "reason": "Extracted nutrition requirement",
+      "source": "Product Brief Parser",
+      "parameter": "protein_min",
+      "operator": ">=",
+      "target_value": 5.0
+    },
+    {
+      "name": "water_activity <= 0.6",
+      "type": "processing",
+      "weight": 0.7,
+      "hard_or_soft": "SOFT",
+      "reason": "Extracted processing requirement",
+      "source": "Product Brief Parser",
+      "parameter": "water_activity",
+      "operator": "<=",
+      "target_value": 0.6
+    },
+    {
+      "name": "texture_profile PREFERRED Smooth",
+      "type": "sensory",
+      "weight": 0.7,
+      "hard_or_soft": "SOFT",
+      "reason": "Sensory flavor, visual color, and mouthfeel target profile",
+      "source": "Sensory Panel Targets",
+      "parameter": "texture_profile",
+      "operator": "PREFERRED",
+      "target_value": "Smooth"
+    },
+    {
+      "name": "texture_profile PREFERRED Creamy",
+      "type": "sensory",
+      "weight": 0.7,
+      "hard_or_soft": "SOFT",
+      "reason": "Sensory flavor, visual color, and mouthfeel target profile",
+      "source": "Sensory Panel Targets",
+      "parameter": "texture_profile",
+      "operator": "PREFERRED",
+      "target_value": "Creamy"
+    },
+    {
+      "name": "flavor_profile PREFERRED cocoa flavour",
+      "type": "sensory",
+      "weight": 0.7,
+      "hard_or_soft": "SOFT",
+      "reason": "Sensory flavor, visual color, and mouthfeel target profile",
+      "source": "Sensory Panel Targets",
+      "parameter": "flavor_profile",
+      "operator": "PREFERRED",
+      "target_value": "cocoa flavour"
+    },
+    {
+      "name": "flavor_profile PREFERRED chocolate flavour",
+      "type": "sensory",
+      "weight": 0.7,
+      "hard_or_soft": "SOFT",
+      "reason": "Sensory flavor, visual color, and mouthfeel target profile",
+      "source": "Sensory Panel Targets",
+      "parameter": "flavor_profile",
+      "operator": "PREFERRED",
+      "target_value": "chocolate flavour"
+    },
+    {
+      "name": "flavor_profile PREFERRED vanilla flavour",
+      "type": "sensory",
+      "weight": 0.7,
+      "hard_or_soft": "SOFT",
+      "reason": "Sensory flavor, visual color, and mouthfeel target profile",
+      "source": "Sensory Panel Targets",
+      "parameter": "flavor_profile",
+      "operator": "PREFERRED",
+      "target_value": "vanilla flavour"
+    },
+    {
+      "name": "flavor_profile PREFERRED berry flavour",
+      "type": "sensory",
+      "weight": 0.7,
+      "hard_or_soft": "SOFT",
+      "reason": "Sensory flavor, visual color, and mouthfeel target profile",
+      "source": "Sensory Panel Targets",
+      "parameter": "flavor_profile",
+      "operator": "PREFERRED",
+      "target_value": "berry flavour"
+    },
+    {
+      "name": "shelf_stability REQUIRED 12-month",
+      "type": "shelf_life",
+      "weight": 0.75,
+      "hard_or_soft": "SOFT",
+      "reason": "Target ambient shelf stability requirement",
+      "source": "Quality Assurance Standard",
+      "parameter": "shelf_stability",
+      "operator": "REQUIRED",
+      "target_value": "12-month"
+    }
+  ],
+  "priority_distribution": {
+    "hard_count": 0,
+    "soft_count": 10,
+    "total_count": 10
+  }
+}

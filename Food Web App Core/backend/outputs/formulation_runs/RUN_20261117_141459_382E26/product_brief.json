@@ -1,0 +1,513 @@
+{
+  "category": "Confectionery & Chocolate",
+  "product_type": "chocolate_bar",
+  "product_name": "Vegan High-Protein Chocolate Bar",
+  "target_consumer": {
+    "consumer_group": "Vegan & Plant-Based Consumers",
+    "diet": "100% Plant-Based Strict Vegan",
+    "special_requirements": [
+      "Zero Animal Derived Ingredients",
+      "Sustainable Plant Nutrition"
+    ]
+  },
+  "description": "Create a vegan high-protein chocolate bar containing approximately 20% protein and 30% fat. The product should have low water activity, good chocolate flavour, acceptable texture, ambient shelf stability, and a competitive manufacturing cost. Avoid dairy and animal-derived ingredients.",
+  "texture_requirements": [],
+  "mouthfeel_requirements": [],
+  "dietary_requirements": [
+    "Vegan"
+  ],
+  "allergen_constraints": [
+    "dairy",
+    "whey",
+    "egg",
+    "lard",
+    "casein",
+    "gelatin",
+    "milk",
+    "butter"
+  ],
+  "nutrition_targets": {
+    "protein_min": 20.0,
+    "protein_max": null,
+    "fat_min": null,
+    "fat_max": 30.0,
+    "carbohydrate_max": null,
+    "sugar_max": null,
+    "fibre_min": null,
+    "sodium_max": null,
+    "calories_max": null
+  },
+  "functional_goals": [],
+  "flavor_profile": [
+    "chocolate flavour"
+  ],
+  "aroma_profile": [],
+  "processing_constraints": [],
+  "shelf_life_requirements": "12 months",
+  "water_activity_target": "0.60",
+  "pH_target": null,
+  "regulatory_market": [],
+  "cost_target": 12.0,
+  "excluded_ingredients": [
+    "dairy",
+    "whey",
+    "egg",
+    "lard",
+    "casein",
+    "gelatin",
+    "milk",
+    "butter"
+  ],
+  "preferred_ingredients": [],
+  "required_claims": [],
+  "prohibited_claims": [],
+  "hard_constraints": [
+    "DIETARY_EXCLUSIVE_VEGAN",
+    "EXCLUDED_INGREDIENTS_PROHIBITION"
+  ],
+  "soft_objectives": [
+    "MAXIMIZE_PROTEIN_DENSITY",
+    "MINIMIZE_RAW_MATERIAL_COST"
+  ],
+  "experiment_strategies": [
+    "nutrition_maximized",
+    "cost_optimized",
+    "balanced",
+    "functionality_texture"
+  ],
+  "constraint_items": [
+    {
+      "constraint_id": "CONST-001",
+      "type": "PRODUCT_CATEGORY",
+      "parameter": "product_category",
+      "operator": "REQUIRED",
+      "target_value": "Confectionery & Chocolate",
+      "unit": null,
+      "priority": "CRITICAL",
+      "importance": "CRITICAL",
+      "source_text": "Create a vegan high-protein chocolate bar containing approxi",
+      "source_span": "Create a vegan high-protein chocolate bar containing approxi",
+      "confidence": 0.98,
+      "hard_or_soft": "HARD",
+      "weight": null,
+      "reason": null
+    },
+    {
+      "constraint_id": "CONST-002",
+      "type": "DIETARY",
+      "parameter": "dietary_pattern",
+      "operator": "FORBIDDEN",
+      "target_value": "animal_derived_ingredients",
+      "unit": null,
+      "priority": "CRITICAL",
+      "importance": "CRITICAL",
+      "source_text": "vegan",
+      "source_span": "vegan",
+      "confidence": 1.0,
+      "hard_or_soft": "HARD",
+      "weight": null,
+      "reason": null
+    },
+    {
+      "constraint_id": "CONST-003",
+      "type": "NUTRITION",
+      "parameter": "protein_min",
+      "operator": ">=",
+      "target_value": 20.0,
+      "unit": "%",
+      "priority": "CRITICAL",
+      "importance": "CRITICAL",
+      "source_text": "20% protein",
+      "source_span": "20% protein",
+      "confidence": 0.98,
+      "hard_or_soft": "HARD",
+      "weight": null,
+      "reason": null
+    },
+    {
+      "constraint_id": "CONST-004",
+      "type": "NUTRITION",
+      "parameter": "fat_max",
+      "operator": "<=",
+      "target_value": 30.0,
+      "unit": "%",
+      "priority": "HIGH",
+      "importance": "HIGH",
+      "source_text": "30% fat",
+      "source_span": "30% fat",
+      "confidence": 0.98,
+      "hard_or_soft": "HARD",
+      "weight": null,
+      "reason": null
+    },
+    {
+      "constraint_id": "CONST-005",
+      "type": "COST",
+      "parameter": "max_raw_material_cost",
+      "operator": "<=",
+      "target_value": 12.0,
+      "unit": "USD/kg",
+      "priority": "MEDIUM",
+      "importance": "MEDIUM",
+      "source_text": "competitive",
+      "source_span": "competitive",
+      "confidence": 0.85,
+      "hard_or_soft": null,
+      "weight": null,
+      "reason": null
+    },
+    {
+      "constraint_id": "CONST-006",
+      "type": "PROCESSING",
+      "parameter": "water_activity",
+      "operator": "<=",
+      "target_value": 0.6,
+      "unit": "Aw",
+      "priority": "HIGH",
+      "importance": "HIGH",
+      "source_text": "low water activity",
+      "source_span": "low water activity",
+      "confidence": 0.9,
+      "hard_or_soft": null,
+      "weight": null,
+      "reason": null
+    },
+    {
+      "constraint_id": "CONST-007",
+      "type": "SENSORY",
+      "parameter": "flavor_profile",
+      "operator": "PREFERRED",
+      "target_value": "chocolate flavour",
+      "unit": null,
+      "priority": "MEDIUM",
+      "importance": "MEDIUM",
+      "source_text": "chocolate",
+      "source_span": "chocolate",
+      "confidence": 0.9,
+      "hard_or_soft": "SOFT",
+      "weight": null,
+      "reason": null
+    },
+    {
+      "constraint_id": "CONST-008",
+      "type": "SHELF_LIFE",
+      "parameter": "shelf_stability",
+      "operator": ">=",
+      "target_value": "12 months",
+      "unit": "month",
+      "priority": "MEDIUM",
+      "importance": "MEDIUM",
+      "source_text": "ambient",
+      "source_span": "ambient",
+      "confidence": 0.88,
+      "hard_or_soft": "SOFT",
+      "weight": null,
+      "reason": null
+    }
+  ],
+  "granular_constraints": [
+    {
+      "constraint_id": "CONST-001",
+      "type": "PRODUCT_CATEGORY",
+      "parameter": "product_category",
+      "operator": "REQUIRED",
+      "target_value": "Confectionery & Chocolate",
+      "unit": null,
+      "priority": "CRITICAL",
+      "importance": "CRITICAL",
+      "source_text": "Create a vegan high-protein chocolate bar containing approxi",
+      "source_span": "Create a vegan high-protein chocolate bar containing approxi",
+      "confidence": 0.98,
+      "hard_or_soft": "HARD",
+      "weight": null,
+      "reason": null
+    },
+    {
+      "constraint_id": "CONST-002",
+      "type": "DIETARY",
+      "parameter": "dietary_pattern",
+      "operator": "FORBIDDEN",
+      "target_value": "animal_derived_ingredients",
+      "unit": null,
+      "priority": "CRITICAL",
+      "importance": "CRITICAL",
+      "source_text": "vegan",
+      "source_span": "vegan",
+      "confidence": 1.0,
+      "hard_or_soft": "HARD",
+      "weight": null,
+      "reason": null
+    },
+    {
+      "constraint_id": "CONST-003",
+      "type": "NUTRITION",
+      "parameter": "protein_min",
+      "operator": ">=",
+      "target_value": 20.0,
+      "unit": "%",
+      "priority": "CRITICAL",
+      "importance": "CRITICAL",
+      "source_text": "20% protein",
+      "source_span": "20% protein",
+      "confidence": 0.98,
+      "hard_or_soft": "HARD",
+      "weight": null,
+      "reason": null
+    },
+    {
+      "constraint_id": "CONST-004",
+      "type": "NUTRITION",
+      "parameter": "fat_max",
+      "operator": "<=",
+      "target_value": 30.0,
+      "unit": "%",
+      "priority": "HIGH",
+      "importance": "HIGH",
+      "source_text": "30% fat",
+      "source_span": "30% fat",
+      "confidence": 0.98,
+      "hard_or_soft": "HARD",
+      "weight": null,
+      "reason": null
+    },
+    {
+      "constraint_id": "CONST-005",
+      "type": "COST",
+      "parameter": "max_raw_material_cost",
+      "operator": "<=",
+      "target_value": 12.0,
+      "unit": "USD/kg",
+      "priority": "MEDIUM",
+      "importance": "MEDIUM",
+      "source_text": "competitive",
+      "source_span": "competitive",
+      "confidence": 0.85,
+      "hard_or_soft": null,
+      "weight": null,
+      "reason": null
+    },
+    {
+      "constraint_id": "CONST-006",
+      "type": "PROCESSING",
+      "parameter": "water_activity",
+      "operator": "<=",
+      "target_value": 0.6,
+      "unit": "Aw",
+      "priority": "HIGH",
+      "importance": "HIGH",
+      "source_text": "low water activity",
+      "source_span": "low water activity",
+      "confidence": 0.9,
+      "hard_or_soft": null,
+      "weight": null,
+      "reason": null
+    },
+    {
+      "constraint_id": "CONST-007",
+      "type": "SENSORY",
+      "parameter": "flavor_profile",
+      "operator": "PREFERRED",
+      "target_value": "chocolate flavour",
+      "unit": null,
+      "priority": "MEDIUM",
+      "importance": "MEDIUM",
+      "source_text": "chocolate",
+      "source_span": "chocolate",
+      "confidence": 0.9,
+      "hard_or_soft": "SOFT",
+      "weight": null,
+      "reason": null
+    },
+    {
+      "constraint_id": "CONST-008",
+      "type": "SHELF_LIFE",
+      "parameter": "shelf_stability",
+      "operator": ">=",
+      "target_value": "12 months",
+      "unit": "month",
+      "priority": "MEDIUM",
+      "importance": "MEDIUM",
+      "source_text": "ambient",
+      "source_span": "ambient",
+      "confidence": 0.88,
+      "hard_or_soft": "SOFT",
+      "weight": null,
+      "reason": null
+    }
+  ],
+  "constraint_graph": {
+    "nodes": [
+      {
+        "id": "PROD-001",
+        "type": "ProductBrief",
+        "value": "Target Product (Confectionery & Chocolate)",
+        "source": "User Product Brief"
+      },
+      {
+        "id": "CONST-001",
+        "type": "Product_CategoryConstraintNode",
+        "attribute": "product_category",
+        "operator": "REQUIRED",
+        "target_value": "Confectionery & Chocolate",
+        "unit": null,
+        "hard_or_soft": "HARD",
+        "priority": "CRITICAL",
+        "value": "product_category REQUIRED Confectionery & Chocolate",
+        "source": "Create a vegan high-protein chocolate bar containing approxi"
+      },
+      {
+        "id": "CONST-002",
+        "type": "DietaryConstraintNode",
+        "attribute": "dietary_pattern",
+        "operator": "FORBIDDEN",
+        "target_value": "animal_derived_ingredients",
+        "unit": null,
+        "hard_or_soft": "HARD",
+        "priority": "CRITICAL",
+        "value": "dietary_pattern FORBIDDEN animal_derived_ingredients",
+        "source": "vegan"
+      },
+      {
+        "id": "CONST-003",
+        "type": "NutritionConstraintNode",
+        "attribute": "protein_min",
+        "operator": ">=",
+        "target_value": 20.0,
+        "unit": "%",
+        "hard_or_soft": "HARD",
+        "priority": "CRITICAL",
+        "value": "protein_min >= 20.0 %",
+        "source": "20% protein"
+      },
+      {
+        "id": "CONST-004",
+        "type": "NutritionConstraintNode",
+        "attribute": "fat_max",
+        "operator": "<=",
+        "target_value": 30.0,
+        "unit": "%",
+        "hard_or_soft": "HARD",
+        "priority": "HIGH",
+        "value": "fat_max <= 30.0 %",
+        "source": "30% fat"
+      },
+      {
+        "id": "CONST-005",
+        "type": "CostConstraintNode",
+        "attribute": "max_raw_material_cost",
+        "operator": "<=",
+        "target_value": 12.0,
+        "unit": "USD/kg",
+        "hard_or_soft": "SOFT",
+        "priority": "MEDIUM",
+        "value": "max_raw_material_cost <= 12.0 USD/kg",
+        "source": "competitive"
+      },
+      {
+        "id": "CONST-006",
+        "type": "ProcessingConstraintNode",
+        "attribute": "water_activity",
+        "operator": "<=",
+        "target_value": 0.6,
+        "unit": "Aw",
+        "hard_or_soft": "SOFT",
+        "priority": "HIGH",
+        "value": "water_activity <= 0.6 Aw",
+        "source": "low water activity"
+      },
+      {
+        "id": "CONST-007",
+        "type": "SensoryConstraintNode",
+        "attribute": "flavor_profile",
+        "operator": "PREFERRED",
+        "target_value": "chocolate flavour",
+        "unit": null,
+        "hard_or_soft": "SOFT",
+        "priority": "MEDIUM",
+        "value": "flavor_profile PREFERRED chocolate flavour",
+        "source": "chocolate"
+      },
+      {
+        "id": "CONST-008",
+        "type": "Shelf_LifeConstraintNode",
+        "attribute": "shelf_stability",
+        "operator": ">=",
+        "target_value": "12 months",
+        "unit": "month",
+        "hard_or_soft": "SOFT",
+        "priority": "MEDIUM",
+        "value": "shelf_stability >= 12 months month",
+        "source": "ambient"
+      }
+    ],
+    "edges": [
+      {
+        "source": "PROD-001",
+        "relationship": "HAS_CONSTRAINT",
+        "target": "CONST-001",
+        "hard_or_soft": "HARD",
+        "priority": "CRITICAL"
+      },
+      {
+        "source": "PROD-001",
+        "relationship": "HAS_CONSTRAINT",
+        "target": "CONST-002",
+        "hard_or_soft": "HARD",
+        "priority": "CRITICAL"
+      },
+      {
+        "source": "PROD-001",
+        "relationship": "HAS_NUTRITION_CONSTRAINT",
+        "target": "CONST-003",
+        "hard_or_soft": "HARD",
+        "priority": "CRITICAL"
+      },
+      {
+        "source": "PROD-001",
+        "relationship": "HAS_NUTRITION_CONSTRAINT",
+        "target": "CONST-004",
+        "hard_or_soft": "HARD",
+        "priority": "HIGH"
+      },
+      {
+        "source": "PROD-001",
+        "relationship": "HAS_COST_CONSTRAINT",
+        "target": "CONST-005",
+        "hard_or_soft": "SOFT",
+        "priority": "MEDIUM"
+      },
+      {
+        "source": "PROD-001",
+        "relationship": "HAS_PROCESSING_CONSTRAINT",
+        "target": "CONST-006",
+        "hard_or_soft": "SOFT",
+        "priority": "HIGH"
+      },
+      {
+        "source": "PROD-001",
+        "relationship": "HAS_SENSORY_CONSTRAINT",
+        "target": "CONST-007",
+        "hard_or_soft": "SOFT",
+        "priority": "MEDIUM"
+      },
+      {
+        "source": "PROD-001",
+        "relationship": "HAS_PROCESSING_CONSTRAINT",
+        "target": "CONST-008",
+        "hard_or_soft": "SOFT",
+        "priority": "MEDIUM"
+      }
+    ],
+    "summary": {
+      "Nutrition Constraints": 2,
+      "Functional Constraints": 0,
+      "Sensory Constraints": 1,
+      "Regulatory Constraints": 0,
+      "Cost Constraints": 1,
+      "Ingredient Restrictions": 0,
+      "Processing Constraints": 2,
+      "Graph Nodes": 9,
+      "Graph Edges": 8
+    }
+  }
+}

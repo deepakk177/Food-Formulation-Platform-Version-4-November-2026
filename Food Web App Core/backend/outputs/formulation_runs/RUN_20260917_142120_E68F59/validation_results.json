@@ -1,0 +1,242 @@
+{
+  "status": "REQUIRES_EVIDENCE",
+  "hard_constraint_results": [
+    {
+      "constraint": "dietary_pattern FORBIDDEN animal_derived_ingredients",
+      "result": "PASS",
+      "evidence": "Ingredient Catalog Dietary Flags",
+      "reason": "Animal-derived check"
+    },
+    {
+      "constraint": "dairy FORBIDDEN milk_and_dairy_derivatives",
+      "result": "PASS",
+      "evidence": "Rule Evaluator",
+      "reason": "Satisfied"
+    }
+  ],
+  "property_completeness_results": [
+    {
+      "ingredient": "Wheat Flour",
+      "status": "REQUIRES_EVIDENCE",
+      "missing_properties": [
+        "regulatory_status"
+      ]
+    },
+    {
+      "ingredient": "Sunflower Oil",
+      "status": "REQUIRES_EVIDENCE",
+      "missing_properties": [
+        "regulatory_status"
+      ]
+    },
+    {
+      "ingredient": "Coconut Sugar",
+      "status": "REQUIRES_EVIDENCE",
+      "missing_properties": [
+        "regulatory_status"
+      ]
+    },
+    {
+      "ingredient": "Fava Bean Protein Isolate",
+      "status": "PASS",
+      "missing_properties": []
+    },
+    {
+      "ingredient": "Soy Lecithin",
+      "status": "REQUIRES_EVIDENCE",
+      "missing_properties": [
+        "regulatory_status"
+      ]
+    },
+    {
+      "ingredient": "Polysorbate 80",
+      "status": "REQUIRES_EVIDENCE",
+      "missing_properties": [
+        "regulatory_status"
+      ]
+    },
+    {
+      "ingredient": "Natural Chocolate Flavor",
+      "status": "REQUIRES_EVIDENCE",
+      "missing_properties": [
+        "regulatory_status"
+      ]
+    }
+  ],
+  "regulatory_results": [
+    {
+      "ingredient": "Wheat Flour",
+      "permitted": false,
+      "ins_number": null,
+      "status": "UNKNOWN",
+      "jurisdiction": "FSSAI / FDA / Codex"
+    },
+    {
+      "ingredient": "Sunflower Oil",
+      "permitted": false,
+      "ins_number": null,
+      "status": "UNKNOWN",
+      "jurisdiction": "FSSAI / FDA / Codex"
+    },
+    {
+      "ingredient": "Coconut Sugar",
+      "permitted": false,
+      "ins_number": null,
+      "status": "UNKNOWN",
+      "jurisdiction": "FSSAI / FDA / Codex"
+    },
+    {
+      "ingredient": "Fava Bean Protein Isolate",
+      "permitted": true,
+      "ins_number": null,
+      "status": "Permitted",
+      "jurisdiction": "FSSAI / FDA / Codex"
+    },
+    {
+      "ingredient": "Soy Lecithin",
+      "permitted": false,
+      "ins_number": null,
+      "status": "UNKNOWN",
+      "jurisdiction": "FSSAI / FDA / Codex"
+    },
+    {
+      "ingredient": "Polysorbate 80",
+      "permitted": false,
+      "ins_number": null,
+      "status": "UNKNOWN",
+      "jurisdiction": "FSSAI / FDA / Codex"
+    },
+    {
+      "ingredient": "Natural Chocolate Flavor",
+      "permitted": false,
+      "ins_number": null,
+      "status": "UNKNOWN",
+      "jurisdiction": "FSSAI / FDA / Codex"
+    }
+  ],
+  "regional_compliance": {
+    "FSSAI": {
+      "status": "Warning",
+      "alerts": [
+        "Requires Evidence: Additive 'Soy Lecithin' (No INS) requires regional dossier verification.",
+        "Requires Evidence: Additive 'Polysorbate 80' (No INS) requires regional dossier verification.",
+        "Partial regulatory clearance: Some ingredients require technical dossier verification."
+      ],
+      "verified_count": 5,
+      "total_evaluated": 7
+    },
+    "FDA": {
+      "status": "Warning",
+      "alerts": [
+        "Requires Evidence: Additive 'Soy Lecithin' (No INS) requires regional dossier verification.",
+        "Requires Evidence: Additive 'Polysorbate 80' (No INS) requires regional dossier verification.",
+        "Partial regulatory clearance: Some ingredients require technical dossier verification."
+      ],
+      "verified_count": 5,
+      "total_evaluated": 7
+    },
+    "EFSA": {
+      "status": "Warning",
+      "alerts": [
+        "Requires Evidence: Additive 'Soy Lecithin' (No INS) requires regional dossier verification.",
+        "Requires Evidence: Additive 'Polysorbate 80' (No INS) requires regional dossier verification.",
+        "Partial regulatory clearance: Some ingredients require technical dossier verification."
+      ],
+      "verified_count": 5,
+      "total_evaluated": 7
+    }
+  },
+  "allergen_results": [
+    {
+      "ingredient": "Wheat Flour",
+      "allergen": "None Declared",
+      "status": "PASS"
+    },
+    {
+      "ingredient": "Sunflower Oil",
+      "allergen": "None Declared",
+      "status": "PASS"
+    },
+    {
+      "ingredient": "Coconut Sugar",
+      "allergen": "None Declared",
+      "status": "PASS"
+    },
+    {
+      "ingredient": "Fava Bean Protein Isolate",
+      "allergen": "None Declared",
+      "status": "PASS"
+    },
+    {
+      "ingredient": "Soy Lecithin",
+      "allergen": "None Declared",
+      "status": "PASS"
+    },
+    {
+      "ingredient": "Polysorbate 80",
+      "allergen": "None Declared",
+      "status": "PASS"
+    },
+    {
+      "ingredient": "Natural Chocolate Flavor",
+      "allergen": "None Declared",
+      "status": "PASS"
+    }
+  ],
+  "compatibility_results": [],
+  "groundedness_results": [
+    {
+      "claim": "Wheat Flour (General)",
+      "source": "Neo4j KG",
+      "grounded": true
+    },
+    {
+      "claim": "Sunflower Oil (General)",
+      "source": "Neo4j KG",
+      "grounded": true
+    },
+    {
+      "claim": "Coconut Sugar (General)",
+      "source": "Neo4j KG",
+      "grounded": true
+    },
+    {
+      "claim": "Fava Bean Protein Isolate (Protein Source)",
+      "source": "Grounded Repository DB",
+      "grounded": true
+    },
+    {
+      "claim": "Soy Lecithin (Emulsifier)",
+      "source": "Neo4j KG",
+      "grounded": true
+    },
+    {
+      "claim": "Polysorbate 80 (Emulsifier)",
+      "source": "Neo4j KG",
+      "grounded": true
+    },
+    {
+      "claim": "Natural Chocolate Flavor (Flavor System)",
+      "source": "Neo4j KG",
+      "grounded": true
+    }
+  ],
+  "mass_balance_result": {
+    "total_percentage": 100.0,
+    "target_percentage": 100.0,
+    "is_feasible": true,
+    "status": "PASS"
+  },
+  "failure_reasons": [],
+  "requires_evidence_reasons": [
+    "Ingredient 'Wheat Flour' has unverified properties: regulatory_status.",
+    "Ingredient 'Sunflower Oil' has unverified properties: regulatory_status.",
+    "Ingredient 'Coconut Sugar' has unverified properties: regulatory_status.",
+    "Ingredient 'Soy Lecithin' has unverified properties: regulatory_status.",
+    "Ingredient 'Polysorbate 80' has unverified properties: regulatory_status.",
+    "Ingredient 'Natural Chocolate Flavor' has unverified properties: regulatory_status."
+  ],
+  "iteration_number": 1,
+  "max_iterations": 3,
+  "iteration_recommendation": "Expand retrieval to gather missing regulatory and provenance evidence"
+}

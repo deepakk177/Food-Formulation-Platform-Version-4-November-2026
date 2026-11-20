@@ -1,30 +1,30 @@
 """
-Grounded LLM Reasoning & Synthesis Engine for TCS Food Formulator
-Synthesizes scientific justifications, process recommendations, sensory predictions, and evidence summaries
-from retrieved Knowledge Graph candidates without inventing raw factual data.
+Grounded LLM Reasoning & Synthesis Engine for TCS Food Formulator.
+Synthesizes scientific justifications, process recommendations, and evidence summaries
+from validated candidates without inventing raw factual data, fake shelf lives, or altered numbers.
+Strictly acts as an explanation and narrative-generation layer over deterministic backend calculations.
 """
 import os
 import json
 import logging
 from typing import Dict, Any, List, Optional
+from pathlib import Path
 
-try:
-    from langchain_groq import ChatGroq
-    from langchain_core.messages import SystemMessage, HumanMessage
-except ImportError:
-    ChatGroq = None
+from groq_client import generate_chat_completion
 
 logger = logging.getLogger("SynthesisEngine")
 
 SYSTEM_SYNTHESIS_PROMPT = """\
 You are an expert Principal Food Scientist at TCS Research.
-Synthesize a grounded food formulation report based ONLY on the supplied Knowledge Graph candidate facts.
+Generate a grounded food formulation explanation based ONLY on the supplied validated candidate set and evidence.
 
-Rules:
-1. Do NOT invent new ingredients or change the ingredient percentages provided in the candidate formulation.
-2. Explain WHY each ingredient was selected based on its retrieved functional role and properties.
-3. Provide step-by-step processing recommendations suitable for pilot-plant scale production.
-4. Output your response as a valid JSON object matching this structure:
+Strict Rules:
+1. Do NOT introduce any ingredient that is not present in the supplied validated candidate set.
+2. Do NOT invent or alter ingredient percentages, quantities, nutritional values, regulatory status, or costs.
+3. If any property, process recommendation, or shelf-life prediction is not verified, explicitly state 'INSUFFICIENT_LABELED_DATA' or 'REQUIRES_LABORATORY_VALIDATION'.
+4. Explain the functional purpose of each selected ingredient and cite its evidence provenance.
+5. Provide actionable, sequential process recommendations for manufacturing.
+6. Output your response as a valid JSON object matching this structure:
 
 {
   "title": "<Formulation Title>",
@@ -39,17 +39,15 @@ Rules:
     }
   ],
   "process_recommendations": [
-    "STEP 1: Blend dry ingredients...",
-    "STEP 2: Hydrate with warm water...",
-    "STEP 3: Homogenization at 3000 rpm...",
-    "STEP 4: Thermal processing at 85C for 30s...",
-    "STEP 5: Ambient cooling and protective packaging."
+    "<Step 1>",
+    "<Step 2>",
+    "<Step 3>"
   ],
   "sensory_predictions": {
-    "texture": "Smooth and aerated crumb structure",
-    "mouthfeel": "Clean and well-balanced",
-    "viscosity": "Moderate process viscosity",
-    "shelf_life": 9
+    "texture": "INSUFFICIENT_LABELED_DATA (Requires laboratory texture profile analysis)",
+    "mouthfeel": "INSUFFICIENT_LABELED_DATA (Requires descriptive sensory panel)",
+    "viscosity": "INSUFFICIENT_LABELED_DATA (Requires rotational rheometer testing)",
+    "shelf_life": "INSUFFICIENT_LABELED_DATA (Requires accelerated stability kinetics testing)"
   },
   "warnings": []
 }
@@ -58,16 +56,6 @@ Rules:
 class SynthesisEngine:
     def __init__(self):
         self.api_key = os.getenv("GROQ_API_KEY", "")
-        self.llm = None
-        if self.api_key and ChatGroq:
-            try:
-                self.llm = ChatGroq(
-                    model_name="llama-3.3-70b-versatile",
-                    temperature=0.1,
-                    groq_api_key=self.api_key
-                )
-            except Exception as e:
-                logger.warning(f"Groq LLM init warning in SynthesisEngine: {e}")
 
     def synthesize(
         self,
@@ -76,75 +64,143 @@ class SynthesisEngine:
         ranked_candidate: Dict[str, Any],
         evidence_list: List[Dict[str, Any]]
     ) -> Dict[str, Any]:
-        """Synthesizes final formulation report using LLM or structured fallback."""
+        """
+        Synthesizes final formulation report narrative.
+        All numerical values, composition tables, costs, and compliance results are locked
+        to deterministic backend calculations and cannot be altered by the LLM.
+        """
         composition = ranked_candidate.get("composition", {})
-        bulk = composition.get("bulk_ingredients", [])
-        func = composition.get("functional_ingredients", [])
-        all_ings = bulk + func
+        all_components = composition.get("all_components", [])
+        if not all_components:
+            bulk = composition.get("bulk_ingredients", [])
+            func = composition.get("functional_ingredients", [])
+            all_components = bulk + func
 
-        # Attempt LLM synthesis
-        if self.llm:
+        cat_str = requirements.get("category") or requirements.get("product_type") or "Food Matrix"
+        prod_type = str(cat_str).replace("_", " ").title()
+        
+        default_process_steps = ranked_candidate.get("process_steps")
+        if not default_process_steps or len(default_process_steps) < 3:
+            default_process_steps = [
+                f"1. Measure and pre-blend dry formulation ingredients uniformly according to ratio specifications.",
+                f"2. Incorporate liquid/fat matrix and functional ingredients under controlled shear to achieve homogeneous dispersion.",
+                f"3. Form, package, and hermetically seal under controlled ambient conditions to preserve {prod_type} stability."
+            ]
+
+        # Valid ingredient IDs and names from the deterministic candidate
+        valid_comp_map = {
+            (c.get("id") or f"ing_{c.get('name','').lower().replace(' ','_')}"): c.get("name")
+            for c in all_components
+        }
+        valid_comp_names = {c.get("name", "").lower(): c for c in all_components}
+
+        # Attempt Groq LLM synthesis for narrative explanation
+        context_str = json.dumps({
+            "user_query": query,
+            "requirements": requirements,
+            "validated_candidate_set": [
+                {
+                    "id": c.get("id"),
+                    "name": c.get("name"),
+                    "percentage": c.get("percentage"),
+                    "role": c.get("functional_role"),
+                    "cost_per_kg": c.get("cost_per_kg"),
+                    "protein": c.get("protein")
+                }
+                for c in all_components
+            ],
+            "evidence": evidence_list[:5]
+        }, indent=2)
+
+        messages = [
+            {"role": "system", "content": SYSTEM_SYNTHESIS_PROMPT},
+            {"role": "user", "content": f"Validated Candidate Set & Evidence:\n{context_str}"}
+        ]
+
+        llm_content = generate_chat_completion(messages=messages, temperature=0.1)
+        if llm_content:
             try:
-                context_str = json.dumps({
-                    "user_query": query,
-                    "requirements": requirements,
-                    "composition": composition,
-                    "evidence": evidence_list[:5]
-                }, indent=2)
-
-                messages = [
-                    SystemMessage(content=SYSTEM_SYNTHESIS_PROMPT),
-                    HumanMessage(content=f"Formulation Facts:\n{context_str}")
-                ]
-                response = self.llm.invoke(messages)
-                content = response.content.strip()
-
+                content = llm_content.strip()
                 if content.startswith("```json"):
                     content = content.split("```json")[1].split("```")[0].strip()
                 elif content.startswith("```"):
                     content = content.split("```")[1].split("```")[0].strip()
 
                 parsed = json.loads(content)
+                
+                # Strict Sanitization: filter ingredient_explanations to ONLY valid ingredients
+                sanitized_explanations = []
+                for exp in parsed.get("ingredient_explanations", []):
+                    exp_id = exp.get("ingredientId")
+                    exp_name = str(exp.get("name", "")).lower()
+                    if exp_id in valid_comp_map or exp_name in valid_comp_names:
+                        matched = valid_comp_names.get(exp_name) or {}
+                        sanitized_explanations.append({
+                            "ingredientId": exp_id or matched.get("id"),
+                            "name": exp.get("name") or matched.get("name"),
+                            "functionalRole": exp.get("functionalRole") or matched.get("functional_role", "Raw Material"),
+                            "justification": exp.get("justification", ""),
+                            "evidenceSource": exp.get("evidenceSource") or matched.get("source_evidence", "Grounded DB")
+                        })
+
+                # If LLM missed any components, fill them deterministically
+                explained_names = {e["name"].lower() for e in sanitized_explanations}
+                for c in all_components:
+                    if c.get("name", "").lower() not in explained_names:
+                        role = c.get("functional_role") or c.get("category") or "Bulking Agent"
+                        sanitized_explanations.append({
+                            "ingredientId": c.get("id", f"ing_{c.get('name', '001').lower().replace(' ', '_')}"),
+                            "name": c.get("name"),
+                            "functionalRole": role,
+                            "justification": f"Fulfills '{role}' in {prod_type} matrix at {c.get('percentage', 0.0)}% inclusion.",
+                            "evidenceSource": c.get("source_evidence") or "Grounded Repository DB"
+                        })
+
+                # Lock down numerical and physical structures from backend
                 parsed["composition"] = composition
+                parsed["ingredient_explanations"] = sanitized_explanations
                 parsed["performance"] = ranked_candidate.get("score", {}).get("performance", {})
                 parsed["functional_coverage"] = ranked_candidate.get("functional_coverage", {})
+                if not parsed.get("process_recommendations") or len(parsed.get("process_recommendations")) < 3:
+                    parsed["process_recommendations"] = default_process_steps
+
+                # Enforce honest status for sensory & shelf life
+                parsed["sensory_predictions"] = {
+                    "texture": "INSUFFICIENT_LABELED_DATA (Requires laboratory texture profile analysis)",
+                    "mouthfeel": "INSUFFICIENT_LABELED_DATA (Requires trained descriptive panel)",
+                    "viscosity": "INSUFFICIENT_LABELED_DATA (Requires rotational rheometer testing)",
+                    "shelf_life": "INSUFFICIENT_LABELED_DATA (Requires accelerated stability kinetics testing)"
+                }
                 return parsed
             except Exception as e:
-                logger.warning(f"LLM synthesis fallback triggered: {e}")
+                logger.warning(f"Groq LLM synthesis parsing fallback: {e}")
 
         # Deterministic Grounded Synthesis Fallback
         ing_explanations = []
-        for ing in all_ings:
+        for ing in all_components:
             role = ing.get("functional_role") or ing.get("category") or "Bulking Agent"
+            prov = ing.get("source_evidence") or ing.get("source") or "Grounded Repository DB"
             ing_explanations.append({
-                "ingredientId": ing.get("id", "ing_001"),
+                "ingredientId": ing.get("id", f"ing_{ing.get('name', '001').lower().replace(' ', '_')}"),
                 "name": ing.get("name"),
                 "functionalRole": role,
-                "justification": f"Retrieved from Knowledge Graph to fulfill the '{role}' role.",
-                "evidenceSource": "Neo4j Grounded Graph"
+                "justification": f"Selected to fulfill '{role}' functionality. Inclusion = {ing.get('percentage', 0.0)}%.",
+                "evidenceSource": prov
             })
-
-        prod_type = requirements.get("product_type", "food_product").replace("_", " ").title()
 
         return {
             "title": f"Grounded AI {prod_type} Formulation",
-            "justification_summary": f"Formulation generated from Knowledge Graph retrieval for prompt '{query}'. Meets functional coverage and dietary constraints.",
+            "justification_summary": f"Formulation generated from grounded Knowledge Graph retrieval for brief '{query}'. Satisfies dietary constraints and mathematical mass balance.",
             "composition": composition,
             "ingredient_explanations": ing_explanations,
             "performance": ranked_candidate.get("score", {}).get("performance", {}),
             "functional_coverage": ranked_candidate.get("functional_coverage", {}),
-            "process_recommendations": [
-                "STEP 1: Measure and pre-blend dry bulk ingredients thoroughly.",
-                "STEP 2: Incorporate functional emulsifiers and hydrocolloid stabilizers.",
-                "STEP 3: High-shear homogenization at 3000 rpm for 3 minutes.",
-                "STEP 4: Thermal heat treatment at 85C for 30 seconds.",
-                "STEP 5: Controlled cooling to ambient temperature under nitrogen flush packaging."
-            ],
+            "process_recommendations": default_process_steps,
             "sensory_predictions": {
-                "texture": "Smooth and aerated structure",
-                "mouthfeel": "Clean melt and balanced body",
-                "viscosity": "Controlled flow viscosity",
-                "shelf_life": 9
+                "texture": "INSUFFICIENT_LABELED_DATA (Requires laboratory texture profile analysis)",
+                "mouthfeel": "INSUFFICIENT_LABELED_DATA (Requires trained descriptive panel)",
+                "viscosity": "INSUFFICIENT_LABELED_DATA (Requires rotational rheometer testing)",
+                "shelf_life": "INSUFFICIENT_LABELED_DATA (Requires accelerated stability kinetics testing)"
             },
             "warnings": []
         }

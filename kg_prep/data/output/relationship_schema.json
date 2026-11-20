@@ -12,6 +12,18 @@
         "validation_rule": "Source node must exist in Products.csv and target node must exist in FoodCategories.csv."
     },
     {
+        "relationship_name": "product_in_category",
+        "relationship_type": "BELONGS_TO_CATEGORY",
+        "category": "core",
+        "source_node_type": "Products",
+        "target_node_type": "FoodCategories",
+        "direction": "Products -> FoodCategories",
+        "requires_evidence": false,
+        "requires_source": true,
+        "description": "Associates a commercial product with an official food category.",
+        "validation_rule": "Source node must exist in Products.csv and target node must exist in FoodCategories.csv."
+    },
+    {
         "relationship_name": "product_has_ingredient",
         "relationship_type": "HAS_INGREDIENT",
         "category": "core",
@@ -22,6 +34,18 @@
         "requires_source": true,
         "description": "Associates a product formulation with an included ingredient.",
         "validation_rule": "Source node must exist in Products.csv and target node must exist in Ingredients.csv."
+    },
+    {
+        "relationship_name": "ingredient_used_in_product",
+        "relationship_type": "USED_IN",
+        "category": "core",
+        "source_node_type": "Ingredients",
+        "target_node_type": "Products",
+        "direction": "Ingredients -> Products",
+        "requires_evidence": false,
+        "requires_source": true,
+        "description": "Associates an ingredient with a product formulation.",
+        "validation_rule": "Source node must exist in Ingredients.csv and target node must exist in Products.csv."
     },
     {
         "relationship_name": "ingredient_has_nutrient",
@@ -192,6 +216,18 @@
         "validation_rule": "Source node must exist in Products.csv and target node must exist in Processes.csv."
     },
     {
+        "relationship_name": "product_requires_process",
+        "relationship_type": "REQUIRES_PROCESS",
+        "category": "process",
+        "source_node_type": "Products",
+        "target_node_type": "Processes",
+        "direction": "Products -> Processes",
+        "requires_evidence": false,
+        "requires_source": true,
+        "description": "Associates a product formulation with a required manufacturing process.",
+        "validation_rule": "Source node must exist in Products.csv and target node must exist in Processes.csv."
+    },
+    {
         "relationship_name": "process_has_condition",
         "relationship_type": "HAS_CONDITION",
         "category": "process",
@@ -274,6 +310,18 @@
         "requires_source": true,
         "description": "Connects evidence records to their original authority dataset source.",
         "validation_rule": "Source node must exist in Evidence.csv and target node must exist in Sources.csv."
+    },
+    {
+        "relationship_name": "source_supports_evidence",
+        "relationship_type": "PROVIDES_EVIDENCE",
+        "category": "evidence",
+        "source_node_type": "Sources",
+        "target_node_type": "Evidence",
+        "direction": "Sources -> Evidence",
+        "requires_evidence": true,
+        "requires_source": true,
+        "description": "Connects an authoritative data source to supporting evidence.",
+        "validation_rule": "Source node must exist in Sources.csv and target node must exist in Evidence.csv."
     },
     {
         "relationship_name": "ingredient_has_allergen",

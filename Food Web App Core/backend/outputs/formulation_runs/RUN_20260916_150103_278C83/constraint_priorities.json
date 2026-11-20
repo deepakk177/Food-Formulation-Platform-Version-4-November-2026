@@ -1,0 +1,166 @@
+{
+  "all_constraints": [
+    {
+      "name": "product_category REQUIRED Confectionery & Chocolate",
+      "type": "category",
+      "weight": 0.7,
+      "hard_or_soft": "SOFT",
+      "reason": "Extracted category requirement",
+      "source": "Product Brief Parser",
+      "parameter": "product_category",
+      "operator": "REQUIRED",
+      "target_value": "Confectionery & Chocolate"
+    },
+    {
+      "name": "texture_profile PREFERRED Smooth",
+      "type": "sensory",
+      "weight": 0.7,
+      "hard_or_soft": "SOFT",
+      "reason": "Sensory flavor, visual color, and mouthfeel target profile",
+      "source": "Sensory Panel Targets",
+      "parameter": "texture_profile",
+      "operator": "PREFERRED",
+      "target_value": "Smooth"
+    },
+    {
+      "name": "texture_profile PREFERRED Soft",
+      "type": "sensory",
+      "weight": 0.7,
+      "hard_or_soft": "SOFT",
+      "reason": "Sensory flavor, visual color, and mouthfeel target profile",
+      "source": "Sensory Panel Targets",
+      "parameter": "texture_profile",
+      "operator": "PREFERRED",
+      "target_value": "Soft"
+    },
+    {
+      "name": "texture_profile PREFERRED Crunchy",
+      "type": "sensory",
+      "weight": 0.7,
+      "hard_or_soft": "SOFT",
+      "reason": "Sensory flavor, visual color, and mouthfeel target profile",
+      "source": "Sensory Panel Targets",
+      "parameter": "texture_profile",
+      "operator": "PREFERRED",
+      "target_value": "Crunchy"
+    },
+    {
+      "name": "texture_profile PREFERRED Chewy",
+      "type": "sensory",
+      "weight": 0.7,
+      "hard_or_soft": "SOFT",
+      "reason": "Sensory flavor, visual color, and mouthfeel target profile",
+      "source": "Sensory Panel Targets",
+      "parameter": "texture_profile",
+      "operator": "PREFERRED",
+      "target_value": "Chewy"
+    },
+    {
+      "name": "flavor_profile PREFERRED chocolate flavour",
+      "type": "sensory",
+      "weight": 0.7,
+      "hard_or_soft": "SOFT",
+      "reason": "Sensory flavor, visual color, and mouthfeel target profile",
+      "source": "Sensory Panel Targets",
+      "parameter": "flavor_profile",
+      "operator": "PREFERRED",
+      "target_value": "chocolate flavour"
+    },
+    {
+      "name": "shelf_stability REQUIRED 9-month",
+      "type": "shelf_life",
+      "weight": 0.75,
+      "hard_or_soft": "SOFT",
+      "reason": "Target ambient shelf stability requirement",
+      "source": "Quality Assurance Standard",
+      "parameter": "shelf_stability",
+      "operator": "REQUIRED",
+      "target_value": "9-month"
+    }
+  ],
+  "hard_constraints": [],
+  "soft_constraints": [
+    {
+      "name": "product_category REQUIRED Confectionery & Chocolate",
+      "type": "category",
+      "weight": 0.7,
+      "hard_or_soft": "SOFT",
+      "reason": "Extracted category requirement",
+      "source": "Product Brief Parser",
+      "parameter": "product_category",
+      "operator": "REQUIRED",
+      "target_value": "Confectionery & Chocolate"
+    },
+    {
+      "name": "texture_profile PREFERRED Smooth",
+      "type": "sensory",
+      "weight": 0.7,
+      "hard_or_soft": "SOFT",
+      "reason": "Sensory flavor, visual color, and mouthfeel target profile",
+      "source": "Sensory Panel Targets",
+      "parameter": "texture_profile",
+      "operator": "PREFERRED",
+      "target_value": "Smooth"
+    },
+    {
+      "name": "texture_profile PREFERRED Soft",
+      "type": "sensory",
+      "weight": 0.7,
+      "hard_or_soft": "SOFT",
+      "reason": "Sensory flavor, visual color, and mouthfeel target profile",
+      "source": "Sensory Panel Targets",
+      "parameter": "texture_profile",
+      "operator": "PREFERRED",
+      "target_value": "Soft"
+    },
+    {
+      "name": "texture_profile PREFERRED Crunchy",
+      "type": "sensory",
+      "weight": 0.7,
+      "hard_or_soft": "SOFT",
+      "reason": "Sensory flavor, visual color, and mouthfeel target profile",
+      "source": "Sensory Panel Targets",
+      "parameter": "texture_profile",
+      "operator": "PREFERRED",
+      "target_value": "Crunchy"
+    },
+    {
+      "name": "texture_profile PREFERRED Chewy",
+      "type": "sensory",
+      "weight": 0.7,
+      "hard_or_soft": "SOFT",
+      "reason": "Sensory flavor, visual color, and mouthfeel target profile",
+      "source": "Sensory Panel Targets",
+      "parameter": "texture_profile",
+      "operator": "PREFERRED",
+      "target_value": "Chewy"
+    },
+    {
+      "name": "flavor_profile PREFERRED chocolate flavour",
+      "type": "sensory",
+      "weight": 0.7,
+      "hard_or_soft": "SOFT",
+      "reason": "Sensory flavor, visual color, and mouthfeel target profile",
+      "source": "Sensory Panel Targets",
+      "parameter": "flavor_profile",
+      "operator": "PREFERRED",
+      "target_value": "chocolate flavour"
+    },
+    {
+      "name": "shelf_stability REQUIRED 9-month",
+      "type": "shelf_life",
+      "weight": 0.75,
+      "hard_or_soft": "SOFT",
+      "reason": "Target ambient shelf stability requirement",
+      "source": "Quality Assurance Standard",
+      "parameter": "shelf_stability",
+      "operator": "REQUIRED",
+      "target_value": "9-month"
+    }
+  ],
+  "priority_distribution": {
+    "hard_count": 0,
+    "soft_count": 7,
+    "total_count": 7
+  }
+}

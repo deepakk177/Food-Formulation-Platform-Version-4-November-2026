@@ -1,0 +1,100 @@
+{
+  "nodes": [
+    {
+      "id": "PROD-001",
+      "type": "ProductBrief",
+      "value": "Target Product (Bakery Products)",
+      "source": "User Product Brief"
+    },
+    {
+      "id": "CONST-001",
+      "type": "Product_CategoryConstraintNode",
+      "value": "product_category REQUIRED Bakery Products",
+      "source": "Formulate an energy-dense functional trail biscuit containin"
+    },
+    {
+      "id": "CONST-002",
+      "type": "NutritionConstraintNode",
+      "value": "protein_min >= 15.0 %",
+      "source": "15% protein"
+    },
+    {
+      "id": "CONST-003",
+      "type": "NutritionConstraintNode",
+      "value": "fibre_min >= 8.0 %",
+      "source": "8% fibre"
+    },
+    {
+      "id": "CONST-004",
+      "type": "SensoryConstraintNode",
+      "value": "texture_profile PREFERRED Crunchy",
+      "source": "crunchy"
+    },
+    {
+      "id": "CONST-005",
+      "type": "SensoryConstraintNode",
+      "value": "flavor_profile PREFERRED vanilla flavour",
+      "source": "vanilla"
+    },
+    {
+      "id": "CONST-006",
+      "type": "SensoryConstraintNode",
+      "value": "flavor_profile PREFERRED berry flavour",
+      "source": "berry"
+    },
+    {
+      "id": "CONST-007",
+      "type": "Shelf_LifeConstraintNode",
+      "value": "shelf_stability REQUIRED 12-month",
+      "source": "shelf life"
+    }
+  ],
+  "edges": [
+    {
+      "source": "PROD-001",
+      "relationship": "HAS_CONSTRAINT",
+      "target": "CONST-001"
+    },
+    {
+      "source": "PROD-001",
+      "relationship": "HAS_NUTRITION_CONSTRAINT",
+      "target": "CONST-002"
+    },
+    {
+      "source": "PROD-001",
+      "relationship": "HAS_NUTRITION_CONSTRAINT",
+      "target": "CONST-003"
+    },
+    {
+      "source": "PROD-001",
+      "relationship": "HAS_SENSORY_CONSTRAINT",
+      "target": "CONST-004"
+    },
+    {
+      "source": "PROD-001",
+      "relationship": "HAS_SENSORY_CONSTRAINT",
+      "target": "CONST-005"
+    },
+    {
+      "source": "PROD-001",
+      "relationship": "HAS_SENSORY_CONSTRAINT",
+      "target": "CONST-006"
+    },
+    {
+      "source": "PROD-001",
+      "relationship": "HAS_PROCESSING_CONSTRAINT",
+      "target": "CONST-007"
+    }
+  ],
+  "summary": {
+    "Nutrition Constraints": 2,
+    "Functional Constraints": 0,
+    "Sensory Constraints": 3,
+    "Regulatory Constraints": 0,
+    "Cost Constraints": 0,
+    "Ingredient Restrictions": 0,
+    "Processing Constraints": 1,
+    "Graph Nodes": 8,
+    "Graph Edges": 7
+  }
+}

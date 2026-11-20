@@ -1,0 +1,157 @@
+{
+  "experiment_id": "EXP-001",
+  "product_brief": "Vegan White Chocolate: Create a dairy-free plant-based white chocolate using cocoa butter and plant-based ingredients. Target \u226525% cocoa butter, \u226430% sugar and \u22655% protein with a smooth, creamy melt. Develop a vanilla-caramel flavor profile and 12-month shelf life.",
+  "constraints": [
+    {
+      "constraint_id": "C1",
+      "attribute": "product_category",
+      "operator": "REQUIRED",
+      "target_value": "Protein Bars / Functional Snacks",
+      "unit": "",
+      "constraint_type": "PRODUCT_CATEGORY",
+      "status": "HARD",
+      "source_text": ""
+    },
+    {
+      "constraint_id": "C2",
+      "attribute": "dietary_pattern",
+      "operator": "FORBIDDEN",
+      "target_value": "animal_derived_ingredients",
+      "unit": "",
+      "constraint_type": "DIETARY",
+      "status": "HARD",
+      "source_text": ""
+    },
+    {
+      "constraint_id": "C3",
+      "attribute": "dairy",
+      "operator": "FORBIDDEN",
+      "target_value": "milk_and_dairy_derivatives",
+      "unit": "",
+      "constraint_type": "ALLERGEN",
+      "status": "HARD",
+      "source_text": ""
+    },
+    {
+      "constraint_id": "C4",
+      "attribute": "protein_min",
+      "operator": ">=",
+      "target_value": 5.0,
+      "unit": "",
+      "constraint_type": "NUTRITION",
+      "status": "HARD",
+      "source_text": ""
+    },
+    {
+      "constraint_id": "C5",
+      "attribute": "sugar_max",
+      "operator": "<=",
+      "target_value": 30.0,
+      "unit": "",
+      "constraint_type": "NUTRITION",
+      "status": "HARD",
+      "source_text": ""
+    },
+    {
+      "constraint_id": "C6",
+      "attribute": "cocoa_butter",
+      "operator": ">=",
+      "target_value": 25.0,
+      "unit": "",
+      "constraint_type": "INGREDIENT_RESTRICTION",
+      "status": "HARD",
+      "source_text": ""
+    },
+    {
+      "constraint_id": "C7",
+      "attribute": "texture_profile",
+      "operator": "PREFERRED",
+      "target_value": "Creamy Melt",
+      "unit": "",
+      "constraint_type": "SENSORY",
+      "status": "SOFT",
+      "source_text": ""
+    },
+    {
+      "constraint_id": "C8",
+      "attribute": "texture_profile",
+      "operator": "PREFERRED",
+      "target_value": "Smooth",
+      "unit": "",
+      "constraint_type": "SENSORY",
+      "status": "SOFT",
+      "source_text": ""
+    },
+    {
+      "constraint_id": "C9",
+      "attribute": "flavor_profile",
+      "operator": "PREFERRED",
+      "target_value": "cocoa flavour",
+      "unit": "",
+      "constraint_type": "SENSORY",
+      "status": "SOFT",
+      "source_text": ""
+    },
+    {
+      "constraint_id": "C10",
+      "attribute": "flavor_profile",
+      "operator": "PREFERRED",
+      "target_value": "chocolate flavour",
+      "unit": "",
+      "constraint_type": "SENSORY",
+      "status": "SOFT",
+      "source_text": ""
+    },
+    {
+      "constraint_id": "C11",
+      "attribute": "flavor_profile",
+      "operator": "PREFERRED",
+      "target_value": "vanilla flavour",
+      "unit": "",
+      "constraint_type": "SENSORY",
+      "status": "SOFT",
+      "source_text": ""
+    },
+    {
+      "constraint_id": "C12",
+      "attribute": "flavor_profile",
+      "operator": "PREFERRED",
+      "target_value": "caramel flavour",
+      "unit": "",
+      "constraint_type": "SENSORY",
+      "status": "SOFT",
+      "source_text": ""
+    },
+    {
+      "constraint_id": "C13",
+      "attribute": "shelf_stability",
+      "operator": ">=",
+      "target_value": "12-month",
+      "unit": "",
+      "constraint_type": "SHELF_LIFE",
+      "status": "SOFT",
+      "source_text": ""
+    }
+  ],
+  "dynamic_subgraph_nodes": 32,
+  "dynamic_subgraph_edges": 128,
+  "candidate_counts_by_role": {
+    "Protein": 5,
+    "Fat": 5,
+    "Sweetener": 7,
+    "Flavor": 6,
+    "Binder": 9
+  },
+  "theoretical_combinations": 9450,
+  "combinations_generated": 9450,
+  "combinations_evaluated": 9450,
+  "slsqp_success": 9450,
+  "slsqp_failure": 0,
+  "hard_constraint_failures": 9090,
+  "valid_formulations": 360,
+  "formulations_scored": 360,
+  "best_score": 72.2,
+  "worst_score": 59.2,
+  "mean_score": 67.03,
+  "median_score": 68.2
+}

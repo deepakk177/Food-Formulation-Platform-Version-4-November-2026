@@ -1,0 +1,220 @@
+{
+  "status": "PASS",
+  "hard_constraint_results": [
+    {
+      "constraint": "dietary_pattern FORBIDDEN animal_derived_ingredients",
+      "result": "PASS",
+      "evidence": "Ingredient Catalog Dietary Flags",
+      "reason": "Animal-derived check"
+    },
+    {
+      "constraint": "dairy FORBIDDEN milk_and_dairy_derivatives",
+      "result": "PASS",
+      "evidence": "Rule Evaluator",
+      "reason": "Satisfied"
+    }
+  ],
+  "property_completeness_results": [
+    {
+      "ingredient": "Wheat Flour",
+      "status": "PASS",
+      "missing_properties": []
+    },
+    {
+      "ingredient": "Coconut MCT Oil Powder (70%)",
+      "status": "PASS",
+      "missing_properties": []
+    },
+    {
+      "ingredient": "Coconut Sugar",
+      "status": "PASS",
+      "missing_properties": []
+    },
+    {
+      "ingredient": "Fava Bean Protein Isolate",
+      "status": "PASS",
+      "missing_properties": []
+    },
+    {
+      "ingredient": "Soluble Corn Fiber",
+      "status": "PASS",
+      "missing_properties": []
+    },
+    {
+      "ingredient": "Polysorbate 80",
+      "status": "PASS",
+      "missing_properties": []
+    },
+    {
+      "ingredient": "Natural Chocolate Flavor",
+      "status": "PASS",
+      "missing_properties": []
+    }
+  ],
+  "regulatory_results": [
+    {
+      "ingredient": "Wheat Flour",
+      "permitted": true,
+      "ins_number": null,
+      "status": "Permitted",
+      "jurisdiction": "FSSAI / FDA / Codex"
+    },
+    {
+      "ingredient": "Coconut MCT Oil Powder (70%)",
+      "permitted": true,
+      "ins_number": null,
+      "status": "Permitted",
+      "jurisdiction": "FSSAI / FDA / Codex"
+    },
+    {
+      "ingredient": "Coconut Sugar",
+      "permitted": true,
+      "ins_number": null,
+      "status": "Permitted",
+      "jurisdiction": "FSSAI / FDA / Codex"
+    },
+    {
+      "ingredient": "Fava Bean Protein Isolate",
+      "permitted": true,
+      "ins_number": null,
+      "status": "Permitted",
+      "jurisdiction": "FSSAI / FDA / Codex"
+    },
+    {
+      "ingredient": "Soluble Corn Fiber",
+      "permitted": true,
+      "ins_number": null,
+      "status": "Permitted",
+      "jurisdiction": "FSSAI / FDA / Codex"
+    },
+    {
+      "ingredient": "Polysorbate 80",
+      "permitted": true,
+      "ins_number": null,
+      "status": "Permitted",
+      "jurisdiction": "FSSAI / FDA / Codex"
+    },
+    {
+      "ingredient": "Natural Chocolate Flavor",
+      "permitted": true,
+      "ins_number": null,
+      "status": "Permitted",
+      "jurisdiction": "FSSAI / FDA / Codex"
+    }
+  ],
+  "regional_compliance": {
+    "FSSAI": {
+      "status": "Warning",
+      "alerts": [
+        "Requires Evidence: Additive 'Polysorbate 80' (No INS) requires regional dossier verification.",
+        "Partial regulatory clearance: Some ingredients require technical dossier verification."
+      ],
+      "verified_count": 6,
+      "total_evaluated": 7
+    },
+    "FDA": {
+      "status": "Warning",
+      "alerts": [
+        "Requires Evidence: Additive 'Polysorbate 80' (No INS) requires regional dossier verification.",
+        "Partial regulatory clearance: Some ingredients require technical dossier verification."
+      ],
+      "verified_count": 6,
+      "total_evaluated": 7
+    },
+    "EFSA": {
+      "status": "Warning",
+      "alerts": [
+        "Requires Evidence: Additive 'Polysorbate 80' (No INS) requires regional dossier verification.",
+        "Partial regulatory clearance: Some ingredients require technical dossier verification."
+      ],
+      "verified_count": 6,
+      "total_evaluated": 7
+    }
+  },
+  "allergen_results": [
+    {
+      "ingredient": "Wheat Flour",
+      "allergen": "None Declared",
+      "status": "PASS"
+    },
+    {
+      "ingredient": "Coconut MCT Oil Powder (70%)",
+      "allergen": "None Declared",
+      "status": "PASS"
+    },
+    {
+      "ingredient": "Coconut Sugar",
+      "allergen": "None Declared",
+      "status": "PASS"
+    },
+    {
+      "ingredient": "Fava Bean Protein Isolate",
+      "allergen": "None Declared",
+      "status": "PASS"
+    },
+    {
+      "ingredient": "Soluble Corn Fiber",
+      "allergen": "None Declared",
+      "status": "PASS"
+    },
+    {
+      "ingredient": "Polysorbate 80",
+      "allergen": "None Declared",
+      "status": "PASS"
+    },
+    {
+      "ingredient": "Natural Chocolate Flavor",
+      "allergen": "None Declared",
+      "status": "PASS"
+    }
+  ],
+  "compatibility_results": [],
+  "groundedness_results": [
+    {
+      "claim": "Wheat Flour (General)",
+      "source": "Grounded Repository DB",
+      "grounded": true
+    },
+    {
+      "claim": "Coconut MCT Oil Powder (70%) (Fats & Oils)",
+      "source": "Grounded Repository DB",
+      "grounded": true
+    },
+    {
+      "claim": "Coconut Sugar (Sweetener)",
+      "source": "Grounded Repository DB",
+      "grounded": true
+    },
+    {
+      "claim": "Fava Bean Protein Isolate (Protein Source)",
+      "source": "Grounded Repository DB",
+      "grounded": true
+    },
+    {
+      "claim": "Soluble Corn Fiber (Fiber)",
+      "source": "Grounded Repository DB",
+      "grounded": true
+    },
+    {
+      "claim": "Polysorbate 80 (Emulsifier)",
+      "source": "Grounded Repository DB",
+      "grounded": true
+    },
+    {
+      "claim": "Natural Chocolate Flavor (Flavor System)",
+      "source": "Grounded Repository DB",
+      "grounded": true
+    }
+  ],
+  "mass_balance_result": {
+    "total_percentage": 100.0,
+    "target_percentage": 100.0,
+    "is_feasible": true,
+    "status": "PASS"
+  },
+  "failure_reasons": [],
+  "requires_evidence_reasons": [],
+  "iteration_number": 1,
+  "max_iterations": 3,
+  "iteration_recommendation": "Proceed to Multi-Objective Scoring & Ranking"
+}

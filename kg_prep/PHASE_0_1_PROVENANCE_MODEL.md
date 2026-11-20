@@ -1,0 +1,105 @@
+# PHASE 0.1 / 0.2: EVIDENCE HIERARCHY AND PROVENANCE ARCHITECTURE
+
+**Document Version:** 2.0.0 (Phase 0.2 Revision)  
+**Status:** FROZEN & RATIFIED  
+**Scope:** A multi-dimensional provenance and evidence model eliminating fixed numerical confidence scores and separating evidence type, extraction confidence, evidence quality, and verification status.
+
+---
+
+## 1. Disentangling Confidence from Source Category
+
+### The Flaw of Fixed Numerical Assumptions
+In legacy implementations, an assumption was made that any assertion originating from an "officially published" database automatically possessed a scientific confidence score of `1.0`, while a patent had `0.85`, and literature had `0.80`.
+
+This assumption is scientifically invalid:
+- An official standard may publish an unquantified qualitative permission (e.g. "GMP"), which cannot be converted to a strict numerical constraint with 100% mathematical certainty.
+- An official database record may be extracted using a heuristic regular expression that has an extraction error rate of 15%.
+- A peer-reviewed journal paper reporting an analytical laboratory assay with triplicate replicates (AOAC certified) has far higher measurement precision than an unverified label claim in a government database.
+
+### The Four Orthogonal Provenance Axes
+To guarantee total scientific rigor, every assertion in the Knowledge Graph separates:
+1. **`evidence_type`**: The legal/formal genre of the source document.
+2. **`extraction_confidence`**: A floating-point metric ($0.0 - 1.0$) evaluating the precision and deterministic fidelity of the extraction parser.
+3. **`evidence_quality`**: The scientific and methodological validity of the underlying data.
+4. **`verification_status`**: The algorithmic validation gate state within the Knowledge Graph preparation pipeline.
+
+---
+
+## 2. Permitted Values & Validation Taxonomies
+
+### Axis 1: `evidence_type` (Document Genre)
+- `REGULATORY_STANDARD`: Consensus standard published by intergovernmental bodies (e.g., Codex Alimentarius CXS 192-1995).
+- `STATUTORY_GAZETTE`: National legislation and legal gazette notifications (e.g., FSSAI Gazette, US Federal Register, EU Official Journal).
+- `PEER_REVIEWED_JOURNAL`: Primary empirical paper published in an indexed food science journal (e.g., *Food Hydrocolloids*, *Journal of Food Engineering*).
+- `PATENT_SPECIFICATION`: Granted patent or published application (e.g., USPTO, EPO, WIPO).
+- `MANUFACTURER_TDS`: Commercial technical data sheet or product bulletin issued by an ingredient manufacturer.
+- `CERTIFICATE_OF_ANALYSIS`: Batch-specific analytical testing document issued by a quality assurance lab.
+- `COMMODITY_BULLETIN`: Official wholesale agricultural mandi or market report (e.g., AGMARKNET, USDA AMS).
+- `PRODUCT_PACKAGING_LABEL`: Retail packaging declaration crawled from physical packaging (e.g., Open Food Facts).
+- `EXPERT_DOMAIN_RULE`: Formalized consensus rule in food chemistry.
+
+### Axis 2: `extraction_confidence` (Parser Fidelity: Float 0.0 – 1.0)
+- `1.00`: **Direct Structured Deserialization**: Record parsed directly from structured JSON, relational DB, or validated CSV with explicit schema mapping.
+- `0.90 – 0.98`: **Deterministic Tabular Parsing**: Clean HTML table or PDF table with verified row/column bounding box alignment.
+- `0.75 – 0.85`: **Deterministic Pattern Extraction**: Verified regular expressions matching unambiguous syntax (e.g., E-number regex, CAS regex).
+- `0.50 – 0.70`: **Natural Language Processing / LLM Extraction**: Entity extraction from unstructured prose with manual or programmatic schema validation.
+- `< 0.50`: **Fuzzy / Heuristic Match**: Loose substring or similarity match. **Prohibited in production graph export.**
+
+### Axis 3: `evidence_quality` (Scientific & Empirical Rigor)
+- `GOLD_STANDARD_ANALYTICAL`: Direct quantitative laboratory measurement using recognized analytical standard methods (AOAC, ISO, IUPAC) with replicate trials.
+- `REGULATORY_CONSENSUS`: Statutorily enacted legal limit or permission voted into law by an authorized scientific panel (e.g., JECFA, EFSA ANS Panel).
+- `PEER_REVIEWED_EMPIRICAL`: Experimental research trial conducted with documented methodology, controls, and stated uncertainty.
+- `INDUSTRY_SELF_REPORTED`: Manufacturer-declared specification or typical analysis value not subject to independent certified laboratory audit.
+- `INFORMATIONAL_ESTIMATE`: Calculated by difference, estimated from recipe models, or cited from secondary literature reviews.
+- `LABEL_UNDISCLOSED`: Statutory consumer packaging declaration where exact proprietary formulation percentages are legally withheld.
+
+### Axis 4: `verification_status` (Pipeline Lifecycle State)
+- `SOURCE_VERIFIED`: Directly corroborated by primary source document with verified cryptographic hash and exact page/table citation.
+- `CALCULATION_VERIFIED`: Deterministically derived from verified raw measurements via validated dimensional algebra.
+- `DERIVED_RULE_VERIFIED`: Generated by declarative expert rule where all prerequisite entity bindings are `SOURCE_VERIFIED`.
+- `REQUIRES_EXPERT_REVIEW`: Data flagged for human food scientist inspection due to borderline values, conflict, or high variance.
+- `CONFLICT_DETECTED`: Discrepancy identified between multiple authoritative sources (e.g., differing regulatory limits across jurisdictions).
+- `UNVERIFIED`: Ingested without secondary validation. Prohibited from production optimization candidate sets.
+
+---
+
+## 3. Field-Level Provenance Specification
+
+Stored in Grounded DuckDB (`provenance` table) to maintain an audit trail for every numerical and categorical attribute.
+
+```sql
+CREATE TABLE IF NOT EXISTS provenance (
+    provenance_id VARCHAR PRIMARY KEY,
+    entity_id VARCHAR NOT NULL,
+    field_name VARCHAR NOT NULL,
+    field_value_extracted VARCHAR NOT NULL,
+    field_value_normalized VARCHAR NOT NULL,
+    source_dataset_id VARCHAR NOT NULL,
+    dataset_version VARCHAR NOT NULL,
+    source_file_path VARCHAR NOT NULL,
+    source_file_sha256 VARCHAR NOT NULL,
+    source_record_id VARCHAR NOT NULL,
+    source_location_detail VARCHAR,
+    extraction_method VARCHAR NOT NULL,
+    extraction_timestamp VARCHAR NOT NULL,
+    evidence_type VARCHAR NOT NULL,
+    extraction_confidence DOUBLE NOT NULL,
+    evidence_quality VARCHAR NOT NULL,
+    verification_status VARCHAR NOT NULL
+);
+```
+
+---
+
+## 4. Relationship-Level Provenance Specification
+
+Every edge in `output/Relationships/*.csv` follows the canonical snake_case contract and incorporates the four-axis provenance model:
+
+```
+relationship_id,source_id,source_type,relationship_type,target_id,target_type,source_dataset_id,source_record_id,extraction_confidence,evidence_id,verification_status
+```
+
+### Invariant Validation Rules
+1. **No Conflation of Extraction with Truth**: A high `extraction_confidence` ($1.0$) indicates only that the text was parsed perfectly. It does not elevate an `INFORMATIONAL_ESTIMATE` or an `UNVERIFIED` label claim into an empirical fact.
+2. **Explicit Evidence ID**: Whenever `evidence_type` is `REGULATORY_STANDARD`, `STATUTORY_GAZETTE`, `PEER_REVIEWED_JOURNAL`, or `PATENT_SPECIFICATION`, the `evidence_id` foreign key is **mandatory**.
+3. **Traceability Down to Document Page/Table**: An `Evidence` record must record `page_number`, `table_number`, or `paragraph_number` wherever accessible in the primary source document.

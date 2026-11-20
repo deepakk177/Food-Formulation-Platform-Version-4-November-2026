@@ -1,0 +1,189 @@
+{
+  "all_constraints": [
+    {
+      "name": "product_category REQUIRED Protein Bars / Functional Snacks",
+      "type": "PRODUCT_CATEGORY",
+      "weight": 0.9,
+      "hard_or_soft": "HARD",
+      "reason": "Extracted PRODUCT_CATEGORY requirement",
+      "source": "Product Brief Parser",
+      "parameter": "product_category",
+      "operator": "REQUIRED",
+      "target_value": "Protein Bars / Functional Snacks"
+    },
+    {
+      "name": "dietary_pattern FORBIDDEN animal_derived_ingredients",
+      "type": "DIETARY",
+      "weight": 0.95,
+      "hard_or_soft": "HARD",
+      "reason": "Mandatory dietary label claim (Vegan, Gluten-Free, Dairy-Free)",
+      "source": "Dietary Standard Rules",
+      "parameter": "dietary_pattern",
+      "operator": "FORBIDDEN",
+      "target_value": "animal_derived_ingredients"
+    },
+    {
+      "name": "protein_min >= 20.0",
+      "type": "NUTRITION",
+      "weight": 0.9,
+      "hard_or_soft": "HARD",
+      "reason": "Extracted NUTRITION requirement",
+      "source": "Product Brief Parser",
+      "parameter": "protein_min",
+      "operator": ">=",
+      "target_value": 20.0
+    },
+    {
+      "name": "fat_max <= 30.0",
+      "type": "NUTRITION",
+      "weight": 0.9,
+      "hard_or_soft": "HARD",
+      "reason": "Extracted NUTRITION requirement",
+      "source": "Product Brief Parser",
+      "parameter": "fat_max",
+      "operator": "<=",
+      "target_value": 30.0
+    },
+    {
+      "name": "max_raw_material_cost <= 12.0",
+      "type": "COST",
+      "weight": 0.85,
+      "hard_or_soft": "SOFT",
+      "reason": "Commercial raw material cost target per kg",
+      "source": "Commercial Cost Target",
+      "parameter": "max_raw_material_cost",
+      "operator": "<=",
+      "target_value": 12.0
+    },
+    {
+      "name": "water_activity <= 0.6",
+      "type": "PROCESSING",
+      "weight": 0.7,
+      "hard_or_soft": "SOFT",
+      "reason": "Extracted PROCESSING requirement",
+      "source": "Product Brief Parser",
+      "parameter": "water_activity",
+      "operator": "<=",
+      "target_value": 0.6
+    },
+    {
+      "name": "flavor_profile PREFERRED chocolate flavour",
+      "type": "SENSORY",
+      "weight": 0.7,
+      "hard_or_soft": "SOFT",
+      "reason": "Sensory flavor, visual color, and mouthfeel target profile",
+      "source": "Sensory Panel Targets",
+      "parameter": "flavor_profile",
+      "operator": "PREFERRED",
+      "target_value": "chocolate flavour"
+    },
+    {
+      "name": "shelf_stability >= 12 months",
+      "type": "SHELF_LIFE",
+      "weight": 0.75,
+      "hard_or_soft": "SOFT",
+      "reason": "Target ambient shelf stability requirement",
+      "source": "Quality Assurance Standard",
+      "parameter": "shelf_stability",
+      "operator": ">=",
+      "target_value": "12 months"
+    }
+  ],
+  "hard_constraints": [
+    {
+      "name": "product_category REQUIRED Protein Bars / Functional Snacks",
+      "type": "PRODUCT_CATEGORY",
+      "weight": 0.9,
+      "hard_or_soft": "HARD",
+      "reason": "Extracted PRODUCT_CATEGORY requirement",
+      "source": "Product Brief Parser",
+      "parameter": "product_category",
+      "operator": "REQUIRED",
+      "target_value": "Protein Bars / Functional Snacks"
+    },
+    {
+      "name": "dietary_pattern FORBIDDEN animal_derived_ingredients",
+      "type": "DIETARY",
+      "weight": 0.95,
+      "hard_or_soft": "HARD",
+      "reason": "Mandatory dietary label claim (Vegan, Gluten-Free, Dairy-Free)",
+      "source": "Dietary Standard Rules",
+      "parameter": "dietary_pattern",
+      "operator": "FORBIDDEN",
+      "target_value": "animal_derived_ingredients"
+    },
+    {
+      "name": "protein_min >= 20.0",
+      "type": "NUTRITION",
+      "weight": 0.9,
+      "hard_or_soft": "HARD",
+      "reason": "Extracted NUTRITION requirement",
+      "source": "Product Brief Parser",
+      "parameter": "protein_min",
+      "operator": ">=",
+      "target_value": 20.0
+    },
+    {
+      "name": "fat_max <= 30.0",
+      "type": "NUTRITION",
+      "weight": 0.9,
+      "hard_or_soft": "HARD",
+      "reason": "Extracted NUTRITION requirement",
+      "source": "Product Brief Parser",
+      "parameter": "fat_max",
+      "operator": "<=",
+      "target_value": 30.0
+    }
+  ],
+  "soft_constraints": [
+    {
+      "name": "max_raw_material_cost <= 12.0",
+      "type": "COST",
+      "weight": 0.85,
+      "hard_or_soft": "SOFT",
+      "reason": "Commercial raw material cost target per kg",
+      "source": "Commercial Cost Target",
+      "parameter": "max_raw_material_cost",
+      "operator": "<=",
+      "target_value": 12.0
+    },
+    {
+      "name": "water_activity <= 0.6",
+      "type": "PROCESSING",
+      "weight": 0.7,
+      "hard_or_soft": "SOFT",
+      "reason": "Extracted PROCESSING requirement",
+      "source": "Product Brief Parser",
+      "parameter": "water_activity",
+      "operator": "<=",
+      "target_value": 0.6
+    },
+    {
+      "name": "flavor_profile PREFERRED chocolate flavour",
+      "type": "SENSORY",
+      "weight": 0.7,
+      "hard_or_soft": "SOFT",
+      "reason": "Sensory flavor, visual color, and mouthfeel target profile",
+      "source": "Sensory Panel Targets",
+      "parameter": "flavor_profile",
+      "operator": "PREFERRED",
+      "target_value": "chocolate flavour"
+    },
+    {
+      "name": "shelf_stability >= 12 months",
+      "type": "SHELF_LIFE",
+      "weight": 0.75,
+      "hard_or_soft": "SOFT",
+      "reason": "Target ambient shelf stability requirement",
+      "source": "Quality Assurance Standard",
+      "parameter": "shelf_stability",
+      "operator": ">=",
+      "target_value": "12 months"
+    }
+  ],
+  "priority_distribution": {
+    "hard_count": 4,
+    "soft_count": 4,
+    "total_count": 8
+  }
+}

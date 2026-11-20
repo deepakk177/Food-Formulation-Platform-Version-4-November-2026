@@ -1,0 +1,233 @@
+{
+  "status": "REQUIRES_EVIDENCE",
+  "hard_constraint_results": [
+    {
+      "constraint": "dietary_pattern FORBIDDEN animal_derived_ingredients",
+      "result": "PASS",
+      "evidence": "Ingredient Catalog Dietary Flags",
+      "reason": "Animal-derived check"
+    }
+  ],
+  "property_completeness_results": [
+    {
+      "ingredient": "Water",
+      "status": "REQUIRES_EVIDENCE",
+      "missing_properties": [
+        "regulatory_status"
+      ]
+    },
+    {
+      "ingredient": "animal fat or oil refined food product",
+      "status": "REQUIRES_EVIDENCE",
+      "missing_properties": [
+        "regulatory_status"
+      ]
+    },
+    {
+      "ingredient": "High Fructose Corn Syrup",
+      "status": "REQUIRES_EVIDENCE",
+      "missing_properties": [
+        "regulatory_status"
+      ]
+    },
+    {
+      "ingredient": "Fava Bean Protein Isolate",
+      "status": "PASS",
+      "missing_properties": []
+    },
+    {
+      "ingredient": "obsolete: leguminous food product",
+      "status": "REQUIRES_EVIDENCE",
+      "missing_properties": [
+        "regulatory_status"
+      ]
+    },
+    {
+      "ingredient": "Polysorbate 80",
+      "status": "REQUIRES_EVIDENCE",
+      "missing_properties": [
+        "regulatory_status"
+      ]
+    },
+    {
+      "ingredient": "Natural Chocolate Flavor",
+      "status": "REQUIRES_EVIDENCE",
+      "missing_properties": [
+        "regulatory_status"
+      ]
+    }
+  ],
+  "regulatory_results": [
+    {
+      "ingredient": "Water",
+      "permitted": false,
+      "ins_number": null,
+      "status": "UNKNOWN",
+      "jurisdiction": "FSSAI / FDA / Codex"
+    },
+    {
+      "ingredient": "animal fat or oil refined food product",
+      "permitted": false,
+      "ins_number": null,
+      "status": "UNKNOWN",
+      "jurisdiction": "FSSAI / FDA / Codex"
+    },
+    {
+      "ingredient": "High Fructose Corn Syrup",
+      "permitted": false,
+      "ins_number": null,
+      "status": "UNKNOWN",
+      "jurisdiction": "FSSAI / FDA / Codex"
+    },
+    {
+      "ingredient": "Fava Bean Protein Isolate",
+      "permitted": true,
+      "ins_number": null,
+      "status": "Permitted",
+      "jurisdiction": "FSSAI / FDA / Codex"
+    },
+    {
+      "ingredient": "obsolete: leguminous food product",
+      "permitted": false,
+      "ins_number": null,
+      "status": "UNKNOWN",
+      "jurisdiction": "FSSAI / FDA / Codex"
+    },
+    {
+      "ingredient": "Polysorbate 80",
+      "permitted": false,
+      "ins_number": null,
+      "status": "UNKNOWN",
+      "jurisdiction": "FSSAI / FDA / Codex"
+    },
+    {
+      "ingredient": "Natural Chocolate Flavor",
+      "permitted": false,
+      "ins_number": null,
+      "status": "UNKNOWN",
+      "jurisdiction": "FSSAI / FDA / Codex"
+    }
+  ],
+  "regional_compliance": {
+    "FSSAI": {
+      "status": "Warning",
+      "alerts": [
+        "Requires Evidence: Additive 'Polysorbate 80' (No INS) requires regional dossier verification.",
+        "Partial regulatory clearance: Some ingredients require technical dossier verification."
+      ],
+      "verified_count": 6,
+      "total_evaluated": 7
+    },
+    "FDA": {
+      "status": "Warning",
+      "alerts": [
+        "Requires Evidence: Additive 'Polysorbate 80' (No INS) requires regional dossier verification.",
+        "Partial regulatory clearance: Some ingredients require technical dossier verification."
+      ],
+      "verified_count": 6,
+      "total_evaluated": 7
+    },
+    "EFSA": {
+      "status": "Warning",
+      "alerts": [
+        "Requires Evidence: Additive 'Polysorbate 80' (No INS) requires regional dossier verification.",
+        "Partial regulatory clearance: Some ingredients require technical dossier verification."
+      ],
+      "verified_count": 6,
+      "total_evaluated": 7
+    }
+  },
+  "allergen_results": [
+    {
+      "ingredient": "Water",
+      "allergen": "None Declared",
+      "status": "PASS"
+    },
+    {
+      "ingredient": "animal fat or oil refined food product",
+      "allergen": "None Declared",
+      "status": "PASS"
+    },
+    {
+      "ingredient": "High Fructose Corn Syrup",
+      "allergen": "None Declared",
+      "status": "PASS"
+    },
+    {
+      "ingredient": "Fava Bean Protein Isolate",
+      "allergen": "None Declared",
+      "status": "PASS"
+    },
+    {
+      "ingredient": "obsolete: leguminous food product",
+      "allergen": "None Declared",
+      "status": "PASS"
+    },
+    {
+      "ingredient": "Polysorbate 80",
+      "allergen": "None Declared",
+      "status": "PASS"
+    },
+    {
+      "ingredient": "Natural Chocolate Flavor",
+      "allergen": "None Declared",
+      "status": "PASS"
+    }
+  ],
+  "compatibility_results": [],
+  "groundedness_results": [
+    {
+      "claim": "Water (General)",
+      "source": "Neo4j KG",
+      "grounded": true
+    },
+    {
+      "claim": "animal fat or oil refined food product (Lipid Source)",
+      "source": "Neo4j KG",
+      "grounded": true
+    },
+    {
+      "claim": "High Fructose Corn Syrup (Sweetener)",
+      "source": "Neo4j KG",
+      "grounded": true
+    },
+    {
+      "claim": "Fava Bean Protein Isolate (Protein Source)",
+      "source": "Grounded Repository DB",
+      "grounded": true
+    },
+    {
+      "claim": "obsolete: leguminous food product (General)",
+      "source": "Neo4j KG",
+      "grounded": true
+    },
+    {
+      "claim": "Polysorbate 80 (Emulsifier)",
+      "source": "Neo4j KG",
+      "grounded": true
+    },
+    {
+      "claim": "Natural Chocolate Flavor (General)",
+      "source": "Neo4j KG",
+      "grounded": true
+    }
+  ],
+  "mass_balance_result": {
+    "total_percentage": 100.0,
+    "target_percentage": 100.0,
+    "is_feasible": true,
+    "status": "PASS"
+  },
+  "failure_reasons": [],
+  "requires_evidence_reasons": [
+    "Ingredient 'Water' has unverified properties: regulatory_status.",
+    "Ingredient 'animal fat or oil refined food product' has unverified properties: regulatory_status.",
+    "Ingredient 'High Fructose Corn Syrup' has unverified properties: regulatory_status.",
+    "Ingredient 'obsolete: leguminous food product' has unverified properties: regulatory_status.",
+    "Ingredient 'Polysorbate 80' has unverified properties: regulatory_status.",
+    "Ingredient 'Natural Chocolate Flavor' has unverified properties: regulatory_status."
+  ],
+  "iteration_number": 1,
+  "max_iterations": 3,
+  "iteration_recommendation": "Expand retrieval to gather missing regulatory and provenance evidence"
+}

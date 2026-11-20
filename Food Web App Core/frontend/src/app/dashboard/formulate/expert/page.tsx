@@ -101,6 +101,7 @@ export default function ExpertFormulator() {
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({
           query: `Expert balance: ${chosen.map(x => `${x.name} (${x.percentage}%)`).join(', ')}`,
+          composition: composition,
           constraints: {
             vegan: chosen.some(x => x.allergen === 'Milk' || x.allergen === 'Egg') ? false : true,
             gluten_free: chosen.some(x => x.allergen === 'Gluten') ? false : true

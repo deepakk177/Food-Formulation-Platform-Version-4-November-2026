@@ -1,0 +1,254 @@
+{
+  "status": "PASS",
+  "hard_constraint_results": [
+    {
+      "constraint": "product_category REQUIRED Protein Bars / Functional Snacks",
+      "result": "PASS",
+      "evidence": "Rule Evaluator",
+      "reason": "Satisfied"
+    },
+    {
+      "constraint": "dairy FORBIDDEN milk_and_dairy_derivatives",
+      "result": "PASS",
+      "evidence": "Rule Evaluator",
+      "reason": "Satisfied"
+    },
+    {
+      "constraint": "protein_min >= 5.0",
+      "result": "PASS",
+      "evidence": "Calculated Nutrition Yield",
+      "reason": "Actual 5.0% vs required 5.0%"
+    },
+    {
+      "constraint": "sugar_max <= 30.0",
+      "result": "PASS",
+      "evidence": "Rule Evaluator",
+      "reason": "Satisfied"
+    },
+    {
+      "constraint": "cocoa_butter >= 25.0",
+      "result": "PASS",
+      "evidence": "Rule Evaluator",
+      "reason": "Satisfied"
+    }
+  ],
+  "property_completeness_results": [
+    {
+      "ingredient": "sugar (artificially vanilla-flavored)",
+      "status": "PASS",
+      "missing_properties": []
+    },
+    {
+      "ingredient": "chili bean made from soy protein",
+      "status": "PASS",
+      "missing_properties": []
+    },
+    {
+      "ingredient": "Refined Canola Oil (High Smoke Point)",
+      "status": "PASS",
+      "missing_properties": []
+    },
+    {
+      "ingredient": "pan coating, lecithin-based, edible",
+      "status": "PASS",
+      "missing_properties": []
+    },
+    {
+      "ingredient": "Vanilla Flavour (Nature Identical Vanillin)",
+      "status": "PASS",
+      "missing_properties": []
+    },
+    {
+      "ingredient": "Natural Sea Salt",
+      "status": "PASS",
+      "missing_properties": []
+    },
+    {
+      "ingredient": "Potassium Sorbate (INS 202)",
+      "status": "PASS",
+      "missing_properties": []
+    }
+  ],
+  "regulatory_results": [
+    {
+      "ingredient": "sugar (artificially vanilla-flavored)",
+      "permitted": true,
+      "ins_number": null,
+      "status": "Permitted",
+      "jurisdiction": "FSSAI / FDA / Codex"
+    },
+    {
+      "ingredient": "chili bean made from soy protein",
+      "permitted": true,
+      "ins_number": null,
+      "status": "Permitted",
+      "jurisdiction": "FSSAI / FDA / Codex"
+    },
+    {
+      "ingredient": "Refined Canola Oil (High Smoke Point)",
+      "permitted": true,
+      "ins_number": null,
+      "status": "Permitted",
+      "jurisdiction": "FSSAI / FDA / Codex"
+    },
+    {
+      "ingredient": "pan coating, lecithin-based, edible",
+      "permitted": true,
+      "ins_number": null,
+      "status": "Permitted",
+      "jurisdiction": "FSSAI / FDA / Codex"
+    },
+    {
+      "ingredient": "Vanilla Flavour (Nature Identical Vanillin)",
+      "permitted": true,
+      "ins_number": null,
+      "status": "Permitted",
+      "jurisdiction": "FSSAI / FDA / Codex"
+    },
+    {
+      "ingredient": "Natural Sea Salt",
+      "permitted": true,
+      "ins_number": null,
+      "status": "Permitted",
+      "jurisdiction": "FSSAI / FDA / Codex"
+    },
+    {
+      "ingredient": "Potassium Sorbate (INS 202)",
+      "permitted": true,
+      "ins_number": null,
+      "status": "Permitted",
+      "jurisdiction": "FSSAI / FDA / Codex"
+    }
+  ],
+  "regional_compliance": {
+    "FSSAI": {
+      "status": "Warning",
+      "alerts": [
+        "Requires Evidence: Additive 'pan coating, lecithin-based, edible' (No INS) requires regional dossier verification.",
+        "Requires Evidence: Additive 'Potassium Sorbate (INS 202)' (No INS) requires regional dossier verification.",
+        "Partial regulatory clearance: Some ingredients require technical dossier verification."
+      ],
+      "verified_count": 5,
+      "total_evaluated": 7
+    },
+    "FDA": {
+      "status": "Warning",
+      "alerts": [
+        "Requires Evidence: Additive 'pan coating, lecithin-based, edible' (No INS) requires regional dossier verification.",
+        "Requires Evidence: Additive 'Potassium Sorbate (INS 202)' (No INS) requires regional dossier verification.",
+        "Partial regulatory clearance: Some ingredients require technical dossier verification."
+      ],
+      "verified_count": 5,
+      "total_evaluated": 7
+    },
+    "EFSA": {
+      "status": "Warning",
+      "alerts": [
+        "Requires Evidence: Additive 'pan coating, lecithin-based, edible' (No INS) requires regional dossier verification.",
+        "Requires Evidence: Additive 'Potassium Sorbate (INS 202)' (No INS) requires regional dossier verification.",
+        "Partial regulatory clearance: Some ingredients require technical dossier verification."
+      ],
+      "verified_count": 5,
+      "total_evaluated": 7
+    }
+  },
+  "allergen_results": [
+    {
+      "ingredient": "sugar (artificially vanilla-flavored)",
+      "allergen": "None Declared",
+      "status": "PASS"
+    },
+    {
+      "ingredient": "chili bean made from soy protein",
+      "allergen": "None Declared",
+      "status": "PASS"
+    },
+    {
+      "ingredient": "Refined Canola Oil (High Smoke Point)",
+      "allergen": "None Declared",
+      "status": "PASS"
+    },
+    {
+      "ingredient": "pan coating, lecithin-based, edible",
+      "allergen": "None Declared",
+      "status": "PASS"
+    },
+    {
+      "ingredient": "Vanilla Flavour (Nature Identical Vanillin)",
+      "allergen": "None Declared",
+      "status": "PASS"
+    },
+    {
+      "ingredient": "Natural Sea Salt",
+      "allergen": "None Declared",
+      "status": "PASS"
+    },
+    {
+      "ingredient": "Potassium Sorbate (INS 202)",
+      "allergen": "None Declared",
+      "status": "PASS"
+    }
+  ],
+  "compatibility_results": [
+    {
+      "issue": "Sweetness potentiation & bitterness suppression",
+      "status": "Synergistic"
+    },
+    {
+      "issue": "Lipid dispersion & interfacial film stability",
+      "status": "Synergistic"
+    },
+    {
+      "issue": "Surface-active interfacial emulsion film formation",
+      "status": "Synergistic"
+    }
+  ],
+  "groundedness_results": [
+    {
+      "claim": "sugar (artificially vanilla-flavored) (Flavor System)",
+      "source": "Grounded Repository DB",
+      "grounded": true
+    },
+    {
+      "claim": "chili bean made from soy protein (Protein Source)",
+      "source": "Grounded Repository DB",
+      "grounded": true
+    },
+    {
+      "claim": "Refined Canola Oil (High Smoke Point) (Fats & Oils)",
+      "source": "Journal of the American Oil Chemists' Society",
+      "grounded": true
+    },
+    {
+      "claim": "pan coating, lecithin-based, edible (Emulsifier)",
+      "source": "Grounded Repository DB",
+      "grounded": true
+    },
+    {
+      "claim": "Vanilla Flavour (Nature Identical Vanillin) (Flavor System)",
+      "source": "Flavor and Fragrance Journal",
+      "grounded": true
+    },
+    {
+      "claim": "Natural Sea Salt (Flavor System)",
+      "source": "USDA FDC",
+      "grounded": true
+    },
+    {
+      "claim": "Potassium Sorbate (INS 202) (Preservative)",
+      "source": "FSSAI Schedule II / Codex GSFA",
+      "grounded": true
+    }
+  ],
+  "mass_balance_result": {
+    "total_percentage": 100.0,
+    "target_percentage": 100.0,
+    "is_feasible": true,
+    "status": "PASS"
+  },
+  "failure_reasons": [],
+  "requires_evidence_reasons": [],
+  "iteration_number": 1,
+  "max_iterations": 3,
+  "iteration_recommendation": "Proceed to Multi-Objective Scoring & Ranking"
+}

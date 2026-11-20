@@ -1,0 +1,67 @@
+{
+  "nodes": [
+    {
+      "id": "PROD-001",
+      "type": "ProductBrief",
+      "value": "Target Product (Sauces / Spreads / Emulsified Products)",
+      "source": "User Product Brief"
+    },
+    {
+      "id": "CONST-001",
+      "type": "Product_CategoryConstraintNode",
+      "value": "product_category REQUIRED Sauces / Spreads / Emulsified Products",
+      "source": "Create a functional turmeric and black pepper golden tahini "
+    },
+    {
+      "id": "CONST-002",
+      "type": "NutritionConstraintNode",
+      "value": "protein_min >= 8.0 %",
+      "source": "8% protein"
+    },
+    {
+      "id": "CONST-003",
+      "type": "SensoryConstraintNode",
+      "value": "texture_profile PREFERRED Smooth",
+      "source": "smooth"
+    },
+    {
+      "id": "CONST-004",
+      "type": "Shelf_LifeConstraintNode",
+      "value": "shelf_stability REQUIRED 9-month",
+      "source": "ambient"
+    }
+  ],
+  "edges": [
+    {
+      "source": "PROD-001",
+      "relationship": "HAS_CONSTRAINT",
+      "target": "CONST-001"
+    },
+    {
+      "source": "PROD-001",
+      "relationship": "HAS_NUTRITION_CONSTRAINT",
+      "target": "CONST-002"
+    },
+    {
+      "source": "PROD-001",
+      "relationship": "HAS_SENSORY_CONSTRAINT",
+      "target": "CONST-003"
+    },
+    {
+      "source": "PROD-001",
+      "relationship": "HAS_PROCESSING_CONSTRAINT",
+      "target": "CONST-004"
+    }
+  ],
+  "summary": {
+    "Nutrition Constraints": 1,
+    "Functional Constraints": 0,
+    "Sensory Constraints": 1,
+    "Regulatory Constraints": 0,
+    "Cost Constraints": 0,
+    "Ingredient Restrictions": 0,
+    "Processing Constraints": 1,
+    "Graph Nodes": 5,
+    "Graph Edges": 4
+  }
+}

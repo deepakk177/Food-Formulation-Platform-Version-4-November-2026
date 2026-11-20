@@ -1,6 +1,6 @@
 source_name,records_found,records_validated,unique_entities,new_entities_after_deduplication
 FoodOn,20,20,20,20
-USDA FoodData Central,20,20,20,20
+USDA FoodData Central,1,1,1,1
 ICMR-NIN IFCT 2017,20,20,20,20
 PubChem / FEMA Library,20,20,20,20
 FSSAI,20,20,20,20

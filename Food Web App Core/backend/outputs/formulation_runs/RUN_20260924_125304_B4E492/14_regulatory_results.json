@@ -1,0 +1,65 @@
+[
+  {
+    "ingredient": "Refined Cane Sugar (Granulated)",
+    "permitted": true,
+    "ins_number": null,
+    "status": "Permitted",
+    "jurisdiction": "FSSAI / FDA / Codex"
+  },
+  {
+    "ingredient": "Fava Bean Protein Isolate",
+    "permitted": true,
+    "ins_number": null,
+    "status": "Permitted",
+    "jurisdiction": "FSSAI / FDA / Codex"
+  },
+  {
+    "ingredient": "Coconut MCT Oil Powder (70%)",
+    "permitted": true,
+    "ins_number": null,
+    "status": "Permitted",
+    "jurisdiction": "FSSAI / FDA / Codex"
+  },
+  {
+    "ingredient": "Cocoa Solids / Cocoa Liquor (Mass)",
+    "permitted": true,
+    "ins_number": null,
+    "status": "Permitted",
+    "jurisdiction": "FSSAI / FDA / Codex"
+  },
+  {
+    "ingredient": "chewing gum containing breath freshener",
+    "permitted": true,
+    "ins_number": null,
+    "status": "Permitted",
+    "jurisdiction": "FSSAI / FDA / Codex"
+  },
+  {
+    "ingredient": "Ammonium Phosphatides (INS 442)",
+    "permitted": true,
+    "ins_number": null,
+    "status": "Permitted",
+    "jurisdiction": "FSSAI / FDA / Codex"
+  },
+  {
+    "ingredient": "Vanilla Flavour (Nature Identical Vanillin)",
+    "permitted": true,
+    "ins_number": null,
+    "status": "Permitted",
+    "jurisdiction": "FSSAI / FDA / Codex"
+  },
+  {
+    "ingredient": "Natural Sea Salt",
+    "permitted": true,
+    "ins_number": null,
+    "status": "Permitted",
+    "jurisdiction": "FSSAI / FDA / Codex"
+  },
+  {
+    "ingredient": "Potassium Sorbate (INS 202)",
+    "permitted": true,
+    "ins_number": null,
+    "status": "Permitted",
+    "jurisdiction": "FSSAI / FDA / Codex"
+  }
+]

@@ -1,0 +1,47 @@
+[
+  {
+    "claim": "Refined Cane Sugar (Granulated) (Sweetener)",
+    "source": "Grounded Repository DB",
+    "grounded": true
+  },
+  {
+    "claim": "Fava Bean Protein Isolate (Protein Source)",
+    "source": "Grounded Repository DB",
+    "grounded": true
+  },
+  {
+    "claim": "Coconut MCT Oil Powder (70%) (Fats & Oils)",
+    "source": "Grounded Repository DB",
+    "grounded": true
+  },
+  {
+    "claim": "Cocoa Solids / Cocoa Liquor (Mass) (Cocoa Solids)",
+    "source": "Grounded Repository DB",
+    "grounded": true
+  },
+  {
+    "claim": "chewing gum containing breath freshener (Emulsifier)",
+    "source": "Grounded Repository DB",
+    "grounded": true
+  },
+  {
+    "claim": "Ammonium Phosphatides (INS 442) (Emulsifier)",
+    "source": "Grounded Repository DB",
+    "grounded": true
+  },
+  {
+    "claim": "Vanilla Flavour (Nature Identical Vanillin) (Flavor System)",
+    "source": "Grounded Repository DB",
+    "grounded": true
+  },
+  {
+    "claim": "Natural Sea Salt (Flavor System)",
+    "source": "Grounded Repository DB",
+    "grounded": true
+  },
+  {
+    "claim": "Potassium Sorbate (INS 202) (Preservative)",
+    "source": "Grounded Repository DB",
+    "grounded": true
+  }
+]

@@ -59,56 +59,6 @@ function ComplianceDashboardContent() {
         }
       }
 
-      // If backend returns empty records, provide realistic initial records
-      if (allRecords.length === 0) {
-        allRecords.push(
-          {
-            project_name: 'Gluten-Free Sandwich Bread',
-            project_category: 'Bakery',
-            formulation_id: 'FORM_001',
-            version: 'V1.0',
-            compliance: {
-              FDA: { status: 'Passed', alerts: [] },
-              FSSAI: { status: 'Passed', alerts: [] },
-              EFSA: { status: 'Passed', alerts: [] }
-            }
-          },
-          {
-            project_name: 'Energy Bar',
-            project_category: 'Energy Bar',
-            formulation_id: 'FORM_002',
-            version: 'V1.0',
-            compliance: {
-              FSSAI: { status: 'Warning', alerts: ['High sodium content relative to RDA threshold.'] },
-              FDA: { status: 'Passed', alerts: [] },
-              EFSA: { status: 'Warning', alerts: ['Novel food declaration required for added pea protein isolate.'] }
-            }
-          },
-          {
-            project_name: 'Cranberry Delight',
-            project_category: 'Protein Bar',
-            formulation_id: 'FORM_003',
-            version: 'V1.0',
-            compliance: {
-              FSSAI: { status: 'Warning', alerts: ['Sugar density exceeds low-sugar claim limits.'] },
-              FDA: { status: 'Passed', alerts: [] },
-              EFSA: { status: 'Passed', alerts: [] }
-            }
-          },
-          {
-            project_name: 'Grounded AI Chocolate Bar Formulation',
-            project_category: 'Chocolate Bar',
-            formulation_id: 'FORM_004',
-            version: 'V1.0',
-            compliance: {
-              FSSAI: { status: 'Passed', alerts: [] },
-              FDA: { status: 'Passed', alerts: [] },
-              EFSA: { status: 'Passed', alerts: [] }
-            }
-          }
-        );
-      }
-
       setRecords(allRecords);
 
       // Auto-select if fid is in query param or pick first

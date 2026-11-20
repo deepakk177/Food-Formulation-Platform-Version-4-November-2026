@@ -1,0 +1,277 @@
+{
+  "all_constraints": [
+    {
+      "name": "product_category REQUIRED Protein Bars / Functional Snacks",
+      "type": "PRODUCT_CATEGORY",
+      "weight": 0.9,
+      "hard_or_soft": "HARD",
+      "reason": "Extracted PRODUCT_CATEGORY requirement",
+      "source": "Product Brief Parser",
+      "parameter": "product_category",
+      "operator": "REQUIRED",
+      "target_value": "Protein Bars / Functional Snacks"
+    },
+    {
+      "name": "dairy FORBIDDEN milk_and_dairy_derivatives",
+      "type": "ALLERGEN",
+      "weight": 1.0,
+      "hard_or_soft": "HARD",
+      "reason": "Mandatory consumer allergen exclusion and cross-contact safety",
+      "source": "Allergen Exclusion Rules",
+      "parameter": "dairy",
+      "operator": "FORBIDDEN",
+      "target_value": "milk_and_dairy_derivatives"
+    },
+    {
+      "name": "protein_min >= 5.0",
+      "type": "NUTRITION",
+      "weight": 0.9,
+      "hard_or_soft": "HARD",
+      "reason": "Extracted NUTRITION requirement",
+      "source": "Product Brief Parser",
+      "parameter": "protein_min",
+      "operator": ">=",
+      "target_value": 5.0
+    },
+    {
+      "name": "sugar_max <= 30.0",
+      "type": "NUTRITION",
+      "weight": 0.9,
+      "hard_or_soft": "HARD",
+      "reason": "Extracted NUTRITION requirement",
+      "source": "Product Brief Parser",
+      "parameter": "sugar_max",
+      "operator": "<=",
+      "target_value": 30.0
+    },
+    {
+      "name": "cocoa_butter >= 25.0",
+      "type": "INGREDIENT_RESTRICTION",
+      "weight": 0.9,
+      "hard_or_soft": "HARD",
+      "reason": "Extracted INGREDIENT_RESTRICTION requirement",
+      "source": "Product Brief Parser",
+      "parameter": "cocoa_butter",
+      "operator": ">=",
+      "target_value": 25.0
+    },
+    {
+      "name": "texture_profile PREFERRED Creamy Melt",
+      "type": "SENSORY",
+      "weight": 0.7,
+      "hard_or_soft": "SOFT",
+      "reason": "Sensory flavor, visual color, and mouthfeel target profile",
+      "source": "Sensory Panel Targets",
+      "parameter": "texture_profile",
+      "operator": "PREFERRED",
+      "target_value": "Creamy Melt"
+    },
+    {
+      "name": "texture_profile PREFERRED Smooth",
+      "type": "SENSORY",
+      "weight": 0.7,
+      "hard_or_soft": "SOFT",
+      "reason": "Sensory flavor, visual color, and mouthfeel target profile",
+      "source": "Sensory Panel Targets",
+      "parameter": "texture_profile",
+      "operator": "PREFERRED",
+      "target_value": "Smooth"
+    },
+    {
+      "name": "flavor_profile PREFERRED cocoa flavour",
+      "type": "SENSORY",
+      "weight": 0.7,
+      "hard_or_soft": "SOFT",
+      "reason": "Sensory flavor, visual color, and mouthfeel target profile",
+      "source": "Sensory Panel Targets",
+      "parameter": "flavor_profile",
+      "operator": "PREFERRED",
+      "target_value": "cocoa flavour"
+    },
+    {
+      "name": "flavor_profile PREFERRED chocolate flavour",
+      "type": "SENSORY",
+      "weight": 0.7,
+      "hard_or_soft": "SOFT",
+      "reason": "Sensory flavor, visual color, and mouthfeel target profile",
+      "source": "Sensory Panel Targets",
+      "parameter": "flavor_profile",
+      "operator": "PREFERRED",
+      "target_value": "chocolate flavour"
+    },
+    {
+      "name": "flavor_profile PREFERRED vanilla flavour",
+      "type": "SENSORY",
+      "weight": 0.7,
+      "hard_or_soft": "SOFT",
+      "reason": "Sensory flavor, visual color, and mouthfeel target profile",
+      "source": "Sensory Panel Targets",
+      "parameter": "flavor_profile",
+      "operator": "PREFERRED",
+      "target_value": "vanilla flavour"
+    },
+    {
+      "name": "flavor_profile PREFERRED caramel flavour",
+      "type": "SENSORY",
+      "weight": 0.7,
+      "hard_or_soft": "SOFT",
+      "reason": "Sensory flavor, visual color, and mouthfeel target profile",
+      "source": "Sensory Panel Targets",
+      "parameter": "flavor_profile",
+      "operator": "PREFERRED",
+      "target_value": "caramel flavour"
+    },
+    {
+      "name": "shelf_stability >= 12-month",
+      "type": "SHELF_LIFE",
+      "weight": 0.75,
+      "hard_or_soft": "SOFT",
+      "reason": "Target ambient shelf stability requirement",
+      "source": "Quality Assurance Standard",
+      "parameter": "shelf_stability",
+      "operator": ">=",
+      "target_value": "12-month"
+    }
+  ],
+  "hard_constraints": [
+    {
+      "name": "product_category REQUIRED Protein Bars / Functional Snacks",
+      "type": "PRODUCT_CATEGORY",
+      "weight": 0.9,
+      "hard_or_soft": "HARD",
+      "reason": "Extracted PRODUCT_CATEGORY requirement",
+      "source": "Product Brief Parser",
+      "parameter": "product_category",
+      "operator": "REQUIRED",
+      "target_value": "Protein Bars / Functional Snacks"
+    },
+    {
+      "name": "dairy FORBIDDEN milk_and_dairy_derivatives",
+      "type": "ALLERGEN",
+      "weight": 1.0,
+      "hard_or_soft": "HARD",
+      "reason": "Mandatory consumer allergen exclusion and cross-contact safety",
+      "source": "Allergen Exclusion Rules",
+      "parameter": "dairy",
+      "operator": "FORBIDDEN",
+      "target_value": "milk_and_dairy_derivatives"
+    },
+    {
+      "name": "protein_min >= 5.0",
+      "type": "NUTRITION",
+      "weight": 0.9,
+      "hard_or_soft": "HARD",
+      "reason": "Extracted NUTRITION requirement",
+      "source": "Product Brief Parser",
+      "parameter": "protein_min",
+      "operator": ">=",
+      "target_value": 5.0
+    },
+    {
+      "name": "sugar_max <= 30.0",
+      "type": "NUTRITION",
+      "weight": 0.9,
+      "hard_or_soft": "HARD",
+      "reason": "Extracted NUTRITION requirement",
+      "source": "Product Brief Parser",
+      "parameter": "sugar_max",
+      "operator": "<=",
+      "target_value": 30.0
+    },
+    {
+      "name": "cocoa_butter >= 25.0",
+      "type": "INGREDIENT_RESTRICTION",
+      "weight": 0.9,
+      "hard_or_soft": "HARD",
+      "reason": "Extracted INGREDIENT_RESTRICTION requirement",
+      "source": "Product Brief Parser",
+      "parameter": "cocoa_butter",
+      "operator": ">=",
+      "target_value": 25.0
+    }
+  ],
+  "soft_constraints": [
+    {
+      "name": "texture_profile PREFERRED Creamy Melt",
+      "type": "SENSORY",
+      "weight": 0.7,
+      "hard_or_soft": "SOFT",
+      "reason": "Sensory flavor, visual color, and mouthfeel target profile",
+      "source": "Sensory Panel Targets",
+      "parameter": "texture_profile",
+      "operator": "PREFERRED",
+      "target_value": "Creamy Melt"
+    },
+    {
+      "name": "texture_profile PREFERRED Smooth",
+      "type": "SENSORY",
+      "weight": 0.7,
+      "hard_or_soft": "SOFT",
+      "reason": "Sensory flavor, visual color, and mouthfeel target profile",
+      "source": "Sensory Panel Targets",
+      "parameter": "texture_profile",
+      "operator": "PREFERRED",
+      "target_value": "Smooth"
+    },
+    {
+      "name": "flavor_profile PREFERRED cocoa flavour",
+      "type": "SENSORY",
+      "weight": 0.7,
+      "hard_or_soft": "SOFT",
+      "reason": "Sensory flavor, visual color, and mouthfeel target profile",
+      "source": "Sensory Panel Targets",
+      "parameter": "flavor_profile",
+      "operator": "PREFERRED",
+      "target_value": "cocoa flavour"
+    },
+    {
+      "name": "flavor_profile PREFERRED chocolate flavour",
+      "type": "SENSORY",
+      "weight": 0.7,
+      "hard_or_soft": "SOFT",
+      "reason": "Sensory flavor, visual color, and mouthfeel target profile",
+      "source": "Sensory Panel Targets",
+      "parameter": "flavor_profile",
+      "operator": "PREFERRED",
+      "target_value": "chocolate flavour"
+    },
+    {
+      "name": "flavor_profile PREFERRED vanilla flavour",
+      "type": "SENSORY",
+      "weight": 0.7,
+      "hard_or_soft": "SOFT",
+      "reason": "Sensory flavor, visual color, and mouthfeel target profile",
+      "source": "Sensory Panel Targets",
+      "parameter": "flavor_profile",
+      "operator": "PREFERRED",
+      "target_value": "vanilla flavour"
+    },
+    {
+      "name": "flavor_profile PREFERRED caramel flavour",
+      "type": "SENSORY",
+      "weight": 0.7,
+      "hard_or_soft": "SOFT",
+      "reason": "Sensory flavor, visual color, and mouthfeel target profile",
+      "source": "Sensory Panel Targets",
+      "parameter": "flavor_profile",
+      "operator": "PREFERRED",
+      "target_value": "caramel flavour"
+    },
+    {
+      "name": "shelf_stability >= 12-month",
+      "type": "SHELF_LIFE",
+      "weight": 0.75,
+      "hard_or_soft": "SOFT",
+      "reason": "Target ambient shelf stability requirement",
+      "source": "Quality Assurance Standard",
+      "parameter": "shelf_stability",
+      "operator": ">=",
+      "target_value": "12-month"
+    }
+  ],
+  "priority_distribution": {
+    "hard_count": 5,
+    "soft_count": 7,
+    "total_count": 12
+  }
+}

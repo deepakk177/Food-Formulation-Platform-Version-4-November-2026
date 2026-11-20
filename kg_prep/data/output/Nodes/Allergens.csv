@@ -1,10 +1,10 @@
 ID,Name,Source,source_record_id,source_url
-ALL-GLUTEN_ALLERGEN,Gluten Allergen,EU Regulation 1169/2011,EU-1169-ALG-01,https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32011R1169
-ALL-MILK_ALLERGEN,Milk Allergen,EU Regulation 1169/2011,EU-1169-ALG-02,https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32011R1169
-ALL-SOY_ALLERGEN,Soy Allergen,EU Regulation 1169/2011,EU-1169-ALG-03,https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32011R1169
-ALL-PEANUT_ALLERGEN,Peanut Allergen,EU Regulation 1169/2011,EU-1169-ALG-04,https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32011R1169
-ALL-WHEAT_ALLERGEN,Wheat Allergen,EU Regulation 1169/2011,EU-1169-ALG-05,https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32011R1169
-ALL-EGG_ALLERGEN,Egg Allergen,EU Regulation 1169/2011,EU-1169-ALG-06,https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32011R1169
-ALL-FISH_ALLERGEN,Fish Allergen,EU Regulation 1169/2011,EU-1169-ALG-07,https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32011R1169
-ALL-TREE_NUT_ALLERGEN,Tree Nut Allergen,EU Regulation 1169/2011,EU-1169-ALG-08,https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32011R1169
-ALL-SESAME_ALLERGEN,Sesame Allergen,EU Regulation 1169/2011,EU-1169-ALG-09,https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32011R1169
+FDA:ALLERGEN:MILK,Milk Allergen,US Food and Drug Administration (FDA),FALCPA-MILK,https://www.fda.gov/food/food-allergensgluten-free-guidance-documents-regulatory-information/food-allergen-labeling-and-consumer-protection-act-2004-falcpa
+FDA:ALLERGEN:EGGS,Eggs Allergen,US Food and Drug Administration (FDA),FALCPA-EGGS,https://www.fda.gov/food/food-allergensgluten-free-guidance-documents-regulatory-information/food-allergen-labeling-and-consumer-protection-act-2004-falcpa
+FDA:ALLERGEN:PEANUTS,Peanuts Allergen,US Food and Drug Administration (FDA),FALCPA-PEANUTS,https://www.fda.gov/food/food-allergensgluten-free-guidance-documents-regulatory-information/food-allergen-labeling-and-consumer-protection-act-2004-falcpa
+FDA:ALLERGEN:TREE_NUTS,Tree Nuts Allergen,US Food and Drug Administration (FDA),FALCPA-TREE_NUTS,https://www.fda.gov/food/food-allergensgluten-free-guidance-documents-regulatory-information/food-allergen-labeling-and-consumer-protection-act-2004-falcpa
+FDA:ALLERGEN:WHEAT,Wheat Allergen,US Food and Drug Administration (FDA),FALCPA-WHEAT,https://www.fda.gov/food/food-allergensgluten-free-guidance-documents-regulatory-information/food-allergen-labeling-and-consumer-protection-act-2004-falcpa
+FDA:ALLERGEN:FISH,Fish Allergen,US Food and Drug Administration (FDA),FALCPA-FISH,https://www.fda.gov/food/food-allergensgluten-free-guidance-documents-regulatory-information/food-allergen-labeling-and-consumer-protection-act-2004-falcpa
+FDA:ALLERGEN:CRUSTACEAN_SHELLFISH,Crustacean Shellfish Allergen,US Food and Drug Administration (FDA),FALCPA-CRUSTACEAN_SHELLFISH,https://www.fda.gov/food/food-allergensgluten-free-guidance-documents-regulatory-information/food-allergen-labeling-and-consumer-protection-act-2004-falcpa
+FDA:ALLERGEN:SOYBEANS,Soybeans Allergen,US Food and Drug Administration (FDA),FALCPA-SOYBEANS,https://www.fda.gov/food/food-allergensgluten-free-guidance-documents-regulatory-information/food-allergen-labeling-and-consumer-protection-act-2004-falcpa
+FDA:ALLERGEN:SESAME,Sesame Allergen,US Food and Drug Administration (FDA),FALCPA-SESAME,https://www.fda.gov/food/food-allergensgluten-free-guidance-documents-regulatory-information/food-allergen-labeling-and-consumer-protection-act-2004-falcpa

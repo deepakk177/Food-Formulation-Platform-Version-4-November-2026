@@ -1,6 +1,450 @@
-ID,Name,Source,source_record_id,source_url
-FLAVOR-NAT-01,Vanilla Flavor,FlavorDB / FEMA Library,FEMA-FLV-01,https://flavordb.org
-FLAVOR-NAT-02,Cocoa Flavor,FlavorDB / FEMA Library,FEMA-FLV-02,https://flavordb.org
-FLAVOR-NAT-03,Strawberry Flavor,FlavorDB / FEMA Library,FEMA-FLV-03,https://flavordb.org
-FLAVOR-NAT-04,Citrus Flavor,FlavorDB / FEMA Library,FEMA-FLV-04,https://flavordb.org
-FLAVOR-NAT-05,Butter Flavor,FlavorDB / FEMA Library,FEMA-FLV-05,https://flavordb.org
+ID,Name,flavor_descriptor,Source,source_record_id,source_url
+FLAVOR:CARAMEL,Caramel Flavor,caramel,FlavorDB / FEMA Flavor Library,CARAMEL,https://cosylab.iiitd.edu.in/flavordb2
+FLAVOR:COCOA,Cocoa Flavor,cocoa,FlavorDB / FEMA Flavor Library,COCOA,https://cosylab.iiitd.edu.in/flavordb2
+FLAVOR:HAZELNUT,Hazelnut Flavor,hazelnut,FlavorDB / FEMA Flavor Library,HAZELNUT,https://cosylab.iiitd.edu.in/flavordb2
+FLAVOR:PEANUT_BUTTER,Peanut butter Flavor,peanut butter,FlavorDB / FEMA Flavor Library,PEANUT_BUTTER,https://cosylab.iiitd.edu.in/flavordb2
+FLAVOR:ROASTED,Roasted Flavor,roasted,FlavorDB / FEMA Flavor Library,ROASTED,https://cosylab.iiitd.edu.in/flavordb2
+FLAVOR:BUTTER,Butter Flavor,butter,FlavorDB / FEMA Flavor Library,BUTTER,https://cosylab.iiitd.edu.in/flavordb2
+FLAVOR:NUT,Nut Flavor,nut,FlavorDB / FEMA Flavor Library,NUT,https://cosylab.iiitd.edu.in/flavordb2
+FLAVOR:MEAT,Meat Flavor,meat,FlavorDB / FEMA Flavor Library,MEAT,https://cosylab.iiitd.edu.in/flavordb2
+FLAVOR:LEATHER,Leather Flavor,leather,FlavorDB / FEMA Flavor Library,LEATHER,https://cosylab.iiitd.edu.in/flavordb2
+FLAVOR:COFFEE,Coffee Flavor,coffee,FlavorDB / FEMA Flavor Library,COFFEE,https://cosylab.iiitd.edu.in/flavordb2
+FLAVOR:PEANUT,Peanut Flavor,peanut,FlavorDB / FEMA Flavor Library,PEANUT,https://cosylab.iiitd.edu.in/flavordb2
+FLAVOR:NUTTY,Nutty Flavor,nutty,FlavorDB / FEMA Flavor Library,NUTTY,https://cosylab.iiitd.edu.in/flavordb2
+FLAVOR:ALMOND,Almond Flavor,almond,FlavorDB / FEMA Flavor Library,ALMOND,https://cosylab.iiitd.edu.in/flavordb2
+FLAVOR:WALNUT,Walnut Flavor,walnut,FlavorDB / FEMA Flavor Library,WALNUT,https://cosylab.iiitd.edu.in/flavordb2
+FLAVOR:ROAST_BEEF,Roast beef Flavor,roast beef,FlavorDB / FEMA Flavor Library,ROAST_BEEF,https://cosylab.iiitd.edu.in/flavordb2
+FLAVOR:ROASTED_NUT,Roasted nut Flavor,roasted nut,FlavorDB / FEMA Flavor Library,ROASTED_NUT,https://cosylab.iiitd.edu.in/flavordb2
+FLAVOR:ROASTED_NUTS,Roasted nuts Flavor,roasted nuts,FlavorDB / FEMA Flavor Library,ROASTED_NUTS,https://cosylab.iiitd.edu.in/flavordb2
+FLAVOR:GRASS,Grass Flavor,grass,FlavorDB / FEMA Flavor Library,GRASS,https://cosylab.iiitd.edu.in/flavordb2
+FLAVOR:MEDICAL,Medical Flavor,medical,FlavorDB / FEMA Flavor Library,MEDICAL,https://cosylab.iiitd.edu.in/flavordb2
+FLAVOR:WOODY,Woody Flavor,woody,FlavorDB / FEMA Flavor Library,WOODY,https://cosylab.iiitd.edu.in/flavordb2
+FLAVOR:MEDICINE,Medicine Flavor,medicine,FlavorDB / FEMA Flavor Library,MEDICINE,https://cosylab.iiitd.edu.in/flavordb2
+FLAVOR:MEDICINAL,Medicinal Flavor,medicinal,FlavorDB / FEMA Flavor Library,MEDICINAL,https://cosylab.iiitd.edu.in/flavordb2
+FLAVOR:BURNT,Burnt Flavor,burnt,FlavorDB / FEMA Flavor Library,BURNT,https://cosylab.iiitd.edu.in/flavordb2
+FLAVOR:GREEN,Green Flavor,green,FlavorDB / FEMA Flavor Library,GREEN,https://cosylab.iiitd.edu.in/flavordb2
+FLAVOR:IRON_SCORCH,Iron scorch Flavor,iron scorch,FlavorDB / FEMA Flavor Library,IRON_SCORCH,https://cosylab.iiitd.edu.in/flavordb2
+FLAVOR:MUST,Must Flavor,must,FlavorDB / FEMA Flavor Library,MUST,https://cosylab.iiitd.edu.in/flavordb2
+FLAVOR:RUM,Rum Flavor,rum,FlavorDB / FEMA Flavor Library,RUM,https://cosylab.iiitd.edu.in/flavordb2
+FLAVOR:WOOD,Wood Flavor,wood,FlavorDB / FEMA Flavor Library,WOOD,https://cosylab.iiitd.edu.in/flavordb2
+FLAVOR:MUSTY,Musty Flavor,musty,FlavorDB / FEMA Flavor Library,MUSTY,https://cosylab.iiitd.edu.in/flavordb2
+FLAVOR:BITTER,Bitter Flavor,bitter,FlavorDB / FEMA Flavor Library,BITTER,https://cosylab.iiitd.edu.in/flavordb2
+FLAVOR:POTATO,Potato Flavor,potato,FlavorDB / FEMA Flavor Library,POTATO,https://cosylab.iiitd.edu.in/flavordb2
+FLAVOR:RAW,Raw Flavor,raw,FlavorDB / FEMA Flavor Library,RAW,https://cosylab.iiitd.edu.in/flavordb2
+FLAVOR:ROAST,Roast Flavor,roast,FlavorDB / FEMA Flavor Library,ROAST,https://cosylab.iiitd.edu.in/flavordb2
+FLAVOR:SWEAT,Sweat Flavor,sweat,FlavorDB / FEMA Flavor Library,SWEAT,https://cosylab.iiitd.edu.in/flavordb2
+FLAVOR:BREAD,Bread Flavor,bread,FlavorDB / FEMA Flavor Library,BREAD,https://cosylab.iiitd.edu.in/flavordb2
+FLAVOR:EARTHY,Earthy Flavor,earthy,FlavorDB / FEMA Flavor Library,EARTHY,https://cosylab.iiitd.edu.in/flavordb2
+FLAVOR:CORN,Corn Flavor,corn,FlavorDB / FEMA Flavor Library,CORN,https://cosylab.iiitd.edu.in/flavordb2
+FLAVOR:POPCORN,Popcorn Flavor,popcorn,FlavorDB / FEMA Flavor Library,POPCORN,https://cosylab.iiitd.edu.in/flavordb2
+FLAVOR:CHOCOLATE,Chocolate Flavor,chocolate,FlavorDB / FEMA Flavor Library,CHOCOLATE,https://cosylab.iiitd.edu.in/flavordb2
+FLAVOR:EARTH,Earth Flavor,earth,FlavorDB / FEMA Flavor Library,EARTH,https://cosylab.iiitd.edu.in/flavordb2
+FLAVOR:POWDERY,Powdery Flavor,powdery,FlavorDB / FEMA Flavor Library,POWDERY,https://cosylab.iiitd.edu.in/flavordb2
+FLAVOR:BITTER_ALMOND,Bitter almond Flavor,bitter almond,FlavorDB / FEMA Flavor Library,BITTER_ALMOND,https://cosylab.iiitd.edu.in/flavordb2
+FLAVOR:BURNT_MATCHES,Burnt matches Flavor,burnt matches,FlavorDB / FEMA Flavor Library,BURNT_MATCHES,https://cosylab.iiitd.edu.in/flavordb2
+FLAVOR:FAT,Fat Flavor,fat,FlavorDB / FEMA Flavor Library,FAT,https://cosylab.iiitd.edu.in/flavordb2
+FLAVOR:FLORAL,Floral Flavor,floral,FlavorDB / FEMA Flavor Library,FLORAL,https://cosylab.iiitd.edu.in/flavordb2
+FLAVOR:ORANGE,Orange Flavor,orange,FlavorDB / FEMA Flavor Library,ORANGE,https://cosylab.iiitd.edu.in/flavordb2
+FLAVOR:ROSE,Rose Flavor,rose,FlavorDB / FEMA Flavor Library,ROSE,https://cosylab.iiitd.edu.in/flavordb2
+FLAVOR:WAXY,Waxy Flavor,waxy,FlavorDB / FEMA Flavor Library,WAXY,https://cosylab.iiitd.edu.in/flavordb2
+FLAVOR:CHEMICAL,Chemical Flavor,chemical,FlavorDB / FEMA Flavor Library,CHEMICAL,https://cosylab.iiitd.edu.in/flavordb2
+FLAVOR:METAL,Metal Flavor,metal,FlavorDB / FEMA Flavor Library,METAL,https://cosylab.iiitd.edu.in/flavordb2
+FLAVOR:ALDEHYDIC,Aldehydic Flavor,aldehydic,FlavorDB / FEMA Flavor Library,ALDEHYDIC,https://cosylab.iiitd.edu.in/flavordb2
+FLAVOR:MUSHROOM,Mushroom Flavor,mushroom,FlavorDB / FEMA Flavor Library,MUSHROOM,https://cosylab.iiitd.edu.in/flavordb2
+FLAVOR:FLOWER,Flower Flavor,flower,FlavorDB / FEMA Flavor Library,FLOWER,https://cosylab.iiitd.edu.in/flavordb2
+FLAVOR:HONEY,Honey Flavor,honey,FlavorDB / FEMA Flavor Library,HONEY,https://cosylab.iiitd.edu.in/flavordb2
+FLAVOR:TOBACCO,Tobacco Flavor,tobacco,FlavorDB / FEMA Flavor Library,TOBACCO,https://cosylab.iiitd.edu.in/flavordb2
+FLAVOR:SWEET,Sweet Flavor,sweet,FlavorDB / FEMA Flavor Library,SWEET,https://cosylab.iiitd.edu.in/flavordb2
+FLAVOR:FRUITY,Fruity Flavor,fruity,FlavorDB / FEMA Flavor Library,FRUITY,https://cosylab.iiitd.edu.in/flavordb2
+FLAVOR:TROPICAL,Tropical Flavor,tropical,FlavorDB / FEMA Flavor Library,TROPICAL,https://cosylab.iiitd.edu.in/flavordb2
+FLAVOR:MALT,Malt Flavor,malt,FlavorDB / FEMA Flavor Library,MALT,https://cosylab.iiitd.edu.in/flavordb2
+FLAVOR:OIL,Oil Flavor,oil,FlavorDB / FEMA Flavor Library,OIL,https://cosylab.iiitd.edu.in/flavordb2
+FLAVOR:PUNGENT,Pungent Flavor,pungent,FlavorDB / FEMA Flavor Library,PUNGENT,https://cosylab.iiitd.edu.in/flavordb2
+FLAVOR:BREADY,Bready Flavor,bready,FlavorDB / FEMA Flavor Library,BREADY,https://cosylab.iiitd.edu.in/flavordb2
+FLAVOR:FERMENTED,Fermented Flavor,fermented,FlavorDB / FEMA Flavor Library,FERMENTED,https://cosylab.iiitd.edu.in/flavordb2
+FLAVOR:BERRY,Berry Flavor,berry,FlavorDB / FEMA Flavor Library,BERRY,https://cosylab.iiitd.edu.in/flavordb2
+FLAVOR:SOLVENT,Solvent Flavor,solvent,FlavorDB / FEMA Flavor Library,SOLVENT,https://cosylab.iiitd.edu.in/flavordb2
+FLAVOR:ALCOHOL,Alcohol Flavor,alcohol,FlavorDB / FEMA Flavor Library,ALCOHOL,https://cosylab.iiitd.edu.in/flavordb2
+FLAVOR:WHISKEY,Whiskey Flavor,whiskey,FlavorDB / FEMA Flavor Library,WHISKEY,https://cosylab.iiitd.edu.in/flavordb2
+FLAVOR:WINE,Wine Flavor,wine,FlavorDB / FEMA Flavor Library,WINE,https://cosylab.iiitd.edu.in/flavordb2
+FLAVOR:BALSAM,Balsam Flavor,balsam,FlavorDB / FEMA Flavor Library,BALSAM,https://cosylab.iiitd.edu.in/flavordb2
+FLAVOR:APPLE,Apple Flavor,apple,FlavorDB / FEMA Flavor Library,APPLE,https://cosylab.iiitd.edu.in/flavordb2
+FLAVOR:BANANA,Banana Flavor,banana,FlavorDB / FEMA Flavor Library,BANANA,https://cosylab.iiitd.edu.in/flavordb2
+FLAVOR:PEAR,Pear Flavor,pear,FlavorDB / FEMA Flavor Library,PEAR,https://cosylab.iiitd.edu.in/flavordb2
+FLAVOR:OVERRIPE_FRUIT,Overripe fruit Flavor,overripe fruit,FlavorDB / FEMA Flavor Library,OVERRIPE_FRUIT,https://cosylab.iiitd.edu.in/flavordb2
+FLAVOR:FRUIT,Fruit Flavor,fruit,FlavorDB / FEMA Flavor Library,FRUIT,https://cosylab.iiitd.edu.in/flavordb2
+FLAVOR:JUICY,Juicy Flavor,juicy,FlavorDB / FEMA Flavor Library,JUICY,https://cosylab.iiitd.edu.in/flavordb2
+FLAVOR:CABBAGE,Cabbage Flavor,cabbage,FlavorDB / FEMA Flavor Library,CABBAGE,https://cosylab.iiitd.edu.in/flavordb2
+FLAVOR:ORGANIC,Organic Flavor,organic,FlavorDB / FEMA Flavor Library,ORGANIC,https://cosylab.iiitd.edu.in/flavordb2
+FLAVOR:SULFUR,Sulfur Flavor,sulfur,FlavorDB / FEMA Flavor Library,SULFUR,https://cosylab.iiitd.edu.in/flavordb2
+FLAVOR:WET_EARTH,Wet earth Flavor,wet earth,FlavorDB / FEMA Flavor Library,WET_EARTH,https://cosylab.iiitd.edu.in/flavordb2
+FLAVOR:SULFUROUS,Sulfurous Flavor,sulfurous,FlavorDB / FEMA Flavor Library,SULFUROUS,https://cosylab.iiitd.edu.in/flavordb2
+FLAVOR:ONION,Onion Flavor,onion,FlavorDB / FEMA Flavor Library,ONION,https://cosylab.iiitd.edu.in/flavordb2
+FLAVOR:GASOLINE,Gasoline Flavor,gasoline,FlavorDB / FEMA Flavor Library,GASOLINE,https://cosylab.iiitd.edu.in/flavordb2
+FLAVOR:VEGETABLE,Vegetable Flavor,vegetable,FlavorDB / FEMA Flavor Library,VEGETABLE,https://cosylab.iiitd.edu.in/flavordb2
+FLAVOR:SULFURY,Sulfury Flavor,sulfury,FlavorDB / FEMA Flavor Library,SULFURY,https://cosylab.iiitd.edu.in/flavordb2
+FLAVOR:SWEET_CORN,Sweet corn Flavor,sweet corn,FlavorDB / FEMA Flavor Library,SWEET_CORN,https://cosylab.iiitd.edu.in/flavordb2
+FLAVOR:TOMATO,Tomato Flavor,tomato,FlavorDB / FEMA Flavor Library,TOMATO,https://cosylab.iiitd.edu.in/flavordb2
+FLAVOR:RADISH,Radish Flavor,radish,FlavorDB / FEMA Flavor Library,RADISH,https://cosylab.iiitd.edu.in/flavordb2
+FLAVOR:WILD,Wild Flavor,wild,FlavorDB / FEMA Flavor Library,WILD,https://cosylab.iiitd.edu.in/flavordb2
+FLAVOR:BURNT_SUGAR,Burnt sugar Flavor,burnt sugar,FlavorDB / FEMA Flavor Library,BURNT_SUGAR,https://cosylab.iiitd.edu.in/flavordb2
+FLAVOR:CHERRY,Cherry Flavor,cherry,FlavorDB / FEMA Flavor Library,CHERRY,https://cosylab.iiitd.edu.in/flavordb2
+FLAVOR:ROASTED_PEPPER,Roasted pepper Flavor,roasted pepper,FlavorDB / FEMA Flavor Library,ROASTED_PEPPER,https://cosylab.iiitd.edu.in/flavordb2
+FLAVOR:SHARP,Sharp Flavor,sharp,FlavorDB / FEMA Flavor Library,SHARP,https://cosylab.iiitd.edu.in/flavordb2
+FLAVOR:STRONG,Strong Flavor,strong,FlavorDB / FEMA Flavor Library,STRONG,https://cosylab.iiitd.edu.in/flavordb2
+FLAVOR:OILY,Oily Flavor,oily,FlavorDB / FEMA Flavor Library,OILY,https://cosylab.iiitd.edu.in/flavordb2
+FLAVOR:FATTY,Fatty Flavor,fatty,FlavorDB / FEMA Flavor Library,FATTY,https://cosylab.iiitd.edu.in/flavordb2
+FLAVOR:HEAVY,Heavy Flavor,heavy,FlavorDB / FEMA Flavor Library,HEAVY,https://cosylab.iiitd.edu.in/flavordb2
+FLAVOR:CHIP,Chip Flavor,chip,FlavorDB / FEMA Flavor Library,CHIP,https://cosylab.iiitd.edu.in/flavordb2
+FLAVOR:ORRIS,Orris Flavor,orris,FlavorDB / FEMA Flavor Library,ORRIS,https://cosylab.iiitd.edu.in/flavordb2
+FLAVOR:PETAL,Petal Flavor,petal,FlavorDB / FEMA Flavor Library,PETAL,https://cosylab.iiitd.edu.in/flavordb2
+FLAVOR:ETHER,Ether Flavor,ether,FlavorDB / FEMA Flavor Library,ETHER,https://cosylab.iiitd.edu.in/flavordb2
+FLAVOR:HERB,Herb Flavor,herb,FlavorDB / FEMA Flavor Library,HERB,https://cosylab.iiitd.edu.in/flavordb2
+FLAVOR:ETHEREAL,Ethereal Flavor,ethereal,FlavorDB / FEMA Flavor Library,ETHEREAL,https://cosylab.iiitd.edu.in/flavordb2
+FLAVOR:BAKED_POTATOES,Baked potatoes Flavor,baked potatoes,FlavorDB / FEMA Flavor Library,BAKED_POTATOES,https://cosylab.iiitd.edu.in/flavordb2
+FLAVOR:SPICE,Spice Flavor,spice,FlavorDB / FEMA Flavor Library,SPICE,https://cosylab.iiitd.edu.in/flavordb2
+FLAVOR:FRAGRANT,Fragrant Flavor,fragrant,FlavorDB / FEMA Flavor Library,FRAGRANT,https://cosylab.iiitd.edu.in/flavordb2
+FLAVOR:BAKED,Baked Flavor,baked,FlavorDB / FEMA Flavor Library,BAKED,https://cosylab.iiitd.edu.in/flavordb2
+FLAVOR:DAIRY,Dairy Flavor,dairy,FlavorDB / FEMA Flavor Library,DAIRY,https://cosylab.iiitd.edu.in/flavordb2
+FLAVOR:LARD,Lard Flavor,lard,FlavorDB / FEMA Flavor Library,LARD,https://cosylab.iiitd.edu.in/flavordb2
+FLAVOR:CHEESE,Cheese Flavor,cheese,FlavorDB / FEMA Flavor Library,CHEESE,https://cosylab.iiitd.edu.in/flavordb2
+FLAVOR:MOUTHFEEL,Mouthfeel Flavor,mouthfeel,FlavorDB / FEMA Flavor Library,MOUTHFEEL,https://cosylab.iiitd.edu.in/flavordb2
+FLAVOR:PEACH,Peach Flavor,peach,FlavorDB / FEMA Flavor Library,PEACH,https://cosylab.iiitd.edu.in/flavordb2
+FLAVOR:BRANDY,Brandy Flavor,brandy,FlavorDB / FEMA Flavor Library,BRANDY,https://cosylab.iiitd.edu.in/flavordb2
+FLAVOR:BEER,Beer Flavor,beer,FlavorDB / FEMA Flavor Library,BEER,https://cosylab.iiitd.edu.in/flavordb2
+FLAVOR:COCONUT,Coconut Flavor,coconut,FlavorDB / FEMA Flavor Library,COCONUT,https://cosylab.iiitd.edu.in/flavordb2
+FLAVOR:COGNAC,Cognac Flavor,cognac,FlavorDB / FEMA Flavor Library,COGNAC,https://cosylab.iiitd.edu.in/flavordb2
+FLAVOR:SOAPY,Soapy Flavor,soapy,FlavorDB / FEMA Flavor Library,SOAPY,https://cosylab.iiitd.edu.in/flavordb2
+FLAVOR:PINEAPPLE,Pineapple Flavor,pineapple,FlavorDB / FEMA Flavor Library,PINEAPPLE,https://cosylab.iiitd.edu.in/flavordb2
+FLAVOR:STRAWBERRY,Strawberry Flavor,strawberry,FlavorDB / FEMA Flavor Library,STRAWBERRY,https://cosylab.iiitd.edu.in/flavordb2
+FLAVOR:BLUE_CHEESE,Blue cheese Flavor,blue cheese,FlavorDB / FEMA Flavor Library,BLUE_CHEESE,https://cosylab.iiitd.edu.in/flavordb2
+FLAVOR:SOAP,Soap Flavor,soap,FlavorDB / FEMA Flavor Library,SOAP,https://cosylab.iiitd.edu.in/flavordb2
+FLAVOR:HERBAL,Herbal Flavor,herbal,FlavorDB / FEMA Flavor Library,HERBAL,https://cosylab.iiitd.edu.in/flavordb2
+FLAVOR:SPICY,Spicy Flavor,spicy,FlavorDB / FEMA Flavor Library,SPICY,https://cosylab.iiitd.edu.in/flavordb2
+FLAVOR:CINNAMON,Cinnamon Flavor,cinnamon,FlavorDB / FEMA Flavor Library,CINNAMON,https://cosylab.iiitd.edu.in/flavordb2
+FLAVOR:ASTRINGENT,Astringent Flavor,astringent,FlavorDB / FEMA Flavor Library,ASTRINGENT,https://cosylab.iiitd.edu.in/flavordb2
+FLAVOR:VANILLA,Vanilla Flavor,vanilla,FlavorDB / FEMA Flavor Library,VANILLA,https://cosylab.iiitd.edu.in/flavordb2
+FLAVOR:BEAN,Bean Flavor,bean,FlavorDB / FEMA Flavor Library,BEAN,https://cosylab.iiitd.edu.in/flavordb2
+FLAVOR:MILKY,Milky Flavor,milky,FlavorDB / FEMA Flavor Library,MILKY,https://cosylab.iiitd.edu.in/flavordb2
+FLAVOR:CREAMY,Creamy Flavor,creamy,FlavorDB / FEMA Flavor Library,CREAMY,https://cosylab.iiitd.edu.in/flavordb2
+FLAVOR:RUBBER,Rubber Flavor,rubber,FlavorDB / FEMA Flavor Library,RUBBER,https://cosylab.iiitd.edu.in/flavordb2
+FLAVOR:BUTTERSCOTCH,Butterscotch Flavor,butterscotch,FlavorDB / FEMA Flavor Library,BUTTERSCOTCH,https://cosylab.iiitd.edu.in/flavordb2
+FLAVOR:TART,Tart Flavor,tart,FlavorDB / FEMA Flavor Library,TART,https://cosylab.iiitd.edu.in/flavordb2
+FLAVOR:BUTTERY,Buttery Flavor,buttery,FlavorDB / FEMA Flavor Library,BUTTERY,https://cosylab.iiitd.edu.in/flavordb2
+FLAVOR:LILAC,Lilac Flavor,lilac,FlavorDB / FEMA Flavor Library,LILAC,https://cosylab.iiitd.edu.in/flavordb2
+FLAVOR:ROSE_WATER,Rose water Flavor,rose water,FlavorDB / FEMA Flavor Library,ROSE_WATER,https://cosylab.iiitd.edu.in/flavordb2
+FLAVOR:ROSE_FLOWER,Rose flower Flavor,rose flower,FlavorDB / FEMA Flavor Library,ROSE_FLOWER,https://cosylab.iiitd.edu.in/flavordb2
+FLAVOR:ROSE_DRIED,Rose dried Flavor,rose dried,FlavorDB / FEMA Flavor Library,ROSE_DRIED,https://cosylab.iiitd.edu.in/flavordb2
+FLAVOR:SAVORY,Savory Flavor,savory,FlavorDB / FEMA Flavor Library,SAVORY,https://cosylab.iiitd.edu.in/flavordb2
+FLAVOR:DRY,Dry Flavor,dry,FlavorDB / FEMA Flavor Library,DRY,https://cosylab.iiitd.edu.in/flavordb2
+FLAVOR:HAWTHORN,Hawthorn Flavor,hawthorn,FlavorDB / FEMA Flavor Library,HAWTHORN,https://cosylab.iiitd.edu.in/flavordb2
+FLAVOR:PHENOLIC,Phenolic Flavor,phenolic,FlavorDB / FEMA Flavor Library,PHENOLIC,https://cosylab.iiitd.edu.in/flavordb2
+FLAVOR:CANDY,Candy Flavor,candy,FlavorDB / FEMA Flavor Library,CANDY,https://cosylab.iiitd.edu.in/flavordb2
+FLAVOR:FRESH,Fresh Flavor,fresh,FlavorDB / FEMA Flavor Library,FRESH,https://cosylab.iiitd.edu.in/flavordb2
+FLAVOR:GRASSY,Grassy Flavor,grassy,FlavorDB / FEMA Flavor Library,GRASSY,https://cosylab.iiitd.edu.in/flavordb2
+FLAVOR:APRICOT,Apricot Flavor,apricot,FlavorDB / FEMA Flavor Library,APRICOT,https://cosylab.iiitd.edu.in/flavordb2
+FLAVOR:SOUR,Sour Flavor,sour,FlavorDB / FEMA Flavor Library,SOUR,https://cosylab.iiitd.edu.in/flavordb2
+FLAVOR:CHEESY,Cheesy Flavor,cheesy,FlavorDB / FEMA Flavor Library,CHEESY,https://cosylab.iiitd.edu.in/flavordb2
+FLAVOR:RANCID,Rancid Flavor,rancid,FlavorDB / FEMA Flavor Library,RANCID,https://cosylab.iiitd.edu.in/flavordb2
+FLAVOR:PHENOL,Phenol Flavor,phenol,FlavorDB / FEMA Flavor Library,PHENOL,https://cosylab.iiitd.edu.in/flavordb2
+FLAVOR:SMOKY,Smoky Flavor,smoky,FlavorDB / FEMA Flavor Library,SMOKY,https://cosylab.iiitd.edu.in/flavordb2
+FLAVOR:SMOKE,Smoke Flavor,smoke,FlavorDB / FEMA Flavor Library,SMOKE,https://cosylab.iiitd.edu.in/flavordb2
+FLAVOR:COOKED,Cooked Flavor,cooked,FlavorDB / FEMA Flavor Library,COOKED,https://cosylab.iiitd.edu.in/flavordb2
+FLAVOR:ALCOHOLIC,Alcoholic Flavor,alcoholic,FlavorDB / FEMA Flavor Library,ALCOHOLIC,https://cosylab.iiitd.edu.in/flavordb2
+FLAVOR:ESTER,Ester Flavor,ester,FlavorDB / FEMA Flavor Library,ESTER,https://cosylab.iiitd.edu.in/flavordb2
+FLAVOR:FISH,Fish Flavor,fish,FlavorDB / FEMA Flavor Library,FISH,https://cosylab.iiitd.edu.in/flavordb2
+FLAVOR:MEATY,Meaty Flavor,meaty,FlavorDB / FEMA Flavor Library,MEATY,https://cosylab.iiitd.edu.in/flavordb2
+FLAVOR:HYACINTH,Hyacinth Flavor,hyacinth,FlavorDB / FEMA Flavor Library,HYACINTH,https://cosylab.iiitd.edu.in/flavordb2
+FLAVOR:WATERCRESS,Watercress Flavor,watercress,FlavorDB / FEMA Flavor Library,WATERCRESS,https://cosylab.iiitd.edu.in/flavordb2
+FLAVOR:LEAFY,Leafy Flavor,leafy,FlavorDB / FEMA Flavor Library,LEAFY,https://cosylab.iiitd.edu.in/flavordb2
+FLAVOR:PEPPER,Pepper Flavor,pepper,FlavorDB / FEMA Flavor Library,PEPPER,https://cosylab.iiitd.edu.in/flavordb2
+FLAVOR:UNRIPE_BANANA,Unripe banana Flavor,unripe banana,FlavorDB / FEMA Flavor Library,UNRIPE_BANANA,https://cosylab.iiitd.edu.in/flavordb2
+FLAVOR:LEAF,Leaf Flavor,leaf,FlavorDB / FEMA Flavor Library,LEAF,https://cosylab.iiitd.edu.in/flavordb2
+FLAVOR:GRAPE,Grape Flavor,grape,FlavorDB / FEMA Flavor Library,GRAPE,https://cosylab.iiitd.edu.in/flavordb2
+FLAVOR:FUSEL,Fusel Flavor,fusel,FlavorDB / FEMA Flavor Library,FUSEL,https://cosylab.iiitd.edu.in/flavordb2
+FLAVOR:RESIN,Resin Flavor,resin,FlavorDB / FEMA Flavor Library,RESIN,https://cosylab.iiitd.edu.in/flavordb2
+FLAVOR:NAPHTHYL,Naphthyl Flavor,naphthyl,FlavorDB / FEMA Flavor Library,NAPHTHYL,https://cosylab.iiitd.edu.in/flavordb2
+FLAVOR:PUTRID,Putrid Flavor,putrid,FlavorDB / FEMA Flavor Library,PUTRID,https://cosylab.iiitd.edu.in/flavordb2
+FLAVOR:FISHY,Fishy Flavor,fishy,FlavorDB / FEMA Flavor Library,FISHY,https://cosylab.iiitd.edu.in/flavordb2
+FLAVOR:SICKENING,Sickening Flavor,sickening,FlavorDB / FEMA Flavor Library,SICKENING,https://cosylab.iiitd.edu.in/flavordb2
+FLAVOR:AMINE,Amine Flavor,amine,FlavorDB / FEMA Flavor Library,AMINE,https://cosylab.iiitd.edu.in/flavordb2
+FLAVOR:PYRIDINE,Pyridine Flavor,pyridine,FlavorDB / FEMA Flavor Library,PYRIDINE,https://cosylab.iiitd.edu.in/flavordb2
+FLAVOR:NUTS,Nuts Flavor,nuts,FlavorDB / FEMA Flavor Library,NUTS,https://cosylab.iiitd.edu.in/flavordb2
+FLAVOR:COOKED_BEEF_JUICE,Cooked beef juice Flavor,cooked beef juice,FlavorDB / FEMA Flavor Library,COOKED_BEEF_JUICE,https://cosylab.iiitd.edu.in/flavordb2
+FLAVOR:WAX,Wax Flavor,wax,FlavorDB / FEMA Flavor Library,WAX,https://cosylab.iiitd.edu.in/flavordb2
+FLAVOR:ACID,Acid Flavor,acid,FlavorDB / FEMA Flavor Library,ACID,https://cosylab.iiitd.edu.in/flavordb2
+FLAVOR:CUMIN,Cumin Flavor,cumin,FlavorDB / FEMA Flavor Library,CUMIN,https://cosylab.iiitd.edu.in/flavordb2
+FLAVOR:PLUM,Plum Flavor,plum,FlavorDB / FEMA Flavor Library,PLUM,https://cosylab.iiitd.edu.in/flavordb2
+FLAVOR:MELON,Melon Flavor,melon,FlavorDB / FEMA Flavor Library,MELON,https://cosylab.iiitd.edu.in/flavordb2
+FLAVOR:FUNGAL,Fungal Flavor,fungal,FlavorDB / FEMA Flavor Library,FUNGAL,https://cosylab.iiitd.edu.in/flavordb2
+FLAVOR:STINKY,Stinky Flavor,stinky,FlavorDB / FEMA Flavor Library,STINKY,https://cosylab.iiitd.edu.in/flavordb2
+FLAVOR:SWEATY,Sweaty Flavor,sweaty,FlavorDB / FEMA Flavor Library,SWEATY,https://cosylab.iiitd.edu.in/flavordb2
+FLAVOR:ANIMAL,Animal Flavor,animal,FlavorDB / FEMA Flavor Library,ANIMAL,https://cosylab.iiitd.edu.in/flavordb2
+FLAVOR:FEET,Feet Flavor,feet,FlavorDB / FEMA Flavor Library,FEET,https://cosylab.iiitd.edu.in/flavordb2
+FLAVOR:BALSAMIC,Balsamic Flavor,balsamic,FlavorDB / FEMA Flavor Library,BALSAMIC,https://cosylab.iiitd.edu.in/flavordb2
+FLAVOR:VIOLET,Violet Flavor,violet,FlavorDB / FEMA Flavor Library,VIOLET,https://cosylab.iiitd.edu.in/flavordb2
+FLAVOR:CITRUS,Citrus Flavor,citrus,FlavorDB / FEMA Flavor Library,CITRUS,https://cosylab.iiitd.edu.in/flavordb2
+FLAVOR:FRIED,Fried Flavor,fried,FlavorDB / FEMA Flavor Library,FRIED,https://cosylab.iiitd.edu.in/flavordb2
+FLAVOR:LEMON,Lemon Flavor,lemon,FlavorDB / FEMA Flavor Library,LEMON,https://cosylab.iiitd.edu.in/flavordb2
+FLAVOR:CLEAN,Clean Flavor,clean,FlavorDB / FEMA Flavor Library,CLEAN,https://cosylab.iiitd.edu.in/flavordb2
+FLAVOR:NEROLI,Neroli Flavor,neroli,FlavorDB / FEMA Flavor Library,NEROLI,https://cosylab.iiitd.edu.in/flavordb2
+FLAVOR:NATURAL,Natural Flavor,natural,FlavorDB / FEMA Flavor Library,NATURAL,https://cosylab.iiitd.edu.in/flavordb2
+FLAVOR:MAGNOLIA,Magnolia Flavor,magnolia,FlavorDB / FEMA Flavor Library,MAGNOLIA,https://cosylab.iiitd.edu.in/flavordb2
+FLAVOR:CLOVE,Clove Flavor,clove,FlavorDB / FEMA Flavor Library,CLOVE,https://cosylab.iiitd.edu.in/flavordb2
+FLAVOR:BACON,Bacon Flavor,bacon,FlavorDB / FEMA Flavor Library,BACON,https://cosylab.iiitd.edu.in/flavordb2
+FLAVOR:APPLE_PEEL,Apple peel Flavor,apple peel,FlavorDB / FEMA Flavor Library,APPLE_PEEL,https://cosylab.iiitd.edu.in/flavordb2
+FLAVOR:FRUIT_GUM,Fruit gum Flavor,fruit gum,FlavorDB / FEMA Flavor Library,FRUIT_GUM,https://cosylab.iiitd.edu.in/flavordb2
+FLAVOR:LEMONGRASS,Lemongrass Flavor,lemongrass,FlavorDB / FEMA Flavor Library,LEMONGRASS,https://cosylab.iiitd.edu.in/flavordb2
+FLAVOR:ANISE,Anise Flavor,anise,FlavorDB / FEMA Flavor Library,ANISE,https://cosylab.iiitd.edu.in/flavordb2
+FLAVOR:PLASTIC,Plastic Flavor,plastic,FlavorDB / FEMA Flavor Library,PLASTIC,https://cosylab.iiitd.edu.in/flavordb2
+FLAVOR:GARLIC,Garlic Flavor,garlic,FlavorDB / FEMA Flavor Library,GARLIC,https://cosylab.iiitd.edu.in/flavordb2
+FLAVOR:SOY,Soy Flavor,soy,FlavorDB / FEMA Flavor Library,SOY,https://cosylab.iiitd.edu.in/flavordb2
+FLAVOR:SOUP,Soup Flavor,soup,FlavorDB / FEMA Flavor Library,SOUP,https://cosylab.iiitd.edu.in/flavordb2
+FLAVOR:COTTON,Cotton Flavor,cotton,FlavorDB / FEMA Flavor Library,COTTON,https://cosylab.iiitd.edu.in/flavordb2
+FLAVOR:FABRIC,Fabric Flavor,fabric,FlavorDB / FEMA Flavor Library,FABRIC,https://cosylab.iiitd.edu.in/flavordb2
+FLAVOR:MILD,Mild Flavor,mild,FlavorDB / FEMA Flavor Library,MILD,https://cosylab.iiitd.edu.in/flavordb2
+FLAVOR:CRANBERRY,Cranberry Flavor,cranberry,FlavorDB / FEMA Flavor Library,CRANBERRY,https://cosylab.iiitd.edu.in/flavordb2
+FLAVOR:YLANG,Ylang Flavor,ylang,FlavorDB / FEMA Flavor Library,YLANG,https://cosylab.iiitd.edu.in/flavordb2
+FLAVOR:RIPE,Ripe Flavor,ripe,FlavorDB / FEMA Flavor Library,RIPE,https://cosylab.iiitd.edu.in/flavordb2
+FLAVOR:CAMOMILE,Camomile Flavor,camomile,FlavorDB / FEMA Flavor Library,CAMOMILE,https://cosylab.iiitd.edu.in/flavordb2
+FLAVOR:CELERY,Celery Flavor,celery,FlavorDB / FEMA Flavor Library,CELERY,https://cosylab.iiitd.edu.in/flavordb2
+FLAVOR:WINTERGREEN,Wintergreen Flavor,wintergreen,FlavorDB / FEMA Flavor Library,WINTERGREEN,https://cosylab.iiitd.edu.in/flavordb2
+FLAVOR:MINTY,Minty Flavor,minty,FlavorDB / FEMA Flavor Library,MINTY,https://cosylab.iiitd.edu.in/flavordb2
+FLAVOR:RASPBERRY,Raspberry Flavor,raspberry,FlavorDB / FEMA Flavor Library,RASPBERRY,https://cosylab.iiitd.edu.in/flavordb2
+FLAVOR:RED_ROSE,Red rose Flavor,red rose,FlavorDB / FEMA Flavor Library,RED_ROSE,https://cosylab.iiitd.edu.in/flavordb2
+FLAVOR:STYRAX,Styrax Flavor,styrax,FlavorDB / FEMA Flavor Library,STYRAX,https://cosylab.iiitd.edu.in/flavordb2
+FLAVOR:MINT,Mint Flavor,mint,FlavorDB / FEMA Flavor Library,MINT,https://cosylab.iiitd.edu.in/flavordb2
+FLAVOR:SAFFRON,Saffron Flavor,saffron,FlavorDB / FEMA Flavor Library,SAFFRON,https://cosylab.iiitd.edu.in/flavordb2
+FLAVOR:DAMASCONE,Damascone Flavor,damascone,FlavorDB / FEMA Flavor Library,DAMASCONE,https://cosylab.iiitd.edu.in/flavordb2
+FLAVOR:ROSE_OXIDE,Rose oxide Flavor,rose oxide,FlavorDB / FEMA Flavor Library,ROSE_OXIDE,https://cosylab.iiitd.edu.in/flavordb2
+FLAVOR:JAM,Jam Flavor,jam,FlavorDB / FEMA Flavor Library,JAM,https://cosylab.iiitd.edu.in/flavordb2
+FLAVOR:SEAWEED,Seaweed Flavor,seaweed,FlavorDB / FEMA Flavor Library,SEAWEED,https://cosylab.iiitd.edu.in/flavordb2
+FLAVOR:GREEN_FRUIT,Green fruit Flavor,green fruit,FlavorDB / FEMA Flavor Library,GREEN_FRUIT,https://cosylab.iiitd.edu.in/flavordb2
+FLAVOR:GREEN_LEAF,Green leaf Flavor,green leaf,FlavorDB / FEMA Flavor Library,GREEN_LEAF,https://cosylab.iiitd.edu.in/flavordb2
+FLAVOR:FOLIAGE,Foliage Flavor,foliage,FlavorDB / FEMA Flavor Library,FOLIAGE,https://cosylab.iiitd.edu.in/flavordb2
+FLAVOR:CUT_GRASS,Cut grass Flavor,cut grass,FlavorDB / FEMA Flavor Library,CUT_GRASS,https://cosylab.iiitd.edu.in/flavordb2
+FLAVOR:YEAST,Yeast Flavor,yeast,FlavorDB / FEMA Flavor Library,YEAST,https://cosylab.iiitd.edu.in/flavordb2
+FLAVOR:GREEN_APPLE,Green apple Flavor,green apple,FlavorDB / FEMA Flavor Library,GREEN_APPLE,https://cosylab.iiitd.edu.in/flavordb2
+FLAVOR:HOP_OIL,Hop_oil Flavor,hop_oil,FlavorDB / FEMA Flavor Library,HOP_OIL,https://cosylab.iiitd.edu.in/flavordb2
+FLAVOR:TROPICA,Tropica Flavor,tropica,FlavorDB / FEMA Flavor Library,TROPICA,https://cosylab.iiitd.edu.in/flavordb2
+FLAVOR:PAPAYA,Papaya Flavor,papaya,FlavorDB / FEMA Flavor Library,PAPAYA,https://cosylab.iiitd.edu.in/flavordb2
+FLAVOR:LETTUCE,Lettuce Flavor,lettuce,FlavorDB / FEMA Flavor Library,LETTUCE,https://cosylab.iiitd.edu.in/flavordb2
+FLAVOR:PRUNE,Prune Flavor,prune,FlavorDB / FEMA Flavor Library,PRUNE,https://cosylab.iiitd.edu.in/flavordb2
+FLAVOR:CANANGA,Cananga Flavor,cananga,FlavorDB / FEMA Flavor Library,CANANGA,https://cosylab.iiitd.edu.in/flavordb2
+FLAVOR:VINEGAR,Vinegar Flavor,vinegar,FlavorDB / FEMA Flavor Library,VINEGAR,https://cosylab.iiitd.edu.in/flavordb2
+FLAVOR:FORMYL,Formyl Flavor,formyl,FlavorDB / FEMA Flavor Library,FORMYL,https://cosylab.iiitd.edu.in/flavordb2
+FLAVOR:COOL,Cool Flavor,cool,FlavorDB / FEMA Flavor Library,COOL,https://cosylab.iiitd.edu.in/flavordb2
+FLAVOR:COOLING,Cooling Flavor,cooling,FlavorDB / FEMA Flavor Library,COOLING,https://cosylab.iiitd.edu.in/flavordb2
+FLAVOR:SLIGHTLY_WAXY,Slightly waxy Flavor,slightly waxy,FlavorDB / FEMA Flavor Library,SLIGHTLY_WAXY,https://cosylab.iiitd.edu.in/flavordb2
+FLAVOR:MOSS,Moss Flavor,moss,FlavorDB / FEMA Flavor Library,MOSS,https://cosylab.iiitd.edu.in/flavordb2
+FLAVOR:HOT_MILK,Hot milk Flavor,hot milk,FlavorDB / FEMA Flavor Library,HOT_MILK,https://cosylab.iiitd.edu.in/flavordb2
+FLAVOR:WEEDY,Weedy Flavor,weedy,FlavorDB / FEMA Flavor Library,WEEDY,https://cosylab.iiitd.edu.in/flavordb2
+FLAVOR:BLACKCURRANT,Blackcurrant Flavor,blackcurrant,FlavorDB / FEMA Flavor Library,BLACKCURRANT,https://cosylab.iiitd.edu.in/flavordb2
+FLAVOR:VINOUS,Vinous Flavor,vinous,FlavorDB / FEMA Flavor Library,VINOUS,https://cosylab.iiitd.edu.in/flavordb2
+FLAVOR:YEASTY,Yeasty Flavor,yeasty,FlavorDB / FEMA Flavor Library,YEASTY,https://cosylab.iiitd.edu.in/flavordb2
+FLAVOR:DIPHENYL_OXIDE,Diphenyl oxide Flavor,diphenyl oxide,FlavorDB / FEMA Flavor Library,DIPHENYL_OXIDE,https://cosylab.iiitd.edu.in/flavordb2
+FLAVOR:CORTEX,Cortex Flavor,cortex,FlavorDB / FEMA Flavor Library,CORTEX,https://cosylab.iiitd.edu.in/flavordb2
+FLAVOR:NARCISSUS,Narcissus Flavor,narcissus,FlavorDB / FEMA Flavor Library,NARCISSUS,https://cosylab.iiitd.edu.in/flavordb2
+FLAVOR:KIWI,Kiwi Flavor,kiwi,FlavorDB / FEMA Flavor Library,KIWI,https://cosylab.iiitd.edu.in/flavordb2
+FLAVOR:ANISIC,Anisic Flavor,anisic,FlavorDB / FEMA Flavor Library,ANISIC,https://cosylab.iiitd.edu.in/flavordb2
+FLAVOR:ACETOPHENONE,Acetophenone Flavor,acetophenone,FlavorDB / FEMA Flavor Library,ACETOPHENONE,https://cosylab.iiitd.edu.in/flavordb2
+FLAVOR:GARDENIA,Gardenia Flavor,gardenia,FlavorDB / FEMA Flavor Library,GARDENIA,https://cosylab.iiitd.edu.in/flavordb2
+FLAVOR:RED_FRUIT,Red fruit Flavor,red fruit,FlavorDB / FEMA Flavor Library,RED_FRUIT,https://cosylab.iiitd.edu.in/flavordb2
+FLAVOR:MOLD,Mold Flavor,mold,FlavorDB / FEMA Flavor Library,MOLD,https://cosylab.iiitd.edu.in/flavordb2
+FLAVOR:PEONY,Peony Flavor,peony,FlavorDB / FEMA Flavor Library,PEONY,https://cosylab.iiitd.edu.in/flavordb2
+FLAVOR:CEREAL,Cereal Flavor,cereal,FlavorDB / FEMA Flavor Library,CEREAL,https://cosylab.iiitd.edu.in/flavordb2
+FLAVOR:DEEP_FRIED,Deep fried Flavor,deep fried,FlavorDB / FEMA Flavor Library,DEEP_FRIED,https://cosylab.iiitd.edu.in/flavordb2
+FLAVOR:WATERMELON,Watermelon Flavor,watermelon,FlavorDB / FEMA Flavor Library,WATERMELON,https://cosylab.iiitd.edu.in/flavordb2
+FLAVOR:WET_WOOL,Wet wool Flavor,wet wool,FlavorDB / FEMA Flavor Library,WET_WOOL,https://cosylab.iiitd.edu.in/flavordb2
+FLAVOR:GRAPEFRUIT,Grapefruit Flavor,grapefruit,FlavorDB / FEMA Flavor Library,GRAPEFRUIT,https://cosylab.iiitd.edu.in/flavordb2
+FLAVOR:ROSEMARY,Rosemary Flavor,rosemary,FlavorDB / FEMA Flavor Library,ROSEMARY,https://cosylab.iiitd.edu.in/flavordb2
+FLAVOR:TUTTI_FRUTTI,Tutti frutti Flavor,tutti frutti,FlavorDB / FEMA Flavor Library,TUTTI_FRUTTI,https://cosylab.iiitd.edu.in/flavordb2
+FLAVOR:FURFURAL,Furfural Flavor,furfural,FlavorDB / FEMA Flavor Library,FURFURAL,https://cosylab.iiitd.edu.in/flavordb2
+FLAVOR:PASTRY,Pastry Flavor,pastry,FlavorDB / FEMA Flavor Library,PASTRY,https://cosylab.iiitd.edu.in/flavordb2
+FLAVOR:TEA,Tea Flavor,tea,FlavorDB / FEMA Flavor Library,TEA,https://cosylab.iiitd.edu.in/flavordb2
+FLAVOR:COUMARIN,Coumarin Flavor,coumarin,FlavorDB / FEMA Flavor Library,COUMARIN,https://cosylab.iiitd.edu.in/flavordb2
+FLAVOR:PASSION_FRUIT,Passion fruit Flavor,passion fruit,FlavorDB / FEMA Flavor Library,PASSION_FRUIT,https://cosylab.iiitd.edu.in/flavordb2
+FLAVOR:PULPY,Pulpy Flavor,pulpy,FlavorDB / FEMA Flavor Library,PULPY,https://cosylab.iiitd.edu.in/flavordb2
+FLAVOR:METALLIC,Metallic Flavor,metallic,FlavorDB / FEMA Flavor Library,METALLIC,https://cosylab.iiitd.edu.in/flavordb2
+FLAVOR:POWERFUL,Powerful Flavor,powerful,FlavorDB / FEMA Flavor Library,POWERFUL,https://cosylab.iiitd.edu.in/flavordb2
+FLAVOR:HARSH,Harsh Flavor,harsh,FlavorDB / FEMA Flavor Library,HARSH,https://cosylab.iiitd.edu.in/flavordb2
+FLAVOR:HEAT,Heat Flavor,heat,FlavorDB / FEMA Flavor Library,HEAT,https://cosylab.iiitd.edu.in/flavordb2
+FLAVOR:WARM,Warm Flavor,warm,FlavorDB / FEMA Flavor Library,WARM,https://cosylab.iiitd.edu.in/flavordb2
+FLAVOR:WINE_LIKE,Wine_like Flavor,wine_like,FlavorDB / FEMA Flavor Library,WINE_LIKE,https://cosylab.iiitd.edu.in/flavordb2
+FLAVOR:HERBACEOUS,Herbaceous Flavor,herbaceous,FlavorDB / FEMA Flavor Library,HERBACEOUS,https://cosylab.iiitd.edu.in/flavordb2
+FLAVOR:CREAM,Cream Flavor,cream,FlavorDB / FEMA Flavor Library,CREAM,https://cosylab.iiitd.edu.in/flavordb2
+FLAVOR:PETROL,Petrol Flavor,petrol,FlavorDB / FEMA Flavor Library,PETROL,https://cosylab.iiitd.edu.in/flavordb2
+FLAVOR:ROASTED_GARLIC,Roasted garlic Flavor,roasted garlic,FlavorDB / FEMA Flavor Library,ROASTED_GARLIC,https://cosylab.iiitd.edu.in/flavordb2
+FLAVOR:FIR,Fir Flavor,fir,FlavorDB / FEMA Flavor Library,FIR,https://cosylab.iiitd.edu.in/flavordb2
+FLAVOR:LINOLEUM,Linoleum Flavor,linoleum,FlavorDB / FEMA Flavor Library,LINOLEUM,https://cosylab.iiitd.edu.in/flavordb2
+FLAVOR:PINE,Pine Flavor,pine,FlavorDB / FEMA Flavor Library,PINE,https://cosylab.iiitd.edu.in/flavordb2
+FLAVOR:LAUNDRY,Laundry Flavor,laundry,FlavorDB / FEMA Flavor Library,LAUNDRY,https://cosylab.iiitd.edu.in/flavordb2
+FLAVOR:SPEARMINT,Spearmint Flavor,spearmint,FlavorDB / FEMA Flavor Library,SPEARMINT,https://cosylab.iiitd.edu.in/flavordb2
+FLAVOR:TONKA,Tonka Flavor,tonka,FlavorDB / FEMA Flavor Library,TONKA,https://cosylab.iiitd.edu.in/flavordb2
+FLAVOR:ALLSPICE,Allspice Flavor,allspice,FlavorDB / FEMA Flavor Library,ALLSPICE,https://cosylab.iiitd.edu.in/flavordb2
+FLAVOR:HONEYSUCKLE,Honeysuckle Flavor,honeysuckle,FlavorDB / FEMA Flavor Library,HONEYSUCKLE,https://cosylab.iiitd.edu.in/flavordb2
+FLAVOR:CIVET,Civet Flavor,civet,FlavorDB / FEMA Flavor Library,CIVET,https://cosylab.iiitd.edu.in/flavordb2
+FLAVOR:HAWTHORNE,Hawthorne Flavor,hawthorne,FlavorDB / FEMA Flavor Library,HAWTHORNE,https://cosylab.iiitd.edu.in/flavordb2
+FLAVOR:MIMOSA,Mimosa Flavor,mimosa,FlavorDB / FEMA Flavor Library,MIMOSA,https://cosylab.iiitd.edu.in/flavordb2
+FLAVOR:FUSEL_OIL,Fusel oil Flavor,fusel oil,FlavorDB / FEMA Flavor Library,FUSEL_OIL,https://cosylab.iiitd.edu.in/flavordb2
+FLAVOR:ODORLESS,Odorless Flavor,odorless,FlavorDB / FEMA Flavor Library,ODORLESS,https://cosylab.iiitd.edu.in/flavordb2
+FLAVOR:ALMOND_SHELL,Almond shell Flavor,almond shell,FlavorDB / FEMA Flavor Library,ALMOND_SHELL,https://cosylab.iiitd.edu.in/flavordb2
+FLAVOR:PLEASANT,Pleasant Flavor,pleasant,FlavorDB / FEMA Flavor Library,PLEASANT,https://cosylab.iiitd.edu.in/flavordb2
+FLAVOR:TROPICAL_FRUIT,Tropical fruit Flavor,tropical fruit,FlavorDB / FEMA Flavor Library,TROPICAL_FRUIT,https://cosylab.iiitd.edu.in/flavordb2
+FLAVOR:CUCUMBER,Cucumber Flavor,cucumber,FlavorDB / FEMA Flavor Library,CUCUMBER,https://cosylab.iiitd.edu.in/flavordb2
+FLAVOR:CHICKEN,Chicken Flavor,chicken,FlavorDB / FEMA Flavor Library,CHICKEN,https://cosylab.iiitd.edu.in/flavordb2
+FLAVOR:LAVENDER,Lavender Flavor,lavender,FlavorDB / FEMA Flavor Library,LAVENDER,https://cosylab.iiitd.edu.in/flavordb2
+FLAVOR:NEW_MOWN_HAY,New mown hay Flavor,new mown hay,FlavorDB / FEMA Flavor Library,NEW_MOWN_HAY,https://cosylab.iiitd.edu.in/flavordb2
+FLAVOR:LIME,Lime Flavor,lime,FlavorDB / FEMA Flavor Library,LIME,https://cosylab.iiitd.edu.in/flavordb2
+FLAVOR:ORANGE_PEEL,Orange peel Flavor,orange peel,FlavorDB / FEMA Flavor Library,ORANGE_PEEL,https://cosylab.iiitd.edu.in/flavordb2
+FLAVOR:PEELY,Peely Flavor,peely,FlavorDB / FEMA Flavor Library,PEELY,https://cosylab.iiitd.edu.in/flavordb2
+FLAVOR:RHUBARB,Rhubarb Flavor,rhubarb,FlavorDB / FEMA Flavor Library,RHUBARB,https://cosylab.iiitd.edu.in/flavordb2
+FLAVOR:CAMPHOR,Camphor Flavor,camphor,FlavorDB / FEMA Flavor Library,CAMPHOR,https://cosylab.iiitd.edu.in/flavordb2
+FLAVOR:GERANIUM,Geranium Flavor,geranium,FlavorDB / FEMA Flavor Library,GERANIUM,https://cosylab.iiitd.edu.in/flavordb2
+FLAVOR:CLOVER,Clover Flavor,clover,FlavorDB / FEMA Flavor Library,CLOVER,https://cosylab.iiitd.edu.in/flavordb2
+FLAVOR:AMBER,Amber Flavor,amber,FlavorDB / FEMA Flavor Library,AMBER,https://cosylab.iiitd.edu.in/flavordb2
+FLAVOR:WATERY,Watery Flavor,watery,FlavorDB / FEMA Flavor Library,WATERY,https://cosylab.iiitd.edu.in/flavordb2
+FLAVOR:PEPPERMINT,Peppermint Flavor,peppermint,FlavorDB / FEMA Flavor Library,PEPPERMINT,https://cosylab.iiitd.edu.in/flavordb2
+FLAVOR:BAY_OIL,Bay oil Flavor,bay oil,FlavorDB / FEMA Flavor Library,BAY_OIL,https://cosylab.iiitd.edu.in/flavordb2
+FLAVOR:MAPLE,Maple Flavor,maple,FlavorDB / FEMA Flavor Library,MAPLE,https://cosylab.iiitd.edu.in/flavordb2
+FLAVOR:FAINT,Faint Flavor,faint,FlavorDB / FEMA Flavor Library,FAINT,https://cosylab.iiitd.edu.in/flavordb2
+FLAVOR:MUSK,Musk Flavor,musk,FlavorDB / FEMA Flavor Library,MUSK,https://cosylab.iiitd.edu.in/flavordb2
+FLAVOR:RUMMY,Rummy Flavor,rummy,FlavorDB / FEMA Flavor Library,RUMMY,https://cosylab.iiitd.edu.in/flavordb2
+FLAVOR:BLUEBERRY,Blueberry Flavor,blueberry,FlavorDB / FEMA Flavor Library,BLUEBERRY,https://cosylab.iiitd.edu.in/flavordb2
+FLAVOR:JASMIN,Jasmin Flavor,jasmin,FlavorDB / FEMA Flavor Library,JASMIN,https://cosylab.iiitd.edu.in/flavordb2
+FLAVOR:MANGO,Mango Flavor,mango,FlavorDB / FEMA Flavor Library,MANGO,https://cosylab.iiitd.edu.in/flavordb2
+FLAVOR:SARSAPARILLA,Sarsaparilla Flavor,sarsaparilla,FlavorDB / FEMA Flavor Library,SARSAPARILLA,https://cosylab.iiitd.edu.in/flavordb2
+FLAVOR:CLEAN_CLOTH,Clean cloth Flavor,clean cloth,FlavorDB / FEMA Flavor Library,CLEAN_CLOTH,https://cosylab.iiitd.edu.in/flavordb2
+FLAVOR:DUST,Dust Flavor,dust,FlavorDB / FEMA Flavor Library,DUST,https://cosylab.iiitd.edu.in/flavordb2
+FLAVOR:UNPLEASANT,Unpleasant Flavor,unpleasant,FlavorDB / FEMA Flavor Library,UNPLEASANT,https://cosylab.iiitd.edu.in/flavordb2
+FLAVOR:IRIS,Iris Flavor,iris,FlavorDB / FEMA Flavor Library,IRIS,https://cosylab.iiitd.edu.in/flavordb2
+FLAVOR:BROWN_SUGAR,Brown sugar Flavor,brown sugar,FlavorDB / FEMA Flavor Library,BROWN_SUGAR,https://cosylab.iiitd.edu.in/flavordb2
+FLAVOR:BROWN,Brown Flavor,brown,FlavorDB / FEMA Flavor Library,BROWN,https://cosylab.iiitd.edu.in/flavordb2
+FLAVOR:TOASTED,Toasted Flavor,toasted,FlavorDB / FEMA Flavor Library,TOASTED,https://cosylab.iiitd.edu.in/flavordb2
+FLAVOR:NUTMEG,Nutmeg Flavor,nutmeg,FlavorDB / FEMA Flavor Library,NUTMEG,https://cosylab.iiitd.edu.in/flavordb2
+FLAVOR:LAUNDERED_CLOTHS,Laundered cloths Flavor,laundered cloths,FlavorDB / FEMA Flavor Library,LAUNDERED_CLOTHS,https://cosylab.iiitd.edu.in/flavordb2
+FLAVOR:POLISH,Polish Flavor,polish,FlavorDB / FEMA Flavor Library,POLISH,https://cosylab.iiitd.edu.in/flavordb2
+FLAVOR:ACIDIC,Acidic Flavor,acidic,FlavorDB / FEMA Flavor Library,ACIDIC,https://cosylab.iiitd.edu.in/flavordb2
+FLAVOR:GLUE,Glue Flavor,glue,FlavorDB / FEMA Flavor Library,GLUE,https://cosylab.iiitd.edu.in/flavordb2
+FLAVOR:CURRY,Curry Flavor,curry,FlavorDB / FEMA Flavor Library,CURRY,https://cosylab.iiitd.edu.in/flavordb2
+FLAVOR:JASMINE,Jasmine Flavor,jasmine,FlavorDB / FEMA Flavor Library,JASMINE,https://cosylab.iiitd.edu.in/flavordb2
+FLAVOR:HAY,Hay Flavor,hay,FlavorDB / FEMA Flavor Library,HAY,https://cosylab.iiitd.edu.in/flavordb2
+FLAVOR:PAPER,Paper Flavor,paper,FlavorDB / FEMA Flavor Library,PAPER,https://cosylab.iiitd.edu.in/flavordb2
+FLAVOR:BORNEOL,Borneol Flavor,borneol,FlavorDB / FEMA Flavor Library,BORNEOL,https://cosylab.iiitd.edu.in/flavordb2
+FLAVOR:STORAX,Storax Flavor,storax,FlavorDB / FEMA Flavor Library,STORAX,https://cosylab.iiitd.edu.in/flavordb2
+FLAVOR:ROOT,Root Flavor,root,FlavorDB / FEMA Flavor Library,ROOT,https://cosylab.iiitd.edu.in/flavordb2
+FLAVOR:STABLE,Stable Flavor,stable,FlavorDB / FEMA Flavor Library,STABLE,https://cosylab.iiitd.edu.in/flavordb2
+FLAVOR:CASTOREUM,Castoreum Flavor,castoreum,FlavorDB / FEMA Flavor Library,CASTOREUM,https://cosylab.iiitd.edu.in/flavordb2
+FLAVOR:GUAIACOL,Guaiacol Flavor,guaiacol,FlavorDB / FEMA Flavor Library,GUAIACOL,https://cosylab.iiitd.edu.in/flavordb2
+FLAVOR:ROQUEFORT_CHEESE,Roquefort cheese Flavor,roquefort cheese,FlavorDB / FEMA Flavor Library,ROQUEFORT_CHEESE,https://cosylab.iiitd.edu.in/flavordb2
+FLAVOR:CARAWAY,Caraway Flavor,caraway,FlavorDB / FEMA Flavor Library,CARAWAY,https://cosylab.iiitd.edu.in/flavordb2
+FLAVOR:CULTURED_DAIRY,Cultured dairy Flavor,cultured dairy,FlavorDB / FEMA Flavor Library,CULTURED_DAIRY,https://cosylab.iiitd.edu.in/flavordb2
+FLAVOR:DIRTY,Dirty Flavor,dirty,FlavorDB / FEMA Flavor Library,DIRTY,https://cosylab.iiitd.edu.in/flavordb2
+FLAVOR:SILAGE,Silage Flavor,silage,FlavorDB / FEMA Flavor Library,SILAGE,https://cosylab.iiitd.edu.in/flavordb2
+FLAVOR:MESQUITE,Mesquite Flavor,mesquite,FlavorDB / FEMA Flavor Library,MESQUITE,https://cosylab.iiitd.edu.in/flavordb2
+FLAVOR:CARNATION,Carnation Flavor,carnation,FlavorDB / FEMA Flavor Library,CARNATION,https://cosylab.iiitd.edu.in/flavordb2
+FLAVOR:LEMON_PEEL,Lemon peel Flavor,lemon peel,FlavorDB / FEMA Flavor Library,LEMON_PEEL,https://cosylab.iiitd.edu.in/flavordb2
+FLAVOR:BARLEY,Barley Flavor,barley,FlavorDB / FEMA Flavor Library,BARLEY,https://cosylab.iiitd.edu.in/flavordb2
+FLAVOR:DECOMPOSING_CABBAGE,Decomposing cabbage Flavor,decomposing cabbage,FlavorDB / FEMA Flavor Library,DECOMPOSING_CABBAGE,https://cosylab.iiitd.edu.in/flavordb2
+FLAVOR:BOILED_CHERRIES,Boiled cherries Flavor,boiled cherries,FlavorDB / FEMA Flavor Library,BOILED_CHERRIES,https://cosylab.iiitd.edu.in/flavordb2
+FLAVOR:ROASTED_BREAD,Roasted bread Flavor,roasted bread,FlavorDB / FEMA Flavor Library,ROASTED_BREAD,https://cosylab.iiitd.edu.in/flavordb2
+FLAVOR:TALLOW,Tallow Flavor,tallow,FlavorDB / FEMA Flavor Library,TALLOW,https://cosylab.iiitd.edu.in/flavordb2
+FLAVOR:FISH_OIL,Fish oil Flavor,fish oil,FlavorDB / FEMA Flavor Library,FISH_OIL,https://cosylab.iiitd.edu.in/flavordb2
+FLAVOR:CINNAMIC,Cinnamic Flavor,cinnamic,FlavorDB / FEMA Flavor Library,CINNAMIC,https://cosylab.iiitd.edu.in/flavordb2
+FLAVOR:MUSTARD,Mustard Flavor,mustard,FlavorDB / FEMA Flavor Library,MUSTARD,https://cosylab.iiitd.edu.in/flavordb2
+FLAVOR:PEPPERY,Peppery Flavor,peppery,FlavorDB / FEMA Flavor Library,PEPPERY,https://cosylab.iiitd.edu.in/flavordb2
+FLAVOR:UMAMI,Umami Flavor,umami,FlavorDB / FEMA Flavor Library,UMAMI,https://cosylab.iiitd.edu.in/flavordb2
+FLAVOR:BLAND,Bland Flavor,bland,FlavorDB / FEMA Flavor Library,BLAND,https://cosylab.iiitd.edu.in/flavordb2
+FLAVOR:RED_HOTS,Red hots Flavor,red hots,FlavorDB / FEMA Flavor Library,RED_HOTS,https://cosylab.iiitd.edu.in/flavordb2
+FLAVOR:PAINT,Paint Flavor,paint,FlavorDB / FEMA Flavor Library,PAINT,https://cosylab.iiitd.edu.in/flavordb2
+FLAVOR:CAMPHORACEOUS,Camphoraceous Flavor,camphoraceous,FlavorDB / FEMA Flavor Library,CAMPHORACEOUS,https://cosylab.iiitd.edu.in/flavordb2
+FLAVOR:MENTHOLIC,Mentholic Flavor,mentholic,FlavorDB / FEMA Flavor Library,MENTHOLIC,https://cosylab.iiitd.edu.in/flavordb2
+FLAVOR:ALTERS_SEVERAL_FLAVOR_AND_OR_TASTE_CHARACTERISTICS,Alters several flavor and/or taste characteristics Flavor,alters several flavor and/or taste characteristics,FlavorDB / FEMA Flavor Library,ALTERS_SEVERAL_FLAVOR_AND_OR_TASTE_CHARACTERISTICS,https://cosylab.iiitd.edu.in/flavordb2
+FLAVOR:THYME,Thyme Flavor,thyme,FlavorDB / FEMA Flavor Library,THYME,https://cosylab.iiitd.edu.in/flavordb2
+FLAVOR:MOTHBALL,Mothball Flavor,mothball,FlavorDB / FEMA Flavor Library,MOTHBALL,https://cosylab.iiitd.edu.in/flavordb2
+FLAVOR:MOTH_BALL,Moth ball Flavor,moth ball,FlavorDB / FEMA Flavor Library,MOTH_BALL,https://cosylab.iiitd.edu.in/flavordb2
+FLAVOR:NAPHTHELENE,Naphthelene Flavor,naphthelene,FlavorDB / FEMA Flavor Library,NAPHTHELENE,https://cosylab.iiitd.edu.in/flavordb2
+FLAVOR:FECAL,Fecal Flavor,fecal,FlavorDB / FEMA Flavor Library,FECAL,https://cosylab.iiitd.edu.in/flavordb2
+FLAVOR:ACETONE,Acetone Flavor,acetone,FlavorDB / FEMA Flavor Library,ACETONE,https://cosylab.iiitd.edu.in/flavordb2
+FLAVOR:LINDEN,Linden Flavor,linden,FlavorDB / FEMA Flavor Library,LINDEN,https://cosylab.iiitd.edu.in/flavordb2
+FLAVOR:MUGUET,Muguet Flavor,muguet,FlavorDB / FEMA Flavor Library,MUGUET,https://cosylab.iiitd.edu.in/flavordb2
+FLAVOR:LILY,Lily Flavor,lily,FlavorDB / FEMA Flavor Library,LILY,https://cosylab.iiitd.edu.in/flavordb2
+FLAVOR:ANGELICA,Angelica Flavor,angelica,FlavorDB / FEMA Flavor Library,ANGELICA,https://cosylab.iiitd.edu.in/flavordb2
+FLAVOR:AT_LOW_LEVELS_CAN_ALTER_THE_PERCEPTION_OF_SWEETNESS_AND_ALTER_THE_PERCEPTION_OF_VARIOUS_FLAVOR_CHARACTERISTICS__DOES_NOT_IMPART_SWEETNESS_AT_THE_LEVELS_USED_AS_A_FLAVORING_INGREDIENT_,At low levels can alter the perception of sweetness and alter the perception of various flavor characteristics. does not impart sweetness at the levels used as a flavoring ingredient. Flavor,at low levels can alter the perception of sweetness and alter the perception of various flavor characteristics. does not impart sweetness at the levels used as a flavoring ingredient.,FlavorDB / FEMA Flavor Library,AT_LOW_LEVELS_CAN_ALTER_THE_PERCEPTION_OF_SWEETNESS_AND_ALTER_THE_PERCEPTION_OF_VARIOUS_FLAVOR_CHARACTERISTICS__DOES_NOT_IMPART_SWEETNESS_AT_THE_LEVELS_USED_AS_A_FLAVORING_INGREDIENT_,https://cosylab.iiitd.edu.in/flavordb2
+FLAVOR:EGG,Egg Flavor,egg,FlavorDB / FEMA Flavor Library,EGG,https://cosylab.iiitd.edu.in/flavordb2
+FLAVOR:ROTTEN,Rotten Flavor,rotten,FlavorDB / FEMA Flavor Library,ROTTEN,https://cosylab.iiitd.edu.in/flavordb2
+FLAVOR:VERY_MILD,Very mild Flavor,very mild,FlavorDB / FEMA Flavor Library,VERY_MILD,https://cosylab.iiitd.edu.in/flavordb2
+FLAVOR:SHRIMP,Shrimp Flavor,shrimp,FlavorDB / FEMA Flavor Library,SHRIMP,https://cosylab.iiitd.edu.in/flavordb2
+FLAVOR:AMMONIACAL,Ammoniacal Flavor,ammoniacal,FlavorDB / FEMA Flavor Library,AMMONIACAL,https://cosylab.iiitd.edu.in/flavordb2
+FLAVOR:MENTHOL,Menthol Flavor,menthol,FlavorDB / FEMA Flavor Library,MENTHOL,https://cosylab.iiitd.edu.in/flavordb2
+FLAVOR:DEEP,Deep Flavor,deep,FlavorDB / FEMA Flavor Library,DEEP,https://cosylab.iiitd.edu.in/flavordb2
+FLAVOR:ROASTED_CORN,Roasted corn Flavor,roasted corn,FlavorDB / FEMA Flavor Library,ROASTED_CORN,https://cosylab.iiitd.edu.in/flavordb2
+FLAVOR:TOASTED_CEREAL,Toasted cereal Flavor,toasted cereal,FlavorDB / FEMA Flavor Library,TOASTED_CEREAL,https://cosylab.iiitd.edu.in/flavordb2
+FLAVOR:BREAD_CRUST,Bread crust Flavor,bread crust,FlavorDB / FEMA Flavor Library,BREAD_CRUST,https://cosylab.iiitd.edu.in/flavordb2
+FLAVOR:ALKALINE,Alkaline Flavor,alkaline,FlavorDB / FEMA Flavor Library,ALKALINE,https://cosylab.iiitd.edu.in/flavordb2
+FLAVOR:CAN_HELP_TO_REDUCE_THE_BITTER_CHARACTER_OF_CERTAIN_FLAVOR_FORMULATIONS,Can help to reduce the bitter character of certain flavor formulations Flavor,can help to reduce the bitter character of certain flavor formulations,FlavorDB / FEMA Flavor Library,CAN_HELP_TO_REDUCE_THE_BITTER_CHARACTER_OF_CERTAIN_FLAVOR_FORMULATIONS,https://cosylab.iiitd.edu.in/flavordb2
+FLAVOR:COOKED_POTATO,Cooked potato Flavor,cooked potato,FlavorDB / FEMA Flavor Library,COOKED_POTATO,https://cosylab.iiitd.edu.in/flavordb2
+FLAVOR:BEEF,Beef Flavor,beef,FlavorDB / FEMA Flavor Library,BEEF,https://cosylab.iiitd.edu.in/flavordb2
+FLAVOR:INTENSELY,Intensely Flavor,intensely,FlavorDB / FEMA Flavor Library,INTENSELY,https://cosylab.iiitd.edu.in/flavordb2
+FLAVOR:AROMATIC,Aromatic Flavor,aromatic,FlavorDB / FEMA Flavor Library,AROMATIC,https://cosylab.iiitd.edu.in/flavordb2
+FLAVOR:CITRAL,Citral Flavor,citral,FlavorDB / FEMA Flavor Library,CITRAL,https://cosylab.iiitd.edu.in/flavordb2
+FLAVOR:GREEN_BEAN,Green bean Flavor,green bean,FlavorDB / FEMA Flavor Library,GREEN_BEAN,https://cosylab.iiitd.edu.in/flavordb2
+FLAVOR:BEANY,Beany Flavor,beany,FlavorDB / FEMA Flavor Library,BEANY,https://cosylab.iiitd.edu.in/flavordb2
+FLAVOR:OZONE,Ozone Flavor,ozone,FlavorDB / FEMA Flavor Library,OZONE,https://cosylab.iiitd.edu.in/flavordb2
+FLAVOR:WINE_LEE,Wine-lee Flavor,wine-lee,FlavorDB / FEMA Flavor Library,WINE_LEE,https://cosylab.iiitd.edu.in/flavordb2
+FLAVOR:MANDARIN,Mandarin Flavor,mandarin,FlavorDB / FEMA Flavor Library,MANDARIN,https://cosylab.iiitd.edu.in/flavordb2
+FLAVOR:CLEAN_CLOTHES,Clean clothes Flavor,clean clothes,FlavorDB / FEMA Flavor Library,CLEAN_CLOTHES,https://cosylab.iiitd.edu.in/flavordb2
+FLAVOR:OXIDIZED,Oxidized Flavor,oxidized,FlavorDB / FEMA Flavor Library,OXIDIZED,https://cosylab.iiitd.edu.in/flavordb2
+FLAVOR:HORSERADISH,Horseradish Flavor,horseradish,FlavorDB / FEMA Flavor Library,HORSERADISH,https://cosylab.iiitd.edu.in/flavordb2
+FLAVOR:COTTON_CANDY,Cotton candy Flavor,cotton candy,FlavorDB / FEMA Flavor Library,COTTON_CANDY,https://cosylab.iiitd.edu.in/flavordb2
+FLAVOR:SUGAR,Sugar Flavor,sugar,FlavorDB / FEMA Flavor Library,SUGAR,https://cosylab.iiitd.edu.in/flavordb2
+FLAVOR:ACETIC,Acetic Flavor,acetic,FlavorDB / FEMA Flavor Library,ACETIC,https://cosylab.iiitd.edu.in/flavordb2
+FLAVOR:CARAMELLIC,Caramellic Flavor,caramellic,FlavorDB / FEMA Flavor Library,CARAMELLIC,https://cosylab.iiitd.edu.in/flavordb2
+FLAVOR:BURNT_ALMONDS,Burnt almonds Flavor,burnt almonds,FlavorDB / FEMA Flavor Library,BURNT_ALMONDS,https://cosylab.iiitd.edu.in/flavordb2
+FLAVOR:COOKED_NUT,Cooked nut Flavor,cooked nut,FlavorDB / FEMA Flavor Library,COOKED_NUT,https://cosylab.iiitd.edu.in/flavordb2
+FLAVOR:DANDELION,Dandelion Flavor,dandelion,FlavorDB / FEMA Flavor Library,DANDELION,https://cosylab.iiitd.edu.in/flavordb2
+FLAVOR:MOCHA,Mocha Flavor,mocha,FlavorDB / FEMA Flavor Library,MOCHA,https://cosylab.iiitd.edu.in/flavordb2
+FLAVOR:SOYBEAN,Soybean Flavor,soybean,FlavorDB / FEMA Flavor Library,SOYBEAN,https://cosylab.iiitd.edu.in/flavordb2
+FLAVOR:GREEN_PEPPER,Green pepper Flavor,green pepper,FlavorDB / FEMA Flavor Library,GREEN_PEPPER,https://cosylab.iiitd.edu.in/flavordb2
+FLAVOR:ACETOIN,Acetoin Flavor,acetoin,FlavorDB / FEMA Flavor Library,ACETOIN,https://cosylab.iiitd.edu.in/flavordb2
+FLAVOR:LICORICE,Licorice Flavor,licorice,FlavorDB / FEMA Flavor Library,LICORICE,https://cosylab.iiitd.edu.in/flavordb2
+FLAVOR:DUSTY,Dusty Flavor,dusty,FlavorDB / FEMA Flavor Library,DUSTY,https://cosylab.iiitd.edu.in/flavordb2
+FLAVOR:WET,Wet Flavor,wet,FlavorDB / FEMA Flavor Library,WET,https://cosylab.iiitd.edu.in/flavordb2
+FLAVOR:AMMONIA,Ammonia Flavor,ammonia,FlavorDB / FEMA Flavor Library,AMMONIA,https://cosylab.iiitd.edu.in/flavordb2
+FLAVOR:ALLIACEOUS,Alliaceous Flavor,alliaceous,FlavorDB / FEMA Flavor Library,ALLIACEOUS,https://cosylab.iiitd.edu.in/flavordb2
+FLAVOR:BOILED_VEGETABLE,Boiled vegetable Flavor,boiled vegetable,FlavorDB / FEMA Flavor Library,BOILED_VEGETABLE,https://cosylab.iiitd.edu.in/flavordb2
+FLAVOR:BUTYRIC,Butyric Flavor,butyric,FlavorDB / FEMA Flavor Library,BUTYRIC,https://cosylab.iiitd.edu.in/flavordb2
+FLAVOR:NUT_SKIN,Nut skin Flavor,nut skin,FlavorDB / FEMA Flavor Library,NUT_SKIN,https://cosylab.iiitd.edu.in/flavordb2
+FLAVOR:ROASTED_MEAT,Roasted meat Flavor,roasted meat,FlavorDB / FEMA Flavor Library,ROASTED_MEAT,https://cosylab.iiitd.edu.in/flavordb2
+FLAVOR:CORIANDER,Coriander Flavor,coriander,FlavorDB / FEMA Flavor Library,CORIANDER,https://cosylab.iiitd.edu.in/flavordb2
+FLAVOR:PUMPKIN,Pumpkin Flavor,pumpkin,FlavorDB / FEMA Flavor Library,PUMPKIN,https://cosylab.iiitd.edu.in/flavordb2
+FLAVOR:JAMMY,Jammy Flavor,jammy,FlavorDB / FEMA Flavor Library,JAMMY,https://cosylab.iiitd.edu.in/flavordb2
+FLAVOR:STEM,Stem Flavor,stem,FlavorDB / FEMA Flavor Library,STEM,https://cosylab.iiitd.edu.in/flavordb2
+FLAVOR:ROSE_BUD,Rose bud Flavor,rose bud,FlavorDB / FEMA Flavor Library,ROSE_BUD,https://cosylab.iiitd.edu.in/flavordb2
+FLAVOR:LACTONE,Lactone Flavor,lactone,FlavorDB / FEMA Flavor Library,LACTONE,https://cosylab.iiitd.edu.in/flavordb2
+FLAVOR:GASSY,Gassy Flavor,gassy,FlavorDB / FEMA Flavor Library,GASSY,https://cosylab.iiitd.edu.in/flavordb2
+FLAVOR:TURPENTINE,Turpentine Flavor,turpentine,FlavorDB / FEMA Flavor Library,TURPENTINE,https://cosylab.iiitd.edu.in/flavordb2
+FLAVOR:TERPENE,Terpene Flavor,terpene,FlavorDB / FEMA Flavor Library,TERPENE,https://cosylab.iiitd.edu.in/flavordb2
+FLAVOR:TRUFFLE,Truffle Flavor,truffle,FlavorDB / FEMA Flavor Library,TRUFFLE,https://cosylab.iiitd.edu.in/flavordb2
+FLAVOR:ESTERY,Estery Flavor,estery,FlavorDB / FEMA Flavor Library,ESTERY,https://cosylab.iiitd.edu.in/flavordb2
+FLAVOR:PENETRATING,Penetrating Flavor,penetrating,FlavorDB / FEMA Flavor Library,PENETRATING,https://cosylab.iiitd.edu.in/flavordb2
+FLAVOR:ACRYLATE,Acrylate Flavor,acrylate,FlavorDB / FEMA Flavor Library,ACRYLATE,https://cosylab.iiitd.edu.in/flavordb2
+FLAVOR:CITRUS_PEEL,Citrus peel Flavor,citrus peel,FlavorDB / FEMA Flavor Library,CITRUS_PEEL,https://cosylab.iiitd.edu.in/flavordb2
+FLAVOR:INCENSE,Incense Flavor,incense,FlavorDB / FEMA Flavor Library,INCENSE,https://cosylab.iiitd.edu.in/flavordb2
+FLAVOR:FOXY,Foxy Flavor,foxy,FlavorDB / FEMA Flavor Library,FOXY,https://cosylab.iiitd.edu.in/flavordb2
+FLAVOR:LEEK,Leek Flavor,leek,FlavorDB / FEMA Flavor Library,LEEK,https://cosylab.iiitd.edu.in/flavordb2
+FLAVOR:BLACK_CURRANT,Black currant Flavor,black currant,FlavorDB / FEMA Flavor Library,BLACK_CURRANT,https://cosylab.iiitd.edu.in/flavordb2
+FLAVOR:BOX_TREE,Box tree Flavor,box tree,FlavorDB / FEMA Flavor Library,BOX_TREE,https://cosylab.iiitd.edu.in/flavordb2
+FLAVOR:CAT,Cat Flavor,cat,FlavorDB / FEMA Flavor Library,CAT,https://cosylab.iiitd.edu.in/flavordb2
+FLAVOR:CAT_URINE,Cat-urine Flavor,cat-urine,FlavorDB / FEMA Flavor Library,CAT_URINE,https://cosylab.iiitd.edu.in/flavordb2
+FLAVOR:FRAGANT,Fragant Flavor,fragant,FlavorDB / FEMA Flavor Library,FRAGANT,https://cosylab.iiitd.edu.in/flavordb2
+FLAVOR:ROASTED_PEANUTS,Roasted peanuts Flavor,roasted peanuts,FlavorDB / FEMA Flavor Library,ROASTED_PEANUTS,https://cosylab.iiitd.edu.in/flavordb2
+FLAVOR:ASPARAGUS,Asparagus Flavor,asparagus,FlavorDB / FEMA Flavor Library,ASPARAGUS,https://cosylab.iiitd.edu.in/flavordb2
+FLAVOR:LACTONIC,Lactonic Flavor,lactonic,FlavorDB / FEMA Flavor Library,LACTONIC,https://cosylab.iiitd.edu.in/flavordb2
+FLAVOR:RUBBERY,Rubbery Flavor,rubbery,FlavorDB / FEMA Flavor Library,RUBBERY,https://cosylab.iiitd.edu.in/flavordb2
+FLAVOR:OTHERS,Others Flavor,others,FlavorDB / FEMA Flavor Library,OTHERS,https://cosylab.iiitd.edu.in/flavordb2
+FLAVOR:EUGENOL,Eugenol Flavor,eugenol,FlavorDB / FEMA Flavor Library,EUGENOL,https://cosylab.iiitd.edu.in/flavordb2
+FLAVOR:OAKMOSS,Oakmoss Flavor,oakmoss,FlavorDB / FEMA Flavor Library,OAKMOSS,https://cosylab.iiitd.edu.in/flavordb2
+FLAVOR:FENNEL,Fennel Flavor,fennel,FlavorDB / FEMA Flavor Library,FENNEL,https://cosylab.iiitd.edu.in/flavordb2
+FLAVOR:EXTREMELY_SWEET,Extremely sweet Flavor,extremely sweet,FlavorDB / FEMA Flavor Library,EXTREMELY_SWEET,https://cosylab.iiitd.edu.in/flavordb2
+FLAVOR:SEEDY,Seedy Flavor,seedy,FlavorDB / FEMA Flavor Library,SEEDY,https://cosylab.iiitd.edu.in/flavordb2

@@ -6,7 +6,7 @@
         "Access Mode": "Automatic",
         "License": "Academic Use Only",
         "Raw File Type": "html/json",
-        "Download Timestamp": "2026-09-11 11:15:16 UTC",
+        "Download Timestamp": "2026-09-22 08:07:14 UTC",
         "Local Path": "data/semi_structured/flavordb/entity_3.json",
         "Status": "Crawled"
     },
@@ -17,7 +17,7 @@
         "Access Mode": "Automatic",
         "License": "Proprietary / Educational",
         "Raw File Type": "html/pdf",
-        "Download Timestamp": "2026-09-11 11:14:57 UTC",
+        "Download Timestamp": "2026-09-22 08:06:51 UTC",
         "Local Path": "data/semi_structured/specification_sheets/iff_spec_sheet.txt",
         "Status": "Downloaded (Fallback)"
     },
@@ -28,7 +28,7 @@
         "Access Mode": "Automatic",
         "License": "USDA Public Data",
         "Raw File Type": "json",
-        "Download Timestamp": "2026-09-11 11:14:57 UTC",
+        "Download Timestamp": "2026-09-22 08:06:51 UTC",
         "Local Path": "data/structured/combase/combase_microbial_records.json",
         "Status": "Success"
     },
@@ -39,7 +39,7 @@
         "Access Mode": "Automatic",
         "License": "Public Research Use",
         "Raw File Type": "json",
-        "Download Timestamp": "2026-09-11 11:14:57 UTC",
+        "Download Timestamp": "2026-09-22 08:06:51 UTC",
         "Local Path": "data/semi_structured/nectar/nectar_sensory_records.json",
         "Status": "Success"
     },
@@ -50,7 +50,7 @@
         "Access Mode": "Automatic",
         "License": "Open Access Research",
         "Raw File Type": "json",
-        "Download Timestamp": "2026-09-11 11:14:57 UTC",
+        "Download Timestamp": "2026-09-22 08:06:51 UTC",
         "Local Path": "data/structured/texture/texture_measurements.json",
         "Status": "Success"
     },
@@ -61,7 +61,7 @@
         "Access Mode": "Automatic",
         "License": "Open Access Science",
         "Raw File Type": "json",
-        "Download Timestamp": "2026-09-11 11:14:57 UTC",
+        "Download Timestamp": "2026-09-22 08:06:51 UTC",
         "Local Path": "data/structured/sustainability/environmental_impact_records.json",
         "Status": "Success"
     },
@@ -72,7 +72,7 @@
         "Access Mode": "Automatic",
         "License": "Public Methodology",
         "Raw File Type": "json",
-        "Download Timestamp": "2026-09-11 11:14:57 UTC",
+        "Download Timestamp": "2026-09-22 08:06:51 UTC",
         "Local Path": "data/structured/scoring_models/scoring_model_definitions.json",
         "Status": "Success"
     },
@@ -83,7 +83,7 @@
         "Access Mode": "Automatic",
         "License": "Public Research Use",
         "Raw File Type": "json",
-        "Download Timestamp": "2026-09-11 11:14:57 UTC",
+        "Download Timestamp": "2026-09-22 08:06:51 UTC",
         "Local Path": "data/structured/foodcom/foodcom_recipes_sample.json",
         "Status": "Success"
     },
@@ -94,7 +94,7 @@
         "Access Mode": "Automatic",
         "License": "Public Domain",
         "Raw File Type": "pdf",
-        "Download Timestamp": "2026-09-11 11:14:57 UTC",
+        "Download Timestamp": "2026-09-22 08:06:52 UTC",
         "Local Path": "data/unstructured/ins/CXG_036e.pdf",
         "Status": "Existing"
     },
@@ -105,7 +105,7 @@
         "Access Mode": "Automatic",
         "License": "Public Domain",
         "Raw File Type": "pdf",
-        "Download Timestamp": "2026-09-11 11:14:57 UTC",
+        "Download Timestamp": "2026-09-22 08:06:52 UTC",
         "Local Path": "data/unstructured/codex/CXS_192e.pdf",
         "Status": "Existing"
     },
@@ -116,7 +116,7 @@
         "Access Mode": "Automatic",
         "License": "Public Domain",
         "Raw File Type": "pdf",
-        "Download Timestamp": "2026-09-11 11:14:57 UTC",
+        "Download Timestamp": "2026-09-22 08:06:52 UTC",
         "Local Path": "data/unstructured/fssai/FSSAI_Food_Products_Regulations.pdf",
         "Status": "Existing"
     },
@@ -127,7 +127,7 @@
         "Access Mode": "Automatic",
         "License": "Open Access",
         "Raw File Type": "pdf",
-        "Download Timestamp": "2026-09-11 11:15:11 UTC",
+        "Download Timestamp": "2026-09-22 08:06:55 UTC",
         "Local Path": "data/unstructured/research_papers/Applications_of_Novel_Techniques_to_Health_Foods_M.pdf",
         "Status": "Downloaded"
     },
@@ -138,7 +138,7 @@
         "Access Mode": "Automatic",
         "License": "ODbL",
         "Raw File Type": "html",
-        "Download Timestamp": "2026-09-11 11:15:08 UTC",
+        "Download Timestamp": "2026-09-22 08:06:55 UTC",
         "Local Path": "data/semi_structured/product_labels/product_3017620422003.html",
         "Status": "Downloaded"
     },
@@ -149,7 +149,7 @@
         "Access Mode": "Automatic",
         "License": "Public Domain",
         "Raw File Type": "pdf",
-        "Download Timestamp": "2026-09-11 11:15:10 UTC",
+        "Download Timestamp": "2026-09-22 08:06:55 UTC",
         "Local Path": "data/unstructured/patents/patent_US9876543B2_placeholder.txt",
         "Status": "Downloaded (Patent Record)"
     },
@@ -160,7 +160,7 @@
         "Access Mode": "Automatic",
         "License": "Public Domain",
         "Raw File Type": "zip",
-        "Download Timestamp": "2026-09-11 11:14:41 UTC",
+        "Download Timestamp": "2026-09-22 08:06:31 UTC",
         "Local Path": "data/structured/usda_fdc/FoodData_Central_csv_2024-04-18.zip",
         "Status": "Existing"
     },
@@ -171,7 +171,7 @@
         "Access Mode": "Automatic",
         "License": "Non-commercial Research",
         "Raw File Type": "zip",
-        "Download Timestamp": "2026-09-11 11:14:41 UTC",
+        "Download Timestamp": "2026-09-22 08:06:30 UTC",
         "Local Path": "data/structured/foodb/foodb_2020_04_07_csv.zip",
         "Status": "Existing"
     },
@@ -182,7 +182,7 @@
         "Access Mode": "Manual",
         "License": "Academic Use",
         "Raw File Type": "json",
-        "Download Timestamp": "2026-09-11 11:14:41 UTC",
+        "Download Timestamp": "2026-09-22 08:06:31 UTC",
         "Local Path": "data/structured/recipe1m",
         "Status": "Manual Download Required"
     },
@@ -193,7 +193,7 @@
         "Access Mode": "Manual",
         "License": "Academic Use",
         "Raw File Type": "json",
-        "Download Timestamp": "2026-09-11 11:14:41 UTC",
+        "Download Timestamp": "2026-09-22 08:06:31 UTC",
         "Local Path": "data/structured/nutrition5k",
         "Status": "Manual Download Required"
     },
@@ -204,7 +204,7 @@
         "Access Mode": "Manual",
         "License": "Public Domain",
         "Raw File Type": "xml",
-        "Download Timestamp": "2026-09-11 11:14:41 UTC",
+        "Download Timestamp": "2026-09-22 08:06:31 UTC",
         "Local Path": "data/structured/gsfa_xml",
         "Status": "Manual Download Required"
     },
@@ -215,7 +215,7 @@
         "Access Mode": "Automatic",
         "License": "Public Domain",
         "Raw File Type": "html",
-        "Download Timestamp": "2026-09-11 11:14:50 UTC",
+        "Download Timestamp": "2026-09-22 08:06:40 UTC",
         "Local Path": "data/semi_structured/gsfa_html/gsfa_ins.html",
         "Status": "Downloaded (Fallback)"
     }

@@ -1,0 +1,270 @@
+{
+  "status": "FAIL",
+  "hard_constraint_results": [
+    {
+      "constraint": "product_category REQUIRED Protein Bars / Functional Snacks",
+      "result": "PASS",
+      "evidence": "Rule Evaluator",
+      "reason": "Satisfied"
+    },
+    {
+      "constraint": "dietary_pattern FORBIDDEN animal_derived_ingredients",
+      "result": "FAIL",
+      "evidence": "Ingredient Catalog Dietary Flags",
+      "reason": "Animal-derived check"
+    },
+    {
+      "constraint": "protein_min >= 20.0",
+      "result": "FAIL",
+      "evidence": "Calculated Nutrition Yield",
+      "reason": "Actual 9.0% vs required 20.0%"
+    },
+    {
+      "constraint": "fat_max <= 30.0",
+      "result": "PASS",
+      "evidence": "Rule Evaluator",
+      "reason": "Satisfied"
+    }
+  ],
+  "property_completeness_results": [
+    {
+      "ingredient": "Refined Cane Sugar (Granulated)",
+      "status": "PASS",
+      "missing_properties": []
+    },
+    {
+      "ingredient": "37800 - cereals with an added high protein food which have to be reconstituted with water or other protein-free liquid (efsa foodex2)",
+      "status": "PASS",
+      "missing_properties": []
+    },
+    {
+      "ingredient": "Prime Press Cocoa Butter",
+      "status": "PASS",
+      "missing_properties": []
+    },
+    {
+      "ingredient": "Cocoa Solids / Cocoa Liquor (Mass)",
+      "status": "PASS",
+      "missing_properties": []
+    },
+    {
+      "ingredient": "gum (plant derived substance)",
+      "status": "PASS",
+      "missing_properties": []
+    },
+    {
+      "ingredient": "fudge (vanilla and chocolate marble top)",
+      "status": "PASS",
+      "missing_properties": []
+    },
+    {
+      "ingredient": "Natural Sea Salt",
+      "status": "PASS",
+      "missing_properties": []
+    },
+    {
+      "ingredient": "Potassium Sorbate (INS 202)",
+      "status": "PASS",
+      "missing_properties": []
+    }
+  ],
+  "regulatory_results": [
+    {
+      "ingredient": "Refined Cane Sugar (Granulated)",
+      "permitted": true,
+      "ins_number": null,
+      "status": "Permitted",
+      "jurisdiction": "FSSAI / FDA / Codex"
+    },
+    {
+      "ingredient": "37800 - cereals with an added high protein food which have to be reconstituted with water or other protein-free liquid (efsa foodex2)",
+      "permitted": true,
+      "ins_number": null,
+      "status": "Permitted",
+      "jurisdiction": "FSSAI / FDA / Codex"
+    },
+    {
+      "ingredient": "Prime Press Cocoa Butter",
+      "permitted": true,
+      "ins_number": null,
+      "status": "Permitted",
+      "jurisdiction": "FSSAI / FDA / Codex"
+    },
+    {
+      "ingredient": "Cocoa Solids / Cocoa Liquor (Mass)",
+      "permitted": true,
+      "ins_number": null,
+      "status": "Permitted",
+      "jurisdiction": "FSSAI / FDA / Codex"
+    },
+    {
+      "ingredient": "gum (plant derived substance)",
+      "permitted": true,
+      "ins_number": null,
+      "status": "Permitted",
+      "jurisdiction": "FSSAI / FDA / Codex"
+    },
+    {
+      "ingredient": "fudge (vanilla and chocolate marble top)",
+      "permitted": true,
+      "ins_number": null,
+      "status": "Permitted",
+      "jurisdiction": "FSSAI / FDA / Codex"
+    },
+    {
+      "ingredient": "Natural Sea Salt",
+      "permitted": true,
+      "ins_number": null,
+      "status": "Permitted",
+      "jurisdiction": "FSSAI / FDA / Codex"
+    },
+    {
+      "ingredient": "Potassium Sorbate (INS 202)",
+      "permitted": true,
+      "ins_number": null,
+      "status": "Permitted",
+      "jurisdiction": "FSSAI / FDA / Codex"
+    }
+  ],
+  "regional_compliance": {
+    "FSSAI": {
+      "status": "Failed",
+      "alerts": [
+        "Violation: Vegan product contains prohibited animal substance in 'Prime Press Cocoa Butter'",
+        "Requires Evidence: Additive 'gum (plant derived substance)' (No INS) requires regional dossier verification.",
+        "Requires Evidence: Additive 'Potassium Sorbate (INS 202)' (No INS) requires regional dossier verification."
+      ],
+      "verified_count": 6,
+      "total_evaluated": 8
+    },
+    "FDA": {
+      "status": "Failed",
+      "alerts": [
+        "Violation: Vegan product contains prohibited animal substance in 'Prime Press Cocoa Butter'",
+        "Requires Evidence: Additive 'gum (plant derived substance)' (No INS) requires regional dossier verification.",
+        "Requires Evidence: Additive 'Potassium Sorbate (INS 202)' (No INS) requires regional dossier verification."
+      ],
+      "verified_count": 6,
+      "total_evaluated": 8
+    },
+    "EFSA": {
+      "status": "Failed",
+      "alerts": [
+        "Violation: Vegan product contains prohibited animal substance in 'Prime Press Cocoa Butter'",
+        "Requires Evidence: Additive 'gum (plant derived substance)' (No INS) requires regional dossier verification.",
+        "Requires Evidence: Additive 'Potassium Sorbate (INS 202)' (No INS) requires regional dossier verification."
+      ],
+      "verified_count": 6,
+      "total_evaluated": 8
+    }
+  },
+  "allergen_results": [
+    {
+      "ingredient": "Refined Cane Sugar (Granulated)",
+      "allergen": "None Declared",
+      "status": "PASS"
+    },
+    {
+      "ingredient": "37800 - cereals with an added high protein food which have to be reconstituted with water or other protein-free liquid (efsa foodex2)",
+      "allergen": "None Declared",
+      "status": "PASS"
+    },
+    {
+      "ingredient": "Prime Press Cocoa Butter",
+      "allergen": "None Declared",
+      "status": "FAIL"
+    },
+    {
+      "ingredient": "Cocoa Solids / Cocoa Liquor (Mass)",
+      "allergen": "None Declared",
+      "status": "PASS"
+    },
+    {
+      "ingredient": "gum (plant derived substance)",
+      "allergen": "None Declared",
+      "status": "PASS"
+    },
+    {
+      "ingredient": "fudge (vanilla and chocolate marble top)",
+      "allergen": "None Declared",
+      "status": "PASS"
+    },
+    {
+      "ingredient": "Natural Sea Salt",
+      "allergen": "None Declared",
+      "status": "PASS"
+    },
+    {
+      "ingredient": "Potassium Sorbate (INS 202)",
+      "allergen": "None Declared",
+      "status": "PASS"
+    }
+  ],
+  "compatibility_results": [
+    {
+      "issue": "Flavor enhancement & volatile aroma rounding",
+      "status": "Synergistic"
+    },
+    {
+      "issue": "Sweetness potentiation & bitterness suppression",
+      "status": "Synergistic"
+    }
+  ],
+  "groundedness_results": [
+    {
+      "claim": "Refined Cane Sugar (Granulated) (Sweetener)",
+      "source": "Codex Alimentarius Standard 212-1999",
+      "grounded": true
+    },
+    {
+      "claim": "37800 - cereals with an added high protein food which have to be reconstituted with water or other protein-free liquid (efsa foodex2) (Protein Source)",
+      "source": "Grounded Repository DB",
+      "grounded": true
+    },
+    {
+      "claim": "Prime Press Cocoa Butter (Fats & Oils)",
+      "source": "Journal of the American Oil Chemists' Society",
+      "grounded": true
+    },
+    {
+      "claim": "Cocoa Solids / Cocoa Liquor (Mass) (Cocoa Solids)",
+      "source": "Codex Standard 87-1981 for Chocolate and Chocolate Products",
+      "grounded": true
+    },
+    {
+      "claim": "gum (plant derived substance) (Emulsifier)",
+      "source": "Grounded Repository DB",
+      "grounded": true
+    },
+    {
+      "claim": "fudge (vanilla and chocolate marble top) (Flavor System)",
+      "source": "Grounded Repository DB",
+      "grounded": true
+    },
+    {
+      "claim": "Natural Sea Salt (Flavor System)",
+      "source": "USDA FDC",
+      "grounded": true
+    },
+    {
+      "claim": "Potassium Sorbate (INS 202) (Preservative)",
+      "source": "FSSAI Schedule II / Codex GSFA",
+      "grounded": true
+    }
+  ],
+  "mass_balance_result": {
+    "total_percentage": 100.0,
+    "target_percentage": 100.0,
+    "is_feasible": true,
+    "status": "PASS"
+  },
+  "failure_reasons": [
+    "Contains prohibited animal-derived ingredients under Vegan requirement.",
+    "Protein yield 9.0% below minimum required 20.0%.",
+    "Dietary/Allergen conflict in ingredient 'Prime Press Cocoa Butter'."
+  ],
+  "requires_evidence_reasons": [],
+  "iteration_number": 1,
+  "max_iterations": 3,
+  "iteration_recommendation": "Re-optimize formulation to satisfy violated constraints"
+}

@@ -1,0 +1,387 @@
+{
+  "status": "PASS",
+  "overall_status": "FEASIBLE",
+  "feasibility_status": "FEASIBLE",
+  "is_valid": true,
+  "is_feasible": true,
+  "failure_reasons": [],
+  "hard_constraint_violations": [],
+  "warnings": [],
+  "traceability_audit": [
+    {
+      "ingredient_id": "ing_cane_sugar",
+      "name": "Refined Cane Sugar (Granulated)",
+      "eligible": true,
+      "status": "PASS"
+    },
+    {
+      "ingredient_id": "ing_soy_protein",
+      "name": "Soy Protein Isolate",
+      "eligible": true,
+      "status": "PASS"
+    },
+    {
+      "ingredient_id": "ing_cocoa_butter",
+      "name": "Prime Press Cocoa Butter",
+      "eligible": true,
+      "status": "PASS"
+    },
+    {
+      "ingredient_id": "ing_cocoa_mass",
+      "name": "Cocoa Solids / Cocoa Liquor (Mass)",
+      "eligible": true,
+      "status": "PASS"
+    },
+    {
+      "ingredient_id": "ing_gum_(plant_derived_substance)",
+      "name": "gum (plant derived substance)",
+      "eligible": true,
+      "status": "PASS"
+    },
+    {
+      "ingredient_id": "ing_fudge_(vanilla_and_chocolate_marble_top)",
+      "name": "fudge (vanilla and chocolate marble top)",
+      "eligible": true,
+      "status": "PASS"
+    },
+    {
+      "ingredient_id": "ing_sea_salt",
+      "name": "Natural Sea Salt",
+      "eligible": true,
+      "status": "PASS"
+    },
+    {
+      "ingredient_id": "ing_potassium_sorbate",
+      "name": "Potassium Sorbate (INS 202)",
+      "eligible": true,
+      "status": "PASS"
+    }
+  ],
+  "reproduced_macros": {
+    "protein": 48.6,
+    "fat": 30.0,
+    "carbohydrates": 15.7,
+    "sugar": 7.8,
+    "fibre": 4.9,
+    "calories": 527.0,
+    "key_minerals_mg": 767.0,
+    "minerals": {
+      "calcium_mg": 138.7,
+      "iron_mg": 8.5,
+      "potassium_mg": 501.9,
+      "magnesium_mg": 117.8,
+      "total_minerals_mg": 767.0
+    },
+    "basis": "100g formulation basis",
+    "unit": "g per 100g (kcal for calories, mg for minerals)",
+    "per_serving": {
+      "serving_size_g": 40.0,
+      "protein": 19.42,
+      "fat": 12.0,
+      "carbohydrates": 6.27,
+      "sugar": 3.12,
+      "fibre": 1.95,
+      "calories": 211.0,
+      "key_minerals_mg": 307.0,
+      "minerals": {
+        "calcium_mg": 55.5,
+        "iron_mg": 3.38,
+        "potassium_mg": 200.8,
+        "magnesium_mg": 47.1,
+        "total_minerals_mg": 307.0
+      }
+    },
+    "itemized_breakdown": [
+      {
+        "ingredient_id": "ing_cane_sugar",
+        "name": "Refined Cane Sugar (Granulated)",
+        "percentage": 7.52,
+        "protein_pct": 0.0,
+        "fat_pct": 0.0,
+        "carbs_pct": 100.0,
+        "sugar_pct": 100.0,
+        "fibre_pct": 0.0,
+        "protein_contrib_g": 0.0,
+        "fat_contrib_g": 0.0,
+        "carbs_contrib_g": 7.52,
+        "sugar_contrib_g": 7.52,
+        "fibre_contrib_g": 0.0,
+        "calories_contrib_kcal": 30.1,
+        "key_minerals_contrib_mg": 7.4,
+        "source": "Codex Alimentarius Standard 212-1999"
+      },
+      {
+        "ingredient_id": "ing_soy_protein",
+        "name": "Soy Protein Isolate",
+        "percentage": 49.995,
+        "protein_pct": 90.0,
+        "fat_pct": 1.0,
+        "carbs_pct": 1.0,
+        "sugar_pct": 0.0,
+        "fibre_pct": 1.0,
+        "protein_contrib_g": 44.995,
+        "fat_contrib_g": 0.5,
+        "carbs_contrib_g": 0.5,
+        "sugar_contrib_g": 0.0,
+        "fibre_contrib_g": 0.5,
+        "calories_contrib_kcal": 186.5,
+        "key_minerals_contrib_mg": 427.4,
+        "source": "Food Chemistry Vol 312"
+      },
+      {
+        "ingredient_id": "ing_cocoa_butter",
+        "name": "Prime Press Cocoa Butter",
+        "percentage": 15.0,
+        "protein_pct": 0.0,
+        "fat_pct": 100.0,
+        "carbs_pct": 0.0,
+        "sugar_pct": 0.0,
+        "fibre_pct": 0.0,
+        "protein_contrib_g": 0.0,
+        "fat_contrib_g": 15.0,
+        "carbs_contrib_g": 0.0,
+        "sugar_contrib_g": 0.0,
+        "fibre_contrib_g": 0.0,
+        "calories_contrib_kcal": 135.0,
+        "key_minerals_contrib_mg": 117.5,
+        "source": "Journal of the American Oil Chemists' Society"
+      },
+      {
+        "ingredient_id": "ing_cocoa_mass",
+        "name": "Cocoa Solids / Cocoa Liquor (Mass)",
+        "percentage": 27.36,
+        "protein_pct": 13.0,
+        "fat_pct": 53.0,
+        "carbs_pct": 28.0,
+        "sugar_pct": 1.0,
+        "fibre_pct": 16.0,
+        "protein_contrib_g": 3.557,
+        "fat_contrib_g": 14.501,
+        "carbs_contrib_g": 7.661,
+        "sugar_contrib_g": 0.274,
+        "fibre_contrib_g": 4.378,
+        "calories_contrib_kcal": 175.4,
+        "key_minerals_contrib_mg": 214.3,
+        "source": "Codex Standard 87-1981 for Chocolate and Chocolate Products"
+      },
+      {
+        "ingredient_id": "ing_gum_(plant_derived_substance)",
+        "name": "gum (plant derived substance)",
+        "percentage": 0.05,
+        "protein_pct": 0.0,
+        "fat_pct": 0.0,
+        "carbs_pct": 3.0,
+        "sugar_pct": 1.0,
+        "fibre_pct": 2.0,
+        "protein_contrib_g": 0.0,
+        "fat_contrib_g": 0.0,
+        "carbs_contrib_g": 0.002,
+        "sugar_contrib_g": 0.001,
+        "fibre_contrib_g": 0.001,
+        "calories_contrib_kcal": 0.0,
+        "key_minerals_contrib_mg": 0.1,
+        "source": "Grounded Repository DB"
+      },
+      {
+        "ingredient_id": "ing_fudge_(vanilla_and_chocolate_marble_top)",
+        "name": "fudge (vanilla and chocolate marble top)",
+        "percentage": 0.02,
+        "protein_pct": 0.0,
+        "fat_pct": 0.0,
+        "carbs_pct": 10.0,
+        "sugar_pct": 1.0,
+        "fibre_pct": 2.0,
+        "protein_contrib_g": 0.0,
+        "fat_contrib_g": 0.0,
+        "carbs_contrib_g": 0.002,
+        "sugar_contrib_g": 0.0,
+        "fibre_contrib_g": 0.0,
+        "calories_contrib_kcal": 0.0,
+        "key_minerals_contrib_mg": 0.2,
+        "source": "Grounded Repository DB"
+      },
+      {
+        "ingredient_id": "ing_sea_salt",
+        "name": "Natural Sea Salt",
+        "percentage": 0.05,
+        "protein_pct": 0.0,
+        "fat_pct": 0.0,
+        "carbs_pct": 0.0,
+        "sugar_pct": 0.0,
+        "fibre_pct": 0.0,
+        "protein_contrib_g": 0.0,
+        "fat_contrib_g": 0.0,
+        "carbs_contrib_g": 0.0,
+        "sugar_contrib_g": 0.0,
+        "fibre_contrib_g": 0.0,
+        "calories_contrib_kcal": 0.0,
+        "key_minerals_contrib_mg": 0.1,
+        "source": "USDA FDC"
+      },
+      {
+        "ingredient_id": "ing_potassium_sorbate",
+        "name": "Potassium Sorbate (INS 202)",
+        "percentage": 0.005,
+        "protein_pct": 0.0,
+        "fat_pct": 0.0,
+        "carbs_pct": 0.0,
+        "sugar_pct": 0.0,
+        "fibre_pct": 0.0,
+        "protein_contrib_g": 0.0,
+        "fat_contrib_g": 0.0,
+        "carbs_contrib_g": 0.0,
+        "sugar_contrib_g": 0.0,
+        "fibre_contrib_g": 0.0,
+        "calories_contrib_kcal": 0.0,
+        "key_minerals_contrib_mg": 0.0,
+        "source": "FSSAI Schedule II / Codex GSFA"
+      }
+    ]
+  },
+  "reproduced_cost": {
+    "cost_per_kg": 11.42,
+    "cost_per_serving": 0.457,
+    "currency": "USD",
+    "cost_status": "CALCULATED",
+    "has_unknown_cost_components": false,
+    "itemized_breakdown": [
+      {
+        "ingredient_id": "ing_cane_sugar",
+        "name": "Refined Cane Sugar (Granulated)",
+        "percentage": 7.52,
+        "quantity_kg_per_batch": 0.0752,
+        "unit_price": 1.2,
+        "unit": "USD/kg",
+        "cost_contribution": 0.0902,
+        "source": "Codex Alimentarius Standard 212-1999"
+      },
+      {
+        "ingredient_id": "ing_soy_protein",
+        "name": "Soy Protein Isolate",
+        "percentage": 49.995,
+        "quantity_kg_per_batch": 0.4999,
+        "unit_price": 10.8,
+        "unit": "USD/kg",
+        "cost_contribution": 5.3995,
+        "source": "Food Chemistry Vol 312"
+      },
+      {
+        "ingredient_id": "ing_cocoa_butter",
+        "name": "Prime Press Cocoa Butter",
+        "percentage": 15.0,
+        "quantity_kg_per_batch": 0.15,
+        "unit_price": 18.5,
+        "unit": "USD/kg",
+        "cost_contribution": 2.775,
+        "source": "Journal of the American Oil Chemists' Society"
+      },
+      {
+        "ingredient_id": "ing_cocoa_mass",
+        "name": "Cocoa Solids / Cocoa Liquor (Mass)",
+        "percentage": 27.36,
+        "quantity_kg_per_batch": 0.2736,
+        "unit_price": 11.5,
+        "unit": "USD/kg",
+        "cost_contribution": 3.1464,
+        "source": "Codex Standard 87-1981 for Chocolate and Chocolate Products"
+      },
+      {
+        "ingredient_id": "ing_gum_(plant_derived_substance)",
+        "name": "gum (plant derived substance)",
+        "percentage": 0.05,
+        "quantity_kg_per_batch": 0.0005,
+        "unit_price": 12.5,
+        "unit": "USD/kg",
+        "cost_contribution": 0.0063,
+        "source": "Grounded Repository DB"
+      },
+      {
+        "ingredient_id": "ing_fudge_(vanilla_and_chocolate_marble_top)",
+        "name": "fudge (vanilla and chocolate marble top)",
+        "percentage": 0.02,
+        "quantity_kg_per_batch": 0.0002,
+        "unit_price": 12.5,
+        "unit": "USD/kg",
+        "cost_contribution": 0.0025,
+        "source": "Grounded Repository DB"
+      },
+      {
+        "ingredient_id": "ing_sea_salt",
+        "name": "Natural Sea Salt",
+        "percentage": 0.05,
+        "quantity_kg_per_batch": 0.0005,
+        "unit_price": 1.5,
+        "unit": "USD/kg",
+        "cost_contribution": 0.0008,
+        "source": "USDA FDC"
+      },
+      {
+        "ingredient_id": "ing_potassium_sorbate",
+        "name": "Potassium Sorbate (INS 202)",
+        "percentage": 0.005,
+        "quantity_kg_per_batch": 0.0001,
+        "unit_price": 14.5,
+        "unit": "USD/kg",
+        "cost_contribution": 0.0007,
+        "source": "FSSAI Schedule II / Codex GSFA"
+      }
+    ]
+  },
+  "mass_balance": {
+    "total_percentage": 100.0,
+    "delta": 0.0,
+    "is_valid": true
+  },
+  "mass_balance_result": {
+    "total_percentage": 100.0,
+    "delta": 0.0,
+    "is_valid": true,
+    "status": "PASS"
+  },
+  "hard_constraint_results": [
+    {
+      "constraint": "Protein Min",
+      "target": 20.0,
+      "actual": 48.6,
+      "status": "PASS"
+    },
+    {
+      "constraint": "Fat Max",
+      "target": 30.0,
+      "actual": 30.0,
+      "status": "PASS"
+    }
+  ],
+  "regional_compliance": {
+    "FSSAI": {
+      "status": "Warning",
+      "alerts": [
+        "Requires Evidence: Additive 'gum (plant derived substance)' (No INS) requires regional dossier verification.",
+        "Requires Evidence: Additive 'Potassium Sorbate (INS 202)' (No INS) requires regional dossier verification.",
+        "Partial regulatory clearance: Some ingredients require technical dossier verification."
+      ],
+      "verified_count": 6,
+      "total_evaluated": 8
+    },
+    "FDA": {
+      "status": "Warning",
+      "alerts": [
+        "Requires Evidence: Additive 'gum (plant derived substance)' (No INS) requires regional dossier verification.",
+        "Requires Evidence: Additive 'Potassium Sorbate (INS 202)' (No INS) requires regional dossier verification.",
+        "Partial regulatory clearance: Some ingredients require technical dossier verification."
+      ],
+      "verified_count": 6,
+      "total_evaluated": 8
+    },
+    "EFSA": {
+      "status": "Warning",
+      "alerts": [
+        "Requires Evidence: Additive 'gum (plant derived substance)' (No INS) requires regional dossier verification.",
+        "Requires Evidence: Additive 'Potassium Sorbate (INS 202)' (No INS) requires regional dossier verification.",
+        "Partial regulatory clearance: Some ingredients require technical dossier verification."
+      ],
+      "verified_count": 6,
+      "total_evaluated": 8
+    }
+  }
+}

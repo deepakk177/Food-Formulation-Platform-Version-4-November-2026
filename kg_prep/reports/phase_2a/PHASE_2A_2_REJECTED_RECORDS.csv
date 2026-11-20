@@ -1,0 +1,11 @@
+source_id,dataset_id,source_record_id,original_name,rejection_reason,source_file
+SRC-USDA-FDC,DSK-USDA-FDC-2024-04,1928374,KRAFT Sharp Cheddar Cheese Slices,OUT_OF_SCOPE_DATA_TYPE:Branded,data/raw_v2/usda/fdc_search_cheddar_cheese.json
+SRC-USDA-FDC,DSK-USDA-FDC-2024-04,1928375,SARGENTO Mild Cheddar Cheese,OUT_OF_SCOPE_DATA_TYPE:Branded,data/raw_v2/usda/fdc_search_cheddar_cheese.json
+SRC-USDA-FDC,DSK-USDA-FDC-2024-04,1928376,GREAT VALUE Large White Eggs,OUT_OF_SCOPE_DATA_TYPE:Branded,data/raw_v2/usda/fdc_search_egg.json
+SRC-USDA-FDC,DSK-USDA-FDC-2024-04,1928377,EGGTIQUE Liquid Whole Egg,OUT_OF_SCOPE_DATA_TYPE:Branded,data/raw_v2/usda/fdc_search_egg.json
+SRC-USDA-FDC,DSK-USDA-FDC-2024-04,1928378,HORIZON ORGANIC Whole Milk,OUT_OF_SCOPE_DATA_TYPE:Branded,data/raw_v2/usda/fdc_search_milk.json
+SRC-USDA-FDC,DSK-USDA-FDC-2024-04,1928379,LACTAID 2% Reduced Fat Milk,OUT_OF_SCOPE_DATA_TYPE:Branded,data/raw_v2/usda/fdc_search_milk.json
+SRC-USDA-FDC,DSK-USDA-FDC-2024-04,1928380,CRISCO Pure Soybean Oil,OUT_OF_SCOPE_DATA_TYPE:Branded,data/raw_v2/usda/fdc_search_soybean_oil.json
+SRC-USDA-FDC,DSK-USDA-FDC-2024-04,1928381,WESSON 100% Natural Soybean Oil,OUT_OF_SCOPE_DATA_TYPE:Branded,data/raw_v2/usda/fdc_search_soybean_oil.json
+SRC-USDA-FDC,DSK-USDA-FDC-2024-04,1928382,GOLD MEDAL All Purpose Flour,OUT_OF_SCOPE_DATA_TYPE:Branded,data/raw_v2/usda/fdc_search_wheat_flour.json
+SRC-USDA-FDC,DSK-USDA-FDC-2024-04,1928383,KING ARTHUR Unbleached Bread Flour,OUT_OF_SCOPE_DATA_TYPE:Branded,data/raw_v2/usda/fdc_search_wheat_flour.json

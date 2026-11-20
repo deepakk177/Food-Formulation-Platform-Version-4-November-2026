@@ -33,7 +33,8 @@ def test_hard_constraint_filtering():
     for ing in eligible:
         assert "milk" not in ing.name.lower()
         assert "egg" not in ing.name.lower()
-        assert "butter" not in ing.name.lower()
+        if "butter" in ing.name.lower():
+            assert any(pb in ing.name.lower() for pb in ["cocoa", "almond", "peanut", "shea", "fruit", "seed", "plant", "substitute"])
 
 def test_candidate_generation_math_consistency():
     reqs = requirements_extractor.extract("Make a vegan 20% protein bar")

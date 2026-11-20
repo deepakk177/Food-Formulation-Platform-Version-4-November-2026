@@ -1,0 +1,78 @@
+{
+  "benchmark_version": "2.0.0",
+  "pipeline_version": "3.0.0",
+  "knowledge_base_version": "2026.1",
+  "configuration_version": "1.2.0",
+  "retrieval_configuration": {
+    "strategies": [
+      "Knowledge Graph Traversal",
+      "Semantic Vector Search",
+      "Structured Exact Filter"
+    ],
+    "kg_database": "tcs_food_formulator_kg.db",
+    "grounded_nodes": 2027,
+    "grounded_edges": 2583,
+    "total_ingredients_available": 23883
+  },
+  "scoring_configuration": {
+    "metrics": [
+      "FCS",
+      "SES",
+      "ICS",
+      "Nutrition Score",
+      "Cost Score",
+      "Constraint Score",
+      "Regulatory Score",
+      "Overall Score"
+    ],
+    "profiles": [
+      "BALANCED",
+      "NUTRITION_OPTIMIZED",
+      "COST_OPTIMIZED",
+      "FUNCTIONAL_OPTIMIZED"
+    ],
+    "weights": {
+      "BALANCED": {
+        "nutrition": 0.2,
+        "functional": 0.2,
+        "evidence": 0.15,
+        "compatibility": 0.15,
+        "cost": 0.15,
+        "regulatory": 0.15
+      },
+      "NUTRITION_OPTIMIZED": {
+        "nutrition": 0.4,
+        "functional": 0.15,
+        "evidence": 0.15,
+        "compatibility": 0.1,
+        "cost": 0.1,
+        "regulatory": 0.1
+      },
+      "COST_OPTIMIZED": {
+        "nutrition": 0.15,
+        "functional": 0.15,
+        "evidence": 0.1,
+        "compatibility": 0.1,
+        "cost": 0.4,
+        "regulatory": 0.1
+      },
+      "FUNCTIONAL_OPTIMIZED": {
+        "nutrition": 0.1,
+        "functional": 0.4,
+        "evidence": 0.15,
+        "compatibility": 0.15,
+        "cost": 0.1,
+        "regulatory": 0.1
+      }
+    }
+  },
+  "generation_timestamp": "2026-10-05T09:34:28.665996",
+  "total_products": 100,
+  "categories": [
+    "Protein Bars / Functional Snacks",
+    "Plant-Based Beverages",
+    "Plant-Based Yogurt / Dairy Alternatives",
+    "Bakery Products",
+    "Sauces / Spreads / Emulsified Products"
+  ]
+}

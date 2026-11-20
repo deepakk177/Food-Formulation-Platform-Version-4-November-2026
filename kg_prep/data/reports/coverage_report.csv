@@ -1,0 +1,26 @@
+NodeType,Source,RecordsDiscovered,RecordsExtracted,RecordsValid,RecordsRejected,DuplicatesRemoved,RecordsWritten,CanonicalIDsFound,MissingIDs,EvidenceCoverage
+Ingredients,FoodOn Ontology & USDA FDC,23821,23821,23821,0,0,23821,23821,0,100.0%
+Regulations,Codex Alimentarius Commission (FAO/WHO),3,3,3,0,0,3,3,0,100.0%
+FunctionalRoles,Codex Alimentarius Commission (FAO/WHO),27,27,27,0,0,27,27,0,100.0%
+FoodCategories,Codex Alimentarius Commission (FAO/WHO),83,83,83,0,0,83,83,0,100.0%
+INS,Codex Alimentarius Commission (FAO/WHO),199,199,199,0,0,199,199,0,100.0%
+FoodAdditives,Codex Alimentarius Commission (FAO/WHO),199,199,199,0,0,199,199,0,100.0%
+Evidence,Codex Alimentarius Commission (FAO/WHO),199,199,199,0,0,199,199,0,100.0%
+Constraints,Codex Alimentarius Commission (FAO/WHO),199,199,199,0,0,199,199,0,100.0%
+Compounds,FlavorDB / FEMA Flavor Library,1333,465,465,0,0,465,465,0,100.0%
+FlavorMolecules,FlavorDB / FEMA Flavor Library,1333,464,464,0,0,464,464,0,100.0%
+Flavors,FlavorDB / FEMA Flavor Library,11525,449,449,0,0,449,449,0,100.0%
+Nutrients,USDA FoodData Central,63,63,63,0,0,63,63,0,100.0%
+Evidence,USDA FoodData Central,63,63,63,0,0,63,63,0,100.0%
+Products,FoodOn Ontology,887,60,60,0,0,60,60,0,100.0%
+Processes,FoodOn Ontology,541,50,50,0,0,50,50,0,100.0%
+Evidence,FoodOn Ontology,0,50,50,0,0,50,50,0,100.0%
+Equipment,FoodOn Ontology,55,30,30,0,0,30,30,0,100.0%
+FoodCategories,FoodOn Ontology,64,50,50,0,0,50,50,0,100.0%
+Regulations,US Food and Drug Administration (FDA),1,1,1,0,0,1,1,0,100.0%
+Allergens,US Food and Drug Administration (FDA),9,9,9,0,0,9,9,0,100.0%
+Evidence,US Food and Drug Administration (FDA),0,21,21,0,0,21,21,0,100.0%
+Packaging,US Food and Drug Administration (FDA),12,12,12,0,0,12,12,0,100.0%
+ProcessConditions,Peer-Reviewed Food Science Literature & Technical Specifications,8,8,8,0,0,8,8,0,100.0%
+Evidence,Peer-Reviewed Food Science Literature & Technical Specifications,18,18,18,0,0,18,18,0,100.0%
+Properties,Peer-Reviewed Food Science Literature & Technical Specifications,10,10,10,0,0,10,10,0,100.0%

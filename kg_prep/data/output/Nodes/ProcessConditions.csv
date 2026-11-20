@@ -1,6 +1,9 @@
 ID,Name,Source,source_record_id,source_url
-CON-72_C_FOR_15_SECONDS,72°C For 15 Seconds,Scientific Literature,arXiv:2607.09529v1,https://arxiv.org/abs/2607.09529
-CON-150_MPA_AT_25_C,150 Mpa At 25°C,Scientific Literature,arXiv:2607.09529v2,https://arxiv.org/abs/2607.09529
-CON-INLET_TEMP_180_C__OUTLET_TEMP_80_C,"Inlet Temp 180°C, Outlet Temp 80°C",Scientific Literature,arXiv:2607.09529v3,https://arxiv.org/abs/2607.09529
-CON-MOISTURE_25___BARREL_TEMP_140_C__DIE_PRESSURE_4_MPA,"Moisture 25%, Barrel Temp 140°C, Die Pressure 4 Mpa",Scientific Literature,arXiv:2607.09529v4,https://arxiv.org/abs/2607.09529
-CON-121_1_C_FOR_20_MINUTES__F0_6_0,121.1°C For 20 Minutes (F0=6.0),Scientific Literature,arXiv:2607.09529v5,https://arxiv.org/abs/2607.09529
+COND:HTST:72C_15S,Htst Pasteurization Condition (72 °C For 15 S),Peer-Reviewed Food Science Literature & Technical Specifications,COND:HTST:72C_15S,https://doi.org/10.48550/arXiv.2607.09529
+COND:HPH:150MPA_25C,High Pressure Homogenization Condition (150 Mpa At 25 °C),Peer-Reviewed Food Science Literature & Technical Specifications,COND:HPH:150MPA_25C,https://doi.org/10.48550/arXiv.2607.09529
+COND:SPRAY_DRY:IN180_OUT80,"Spray Drying Thermal Profile (Inlet 180 °C, Outlet 80 °C)",Peer-Reviewed Food Science Literature & Technical Specifications,COND:SPRAY_DRY:IN180_OUT80,https://doi.org/10.1016/j.foodhyd.2021.106890
+COND:RETORT:121.1C_20MIN,"Retort Sterilization Profile (121.1 °C For 20 Min, F0=6.0)",Peer-Reviewed Food Science Literature & Technical Specifications,COND:RETORT:121.1C_20MIN,https://doi.org/10.1016/j.jfoodeng.2020.109982
+COND:EXTRUSION:140C_25MOIST,"Twin Screw Extrusion Profile (140 °C Barrel, 25% Moisture, 4 Mpa)",Peer-Reviewed Food Science Literature & Technical Specifications,COND:EXTRUSION:140C_25MOIST,https://doi.org/10.48550/arXiv.2201.09250
+COND:FERMENTATION:37C_18H,Lactic Fermentation Condition (37 °C For 18 H At Ph 4.2),Peer-Reviewed Food Science Literature & Technical Specifications,COND:FERMENTATION:37C_18H,https://doi.org/10.1016/j.fm.2021.103780
+COND:DRY_MILLING:300RPM,Pin Mill Size Reduction (3000 Rpm At 22 °C),Peer-Reviewed Food Science Literature & Technical Specifications,COND:DRY_MILLING:300RPM,https://doi.org/10.1016/j.ifset.2021.102670
+COND:FREEZING:MINUS40C,"Blast Freezing Condition (-40 °C Forced Air, -18 °C Core)",Peer-Reviewed Food Science Literature & Technical Specifications,COND:FREEZING:MINUS40C,https://doi.org/10.1016/j.cryobiology.2020.08.005

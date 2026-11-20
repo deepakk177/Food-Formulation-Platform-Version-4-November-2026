@@ -1,0 +1,4 @@
+check,affected_rows,total_rows,severity,details
+Zero Nutrition in Formulations,417,417,CRITICAL,"Formulations exported with Protein: 0.0g, Fat: 0.0g due to unmapped macros dict key."
+Cost Unknown in Formulations,417,417,HIGH,Cost exported as COST_UNKNOWN across formulations due to missing unit price mapping.
+"Ontology Contamination (Chewing gum, bakery product dishes)",187,417,CRITICAL,Finished dishes / non-formulation ingredients retrieved from uncurated FoodEx2 ontology.

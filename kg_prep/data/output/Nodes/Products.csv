@@ -1,5 +1,65 @@
 ID,Name,brand,IngredientsText,Source,source_record_id,source_url
-PRO-NUTELLA_400G,Nutella 400G,Ferrero,"Sugar, Palm Oil, Hazelnuts (13%), Skimmed Milk Powder (8.7%), Fat-Reduced Cocoa (7.4%), Soy Lecithin, Vanillin",OpenFoodFacts,3017620422003,https://world.openfoodfacts.org/product/3017620422003
-PRO-COCA_COLA_ORIGINAL_TASTE,Coca-Cola Original Taste,The Coca-Cola Company,"Carbonated Water, Sugar, Color (Caramel E150d), Phosphoric Acid, Natural Flavors, Caffeine",OpenFoodFacts,5449000000996,https://world.openfoodfacts.org/product/5449000000996
-PRO-HEINZ_TOMATO_KETCHUP,Heinz Tomato Ketchup,Heinz,"Tomatoes, Distilled Vinegar, High Fructose Corn Syrup, Corn Syrup, Salt, Spice, Onion Powder, Natural Flavoring",OpenFoodFacts,41303002055,https://world.openfoodfacts.org/product/0041303002055
-PRO-HELLMANN_S_REAL_MAYONNAISE,Hellmann'S Real Mayonnaise,Unilever,"Soybean Oil, Water, Whole Eggs and Egg Yolks, Vinegar, Salt, Sugar, Lemon Juice Concentrate, Calcium Disodium EDTA, Natural Flavors",OpenFoodFacts,48001000055,https://world.openfoodfacts.org/product/0048001000055
+FOODON:PROD:FOODON_00000070,Lobster Tail Food Product,Generic FoodOn Class,Controlled FoodOn Formulation,FoodOn Ontology,FOODON_00000070,http://purl.obolibrary.org/obo/FOODON_00000070
+FOODON:PROD:FOODON_00001002,Food Product,Generic FoodOn Class,Controlled FoodOn Formulation,FoodOn Ontology,FOODON_00001002,http://purl.obolibrary.org/obo/FOODON_00001002
+FOODON:PROD:FOODON_00001006,Mammalian Meat Food Product,Generic FoodOn Class,Controlled FoodOn Formulation,FoodOn Ontology,FOODON_00001006,http://purl.obolibrary.org/obo/FOODON_00001006
+FOODON:PROD:FOODON_00001007,Meat Sausage Food Product,Generic FoodOn Class,Controlled FoodOn Formulation,FoodOn Ontology,FOODON_00001007,http://purl.obolibrary.org/obo/FOODON_00001007
+FOODON:PROD:FOODON_00001011,Milk Formula Food Product,Generic FoodOn Class,Controlled FoodOn Formulation,FoodOn Ontology,FOODON_00001011,http://purl.obolibrary.org/obo/FOODON_00001011
+FOODON:PROD:FOODON_00001013,Cheese Food Product,Generic FoodOn Class,Controlled FoodOn Formulation,FoodOn Ontology,FOODON_00001013,http://purl.obolibrary.org/obo/FOODON_00001013
+FOODON:PROD:FOODON_00001014,Yogurt Food Product,Generic FoodOn Class,Controlled FoodOn Formulation,FoodOn Ontology,FOODON_00001014,http://purl.obolibrary.org/obo/FOODON_00001014
+FOODON:PROD:FOODON_00001015,Plant Food Product,Generic FoodOn Class,Controlled FoodOn Formulation,FoodOn Ontology,FOODON_00001015,http://purl.obolibrary.org/obo/FOODON_00001015
+FOODON:PROD:FOODON_00001016,Cabbage Food Product,Generic FoodOn Class,Controlled FoodOn Formulation,FoodOn Ontology,FOODON_00001016,http://purl.obolibrary.org/obo/FOODON_00001016
+FOODON:PROD:FOODON_00001019,Wort Food Product,Generic FoodOn Class,Controlled FoodOn Formulation,FoodOn Ontology,FOODON_00001019,http://purl.obolibrary.org/obo/FOODON_00001019
+FOODON:PROD:FOODON_00001020,Beer Wort Food Product,Generic FoodOn Class,Controlled FoodOn Formulation,FoodOn Ontology,FOODON_00001020,http://purl.obolibrary.org/obo/FOODON_00001020
+FOODON:PROD:FOODON_00001021,Acifified Beer Wort Food Product,Generic FoodOn Class,Controlled FoodOn Formulation,FoodOn Ontology,FOODON_00001021,http://purl.obolibrary.org/obo/FOODON_00001021
+FOODON:PROD:FOODON_00001025,Camembert Cheese Food Product,Generic FoodOn Class,Controlled FoodOn Formulation,FoodOn Ontology,FOODON_00001025,http://purl.obolibrary.org/obo/FOODON_00001025
+FOODON:PROD:FOODON_00001027,Cheddar Cheese Food Product,Generic FoodOn Class,Controlled FoodOn Formulation,FoodOn Ontology,FOODON_00001027,http://purl.obolibrary.org/obo/FOODON_00001027
+FOODON:PROD:FOODON_00001028,Brie Cheese Food Product,Generic FoodOn Class,Controlled FoodOn Formulation,FoodOn Ontology,FOODON_00001028,http://purl.obolibrary.org/obo/FOODON_00001028
+FOODON:PROD:FOODON_00001029,Gouda Cheese Food Product,Generic FoodOn Class,Controlled FoodOn Formulation,FoodOn Ontology,FOODON_00001029,http://purl.obolibrary.org/obo/FOODON_00001029
+FOODON:PROD:FOODON_00001030,Halloumi Cheese Food Product,Generic FoodOn Class,Controlled FoodOn Formulation,FoodOn Ontology,FOODON_00001030,http://purl.obolibrary.org/obo/FOODON_00001030
+FOODON:PROD:FOODON_00001031,Gorgonzola Cheese Food Product,Generic FoodOn Class,Controlled FoodOn Formulation,FoodOn Ontology,FOODON_00001031,http://purl.obolibrary.org/obo/FOODON_00001031
+FOODON:PROD:FOODON_00001032,Swiss Cheese Food Product,Generic FoodOn Class,Controlled FoodOn Formulation,FoodOn Ontology,FOODON_00001032,http://purl.obolibrary.org/obo/FOODON_00001032
+FOODON:PROD:FOODON_00001034,Harzer Cheese Food Product,Generic FoodOn Class,Controlled FoodOn Formulation,FoodOn Ontology,FOODON_00001034,http://purl.obolibrary.org/obo/FOODON_00001034
+FOODON:PROD:FOODON_00001035,New Zealand Cheddar Cheese Food Product,Generic FoodOn Class,Controlled FoodOn Formulation,FoodOn Ontology,FOODON_00001035,http://purl.obolibrary.org/obo/FOODON_00001035
+FOODON:PROD:FOODON_00001036,Pont Ieveque Cheese Food Product,Generic FoodOn Class,Controlled FoodOn Formulation,FoodOn Ontology,FOODON_00001036,http://purl.obolibrary.org/obo/FOODON_00001036
+FOODON:PROD:FOODON_00001037,Vacherin Mont Dor Cheese Food Product,Generic FoodOn Class,Controlled FoodOn Formulation,FoodOn Ontology,FOODON_00001037,http://purl.obolibrary.org/obo/FOODON_00001037
+FOODON:PROD:FOODON_00001039,Cured Meat Food Product,Generic FoodOn Class,Controlled FoodOn Formulation,FoodOn Ontology,FOODON_00001039,http://purl.obolibrary.org/obo/FOODON_00001039
+FOODON:PROD:FOODON_00001045,Ice Cream Food Product,Generic FoodOn Class,Controlled FoodOn Formulation,FoodOn Ontology,FOODON_00001045,http://purl.obolibrary.org/obo/FOODON_00001045
+FOODON:PROD:FOODON_00001046,Animal Seafood Product,Generic FoodOn Class,Controlled FoodOn Formulation,FoodOn Ontology,FOODON_00001046,http://purl.obolibrary.org/obo/FOODON_00001046
+FOODON:PROD:FOODON_00001047,Obsolete: Jeotgal Food Product,Generic FoodOn Class,Controlled FoodOn Formulation,FoodOn Ontology,FOODON_00001047,http://purl.obolibrary.org/obo/FOODON_00001047
+FOODON:PROD:FOODON_00001048,Meshanger Cheese Food Product,Generic FoodOn Class,Controlled FoodOn Formulation,FoodOn Ontology,FOODON_00001048,http://purl.obolibrary.org/obo/FOODON_00001048
+FOODON:PROD:FOODON_00001049,Pork Chop Food Product,Generic FoodOn Class,Controlled FoodOn Formulation,FoodOn Ontology,FOODON_00001049,http://purl.obolibrary.org/obo/FOODON_00001049
+FOODON:PROD:FOODON_00001050,Tempeh Food Product,Generic FoodOn Class,Controlled FoodOn Formulation,FoodOn Ontology,FOODON_00001050,http://purl.obolibrary.org/obo/FOODON_00001050
+FOODON:PROD:FOODON_00001052,Amasake Food Product,Generic FoodOn Class,Controlled FoodOn Formulation,FoodOn Ontology,FOODON_00001052,http://purl.obolibrary.org/obo/FOODON_00001052
+FOODON:PROD:FOODON_00001055,Sea Water Fish Food Product,Generic FoodOn Class,Controlled FoodOn Formulation,FoodOn Ontology,FOODON_00001055,http://purl.obolibrary.org/obo/FOODON_00001055
+FOODON:PROD:FOODON_00001056,Flour Food Product,Generic FoodOn Class,Controlled FoodOn Formulation,FoodOn Ontology,FOODON_00001056,http://purl.obolibrary.org/obo/FOODON_00001056
+FOODON:PROD:FOODON_00001058,Fruit Extract Food Product,Generic FoodOn Class,Controlled FoodOn Formulation,FoodOn Ontology,FOODON_00001058,http://purl.obolibrary.org/obo/FOODON_00001058
+FOODON:PROD:FOODON_00001060,Awamori Food Product,Generic FoodOn Class,Controlled FoodOn Formulation,FoodOn Ontology,FOODON_00001060,http://purl.obolibrary.org/obo/FOODON_00001060
+FOODON:PROD:FOODON_00001061,Bacon Food Product,Generic FoodOn Class,Controlled FoodOn Formulation,FoodOn Ontology,FOODON_00001061,http://purl.obolibrary.org/obo/FOODON_00001061
+FOODON:PROD:FOODON_00001065,Blue Cheese Food Product,Generic FoodOn Class,Controlled FoodOn Formulation,FoodOn Ontology,FOODON_00001065,http://purl.obolibrary.org/obo/FOODON_00001065
+FOODON:PROD:FOODON_00001066,Bottled Fruit Food Product,Generic FoodOn Class,Controlled FoodOn Formulation,FoodOn Ontology,FOODON_00001066,http://purl.obolibrary.org/obo/FOODON_00001066
+FOODON:PROD:FOODON_00001067,Buttermilk Food Product,Generic FoodOn Class,Controlled FoodOn Formulation,FoodOn Ontology,FOODON_00001067,http://purl.obolibrary.org/obo/FOODON_00001067
+FOODON:PROD:FOODON_00001068,Obsolete: Canned Fruit Food Product,Generic FoodOn Class,Controlled FoodOn Formulation,FoodOn Ontology,FOODON_00001068,http://purl.obolibrary.org/obo/FOODON_00001068
+FOODON:PROD:FOODON_00001070,Miso Food Product,Generic FoodOn Class,Controlled FoodOn Formulation,FoodOn Ontology,FOODON_00001070,http://purl.obolibrary.org/obo/FOODON_00001070
+FOODON:PROD:FOODON_00001072,Obsolete: Yeast Cake Food Product,Generic FoodOn Class,Controlled FoodOn Formulation,FoodOn Ontology,FOODON_00001072,http://purl.obolibrary.org/obo/FOODON_00001072
+FOODON:PROD:FOODON_00001073,Vinegar Food Product,Generic FoodOn Class,Controlled FoodOn Formulation,FoodOn Ontology,FOODON_00001073,http://purl.obolibrary.org/obo/FOODON_00001073
+FOODON:PROD:FOODON_00001076,Sake Food Product,Generic FoodOn Class,Controlled FoodOn Formulation,FoodOn Ontology,FOODON_00001076,http://purl.obolibrary.org/obo/FOODON_00001076
+FOODON:PROD:FOODON_00001077,Salt Pork Meat Food Product,Generic FoodOn Class,Controlled FoodOn Formulation,FoodOn Ontology,FOODON_00001077,http://purl.obolibrary.org/obo/FOODON_00001077
+FOODON:PROD:FOODON_00001080,Tape Kefan Food Product,Generic FoodOn Class,Controlled FoodOn Formulation,FoodOn Ontology,FOODON_00001080,http://purl.obolibrary.org/obo/FOODON_00001080
+FOODON:PROD:FOODON_00001081,Bondon Cheese Food Product,Generic FoodOn Class,Controlled FoodOn Formulation,FoodOn Ontology,FOODON_00001081,http://purl.obolibrary.org/obo/FOODON_00001081
+FOODON:PROD:FOODON_00001082,Bitter Cheese Food Product,Generic FoodOn Class,Controlled FoodOn Formulation,FoodOn Ontology,FOODON_00001082,http://purl.obolibrary.org/obo/FOODON_00001082
+FOODON:PROD:FOODON_00001085,Evaporated Milk Food Product,Generic FoodOn Class,Controlled FoodOn Formulation,FoodOn Ontology,FOODON_00001085,http://purl.obolibrary.org/obo/FOODON_00001085
+FOODON:PROD:FOODON_00001086,Kefir Food Product,Generic FoodOn Class,Controlled FoodOn Formulation,FoodOn Ontology,FOODON_00001086,http://purl.obolibrary.org/obo/FOODON_00001086
+FOODON:PROD:FOODON_00001087,Vegetable Oil Food Product,Generic FoodOn Class,Controlled FoodOn Formulation,FoodOn Ontology,FOODON_00001087,http://purl.obolibrary.org/obo/FOODON_00001087
+FOODON:PROD:FOODON_00001104,Sea Water Fish Egg Food Product,Generic FoodOn Class,Controlled FoodOn Formulation,FoodOn Ontology,FOODON_00001104,http://purl.obolibrary.org/obo/FOODON_00001104
+FOODON:PROD:FOODON_00001106,Camelid Dairy Food Product,Generic FoodOn Class,Controlled FoodOn Formulation,FoodOn Ontology,FOODON_00001106,http://purl.obolibrary.org/obo/FOODON_00001106
+FOODON:PROD:FOODON_00001107,Bovine Dairy Food Product,Generic FoodOn Class,Controlled FoodOn Formulation,FoodOn Ontology,FOODON_00001107,http://purl.obolibrary.org/obo/FOODON_00001107
+FOODON:PROD:FOODON_00001109,Caprine Dairy Food Product,Generic FoodOn Class,Controlled FoodOn Formulation,FoodOn Ontology,FOODON_00001109,http://purl.obolibrary.org/obo/FOODON_00001109
+FOODON:PROD:FOODON_00001110,Donkey Dairy Food Product,Generic FoodOn Class,Controlled FoodOn Formulation,FoodOn Ontology,FOODON_00001110,http://purl.obolibrary.org/obo/FOODON_00001110
+FOODON:PROD:FOODON_00001111,Equine Dairy Food Product,Generic FoodOn Class,Controlled FoodOn Formulation,FoodOn Ontology,FOODON_00001111,http://purl.obolibrary.org/obo/FOODON_00001111
+FOODON:PROD:FOODON_00001112,Ovine Dairy Food Product,Generic FoodOn Class,Controlled FoodOn Formulation,FoodOn Ontology,FOODON_00001112,http://purl.obolibrary.org/obo/FOODON_00001112
+FOODON:PROD:FOODON_00001113,Yak Dairy Food Product,Generic FoodOn Class,Controlled FoodOn Formulation,FoodOn Ontology,FOODON_00001113,http://purl.obolibrary.org/obo/FOODON_00001113
+FOODON:PROD:FOODON_00001114,Zebra Dairy Food Product,Generic FoodOn Class,Controlled FoodOn Formulation,FoodOn Ontology,FOODON_00001114,http://purl.obolibrary.org/obo/FOODON_00001114
+PROD-OFF-3017620422003,Nutella 400G,Ferrero,"Sugar, Palm Oil, Hazelnuts (13%), Skimmed Milk Powder (8.7%), Fat-Reduced Cocoa (7.4%), Soy Lecithin, Vanillin",OpenFoodFacts,3017620422003,https://world.openfoodfacts.org/product/3017620422003
+PROD-OFF-5449000000996,Coca-Cola Original Taste,The Coca-Cola Company,"Carbonated Water, Sugar, Color (Caramel E150d), Phosphoric Acid, Natural Flavors, Caffeine",OpenFoodFacts,5449000000996,https://world.openfoodfacts.org/product/5449000000996
+PROD-OFF-0041303002055,Heinz Tomato Ketchup,Heinz,"Tomatoes, Distilled Vinegar, High Fructose Corn Syrup, Corn Syrup, Salt, Spice, Onion Powder, Natural Flavoring",OpenFoodFacts,0041303002055,https://world.openfoodfacts.org/product/0041303002055
+PROD-OFF-0048001000055,Hellmann'S Real Mayonnaise,Unilever,"Soybean Oil, Water, Whole Eggs and Egg Yolks, Vinegar, Salt, Sugar, Lemon Juice Concentrate, Calcium Disodium EDTA, Natural Flavors",OpenFoodFacts,0048001000055,https://world.openfoodfacts.org/product/0048001000055

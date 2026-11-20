@@ -1,6 +1,9 @@
 SourceID,TargetID,RelationshipType,SourceDataset
-PROC-TECH-01,COND-TECH-01,HAS_CONDITION,Scientific Literature
-PROC-TECH-02,COND-TECH-02,HAS_CONDITION,Scientific Literature
-PROC-TECH-03,COND-TECH-03,HAS_CONDITION,Scientific Literature
-PROC-TECH-04,COND-TECH-04,HAS_CONDITION,Scientific Literature
-PROC-TECH-05,COND-TECH-05,HAS_CONDITION,Scientific Literature
+FOODON:PROC:FOODON_03411041,COND:HTST:72C_15S,HAS_CONDITION,Peer-Reviewed Food Science Literature & Technical Specifications
+FOODON:PROC:FOODON_03411440,COND:HPH:150MPA_25C,HAS_CONDITION,Peer-Reviewed Food Science Literature & Technical Specifications
+FOODON:PROC:FOODON_03411246,COND:SPRAY_DRY:IN180_OUT80,HAS_CONDITION,Peer-Reviewed Food Science Literature & Technical Specifications
+FOODON:PROC:FOODON_03412580,COND:RETORT:121.1C_20MIN,HAS_CONDITION,Peer-Reviewed Food Science Literature & Technical Specifications
+FOODON:PROC:FOODON_03412150,COND:EXTRUSION:140C_25MOIST,HAS_CONDITION,Peer-Reviewed Food Science Literature & Technical Specifications
+FOODON:PROC:FOODON_03411300,COND:FERMENTATION:37C_18H,HAS_CONDITION,Peer-Reviewed Food Science Literature & Technical Specifications
+FOODON:PROC:FOODON_03411560,COND:DRY_MILLING:300RPM,HAS_CONDITION,Peer-Reviewed Food Science Literature & Technical Specifications
+FOODON:PROC:FOODON_03411347,COND:FREEZING:MINUS40C,HAS_CONDITION,Peer-Reviewed Food Science Literature & Technical Specifications

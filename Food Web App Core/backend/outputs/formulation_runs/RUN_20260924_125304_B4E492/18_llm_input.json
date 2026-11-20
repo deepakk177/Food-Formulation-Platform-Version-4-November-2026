@@ -1,0 +1,4 @@
+{
+  "prompt": "Create a dairy-free chocolate containing cocoa butter, plant protein, roasted almonds and caramel flavor. Target at least 25% cocoa butter, at least 7% protein, at least 8% almond content and at most 28% sugar. Develop a caramelized nut and vanilla flavor with creamy melt and 12-month shelf life.",
+  "model": "openai/gpt-oss-20b"
+}

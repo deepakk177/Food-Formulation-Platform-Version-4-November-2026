@@ -1,0 +1,122 @@
+{
+  "nodes": [
+    {
+      "id": "PROD-001",
+      "type": "ProductBrief",
+      "value": "Target Product (Protein Bars / Functional Snacks)",
+      "source": "User Product Brief"
+    },
+    {
+      "id": "CONST-001",
+      "type": "Product_CategoryConstraintNode",
+      "value": "product_category REQUIRED Protein Bars / Functional Snacks",
+      "source": "Develop a high-protein savory snack bar containing at least "
+    },
+    {
+      "id": "CONST-002",
+      "type": "NutritionConstraintNode",
+      "value": "protein_min >= 20.0 %",
+      "source": "20% protein"
+    },
+    {
+      "id": "CONST-003",
+      "type": "NutritionConstraintNode",
+      "value": "sugar_max <= 5.0 %",
+      "source": "5% sugar"
+    },
+    {
+      "id": "CONST-004",
+      "type": "ProcessingConstraintNode",
+      "value": "water_activity <= 0.6 Aw",
+      "source": "low water activity"
+    },
+    {
+      "id": "CONST-005",
+      "type": "SensoryConstraintNode",
+      "value": "texture_profile PREFERRED Crunchy",
+      "source": "crunchy"
+    },
+    {
+      "id": "CONST-006",
+      "type": "SensoryConstraintNode",
+      "value": "flavor_profile PREFERRED garlic flavour",
+      "source": "garlic"
+    },
+    {
+      "id": "CONST-007",
+      "type": "SensoryConstraintNode",
+      "value": "flavor_profile PREFERRED herb flavour",
+      "source": "herb"
+    },
+    {
+      "id": "CONST-008",
+      "type": "SensoryConstraintNode",
+      "value": "flavor_profile PREFERRED savory flavour",
+      "source": "savory"
+    },
+    {
+      "id": "CONST-009",
+      "type": "Shelf_LifeConstraintNode",
+      "value": "shelf_stability REQUIRED 12-month",
+      "source": "stability"
+    }
+  ],
+  "edges": [
+    {
+      "source": "PROD-001",
+      "relationship": "HAS_CONSTRAINT",
+      "target": "CONST-001"
+    },
+    {
+      "source": "PROD-001",
+      "relationship": "HAS_NUTRITION_CONSTRAINT",
+      "target": "CONST-002"
+    },
+    {
+      "source": "PROD-001",
+      "relationship": "HAS_NUTRITION_CONSTRAINT",
+      "target": "CONST-003"
+    },
+    {
+      "source": "PROD-001",
+      "relationship": "HAS_PROCESSING_CONSTRAINT",
+      "target": "CONST-004"
+    },
+    {
+      "source": "PROD-001",
+      "relationship": "HAS_SENSORY_CONSTRAINT",
+      "target": "CONST-005"
+    },
+    {
+      "source": "PROD-001",
+      "relationship": "HAS_SENSORY_CONSTRAINT",
+      "target": "CONST-006"
+    },
+    {
+      "source": "PROD-001",
+      "relationship": "HAS_SENSORY_CONSTRAINT",
+      "target": "CONST-007"
+    },
+    {
+      "source": "PROD-001",
+      "relationship": "HAS_SENSORY_CONSTRAINT",
+      "target": "CONST-008"
+    },
+    {
+      "source": "PROD-001",
+      "relationship": "HAS_PROCESSING_CONSTRAINT",
+      "target": "CONST-009"
+    }
+  ],
+  "summary": {
+    "Nutrition Constraints": 2,
+    "Functional Constraints": 0,
+    "Sensory Constraints": 4,
+    "Regulatory Constraints": 0,
+    "Cost Constraints": 0,
+    "Ingredient Restrictions": 0,
+    "Processing Constraints": 2,
+    "Graph Nodes": 10,
+    "Graph Edges": 9
+  }
+}

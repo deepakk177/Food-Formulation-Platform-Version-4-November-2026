@@ -1,12 +1,12 @@
 ID,Name,Type,Source,source_record_id,source_url
-SRC-CODEX_GENERAL_STANDARD_FOR_FOOD_ADDITIVES__CXS_192_1995,Codex General Standard For Food Additives (Cxs 192-1995),REGULATION,Codex Alimentarius Commission,CXS_192-1995,https://www.fao.org/gsfaonline
-SRC-FSSAI_FOOD_PRODUCT_STANDARDS___REGULATIONS,Fssai Food Product Standards & Regulations,REGULATION,FSSAI Govt of India,FSSAI-2011,https://fssai.gov.in
-SRC-US_FDA_CODE_OF_FEDERAL_REGULATIONS_TITLE_21__21_CFR,Us Fda Code Of Federal Regulations Title 21 (21 Cfr),REGULATION,US Food and Drug Administration,21CFR,https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfcfr/cfrsearch.cfm
-SRC-PUBMED___PMC___ARXIV_LITERATURE,Pubmed / Pmc / Arxiv Literature,SCIENTIFIC_PAPER,Peer-Reviewed Journals,PUBMED-PMC,https://pubmed.ncbi.nlm.nih.gov
-SRC-GOOGLE___EPO_PATENT_DATABASES,Google / Epo Patent Databases,PATENT,Patent Offices,PATENTS-US-EP,https://patents.google.com
-SRC-MANUFACTURER_TECHNICAL_DATA_SHEETS___SPECIFICATIONS,Manufacturer Technical Data Sheets & Specifications,TECHNICAL_SPEC,Ingredient Manufacturers (Cargill/ADM/Tate&Lyle/Ingredion/IFF),SUPPLIER-TDS,https://www.cargill.com
-SRC-FOODON_ONTOLOGY,Foodon Ontology,ONTOLOGY,System,SRC-FOODON,http://purl.obolibrary.org/obo/foodon.owl
-SRC-USDA_FOODDATA_CENTRAL,Usda Fooddata Central,COMPOSITION_DATABASE,System,SRC-USDA-FDC,https://fdc.nal.usda.gov
-SRC-ICMR_NIN_INDIAN_FOOD_COMPOSITION_TABLES,Icmr-Nin Indian Food Composition Tables,COMPOSITION_DATABASE,System,SRC-IFCT-2017,https://www.nin.res.in
-SRC-PUBCHEM_CHEMICAL_DATABASE,Pubchem Chemical Database,CHEMICAL_DATABASE,System,SRC-PUBCHEM,https://pubchem.ncbi.nlm.nih.gov
-SRC-OPEN_FOOD_FACTS,Open Food Facts,PRODUCT_DATABASE,System,SRC-OPENFOODFACTS,https://world.openfoodfacts.org
+SRC-CODEX,Codex Alimentarius Commission (Fao/Who),REGULATION,Codex Alimentarius Commission (FAO/WHO),SRC-CODEX,https://www.fao.org/gsfaonline
+SRC-FLAVORDB,Flavordb / Fema Flavor Library,FLAVOR_DATABASE,FlavorDB / FEMA Flavor Library,SRC-FLAVORDB,https://cosylab.iiitd.edu.in/flavordb2
+SRC-USDA-FDC,Usda Fooddata Central,COMPOSITION_DATABASE,USDA FoodData Central,SRC-USDA-FDC,https://fdc.nal.usda.gov
+SRC-FOODON,Foodon Ontology,ONTOLOGY,FoodOn Ontology,SRC-FOODON,http://purl.obolibrary.org/obo/foodon.owl
+SRC-FDA,Us Food And Drug Administration (Fda),REGULATION,US Food and Drug Administration (FDA),SRC-FDA,https://www.fda.gov/food
+SRC-LITERATURE,Peer-Reviewed Food Science Literature & Technical Specifications,SCIENTIFIC_PAPER,Peer-Reviewed Food Science Literature & Technical Specifications,SRC-LITERATURE,https://doi.org
+SRC-IFCT-2017,Icmr-Nin Indian Food Composition Tables,COMPOSITION_DATABASE,System,SRC-IFCT-2017,https://www.nin.res.in
+SRC-PUBCHEM,Pubchem Chemical Database,CHEMICAL_DATABASE,System,SRC-PUBCHEM,https://pubchem.ncbi.nlm.nih.gov
+SRC-FSSAI,Fssai Food Product Standards & Regulations,REGULATION,System,SRC-FSSAI,https://fssai.gov.in
+SRC-SCIENTIFIC-LITERATURE,Pubmed / Pmc / Arxiv Literature,SCIENTIFIC_PAPER,System,SRC-SCIENTIFIC-LITERATURE,https://arxiv.org
+SRC-OPENFOODFACTS,Open Food Facts,PRODUCT_DATABASE,System,SRC-OPENFOODFACTS,https://world.openfoodfacts.org

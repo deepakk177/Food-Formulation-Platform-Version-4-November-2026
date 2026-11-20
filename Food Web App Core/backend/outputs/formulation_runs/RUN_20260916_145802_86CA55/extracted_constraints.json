@@ -1,0 +1,62 @@
+[
+  {
+    "constraint_id": "CONST-001",
+    "type": "category",
+    "parameter": "product_category",
+    "operator": "REQUIRED",
+    "target_value": "Confectionery & Chocolate",
+    "unit": null,
+    "importance": "CRITICAL",
+    "source_text": "Sugar-Free Milk Chocolate\n\nDevelop a sugar-free mi",
+    "confidence": 0.95,
+    "hard_or_soft": null
+  },
+  {
+    "constraint_id": "CONST-002",
+    "type": "nutrition",
+    "parameter": "protein_min",
+    "operator": ">=",
+    "target_value": 8.0,
+    "unit": "%",
+    "importance": "CRITICAL",
+    "source_text": "8% protein",
+    "confidence": 0.98,
+    "hard_or_soft": null
+  },
+  {
+    "constraint_id": "CONST-003",
+    "type": "sensory",
+    "parameter": "texture_profile",
+    "operator": "PREFERRED",
+    "target_value": "Creamy",
+    "unit": null,
+    "importance": "MEDIUM",
+    "source_text": "creamy",
+    "confidence": 0.9,
+    "hard_or_soft": null
+  },
+  {
+    "constraint_id": "CONST-004",
+    "type": "sensory",
+    "parameter": "flavor_profile",
+    "operator": "PREFERRED",
+    "target_value": "chocolate flavour",
+    "unit": null,
+    "importance": "MEDIUM",
+    "source_text": "Chocolate",
+    "confidence": 0.9,
+    "hard_or_soft": null
+  },
+  {
+    "constraint_id": "CONST-005",
+    "type": "shelf_life",
+    "parameter": "shelf_stability",
+    "operator": "REQUIRED",
+    "target_value": "12-month",
+    "unit": null,
+    "importance": "MEDIUM",
+    "source_text": "shelf",
+    "confidence": 0.88,
+    "hard_or_soft": null
+  }
+]

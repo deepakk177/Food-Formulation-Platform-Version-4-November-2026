@@ -1,0 +1,205 @@
+{
+  "status": "FAIL",
+  "hard_constraint_results": [
+    {
+      "constraint": "dietary_pattern FORBIDDEN animal_derived_ingredients",
+      "result": "PASS",
+      "evidence": "Ingredient Catalog Dietary Flags",
+      "reason": "Animal-derived check"
+    }
+  ],
+  "property_completeness_results": [
+    {
+      "ingredient": "Pea Protein Isolate (85%)",
+      "status": "PASS",
+      "missing_properties": []
+    },
+    {
+      "ingredient": "Coconut MCT Oil Powder (70%)",
+      "status": "PASS",
+      "missing_properties": []
+    },
+    {
+      "ingredient": "Stevia Extract",
+      "status": "PASS",
+      "missing_properties": []
+    },
+    {
+      "ingredient": "Fava Bean Protein Isolate",
+      "status": "PASS",
+      "missing_properties": []
+    },
+    {
+      "ingredient": "Soluble Corn Fiber",
+      "status": "PASS",
+      "missing_properties": []
+    },
+    {
+      "ingredient": "Citric Acid",
+      "status": "PASS",
+      "missing_properties": []
+    },
+    {
+      "ingredient": "Natural Sea Salt",
+      "status": "PASS",
+      "missing_properties": []
+    }
+  ],
+  "regulatory_results": [
+    {
+      "ingredient": "Pea Protein Isolate (85%)",
+      "permitted": true,
+      "ins_number": null,
+      "status": "Permitted"
+    },
+    {
+      "ingredient": "Coconut MCT Oil Powder (70%)",
+      "permitted": true,
+      "ins_number": null,
+      "status": "Permitted"
+    },
+    {
+      "ingredient": "Stevia Extract",
+      "permitted": true,
+      "ins_number": null,
+      "status": "Permitted"
+    },
+    {
+      "ingredient": "Fava Bean Protein Isolate",
+      "permitted": true,
+      "ins_number": null,
+      "status": "Permitted"
+    },
+    {
+      "ingredient": "Soluble Corn Fiber",
+      "permitted": true,
+      "ins_number": null,
+      "status": "Permitted"
+    },
+    {
+      "ingredient": "Citric Acid",
+      "permitted": true,
+      "ins_number": null,
+      "status": "Permitted"
+    },
+    {
+      "ingredient": "Natural Sea Salt",
+      "permitted": true,
+      "ins_number": null,
+      "status": "Permitted"
+    }
+  ],
+  "regional_compliance": {
+    "FSSAI": {
+      "status": "Passed",
+      "alerts": [],
+      "verified_count": 7,
+      "total_evaluated": 7
+    },
+    "FDA": {
+      "status": "Passed",
+      "alerts": [],
+      "verified_count": 7,
+      "total_evaluated": 7
+    },
+    "EFSA": {
+      "status": "Passed",
+      "alerts": [],
+      "verified_count": 7,
+      "total_evaluated": 7
+    }
+  },
+  "allergen_results": [
+    {
+      "ingredient": "Pea Protein Isolate (85%)",
+      "allergen": "None Declared",
+      "status": "PASS"
+    },
+    {
+      "ingredient": "Coconut MCT Oil Powder (70%)",
+      "allergen": "None Declared",
+      "status": "PASS"
+    },
+    {
+      "ingredient": "Stevia Extract",
+      "allergen": "None Declared",
+      "status": "PASS"
+    },
+    {
+      "ingredient": "Fava Bean Protein Isolate",
+      "allergen": "None Declared",
+      "status": "PASS"
+    },
+    {
+      "ingredient": "Soluble Corn Fiber",
+      "allergen": "None Declared",
+      "status": "PASS"
+    },
+    {
+      "ingredient": "Citric Acid",
+      "allergen": "None Declared",
+      "status": "PASS"
+    },
+    {
+      "ingredient": "Natural Sea Salt",
+      "allergen": "None Declared",
+      "status": "PASS"
+    }
+  ],
+  "compatibility_results": [
+    {
+      "issue": "Risk of protein precipitation/isoelectric coagulation: High acid with unbuffered protein.",
+      "status": "Incompatible"
+    }
+  ],
+  "groundedness_results": [
+    {
+      "claim": "Pea Protein Isolate (85%) (Protein Source)",
+      "source": "Grounded Repository DB",
+      "grounded": true
+    },
+    {
+      "claim": "Coconut MCT Oil Powder (70%) (Fats & Oils)",
+      "source": "Grounded Repository DB",
+      "grounded": true
+    },
+    {
+      "claim": "Stevia Extract (Sweetener)",
+      "source": "Grounded Repository DB",
+      "grounded": true
+    },
+    {
+      "claim": "Fava Bean Protein Isolate (Protein Source)",
+      "source": "Grounded Repository DB",
+      "grounded": true
+    },
+    {
+      "claim": "Soluble Corn Fiber (Fiber)",
+      "source": "Grounded Repository DB",
+      "grounded": true
+    },
+    {
+      "claim": "Citric Acid (General)",
+      "source": "Grounded Repository DB",
+      "grounded": true
+    },
+    {
+      "claim": "Natural Sea Salt (Flavor System)",
+      "source": "Grounded Repository DB",
+      "grounded": true
+    }
+  ],
+  "mass_balance_result": {
+    "total_percentage": 100.0,
+    "target_percentage": 100.0,
+    "is_feasible": true,
+    "status": "PASS"
+  },
+  "failure_reasons": [
+    "Risk of protein precipitation/isoelectric coagulation: High acid with unbuffered protein."
+  ],
+  "requires_evidence_reasons": [],
+  "iteration_number": 1,
+  "max_iterations": 3,
+  "iteration_recommendation": "Re-optimize formulation to satisfy violated constraints"
+}

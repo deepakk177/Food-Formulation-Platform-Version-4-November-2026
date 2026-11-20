@@ -1,4 +1,13 @@
 ID,Name,Source,source_record_id,source_url
-PAC-ASEPTIC_PET_BOTTLE,Aseptic Pet Bottle,Technical Packaging Specifications,PACK-01,https://www.cargill.com/food-beverage
-PAC-MULTI_LAYER_BARRIER_FOIL_POUCH,Multi-Layer Barrier Foil Pouch,Technical Packaging Specifications,PACK-02,https://www.cargill.com/food-beverage
-PAC-FOOD_GRADE_GLASS_JAR,Food Grade Glass Jar,Technical Packaging Specifications,PACK-03,https://www.cargill.com/food-beverage
+FDA:PKG:POLYETHYLENE_TEREPHTHALATE,Polyethylene Terephthalate,US Food and Drug Administration (FDA),21 CFR 177.1630,https://www.ecfr.gov/current/title-21/chapter-I/subchapter-B
+FDA:PKG:HIGH_DENSITY_POLYETHYLENE,High Density Polyethylene,US Food and Drug Administration (FDA),21 CFR 177.1520,https://www.ecfr.gov/current/title-21/chapter-I/subchapter-B
+FDA:PKG:LOW_DENSITY_POLYETHYLENE,Low Density Polyethylene,US Food and Drug Administration (FDA),21 CFR 177.1520,https://www.ecfr.gov/current/title-21/chapter-I/subchapter-B
+FDA:PKG:POLYPROPYLENE,Polypropylene,US Food and Drug Administration (FDA),21 CFR 177.1520,https://www.ecfr.gov/current/title-21/chapter-I/subchapter-B
+FDA:PKG:ETHYLENE_VINYL_ALCOHOL_COPOLYMER,Ethylene Vinyl Alcohol Copolymer,US Food and Drug Administration (FDA),21 CFR 177.1360,https://www.ecfr.gov/current/title-21/chapter-I/subchapter-B
+FDA:PKG:POLYSTYRENE,Polystyrene,US Food and Drug Administration (FDA),21 CFR 177.1640,https://www.ecfr.gov/current/title-21/chapter-I/subchapter-B
+FDA:PKG:POLYVINYLIDENE_CHLORIDE,Polyvinylidene Chloride,US Food and Drug Administration (FDA),21 CFR 177.1990,https://www.ecfr.gov/current/title-21/chapter-I/subchapter-B
+FDA:PKG:ALUMINUM_FOIL_LAMINATE,Aluminum Foil Laminate,US Food and Drug Administration (FDA),21 CFR 175.300,https://www.ecfr.gov/current/title-21/chapter-I/subchapter-B
+FDA:PKG:SODA_LIME_SILICA_GLASS,Soda Lime Silica Glass,US Food and Drug Administration (FDA),21 CFR 177.2415,https://www.ecfr.gov/current/title-21/chapter-I/subchapter-B
+FDA:PKG:PAPER_AND_PAPERBOARD,Paper And Paperboard,US Food and Drug Administration (FDA),21 CFR 176.170,https://www.ecfr.gov/current/title-21/chapter-I/subchapter-B
+FDA:PKG:TINPLATE_STEEL_CAN,Tinplate Steel Can,US Food and Drug Administration (FDA),21 CFR 175.300,https://www.ecfr.gov/current/title-21/chapter-I/subchapter-B
+FDA:PKG:ASEPTIC_MULTI_LAYER_LIQUID_CARTON,Aseptic Multi-Layer Liquid Carton,US Food and Drug Administration (FDA),21 CFR 177.1520,https://www.ecfr.gov/current/title-21/chapter-I/subchapter-B

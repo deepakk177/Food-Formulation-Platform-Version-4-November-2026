@@ -1,0 +1,669 @@
+constraint_id,product_brief_id,source_text,source_span,constraint_type,parameter,operator,target_value,unit,confidence,extraction_method
+CONST-001,PB001,Create a vegan high-protein chocolate bar containing at leas,Create a vegan high-protein chocolate bar containing at leas,categorical,product_category,REQUIRED,Protein Bars / Functional Snacks,standard,0.92,Deterministic Regex & AST Parser
+CONST-002,PB001,vegan,vegan,dietary,dietary_pattern,FORBIDDEN,animal_derived_ingredients,standard,0.95,Deterministic Regex & AST Parser
+CONST-003,PB001,20% protein,20% protein,numerical,protein_min,>=,20.0,%,0.98,Deterministic Regex & AST Parser
+CONST-004,PB001,25% fat,25% fat,numerical,fat_max,<=,25.0,%,0.98,Deterministic Regex & AST Parser
+CONST-005,PB001,10.0 USD/kg,10.0 USD/kg,numerical,max_raw_material_cost,<=,10.0,USD/kg,0.98,Deterministic Regex & AST Parser
+CONST-006,PB001,low water activity,low water activity,numerical,water_activity,<=,0.6,Aw,0.98,Deterministic Regex & AST Parser
+CONST-007,PB001,chewy,chewy,categorical,texture_profile,PREFERRED,Chewy,standard,0.92,Deterministic Regex & AST Parser
+CONST-008,PB001,cocoa,cocoa,categorical,flavor_profile,PREFERRED,cocoa flavour,standard,0.92,Deterministic Regex & AST Parser
+CONST-009,PB001,chocolate,chocolate,categorical,flavor_profile,PREFERRED,chocolate flavour,standard,0.92,Deterministic Regex & AST Parser
+CONST-010,PB001,ambient,ambient,categorical,shelf_stability,REQUIRED,12-month,standard,0.92,Deterministic Regex & AST Parser
+CONST-001,PB002,Formulate a gluten-free berry energy bar containing at least,Formulate a gluten-free berry energy bar containing at least,categorical,product_category,REQUIRED,Protein Bars / Functional Snacks,standard,0.92,Deterministic Regex & AST Parser
+CONST-002,PB002,gluten-free,gluten-free,categorical,gluten,FORBIDDEN,gluten_containing_grains,standard,0.92,Deterministic Regex & AST Parser
+CONST-003,PB002,clean label,clean label,categorical,clean_label,REQUIRED,no_synthetic_additives,standard,0.92,Deterministic Regex & AST Parser
+CONST-004,PB002,15% protein,15% protein,numerical,protein_min,>=,15.0,%,0.98,Deterministic Regex & AST Parser
+CONST-005,PB002,8% fibre,8% fibre,numerical,fibre_min,>=,8.0,%,0.98,Deterministic Regex & AST Parser
+CONST-006,PB002,12.0 USD/kg,12.0 USD/kg,numerical,max_raw_material_cost,<=,12.0,USD/kg,0.98,Deterministic Regex & AST Parser
+CONST-007,PB002,soft,soft,categorical,texture_profile,PREFERRED,Soft,standard,0.92,Deterministic Regex & AST Parser
+CONST-008,PB002,chewy,chewy,categorical,texture_profile,PREFERRED,Chewy,standard,0.92,Deterministic Regex & AST Parser
+CONST-009,PB002,berry,berry,categorical,flavor_profile,PREFERRED,berry flavour,standard,0.92,Deterministic Regex & AST Parser
+CONST-010,PB002,strawberry,strawberry,categorical,flavor_profile,PREFERRED,strawberry flavour,standard,0.92,Deterministic Regex & AST Parser
+CONST-001,PB003,Design a keto-friendly almond crunch snack bar containing at,Design a keto-friendly almond crunch snack bar containing at,categorical,product_category,REQUIRED,Protein Bars / Functional Snacks,standard,0.92,Deterministic Regex & AST Parser
+CONST-002,PB003,18% protein,18% protein,numerical,protein_min,>=,18.0,%,0.98,Deterministic Regex & AST Parser
+CONST-003,PB003,3% sugar,3% sugar,numerical,sugar_max,<=,3.0,%,0.98,Deterministic Regex & AST Parser
+CONST-004,PB003,14.0 USD/kg,14.0 USD/kg,numerical,max_raw_material_cost,<=,14.0,USD/kg,0.98,Deterministic Regex & AST Parser
+CONST-005,PB003,crunchy,crunchy,categorical,texture_profile,PREFERRED,Crunchy,standard,0.92,Deterministic Regex & AST Parser
+CONST-006,PB003,almond,almond,categorical,flavor_profile,PREFERRED,almond flavour,standard,0.92,Deterministic Regex & AST Parser
+CONST-007,PB003,ambient,ambient,categorical,shelf_stability,REQUIRED,9-month,standard,0.92,Deterministic Regex & AST Parser
+CONST-001,PB004,Develop an allergen-free functional seed snack bar containin,Develop an allergen-free functional seed snack bar containin,categorical,product_category,REQUIRED,Protein Bars / Functional Snacks,standard,0.92,Deterministic Regex & AST Parser
+CONST-002,PB004,allergen-free,allergen-free,categorical,major_allergens,FORBIDDEN,top_9_allergens,standard,0.92,Deterministic Regex & AST Parser
+CONST-003,PB004,16% protein,16% protein,numerical,protein_min,>=,16.0,%,0.98,Deterministic Regex & AST Parser
+CONST-004,PB004,6% fibre,6% fibre,numerical,fibre_min,>=,6.0,%,0.98,Deterministic Regex & AST Parser
+CONST-005,PB004,low water activity,low water activity,numerical,water_activity,<=,0.6,Aw,0.98,Deterministic Regex & AST Parser
+CONST-006,PB004,vanilla,vanilla,categorical,flavor_profile,PREFERRED,vanilla flavour,standard,0.92,Deterministic Regex & AST Parser
+CONST-007,PB004,shelf life,shelf life,categorical,shelf_stability,REQUIRED,6-month,standard,0.92,Deterministic Regex & AST Parser
+CONST-001,PB005,Formulate a vegan diabetic-friendly mocha protein bar contai,Formulate a vegan diabetic-friendly mocha protein bar contai,categorical,product_category,REQUIRED,Protein Bars / Functional Snacks,standard,0.92,Deterministic Regex & AST Parser
+CONST-002,PB005,vegan,vegan,dietary,dietary_pattern,FORBIDDEN,animal_derived_ingredients,standard,0.95,Deterministic Regex & AST Parser
+CONST-003,PB005,22% protein,22% protein,numerical,protein_min,>=,22.0,%,0.98,Deterministic Regex & AST Parser
+CONST-004,PB005,2% sugar,2% sugar,numerical,sugar_max,<=,2.0,%,0.98,Deterministic Regex & AST Parser
+CONST-005,PB005,11.5 USD/kg,11.5 USD/kg,numerical,max_raw_material_cost,<=,11.5,USD/kg,0.98,Deterministic Regex & AST Parser
+CONST-006,PB005,firm,firm,categorical,texture_profile,PREFERRED,Firm,standard,0.92,Deterministic Regex & AST Parser
+CONST-007,PB005,chocolate,chocolate,categorical,flavor_profile,PREFERRED,chocolate flavour,standard,0.92,Deterministic Regex & AST Parser
+CONST-008,PB005,coffee,coffee,categorical,flavor_profile,PREFERRED,coffee flavour,standard,0.92,Deterministic Regex & AST Parser
+CONST-001,PB006,Create a clean label plant-based peanut butter protein bar c,Create a clean label plant-based peanut butter protein bar c,categorical,product_category,REQUIRED,Protein Bars / Functional Snacks,standard,0.92,Deterministic Regex & AST Parser
+CONST-002,PB006,clean label,clean label,categorical,clean_label,REQUIRED,no_synthetic_additives,standard,0.92,Deterministic Regex & AST Parser
+CONST-003,PB006,20% protein,20% protein,numerical,protein_min,>=,20.0,%,0.98,Deterministic Regex & AST Parser
+CONST-004,PB006,7% fibre,7% fibre,numerical,fibre_min,>=,7.0,%,0.98,Deterministic Regex & AST Parser
+CONST-005,PB006,9.0 USD/kg,9.0 USD/kg,numerical,max_raw_material_cost,<=,9.0,USD/kg,0.98,Deterministic Regex & AST Parser
+CONST-006,PB006,chewy,chewy,categorical,texture_profile,PREFERRED,Chewy,standard,0.92,Deterministic Regex & AST Parser
+CONST-007,PB006,low bitterness,low bitterness,categorical,bitterness_masking,REQUIRED,Low Bitterness,standard,0.92,Deterministic Regex & AST Parser
+CONST-008,PB006,ambient,ambient,categorical,shelf_stability,REQUIRED,12 months,standard,0.92,Deterministic Regex & AST Parser
+CONST-001,PB007,Design a senior-friendly high-protein soft chew snack bar co,Design a senior-friendly high-protein soft chew snack bar co,categorical,product_category,REQUIRED,Protein Bars / Functional Snacks,standard,0.92,Deterministic Regex & AST Parser
+CONST-002,PB007,18% protein,18% protein,numerical,protein_min,>=,18.0,%,0.98,Deterministic Regex & AST Parser
+CONST-003,PB007,water binding,water binding,categorical,moisture_retention,REQUIRED,Water Binding,standard,0.92,Deterministic Regex & AST Parser
+CONST-004,PB007,soft,soft,categorical,texture_profile,PREFERRED,Soft,standard,0.92,Deterministic Regex & AST Parser
+CONST-005,PB007,chewy,chewy,categorical,texture_profile,PREFERRED,Chewy,standard,0.92,Deterministic Regex & AST Parser
+CONST-006,PB007,vanilla,vanilla,categorical,flavor_profile,PREFERRED,vanilla flavour,standard,0.92,Deterministic Regex & AST Parser
+CONST-007,PB007,ambient,ambient,categorical,shelf_stability,REQUIRED,9-month,standard,0.92,Deterministic Regex & AST Parser
+CONST-001,PB008,Develop an ultra-low-cost school-safe functional protein bar,Develop an ultra-low-cost school-safe functional protein bar,categorical,product_category,REQUIRED,Protein Bars / Functional Snacks,standard,0.92,Deterministic Regex & AST Parser
+CONST-002,PB008,dairy-free,dairy-free,categorical,dairy,FORBIDDEN,milk_and_dairy_derivatives,standard,0.92,Deterministic Regex & AST Parser
+CONST-003,PB008,nut-free,nut-free,categorical,tree_nuts_and_peanuts,FORBIDDEN,peanut_and_tree_nut_allergens,standard,0.92,Deterministic Regex & AST Parser
+CONST-004,PB008,15% protein,15% protein,numerical,protein_min,>=,15.0,%,0.98,Deterministic Regex & AST Parser
+CONST-005,PB008,6.5 USD/kg,6.5 USD/kg,numerical,max_raw_material_cost,<=,6.5,USD/kg,0.98,Deterministic Regex & AST Parser
+CONST-006,PB008,crunchy,crunchy,categorical,texture_profile,PREFERRED,Crunchy,standard,0.92,Deterministic Regex & AST Parser
+CONST-007,PB008,cocoa,cocoa,categorical,flavor_profile,PREFERRED,cocoa flavour,standard,0.92,Deterministic Regex & AST Parser
+CONST-008,PB008,ambient,ambient,categorical,shelf_stability,REQUIRED,12-month,standard,0.92,Deterministic Regex & AST Parser
+CONST-001,PB009,Formulate a vegan endurance electrolyte protein bar containi,Formulate a vegan endurance electrolyte protein bar containi,categorical,product_category,REQUIRED,Protein Bars / Functional Snacks,standard,0.92,Deterministic Regex & AST Parser
+CONST-002,PB009,vegan,vegan,dietary,dietary_pattern,FORBIDDEN,animal_derived_ingredients,standard,0.95,Deterministic Regex & AST Parser
+CONST-003,PB009,17% protein,17% protein,numerical,protein_min,>=,17.0,%,0.98,Deterministic Regex & AST Parser
+CONST-004,PB009,10% fibre,10% fibre,numerical,fibre_min,>=,10.0,%,0.98,Deterministic Regex & AST Parser
+CONST-005,PB009,low water activity,low water activity,numerical,water_activity,<=,0.6,Aw,0.98,Deterministic Regex & AST Parser
+CONST-006,PB009,chewy,chewy,categorical,texture_profile,PREFERRED,Chewy,standard,0.92,Deterministic Regex & AST Parser
+CONST-007,PB009,citrus,citrus,categorical,flavor_profile,PREFERRED,citrus flavour,standard,0.92,Deterministic Regex & AST Parser
+CONST-008,PB009,lemon,lemon,categorical,flavor_profile,PREFERRED,lemon flavour,standard,0.92,Deterministic Regex & AST Parser
+CONST-009,PB009,ambient,ambient,categorical,shelf_stability,REQUIRED,9-month,standard,0.92,Deterministic Regex & AST Parser
+CONST-001,PB010,Create a premium chocolate brownie protein bar containing at,Create a premium chocolate brownie protein bar containing at,categorical,product_category,REQUIRED,Protein Bars / Functional Snacks,standard,0.92,Deterministic Regex & AST Parser
+CONST-002,PB010,25% protein,25% protein,numerical,protein_min,>=,25.0,%,0.98,Deterministic Regex & AST Parser
+CONST-003,PB010,18% fat,18% fat,numerical,fat_max,<=,18.0,%,0.98,Deterministic Regex & AST Parser
+CONST-004,PB010,15.0 USD/kg,15.0 USD/kg,numerical,max_raw_material_cost,<=,15.0,USD/kg,0.98,Deterministic Regex & AST Parser
+CONST-005,PB010,cocoa,cocoa,categorical,flavor_profile,PREFERRED,cocoa flavour,standard,0.92,Deterministic Regex & AST Parser
+CONST-006,PB010,chocolate,chocolate,categorical,flavor_profile,PREFERRED,chocolate flavour,standard,0.92,Deterministic Regex & AST Parser
+CONST-001,PB011,Design a gluten-free vegan apple cinnamon protein bar contai,Design a gluten-free vegan apple cinnamon protein bar contai,categorical,product_category,REQUIRED,Protein Bars / Functional Snacks,standard,0.92,Deterministic Regex & AST Parser
+CONST-002,PB011,vegan,vegan,dietary,dietary_pattern,FORBIDDEN,animal_derived_ingredients,standard,0.95,Deterministic Regex & AST Parser
+CONST-003,PB011,gluten-free,gluten-free,categorical,gluten,FORBIDDEN,gluten_containing_grains,standard,0.92,Deterministic Regex & AST Parser
+CONST-004,PB011,16% protein,16% protein,numerical,protein_min,>=,16.0,%,0.98,Deterministic Regex & AST Parser
+CONST-005,PB011,8% fibre,8% fibre,numerical,fibre_min,>=,8.0,%,0.98,Deterministic Regex & AST Parser
+CONST-006,PB011,10.5 USD/kg,10.5 USD/kg,numerical,max_raw_material_cost,<=,10.5,USD/kg,0.98,Deterministic Regex & AST Parser
+CONST-007,PB011,soft,soft,categorical,texture_profile,PREFERRED,Soft,standard,0.92,Deterministic Regex & AST Parser
+CONST-008,PB011,shelf life,shelf life,categorical,shelf_stability,REQUIRED,6-month,standard,0.92,Deterministic Regex & AST Parser
+CONST-001,PB012,Develop a high-protein savory snack bar containing at least ,Develop a high-protein savory snack bar containing at least ,categorical,product_category,REQUIRED,Protein Bars / Functional Snacks,standard,0.92,Deterministic Regex & AST Parser
+CONST-002,PB012,20% protein,20% protein,numerical,protein_min,>=,20.0,%,0.98,Deterministic Regex & AST Parser
+CONST-003,PB012,5% sugar,5% sugar,numerical,sugar_max,<=,5.0,%,0.98,Deterministic Regex & AST Parser
+CONST-004,PB012,low water activity,low water activity,numerical,water_activity,<=,0.6,Aw,0.98,Deterministic Regex & AST Parser
+CONST-005,PB012,crunchy,crunchy,categorical,texture_profile,PREFERRED,Crunchy,standard,0.92,Deterministic Regex & AST Parser
+CONST-006,PB012,garlic,garlic,categorical,flavor_profile,PREFERRED,garlic flavour,standard,0.92,Deterministic Regex & AST Parser
+CONST-007,PB012,herb,herb,categorical,flavor_profile,PREFERRED,herb flavour,standard,0.92,Deterministic Regex & AST Parser
+CONST-008,PB012,savory,savory,categorical,flavor_profile,PREFERRED,savory flavour,standard,0.92,Deterministic Regex & AST Parser
+CONST-009,PB012,stability,stability,categorical,shelf_stability,REQUIRED,12-month,standard,0.92,Deterministic Regex & AST Parser
+CONST-001,PB013,Formulate a dairy-free coconut caramel protein snack bar con,Formulate a dairy-free coconut caramel protein snack bar con,categorical,product_category,REQUIRED,Protein Bars / Functional Snacks,standard,0.92,Deterministic Regex & AST Parser
+CONST-002,PB013,dairy-free,dairy-free,categorical,dairy,FORBIDDEN,milk_and_dairy_derivatives,standard,0.92,Deterministic Regex & AST Parser
+CONST-003,PB013,18% protein,18% protein,numerical,protein_min,>=,18.0,%,0.98,Deterministic Regex & AST Parser
+CONST-004,PB013,20% fat,20% fat,numerical,fat_max,<=,20.0,%,0.98,Deterministic Regex & AST Parser
+CONST-005,PB013,11.0 USD/kg,11.0 USD/kg,numerical,max_raw_material_cost,<=,11.0,USD/kg,0.98,Deterministic Regex & AST Parser
+CONST-006,PB013,smooth,smooth,categorical,texture_profile,PREFERRED,Smooth,standard,0.92,Deterministic Regex & AST Parser
+CONST-007,PB013,chewy,chewy,categorical,texture_profile,PREFERRED,Chewy,standard,0.92,Deterministic Regex & AST Parser
+CONST-008,PB013,caramel,caramel,categorical,flavor_profile,PREFERRED,caramel flavour,standard,0.92,Deterministic Regex & AST Parser
+CONST-009,PB013,ambient,ambient,categorical,shelf_stability,REQUIRED,12 months,standard,0.92,Deterministic Regex & AST Parser
+CONST-001,PB014,Create a gut-health prebiotic protein bar containing at leas,Create a gut-health prebiotic protein bar containing at leas,categorical,product_category,REQUIRED,Protein Bars / Functional Snacks,standard,0.92,Deterministic Regex & AST Parser
+CONST-002,PB014,clean label,clean label,categorical,clean_label,REQUIRED,no_synthetic_additives,standard,0.92,Deterministic Regex & AST Parser
+CONST-003,PB014,15% protein,15% protein,numerical,protein_min,>=,15.0,%,0.98,Deterministic Regex & AST Parser
+CONST-004,PB014,10% fibre,10% fibre,numerical,fibre_min,>=,10.0,%,0.98,Deterministic Regex & AST Parser
+CONST-005,PB014,12.5 USD/kg,12.5 USD/kg,numerical,max_raw_material_cost,<=,12.5,USD/kg,0.98,Deterministic Regex & AST Parser
+CONST-006,PB014,soft,soft,categorical,texture_profile,PREFERRED,Soft,standard,0.92,Deterministic Regex & AST Parser
+CONST-007,PB014,chewy,chewy,categorical,texture_profile,PREFERRED,Chewy,standard,0.92,Deterministic Regex & AST Parser
+CONST-008,PB014,vanilla,vanilla,categorical,flavor_profile,PREFERRED,vanilla flavour,standard,0.92,Deterministic Regex & AST Parser
+CONST-009,PB014,berry,berry,categorical,flavor_profile,PREFERRED,berry flavour,standard,0.92,Deterministic Regex & AST Parser
+CONST-010,PB014,ambient,ambient,categorical,shelf_stability,REQUIRED,12 months,standard,0.92,Deterministic Regex & AST Parser
+CONST-001,PB015,Design a high-protein crispy cluster snack containing at lea,Design a high-protein crispy cluster snack containing at lea,categorical,product_category,REQUIRED,Protein Bars / Functional Snacks,standard,0.92,Deterministic Regex & AST Parser
+CONST-002,PB015,22% protein,22% protein,numerical,protein_min,>=,22.0,%,0.98,Deterministic Regex & AST Parser
+CONST-003,PB015,12% fat,12% fat,numerical,fat_max,<=,12.0,%,0.98,Deterministic Regex & AST Parser
+CONST-004,PB015,9.5 USD/kg,9.5 USD/kg,numerical,max_raw_material_cost,<=,9.5,USD/kg,0.98,Deterministic Regex & AST Parser
+CONST-005,PB015,aeration,aeration,categorical,foam_and_air_incorporation,REQUIRED,Aeration,standard,0.92,Deterministic Regex & AST Parser
+CONST-006,PB015,low water activity,low water activity,numerical,water_activity,<=,0.6,Aw,0.98,Deterministic Regex & AST Parser
+CONST-007,PB015,crunchy,crunchy,categorical,texture_profile,PREFERRED,Crunchy,standard,0.92,Deterministic Regex & AST Parser
+CONST-008,PB015,chocolate,chocolate,categorical,flavor_profile,PREFERRED,chocolate flavour,standard,0.92,Deterministic Regex & AST Parser
+CONST-009,PB015,shelf life,shelf life,categorical,shelf_stability,REQUIRED,9-month,standard,0.92,Deterministic Regex & AST Parser
+CONST-001,PB016,Develop a vegan zero-added-sugar almond protein bar containi,Develop a vegan zero-added-sugar almond protein bar containi,categorical,product_category,REQUIRED,Protein Bars / Functional Snacks,standard,0.92,Deterministic Regex & AST Parser
+CONST-002,PB016,vegan,vegan,dietary,dietary_pattern,FORBIDDEN,animal_derived_ingredients,standard,0.95,Deterministic Regex & AST Parser
+CONST-003,PB016,20% protein,20% protein,numerical,protein_min,>=,20.0,%,0.98,Deterministic Regex & AST Parser
+CONST-004,PB016,1% sugar,1% sugar,numerical,sugar_max,<=,1.0,%,0.98,Deterministic Regex & AST Parser
+CONST-005,PB016,13.0 USD/kg,13.0 USD/kg,numerical,max_raw_material_cost,<=,13.0,USD/kg,0.98,Deterministic Regex & AST Parser
+CONST-006,PB016,chewy,chewy,categorical,texture_profile,PREFERRED,Chewy,standard,0.92,Deterministic Regex & AST Parser
+CONST-007,PB016,firm,firm,categorical,texture_profile,PREFERRED,Firm,standard,0.92,Deterministic Regex & AST Parser
+CONST-008,PB016,vanilla,vanilla,categorical,flavor_profile,PREFERRED,vanilla flavour,standard,0.92,Deterministic Regex & AST Parser
+CONST-009,PB016,almond,almond,categorical,flavor_profile,PREFERRED,almond flavour,standard,0.92,Deterministic Regex & AST Parser
+CONST-010,PB016,ambient,ambient,categorical,shelf_stability,REQUIRED,12 months,standard,0.92,Deterministic Regex & AST Parser
+CONST-001,PB017,Formulate a hypoallergenic protein energy bite containing at,Formulate a hypoallergenic protein energy bite containing at,categorical,product_category,REQUIRED,Protein Bars / Functional Snacks,standard,0.92,Deterministic Regex & AST Parser
+CONST-002,PB017,14% protein,14% protein,numerical,protein_min,>=,14.0,%,0.98,Deterministic Regex & AST Parser
+CONST-003,PB017,5% fibre,5% fibre,numerical,fibre_min,>=,5.0,%,0.98,Deterministic Regex & AST Parser
+CONST-004,PB017,soft,soft,categorical,texture_profile,PREFERRED,Soft,standard,0.92,Deterministic Regex & AST Parser
+CONST-005,PB017,cocoa,cocoa,categorical,flavor_profile,PREFERRED,cocoa flavour,standard,0.92,Deterministic Regex & AST Parser
+CONST-006,PB017,shelf life,shelf life,categorical,shelf_stability,REQUIRED,6-month,standard,0.92,Deterministic Regex & AST Parser
+CONST-001,PB018,Create a clean label matcha green tea protein bar containing,Create a clean label matcha green tea protein bar containing,categorical,product_category,REQUIRED,Protein Bars / Functional Snacks,standard,0.92,Deterministic Regex & AST Parser
+CONST-002,PB018,clean label,clean label,categorical,clean_label,REQUIRED,no_synthetic_additives,standard,0.92,Deterministic Regex & AST Parser
+CONST-003,PB018,18% protein,18% protein,numerical,protein_min,>=,18.0,%,0.98,Deterministic Regex & AST Parser
+CONST-004,PB018,smooth,smooth,categorical,texture_profile,PREFERRED,Smooth,standard,0.92,Deterministic Regex & AST Parser
+CONST-005,PB018,low bitterness,low bitterness,categorical,bitterness_masking,REQUIRED,Low Bitterness,standard,0.92,Deterministic Regex & AST Parser
+CONST-006,PB018,ambient,ambient,categorical,shelf_stability,REQUIRED,12 months,standard,0.92,Deterministic Regex & AST Parser
+CONST-001,PB019,Design a high-fibre oat & chia protein snack bar containing ,Design a high-fibre oat & chia protein snack bar containing ,categorical,product_category,REQUIRED,Protein Bars / Functional Snacks,standard,0.92,Deterministic Regex & AST Parser
+CONST-002,PB019,16% protein,16% protein,numerical,protein_min,>=,16.0,%,0.98,Deterministic Regex & AST Parser
+CONST-003,PB019,9% fibre,9% fibre,numerical,fibre_min,>=,9.0,%,0.98,Deterministic Regex & AST Parser
+CONST-004,PB019,8.5 USD/kg,8.5 USD/kg,numerical,max_raw_material_cost,<=,8.5,USD/kg,0.98,Deterministic Regex & AST Parser
+CONST-005,PB019,chewy,chewy,categorical,texture_profile,PREFERRED,Chewy,standard,0.92,Deterministic Regex & AST Parser
+CONST-006,PB019,vanilla,vanilla,categorical,flavor_profile,PREFERRED,vanilla flavour,standard,0.92,Deterministic Regex & AST Parser
+CONST-007,PB019,ambient,ambient,categorical,shelf_stability,REQUIRED,9-month,standard,0.92,Deterministic Regex & AST Parser
+CONST-001,PB020,Develop an ultra-high-protein plant bar containing at least ,Develop an ultra-high-protein plant bar containing at least ,categorical,product_category,REQUIRED,Protein Bars / Functional Snacks,standard,0.92,Deterministic Regex & AST Parser
+CONST-002,PB020,30% protein,30% protein,numerical,protein_min,>=,30.0,%,0.98,Deterministic Regex & AST Parser
+CONST-003,PB020,14% fat,14% fat,numerical,fat_max,<=,14.0,%,0.98,Deterministic Regex & AST Parser
+CONST-004,PB020,14.5 USD/kg,14.5 USD/kg,numerical,max_raw_material_cost,<=,14.5,USD/kg,0.98,Deterministic Regex & AST Parser
+CONST-005,PB020,chocolate,chocolate,categorical,flavor_profile,PREFERRED,chocolate flavour,standard,0.92,Deterministic Regex & AST Parser
+CONST-006,PB020,ambient,ambient,categorical,shelf_stability,REQUIRED,9 month,standard,0.92,Deterministic Regex & AST Parser
+CONST-001,PB021,Create a vegan high-protein chocolate RTD beverage containin,Create a vegan high-protein chocolate RTD beverage containin,categorical,product_category,REQUIRED,Plant-Based Beverages,standard,0.92,Deterministic Regex & AST Parser
+CONST-002,PB021,vegan,vegan,dietary,dietary_pattern,FORBIDDEN,animal_derived_ingredients,standard,0.95,Deterministic Regex & AST Parser
+CONST-003,PB021,6% protein,6% protein,numerical,protein_min,>=,6.0,%,0.98,Deterministic Regex & AST Parser
+CONST-004,PB021,2% fat,2% fat,numerical,fat_max,<=,2.0,%,0.98,Deterministic Regex & AST Parser
+CONST-005,PB021,emulsification,emulsification,categorical,emulsification_stability,REQUIRED,Emulsification,standard,0.92,Deterministic Regex & AST Parser
+CONST-006,PB021,smooth,smooth,categorical,texture_profile,PREFERRED,Smooth,standard,0.92,Deterministic Regex & AST Parser
+CONST-007,PB021,creamy,creamy,categorical,texture_profile,PREFERRED,Creamy,standard,0.92,Deterministic Regex & AST Parser
+CONST-008,PB021,cocoa,cocoa,categorical,flavor_profile,PREFERRED,cocoa flavour,standard,0.92,Deterministic Regex & AST Parser
+CONST-009,PB021,chocolate,chocolate,categorical,flavor_profile,PREFERRED,chocolate flavour,standard,0.92,Deterministic Regex & AST Parser
+CONST-010,PB021,ambient,ambient,categorical,shelf_stability,REQUIRED,9-month,standard,0.92,Deterministic Regex & AST Parser
+CONST-001,PB022,Formulate a sugar-free oat vanilla latte beverage containing,Formulate a sugar-free oat vanilla latte beverage containing,categorical,product_category,REQUIRED,Sauces / Spreads / Emulsified Products,standard,0.92,Deterministic Regex & AST Parser
+CONST-002,PB022,3% protein,3% protein,numerical,protein_min,>=,3.0,%,0.98,Deterministic Regex & AST Parser
+CONST-003,PB022,0.5% sugar,0.5% sugar,numerical,sugar_max,<=,0.5,%,0.98,Deterministic Regex & AST Parser
+CONST-004,PB022,creamy,creamy,categorical,texture_profile,PREFERRED,Creamy,standard,0.92,Deterministic Regex & AST Parser
+CONST-005,PB022,vanilla,vanilla,categorical,flavor_profile,PREFERRED,vanilla flavour,standard,0.92,Deterministic Regex & AST Parser
+CONST-006,PB022,coffee,coffee,categorical,flavor_profile,PREFERRED,coffee flavour,standard,0.92,Deterministic Regex & AST Parser
+CONST-007,PB022,ambient,ambient,categorical,shelf_stability,REQUIRED,12-month,standard,0.92,Deterministic Regex & AST Parser
+CONST-001,PB023,Design a clean label almond protein recovery drink containin,Design a clean label almond protein recovery drink containin,categorical,product_category,REQUIRED,Plant-Based Beverages,standard,0.92,Deterministic Regex & AST Parser
+CONST-002,PB023,clean label,clean label,categorical,clean_label,REQUIRED,no_synthetic_additives,standard,0.92,Deterministic Regex & AST Parser
+CONST-003,PB023,5% protein,5% protein,numerical,protein_min,>=,5.0,%,0.98,Deterministic Regex & AST Parser
+CONST-004,PB023,3% fibre,3% fibre,numerical,fibre_min,>=,3.0,%,0.98,Deterministic Regex & AST Parser
+CONST-005,PB023,7.5 USD/kg,7.5 USD/kg,numerical,max_raw_material_cost,<=,7.5,USD/kg,0.98,Deterministic Regex & AST Parser
+CONST-006,PB023,smooth,smooth,categorical,texture_profile,PREFERRED,Smooth,standard,0.92,Deterministic Regex & AST Parser
+CONST-007,PB023,almond,almond,categorical,flavor_profile,PREFERRED,almond flavour,standard,0.92,Deterministic Regex & AST Parser
+CONST-001,PB024,Develop a nut-free allergen-safe plant milk beverage for chi,Develop a nut-free allergen-safe plant milk beverage for chi,categorical,product_category,REQUIRED,Plant-Based Beverages,standard,0.92,Deterministic Regex & AST Parser
+CONST-002,PB024,nut-free,nut-free,categorical,tree_nuts_and_peanuts,FORBIDDEN,peanut_and_tree_nut_allergens,standard,0.92,Deterministic Regex & AST Parser
+CONST-003,PB024,4% protein,4% protein,numerical,protein_min,>=,4.0,%,0.98,Deterministic Regex & AST Parser
+CONST-004,PB024,4% sugar,4% sugar,numerical,sugar_max,<=,4.0,%,0.98,Deterministic Regex & AST Parser
+CONST-005,PB024,5.0 USD/kg,5.0 USD/kg,numerical,max_raw_material_cost,<=,5.0,USD/kg,0.98,Deterministic Regex & AST Parser
+CONST-006,PB024,smooth,smooth,categorical,texture_profile,PREFERRED,Smooth,standard,0.92,Deterministic Regex & AST Parser
+CONST-007,PB024,creamy,creamy,categorical,texture_profile,PREFERRED,Creamy,standard,0.92,Deterministic Regex & AST Parser
+CONST-008,PB024,vanilla,vanilla,categorical,flavor_profile,PREFERRED,vanilla flavour,standard,0.92,Deterministic Regex & AST Parser
+CONST-009,PB024,shelf life,shelf life,categorical,shelf_stability,REQUIRED,6-month,standard,0.92,Deterministic Regex & AST Parser
+CONST-001,PB025,Formulate an elderly-oriented nutrient-dense meal replacemen,Formulate an elderly-oriented nutrient-dense meal replacemen,categorical,product_category,REQUIRED,Plant-Based Beverages,standard,0.92,Deterministic Regex & AST Parser
+CONST-002,PB025,7% protein,7% protein,numerical,protein_min,>=,7.0,%,0.98,Deterministic Regex & AST Parser
+CONST-003,PB025,emulsification,emulsification,categorical,emulsification_stability,REQUIRED,Emulsification,standard,0.92,Deterministic Regex & AST Parser
+CONST-004,PB025,vanilla,vanilla,categorical,flavor_profile,PREFERRED,vanilla flavour,standard,0.92,Deterministic Regex & AST Parser
+CONST-005,PB025,ambient,ambient,categorical,shelf_stability,REQUIRED,9-month,standard,0.92,Deterministic Regex & AST Parser
+CONST-001,PB026,Create a ketogenic coconut MCT plant beverage containing at ,Create a ketogenic coconut MCT plant beverage containing at ,categorical,product_category,REQUIRED,Sauces / Spreads / Emulsified Products,standard,0.92,Deterministic Regex & AST Parser
+CONST-002,PB026,4% protein,4% protein,numerical,protein_min,>=,4.0,%,0.98,Deterministic Regex & AST Parser
+CONST-003,PB026,8% fat,8% fat,numerical,fat_max,<=,8.0,%,0.98,Deterministic Regex & AST Parser
+CONST-004,PB026,creamy,creamy,categorical,texture_profile,PREFERRED,Creamy,standard,0.92,Deterministic Regex & AST Parser
+CONST-005,PB026,ambient,ambient,categorical,shelf_stability,REQUIRED,12 months,standard,0.92,Deterministic Regex & AST Parser
+CONST-001,PB027,Design a refreshing plant-based citrus electrolyte beverage ,Design a refreshing plant-based citrus electrolyte beverage ,categorical,product_category,REQUIRED,Plant-Based Beverages,standard,0.92,Deterministic Regex & AST Parser
+CONST-002,PB027,3% protein,3% protein,numerical,protein_min,>=,3.0,%,0.98,Deterministic Regex & AST Parser
+CONST-003,PB027,low sugar,low sugar,numerical,sugar_max,<=,5.0,%,0.98,Deterministic Regex & AST Parser
+CONST-004,PB027,citrus,citrus,categorical,flavor_profile,PREFERRED,citrus flavour,standard,0.92,Deterministic Regex & AST Parser
+CONST-005,PB027,lemon,lemon,categorical,flavor_profile,PREFERRED,lemon flavour,standard,0.92,Deterministic Regex & AST Parser
+CONST-006,PB027,shelf life,shelf life,categorical,shelf_stability,REQUIRED,6-month,standard,0.92,Deterministic Regex & AST Parser
+CONST-001,PB028,Develop an ultra-low-cost commercial plant-based tea latte b,Develop an ultra-low-cost commercial plant-based tea latte b,categorical,product_category,REQUIRED,Plant-Based Beverages,standard,0.92,Deterministic Regex & AST Parser
+CONST-002,PB028,dairy-free,dairy-free,categorical,dairy,FORBIDDEN,milk_and_dairy_derivatives,standard,0.92,Deterministic Regex & AST Parser
+CONST-003,PB028,2.5% protein,2.5% protein,numerical,protein_min,>=,2.5,%,0.98,Deterministic Regex & AST Parser
+CONST-004,PB028,4.0 USD/kg,4.0 USD/kg,numerical,max_raw_material_cost,<=,4.0,USD/kg,0.98,Deterministic Regex & AST Parser
+CONST-005,PB028,smooth,smooth,categorical,texture_profile,PREFERRED,Smooth,standard,0.92,Deterministic Regex & AST Parser
+CONST-006,PB028,creamy,creamy,categorical,texture_profile,PREFERRED,Creamy,standard,0.92,Deterministic Regex & AST Parser
+CONST-007,PB028,ambient,ambient,categorical,shelf_stability,REQUIRED,12-month,standard,0.92,Deterministic Regex & AST Parser
+CONST-001,PB029,Formulate a gut-health prebiotic golden turmeric plant drink,Formulate a gut-health prebiotic golden turmeric plant drink,categorical,product_category,REQUIRED,Plant-Based Beverages,standard,0.92,Deterministic Regex & AST Parser
+CONST-002,PB029,3% protein,3% protein,numerical,protein_min,>=,3.0,%,0.98,Deterministic Regex & AST Parser
+CONST-003,PB029,low bitterness,low bitterness,categorical,bitterness_masking,REQUIRED,Low Bitterness,standard,0.92,Deterministic Regex & AST Parser
+CONST-004,PB029,shelf life,shelf life,categorical,shelf_stability,REQUIRED,6-month,standard,0.92,Deterministic Regex & AST Parser
+CONST-001,PB030,Create a high-protein plant-based berry smoothie drink conta,Create a high-protein plant-based berry smoothie drink conta,categorical,product_category,REQUIRED,Plant-Based Beverages,standard,0.92,Deterministic Regex & AST Parser
+CONST-002,PB030,8% protein,8% protein,numerical,protein_min,>=,8.0,%,0.98,Deterministic Regex & AST Parser
+CONST-003,PB030,5% fibre,5% fibre,numerical,fibre_min,>=,5.0,%,0.98,Deterministic Regex & AST Parser
+CONST-004,PB030,smooth,smooth,categorical,texture_profile,PREFERRED,Smooth,standard,0.92,Deterministic Regex & AST Parser
+CONST-005,PB030,viscous,viscous,categorical,texture_profile,PREFERRED,Viscous,standard,0.92,Deterministic Regex & AST Parser
+CONST-006,PB030,berry,berry,categorical,flavor_profile,PREFERRED,berry flavour,standard,0.92,Deterministic Regex & AST Parser
+CONST-007,PB030,strawberry,strawberry,categorical,flavor_profile,PREFERRED,strawberry flavour,standard,0.92,Deterministic Regex & AST Parser
+CONST-008,PB030,blueberry,blueberry,categorical,flavor_profile,PREFERRED,blueberry flavour,standard,0.92,Deterministic Regex & AST Parser
+CONST-009,PB030,stability,stability,categorical,shelf_stability,REQUIRED,45-day,standard,0.92,Deterministic Regex & AST Parser
+CONST-001,PB031,Design a gluten-free plant-based cold brew protein coffee be,Design a gluten-free plant-based cold brew protein coffee be,categorical,product_category,REQUIRED,Sauces / Spreads / Emulsified Products,standard,0.92,Deterministic Regex & AST Parser
+CONST-002,PB031,gluten-free,gluten-free,categorical,gluten,FORBIDDEN,gluten_containing_grains,standard,0.92,Deterministic Regex & AST Parser
+CONST-003,PB031,6% protein,6% protein,numerical,protein_min,>=,6.0,%,0.98,Deterministic Regex & AST Parser
+CONST-004,PB031,3% sugar,3% sugar,numerical,sugar_max,<=,3.0,%,0.98,Deterministic Regex & AST Parser
+CONST-005,PB031,coffee,coffee,categorical,flavor_profile,PREFERRED,coffee flavour,standard,0.92,Deterministic Regex & AST Parser
+CONST-006,PB031,shelf life,shelf life,categorical,shelf_stability,REQUIRED,9-month,standard,0.92,Deterministic Regex & AST Parser
+CONST-001,PB032,Develop a vegan chocolate hazelnut recovery drink containing,Develop a vegan chocolate hazelnut recovery drink containing,categorical,product_category,REQUIRED,Plant-Based Beverages,standard,0.92,Deterministic Regex & AST Parser
+CONST-002,PB032,vegan,vegan,dietary,dietary_pattern,FORBIDDEN,animal_derived_ingredients,standard,0.95,Deterministic Regex & AST Parser
+CONST-003,PB032,5% protein,5% protein,numerical,protein_min,>=,5.0,%,0.98,Deterministic Regex & AST Parser
+CONST-004,PB032,8.0 USD/kg,8.0 USD/kg,numerical,max_raw_material_cost,<=,8.0,USD/kg,0.98,Deterministic Regex & AST Parser
+CONST-005,PB032,cocoa,cocoa,categorical,flavor_profile,PREFERRED,cocoa flavour,standard,0.92,Deterministic Regex & AST Parser
+CONST-006,PB032,chocolate,chocolate,categorical,flavor_profile,PREFERRED,chocolate flavour,standard,0.92,Deterministic Regex & AST Parser
+CONST-001,PB033,Formulate an allergen-free pea protein RTD beverage containi,Formulate an allergen-free pea protein RTD beverage containi,categorical,product_category,REQUIRED,Plant-Based Beverages,standard,0.92,Deterministic Regex & AST Parser
+CONST-002,PB033,allergen-free,allergen-free,categorical,major_allergens,FORBIDDEN,top_9_allergens,standard,0.92,Deterministic Regex & AST Parser
+CONST-003,PB033,7% protein,7% protein,numerical,protein_min,>=,7.0,%,0.98,Deterministic Regex & AST Parser
+CONST-004,PB033,smooth,smooth,categorical,texture_profile,PREFERRED,Smooth,standard,0.92,Deterministic Regex & AST Parser
+CONST-005,PB033,vanilla,vanilla,categorical,flavor_profile,PREFERRED,vanilla flavour,standard,0.92,Deterministic Regex & AST Parser
+CONST-006,PB033,low bitterness,low bitterness,categorical,bitterness_masking,REQUIRED,Low Bitterness,standard,0.92,Deterministic Regex & AST Parser
+CONST-007,PB033,ambient,ambient,categorical,shelf_stability,REQUIRED,12-month,standard,0.92,Deterministic Regex & AST Parser
+CONST-001,PB034,Create a clean label dairy-free matcha latte containing at l,Create a clean label dairy-free matcha latte containing at l,categorical,product_category,REQUIRED,Plant-Based Beverages,standard,0.92,Deterministic Regex & AST Parser
+CONST-002,PB034,dairy-free,dairy-free,categorical,dairy,FORBIDDEN,milk_and_dairy_derivatives,standard,0.92,Deterministic Regex & AST Parser
+CONST-003,PB034,clean label,clean label,categorical,clean_label,REQUIRED,no_synthetic_additives,standard,0.92,Deterministic Regex & AST Parser
+CONST-004,PB034,3.5% protein,3.5% protein,numerical,protein_min,>=,3.5,%,0.98,Deterministic Regex & AST Parser
+CONST-005,PB034,4% sugar,4% sugar,numerical,sugar_max,<=,4.0,%,0.98,Deterministic Regex & AST Parser
+CONST-006,PB034,creamy,creamy,categorical,texture_profile,PREFERRED,Creamy,standard,0.92,Deterministic Regex & AST Parser
+CONST-007,PB034,ambient,ambient,categorical,shelf_stability,REQUIRED,6-month,standard,0.92,Deterministic Regex & AST Parser
+CONST-001,PB035,Design a low-calorie plant-based hydration drink containing ,Design a low-calorie plant-based hydration drink containing ,categorical,product_category,REQUIRED,Plant-Based Beverages,standard,0.92,Deterministic Regex & AST Parser
+CONST-002,PB035,2% protein,2% protein,numerical,protein_min,>=,2.0,%,0.98,Deterministic Regex & AST Parser
+CONST-003,PB035,berry,berry,categorical,flavor_profile,PREFERRED,berry flavour,standard,0.92,Deterministic Regex & AST Parser
+CONST-004,PB035,ambient,ambient,categorical,shelf_stability,REQUIRED,9-month,standard,0.92,Deterministic Regex & AST Parser
+CONST-001,PB036,Develop a functional sleep-support plant-based chamomile lat,Develop a functional sleep-support plant-based chamomile lat,categorical,product_category,REQUIRED,Plant-Based Beverages,standard,0.92,Deterministic Regex & AST Parser
+CONST-002,PB036,3% protein,3% protein,numerical,protein_min,>=,3.0,%,0.98,Deterministic Regex & AST Parser
+CONST-003,PB036,low fat,low fat,numerical,fat_max,<=,5.0,%,0.98,Deterministic Regex & AST Parser
+CONST-004,PB036,smooth,smooth,categorical,texture_profile,PREFERRED,Smooth,standard,0.92,Deterministic Regex & AST Parser
+CONST-005,PB036,vanilla,vanilla,categorical,flavor_profile,PREFERRED,vanilla flavour,standard,0.92,Deterministic Regex & AST Parser
+CONST-006,PB036,herb,herb,categorical,flavor_profile,PREFERRED,herb flavour,standard,0.92,Deterministic Regex & AST Parser
+CONST-007,PB036,stability,stability,categorical,shelf_stability,REQUIRED,12-month,standard,0.92,Deterministic Regex & AST Parser
+CONST-001,PB037,Formulate a diabetic-safe unsweetened plant milk containing ,Formulate a diabetic-safe unsweetened plant milk containing ,categorical,product_category,REQUIRED,General,standard,0.92,Deterministic Regex & AST Parser
+CONST-002,PB037,4% protein,4% protein,numerical,protein_min,>=,4.0,%,0.98,Deterministic Regex & AST Parser
+CONST-003,PB037,0.2% sugar,0.2% sugar,numerical,sugar_max,<=,0.2,%,0.98,Deterministic Regex & AST Parser
+CONST-004,PB037,5.5 USD/kg,5.5 USD/kg,numerical,max_raw_material_cost,<=,5.5,USD/kg,0.98,Deterministic Regex & AST Parser
+CONST-005,PB037,creamy,creamy,categorical,texture_profile,PREFERRED,Creamy,standard,0.92,Deterministic Regex & AST Parser
+CONST-006,PB037,ambient,ambient,categorical,shelf_stability,REQUIRED,9-month,standard,0.92,Deterministic Regex & AST Parser
+CONST-001,PB038,Create a fortified plant-based breakfast drink containing at,Create a fortified plant-based breakfast drink containing at,categorical,product_category,REQUIRED,Plant-Based Beverages,standard,0.92,Deterministic Regex & AST Parser
+CONST-002,PB038,5% protein,5% protein,numerical,protein_min,>=,5.0,%,0.98,Deterministic Regex & AST Parser
+CONST-003,PB038,4% fibre,4% fibre,numerical,fibre_min,>=,4.0,%,0.98,Deterministic Regex & AST Parser
+CONST-004,PB038,6.8 USD/kg,6.8 USD/kg,numerical,max_raw_material_cost,<=,6.8,USD/kg,0.98,Deterministic Regex & AST Parser
+CONST-005,PB038,vanilla,vanilla,categorical,flavor_profile,PREFERRED,vanilla flavour,standard,0.92,Deterministic Regex & AST Parser
+CONST-006,PB038,ambient,ambient,categorical,shelf_stability,REQUIRED,6-month,standard,0.92,Deterministic Regex & AST Parser
+CONST-001,PB039,Design a high-protein post-workout chai tea plant beverage c,Design a high-protein post-workout chai tea plant beverage c,categorical,product_category,REQUIRED,Plant-Based Beverages,standard,0.92,Deterministic Regex & AST Parser
+CONST-002,PB039,8% protein,8% protein,numerical,protein_min,>=,8.0,%,0.98,Deterministic Regex & AST Parser
+CONST-003,PB039,3% fat,3% fat,numerical,fat_max,<=,3.0,%,0.98,Deterministic Regex & AST Parser
+CONST-004,PB039,ambient,ambient,categorical,shelf_stability,REQUIRED,9-month,standard,0.92,Deterministic Regex & AST Parser
+CONST-001,PB040,Develop an organic clean-label plant protein shake containin,Develop an organic clean-label plant protein shake containin,categorical,product_category,REQUIRED,Plant-Based Beverages,standard,0.92,Deterministic Regex & AST Parser
+CONST-002,PB040,clean-label,clean-label,categorical,clean_label,REQUIRED,no_synthetic_additives,standard,0.92,Deterministic Regex & AST Parser
+CONST-003,PB040,6% protein,6% protein,numerical,protein_min,>=,6.0,%,0.98,Deterministic Regex & AST Parser
+CONST-004,PB040,3% fibre,3% fibre,numerical,fibre_min,>=,3.0,%,0.98,Deterministic Regex & AST Parser
+CONST-005,PB040,9.0 USD/kg,9.0 USD/kg,numerical,max_raw_material_cost,<=,9.0,USD/kg,0.98,Deterministic Regex & AST Parser
+CONST-006,PB040,cocoa,cocoa,categorical,flavor_profile,PREFERRED,cocoa flavour,standard,0.92,Deterministic Regex & AST Parser
+CONST-007,PB040,shelf life,shelf life,categorical,shelf_stability,REQUIRED,12-month,standard,0.92,Deterministic Regex & AST Parser
+CONST-001,PB041,Create a vegan high-protein Greek-style yogurt alternative c,Create a vegan high-protein Greek-style yogurt alternative c,categorical,product_category,REQUIRED,Plant-Based Yogurt / Dairy Alternatives,standard,0.92,Deterministic Regex & AST Parser
+CONST-002,PB041,vegan,vegan,dietary,dietary_pattern,FORBIDDEN,animal_derived_ingredients,standard,0.95,Deterministic Regex & AST Parser
+CONST-003,PB041,8% protein,8% protein,numerical,protein_min,>=,8.0,%,0.98,Deterministic Regex & AST Parser
+CONST-004,PB041,4% fat,4% fat,numerical,fat_max,<=,4.0,%,0.98,Deterministic Regex & AST Parser
+CONST-005,PB041,smooth,smooth,categorical,texture_profile,PREFERRED,Smooth,standard,0.92,Deterministic Regex & AST Parser
+CONST-006,PB041,stability,stability,categorical,shelf_stability,REQUIRED,45-day,standard,0.92,Deterministic Regex & AST Parser
+CONST-001,PB042,Formulate a clean label coconut-based vanilla yogurt alterna,Formulate a clean label coconut-based vanilla yogurt alterna,categorical,product_category,REQUIRED,Plant-Based Yogurt / Dairy Alternatives,standard,0.92,Deterministic Regex & AST Parser
+CONST-002,PB042,clean label,clean label,categorical,clean_label,REQUIRED,no_synthetic_additives,standard,0.92,Deterministic Regex & AST Parser
+CONST-003,PB042,3% protein,3% protein,numerical,protein_min,>=,3.0,%,0.98,Deterministic Regex & AST Parser
+CONST-004,PB042,5% sugar,5% sugar,numerical,sugar_max,<=,5.0,%,0.98,Deterministic Regex & AST Parser
+CONST-005,PB042,creamy,creamy,categorical,texture_profile,PREFERRED,Creamy,standard,0.92,Deterministic Regex & AST Parser
+CONST-006,PB042,firm,firm,categorical,texture_profile,PREFERRED,Firm,standard,0.92,Deterministic Regex & AST Parser
+CONST-007,PB042,vanilla,vanilla,categorical,flavor_profile,PREFERRED,vanilla flavour,standard,0.92,Deterministic Regex & AST Parser
+CONST-008,PB042,shelf life,shelf life,categorical,shelf_stability,REQUIRED,60-day,standard,0.92,Deterministic Regex & AST Parser
+CONST-001,PB043,Design a sugar-free probiotic oat yogurt alternative contain,Design a sugar-free probiotic oat yogurt alternative contain,categorical,product_category,REQUIRED,Plant-Based Yogurt / Dairy Alternatives,standard,0.92,Deterministic Regex & AST Parser
+CONST-002,PB043,4% protein,4% protein,numerical,protein_min,>=,4.0,%,0.98,Deterministic Regex & AST Parser
+CONST-003,PB043,0.5% sugar,0.5% sugar,numerical,sugar_max,<=,0.5,%,0.98,Deterministic Regex & AST Parser
+CONST-004,PB043,6.5 USD/kg,6.5 USD/kg,numerical,max_raw_material_cost,<=,6.5,USD/kg,0.98,Deterministic Regex & AST Parser
+CONST-005,PB043,smooth,smooth,categorical,texture_profile,PREFERRED,Smooth,standard,0.92,Deterministic Regex & AST Parser
+CONST-006,PB043,creamy,creamy,categorical,texture_profile,PREFERRED,Creamy,standard,0.92,Deterministic Regex & AST Parser
+CONST-001,PB044,Develop an allergen-free plant-based strawberry yogurt alter,Develop an allergen-free plant-based strawberry yogurt alter,categorical,product_category,REQUIRED,Plant-Based Yogurt / Dairy Alternatives,standard,0.92,Deterministic Regex & AST Parser
+CONST-002,PB044,allergen-free,allergen-free,categorical,major_allergens,FORBIDDEN,top_9_allergens,standard,0.92,Deterministic Regex & AST Parser
+CONST-003,PB044,3.5% protein,3.5% protein,numerical,protein_min,>=,3.5,%,0.98,Deterministic Regex & AST Parser
+CONST-004,PB044,3% fibre,3% fibre,numerical,fibre_min,>=,3.0,%,0.98,Deterministic Regex & AST Parser
+CONST-005,PB044,smooth,smooth,categorical,texture_profile,PREFERRED,Smooth,standard,0.92,Deterministic Regex & AST Parser
+CONST-006,PB044,berry,berry,categorical,flavor_profile,PREFERRED,berry flavour,standard,0.92,Deterministic Regex & AST Parser
+CONST-007,PB044,strawberry,strawberry,categorical,flavor_profile,PREFERRED,strawberry flavour,standard,0.92,Deterministic Regex & AST Parser
+CONST-008,PB044,shelf life,shelf life,categorical,shelf_stability,REQUIRED,45-day,standard,0.92,Deterministic Regex & AST Parser
+CONST-001,PB045,Formulate an elderly-friendly nutrient-dense cultured dairy ,Formulate an elderly-friendly nutrient-dense cultured dairy ,categorical,product_category,REQUIRED,Plant-Based Yogurt / Dairy Alternatives,standard,0.92,Deterministic Regex & AST Parser
+CONST-002,PB045,6% protein,6% protein,numerical,protein_min,>=,6.0,%,0.98,Deterministic Regex & AST Parser
+CONST-003,PB045,smooth,smooth,categorical,texture_profile,PREFERRED,Smooth,standard,0.92,Deterministic Regex & AST Parser
+CONST-004,PB045,creamy,creamy,categorical,texture_profile,PREFERRED,Creamy,standard,0.92,Deterministic Regex & AST Parser
+CONST-005,PB045,stability,stability,categorical,shelf_stability,REQUIRED,60-day,standard,0.92,Deterministic Regex & AST Parser
+CONST-001,PB046,Create a keto high-fat coconut yogurt alternative containing,Create a keto high-fat coconut yogurt alternative containing,categorical,product_category,REQUIRED,Plant-Based Yogurt / Dairy Alternatives,standard,0.92,Deterministic Regex & AST Parser
+CONST-002,PB046,3% protein,3% protein,numerical,protein_min,>=,3.0,%,0.98,Deterministic Regex & AST Parser
+CONST-003,PB046,12% fat,12% fat,numerical,fat_max,<=,12.0,%,0.98,Deterministic Regex & AST Parser
+CONST-004,PB046,stability,stability,categorical,shelf_stability,REQUIRED,45-day,standard,0.92,Deterministic Regex & AST Parser
+CONST-001,PB047,Design a clean label almond-based blueberry yogurt alternati,Design a clean label almond-based blueberry yogurt alternati,categorical,product_category,REQUIRED,Plant-Based Yogurt / Dairy Alternatives,standard,0.92,Deterministic Regex & AST Parser
+CONST-002,PB047,clean label,clean label,categorical,clean_label,REQUIRED,no_synthetic_additives,standard,0.92,Deterministic Regex & AST Parser
+CONST-003,PB047,4% protein,4% protein,numerical,protein_min,>=,4.0,%,0.98,Deterministic Regex & AST Parser
+CONST-004,PB047,4% fibre,4% fibre,numerical,fibre_min,>=,4.0,%,0.98,Deterministic Regex & AST Parser
+CONST-005,PB047,7.5 USD/kg,7.5 USD/kg,numerical,max_raw_material_cost,<=,7.5,USD/kg,0.98,Deterministic Regex & AST Parser
+CONST-006,PB047,smooth,smooth,categorical,texture_profile,PREFERRED,Smooth,standard,0.92,Deterministic Regex & AST Parser
+CONST-007,PB047,berry,berry,categorical,flavor_profile,PREFERRED,berry flavour,standard,0.92,Deterministic Regex & AST Parser
+CONST-008,PB047,blueberry,blueberry,categorical,flavor_profile,PREFERRED,blueberry flavour,standard,0.92,Deterministic Regex & AST Parser
+CONST-009,PB047,almond,almond,categorical,flavor_profile,PREFERRED,almond flavour,standard,0.92,Deterministic Regex & AST Parser
+CONST-001,PB048,Develop an ultra-low-cost commercial plant-based yogurt alte,Develop an ultra-low-cost commercial plant-based yogurt alte,categorical,product_category,REQUIRED,Plant-Based Yogurt / Dairy Alternatives,standard,0.92,Deterministic Regex & AST Parser
+CONST-002,PB048,3% protein,3% protein,numerical,protein_min,>=,3.0,%,0.98,Deterministic Regex & AST Parser
+CONST-003,PB048,4.5 USD/kg,4.5 USD/kg,numerical,max_raw_material_cost,<=,4.5,USD/kg,0.98,Deterministic Regex & AST Parser
+CONST-004,PB048,shelf life,shelf life,categorical,shelf_stability,REQUIRED,45-day,standard,0.92,Deterministic Regex & AST Parser
+CONST-001,PB049,Formulate a drinkable prebiotic plant-based yogurt alternati,Formulate a drinkable prebiotic plant-based yogurt alternati,categorical,product_category,REQUIRED,Plant-Based Yogurt / Dairy Alternatives,standard,0.92,Deterministic Regex & AST Parser
+CONST-002,PB049,4% protein,4% protein,numerical,protein_min,>=,4.0,%,0.98,Deterministic Regex & AST Parser
+CONST-003,PB049,stability,stability,categorical,shelf_stability,REQUIRED,60-day,standard,0.92,Deterministic Regex & AST Parser
+CONST-001,PB050,Create a high-protein chocolate plant-based dessert yogurt a,Create a high-protein chocolate plant-based dessert yogurt a,categorical,product_category,REQUIRED,Plant-Based Yogurt / Dairy Alternatives,standard,0.92,Deterministic Regex & AST Parser
+CONST-002,PB050,7% protein,7% protein,numerical,protein_min,>=,7.0,%,0.98,Deterministic Regex & AST Parser
+CONST-003,PB050,6% sugar,6% sugar,numerical,sugar_max,<=,6.0,%,0.98,Deterministic Regex & AST Parser
+CONST-004,PB050,cocoa,cocoa,categorical,flavor_profile,PREFERRED,cocoa flavour,standard,0.92,Deterministic Regex & AST Parser
+CONST-005,PB050,chocolate,chocolate,categorical,flavor_profile,PREFERRED,chocolate flavour,standard,0.92,Deterministic Regex & AST Parser
+CONST-006,PB050,stability,stability,categorical,shelf_stability,REQUIRED,45-day,standard,0.92,Deterministic Regex & AST Parser
+CONST-001,PB051,Design a gluten-free soy-free cultured cashew cream cheese a,Design a gluten-free soy-free cultured cashew cream cheese a,categorical,product_category,REQUIRED,Sauces / Spreads / Emulsified Products,standard,0.92,Deterministic Regex & AST Parser
+CONST-002,PB051,gluten-free,gluten-free,categorical,gluten,FORBIDDEN,gluten_containing_grains,standard,0.92,Deterministic Regex & AST Parser
+CONST-003,PB051,5% protein,5% protein,numerical,protein_min,>=,5.0,%,0.98,Deterministic Regex & AST Parser
+CONST-004,PB051,11.0 USD/kg,11.0 USD/kg,numerical,max_raw_material_cost,<=,11.0,USD/kg,0.98,Deterministic Regex & AST Parser
+CONST-005,PB051,smooth,smooth,categorical,texture_profile,PREFERRED,Smooth,standard,0.92,Deterministic Regex & AST Parser
+CONST-006,PB051,spreadable,spreadable,categorical,texture_profile,PREFERRED,Spreadable,standard,0.92,Deterministic Regex & AST Parser
+CONST-007,PB051,stability,stability,categorical,shelf_stability,REQUIRED,60 day,standard,0.92,Deterministic Regex & AST Parser
+CONST-001,PB052,Develop a vegan clean-label plain unsweetened yogurt alterna,Develop a vegan clean-label plain unsweetened yogurt alterna,categorical,product_category,REQUIRED,Plant-Based Yogurt / Dairy Alternatives,standard,0.92,Deterministic Regex & AST Parser
+CONST-002,PB052,vegan,vegan,dietary,dietary_pattern,FORBIDDEN,animal_derived_ingredients,standard,0.95,Deterministic Regex & AST Parser
+CONST-003,PB052,clean-label,clean-label,categorical,clean_label,REQUIRED,no_synthetic_additives,standard,0.92,Deterministic Regex & AST Parser
+CONST-004,PB052,5% protein,5% protein,numerical,protein_min,>=,5.0,%,0.98,Deterministic Regex & AST Parser
+CONST-005,PB052,firm,firm,categorical,texture_profile,PREFERRED,Firm,standard,0.92,Deterministic Regex & AST Parser
+CONST-006,PB052,shelf life,shelf life,categorical,shelf_stability,REQUIRED,45-day,standard,0.92,Deterministic Regex & AST Parser
+CONST-001,PB053,Formulate a hypoallergenic hemp and flax yogurt alternative ,Formulate a hypoallergenic hemp and flax yogurt alternative ,categorical,product_category,REQUIRED,Plant-Based Yogurt / Dairy Alternatives,standard,0.92,Deterministic Regex & AST Parser
+CONST-002,PB053,6% protein,6% protein,numerical,protein_min,>=,6.0,%,0.98,Deterministic Regex & AST Parser
+CONST-003,PB053,smooth,smooth,categorical,texture_profile,PREFERRED,Smooth,standard,0.92,Deterministic Regex & AST Parser
+CONST-004,PB053,creamy,creamy,categorical,texture_profile,PREFERRED,Creamy,standard,0.92,Deterministic Regex & AST Parser
+CONST-005,PB053,stability,stability,categorical,shelf_stability,REQUIRED,45-day,standard,0.92,Deterministic Regex & AST Parser
+CONST-001,PB054,Create a functional energy plant-based yogurt alternative co,Create a functional energy plant-based yogurt alternative co,categorical,product_category,REQUIRED,Plant-Based Yogurt / Dairy Alternatives,standard,0.92,Deterministic Regex & AST Parser
+CONST-002,PB054,5% protein,5% protein,numerical,protein_min,>=,5.0,%,0.98,Deterministic Regex & AST Parser
+CONST-003,PB054,smooth,smooth,categorical,texture_profile,PREFERRED,Smooth,standard,0.92,Deterministic Regex & AST Parser
+CONST-004,PB054,citrus,citrus,categorical,flavor_profile,PREFERRED,citrus flavour,standard,0.92,Deterministic Regex & AST Parser
+CONST-005,PB054,lemon,lemon,categorical,flavor_profile,PREFERRED,lemon flavour,standard,0.92,Deterministic Regex & AST Parser
+CONST-006,PB054,stability,stability,categorical,shelf_stability,REQUIRED,60-day,standard,0.92,Deterministic Regex & AST Parser
+CONST-001,PB055,Design a low-fat plant-based mango yogurt alternative contai,Design a low-fat plant-based mango yogurt alternative contai,categorical,product_category,REQUIRED,Plant-Based Yogurt / Dairy Alternatives,standard,0.92,Deterministic Regex & AST Parser
+CONST-002,PB055,4% protein,4% protein,numerical,protein_min,>=,4.0,%,0.98,Deterministic Regex & AST Parser
+CONST-003,PB055,2% fat,2% fat,numerical,fat_max,<=,2.0,%,0.98,Deterministic Regex & AST Parser
+CONST-004,PB055,6.0 USD/kg,6.0 USD/kg,numerical,max_raw_material_cost,<=,6.0,USD/kg,0.98,Deterministic Regex & AST Parser
+CONST-005,PB055,creamy,creamy,categorical,texture_profile,PREFERRED,Creamy,standard,0.92,Deterministic Regex & AST Parser
+CONST-001,PB056,Develop an ambient shelf-stable plant-based yogurt alternati,Develop an ambient shelf-stable plant-based yogurt alternati,categorical,product_category,REQUIRED,Plant-Based Yogurt / Dairy Alternatives,standard,0.92,Deterministic Regex & AST Parser
+CONST-002,PB056,3.5% protein,3.5% protein,numerical,protein_min,>=,3.5,%,0.98,Deterministic Regex & AST Parser
+CONST-003,PB056,smooth,smooth,categorical,texture_profile,PREFERRED,Smooth,standard,0.92,Deterministic Regex & AST Parser
+CONST-004,PB056,ambient,ambient,categorical,shelf_stability,REQUIRED,12-month,standard,0.92,Deterministic Regex & AST Parser
+CONST-001,PB057,Formulate a savory plant-based garlic and herb yogurt dip al,Formulate a savory plant-based garlic and herb yogurt dip al,categorical,product_category,REQUIRED,Plant-Based Yogurt / Dairy Alternatives,standard,0.92,Deterministic Regex & AST Parser
+CONST-002,PB057,5% protein,5% protein,numerical,protein_min,>=,5.0,%,0.98,Deterministic Regex & AST Parser
+CONST-003,PB057,8% fat,8% fat,numerical,fat_max,<=,8.0,%,0.98,Deterministic Regex & AST Parser
+CONST-004,PB057,garlic,garlic,categorical,flavor_profile,PREFERRED,garlic flavour,standard,0.92,Deterministic Regex & AST Parser
+CONST-005,PB057,herb,herb,categorical,flavor_profile,PREFERRED,herb flavour,standard,0.92,Deterministic Regex & AST Parser
+CONST-006,PB057,savory,savory,categorical,flavor_profile,PREFERRED,savory flavour,standard,0.92,Deterministic Regex & AST Parser
+CONST-007,PB057,shelf life,shelf life,categorical,shelf_stability,REQUIRED,60-day,standard,0.92,Deterministic Regex & AST Parser
+CONST-001,PB058,Create a clean label raspberry oat yogurt alternative contai,Create a clean label raspberry oat yogurt alternative contai,categorical,product_category,REQUIRED,Plant-Based Yogurt / Dairy Alternatives,standard,0.92,Deterministic Regex & AST Parser
+CONST-002,PB058,clean label,clean label,categorical,clean_label,REQUIRED,no_synthetic_additives,standard,0.92,Deterministic Regex & AST Parser
+CONST-003,PB058,4.5% protein,4.5% protein,numerical,protein_min,>=,4.5,%,0.98,Deterministic Regex & AST Parser
+CONST-004,PB058,3% fibre,3% fibre,numerical,fibre_min,>=,3.0,%,0.98,Deterministic Regex & AST Parser
+CONST-005,PB058,7.0 USD/kg,7.0 USD/kg,numerical,max_raw_material_cost,<=,7.0,USD/kg,0.98,Deterministic Regex & AST Parser
+CONST-006,PB058,smooth,smooth,categorical,texture_profile,PREFERRED,Smooth,standard,0.92,Deterministic Regex & AST Parser
+CONST-007,PB058,berry,berry,categorical,flavor_profile,PREFERRED,berry flavour,standard,0.92,Deterministic Regex & AST Parser
+CONST-001,PB059,Design a high-protein post-workout vanilla cultured plant cu,Design a high-protein post-workout vanilla cultured plant cu,categorical,product_category,REQUIRED,General,standard,0.92,Deterministic Regex & AST Parser
+CONST-002,PB059,10% protein,10% protein,numerical,protein_min,>=,10.0,%,0.98,Deterministic Regex & AST Parser
+CONST-003,PB059,3% fat,3% fat,numerical,fat_max,<=,3.0,%,0.98,Deterministic Regex & AST Parser
+CONST-004,PB059,vanilla,vanilla,categorical,flavor_profile,PREFERRED,vanilla flavour,standard,0.92,Deterministic Regex & AST Parser
+CONST-005,PB059,low bitterness,low bitterness,categorical,bitterness_masking,REQUIRED,Low Bitterness,standard,0.92,Deterministic Regex & AST Parser
+CONST-006,PB059,shelf life,shelf life,categorical,shelf_stability,REQUIRED,45-day,standard,0.92,Deterministic Regex & AST Parser
+CONST-001,PB060,Develop an organic coconut chia pudding yogurt alternative c,Develop an organic coconut chia pudding yogurt alternative c,categorical,product_category,REQUIRED,Plant-Based Yogurt / Dairy Alternatives,standard,0.92,Deterministic Regex & AST Parser
+CONST-002,PB060,4% protein,4% protein,numerical,protein_min,>=,4.0,%,0.98,Deterministic Regex & AST Parser
+CONST-003,PB060,6% fibre,6% fibre,numerical,fibre_min,>=,6.0,%,0.98,Deterministic Regex & AST Parser
+CONST-004,PB060,viscous,viscous,categorical,texture_profile,PREFERRED,Viscous,standard,0.92,Deterministic Regex & AST Parser
+CONST-005,PB060,stability,stability,categorical,shelf_stability,REQUIRED,45-day,standard,0.92,Deterministic Regex & AST Parser
+CONST-001,PB061,Create a vegan high-protein chocolate chip cookie containing,Create a vegan high-protein chocolate chip cookie containing,categorical,product_category,REQUIRED,Bakery Products,standard,0.92,Deterministic Regex & AST Parser
+CONST-002,PB061,vegan,vegan,dietary,dietary_pattern,FORBIDDEN,animal_derived_ingredients,standard,0.95,Deterministic Regex & AST Parser
+CONST-003,PB061,15% protein,15% protein,numerical,protein_min,>=,15.0,%,0.98,Deterministic Regex & AST Parser
+CONST-004,PB061,18% fat,18% fat,numerical,fat_max,<=,18.0,%,0.98,Deterministic Regex & AST Parser
+CONST-005,PB061,9.0 USD/kg,9.0 USD/kg,numerical,max_raw_material_cost,<=,9.0,USD/kg,0.98,Deterministic Regex & AST Parser
+CONST-006,PB061,soft,soft,categorical,texture_profile,PREFERRED,Soft,standard,0.92,Deterministic Regex & AST Parser
+CONST-007,PB061,chewy,chewy,categorical,texture_profile,PREFERRED,Chewy,standard,0.92,Deterministic Regex & AST Parser
+CONST-008,PB061,chocolate,chocolate,categorical,flavor_profile,PREFERRED,chocolate flavour,standard,0.92,Deterministic Regex & AST Parser
+CONST-009,PB061,vanilla,vanilla,categorical,flavor_profile,PREFERRED,vanilla flavour,standard,0.92,Deterministic Regex & AST Parser
+CONST-010,PB061,ambient,ambient,categorical,shelf_stability,REQUIRED,6-month,standard,0.92,Deterministic Regex & AST Parser
+CONST-001,PB062,Formulate a gluten-free high-fibre sandwich loaf containing ,Formulate a gluten-free high-fibre sandwich loaf containing ,categorical,product_category,REQUIRED,Bakery Products,standard,0.92,Deterministic Regex & AST Parser
+CONST-002,PB062,gluten-free,gluten-free,categorical,gluten,FORBIDDEN,gluten_containing_grains,standard,0.92,Deterministic Regex & AST Parser
+CONST-003,PB062,8% protein,8% protein,numerical,protein_min,>=,8.0,%,0.98,Deterministic Regex & AST Parser
+CONST-004,PB062,6% fibre,6% fibre,numerical,fibre_min,>=,6.0,%,0.98,Deterministic Regex & AST Parser
+CONST-005,PB062,5.0 USD/kg,5.0 USD/kg,numerical,max_raw_material_cost,<=,5.0,USD/kg,0.98,Deterministic Regex & AST Parser
+CONST-006,PB062,aeration,aeration,categorical,foam_and_air_incorporation,REQUIRED,Aeration,standard,0.92,Deterministic Regex & AST Parser
+CONST-007,PB062,soft,soft,categorical,texture_profile,PREFERRED,Soft,standard,0.92,Deterministic Regex & AST Parser
+CONST-008,PB062,ambient,ambient,categorical,shelf_stability,REQUIRED,14-day,standard,0.92,Deterministic Regex & AST Parser
+CONST-001,PB063,Design a diabetic-safe low-carb almond bakery muffin contain,Design a diabetic-safe low-carb almond bakery muffin contain,categorical,product_category,REQUIRED,Bakery Products,standard,0.92,Deterministic Regex & AST Parser
+CONST-002,PB063,12% protein,12% protein,numerical,protein_min,>=,12.0,%,0.98,Deterministic Regex & AST Parser
+CONST-003,PB063,2% sugar,2% sugar,numerical,sugar_max,<=,2.0,%,0.98,Deterministic Regex & AST Parser
+CONST-004,PB063,almond,almond,categorical,flavor_profile,PREFERRED,almond flavour,standard,0.92,Deterministic Regex & AST Parser
+CONST-005,PB063,ambient,ambient,categorical,shelf_stability,REQUIRED,21-day,standard,0.92,Deterministic Regex & AST Parser
+CONST-001,PB064,Develop an allergen-free school-safe blueberry muffin contai,Develop an allergen-free school-safe blueberry muffin contai,categorical,product_category,REQUIRED,Bakery Products,standard,0.92,Deterministic Regex & AST Parser
+CONST-002,PB064,allergen-free,allergen-free,categorical,major_allergens,FORBIDDEN,top_9_allergens,standard,0.92,Deterministic Regex & AST Parser
+CONST-003,PB064,7% protein,7% protein,numerical,protein_min,>=,7.0,%,0.98,Deterministic Regex & AST Parser
+CONST-004,PB064,4% fibre,4% fibre,numerical,fibre_min,>=,4.0,%,0.98,Deterministic Regex & AST Parser
+CONST-005,PB064,leavening,leavening,categorical,chemical_or_biological_leavening,REQUIRED,Leavening,standard,0.92,Deterministic Regex & AST Parser
+CONST-006,PB064,soft,soft,categorical,texture_profile,PREFERRED,Soft,standard,0.92,Deterministic Regex & AST Parser
+CONST-007,PB064,berry,berry,categorical,flavor_profile,PREFERRED,berry flavour,standard,0.92,Deterministic Regex & AST Parser
+CONST-008,PB064,blueberry,blueberry,categorical,flavor_profile,PREFERRED,blueberry flavour,standard,0.92,Deterministic Regex & AST Parser
+CONST-009,PB064,ambient,ambient,categorical,shelf_stability,REQUIRED,14-day,standard,0.92,Deterministic Regex & AST Parser
+CONST-001,PB065,Formulate an elderly-oriented soft nutrient-dense breakfast ,Formulate an elderly-oriented soft nutrient-dense breakfast ,categorical,product_category,REQUIRED,Bakery Products,standard,0.92,Deterministic Regex & AST Parser
+CONST-002,PB065,10% protein,10% protein,numerical,protein_min,>=,10.0,%,0.98,Deterministic Regex & AST Parser
+CONST-003,PB065,soft,soft,categorical,texture_profile,PREFERRED,Soft,standard,0.92,Deterministic Regex & AST Parser
+CONST-004,PB065,crunchy,crunchy,categorical,texture_profile,PREFERRED,Crunchy,standard,0.92,Deterministic Regex & AST Parser
+CONST-005,PB065,vanilla,vanilla,categorical,flavor_profile,PREFERRED,vanilla flavour,standard,0.92,Deterministic Regex & AST Parser
+CONST-006,PB065,ambient,ambient,categorical,shelf_stability,REQUIRED,6-month,standard,0.92,Deterministic Regex & AST Parser
+CONST-001,PB066,Create a keto-friendly seed & flax artisan bread containing ,Create a keto-friendly seed & flax artisan bread containing ,categorical,product_category,REQUIRED,Bakery Products,standard,0.92,Deterministic Regex & AST Parser
+CONST-002,PB066,14% protein,14% protein,numerical,protein_min,>=,14.0,%,0.98,Deterministic Regex & AST Parser
+CONST-003,PB066,ambient,ambient,categorical,shelf_stability,REQUIRED,14-day,standard,0.92,Deterministic Regex & AST Parser
+CONST-001,PB067,Design a clean label whole-grain oat digestive biscuit conta,Design a clean label whole-grain oat digestive biscuit conta,categorical,product_category,REQUIRED,Bakery Products,standard,0.92,Deterministic Regex & AST Parser
+CONST-002,PB067,clean label,clean label,categorical,clean_label,REQUIRED,no_synthetic_additives,standard,0.92,Deterministic Regex & AST Parser
+CONST-003,PB067,9% protein,9% protein,numerical,protein_min,>=,9.0,%,0.98,Deterministic Regex & AST Parser
+CONST-004,PB067,7% fibre,7% fibre,numerical,fibre_min,>=,7.0,%,0.98,Deterministic Regex & AST Parser
+CONST-005,PB067,6.0 USD/kg,6.0 USD/kg,numerical,max_raw_material_cost,<=,6.0,USD/kg,0.98,Deterministic Regex & AST Parser
+CONST-006,PB067,crumbly,crumbly,categorical,texture_profile,PREFERRED,Crumbly,standard,0.92,Deterministic Regex & AST Parser
+CONST-007,PB067,ambient,ambient,categorical,shelf_stability,REQUIRED,9-month,standard,0.92,Deterministic Regex & AST Parser
+CONST-001,PB068,Develop an ultra-low-cost commercial burger bun containing a,Develop an ultra-low-cost commercial burger bun containing a,categorical,product_category,REQUIRED,Bakery Products,standard,0.92,Deterministic Regex & AST Parser
+CONST-002,PB068,8% protein,8% protein,numerical,protein_min,>=,8.0,%,0.98,Deterministic Regex & AST Parser
+CONST-003,PB068,3.5 USD/kg,3.5 USD/kg,numerical,max_raw_material_cost,<=,3.5,USD/kg,0.98,Deterministic Regex & AST Parser
+CONST-004,PB068,soft,soft,categorical,texture_profile,PREFERRED,Soft,standard,0.92,Deterministic Regex & AST Parser
+CONST-005,PB068,ambient,ambient,categorical,shelf_stability,REQUIRED,14-day,standard,0.92,Deterministic Regex & AST Parser
+CONST-001,PB069,Formulate a vegan high-protein brownie containing at least 1,Formulate a vegan high-protein brownie containing at least 1,categorical,product_category,REQUIRED,General,standard,0.92,Deterministic Regex & AST Parser
+CONST-002,PB069,vegan,vegan,dietary,dietary_pattern,FORBIDDEN,animal_derived_ingredients,standard,0.95,Deterministic Regex & AST Parser
+CONST-003,PB069,16% protein,16% protein,numerical,protein_min,>=,16.0,%,0.98,Deterministic Regex & AST Parser
+CONST-004,PB069,15% fat,15% fat,numerical,fat_max,<=,15.0,%,0.98,Deterministic Regex & AST Parser
+CONST-005,PB069,low water activity,low water activity,numerical,water_activity,<=,0.6,Aw,0.98,Deterministic Regex & AST Parser
+CONST-006,PB069,cocoa,cocoa,categorical,flavor_profile,PREFERRED,cocoa flavour,standard,0.92,Deterministic Regex & AST Parser
+CONST-007,PB069,ambient,ambient,categorical,shelf_stability,REQUIRED,6-month,standard,0.92,Deterministic Regex & AST Parser
+CONST-001,PB070,Create a clean label cinnamon spice breakfast muffin contain,Create a clean label cinnamon spice breakfast muffin contain,categorical,product_category,REQUIRED,Bakery Products,standard,0.92,Deterministic Regex & AST Parser
+CONST-002,PB070,clean label,clean label,categorical,clean_label,REQUIRED,no_synthetic_additives,standard,0.92,Deterministic Regex & AST Parser
+CONST-003,PB070,8% protein,8% protein,numerical,protein_min,>=,8.0,%,0.98,Deterministic Regex & AST Parser
+CONST-004,PB070,5% fibre,5% fibre,numerical,fibre_min,>=,5.0,%,0.98,Deterministic Regex & AST Parser
+CONST-005,PB070,6.5 USD/kg,6.5 USD/kg,numerical,max_raw_material_cost,<=,6.5,USD/kg,0.98,Deterministic Regex & AST Parser
+CONST-006,PB070,ambient,ambient,categorical,shelf_stability,REQUIRED,14-day,standard,0.92,Deterministic Regex & AST Parser
+CONST-001,PB071,Design a gluten-free vegan pizza crust containing at least 8,Design a gluten-free vegan pizza crust containing at least 8,categorical,product_category,REQUIRED,Protein Bars / Functional Snacks,standard,0.92,Deterministic Regex & AST Parser
+CONST-002,PB071,vegan,vegan,dietary,dietary_pattern,FORBIDDEN,animal_derived_ingredients,standard,0.95,Deterministic Regex & AST Parser
+CONST-003,PB071,gluten-free,gluten-free,categorical,gluten,FORBIDDEN,gluten_containing_grains,standard,0.92,Deterministic Regex & AST Parser
+CONST-004,PB071,8% protein,8% protein,numerical,protein_min,>=,8.0,%,0.98,Deterministic Regex & AST Parser
+CONST-005,PB071,6.0 USD/kg,6.0 USD/kg,numerical,max_raw_material_cost,<=,6.0,USD/kg,0.98,Deterministic Regex & AST Parser
+CONST-006,PB071,stability,stability,categorical,shelf_stability,REQUIRED,9-month,standard,0.92,Deterministic Regex & AST Parser
+CONST-001,PB072,Develop a high-protein savory cracker containing at least 18,Develop a high-protein savory cracker containing at least 18,categorical,product_category,REQUIRED,Protein Bars / Functional Snacks,standard,0.92,Deterministic Regex & AST Parser
+CONST-002,PB072,18% protein,18% protein,numerical,protein_min,>=,18.0,%,0.98,Deterministic Regex & AST Parser
+CONST-003,PB072,10% fat,10% fat,numerical,fat_max,<=,10.0,%,0.98,Deterministic Regex & AST Parser
+CONST-004,PB072,low water activity,low water activity,numerical,water_activity,<=,0.6,Aw,0.98,Deterministic Regex & AST Parser
+CONST-005,PB072,crunchy,crunchy,categorical,texture_profile,PREFERRED,Crunchy,standard,0.92,Deterministic Regex & AST Parser
+CONST-006,PB072,savory,savory,categorical,flavor_profile,PREFERRED,savory flavour,standard,0.92,Deterministic Regex & AST Parser
+CONST-007,PB072,ambient,ambient,categorical,shelf_stability,REQUIRED,12-month,standard,0.92,Deterministic Regex & AST Parser
+CONST-001,PB073,Formulate a sugar-free vegan lemon shortbread biscuit contai,Formulate a sugar-free vegan lemon shortbread biscuit contai,categorical,product_category,REQUIRED,Bakery Products,standard,0.92,Deterministic Regex & AST Parser
+CONST-002,PB073,vegan,vegan,dietary,dietary_pattern,FORBIDDEN,animal_derived_ingredients,standard,0.95,Deterministic Regex & AST Parser
+CONST-003,PB073,8% protein,8% protein,numerical,protein_min,>=,8.0,%,0.98,Deterministic Regex & AST Parser
+CONST-004,PB073,0.5% sugar,0.5% sugar,numerical,sugar_max,<=,0.5,%,0.98,Deterministic Regex & AST Parser
+CONST-005,PB073,crumbly,crumbly,categorical,texture_profile,PREFERRED,Crumbly,standard,0.92,Deterministic Regex & AST Parser
+CONST-006,PB073,citrus,citrus,categorical,flavor_profile,PREFERRED,citrus flavour,standard,0.92,Deterministic Regex & AST Parser
+CONST-007,PB073,lemon,lemon,categorical,flavor_profile,PREFERRED,lemon flavour,standard,0.92,Deterministic Regex & AST Parser
+CONST-008,PB073,ambient,ambient,categorical,shelf_stability,REQUIRED,6-month,standard,0.92,Deterministic Regex & AST Parser
+CONST-001,PB074,Create a hypoallergenic banana bread snack loaf containing a,Create a hypoallergenic banana bread snack loaf containing a,categorical,product_category,REQUIRED,Bakery Products,standard,0.92,Deterministic Regex & AST Parser
+CONST-002,PB074,7% protein,7% protein,numerical,protein_min,>=,7.0,%,0.98,Deterministic Regex & AST Parser
+CONST-003,PB074,4% fibre,4% fibre,numerical,fibre_min,>=,4.0,%,0.98,Deterministic Regex & AST Parser
+CONST-004,PB074,7.0 USD/kg,7.0 USD/kg,numerical,max_raw_material_cost,<=,7.0,USD/kg,0.98,Deterministic Regex & AST Parser
+CONST-005,PB074,ambient,ambient,categorical,shelf_stability,REQUIRED,14-day,standard,0.92,Deterministic Regex & AST Parser
+CONST-001,PB075,Design a high-protein soft pretzel containing at least 14% p,Design a high-protein soft pretzel containing at least 14% p,categorical,product_category,REQUIRED,General,standard,0.92,Deterministic Regex & AST Parser
+CONST-002,PB075,14% protein,14% protein,numerical,protein_min,>=,14.0,%,0.98,Deterministic Regex & AST Parser
+CONST-003,PB075,4.5 USD/kg,4.5 USD/kg,numerical,max_raw_material_cost,<=,4.5,USD/kg,0.98,Deterministic Regex & AST Parser
+CONST-004,PB075,soft,soft,categorical,texture_profile,PREFERRED,Soft,standard,0.92,Deterministic Regex & AST Parser
+CONST-005,PB075,chewy,chewy,categorical,texture_profile,PREFERRED,Chewy,standard,0.92,Deterministic Regex & AST Parser
+CONST-006,PB075,savory,savory,categorical,flavor_profile,PREFERRED,savory flavour,standard,0.92,Deterministic Regex & AST Parser
+CONST-007,PB075,ambient,ambient,categorical,shelf_stability,REQUIRED,7-day,standard,0.92,Deterministic Regex & AST Parser
+CONST-001,PB076,Develop a clean label gluten-free chocolate cupcake containi,Develop a clean label gluten-free chocolate cupcake containi,categorical,product_category,REQUIRED,Bakery Products,standard,0.92,Deterministic Regex & AST Parser
+CONST-002,PB076,gluten-free,gluten-free,categorical,gluten,FORBIDDEN,gluten_containing_grains,standard,0.92,Deterministic Regex & AST Parser
+CONST-003,PB076,clean label,clean label,categorical,clean_label,REQUIRED,no_synthetic_additives,standard,0.92,Deterministic Regex & AST Parser
+CONST-004,PB076,9% protein,9% protein,numerical,protein_min,>=,9.0,%,0.98,Deterministic Regex & AST Parser
+CONST-005,PB076,12% fat,12% fat,numerical,fat_max,<=,12.0,%,0.98,Deterministic Regex & AST Parser
+CONST-006,PB076,8.5 USD/kg,8.5 USD/kg,numerical,max_raw_material_cost,<=,8.5,USD/kg,0.98,Deterministic Regex & AST Parser
+CONST-007,PB076,cocoa,cocoa,categorical,flavor_profile,PREFERRED,cocoa flavour,standard,0.92,Deterministic Regex & AST Parser
+CONST-008,PB076,chocolate,chocolate,categorical,flavor_profile,PREFERRED,chocolate flavour,standard,0.92,Deterministic Regex & AST Parser
+CONST-009,PB076,ambient,ambient,categorical,shelf_stability,REQUIRED,21-day,standard,0.92,Deterministic Regex & AST Parser
+CONST-001,PB077,Formulate an energy-dense functional trail biscuit containin,Formulate an energy-dense functional trail biscuit containin,categorical,product_category,REQUIRED,Bakery Products,standard,0.92,Deterministic Regex & AST Parser
+CONST-002,PB077,15% protein,15% protein,numerical,protein_min,>=,15.0,%,0.98,Deterministic Regex & AST Parser
+CONST-003,PB077,8% fibre,8% fibre,numerical,fibre_min,>=,8.0,%,0.98,Deterministic Regex & AST Parser
+CONST-004,PB077,crunchy,crunchy,categorical,texture_profile,PREFERRED,Crunchy,standard,0.92,Deterministic Regex & AST Parser
+CONST-005,PB077,vanilla,vanilla,categorical,flavor_profile,PREFERRED,vanilla flavour,standard,0.92,Deterministic Regex & AST Parser
+CONST-006,PB077,berry,berry,categorical,flavor_profile,PREFERRED,berry flavour,standard,0.92,Deterministic Regex & AST Parser
+CONST-007,PB077,shelf life,shelf life,categorical,shelf_stability,REQUIRED,12-month,standard,0.92,Deterministic Regex & AST Parser
+CONST-001,PB078,Create a vegan brioche-style soft dinner roll containing at ,Create a vegan brioche-style soft dinner roll containing at ,categorical,product_category,REQUIRED,General,standard,0.92,Deterministic Regex & AST Parser
+CONST-002,PB078,vegan,vegan,dietary,dietary_pattern,FORBIDDEN,animal_derived_ingredients,standard,0.95,Deterministic Regex & AST Parser
+CONST-003,PB078,8% protein,8% protein,numerical,protein_min,>=,8.0,%,0.98,Deterministic Regex & AST Parser
+CONST-004,PB078,4.0 USD/kg,4.0 USD/kg,numerical,max_raw_material_cost,<=,4.0,USD/kg,0.98,Deterministic Regex & AST Parser
+CONST-005,PB078,soft,soft,categorical,texture_profile,PREFERRED,Soft,standard,0.92,Deterministic Regex & AST Parser
+CONST-006,PB078,ambient,ambient,categorical,shelf_stability,REQUIRED,10-day,standard,0.92,Deterministic Regex & AST Parser
+CONST-001,PB079,Design a low-sodium high-potassium sandwich loaf for heart h,Design a low-sodium high-potassium sandwich loaf for heart h,categorical,product_category,REQUIRED,Bakery Products,standard,0.92,Deterministic Regex & AST Parser
+CONST-002,PB079,9% protein,9% protein,numerical,protein_min,>=,9.0,%,0.98,Deterministic Regex & AST Parser
+CONST-003,PB079,soft,soft,categorical,texture_profile,PREFERRED,Soft,standard,0.92,Deterministic Regex & AST Parser
+CONST-004,PB079,shelf life,shelf life,categorical,shelf_stability,REQUIRED,14-day,standard,0.92,Deterministic Regex & AST Parser
+CONST-001,PB080,Develop an organic gingerbread functional biscuit containing,Develop an organic gingerbread functional biscuit containing,categorical,product_category,REQUIRED,Bakery Products,standard,0.92,Deterministic Regex & AST Parser
+CONST-002,PB080,10% protein,10% protein,numerical,protein_min,>=,10.0,%,0.98,Deterministic Regex & AST Parser
+CONST-003,PB080,5% fibre,5% fibre,numerical,fibre_min,>=,5.0,%,0.98,Deterministic Regex & AST Parser
+CONST-004,PB080,7.5 USD/kg,7.5 USD/kg,numerical,max_raw_material_cost,<=,7.5,USD/kg,0.98,Deterministic Regex & AST Parser
+CONST-005,PB080,ambient,ambient,categorical,shelf_stability,REQUIRED,9-month,standard,0.92,Deterministic Regex & AST Parser
+CONST-001,PB081,Create an egg-free vegan mayonnaise emulsion containing at l,Create an egg-free vegan mayonnaise emulsion containing at l,categorical,product_category,REQUIRED,Sauces / Spreads / Emulsified Products,standard,0.92,Deterministic Regex & AST Parser
+CONST-002,PB081,vegan,vegan,dietary,dietary_pattern,FORBIDDEN,animal_derived_ingredients,standard,0.95,Deterministic Regex & AST Parser
+CONST-003,PB081,egg-free,egg-free,categorical,eggs,FORBIDDEN,egg_derived_ingredients,standard,0.92,Deterministic Regex & AST Parser
+CONST-004,PB081,45% fat,45% fat,numerical,fat_max,<=,45.0,%,0.98,Deterministic Regex & AST Parser
+CONST-005,PB081,2% sugar,2% sugar,numerical,sugar_max,<=,2.0,%,0.98,Deterministic Regex & AST Parser
+CONST-006,PB081,creamy,creamy,categorical,texture_profile,PREFERRED,Creamy,standard,0.92,Deterministic Regex & AST Parser
+CONST-007,PB081,lemon,lemon,categorical,flavor_profile,PREFERRED,lemon flavour,standard,0.92,Deterministic Regex & AST Parser
+CONST-008,PB081,ambient,ambient,categorical,shelf_stability,REQUIRED,9-month,standard,0.92,Deterministic Regex & AST Parser
+CONST-001,PB082,Formulate a clean label chocolate hazelnut spread containing,Formulate a clean label chocolate hazelnut spread containing,categorical,product_category,REQUIRED,Sauces / Spreads / Emulsified Products,standard,0.92,Deterministic Regex & AST Parser
+CONST-002,PB082,clean label,clean label,categorical,clean_label,REQUIRED,no_synthetic_additives,standard,0.92,Deterministic Regex & AST Parser
+CONST-003,PB082,8% protein,8% protein,numerical,protein_min,>=,8.0,%,0.98,Deterministic Regex & AST Parser
+CONST-004,PB082,20% sugar,20% sugar,numerical,sugar_max,<=,20.0,%,0.98,Deterministic Regex & AST Parser
+CONST-005,PB082,11.0 USD/kg,11.0 USD/kg,numerical,max_raw_material_cost,<=,11.0,USD/kg,0.98,Deterministic Regex & AST Parser
+CONST-006,PB082,smooth,smooth,categorical,texture_profile,PREFERRED,Smooth,standard,0.92,Deterministic Regex & AST Parser
+CONST-007,PB082,cocoa,cocoa,categorical,flavor_profile,PREFERRED,cocoa flavour,standard,0.92,Deterministic Regex & AST Parser
+CONST-008,PB082,chocolate,chocolate,categorical,flavor_profile,PREFERRED,chocolate flavour,standard,0.92,Deterministic Regex & AST Parser
+CONST-009,PB082,ambient,ambient,categorical,shelf_stability,REQUIRED,12-month,standard,0.92,Deterministic Regex & AST Parser
+CONST-001,PB083,Design a diabetic-safe sugar-free tomato ketchup containing ,Design a diabetic-safe sugar-free tomato ketchup containing ,categorical,product_category,REQUIRED,General,standard,0.92,Deterministic Regex & AST Parser
+CONST-002,PB083,3% protein,3% protein,numerical,protein_min,>=,3.0,%,0.98,Deterministic Regex & AST Parser
+CONST-003,PB083,sugar-free,sugar-free,numerical,sugar_max,<=,0.5,%,0.98,Deterministic Regex & AST Parser
+CONST-004,PB083,savory,savory,categorical,flavor_profile,PREFERRED,savory flavour,standard,0.92,Deterministic Regex & AST Parser
+CONST-005,PB083,ambient,ambient,categorical,shelf_stability,REQUIRED,12-month,standard,0.92,Deterministic Regex & AST Parser
+CONST-001,PB084,Develop an allergen-free school-safe sandwich spread contain,Develop an allergen-free school-safe sandwich spread contain,categorical,product_category,REQUIRED,Sauces / Spreads / Emulsified Products,standard,0.92,Deterministic Regex & AST Parser
+CONST-002,PB084,allergen-free,allergen-free,categorical,major_allergens,FORBIDDEN,top_9_allergens,standard,0.92,Deterministic Regex & AST Parser
+CONST-003,PB084,6% protein,6% protein,numerical,protein_min,>=,6.0,%,0.98,Deterministic Regex & AST Parser
+CONST-004,PB084,7.0 USD/kg,7.0 USD/kg,numerical,max_raw_material_cost,<=,7.0,USD/kg,0.98,Deterministic Regex & AST Parser
+CONST-005,PB084,smooth,smooth,categorical,texture_profile,PREFERRED,Smooth,standard,0.92,Deterministic Regex & AST Parser
+CONST-006,PB084,spreadable,spreadable,categorical,texture_profile,PREFERRED,Spreadable,standard,0.92,Deterministic Regex & AST Parser
+CONST-007,PB084,savory,savory,categorical,flavor_profile,PREFERRED,savory flavour,standard,0.92,Deterministic Regex & AST Parser
+CONST-008,PB084,ambient,ambient,categorical,shelf_stability,REQUIRED,9 month,standard,0.92,Deterministic Regex & AST Parser
+CONST-001,PB085,Formulate an elderly-friendly nutrient-dense savory gravy sa,Formulate an elderly-friendly nutrient-dense savory gravy sa,categorical,product_category,REQUIRED,Sauces / Spreads / Emulsified Products,standard,0.92,Deterministic Regex & AST Parser
+CONST-002,PB085,5% protein,5% protein,numerical,protein_min,>=,5.0,%,0.98,Deterministic Regex & AST Parser
+CONST-003,PB085,smooth,smooth,categorical,texture_profile,PREFERRED,Smooth,standard,0.92,Deterministic Regex & AST Parser
+CONST-004,PB085,herb,herb,categorical,flavor_profile,PREFERRED,herb flavour,standard,0.92,Deterministic Regex & AST Parser
+CONST-005,PB085,savory,savory,categorical,flavor_profile,PREFERRED,savory flavour,standard,0.92,Deterministic Regex & AST Parser
+CONST-006,PB085,shelf life,shelf life,categorical,shelf_stability,REQUIRED,12-month,standard,0.92,Deterministic Regex & AST Parser
+CONST-001,PB086,Create a keto high-fat creamy garlic dip containing at least,Create a keto high-fat creamy garlic dip containing at least,categorical,product_category,REQUIRED,Sauces / Spreads / Emulsified Products,standard,0.92,Deterministic Regex & AST Parser
+CONST-002,PB086,3% protein,3% protein,numerical,protein_min,>=,3.0,%,0.98,Deterministic Regex & AST Parser
+CONST-003,PB086,60% fat,60% fat,numerical,fat_max,<=,60.0,%,0.98,Deterministic Regex & AST Parser
+CONST-004,PB086,creamy,creamy,categorical,texture_profile,PREFERRED,Creamy,standard,0.92,Deterministic Regex & AST Parser
+CONST-005,PB086,garlic,garlic,categorical,flavor_profile,PREFERRED,garlic flavour,standard,0.92,Deterministic Regex & AST Parser
+CONST-006,PB086,herb,herb,categorical,flavor_profile,PREFERRED,herb flavour,standard,0.92,Deterministic Regex & AST Parser
+CONST-007,PB086,stability,stability,categorical,shelf_stability,REQUIRED,6-month,standard,0.92,Deterministic Regex & AST Parser
+CONST-001,PB087,Design a clean label vegan creamy ranch dressing containing ,Design a clean label vegan creamy ranch dressing containing ,categorical,product_category,REQUIRED,Sauces / Spreads / Emulsified Products,standard,0.92,Deterministic Regex & AST Parser
+CONST-002,PB087,vegan,vegan,dietary,dietary_pattern,FORBIDDEN,animal_derived_ingredients,standard,0.95,Deterministic Regex & AST Parser
+CONST-003,PB087,clean label,clean label,categorical,clean_label,REQUIRED,no_synthetic_additives,standard,0.92,Deterministic Regex & AST Parser
+CONST-004,PB087,30% fat,30% fat,numerical,fat_max,<=,30.0,%,0.98,Deterministic Regex & AST Parser
+CONST-005,PB087,3% sugar,3% sugar,numerical,sugar_max,<=,3.0,%,0.98,Deterministic Regex & AST Parser
+CONST-006,PB087,6.5 USD/kg,6.5 USD/kg,numerical,max_raw_material_cost,<=,6.5,USD/kg,0.98,Deterministic Regex & AST Parser
+CONST-007,PB087,creamy,creamy,categorical,texture_profile,PREFERRED,Creamy,standard,0.92,Deterministic Regex & AST Parser
+CONST-008,PB087,garlic,garlic,categorical,flavor_profile,PREFERRED,garlic flavour,standard,0.92,Deterministic Regex & AST Parser
+CONST-009,PB087,herb,herb,categorical,flavor_profile,PREFERRED,herb flavour,standard,0.92,Deterministic Regex & AST Parser
+CONST-010,PB087,ambient,ambient,categorical,shelf_stability,REQUIRED,6-month,standard,0.92,Deterministic Regex & AST Parser
+CONST-001,PB088,Develop an ultra-low-cost commercial emulsified white sauce ,Develop an ultra-low-cost commercial emulsified white sauce ,categorical,product_category,REQUIRED,Sauces / Spreads / Emulsified Products,standard,0.92,Deterministic Regex & AST Parser
+CONST-002,PB088,2.5% protein,2.5% protein,numerical,protein_min,>=,2.5,%,0.98,Deterministic Regex & AST Parser
+CONST-003,PB088,3.0 USD/kg,3.0 USD/kg,numerical,max_raw_material_cost,<=,3.0,USD/kg,0.98,Deterministic Regex & AST Parser
+CONST-004,PB088,smooth,smooth,categorical,texture_profile,PREFERRED,Smooth,standard,0.92,Deterministic Regex & AST Parser
+CONST-005,PB088,shelf life,shelf life,categorical,shelf_stability,REQUIRED,9-month,standard,0.92,Deterministic Regex & AST Parser
+CONST-001,PB089,Formulate a high-protein savory peanut satay sauce containin,Formulate a high-protein savory peanut satay sauce containin,categorical,product_category,REQUIRED,Sauces / Spreads / Emulsified Products,standard,0.92,Deterministic Regex & AST Parser
+CONST-002,PB089,12% protein,12% protein,numerical,protein_min,>=,12.0,%,0.98,Deterministic Regex & AST Parser
+CONST-003,PB089,7.5 USD/kg,7.5 USD/kg,numerical,max_raw_material_cost,<=,7.5,USD/kg,0.98,Deterministic Regex & AST Parser
+CONST-004,PB089,savory,savory,categorical,flavor_profile,PREFERRED,savory flavour,standard,0.92,Deterministic Regex & AST Parser
+CONST-005,PB089,ambient,ambient,categorical,shelf_stability,REQUIRED,12 months,standard,0.92,Deterministic Regex & AST Parser
+CONST-001,PB090,Create a clean label dairy-free cheese style spread containi,Create a clean label dairy-free cheese style spread containi,categorical,product_category,REQUIRED,Sauces / Spreads / Emulsified Products,standard,0.92,Deterministic Regex & AST Parser
+CONST-002,PB090,dairy-free,dairy-free,categorical,dairy,FORBIDDEN,milk_and_dairy_derivatives,standard,0.92,Deterministic Regex & AST Parser
+CONST-003,PB090,clean label,clean label,categorical,clean_label,REQUIRED,no_synthetic_additives,standard,0.92,Deterministic Regex & AST Parser
+CONST-004,PB090,6% protein,6% protein,numerical,protein_min,>=,6.0,%,0.98,Deterministic Regex & AST Parser
+CONST-005,PB090,9.5 USD/kg,9.5 USD/kg,numerical,max_raw_material_cost,<=,9.5,USD/kg,0.98,Deterministic Regex & AST Parser
+CONST-006,PB090,smooth,smooth,categorical,texture_profile,PREFERRED,Smooth,standard,0.92,Deterministic Regex & AST Parser
+CONST-007,PB090,spreadable,spreadable,categorical,texture_profile,PREFERRED,Spreadable,standard,0.92,Deterministic Regex & AST Parser
+CONST-008,PB090,savory,savory,categorical,flavor_profile,PREFERRED,savory flavour,standard,0.92,Deterministic Regex & AST Parser
+CONST-009,PB090,stability,stability,categorical,shelf_stability,REQUIRED,60-day,standard,0.92,Deterministic Regex & AST Parser
+CONST-001,PB091,Design a low-calorie plant-based vinaigrette dressing contai,Design a low-calorie plant-based vinaigrette dressing contai,categorical,product_category,REQUIRED,Sauces / Spreads / Emulsified Products,standard,0.92,Deterministic Regex & AST Parser
+CONST-002,PB091,10% fat,10% fat,numerical,fat_max,<=,10.0,%,0.98,Deterministic Regex & AST Parser
+CONST-003,PB091,3% sugar,3% sugar,numerical,sugar_max,<=,3.0,%,0.98,Deterministic Regex & AST Parser
+CONST-004,PB091,lemon,lemon,categorical,flavor_profile,PREFERRED,lemon flavour,standard,0.92,Deterministic Regex & AST Parser
+CONST-005,PB091,herb,herb,categorical,flavor_profile,PREFERRED,herb flavour,standard,0.92,Deterministic Regex & AST Parser
+CONST-006,PB091,ambient,ambient,categorical,shelf_stability,REQUIRED,12-month,standard,0.92,Deterministic Regex & AST Parser
+CONST-001,PB092,Develop a spicy chipotle vegan mayo emulsion containing at l,Develop a spicy chipotle vegan mayo emulsion containing at l,categorical,product_category,REQUIRED,Sauces / Spreads / Emulsified Products,standard,0.92,Deterministic Regex & AST Parser
+CONST-002,PB092,vegan,vegan,dietary,dietary_pattern,FORBIDDEN,animal_derived_ingredients,standard,0.95,Deterministic Regex & AST Parser
+CONST-003,PB092,2% protein,2% protein,numerical,protein_min,>=,2.0,%,0.98,Deterministic Regex & AST Parser
+CONST-004,PB092,40% fat,40% fat,numerical,fat_max,<=,40.0,%,0.98,Deterministic Regex & AST Parser
+CONST-005,PB092,smooth,smooth,categorical,texture_profile,PREFERRED,Smooth,standard,0.92,Deterministic Regex & AST Parser
+CONST-006,PB092,stability,stability,categorical,shelf_stability,REQUIRED,9-month,standard,0.92,Deterministic Regex & AST Parser
+CONST-001,PB093,Formulate an allergen-free sweet caramel spread containing a,Formulate an allergen-free sweet caramel spread containing a,categorical,product_category,REQUIRED,Sauces / Spreads / Emulsified Products,standard,0.92,Deterministic Regex & AST Parser
+CONST-002,PB093,allergen-free,allergen-free,categorical,major_allergens,FORBIDDEN,top_9_allergens,standard,0.92,Deterministic Regex & AST Parser
+CONST-003,PB093,3% protein,3% protein,numerical,protein_min,>=,3.0,%,0.98,Deterministic Regex & AST Parser
+CONST-004,PB093,25% sugar,25% sugar,numerical,sugar_max,<=,25.0,%,0.98,Deterministic Regex & AST Parser
+CONST-005,PB093,8.0 USD/kg,8.0 USD/kg,numerical,max_raw_material_cost,<=,8.0,USD/kg,0.98,Deterministic Regex & AST Parser
+CONST-006,PB093,smooth,smooth,categorical,texture_profile,PREFERRED,Smooth,standard,0.92,Deterministic Regex & AST Parser
+CONST-007,PB093,caramel,caramel,categorical,flavor_profile,PREFERRED,caramel flavour,standard,0.92,Deterministic Regex & AST Parser
+CONST-008,PB093,ambient,ambient,categorical,shelf_stability,REQUIRED,9-month,standard,0.92,Deterministic Regex & AST Parser
+CONST-001,PB094,Create a high-protein hummus spread containing at least 10% ,Create a high-protein hummus spread containing at least 10% ,categorical,product_category,REQUIRED,Sauces / Spreads / Emulsified Products,standard,0.92,Deterministic Regex & AST Parser
+CONST-002,PB094,10% protein,10% protein,numerical,protein_min,>=,10.0,%,0.98,Deterministic Regex & AST Parser
+CONST-003,PB094,12% fat,12% fat,numerical,fat_max,<=,12.0,%,0.98,Deterministic Regex & AST Parser
+CONST-004,PB094,5.5 USD/kg,5.5 USD/kg,numerical,max_raw_material_cost,<=,5.5,USD/kg,0.98,Deterministic Regex & AST Parser
+CONST-005,PB094,garlic,garlic,categorical,flavor_profile,PREFERRED,garlic flavour,standard,0.92,Deterministic Regex & AST Parser
+CONST-006,PB094,stability,stability,categorical,shelf_stability,REQUIRED,45-day,standard,0.92,Deterministic Regex & AST Parser
+CONST-001,PB095,Design a clean label plant-based hollandaise sauce alternati,Design a clean label plant-based hollandaise sauce alternati,categorical,product_category,REQUIRED,Sauces / Spreads / Emulsified Products,standard,0.92,Deterministic Regex & AST Parser
+CONST-002,PB095,clean label,clean label,categorical,clean_label,REQUIRED,no_synthetic_additives,standard,0.92,Deterministic Regex & AST Parser
+CONST-003,PB095,smooth,smooth,categorical,texture_profile,PREFERRED,Smooth,standard,0.92,Deterministic Regex & AST Parser
+CONST-004,PB095,lemon,lemon,categorical,flavor_profile,PREFERRED,lemon flavour,standard,0.92,Deterministic Regex & AST Parser
+CONST-005,PB095,shelf life,shelf life,categorical,shelf_stability,REQUIRED,6-month,standard,0.92,Deterministic Regex & AST Parser
+CONST-001,PB096,Develop a diabetic-friendly smoky barbecue sauce containing ,Develop a diabetic-friendly smoky barbecue sauce containing ,categorical,product_category,REQUIRED,Sauces / Spreads / Emulsified Products,standard,0.92,Deterministic Regex & AST Parser
+CONST-002,PB096,3% protein,3% protein,numerical,protein_min,>=,3.0,%,0.98,Deterministic Regex & AST Parser
+CONST-003,PB096,1.5% sugar,1.5% sugar,numerical,sugar_max,<=,1.5,%,0.98,Deterministic Regex & AST Parser
+CONST-004,PB096,4.5 USD/kg,4.5 USD/kg,numerical,max_raw_material_cost,<=,4.5,USD/kg,0.98,Deterministic Regex & AST Parser
+CONST-005,PB096,ambient,ambient,categorical,shelf_stability,REQUIRED,12-month,standard,0.92,Deterministic Regex & AST Parser
+CONST-001,PB097,Formulate a hypoallergenic seed butter spread containing at ,Formulate a hypoallergenic seed butter spread containing at ,categorical,product_category,REQUIRED,Sauces / Spreads / Emulsified Products,standard,0.92,Deterministic Regex & AST Parser
+CONST-002,PB097,15% protein,15% protein,numerical,protein_min,>=,15.0,%,0.98,Deterministic Regex & AST Parser
+CONST-003,PB097,6% fibre,6% fibre,numerical,fibre_min,>=,6.0,%,0.98,Deterministic Regex & AST Parser
+CONST-004,PB097,ambient,ambient,categorical,shelf_stability,REQUIRED,12-month,standard,0.92,Deterministic Regex & AST Parser
+CONST-001,PB098,Create a functional turmeric and black pepper golden tahini ,Create a functional turmeric and black pepper golden tahini ,categorical,product_category,REQUIRED,Sauces / Spreads / Emulsified Products,standard,0.92,Deterministic Regex & AST Parser
+CONST-002,PB098,8% protein,8% protein,numerical,protein_min,>=,8.0,%,0.98,Deterministic Regex & AST Parser
+CONST-003,PB098,smooth,smooth,categorical,texture_profile,PREFERRED,Smooth,standard,0.92,Deterministic Regex & AST Parser
+CONST-004,PB098,ambient,ambient,categorical,shelf_stability,REQUIRED,9-month,standard,0.92,Deterministic Regex & AST Parser
+CONST-001,PB099,Design a low-sodium vegan pesto spread containing at least 7,Design a low-sodium vegan pesto spread containing at least 7,categorical,product_category,REQUIRED,Sauces / Spreads / Emulsified Products,standard,0.92,Deterministic Regex & AST Parser
+CONST-002,PB099,vegan,vegan,dietary,dietary_pattern,FORBIDDEN,animal_derived_ingredients,standard,0.95,Deterministic Regex & AST Parser
+CONST-003,PB099,7% protein,7% protein,numerical,protein_min,>=,7.0,%,0.98,Deterministic Regex & AST Parser
+CONST-004,PB099,10.0 USD/kg,10.0 USD/kg,numerical,max_raw_material_cost,<=,10.0,USD/kg,0.98,Deterministic Regex & AST Parser
+CONST-005,PB099,garlic,garlic,categorical,flavor_profile,PREFERRED,garlic flavour,standard,0.92,Deterministic Regex & AST Parser
+CONST-006,PB099,herb,herb,categorical,flavor_profile,PREFERRED,herb flavour,standard,0.92,Deterministic Regex & AST Parser
+CONST-007,PB099,stability,stability,categorical,shelf_stability,REQUIRED,60-day,standard,0.92,Deterministic Regex & AST Parser
+CONST-001,PB100,Develop an organic clean label dark chocolate almond butter ,Develop an organic clean label dark chocolate almond butter ,categorical,product_category,REQUIRED,Sauces / Spreads / Emulsified Products,standard,0.92,Deterministic Regex & AST Parser
+CONST-002,PB100,clean label,clean label,categorical,clean_label,REQUIRED,no_synthetic_additives,standard,0.92,Deterministic Regex & AST Parser
+CONST-003,PB100,12% protein,12% protein,numerical,protein_min,>=,12.0,%,0.98,Deterministic Regex & AST Parser
+CONST-004,PB100,15% sugar,15% sugar,numerical,sugar_max,<=,15.0,%,0.98,Deterministic Regex & AST Parser
+CONST-005,PB100,13.5 USD/kg,13.5 USD/kg,numerical,max_raw_material_cost,<=,13.5,USD/kg,0.98,Deterministic Regex & AST Parser
+CONST-006,PB100,cocoa,cocoa,categorical,flavor_profile,PREFERRED,cocoa flavour,standard,0.92,Deterministic Regex & AST Parser
+CONST-007,PB100,chocolate,chocolate,categorical,flavor_profile,PREFERRED,chocolate flavour,standard,0.92,Deterministic Regex & AST Parser
+CONST-008,PB100,almond,almond,categorical,flavor_profile,PREFERRED,almond flavour,standard,0.92,Deterministic Regex & AST Parser
+CONST-009,PB100,ambient,ambient,categorical,shelf_stability,REQUIRED,12-month,standard,0.92,Deterministic Regex & AST Parser

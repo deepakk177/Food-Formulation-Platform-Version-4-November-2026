@@ -1,0 +1,38 @@
+[
+  {
+    "constraint_id": "CONST-001",
+    "type": "category",
+    "parameter": "product_category",
+    "operator": "REQUIRED",
+    "target_value": "Confectionery & Chocolate",
+    "unit": null,
+    "importance": "CRITICAL",
+    "source_text": "Create a vegan protein bar containing 20% protein",
+    "confidence": 0.95,
+    "hard_or_soft": null
+  },
+  {
+    "constraint_id": "CONST-002",
+    "type": "ingredient_restriction",
+    "parameter": "dietary_pattern",
+    "operator": "FORBIDDEN",
+    "target_value": "animal_derived_ingredients",
+    "unit": null,
+    "importance": "CRITICAL",
+    "source_text": "vegan",
+    "confidence": 1.0,
+    "hard_or_soft": null
+  },
+  {
+    "constraint_id": "CONST-003",
+    "type": "nutrition",
+    "parameter": "protein_min",
+    "operator": ">=",
+    "target_value": 20.0,
+    "unit": "%",
+    "importance": "CRITICAL",
+    "source_text": "20% protein",
+    "confidence": 0.98,
+    "hard_or_soft": null
+  }
+]

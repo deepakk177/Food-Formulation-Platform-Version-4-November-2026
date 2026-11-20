@@ -1,6 +1,11 @@
 :START_ID,:END_ID,:TYPE,evidence_id,source_id,confidence,validation_status
-PRO-WATER_HOLDING_CAPACITY,EV--PROTEIN_POLYSACCHARIDE_INTERACTIONS_AND_AGGREGATES_IN_FOOD_FORMULATIONS,SUPPORTED_BY,EV-Specification Sheets,Specification Sheets,1.0,VALIDATED
-PRO-OIL_HOLDING_CAPACITY,EV--PROTEIN_POLYSACCHARIDE_INTERACTIONS_AND_AGGREGATES_IN_FOOD_FORMULATIONS,SUPPORTED_BY,EV-Specification Sheets,Specification Sheets,1.0,VALIDATED
-PRO-APPARENT_VISCOSITY,EV--PROTEIN_POLYSACCHARIDE_INTERACTIONS_AND_AGGREGATES_IN_FOOD_FORMULATIONS,SUPPORTED_BY,EV-Specification Sheets,Specification Sheets,1.0,VALIDATED
-PRO-EMULSION_STABILITY_INDEX,EV--PROTEIN_POLYSACCHARIDE_INTERACTIONS_AND_AGGREGATES_IN_FOOD_FORMULATIONS,SUPPORTED_BY,EV-Specification Sheets,Specification Sheets,1.0,VALIDATED
-PRO-GEL_STRENGTH,EV--PROTEIN_POLYSACCHARIDE_INTERACTIONS_AND_AGGREGATES_IN_FOOD_FORMULATIONS,SUPPORTED_BY,EV-Specification Sheets,Specification Sheets,1.0,VALIDATED
+PROP:RHEO:WATER_HOLDING_CAPACITY,EV-LIT-PROP-RHEO-WATER_HOLDING_CAPACITY,SUPPORTED_BY,EV-Peer-Reviewed Food Science Literature & Technical Specifications,Peer-Reviewed Food Science Literature & Technical Specifications,1.0,VALIDATED
+PROP:RHEO:OIL_HOLDING_CAPACITY,EV-LIT-PROP-RHEO-OIL_HOLDING_CAPACITY,SUPPORTED_BY,EV-Peer-Reviewed Food Science Literature & Technical Specifications,Peer-Reviewed Food Science Literature & Technical Specifications,1.0,VALIDATED
+PROP:RHEO:APPARENT_VISCOSITY,EV-LIT-PROP-RHEO-APPARENT_VISCOSITY,SUPPORTED_BY,EV-Peer-Reviewed Food Science Literature & Technical Specifications,Peer-Reviewed Food Science Literature & Technical Specifications,1.0,VALIDATED
+PROP:RHEO:EMULSION_STABILITY_INDEX,EV-LIT-PROP-RHEO-EMULSION_STABILITY_INDEX,SUPPORTED_BY,EV-Peer-Reviewed Food Science Literature & Technical Specifications,Peer-Reviewed Food Science Literature & Technical Specifications,1.0,VALIDATED
+PROP:RHEO:BLOOM_GEL_STRENGTH,EV-LIT-PROP-RHEO-BLOOM_GEL_STRENGTH,SUPPORTED_BY,EV-Peer-Reviewed Food Science Literature & Technical Specifications,Peer-Reviewed Food Science Literature & Technical Specifications,1.0,VALIDATED
+PROP:PHYS:ISOELECTRIC_POINT,EV-LIT-PROP-PHYS-ISOELECTRIC_POINT,SUPPORTED_BY,EV-Peer-Reviewed Food Science Literature & Technical Specifications,Peer-Reviewed Food Science Literature & Technical Specifications,1.0,VALIDATED
+PROP:PHYS:THERMAL_DENATURATION_TEMP,EV-LIT-PROP-PHYS-THERMAL_DENATURATION_TEMP,SUPPORTED_BY,EV-Peer-Reviewed Food Science Literature & Technical Specifications,Peer-Reviewed Food Science Literature & Technical Specifications,1.0,VALIDATED
+PROP:PHYS:WATER_ACTIVITY,EV-LIT-PROP-PHYS-WATER_ACTIVITY,SUPPORTED_BY,EV-Peer-Reviewed Food Science Literature & Technical Specifications,Peer-Reviewed Food Science Literature & Technical Specifications,1.0,VALIDATED
+PROP:PHYS:SOLUBILITY_INDEX,EV-LIT-PROP-PHYS-SOLUBILITY_INDEX,SUPPORTED_BY,EV-Peer-Reviewed Food Science Literature & Technical Specifications,Peer-Reviewed Food Science Literature & Technical Specifications,1.0,VALIDATED
+PROP:RHEO:MINIMUM_GELLING_CONCENTRATION,EV-LIT-PROP-RHEO-MINIMUM_GELLING_CONCENTRATION,SUPPORTED_BY,EV-Peer-Reviewed Food Science Literature & Technical Specifications,Peer-Reviewed Food Science Literature & Technical Specifications,1.0,VALIDATED

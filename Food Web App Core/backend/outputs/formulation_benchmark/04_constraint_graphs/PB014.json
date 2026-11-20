@@ -1,0 +1,133 @@
+{
+  "nodes": [
+    {
+      "id": "PROD-001",
+      "type": "ProductBrief",
+      "value": "Target Product (Protein Bars / Functional Snacks)",
+      "source": "User Product Brief"
+    },
+    {
+      "id": "CONST-001",
+      "type": "Product_CategoryConstraintNode",
+      "value": "product_category REQUIRED Protein Bars / Functional Snacks",
+      "source": "Create a gut-health prebiotic protein bar containing at leas"
+    },
+    {
+      "id": "CONST-002",
+      "type": "RegulatoryConstraintNode",
+      "value": "clean_label REQUIRED no_synthetic_additives",
+      "source": "clean label"
+    },
+    {
+      "id": "CONST-003",
+      "type": "NutritionConstraintNode",
+      "value": "protein_min >= 15.0 %",
+      "source": "15% protein"
+    },
+    {
+      "id": "CONST-004",
+      "type": "NutritionConstraintNode",
+      "value": "fibre_min >= 10.0 %",
+      "source": "10% fibre"
+    },
+    {
+      "id": "CONST-005",
+      "type": "CostConstraintNode",
+      "value": "max_raw_material_cost <= 12.5 USD/kg",
+      "source": "12.5 USD/kg"
+    },
+    {
+      "id": "CONST-006",
+      "type": "SensoryConstraintNode",
+      "value": "texture_profile PREFERRED Soft",
+      "source": "soft"
+    },
+    {
+      "id": "CONST-007",
+      "type": "SensoryConstraintNode",
+      "value": "texture_profile PREFERRED Chewy",
+      "source": "chewy"
+    },
+    {
+      "id": "CONST-008",
+      "type": "SensoryConstraintNode",
+      "value": "flavor_profile PREFERRED vanilla flavour",
+      "source": "vanilla"
+    },
+    {
+      "id": "CONST-009",
+      "type": "SensoryConstraintNode",
+      "value": "flavor_profile PREFERRED berry flavour",
+      "source": "berry"
+    },
+    {
+      "id": "CONST-010",
+      "type": "Shelf_LifeConstraintNode",
+      "value": "shelf_stability REQUIRED 12 months",
+      "source": "ambient"
+    }
+  ],
+  "edges": [
+    {
+      "source": "PROD-001",
+      "relationship": "HAS_CONSTRAINT",
+      "target": "CONST-001"
+    },
+    {
+      "source": "PROD-001",
+      "relationship": "HAS_REGULATORY_CONSTRAINT",
+      "target": "CONST-002"
+    },
+    {
+      "source": "PROD-001",
+      "relationship": "HAS_NUTRITION_CONSTRAINT",
+      "target": "CONST-003"
+    },
+    {
+      "source": "PROD-001",
+      "relationship": "HAS_NUTRITION_CONSTRAINT",
+      "target": "CONST-004"
+    },
+    {
+      "source": "PROD-001",
+      "relationship": "HAS_COST_CONSTRAINT",
+      "target": "CONST-005"
+    },
+    {
+      "source": "PROD-001",
+      "relationship": "HAS_SENSORY_CONSTRAINT",
+      "target": "CONST-006"
+    },
+    {
+      "source": "PROD-001",
+      "relationship": "HAS_SENSORY_CONSTRAINT",
+      "target": "CONST-007"
+    },
+    {
+      "source": "PROD-001",
+      "relationship": "HAS_SENSORY_CONSTRAINT",
+      "target": "CONST-008"
+    },
+    {
+      "source": "PROD-001",
+      "relationship": "HAS_SENSORY_CONSTRAINT",
+      "target": "CONST-009"
+    },
+    {
+      "source": "PROD-001",
+      "relationship": "HAS_PROCESSING_CONSTRAINT",
+      "target": "CONST-010"
+    }
+  ],
+  "summary": {
+    "Nutrition Constraints": 2,
+    "Functional Constraints": 0,
+    "Sensory Constraints": 4,
+    "Regulatory Constraints": 1,
+    "Cost Constraints": 1,
+    "Ingredient Restrictions": 0,
+    "Processing Constraints": 1,
+    "Graph Nodes": 11,
+    "Graph Edges": 10
+  }
+}

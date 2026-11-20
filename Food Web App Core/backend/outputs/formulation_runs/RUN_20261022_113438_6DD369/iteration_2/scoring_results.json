@@ -1,0 +1,270 @@
+[
+  {
+    "overall_score": 86.5,
+    "radar_scores": {
+      "Nutrition": 96.0,
+      "FRC": 60.0,
+      "Functional_Coverage": 60.0,
+      "Compatibility": 92.2,
+      "Normalized_ICS": 0.844,
+      "Constraint_Satisfaction": 100.0,
+      "Cost": 85.8,
+      "Regulatory": 100.0,
+      "SES": 73.3
+    },
+    "profile_name": "COST_OPTIMIZED",
+    "explanation": "Overall score 86.5/100 computed under 'COST_OPTIMIZED' strategy. Nutrition Fit: 96.0% (Actual 5.2g vs Target 5.0g). FRC (Role Coverage): 60.0% (3/5 roles). ICS: 0.844 (Status: CALCULATED). SES (Evidence): 73.3% (Zero-weighted in ranking per Phase 5).",
+    "FRC": 60.0,
+    "FAS": null,
+    "FAS_status": "REQUIRES_EVIDENCE",
+    "SES_details": {
+      "source_quality": 0.725,
+      "directness": 0.769,
+      "relevance": 0.9,
+      "specificity": 0.613,
+      "corroboration": 0.637,
+      "SES": 73.3,
+      "status": "CALCULATED"
+    },
+    "ICS_details": {
+      "normalized_ics": 0.844,
+      "status": "CALCULATED",
+      "score_100": 92.2
+    },
+    "soft_constraints": {
+      "soft_constraint_satisfaction": 1.0,
+      "soft_constraint_score": 100.0,
+      "individual_satisfactions": [
+        {
+          "constraint": "protein_min",
+          "target": 5.0,
+          "actual": 5.2,
+          "satisfaction": 1.0,
+          "type": "minimum_threshold"
+        }
+      ]
+    },
+    "cost_per_kg_inr": 10.63,
+    "cost_score": 85.8,
+    "cost_status": "CALCULATED",
+    "is_feasible": true,
+    "ablation_scores": {
+      "A0_baseline": 94.1,
+      "A1_plus_FRC": 87.0,
+      "A2_plus_ICS": 88.8,
+      "A3_plus_SES": 86.3,
+      "A4_full_model": 86.5,
+      "B1_nutr_cost": 90.9,
+      "B2_nutr_cost_const": 94.1,
+      "M3_with_FRC": 87.0,
+      "M4_with_ICS": 88.8,
+      "M5_full": 86.5
+    },
+    "performance": {
+      "overall": 86.5
+    },
+    "confidence_metric_name": "Data & Provenance Completeness",
+    "confidence_value": 86.5
+  },
+  {
+    "overall_score": 86.2,
+    "radar_scores": {
+      "Nutrition": 100.0,
+      "FRC": 60.0,
+      "Functional_Coverage": 60.0,
+      "Compatibility": 92.2,
+      "Normalized_ICS": 0.843,
+      "Constraint_Satisfaction": 100.0,
+      "Cost": 83.4,
+      "Regulatory": 100.0,
+      "SES": 72.0
+    },
+    "profile_name": "COST_OPTIMIZED",
+    "explanation": "Overall score 86.2/100 computed under 'COST_OPTIMIZED' strategy. Nutrition Fit: 100.0% (Actual 5.0g vs Target 5.0g). FRC (Role Coverage): 60.0% (3/5 roles). ICS: 0.843 (Status: CALCULATED). SES (Evidence): 72.0% (Zero-weighted in ranking per Phase 5).",
+    "FRC": 60.0,
+    "FAS": null,
+    "FAS_status": "REQUIRES_EVIDENCE",
+    "SES_details": {
+      "source_quality": 0.693,
+      "directness": 0.743,
+      "relevance": 0.9,
+      "specificity": 0.629,
+      "corroboration": 0.614,
+      "SES": 72.0,
+      "status": "CALCULATED"
+    },
+    "ICS_details": {
+      "normalized_ics": 0.843,
+      "status": "CALCULATED",
+      "score_100": 92.2
+    },
+    "soft_constraints": {
+      "soft_constraint_satisfaction": 1.0,
+      "soft_constraint_score": 100.0,
+      "individual_satisfactions": [
+        {
+          "constraint": "protein_min",
+          "target": 5.0,
+          "actual": 5.0,
+          "satisfaction": 1.0,
+          "type": "minimum_threshold"
+        }
+      ]
+    },
+    "cost_per_kg_inr": 12.46,
+    "cost_score": 83.4,
+    "cost_status": "CALCULATED",
+    "is_feasible": true,
+    "ablation_scores": {
+      "A0_baseline": 95.0,
+      "A1_plus_FRC": 87.8,
+      "A2_plus_ICS": 89.5,
+      "A3_plus_SES": 86.7,
+      "A4_full_model": 86.2,
+      "B1_nutr_cost": 91.7,
+      "B2_nutr_cost_const": 95.0,
+      "M3_with_FRC": 87.8,
+      "M4_with_ICS": 89.5,
+      "M5_full": 86.2
+    },
+    "performance": {
+      "overall": 86.2
+    },
+    "confidence_metric_name": "Data & Provenance Completeness",
+    "confidence_value": 86.2
+  },
+  {
+    "overall_score": 73.2,
+    "radar_scores": {
+      "Nutrition": 0.0,
+      "FRC": 60.0,
+      "Functional_Coverage": 60.0,
+      "Compatibility": 92.2,
+      "Normalized_ICS": 0.844,
+      "Constraint_Satisfaction": 100.0,
+      "Cost": 88.4,
+      "Regulatory": 100.0,
+      "SES": 73.3
+    },
+    "profile_name": "COST_OPTIMIZED",
+    "explanation": "Overall score 73.2/100 computed under 'COST_OPTIMIZED' strategy. Nutrition Fit: 0.0% (Actual 11.2g vs Target 5.0g). FRC (Role Coverage): 60.0% (3/5 roles). ICS: 0.844 (Status: CALCULATED). SES (Evidence): 73.3% (Zero-weighted in ranking per Phase 5).",
+    "FRC": 60.0,
+    "FAS": null,
+    "FAS_status": "REQUIRES_EVIDENCE",
+    "SES_details": {
+      "source_quality": 0.725,
+      "directness": 0.769,
+      "relevance": 0.9,
+      "specificity": 0.613,
+      "corroboration": 0.637,
+      "SES": 73.3,
+      "status": "CALCULATED"
+    },
+    "ICS_details": {
+      "normalized_ics": 0.844,
+      "status": "CALCULATED",
+      "score_100": 92.2
+    },
+    "soft_constraints": {
+      "soft_constraint_satisfaction": 1.0,
+      "soft_constraint_score": 100.0,
+      "individual_satisfactions": [
+        {
+          "constraint": "protein_min",
+          "target": 5.0,
+          "actual": 11.2,
+          "satisfaction": 1.0,
+          "type": "minimum_threshold"
+        }
+      ]
+    },
+    "cost_per_kg_inr": 8.68,
+    "cost_score": 88.4,
+    "cost_status": "CALCULATED",
+    "is_feasible": true,
+    "ablation_scores": {
+      "A0_baseline": 56.5,
+      "A1_plus_FRC": 54.1,
+      "A2_plus_ICS": 60.5,
+      "A3_plus_SES": 62.8,
+      "A4_full_model": 73.2,
+      "B1_nutr_cost": 44.2,
+      "B2_nutr_cost_const": 56.5,
+      "M3_with_FRC": 54.1,
+      "M4_with_ICS": 60.5,
+      "M5_full": 73.2
+    },
+    "performance": {
+      "overall": 73.2
+    },
+    "confidence_metric_name": "Data & Provenance Completeness",
+    "confidence_value": 73.2
+  },
+  {
+    "overall_score": 73.2,
+    "radar_scores": {
+      "Nutrition": 0.0,
+      "FRC": 60.0,
+      "Functional_Coverage": 60.0,
+      "Compatibility": 92.2,
+      "Normalized_ICS": 0.844,
+      "Constraint_Satisfaction": 100.0,
+      "Cost": 88.4,
+      "Regulatory": 100.0,
+      "SES": 73.3
+    },
+    "profile_name": "COST_OPTIMIZED",
+    "explanation": "Overall score 73.2/100 computed under 'COST_OPTIMIZED' strategy. Nutrition Fit: 0.0% (Actual 12.2g vs Target 5.0g). FRC (Role Coverage): 60.0% (3/5 roles). ICS: 0.844 (Status: CALCULATED). SES (Evidence): 73.3% (Zero-weighted in ranking per Phase 5).",
+    "FRC": 60.0,
+    "FAS": null,
+    "FAS_status": "REQUIRES_EVIDENCE",
+    "SES_details": {
+      "source_quality": 0.725,
+      "directness": 0.769,
+      "relevance": 0.9,
+      "specificity": 0.613,
+      "corroboration": 0.637,
+      "SES": 73.3,
+      "status": "CALCULATED"
+    },
+    "ICS_details": {
+      "normalized_ics": 0.844,
+      "status": "CALCULATED",
+      "score_100": 92.2
+    },
+    "soft_constraints": {
+      "soft_constraint_satisfaction": 1.0,
+      "soft_constraint_score": 100.0,
+      "individual_satisfactions": [
+        {
+          "constraint": "protein_min",
+          "target": 5.0,
+          "actual": 12.2,
+          "satisfaction": 1.0,
+          "type": "minimum_threshold"
+        }
+      ]
+    },
+    "cost_per_kg_inr": 8.72,
+    "cost_score": 88.4,
+    "cost_status": "CALCULATED",
+    "is_feasible": true,
+    "ablation_scores": {
+      "A0_baseline": 56.5,
+      "A1_plus_FRC": 54.1,
+      "A2_plus_ICS": 60.5,
+      "A3_plus_SES": 62.8,
+      "A4_full_model": 73.2,
+      "B1_nutr_cost": 44.2,
+      "B2_nutr_cost_const": 56.5,
+      "M3_with_FRC": 54.1,
+      "M4_with_ICS": 60.5,
+      "M5_full": 73.2
+    },
+    "performance": {
+      "overall": 73.2
+    },
+    "confidence_metric_name": "Data & Provenance Completeness",
+    "confidence_value": 73.2
+  }
+]

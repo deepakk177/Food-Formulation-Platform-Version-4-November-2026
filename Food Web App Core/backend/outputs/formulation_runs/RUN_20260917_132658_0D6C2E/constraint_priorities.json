@@ -1,0 +1,79 @@
+{
+  "all_constraints": [
+    {
+      "name": "product_category REQUIRED Confectionery & Chocolate",
+      "type": "category",
+      "weight": 0.7,
+      "hard_or_soft": "SOFT",
+      "reason": "Extracted category requirement",
+      "source": "Product Brief Parser",
+      "parameter": "product_category",
+      "operator": "REQUIRED",
+      "target_value": "Confectionery & Chocolate"
+    },
+    {
+      "name": "gluten FORBIDDEN gluten_containing_grains",
+      "type": "allergen",
+      "weight": 1.0,
+      "hard_or_soft": "HARD",
+      "reason": "Mandatory consumer allergen exclusion and cross-contact safety",
+      "source": "Allergen Exclusion Rules",
+      "parameter": "gluten",
+      "operator": "FORBIDDEN",
+      "target_value": "gluten_containing_grains"
+    },
+    {
+      "name": "protein_min >= 15.0",
+      "type": "nutrition",
+      "weight": 0.7,
+      "hard_or_soft": "SOFT",
+      "reason": "Extracted nutrition requirement",
+      "source": "Product Brief Parser",
+      "parameter": "protein_min",
+      "operator": ">=",
+      "target_value": 15.0
+    }
+  ],
+  "hard_constraints": [
+    {
+      "name": "gluten FORBIDDEN gluten_containing_grains",
+      "type": "allergen",
+      "weight": 1.0,
+      "hard_or_soft": "HARD",
+      "reason": "Mandatory consumer allergen exclusion and cross-contact safety",
+      "source": "Allergen Exclusion Rules",
+      "parameter": "gluten",
+      "operator": "FORBIDDEN",
+      "target_value": "gluten_containing_grains"
+    }
+  ],
+  "soft_constraints": [
+    {
+      "name": "product_category REQUIRED Confectionery & Chocolate",
+      "type": "category",
+      "weight": 0.7,
+      "hard_or_soft": "SOFT",
+      "reason": "Extracted category requirement",
+      "source": "Product Brief Parser",
+      "parameter": "product_category",
+      "operator": "REQUIRED",
+      "target_value": "Confectionery & Chocolate"
+    },
+    {
+      "name": "protein_min >= 15.0",
+      "type": "nutrition",
+      "weight": 0.7,
+      "hard_or_soft": "SOFT",
+      "reason": "Extracted nutrition requirement",
+      "source": "Product Brief Parser",
+      "parameter": "protein_min",
+      "operator": ">=",
+      "target_value": 15.0
+    }
+  ],
+  "priority_distribution": {
+    "hard_count": 1,
+    "soft_count": 2,
+    "total_count": 3
+  }
+}

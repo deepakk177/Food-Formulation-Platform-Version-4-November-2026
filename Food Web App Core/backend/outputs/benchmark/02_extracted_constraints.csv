@@ -1,0 +1,669 @@
+Product ID,Constraint ID,Type,Parameter,Operator,Target,Unit,Hard/Soft,Weight,Reason,Source Text,Confidence
+PB001,PB001_C01,PRODUCT_CATEGORY,product_category,REQUIRED,Protein Bars / Functional Snacks,,SOFT,0.7,Extracted PRODUCT_CATEGORY requirement,Create a vegan high-protein chocolate ba,0.95
+PB001,PB001_C02,DIETARY,dietary_pattern,FORBIDDEN,animal_derived_ingredients,,HARD,0.95,"Mandatory dietary label claim (Vegan, Gluten-Free, Dairy-Free)",Create a vegan high-protein chocolate ba,0.95
+PB001,PB001_C03,NUTRITION,protein_min,>=,20.0,,SOFT,0.7,Extracted NUTRITION requirement,Create a vegan high-protein chocolate ba,0.95
+PB001,PB001_C04,NUTRITION,fat_max,<=,25.0,,SOFT,0.7,Extracted NUTRITION requirement,Create a vegan high-protein chocolate ba,0.95
+PB001,PB001_C05,COST,max_raw_material_cost,<=,10.0,,SOFT,0.85,Commercial raw material cost target per kg,Create a vegan high-protein chocolate ba,0.95
+PB001,PB001_C06,PROCESSING,water_activity,<=,0.6,,SOFT,0.7,Extracted PROCESSING requirement,Create a vegan high-protein chocolate ba,0.95
+PB001,PB001_C07,SENSORY,texture_profile,PREFERRED,Chewy,,SOFT,0.7,"Sensory flavor, visual color, and mouthfeel target profile",Create a vegan high-protein chocolate ba,0.95
+PB001,PB001_C08,SENSORY,flavor_profile,PREFERRED,cocoa flavour,,SOFT,0.7,"Sensory flavor, visual color, and mouthfeel target profile",Create a vegan high-protein chocolate ba,0.95
+PB001,PB001_C09,SENSORY,flavor_profile,PREFERRED,chocolate flavour,,SOFT,0.7,"Sensory flavor, visual color, and mouthfeel target profile",Create a vegan high-protein chocolate ba,0.95
+PB001,PB001_C10,SHELF_LIFE,shelf_stability,REQUIRED,12-month,,SOFT,0.75,Target ambient shelf stability requirement,Create a vegan high-protein chocolate ba,0.95
+PB002,PB002_C01,PRODUCT_CATEGORY,product_category,REQUIRED,Protein Bars / Functional Snacks,,SOFT,0.7,Extracted PRODUCT_CATEGORY requirement,Formulate a gluten-free berry energy bar,0.95
+PB002,PB002_C02,ALLERGEN,gluten,FORBIDDEN,gluten_containing_grains,,HARD,1.0,Mandatory consumer allergen exclusion and cross-contact safety,Formulate a gluten-free berry energy bar,0.95
+PB002,PB002_C03,REGULATORY,clean_label,REQUIRED,no_synthetic_additives,,HARD,1.0,Mandatory regulatory compliance (FDA/EFSA/FSSAI Codex GSFA),Formulate a gluten-free berry energy bar,0.95
+PB002,PB002_C04,NUTRITION,protein_min,>=,15.0,,SOFT,0.7,Extracted NUTRITION requirement,Formulate a gluten-free berry energy bar,0.95
+PB002,PB002_C05,NUTRITION,fibre_min,>=,8.0,,SOFT,0.7,Extracted NUTRITION requirement,Formulate a gluten-free berry energy bar,0.95
+PB002,PB002_C06,COST,max_raw_material_cost,<=,12.0,,SOFT,0.85,Commercial raw material cost target per kg,Formulate a gluten-free berry energy bar,0.95
+PB002,PB002_C07,SENSORY,texture_profile,PREFERRED,Soft,,SOFT,0.7,"Sensory flavor, visual color, and mouthfeel target profile",Formulate a gluten-free berry energy bar,0.95
+PB002,PB002_C08,SENSORY,texture_profile,PREFERRED,Chewy,,SOFT,0.7,"Sensory flavor, visual color, and mouthfeel target profile",Formulate a gluten-free berry energy bar,0.95
+PB002,PB002_C09,SENSORY,flavor_profile,PREFERRED,berry flavour,,SOFT,0.7,"Sensory flavor, visual color, and mouthfeel target profile",Formulate a gluten-free berry energy bar,0.95
+PB002,PB002_C10,SENSORY,flavor_profile,PREFERRED,strawberry flavour,,SOFT,0.7,"Sensory flavor, visual color, and mouthfeel target profile",Formulate a gluten-free berry energy bar,0.95
+PB003,PB003_C01,PRODUCT_CATEGORY,product_category,REQUIRED,Protein Bars / Functional Snacks,,SOFT,0.7,Extracted PRODUCT_CATEGORY requirement,Design a keto-friendly almond crunch sna,0.95
+PB003,PB003_C02,NUTRITION,protein_min,>=,18.0,,SOFT,0.7,Extracted NUTRITION requirement,Design a keto-friendly almond crunch sna,0.95
+PB003,PB003_C03,NUTRITION,sugar_max,<=,3.0,,SOFT,0.7,Extracted NUTRITION requirement,Design a keto-friendly almond crunch sna,0.95
+PB003,PB003_C04,COST,max_raw_material_cost,<=,14.0,,SOFT,0.85,Commercial raw material cost target per kg,Design a keto-friendly almond crunch sna,0.95
+PB003,PB003_C05,SENSORY,texture_profile,PREFERRED,Crunchy,,SOFT,0.7,"Sensory flavor, visual color, and mouthfeel target profile",Design a keto-friendly almond crunch sna,0.95
+PB003,PB003_C06,SENSORY,flavor_profile,PREFERRED,almond flavour,,SOFT,0.7,"Sensory flavor, visual color, and mouthfeel target profile",Design a keto-friendly almond crunch sna,0.95
+PB003,PB003_C07,SHELF_LIFE,shelf_stability,REQUIRED,9-month,,SOFT,0.75,Target ambient shelf stability requirement,Design a keto-friendly almond crunch sna,0.95
+PB004,PB004_C01,PRODUCT_CATEGORY,product_category,REQUIRED,Protein Bars / Functional Snacks,,SOFT,0.7,Extracted PRODUCT_CATEGORY requirement,Develop an allergen-free functional seed,0.95
+PB004,PB004_C02,ALLERGEN,major_allergens,FORBIDDEN,top_9_allergens,,HARD,1.0,Mandatory consumer allergen exclusion and cross-contact safety,Develop an allergen-free functional seed,0.95
+PB004,PB004_C03,NUTRITION,protein_min,>=,16.0,,SOFT,0.7,Extracted NUTRITION requirement,Develop an allergen-free functional seed,0.95
+PB004,PB004_C04,NUTRITION,fibre_min,>=,6.0,,SOFT,0.7,Extracted NUTRITION requirement,Develop an allergen-free functional seed,0.95
+PB004,PB004_C05,PROCESSING,water_activity,<=,0.6,,SOFT,0.7,Extracted PROCESSING requirement,Develop an allergen-free functional seed,0.95
+PB004,PB004_C06,SENSORY,flavor_profile,PREFERRED,vanilla flavour,,SOFT,0.7,"Sensory flavor, visual color, and mouthfeel target profile",Develop an allergen-free functional seed,0.95
+PB004,PB004_C07,SHELF_LIFE,shelf_stability,REQUIRED,6-month,,SOFT,0.75,Target ambient shelf stability requirement,Develop an allergen-free functional seed,0.95
+PB005,PB005_C01,PRODUCT_CATEGORY,product_category,REQUIRED,Protein Bars / Functional Snacks,,SOFT,0.7,Extracted PRODUCT_CATEGORY requirement,Formulate a vegan diabetic-friendly moch,0.95
+PB005,PB005_C02,DIETARY,dietary_pattern,FORBIDDEN,animal_derived_ingredients,,HARD,0.95,"Mandatory dietary label claim (Vegan, Gluten-Free, Dairy-Free)",Formulate a vegan diabetic-friendly moch,0.95
+PB005,PB005_C03,NUTRITION,protein_min,>=,22.0,,SOFT,0.7,Extracted NUTRITION requirement,Formulate a vegan diabetic-friendly moch,0.95
+PB005,PB005_C04,NUTRITION,sugar_max,<=,2.0,,SOFT,0.7,Extracted NUTRITION requirement,Formulate a vegan diabetic-friendly moch,0.95
+PB005,PB005_C05,COST,max_raw_material_cost,<=,11.5,,SOFT,0.85,Commercial raw material cost target per kg,Formulate a vegan diabetic-friendly moch,0.95
+PB005,PB005_C06,SENSORY,texture_profile,PREFERRED,Firm,,SOFT,0.7,"Sensory flavor, visual color, and mouthfeel target profile",Formulate a vegan diabetic-friendly moch,0.95
+PB005,PB005_C07,SENSORY,flavor_profile,PREFERRED,chocolate flavour,,SOFT,0.7,"Sensory flavor, visual color, and mouthfeel target profile",Formulate a vegan diabetic-friendly moch,0.95
+PB005,PB005_C08,SENSORY,flavor_profile,PREFERRED,coffee flavour,,SOFT,0.7,"Sensory flavor, visual color, and mouthfeel target profile",Formulate a vegan diabetic-friendly moch,0.95
+PB006,PB006_C01,PRODUCT_CATEGORY,product_category,REQUIRED,Protein Bars / Functional Snacks,,SOFT,0.7,Extracted PRODUCT_CATEGORY requirement,Create a clean label plant-based peanut ,0.95
+PB006,PB006_C02,REGULATORY,clean_label,REQUIRED,no_synthetic_additives,,HARD,1.0,Mandatory regulatory compliance (FDA/EFSA/FSSAI Codex GSFA),Create a clean label plant-based peanut ,0.95
+PB006,PB006_C03,NUTRITION,protein_min,>=,20.0,,SOFT,0.7,Extracted NUTRITION requirement,Create a clean label plant-based peanut ,0.95
+PB006,PB006_C04,NUTRITION,fibre_min,>=,7.0,,SOFT,0.7,Extracted NUTRITION requirement,Create a clean label plant-based peanut ,0.95
+PB006,PB006_C05,COST,max_raw_material_cost,<=,9.0,,SOFT,0.85,Commercial raw material cost target per kg,Create a clean label plant-based peanut ,0.95
+PB006,PB006_C06,SENSORY,texture_profile,PREFERRED,Chewy,,SOFT,0.7,"Sensory flavor, visual color, and mouthfeel target profile",Create a clean label plant-based peanut ,0.95
+PB006,PB006_C07,SENSORY,bitterness_masking,REQUIRED,Low Bitterness,,SOFT,0.7,"Sensory flavor, visual color, and mouthfeel target profile",Create a clean label plant-based peanut ,0.95
+PB006,PB006_C08,SHELF_LIFE,shelf_stability,REQUIRED,12 months,,SOFT,0.75,Target ambient shelf stability requirement,Create a clean label plant-based peanut ,0.95
+PB007,PB007_C01,PRODUCT_CATEGORY,product_category,REQUIRED,Protein Bars / Functional Snacks,,SOFT,0.7,Extracted PRODUCT_CATEGORY requirement,Design a senior-friendly high-protein so,0.95
+PB007,PB007_C02,NUTRITION,protein_min,>=,18.0,,SOFT,0.7,Extracted NUTRITION requirement,Design a senior-friendly high-protein so,0.95
+PB007,PB007_C03,FUNCTIONAL,moisture_retention,REQUIRED,Water Binding,,SOFT,0.8,"Target technological function (texture, emulsion, water activity)",Design a senior-friendly high-protein so,0.95
+PB007,PB007_C04,SENSORY,texture_profile,PREFERRED,Soft,,SOFT,0.7,"Sensory flavor, visual color, and mouthfeel target profile",Design a senior-friendly high-protein so,0.95
+PB007,PB007_C05,SENSORY,texture_profile,PREFERRED,Chewy,,SOFT,0.7,"Sensory flavor, visual color, and mouthfeel target profile",Design a senior-friendly high-protein so,0.95
+PB007,PB007_C06,SENSORY,flavor_profile,PREFERRED,vanilla flavour,,SOFT,0.7,"Sensory flavor, visual color, and mouthfeel target profile",Design a senior-friendly high-protein so,0.95
+PB007,PB007_C07,SHELF_LIFE,shelf_stability,REQUIRED,9-month,,SOFT,0.75,Target ambient shelf stability requirement,Design a senior-friendly high-protein so,0.95
+PB008,PB008_C01,PRODUCT_CATEGORY,product_category,REQUIRED,Protein Bars / Functional Snacks,,SOFT,0.7,Extracted PRODUCT_CATEGORY requirement,Develop an ultra-low-cost school-safe fu,0.95
+PB008,PB008_C02,ALLERGEN,dairy,FORBIDDEN,milk_and_dairy_derivatives,,HARD,1.0,Mandatory consumer allergen exclusion and cross-contact safety,Develop an ultra-low-cost school-safe fu,0.95
+PB008,PB008_C03,ALLERGEN,tree_nuts_and_peanuts,FORBIDDEN,peanut_and_tree_nut_allergens,,HARD,1.0,Mandatory consumer allergen exclusion and cross-contact safety,Develop an ultra-low-cost school-safe fu,0.95
+PB008,PB008_C04,NUTRITION,protein_min,>=,15.0,,SOFT,0.7,Extracted NUTRITION requirement,Develop an ultra-low-cost school-safe fu,0.95
+PB008,PB008_C05,COST,max_raw_material_cost,<=,6.5,,SOFT,0.85,Commercial raw material cost target per kg,Develop an ultra-low-cost school-safe fu,0.95
+PB008,PB008_C06,SENSORY,texture_profile,PREFERRED,Crunchy,,SOFT,0.7,"Sensory flavor, visual color, and mouthfeel target profile",Develop an ultra-low-cost school-safe fu,0.95
+PB008,PB008_C07,SENSORY,flavor_profile,PREFERRED,cocoa flavour,,SOFT,0.7,"Sensory flavor, visual color, and mouthfeel target profile",Develop an ultra-low-cost school-safe fu,0.95
+PB008,PB008_C08,SHELF_LIFE,shelf_stability,REQUIRED,12-month,,SOFT,0.75,Target ambient shelf stability requirement,Develop an ultra-low-cost school-safe fu,0.95
+PB009,PB009_C01,PRODUCT_CATEGORY,product_category,REQUIRED,Protein Bars / Functional Snacks,,SOFT,0.7,Extracted PRODUCT_CATEGORY requirement,Formulate a vegan endurance electrolyte ,0.95
+PB009,PB009_C02,DIETARY,dietary_pattern,FORBIDDEN,animal_derived_ingredients,,HARD,0.95,"Mandatory dietary label claim (Vegan, Gluten-Free, Dairy-Free)",Formulate a vegan endurance electrolyte ,0.95
+PB009,PB009_C03,NUTRITION,protein_min,>=,17.0,,SOFT,0.7,Extracted NUTRITION requirement,Formulate a vegan endurance electrolyte ,0.95
+PB009,PB009_C04,NUTRITION,fibre_min,>=,10.0,,SOFT,0.7,Extracted NUTRITION requirement,Formulate a vegan endurance electrolyte ,0.95
+PB009,PB009_C05,PROCESSING,water_activity,<=,0.6,,SOFT,0.7,Extracted PROCESSING requirement,Formulate a vegan endurance electrolyte ,0.95
+PB009,PB009_C06,SENSORY,texture_profile,PREFERRED,Chewy,,SOFT,0.7,"Sensory flavor, visual color, and mouthfeel target profile",Formulate a vegan endurance electrolyte ,0.95
+PB009,PB009_C07,SENSORY,flavor_profile,PREFERRED,citrus flavour,,SOFT,0.7,"Sensory flavor, visual color, and mouthfeel target profile",Formulate a vegan endurance electrolyte ,0.95
+PB009,PB009_C08,SENSORY,flavor_profile,PREFERRED,lemon flavour,,SOFT,0.7,"Sensory flavor, visual color, and mouthfeel target profile",Formulate a vegan endurance electrolyte ,0.95
+PB009,PB009_C09,SHELF_LIFE,shelf_stability,REQUIRED,9-month,,SOFT,0.75,Target ambient shelf stability requirement,Formulate a vegan endurance electrolyte ,0.95
+PB010,PB010_C01,PRODUCT_CATEGORY,product_category,REQUIRED,Protein Bars / Functional Snacks,,SOFT,0.7,Extracted PRODUCT_CATEGORY requirement,Create a premium chocolate brownie prote,0.95
+PB010,PB010_C02,NUTRITION,protein_min,>=,25.0,,SOFT,0.7,Extracted NUTRITION requirement,Create a premium chocolate brownie prote,0.95
+PB010,PB010_C03,NUTRITION,fat_max,<=,18.0,,SOFT,0.7,Extracted NUTRITION requirement,Create a premium chocolate brownie prote,0.95
+PB010,PB010_C04,COST,max_raw_material_cost,<=,15.0,,SOFT,0.85,Commercial raw material cost target per kg,Create a premium chocolate brownie prote,0.95
+PB010,PB010_C05,SENSORY,flavor_profile,PREFERRED,cocoa flavour,,SOFT,0.7,"Sensory flavor, visual color, and mouthfeel target profile",Create a premium chocolate brownie prote,0.95
+PB010,PB010_C06,SENSORY,flavor_profile,PREFERRED,chocolate flavour,,SOFT,0.7,"Sensory flavor, visual color, and mouthfeel target profile",Create a premium chocolate brownie prote,0.95
+PB011,PB011_C01,PRODUCT_CATEGORY,product_category,REQUIRED,Protein Bars / Functional Snacks,,SOFT,0.7,Extracted PRODUCT_CATEGORY requirement,Design a gluten-free vegan apple cinnamo,0.95
+PB011,PB011_C02,DIETARY,dietary_pattern,FORBIDDEN,animal_derived_ingredients,,HARD,0.95,"Mandatory dietary label claim (Vegan, Gluten-Free, Dairy-Free)",Design a gluten-free vegan apple cinnamo,0.95
+PB011,PB011_C03,ALLERGEN,gluten,FORBIDDEN,gluten_containing_grains,,HARD,1.0,Mandatory consumer allergen exclusion and cross-contact safety,Design a gluten-free vegan apple cinnamo,0.95
+PB011,PB011_C04,NUTRITION,protein_min,>=,16.0,,SOFT,0.7,Extracted NUTRITION requirement,Design a gluten-free vegan apple cinnamo,0.95
+PB011,PB011_C05,NUTRITION,fibre_min,>=,8.0,,SOFT,0.7,Extracted NUTRITION requirement,Design a gluten-free vegan apple cinnamo,0.95
+PB011,PB011_C06,COST,max_raw_material_cost,<=,10.5,,SOFT,0.85,Commercial raw material cost target per kg,Design a gluten-free vegan apple cinnamo,0.95
+PB011,PB011_C07,SENSORY,texture_profile,PREFERRED,Soft,,SOFT,0.7,"Sensory flavor, visual color, and mouthfeel target profile",Design a gluten-free vegan apple cinnamo,0.95
+PB011,PB011_C08,SHELF_LIFE,shelf_stability,REQUIRED,6-month,,SOFT,0.75,Target ambient shelf stability requirement,Design a gluten-free vegan apple cinnamo,0.95
+PB012,PB012_C01,PRODUCT_CATEGORY,product_category,REQUIRED,Protein Bars / Functional Snacks,,SOFT,0.7,Extracted PRODUCT_CATEGORY requirement,Develop a high-protein savory snack bar ,0.95
+PB012,PB012_C02,NUTRITION,protein_min,>=,20.0,,SOFT,0.7,Extracted NUTRITION requirement,Develop a high-protein savory snack bar ,0.95
+PB012,PB012_C03,NUTRITION,sugar_max,<=,5.0,,SOFT,0.7,Extracted NUTRITION requirement,Develop a high-protein savory snack bar ,0.95
+PB012,PB012_C04,PROCESSING,water_activity,<=,0.6,,SOFT,0.7,Extracted PROCESSING requirement,Develop a high-protein savory snack bar ,0.95
+PB012,PB012_C05,SENSORY,texture_profile,PREFERRED,Crunchy,,SOFT,0.7,"Sensory flavor, visual color, and mouthfeel target profile",Develop a high-protein savory snack bar ,0.95
+PB012,PB012_C06,SENSORY,flavor_profile,PREFERRED,garlic flavour,,SOFT,0.7,"Sensory flavor, visual color, and mouthfeel target profile",Develop a high-protein savory snack bar ,0.95
+PB012,PB012_C07,SENSORY,flavor_profile,PREFERRED,herb flavour,,SOFT,0.7,"Sensory flavor, visual color, and mouthfeel target profile",Develop a high-protein savory snack bar ,0.95
+PB012,PB012_C08,SENSORY,flavor_profile,PREFERRED,savory flavour,,SOFT,0.7,"Sensory flavor, visual color, and mouthfeel target profile",Develop a high-protein savory snack bar ,0.95
+PB012,PB012_C09,SHELF_LIFE,shelf_stability,REQUIRED,12-month,,SOFT,0.75,Target ambient shelf stability requirement,Develop a high-protein savory snack bar ,0.95
+PB013,PB013_C01,PRODUCT_CATEGORY,product_category,REQUIRED,Protein Bars / Functional Snacks,,SOFT,0.7,Extracted PRODUCT_CATEGORY requirement,Formulate a dairy-free coconut caramel p,0.95
+PB013,PB013_C02,ALLERGEN,dairy,FORBIDDEN,milk_and_dairy_derivatives,,HARD,1.0,Mandatory consumer allergen exclusion and cross-contact safety,Formulate a dairy-free coconut caramel p,0.95
+PB013,PB013_C03,NUTRITION,protein_min,>=,18.0,,SOFT,0.7,Extracted NUTRITION requirement,Formulate a dairy-free coconut caramel p,0.95
+PB013,PB013_C04,NUTRITION,fat_max,<=,20.0,,SOFT,0.7,Extracted NUTRITION requirement,Formulate a dairy-free coconut caramel p,0.95
+PB013,PB013_C05,COST,max_raw_material_cost,<=,11.0,,SOFT,0.85,Commercial raw material cost target per kg,Formulate a dairy-free coconut caramel p,0.95
+PB013,PB013_C06,SENSORY,texture_profile,PREFERRED,Smooth,,SOFT,0.7,"Sensory flavor, visual color, and mouthfeel target profile",Formulate a dairy-free coconut caramel p,0.95
+PB013,PB013_C07,SENSORY,texture_profile,PREFERRED,Chewy,,SOFT,0.7,"Sensory flavor, visual color, and mouthfeel target profile",Formulate a dairy-free coconut caramel p,0.95
+PB013,PB013_C08,SENSORY,flavor_profile,PREFERRED,caramel flavour,,SOFT,0.7,"Sensory flavor, visual color, and mouthfeel target profile",Formulate a dairy-free coconut caramel p,0.95
+PB013,PB013_C09,SHELF_LIFE,shelf_stability,REQUIRED,12 months,,SOFT,0.75,Target ambient shelf stability requirement,Formulate a dairy-free coconut caramel p,0.95
+PB014,PB014_C01,PRODUCT_CATEGORY,product_category,REQUIRED,Protein Bars / Functional Snacks,,SOFT,0.7,Extracted PRODUCT_CATEGORY requirement,Create a gut-health prebiotic protein ba,0.95
+PB014,PB014_C02,REGULATORY,clean_label,REQUIRED,no_synthetic_additives,,HARD,1.0,Mandatory regulatory compliance (FDA/EFSA/FSSAI Codex GSFA),Create a gut-health prebiotic protein ba,0.95
+PB014,PB014_C03,NUTRITION,protein_min,>=,15.0,,SOFT,0.7,Extracted NUTRITION requirement,Create a gut-health prebiotic protein ba,0.95
+PB014,PB014_C04,NUTRITION,fibre_min,>=,10.0,,SOFT,0.7,Extracted NUTRITION requirement,Create a gut-health prebiotic protein ba,0.95
+PB014,PB014_C05,COST,max_raw_material_cost,<=,12.5,,SOFT,0.85,Commercial raw material cost target per kg,Create a gut-health prebiotic protein ba,0.95
+PB014,PB014_C06,SENSORY,texture_profile,PREFERRED,Soft,,SOFT,0.7,"Sensory flavor, visual color, and mouthfeel target profile",Create a gut-health prebiotic protein ba,0.95
+PB014,PB014_C07,SENSORY,texture_profile,PREFERRED,Chewy,,SOFT,0.7,"Sensory flavor, visual color, and mouthfeel target profile",Create a gut-health prebiotic protein ba,0.95
+PB014,PB014_C08,SENSORY,flavor_profile,PREFERRED,vanilla flavour,,SOFT,0.7,"Sensory flavor, visual color, and mouthfeel target profile",Create a gut-health prebiotic protein ba,0.95
+PB014,PB014_C09,SENSORY,flavor_profile,PREFERRED,berry flavour,,SOFT,0.7,"Sensory flavor, visual color, and mouthfeel target profile",Create a gut-health prebiotic protein ba,0.95
+PB014,PB014_C10,SHELF_LIFE,shelf_stability,REQUIRED,12 months,,SOFT,0.75,Target ambient shelf stability requirement,Create a gut-health prebiotic protein ba,0.95
+PB015,PB015_C01,PRODUCT_CATEGORY,product_category,REQUIRED,Protein Bars / Functional Snacks,,SOFT,0.7,Extracted PRODUCT_CATEGORY requirement,Design a high-protein crispy cluster sna,0.95
+PB015,PB015_C02,NUTRITION,protein_min,>=,22.0,,SOFT,0.7,Extracted NUTRITION requirement,Design a high-protein crispy cluster sna,0.95
+PB015,PB015_C03,NUTRITION,fat_max,<=,12.0,,SOFT,0.7,Extracted NUTRITION requirement,Design a high-protein crispy cluster sna,0.95
+PB015,PB015_C04,COST,max_raw_material_cost,<=,9.5,,SOFT,0.85,Commercial raw material cost target per kg,Design a high-protein crispy cluster sna,0.95
+PB015,PB015_C05,FUNCTIONAL,foam_and_air_incorporation,REQUIRED,Aeration,,SOFT,0.8,"Target technological function (texture, emulsion, water activity)",Design a high-protein crispy cluster sna,0.95
+PB015,PB015_C06,PROCESSING,water_activity,<=,0.6,,SOFT,0.7,Extracted PROCESSING requirement,Design a high-protein crispy cluster sna,0.95
+PB015,PB015_C07,SENSORY,texture_profile,PREFERRED,Crunchy,,SOFT,0.7,"Sensory flavor, visual color, and mouthfeel target profile",Design a high-protein crispy cluster sna,0.95
+PB015,PB015_C08,SENSORY,flavor_profile,PREFERRED,chocolate flavour,,SOFT,0.7,"Sensory flavor, visual color, and mouthfeel target profile",Design a high-protein crispy cluster sna,0.95
+PB015,PB015_C09,SHELF_LIFE,shelf_stability,REQUIRED,9-month,,SOFT,0.75,Target ambient shelf stability requirement,Design a high-protein crispy cluster sna,0.95
+PB016,PB016_C01,PRODUCT_CATEGORY,product_category,REQUIRED,Protein Bars / Functional Snacks,,SOFT,0.7,Extracted PRODUCT_CATEGORY requirement,Develop a vegan zero-added-sugar almond ,0.95
+PB016,PB016_C02,DIETARY,dietary_pattern,FORBIDDEN,animal_derived_ingredients,,HARD,0.95,"Mandatory dietary label claim (Vegan, Gluten-Free, Dairy-Free)",Develop a vegan zero-added-sugar almond ,0.95
+PB016,PB016_C03,NUTRITION,protein_min,>=,20.0,,SOFT,0.7,Extracted NUTRITION requirement,Develop a vegan zero-added-sugar almond ,0.95
+PB016,PB016_C04,NUTRITION,sugar_max,<=,1.0,,SOFT,0.7,Extracted NUTRITION requirement,Develop a vegan zero-added-sugar almond ,0.95
+PB016,PB016_C05,COST,max_raw_material_cost,<=,13.0,,SOFT,0.85,Commercial raw material cost target per kg,Develop a vegan zero-added-sugar almond ,0.95
+PB016,PB016_C06,SENSORY,texture_profile,PREFERRED,Chewy,,SOFT,0.7,"Sensory flavor, visual color, and mouthfeel target profile",Develop a vegan zero-added-sugar almond ,0.95
+PB016,PB016_C07,SENSORY,texture_profile,PREFERRED,Firm,,SOFT,0.7,"Sensory flavor, visual color, and mouthfeel target profile",Develop a vegan zero-added-sugar almond ,0.95
+PB016,PB016_C08,SENSORY,flavor_profile,PREFERRED,vanilla flavour,,SOFT,0.7,"Sensory flavor, visual color, and mouthfeel target profile",Develop a vegan zero-added-sugar almond ,0.95
+PB016,PB016_C09,SENSORY,flavor_profile,PREFERRED,almond flavour,,SOFT,0.7,"Sensory flavor, visual color, and mouthfeel target profile",Develop a vegan zero-added-sugar almond ,0.95
+PB016,PB016_C10,SHELF_LIFE,shelf_stability,REQUIRED,12 months,,SOFT,0.75,Target ambient shelf stability requirement,Develop a vegan zero-added-sugar almond ,0.95
+PB017,PB017_C01,PRODUCT_CATEGORY,product_category,REQUIRED,Protein Bars / Functional Snacks,,SOFT,0.7,Extracted PRODUCT_CATEGORY requirement,Formulate a hypoallergenic protein energ,0.95
+PB017,PB017_C02,NUTRITION,protein_min,>=,14.0,,SOFT,0.7,Extracted NUTRITION requirement,Formulate a hypoallergenic protein energ,0.95
+PB017,PB017_C03,NUTRITION,fibre_min,>=,5.0,,SOFT,0.7,Extracted NUTRITION requirement,Formulate a hypoallergenic protein energ,0.95
+PB017,PB017_C04,SENSORY,texture_profile,PREFERRED,Soft,,SOFT,0.7,"Sensory flavor, visual color, and mouthfeel target profile",Formulate a hypoallergenic protein energ,0.95
+PB017,PB017_C05,SENSORY,flavor_profile,PREFERRED,cocoa flavour,,SOFT,0.7,"Sensory flavor, visual color, and mouthfeel target profile",Formulate a hypoallergenic protein energ,0.95
+PB017,PB017_C06,SHELF_LIFE,shelf_stability,REQUIRED,6-month,,SOFT,0.75,Target ambient shelf stability requirement,Formulate a hypoallergenic protein energ,0.95
+PB018,PB018_C01,PRODUCT_CATEGORY,product_category,REQUIRED,Protein Bars / Functional Snacks,,SOFT,0.7,Extracted PRODUCT_CATEGORY requirement,Create a clean label matcha green tea pr,0.95
+PB018,PB018_C02,REGULATORY,clean_label,REQUIRED,no_synthetic_additives,,HARD,1.0,Mandatory regulatory compliance (FDA/EFSA/FSSAI Codex GSFA),Create a clean label matcha green tea pr,0.95
+PB018,PB018_C03,NUTRITION,protein_min,>=,18.0,,SOFT,0.7,Extracted NUTRITION requirement,Create a clean label matcha green tea pr,0.95
+PB018,PB018_C04,SENSORY,texture_profile,PREFERRED,Smooth,,SOFT,0.7,"Sensory flavor, visual color, and mouthfeel target profile",Create a clean label matcha green tea pr,0.95
+PB018,PB018_C05,SENSORY,bitterness_masking,REQUIRED,Low Bitterness,,SOFT,0.7,"Sensory flavor, visual color, and mouthfeel target profile",Create a clean label matcha green tea pr,0.95
+PB018,PB018_C06,SHELF_LIFE,shelf_stability,REQUIRED,12 months,,SOFT,0.75,Target ambient shelf stability requirement,Create a clean label matcha green tea pr,0.95
+PB019,PB019_C01,PRODUCT_CATEGORY,product_category,REQUIRED,Protein Bars / Functional Snacks,,SOFT,0.7,Extracted PRODUCT_CATEGORY requirement,Design a high-fibre oat & chia protein s,0.95
+PB019,PB019_C02,NUTRITION,protein_min,>=,16.0,,SOFT,0.7,Extracted NUTRITION requirement,Design a high-fibre oat & chia protein s,0.95
+PB019,PB019_C03,NUTRITION,fibre_min,>=,9.0,,SOFT,0.7,Extracted NUTRITION requirement,Design a high-fibre oat & chia protein s,0.95
+PB019,PB019_C04,COST,max_raw_material_cost,<=,8.5,,SOFT,0.85,Commercial raw material cost target per kg,Design a high-fibre oat & chia protein s,0.95
+PB019,PB019_C05,SENSORY,texture_profile,PREFERRED,Chewy,,SOFT,0.7,"Sensory flavor, visual color, and mouthfeel target profile",Design a high-fibre oat & chia protein s,0.95
+PB019,PB019_C06,SENSORY,flavor_profile,PREFERRED,vanilla flavour,,SOFT,0.7,"Sensory flavor, visual color, and mouthfeel target profile",Design a high-fibre oat & chia protein s,0.95
+PB019,PB019_C07,SHELF_LIFE,shelf_stability,REQUIRED,9-month,,SOFT,0.75,Target ambient shelf stability requirement,Design a high-fibre oat & chia protein s,0.95
+PB020,PB020_C01,PRODUCT_CATEGORY,product_category,REQUIRED,Protein Bars / Functional Snacks,,SOFT,0.7,Extracted PRODUCT_CATEGORY requirement,Develop an ultra-high-protein plant bar ,0.95
+PB020,PB020_C02,NUTRITION,protein_min,>=,30.0,,SOFT,0.7,Extracted NUTRITION requirement,Develop an ultra-high-protein plant bar ,0.95
+PB020,PB020_C03,NUTRITION,fat_max,<=,14.0,,SOFT,0.7,Extracted NUTRITION requirement,Develop an ultra-high-protein plant bar ,0.95
+PB020,PB020_C04,COST,max_raw_material_cost,<=,14.5,,SOFT,0.85,Commercial raw material cost target per kg,Develop an ultra-high-protein plant bar ,0.95
+PB020,PB020_C05,SENSORY,flavor_profile,PREFERRED,chocolate flavour,,SOFT,0.7,"Sensory flavor, visual color, and mouthfeel target profile",Develop an ultra-high-protein plant bar ,0.95
+PB020,PB020_C06,SHELF_LIFE,shelf_stability,REQUIRED,9 month,,SOFT,0.75,Target ambient shelf stability requirement,Develop an ultra-high-protein plant bar ,0.95
+PB021,PB021_C01,PRODUCT_CATEGORY,product_category,REQUIRED,Plant-Based Beverages,,SOFT,0.7,Extracted PRODUCT_CATEGORY requirement,Create a vegan high-protein chocolate RT,0.95
+PB021,PB021_C02,DIETARY,dietary_pattern,FORBIDDEN,animal_derived_ingredients,,HARD,0.95,"Mandatory dietary label claim (Vegan, Gluten-Free, Dairy-Free)",Create a vegan high-protein chocolate RT,0.95
+PB021,PB021_C03,NUTRITION,protein_min,>=,6.0,,SOFT,0.7,Extracted NUTRITION requirement,Create a vegan high-protein chocolate RT,0.95
+PB021,PB021_C04,NUTRITION,fat_max,<=,2.0,,SOFT,0.7,Extracted NUTRITION requirement,Create a vegan high-protein chocolate RT,0.95
+PB021,PB021_C05,FUNCTIONAL,emulsification_stability,REQUIRED,Emulsification,,SOFT,0.8,"Target technological function (texture, emulsion, water activity)",Create a vegan high-protein chocolate RT,0.95
+PB021,PB021_C06,SENSORY,texture_profile,PREFERRED,Smooth,,SOFT,0.7,"Sensory flavor, visual color, and mouthfeel target profile",Create a vegan high-protein chocolate RT,0.95
+PB021,PB021_C07,SENSORY,texture_profile,PREFERRED,Creamy,,SOFT,0.7,"Sensory flavor, visual color, and mouthfeel target profile",Create a vegan high-protein chocolate RT,0.95
+PB021,PB021_C08,SENSORY,flavor_profile,PREFERRED,cocoa flavour,,SOFT,0.7,"Sensory flavor, visual color, and mouthfeel target profile",Create a vegan high-protein chocolate RT,0.95
+PB021,PB021_C09,SENSORY,flavor_profile,PREFERRED,chocolate flavour,,SOFT,0.7,"Sensory flavor, visual color, and mouthfeel target profile",Create a vegan high-protein chocolate RT,0.95
+PB021,PB021_C10,SHELF_LIFE,shelf_stability,REQUIRED,9-month,,SOFT,0.75,Target ambient shelf stability requirement,Create a vegan high-protein chocolate RT,0.95
+PB022,PB022_C01,PRODUCT_CATEGORY,product_category,REQUIRED,Sauces / Spreads / Emulsified Products,,SOFT,0.7,Extracted PRODUCT_CATEGORY requirement,Formulate a sugar-free oat vanilla latte,0.95
+PB022,PB022_C02,NUTRITION,protein_min,>=,3.0,,SOFT,0.7,Extracted NUTRITION requirement,Formulate a sugar-free oat vanilla latte,0.95
+PB022,PB022_C03,NUTRITION,sugar_max,<=,0.5,,SOFT,0.7,Extracted NUTRITION requirement,Formulate a sugar-free oat vanilla latte,0.95
+PB022,PB022_C04,SENSORY,texture_profile,PREFERRED,Creamy,,SOFT,0.7,"Sensory flavor, visual color, and mouthfeel target profile",Formulate a sugar-free oat vanilla latte,0.95
+PB022,PB022_C05,SENSORY,flavor_profile,PREFERRED,vanilla flavour,,SOFT,0.7,"Sensory flavor, visual color, and mouthfeel target profile",Formulate a sugar-free oat vanilla latte,0.95
+PB022,PB022_C06,SENSORY,flavor_profile,PREFERRED,coffee flavour,,SOFT,0.7,"Sensory flavor, visual color, and mouthfeel target profile",Formulate a sugar-free oat vanilla latte,0.95
+PB022,PB022_C07,SHELF_LIFE,shelf_stability,REQUIRED,12-month,,SOFT,0.75,Target ambient shelf stability requirement,Formulate a sugar-free oat vanilla latte,0.95
+PB023,PB023_C01,PRODUCT_CATEGORY,product_category,REQUIRED,Plant-Based Beverages,,SOFT,0.7,Extracted PRODUCT_CATEGORY requirement,Design a clean label almond protein reco,0.95
+PB023,PB023_C02,REGULATORY,clean_label,REQUIRED,no_synthetic_additives,,HARD,1.0,Mandatory regulatory compliance (FDA/EFSA/FSSAI Codex GSFA),Design a clean label almond protein reco,0.95
+PB023,PB023_C03,NUTRITION,protein_min,>=,5.0,,SOFT,0.7,Extracted NUTRITION requirement,Design a clean label almond protein reco,0.95
+PB023,PB023_C04,NUTRITION,fibre_min,>=,3.0,,SOFT,0.7,Extracted NUTRITION requirement,Design a clean label almond protein reco,0.95
+PB023,PB023_C05,COST,max_raw_material_cost,<=,7.5,,SOFT,0.85,Commercial raw material cost target per kg,Design a clean label almond protein reco,0.95
+PB023,PB023_C06,SENSORY,texture_profile,PREFERRED,Smooth,,SOFT,0.7,"Sensory flavor, visual color, and mouthfeel target profile",Design a clean label almond protein reco,0.95
+PB023,PB023_C07,SENSORY,flavor_profile,PREFERRED,almond flavour,,SOFT,0.7,"Sensory flavor, visual color, and mouthfeel target profile",Design a clean label almond protein reco,0.95
+PB024,PB024_C01,PRODUCT_CATEGORY,product_category,REQUIRED,Plant-Based Beverages,,SOFT,0.7,Extracted PRODUCT_CATEGORY requirement,Develop a nut-free allergen-safe plant m,0.95
+PB024,PB024_C02,ALLERGEN,tree_nuts_and_peanuts,FORBIDDEN,peanut_and_tree_nut_allergens,,HARD,1.0,Mandatory consumer allergen exclusion and cross-contact safety,Develop a nut-free allergen-safe plant m,0.95
+PB024,PB024_C03,NUTRITION,protein_min,>=,4.0,,SOFT,0.7,Extracted NUTRITION requirement,Develop a nut-free allergen-safe plant m,0.95
+PB024,PB024_C04,NUTRITION,sugar_max,<=,4.0,,SOFT,0.7,Extracted NUTRITION requirement,Develop a nut-free allergen-safe plant m,0.95
+PB024,PB024_C05,COST,max_raw_material_cost,<=,5.0,,SOFT,0.85,Commercial raw material cost target per kg,Develop a nut-free allergen-safe plant m,0.95
+PB024,PB024_C06,SENSORY,texture_profile,PREFERRED,Smooth,,SOFT,0.7,"Sensory flavor, visual color, and mouthfeel target profile",Develop a nut-free allergen-safe plant m,0.95
+PB024,PB024_C07,SENSORY,texture_profile,PREFERRED,Creamy,,SOFT,0.7,"Sensory flavor, visual color, and mouthfeel target profile",Develop a nut-free allergen-safe plant m,0.95
+PB024,PB024_C08,SENSORY,flavor_profile,PREFERRED,vanilla flavour,,SOFT,0.7,"Sensory flavor, visual color, and mouthfeel target profile",Develop a nut-free allergen-safe plant m,0.95
+PB024,PB024_C09,SHELF_LIFE,shelf_stability,REQUIRED,6-month,,SOFT,0.75,Target ambient shelf stability requirement,Develop a nut-free allergen-safe plant m,0.95
+PB025,PB025_C01,PRODUCT_CATEGORY,product_category,REQUIRED,Plant-Based Beverages,,SOFT,0.7,Extracted PRODUCT_CATEGORY requirement,Formulate an elderly-oriented nutrient-d,0.95
+PB025,PB025_C02,NUTRITION,protein_min,>=,7.0,,SOFT,0.7,Extracted NUTRITION requirement,Formulate an elderly-oriented nutrient-d,0.95
+PB025,PB025_C03,FUNCTIONAL,emulsification_stability,REQUIRED,Emulsification,,SOFT,0.8,"Target technological function (texture, emulsion, water activity)",Formulate an elderly-oriented nutrient-d,0.95
+PB025,PB025_C04,SENSORY,flavor_profile,PREFERRED,vanilla flavour,,SOFT,0.7,"Sensory flavor, visual color, and mouthfeel target profile",Formulate an elderly-oriented nutrient-d,0.95
+PB025,PB025_C05,SHELF_LIFE,shelf_stability,REQUIRED,9-month,,SOFT,0.75,Target ambient shelf stability requirement,Formulate an elderly-oriented nutrient-d,0.95
+PB026,PB026_C01,PRODUCT_CATEGORY,product_category,REQUIRED,Sauces / Spreads / Emulsified Products,,SOFT,0.7,Extracted PRODUCT_CATEGORY requirement,Create a ketogenic coconut MCT plant bev,0.95
+PB026,PB026_C02,NUTRITION,protein_min,>=,4.0,,SOFT,0.7,Extracted NUTRITION requirement,Create a ketogenic coconut MCT plant bev,0.95
+PB026,PB026_C03,NUTRITION,fat_max,<=,8.0,,SOFT,0.7,Extracted NUTRITION requirement,Create a ketogenic coconut MCT plant bev,0.95
+PB026,PB026_C04,SENSORY,texture_profile,PREFERRED,Creamy,,SOFT,0.7,"Sensory flavor, visual color, and mouthfeel target profile",Create a ketogenic coconut MCT plant bev,0.95
+PB026,PB026_C05,SHELF_LIFE,shelf_stability,REQUIRED,12 months,,SOFT,0.75,Target ambient shelf stability requirement,Create a ketogenic coconut MCT plant bev,0.95
+PB027,PB027_C01,PRODUCT_CATEGORY,product_category,REQUIRED,Plant-Based Beverages,,SOFT,0.7,Extracted PRODUCT_CATEGORY requirement,Design a refreshing plant-based citrus e,0.95
+PB027,PB027_C02,NUTRITION,protein_min,>=,3.0,,SOFT,0.7,Extracted NUTRITION requirement,Design a refreshing plant-based citrus e,0.95
+PB027,PB027_C03,NUTRITION,sugar_max,<=,5.0,,SOFT,0.7,Extracted NUTRITION requirement,Design a refreshing plant-based citrus e,0.95
+PB027,PB027_C04,SENSORY,flavor_profile,PREFERRED,citrus flavour,,SOFT,0.7,"Sensory flavor, visual color, and mouthfeel target profile",Design a refreshing plant-based citrus e,0.95
+PB027,PB027_C05,SENSORY,flavor_profile,PREFERRED,lemon flavour,,SOFT,0.7,"Sensory flavor, visual color, and mouthfeel target profile",Design a refreshing plant-based citrus e,0.95
+PB027,PB027_C06,SHELF_LIFE,shelf_stability,REQUIRED,6-month,,SOFT,0.75,Target ambient shelf stability requirement,Design a refreshing plant-based citrus e,0.95
+PB028,PB028_C01,PRODUCT_CATEGORY,product_category,REQUIRED,Plant-Based Beverages,,SOFT,0.7,Extracted PRODUCT_CATEGORY requirement,Develop an ultra-low-cost commercial pla,0.95
+PB028,PB028_C02,ALLERGEN,dairy,FORBIDDEN,milk_and_dairy_derivatives,,HARD,1.0,Mandatory consumer allergen exclusion and cross-contact safety,Develop an ultra-low-cost commercial pla,0.95
+PB028,PB028_C03,NUTRITION,protein_min,>=,2.5,,SOFT,0.7,Extracted NUTRITION requirement,Develop an ultra-low-cost commercial pla,0.95
+PB028,PB028_C04,COST,max_raw_material_cost,<=,4.0,,SOFT,0.85,Commercial raw material cost target per kg,Develop an ultra-low-cost commercial pla,0.95
+PB028,PB028_C05,SENSORY,texture_profile,PREFERRED,Smooth,,SOFT,0.7,"Sensory flavor, visual color, and mouthfeel target profile",Develop an ultra-low-cost commercial pla,0.95
+PB028,PB028_C06,SENSORY,texture_profile,PREFERRED,Creamy,,SOFT,0.7,"Sensory flavor, visual color, and mouthfeel target profile",Develop an ultra-low-cost commercial pla,0.95
+PB028,PB028_C07,SHELF_LIFE,shelf_stability,REQUIRED,12-month,,SOFT,0.75,Target ambient shelf stability requirement,Develop an ultra-low-cost commercial pla,0.95
+PB029,PB029_C01,PRODUCT_CATEGORY,product_category,REQUIRED,Plant-Based Beverages,,SOFT,0.7,Extracted PRODUCT_CATEGORY requirement,Formulate a gut-health prebiotic golden ,0.95
+PB029,PB029_C02,NUTRITION,protein_min,>=,3.0,,SOFT,0.7,Extracted NUTRITION requirement,Formulate a gut-health prebiotic golden ,0.95
+PB029,PB029_C03,SENSORY,bitterness_masking,REQUIRED,Low Bitterness,,SOFT,0.7,"Sensory flavor, visual color, and mouthfeel target profile",Formulate a gut-health prebiotic golden ,0.95
+PB029,PB029_C04,SHELF_LIFE,shelf_stability,REQUIRED,6-month,,SOFT,0.75,Target ambient shelf stability requirement,Formulate a gut-health prebiotic golden ,0.95
+PB030,PB030_C01,PRODUCT_CATEGORY,product_category,REQUIRED,Plant-Based Beverages,,SOFT,0.7,Extracted PRODUCT_CATEGORY requirement,Create a high-protein plant-based berry ,0.95
+PB030,PB030_C02,NUTRITION,protein_min,>=,8.0,,SOFT,0.7,Extracted NUTRITION requirement,Create a high-protein plant-based berry ,0.95
+PB030,PB030_C03,NUTRITION,fibre_min,>=,5.0,,SOFT,0.7,Extracted NUTRITION requirement,Create a high-protein plant-based berry ,0.95
+PB030,PB030_C04,SENSORY,texture_profile,PREFERRED,Smooth,,SOFT,0.7,"Sensory flavor, visual color, and mouthfeel target profile",Create a high-protein plant-based berry ,0.95
+PB030,PB030_C05,SENSORY,texture_profile,PREFERRED,Viscous,,SOFT,0.7,"Sensory flavor, visual color, and mouthfeel target profile",Create a high-protein plant-based berry ,0.95
+PB030,PB030_C06,SENSORY,flavor_profile,PREFERRED,berry flavour,,SOFT,0.7,"Sensory flavor, visual color, and mouthfeel target profile",Create a high-protein plant-based berry ,0.95
+PB030,PB030_C07,SENSORY,flavor_profile,PREFERRED,strawberry flavour,,SOFT,0.7,"Sensory flavor, visual color, and mouthfeel target profile",Create a high-protein plant-based berry ,0.95
+PB030,PB030_C08,SENSORY,flavor_profile,PREFERRED,blueberry flavour,,SOFT,0.7,"Sensory flavor, visual color, and mouthfeel target profile",Create a high-protein plant-based berry ,0.95
+PB030,PB030_C09,SHELF_LIFE,shelf_stability,REQUIRED,45-day,,SOFT,0.75,Target ambient shelf stability requirement,Create a high-protein plant-based berry ,0.95
+PB031,PB031_C01,PRODUCT_CATEGORY,product_category,REQUIRED,Sauces / Spreads / Emulsified Products,,SOFT,0.7,Extracted PRODUCT_CATEGORY requirement,Design a gluten-free plant-based cold br,0.95
+PB031,PB031_C02,ALLERGEN,gluten,FORBIDDEN,gluten_containing_grains,,HARD,1.0,Mandatory consumer allergen exclusion and cross-contact safety,Design a gluten-free plant-based cold br,0.95
+PB031,PB031_C03,NUTRITION,protein_min,>=,6.0,,SOFT,0.7,Extracted NUTRITION requirement,Design a gluten-free plant-based cold br,0.95
+PB031,PB031_C04,NUTRITION,sugar_max,<=,3.0,,SOFT,0.7,Extracted NUTRITION requirement,Design a gluten-free plant-based cold br,0.95
+PB031,PB031_C05,SENSORY,flavor_profile,PREFERRED,coffee flavour,,SOFT,0.7,"Sensory flavor, visual color, and mouthfeel target profile",Design a gluten-free plant-based cold br,0.95
+PB031,PB031_C06,SHELF_LIFE,shelf_stability,REQUIRED,9-month,,SOFT,0.75,Target ambient shelf stability requirement,Design a gluten-free plant-based cold br,0.95
+PB032,PB032_C01,PRODUCT_CATEGORY,product_category,REQUIRED,Plant-Based Beverages,,SOFT,0.7,Extracted PRODUCT_CATEGORY requirement,Develop a vegan chocolate hazelnut recov,0.95
+PB032,PB032_C02,DIETARY,dietary_pattern,FORBIDDEN,animal_derived_ingredients,,HARD,0.95,"Mandatory dietary label claim (Vegan, Gluten-Free, Dairy-Free)",Develop a vegan chocolate hazelnut recov,0.95
+PB032,PB032_C03,NUTRITION,protein_min,>=,5.0,,SOFT,0.7,Extracted NUTRITION requirement,Develop a vegan chocolate hazelnut recov,0.95
+PB032,PB032_C04,COST,max_raw_material_cost,<=,8.0,,SOFT,0.85,Commercial raw material cost target per kg,Develop a vegan chocolate hazelnut recov,0.95
+PB032,PB032_C05,SENSORY,flavor_profile,PREFERRED,cocoa flavour,,SOFT,0.7,"Sensory flavor, visual color, and mouthfeel target profile",Develop a vegan chocolate hazelnut recov,0.95
+PB032,PB032_C06,SENSORY,flavor_profile,PREFERRED,chocolate flavour,,SOFT,0.7,"Sensory flavor, visual color, and mouthfeel target profile",Develop a vegan chocolate hazelnut recov,0.95
+PB033,PB033_C01,PRODUCT_CATEGORY,product_category,REQUIRED,Plant-Based Beverages,,SOFT,0.7,Extracted PRODUCT_CATEGORY requirement,Formulate an allergen-free pea protein R,0.95
+PB033,PB033_C02,ALLERGEN,major_allergens,FORBIDDEN,top_9_allergens,,HARD,1.0,Mandatory consumer allergen exclusion and cross-contact safety,Formulate an allergen-free pea protein R,0.95
+PB033,PB033_C03,NUTRITION,protein_min,>=,7.0,,SOFT,0.7,Extracted NUTRITION requirement,Formulate an allergen-free pea protein R,0.95
+PB033,PB033_C04,SENSORY,texture_profile,PREFERRED,Smooth,,SOFT,0.7,"Sensory flavor, visual color, and mouthfeel target profile",Formulate an allergen-free pea protein R,0.95
+PB033,PB033_C05,SENSORY,flavor_profile,PREFERRED,vanilla flavour,,SOFT,0.7,"Sensory flavor, visual color, and mouthfeel target profile",Formulate an allergen-free pea protein R,0.95
+PB033,PB033_C06,SENSORY,bitterness_masking,REQUIRED,Low Bitterness,,SOFT,0.7,"Sensory flavor, visual color, and mouthfeel target profile",Formulate an allergen-free pea protein R,0.95
+PB033,PB033_C07,SHELF_LIFE,shelf_stability,REQUIRED,12-month,,SOFT,0.75,Target ambient shelf stability requirement,Formulate an allergen-free pea protein R,0.95
+PB034,PB034_C01,PRODUCT_CATEGORY,product_category,REQUIRED,Plant-Based Beverages,,SOFT,0.7,Extracted PRODUCT_CATEGORY requirement,Create a clean label dairy-free matcha l,0.95
+PB034,PB034_C02,ALLERGEN,dairy,FORBIDDEN,milk_and_dairy_derivatives,,HARD,1.0,Mandatory consumer allergen exclusion and cross-contact safety,Create a clean label dairy-free matcha l,0.95
+PB034,PB034_C03,REGULATORY,clean_label,REQUIRED,no_synthetic_additives,,HARD,1.0,Mandatory regulatory compliance (FDA/EFSA/FSSAI Codex GSFA),Create a clean label dairy-free matcha l,0.95
+PB034,PB034_C04,NUTRITION,protein_min,>=,3.5,,SOFT,0.7,Extracted NUTRITION requirement,Create a clean label dairy-free matcha l,0.95
+PB034,PB034_C05,NUTRITION,sugar_max,<=,4.0,,SOFT,0.7,Extracted NUTRITION requirement,Create a clean label dairy-free matcha l,0.95
+PB034,PB034_C06,SENSORY,texture_profile,PREFERRED,Creamy,,SOFT,0.7,"Sensory flavor, visual color, and mouthfeel target profile",Create a clean label dairy-free matcha l,0.95
+PB034,PB034_C07,SHELF_LIFE,shelf_stability,REQUIRED,6-month,,SOFT,0.75,Target ambient shelf stability requirement,Create a clean label dairy-free matcha l,0.95
+PB035,PB035_C01,PRODUCT_CATEGORY,product_category,REQUIRED,Plant-Based Beverages,,SOFT,0.7,Extracted PRODUCT_CATEGORY requirement,Design a low-calorie plant-based hydrati,0.95
+PB035,PB035_C02,NUTRITION,protein_min,>=,2.0,,SOFT,0.7,Extracted NUTRITION requirement,Design a low-calorie plant-based hydrati,0.95
+PB035,PB035_C03,SENSORY,flavor_profile,PREFERRED,berry flavour,,SOFT,0.7,"Sensory flavor, visual color, and mouthfeel target profile",Design a low-calorie plant-based hydrati,0.95
+PB035,PB035_C04,SHELF_LIFE,shelf_stability,REQUIRED,9-month,,SOFT,0.75,Target ambient shelf stability requirement,Design a low-calorie plant-based hydrati,0.95
+PB036,PB036_C01,PRODUCT_CATEGORY,product_category,REQUIRED,Plant-Based Beverages,,SOFT,0.7,Extracted PRODUCT_CATEGORY requirement,Develop a functional sleep-support plant,0.95
+PB036,PB036_C02,NUTRITION,protein_min,>=,3.0,,SOFT,0.7,Extracted NUTRITION requirement,Develop a functional sleep-support plant,0.95
+PB036,PB036_C03,NUTRITION,fat_max,<=,5.0,,SOFT,0.7,Extracted NUTRITION requirement,Develop a functional sleep-support plant,0.95
+PB036,PB036_C04,SENSORY,texture_profile,PREFERRED,Smooth,,SOFT,0.7,"Sensory flavor, visual color, and mouthfeel target profile",Develop a functional sleep-support plant,0.95
+PB036,PB036_C05,SENSORY,flavor_profile,PREFERRED,vanilla flavour,,SOFT,0.7,"Sensory flavor, visual color, and mouthfeel target profile",Develop a functional sleep-support plant,0.95
+PB036,PB036_C06,SENSORY,flavor_profile,PREFERRED,herb flavour,,SOFT,0.7,"Sensory flavor, visual color, and mouthfeel target profile",Develop a functional sleep-support plant,0.95
+PB036,PB036_C07,SHELF_LIFE,shelf_stability,REQUIRED,12-month,,SOFT,0.75,Target ambient shelf stability requirement,Develop a functional sleep-support plant,0.95
+PB037,PB037_C01,PRODUCT_CATEGORY,product_category,REQUIRED,General,,SOFT,0.7,Extracted PRODUCT_CATEGORY requirement,Formulate a diabetic-safe unsweetened pl,0.95
+PB037,PB037_C02,NUTRITION,protein_min,>=,4.0,,SOFT,0.7,Extracted NUTRITION requirement,Formulate a diabetic-safe unsweetened pl,0.95
+PB037,PB037_C03,NUTRITION,sugar_max,<=,0.2,,SOFT,0.7,Extracted NUTRITION requirement,Formulate a diabetic-safe unsweetened pl,0.95
+PB037,PB037_C04,COST,max_raw_material_cost,<=,5.5,,SOFT,0.85,Commercial raw material cost target per kg,Formulate a diabetic-safe unsweetened pl,0.95
+PB037,PB037_C05,SENSORY,texture_profile,PREFERRED,Creamy,,SOFT,0.7,"Sensory flavor, visual color, and mouthfeel target profile",Formulate a diabetic-safe unsweetened pl,0.95
+PB037,PB037_C06,SHELF_LIFE,shelf_stability,REQUIRED,9-month,,SOFT,0.75,Target ambient shelf stability requirement,Formulate a diabetic-safe unsweetened pl,0.95
+PB038,PB038_C01,PRODUCT_CATEGORY,product_category,REQUIRED,Plant-Based Beverages,,SOFT,0.7,Extracted PRODUCT_CATEGORY requirement,Create a fortified plant-based breakfast,0.95
+PB038,PB038_C02,NUTRITION,protein_min,>=,5.0,,SOFT,0.7,Extracted NUTRITION requirement,Create a fortified plant-based breakfast,0.95
+PB038,PB038_C03,NUTRITION,fibre_min,>=,4.0,,SOFT,0.7,Extracted NUTRITION requirement,Create a fortified plant-based breakfast,0.95
+PB038,PB038_C04,COST,max_raw_material_cost,<=,6.8,,SOFT,0.85,Commercial raw material cost target per kg,Create a fortified plant-based breakfast,0.95
+PB038,PB038_C05,SENSORY,flavor_profile,PREFERRED,vanilla flavour,,SOFT,0.7,"Sensory flavor, visual color, and mouthfeel target profile",Create a fortified plant-based breakfast,0.95
+PB038,PB038_C06,SHELF_LIFE,shelf_stability,REQUIRED,6-month,,SOFT,0.75,Target ambient shelf stability requirement,Create a fortified plant-based breakfast,0.95
+PB039,PB039_C01,PRODUCT_CATEGORY,product_category,REQUIRED,Plant-Based Beverages,,SOFT,0.7,Extracted PRODUCT_CATEGORY requirement,Design a high-protein post-workout chai ,0.95
+PB039,PB039_C02,NUTRITION,protein_min,>=,8.0,,SOFT,0.7,Extracted NUTRITION requirement,Design a high-protein post-workout chai ,0.95
+PB039,PB039_C03,NUTRITION,fat_max,<=,3.0,,SOFT,0.7,Extracted NUTRITION requirement,Design a high-protein post-workout chai ,0.95
+PB039,PB039_C04,SHELF_LIFE,shelf_stability,REQUIRED,9-month,,SOFT,0.75,Target ambient shelf stability requirement,Design a high-protein post-workout chai ,0.95
+PB040,PB040_C01,PRODUCT_CATEGORY,product_category,REQUIRED,Plant-Based Beverages,,SOFT,0.7,Extracted PRODUCT_CATEGORY requirement,Develop an organic clean-label plant pro,0.95
+PB040,PB040_C02,REGULATORY,clean_label,REQUIRED,no_synthetic_additives,,HARD,1.0,Mandatory regulatory compliance (FDA/EFSA/FSSAI Codex GSFA),Develop an organic clean-label plant pro,0.95
+PB040,PB040_C03,NUTRITION,protein_min,>=,6.0,,SOFT,0.7,Extracted NUTRITION requirement,Develop an organic clean-label plant pro,0.95
+PB040,PB040_C04,NUTRITION,fibre_min,>=,3.0,,SOFT,0.7,Extracted NUTRITION requirement,Develop an organic clean-label plant pro,0.95
+PB040,PB040_C05,COST,max_raw_material_cost,<=,9.0,,SOFT,0.85,Commercial raw material cost target per kg,Develop an organic clean-label plant pro,0.95
+PB040,PB040_C06,SENSORY,flavor_profile,PREFERRED,cocoa flavour,,SOFT,0.7,"Sensory flavor, visual color, and mouthfeel target profile",Develop an organic clean-label plant pro,0.95
+PB040,PB040_C07,SHELF_LIFE,shelf_stability,REQUIRED,12-month,,SOFT,0.75,Target ambient shelf stability requirement,Develop an organic clean-label plant pro,0.95
+PB041,PB041_C01,PRODUCT_CATEGORY,product_category,REQUIRED,Plant-Based Yogurt / Dairy Alternatives,,SOFT,0.7,Extracted PRODUCT_CATEGORY requirement,Create a vegan high-protein Greek-style ,0.95
+PB041,PB041_C02,DIETARY,dietary_pattern,FORBIDDEN,animal_derived_ingredients,,HARD,0.95,"Mandatory dietary label claim (Vegan, Gluten-Free, Dairy-Free)",Create a vegan high-protein Greek-style ,0.95
+PB041,PB041_C03,NUTRITION,protein_min,>=,8.0,,SOFT,0.7,Extracted NUTRITION requirement,Create a vegan high-protein Greek-style ,0.95
+PB041,PB041_C04,NUTRITION,fat_max,<=,4.0,,SOFT,0.7,Extracted NUTRITION requirement,Create a vegan high-protein Greek-style ,0.95
+PB041,PB041_C05,SENSORY,texture_profile,PREFERRED,Smooth,,SOFT,0.7,"Sensory flavor, visual color, and mouthfeel target profile",Create a vegan high-protein Greek-style ,0.95
+PB041,PB041_C06,SHELF_LIFE,shelf_stability,REQUIRED,45-day,,SOFT,0.75,Target ambient shelf stability requirement,Create a vegan high-protein Greek-style ,0.95
+PB042,PB042_C01,PRODUCT_CATEGORY,product_category,REQUIRED,Plant-Based Yogurt / Dairy Alternatives,,SOFT,0.7,Extracted PRODUCT_CATEGORY requirement,Formulate a clean label coconut-based va,0.95
+PB042,PB042_C02,REGULATORY,clean_label,REQUIRED,no_synthetic_additives,,HARD,1.0,Mandatory regulatory compliance (FDA/EFSA/FSSAI Codex GSFA),Formulate a clean label coconut-based va,0.95
+PB042,PB042_C03,NUTRITION,protein_min,>=,3.0,,SOFT,0.7,Extracted NUTRITION requirement,Formulate a clean label coconut-based va,0.95
+PB042,PB042_C04,NUTRITION,sugar_max,<=,5.0,,SOFT,0.7,Extracted NUTRITION requirement,Formulate a clean label coconut-based va,0.95
+PB042,PB042_C05,SENSORY,texture_profile,PREFERRED,Creamy,,SOFT,0.7,"Sensory flavor, visual color, and mouthfeel target profile",Formulate a clean label coconut-based va,0.95
+PB042,PB042_C06,SENSORY,texture_profile,PREFERRED,Firm,,SOFT,0.7,"Sensory flavor, visual color, and mouthfeel target profile",Formulate a clean label coconut-based va,0.95
+PB042,PB042_C07,SENSORY,flavor_profile,PREFERRED,vanilla flavour,,SOFT,0.7,"Sensory flavor, visual color, and mouthfeel target profile",Formulate a clean label coconut-based va,0.95
+PB042,PB042_C08,SHELF_LIFE,shelf_stability,REQUIRED,60-day,,SOFT,0.75,Target ambient shelf stability requirement,Formulate a clean label coconut-based va,0.95
+PB043,PB043_C01,PRODUCT_CATEGORY,product_category,REQUIRED,Plant-Based Yogurt / Dairy Alternatives,,SOFT,0.7,Extracted PRODUCT_CATEGORY requirement,Design a sugar-free probiotic oat yogurt,0.95
+PB043,PB043_C02,NUTRITION,protein_min,>=,4.0,,SOFT,0.7,Extracted NUTRITION requirement,Design a sugar-free probiotic oat yogurt,0.95
+PB043,PB043_C03,NUTRITION,sugar_max,<=,0.5,,SOFT,0.7,Extracted NUTRITION requirement,Design a sugar-free probiotic oat yogurt,0.95
+PB043,PB043_C04,COST,max_raw_material_cost,<=,6.5,,SOFT,0.85,Commercial raw material cost target per kg,Design a sugar-free probiotic oat yogurt,0.95
+PB043,PB043_C05,SENSORY,texture_profile,PREFERRED,Smooth,,SOFT,0.7,"Sensory flavor, visual color, and mouthfeel target profile",Design a sugar-free probiotic oat yogurt,0.95
+PB043,PB043_C06,SENSORY,texture_profile,PREFERRED,Creamy,,SOFT,0.7,"Sensory flavor, visual color, and mouthfeel target profile",Design a sugar-free probiotic oat yogurt,0.95
+PB044,PB044_C01,PRODUCT_CATEGORY,product_category,REQUIRED,Plant-Based Yogurt / Dairy Alternatives,,SOFT,0.7,Extracted PRODUCT_CATEGORY requirement,Develop an allergen-free plant-based str,0.95
+PB044,PB044_C02,ALLERGEN,major_allergens,FORBIDDEN,top_9_allergens,,HARD,1.0,Mandatory consumer allergen exclusion and cross-contact safety,Develop an allergen-free plant-based str,0.95
+PB044,PB044_C03,NUTRITION,protein_min,>=,3.5,,SOFT,0.7,Extracted NUTRITION requirement,Develop an allergen-free plant-based str,0.95
+PB044,PB044_C04,NUTRITION,fibre_min,>=,3.0,,SOFT,0.7,Extracted NUTRITION requirement,Develop an allergen-free plant-based str,0.95
+PB044,PB044_C05,SENSORY,texture_profile,PREFERRED,Smooth,,SOFT,0.7,"Sensory flavor, visual color, and mouthfeel target profile",Develop an allergen-free plant-based str,0.95
+PB044,PB044_C06,SENSORY,flavor_profile,PREFERRED,berry flavour,,SOFT,0.7,"Sensory flavor, visual color, and mouthfeel target profile",Develop an allergen-free plant-based str,0.95
+PB044,PB044_C07,SENSORY,flavor_profile,PREFERRED,strawberry flavour,,SOFT,0.7,"Sensory flavor, visual color, and mouthfeel target profile",Develop an allergen-free plant-based str,0.95
+PB044,PB044_C08,SHELF_LIFE,shelf_stability,REQUIRED,45-day,,SOFT,0.75,Target ambient shelf stability requirement,Develop an allergen-free plant-based str,0.95
+PB045,PB045_C01,PRODUCT_CATEGORY,product_category,REQUIRED,Plant-Based Yogurt / Dairy Alternatives,,SOFT,0.7,Extracted PRODUCT_CATEGORY requirement,Formulate an elderly-friendly nutrient-d,0.95
+PB045,PB045_C02,NUTRITION,protein_min,>=,6.0,,SOFT,0.7,Extracted NUTRITION requirement,Formulate an elderly-friendly nutrient-d,0.95
+PB045,PB045_C03,SENSORY,texture_profile,PREFERRED,Smooth,,SOFT,0.7,"Sensory flavor, visual color, and mouthfeel target profile",Formulate an elderly-friendly nutrient-d,0.95
+PB045,PB045_C04,SENSORY,texture_profile,PREFERRED,Creamy,,SOFT,0.7,"Sensory flavor, visual color, and mouthfeel target profile",Formulate an elderly-friendly nutrient-d,0.95
+PB045,PB045_C05,SHELF_LIFE,shelf_stability,REQUIRED,60-day,,SOFT,0.75,Target ambient shelf stability requirement,Formulate an elderly-friendly nutrient-d,0.95
+PB046,PB046_C01,PRODUCT_CATEGORY,product_category,REQUIRED,Plant-Based Yogurt / Dairy Alternatives,,SOFT,0.7,Extracted PRODUCT_CATEGORY requirement,Create a keto high-fat coconut yogurt al,0.95
+PB046,PB046_C02,NUTRITION,protein_min,>=,3.0,,SOFT,0.7,Extracted NUTRITION requirement,Create a keto high-fat coconut yogurt al,0.95
+PB046,PB046_C03,NUTRITION,fat_max,<=,12.0,,SOFT,0.7,Extracted NUTRITION requirement,Create a keto high-fat coconut yogurt al,0.95
+PB046,PB046_C04,SHELF_LIFE,shelf_stability,REQUIRED,45-day,,SOFT,0.75,Target ambient shelf stability requirement,Create a keto high-fat coconut yogurt al,0.95
+PB047,PB047_C01,PRODUCT_CATEGORY,product_category,REQUIRED,Plant-Based Yogurt / Dairy Alternatives,,SOFT,0.7,Extracted PRODUCT_CATEGORY requirement,Design a clean label almond-based bluebe,0.95
+PB047,PB047_C02,REGULATORY,clean_label,REQUIRED,no_synthetic_additives,,HARD,1.0,Mandatory regulatory compliance (FDA/EFSA/FSSAI Codex GSFA),Design a clean label almond-based bluebe,0.95
+PB047,PB047_C03,NUTRITION,protein_min,>=,4.0,,SOFT,0.7,Extracted NUTRITION requirement,Design a clean label almond-based bluebe,0.95
+PB047,PB047_C04,NUTRITION,fibre_min,>=,4.0,,SOFT,0.7,Extracted NUTRITION requirement,Design a clean label almond-based bluebe,0.95
+PB047,PB047_C05,COST,max_raw_material_cost,<=,7.5,,SOFT,0.85,Commercial raw material cost target per kg,Design a clean label almond-based bluebe,0.95
+PB047,PB047_C06,SENSORY,texture_profile,PREFERRED,Smooth,,SOFT,0.7,"Sensory flavor, visual color, and mouthfeel target profile",Design a clean label almond-based bluebe,0.95
+PB047,PB047_C07,SENSORY,flavor_profile,PREFERRED,berry flavour,,SOFT,0.7,"Sensory flavor, visual color, and mouthfeel target profile",Design a clean label almond-based bluebe,0.95
+PB047,PB047_C08,SENSORY,flavor_profile,PREFERRED,blueberry flavour,,SOFT,0.7,"Sensory flavor, visual color, and mouthfeel target profile",Design a clean label almond-based bluebe,0.95
+PB047,PB047_C09,SENSORY,flavor_profile,PREFERRED,almond flavour,,SOFT,0.7,"Sensory flavor, visual color, and mouthfeel target profile",Design a clean label almond-based bluebe,0.95
+PB048,PB048_C01,PRODUCT_CATEGORY,product_category,REQUIRED,Plant-Based Yogurt / Dairy Alternatives,,SOFT,0.7,Extracted PRODUCT_CATEGORY requirement,Develop an ultra-low-cost commercial pla,0.95
+PB048,PB048_C02,NUTRITION,protein_min,>=,3.0,,SOFT,0.7,Extracted NUTRITION requirement,Develop an ultra-low-cost commercial pla,0.95
+PB048,PB048_C03,COST,max_raw_material_cost,<=,4.5,,SOFT,0.85,Commercial raw material cost target per kg,Develop an ultra-low-cost commercial pla,0.95
+PB048,PB048_C04,SHELF_LIFE,shelf_stability,REQUIRED,45-day,,SOFT,0.75,Target ambient shelf stability requirement,Develop an ultra-low-cost commercial pla,0.95
+PB049,PB049_C01,PRODUCT_CATEGORY,product_category,REQUIRED,Plant-Based Yogurt / Dairy Alternatives,,SOFT,0.7,Extracted PRODUCT_CATEGORY requirement,Formulate a drinkable prebiotic plant-ba,0.95
+PB049,PB049_C02,NUTRITION,protein_min,>=,4.0,,SOFT,0.7,Extracted NUTRITION requirement,Formulate a drinkable prebiotic plant-ba,0.95
+PB049,PB049_C03,SHELF_LIFE,shelf_stability,REQUIRED,60-day,,SOFT,0.75,Target ambient shelf stability requirement,Formulate a drinkable prebiotic plant-ba,0.95
+PB050,PB050_C01,PRODUCT_CATEGORY,product_category,REQUIRED,Plant-Based Yogurt / Dairy Alternatives,,SOFT,0.7,Extracted PRODUCT_CATEGORY requirement,Create a high-protein chocolate plant-ba,0.95
+PB050,PB050_C02,NUTRITION,protein_min,>=,7.0,,SOFT,0.7,Extracted NUTRITION requirement,Create a high-protein chocolate plant-ba,0.95
+PB050,PB050_C03,NUTRITION,sugar_max,<=,6.0,,SOFT,0.7,Extracted NUTRITION requirement,Create a high-protein chocolate plant-ba,0.95
+PB050,PB050_C04,SENSORY,flavor_profile,PREFERRED,cocoa flavour,,SOFT,0.7,"Sensory flavor, visual color, and mouthfeel target profile",Create a high-protein chocolate plant-ba,0.95
+PB050,PB050_C05,SENSORY,flavor_profile,PREFERRED,chocolate flavour,,SOFT,0.7,"Sensory flavor, visual color, and mouthfeel target profile",Create a high-protein chocolate plant-ba,0.95
+PB050,PB050_C06,SHELF_LIFE,shelf_stability,REQUIRED,45-day,,SOFT,0.75,Target ambient shelf stability requirement,Create a high-protein chocolate plant-ba,0.95
+PB051,PB051_C01,PRODUCT_CATEGORY,product_category,REQUIRED,Sauces / Spreads / Emulsified Products,,SOFT,0.7,Extracted PRODUCT_CATEGORY requirement,Design a gluten-free soy-free cultured c,0.95
+PB051,PB051_C02,ALLERGEN,gluten,FORBIDDEN,gluten_containing_grains,,HARD,1.0,Mandatory consumer allergen exclusion and cross-contact safety,Design a gluten-free soy-free cultured c,0.95
+PB051,PB051_C03,NUTRITION,protein_min,>=,5.0,,SOFT,0.7,Extracted NUTRITION requirement,Design a gluten-free soy-free cultured c,0.95
+PB051,PB051_C04,COST,max_raw_material_cost,<=,11.0,,SOFT,0.85,Commercial raw material cost target per kg,Design a gluten-free soy-free cultured c,0.95
+PB051,PB051_C05,SENSORY,texture_profile,PREFERRED,Smooth,,SOFT,0.7,"Sensory flavor, visual color, and mouthfeel target profile",Design a gluten-free soy-free cultured c,0.95
+PB051,PB051_C06,SENSORY,texture_profile,PREFERRED,Spreadable,,SOFT,0.7,"Sensory flavor, visual color, and mouthfeel target profile",Design a gluten-free soy-free cultured c,0.95
+PB051,PB051_C07,SHELF_LIFE,shelf_stability,REQUIRED,60 day,,SOFT,0.75,Target ambient shelf stability requirement,Design a gluten-free soy-free cultured c,0.95
+PB052,PB052_C01,PRODUCT_CATEGORY,product_category,REQUIRED,Plant-Based Yogurt / Dairy Alternatives,,SOFT,0.7,Extracted PRODUCT_CATEGORY requirement,Develop a vegan clean-label plain unswee,0.95
+PB052,PB052_C02,DIETARY,dietary_pattern,FORBIDDEN,animal_derived_ingredients,,HARD,0.95,"Mandatory dietary label claim (Vegan, Gluten-Free, Dairy-Free)",Develop a vegan clean-label plain unswee,0.95
+PB052,PB052_C03,REGULATORY,clean_label,REQUIRED,no_synthetic_additives,,HARD,1.0,Mandatory regulatory compliance (FDA/EFSA/FSSAI Codex GSFA),Develop a vegan clean-label plain unswee,0.95
+PB052,PB052_C04,NUTRITION,protein_min,>=,5.0,,SOFT,0.7,Extracted NUTRITION requirement,Develop a vegan clean-label plain unswee,0.95
+PB052,PB052_C05,SENSORY,texture_profile,PREFERRED,Firm,,SOFT,0.7,"Sensory flavor, visual color, and mouthfeel target profile",Develop a vegan clean-label plain unswee,0.95
+PB052,PB052_C06,SHELF_LIFE,shelf_stability,REQUIRED,45-day,,SOFT,0.75,Target ambient shelf stability requirement,Develop a vegan clean-label plain unswee,0.95
+PB053,PB053_C01,PRODUCT_CATEGORY,product_category,REQUIRED,Plant-Based Yogurt / Dairy Alternatives,,SOFT,0.7,Extracted PRODUCT_CATEGORY requirement,Formulate a hypoallergenic hemp and flax,0.95
+PB053,PB053_C02,NUTRITION,protein_min,>=,6.0,,SOFT,0.7,Extracted NUTRITION requirement,Formulate a hypoallergenic hemp and flax,0.95
+PB053,PB053_C03,SENSORY,texture_profile,PREFERRED,Smooth,,SOFT,0.7,"Sensory flavor, visual color, and mouthfeel target profile",Formulate a hypoallergenic hemp and flax,0.95
+PB053,PB053_C04,SENSORY,texture_profile,PREFERRED,Creamy,,SOFT,0.7,"Sensory flavor, visual color, and mouthfeel target profile",Formulate a hypoallergenic hemp and flax,0.95
+PB053,PB053_C05,SHELF_LIFE,shelf_stability,REQUIRED,45-day,,SOFT,0.75,Target ambient shelf stability requirement,Formulate a hypoallergenic hemp and flax,0.95
+PB054,PB054_C01,PRODUCT_CATEGORY,product_category,REQUIRED,Plant-Based Yogurt / Dairy Alternatives,,SOFT,0.7,Extracted PRODUCT_CATEGORY requirement,Create a functional energy plant-based y,0.95
+PB054,PB054_C02,NUTRITION,protein_min,>=,5.0,,SOFT,0.7,Extracted NUTRITION requirement,Create a functional energy plant-based y,0.95
+PB054,PB054_C03,SENSORY,texture_profile,PREFERRED,Smooth,,SOFT,0.7,"Sensory flavor, visual color, and mouthfeel target profile",Create a functional energy plant-based y,0.95
+PB054,PB054_C04,SENSORY,flavor_profile,PREFERRED,citrus flavour,,SOFT,0.7,"Sensory flavor, visual color, and mouthfeel target profile",Create a functional energy plant-based y,0.95
+PB054,PB054_C05,SENSORY,flavor_profile,PREFERRED,lemon flavour,,SOFT,0.7,"Sensory flavor, visual color, and mouthfeel target profile",Create a functional energy plant-based y,0.95
+PB054,PB054_C06,SHELF_LIFE,shelf_stability,REQUIRED,60-day,,SOFT,0.75,Target ambient shelf stability requirement,Create a functional energy plant-based y,0.95
+PB055,PB055_C01,PRODUCT_CATEGORY,product_category,REQUIRED,Plant-Based Yogurt / Dairy Alternatives,,SOFT,0.7,Extracted PRODUCT_CATEGORY requirement,Design a low-fat plant-based mango yogur,0.95
+PB055,PB055_C02,NUTRITION,protein_min,>=,4.0,,SOFT,0.7,Extracted NUTRITION requirement,Design a low-fat plant-based mango yogur,0.95
+PB055,PB055_C03,NUTRITION,fat_max,<=,2.0,,SOFT,0.7,Extracted NUTRITION requirement,Design a low-fat plant-based mango yogur,0.95
+PB055,PB055_C04,COST,max_raw_material_cost,<=,6.0,,SOFT,0.85,Commercial raw material cost target per kg,Design a low-fat plant-based mango yogur,0.95
+PB055,PB055_C05,SENSORY,texture_profile,PREFERRED,Creamy,,SOFT,0.7,"Sensory flavor, visual color, and mouthfeel target profile",Design a low-fat plant-based mango yogur,0.95
+PB056,PB056_C01,PRODUCT_CATEGORY,product_category,REQUIRED,Plant-Based Yogurt / Dairy Alternatives,,SOFT,0.7,Extracted PRODUCT_CATEGORY requirement,Develop an ambient shelf-stable plant-ba,0.95
+PB056,PB056_C02,NUTRITION,protein_min,>=,3.5,,SOFT,0.7,Extracted NUTRITION requirement,Develop an ambient shelf-stable plant-ba,0.95
+PB056,PB056_C03,SENSORY,texture_profile,PREFERRED,Smooth,,SOFT,0.7,"Sensory flavor, visual color, and mouthfeel target profile",Develop an ambient shelf-stable plant-ba,0.95
+PB056,PB056_C04,SHELF_LIFE,shelf_stability,REQUIRED,12-month,,SOFT,0.75,Target ambient shelf stability requirement,Develop an ambient shelf-stable plant-ba,0.95
+PB057,PB057_C01,PRODUCT_CATEGORY,product_category,REQUIRED,Plant-Based Yogurt / Dairy Alternatives,,SOFT,0.7,Extracted PRODUCT_CATEGORY requirement,Formulate a savory plant-based garlic an,0.95
+PB057,PB057_C02,NUTRITION,protein_min,>=,5.0,,SOFT,0.7,Extracted NUTRITION requirement,Formulate a savory plant-based garlic an,0.95
+PB057,PB057_C03,NUTRITION,fat_max,<=,8.0,,SOFT,0.7,Extracted NUTRITION requirement,Formulate a savory plant-based garlic an,0.95
+PB057,PB057_C04,SENSORY,flavor_profile,PREFERRED,garlic flavour,,SOFT,0.7,"Sensory flavor, visual color, and mouthfeel target profile",Formulate a savory plant-based garlic an,0.95
+PB057,PB057_C05,SENSORY,flavor_profile,PREFERRED,herb flavour,,SOFT,0.7,"Sensory flavor, visual color, and mouthfeel target profile",Formulate a savory plant-based garlic an,0.95
+PB057,PB057_C06,SENSORY,flavor_profile,PREFERRED,savory flavour,,SOFT,0.7,"Sensory flavor, visual color, and mouthfeel target profile",Formulate a savory plant-based garlic an,0.95
+PB057,PB057_C07,SHELF_LIFE,shelf_stability,REQUIRED,60-day,,SOFT,0.75,Target ambient shelf stability requirement,Formulate a savory plant-based garlic an,0.95
+PB058,PB058_C01,PRODUCT_CATEGORY,product_category,REQUIRED,Plant-Based Yogurt / Dairy Alternatives,,SOFT,0.7,Extracted PRODUCT_CATEGORY requirement,Create a clean label raspberry oat yogur,0.95
+PB058,PB058_C02,REGULATORY,clean_label,REQUIRED,no_synthetic_additives,,HARD,1.0,Mandatory regulatory compliance (FDA/EFSA/FSSAI Codex GSFA),Create a clean label raspberry oat yogur,0.95
+PB058,PB058_C03,NUTRITION,protein_min,>=,4.5,,SOFT,0.7,Extracted NUTRITION requirement,Create a clean label raspberry oat yogur,0.95
+PB058,PB058_C04,NUTRITION,fibre_min,>=,3.0,,SOFT,0.7,Extracted NUTRITION requirement,Create a clean label raspberry oat yogur,0.95
+PB058,PB058_C05,COST,max_raw_material_cost,<=,7.0,,SOFT,0.85,Commercial raw material cost target per kg,Create a clean label raspberry oat yogur,0.95
+PB058,PB058_C06,SENSORY,texture_profile,PREFERRED,Smooth,,SOFT,0.7,"Sensory flavor, visual color, and mouthfeel target profile",Create a clean label raspberry oat yogur,0.95
+PB058,PB058_C07,SENSORY,flavor_profile,PREFERRED,berry flavour,,SOFT,0.7,"Sensory flavor, visual color, and mouthfeel target profile",Create a clean label raspberry oat yogur,0.95
+PB059,PB059_C01,PRODUCT_CATEGORY,product_category,REQUIRED,General,,SOFT,0.7,Extracted PRODUCT_CATEGORY requirement,Design a high-protein post-workout vanil,0.95
+PB059,PB059_C02,NUTRITION,protein_min,>=,10.0,,SOFT,0.7,Extracted NUTRITION requirement,Design a high-protein post-workout vanil,0.95
+PB059,PB059_C03,NUTRITION,fat_max,<=,3.0,,SOFT,0.7,Extracted NUTRITION requirement,Design a high-protein post-workout vanil,0.95
+PB059,PB059_C04,SENSORY,flavor_profile,PREFERRED,vanilla flavour,,SOFT,0.7,"Sensory flavor, visual color, and mouthfeel target profile",Design a high-protein post-workout vanil,0.95
+PB059,PB059_C05,SENSORY,bitterness_masking,REQUIRED,Low Bitterness,,SOFT,0.7,"Sensory flavor, visual color, and mouthfeel target profile",Design a high-protein post-workout vanil,0.95
+PB059,PB059_C06,SHELF_LIFE,shelf_stability,REQUIRED,45-day,,SOFT,0.75,Target ambient shelf stability requirement,Design a high-protein post-workout vanil,0.95
+PB060,PB060_C01,PRODUCT_CATEGORY,product_category,REQUIRED,Plant-Based Yogurt / Dairy Alternatives,,SOFT,0.7,Extracted PRODUCT_CATEGORY requirement,Develop an organic coconut chia pudding ,0.95
+PB060,PB060_C02,NUTRITION,protein_min,>=,4.0,,SOFT,0.7,Extracted NUTRITION requirement,Develop an organic coconut chia pudding ,0.95
+PB060,PB060_C03,NUTRITION,fibre_min,>=,6.0,,SOFT,0.7,Extracted NUTRITION requirement,Develop an organic coconut chia pudding ,0.95
+PB060,PB060_C04,SENSORY,texture_profile,PREFERRED,Viscous,,SOFT,0.7,"Sensory flavor, visual color, and mouthfeel target profile",Develop an organic coconut chia pudding ,0.95
+PB060,PB060_C05,SHELF_LIFE,shelf_stability,REQUIRED,45-day,,SOFT,0.75,Target ambient shelf stability requirement,Develop an organic coconut chia pudding ,0.95
+PB061,PB061_C01,PRODUCT_CATEGORY,product_category,REQUIRED,Bakery Products,,SOFT,0.7,Extracted PRODUCT_CATEGORY requirement,Create a vegan high-protein chocolate ch,0.95
+PB061,PB061_C02,DIETARY,dietary_pattern,FORBIDDEN,animal_derived_ingredients,,HARD,0.95,"Mandatory dietary label claim (Vegan, Gluten-Free, Dairy-Free)",Create a vegan high-protein chocolate ch,0.95
+PB061,PB061_C03,NUTRITION,protein_min,>=,15.0,,SOFT,0.7,Extracted NUTRITION requirement,Create a vegan high-protein chocolate ch,0.95
+PB061,PB061_C04,NUTRITION,fat_max,<=,18.0,,SOFT,0.7,Extracted NUTRITION requirement,Create a vegan high-protein chocolate ch,0.95
+PB061,PB061_C05,COST,max_raw_material_cost,<=,9.0,,SOFT,0.85,Commercial raw material cost target per kg,Create a vegan high-protein chocolate ch,0.95
+PB061,PB061_C06,SENSORY,texture_profile,PREFERRED,Soft,,SOFT,0.7,"Sensory flavor, visual color, and mouthfeel target profile",Create a vegan high-protein chocolate ch,0.95
+PB061,PB061_C07,SENSORY,texture_profile,PREFERRED,Chewy,,SOFT,0.7,"Sensory flavor, visual color, and mouthfeel target profile",Create a vegan high-protein chocolate ch,0.95
+PB061,PB061_C08,SENSORY,flavor_profile,PREFERRED,chocolate flavour,,SOFT,0.7,"Sensory flavor, visual color, and mouthfeel target profile",Create a vegan high-protein chocolate ch,0.95
+PB061,PB061_C09,SENSORY,flavor_profile,PREFERRED,vanilla flavour,,SOFT,0.7,"Sensory flavor, visual color, and mouthfeel target profile",Create a vegan high-protein chocolate ch,0.95
+PB061,PB061_C10,SHELF_LIFE,shelf_stability,REQUIRED,6-month,,SOFT,0.75,Target ambient shelf stability requirement,Create a vegan high-protein chocolate ch,0.95
+PB062,PB062_C01,PRODUCT_CATEGORY,product_category,REQUIRED,Bakery Products,,SOFT,0.7,Extracted PRODUCT_CATEGORY requirement,Formulate a gluten-free high-fibre sandw,0.95
+PB062,PB062_C02,ALLERGEN,gluten,FORBIDDEN,gluten_containing_grains,,HARD,1.0,Mandatory consumer allergen exclusion and cross-contact safety,Formulate a gluten-free high-fibre sandw,0.95
+PB062,PB062_C03,NUTRITION,protein_min,>=,8.0,,SOFT,0.7,Extracted NUTRITION requirement,Formulate a gluten-free high-fibre sandw,0.95
+PB062,PB062_C04,NUTRITION,fibre_min,>=,6.0,,SOFT,0.7,Extracted NUTRITION requirement,Formulate a gluten-free high-fibre sandw,0.95
+PB062,PB062_C05,COST,max_raw_material_cost,<=,5.0,,SOFT,0.85,Commercial raw material cost target per kg,Formulate a gluten-free high-fibre sandw,0.95
+PB062,PB062_C06,FUNCTIONAL,foam_and_air_incorporation,REQUIRED,Aeration,,SOFT,0.8,"Target technological function (texture, emulsion, water activity)",Formulate a gluten-free high-fibre sandw,0.95
+PB062,PB062_C07,SENSORY,texture_profile,PREFERRED,Soft,,SOFT,0.7,"Sensory flavor, visual color, and mouthfeel target profile",Formulate a gluten-free high-fibre sandw,0.95
+PB062,PB062_C08,SHELF_LIFE,shelf_stability,REQUIRED,14-day,,SOFT,0.75,Target ambient shelf stability requirement,Formulate a gluten-free high-fibre sandw,0.95
+PB063,PB063_C01,PRODUCT_CATEGORY,product_category,REQUIRED,Bakery Products,,SOFT,0.7,Extracted PRODUCT_CATEGORY requirement,Design a diabetic-safe low-carb almond b,0.95
+PB063,PB063_C02,NUTRITION,protein_min,>=,12.0,,SOFT,0.7,Extracted NUTRITION requirement,Design a diabetic-safe low-carb almond b,0.95
+PB063,PB063_C03,NUTRITION,sugar_max,<=,2.0,,SOFT,0.7,Extracted NUTRITION requirement,Design a diabetic-safe low-carb almond b,0.95
+PB063,PB063_C04,SENSORY,flavor_profile,PREFERRED,almond flavour,,SOFT,0.7,"Sensory flavor, visual color, and mouthfeel target profile",Design a diabetic-safe low-carb almond b,0.95
+PB063,PB063_C05,SHELF_LIFE,shelf_stability,REQUIRED,21-day,,SOFT,0.75,Target ambient shelf stability requirement,Design a diabetic-safe low-carb almond b,0.95
+PB064,PB064_C01,PRODUCT_CATEGORY,product_category,REQUIRED,Bakery Products,,SOFT,0.7,Extracted PRODUCT_CATEGORY requirement,Develop an allergen-free school-safe blu,0.95
+PB064,PB064_C02,ALLERGEN,major_allergens,FORBIDDEN,top_9_allergens,,HARD,1.0,Mandatory consumer allergen exclusion and cross-contact safety,Develop an allergen-free school-safe blu,0.95
+PB064,PB064_C03,NUTRITION,protein_min,>=,7.0,,SOFT,0.7,Extracted NUTRITION requirement,Develop an allergen-free school-safe blu,0.95
+PB064,PB064_C04,NUTRITION,fibre_min,>=,4.0,,SOFT,0.7,Extracted NUTRITION requirement,Develop an allergen-free school-safe blu,0.95
+PB064,PB064_C05,FUNCTIONAL,chemical_or_biological_leavening,REQUIRED,Leavening,,SOFT,0.8,"Target technological function (texture, emulsion, water activity)",Develop an allergen-free school-safe blu,0.95
+PB064,PB064_C06,SENSORY,texture_profile,PREFERRED,Soft,,SOFT,0.7,"Sensory flavor, visual color, and mouthfeel target profile",Develop an allergen-free school-safe blu,0.95
+PB064,PB064_C07,SENSORY,flavor_profile,PREFERRED,berry flavour,,SOFT,0.7,"Sensory flavor, visual color, and mouthfeel target profile",Develop an allergen-free school-safe blu,0.95
+PB064,PB064_C08,SENSORY,flavor_profile,PREFERRED,blueberry flavour,,SOFT,0.7,"Sensory flavor, visual color, and mouthfeel target profile",Develop an allergen-free school-safe blu,0.95
+PB064,PB064_C09,SHELF_LIFE,shelf_stability,REQUIRED,14-day,,SOFT,0.75,Target ambient shelf stability requirement,Develop an allergen-free school-safe blu,0.95
+PB065,PB065_C01,PRODUCT_CATEGORY,product_category,REQUIRED,Bakery Products,,SOFT,0.7,Extracted PRODUCT_CATEGORY requirement,Formulate an elderly-oriented soft nutri,0.95
+PB065,PB065_C02,NUTRITION,protein_min,>=,10.0,,SOFT,0.7,Extracted NUTRITION requirement,Formulate an elderly-oriented soft nutri,0.95
+PB065,PB065_C03,SENSORY,texture_profile,PREFERRED,Soft,,SOFT,0.7,"Sensory flavor, visual color, and mouthfeel target profile",Formulate an elderly-oriented soft nutri,0.95
+PB065,PB065_C04,SENSORY,texture_profile,PREFERRED,Crunchy,,SOFT,0.7,"Sensory flavor, visual color, and mouthfeel target profile",Formulate an elderly-oriented soft nutri,0.95
+PB065,PB065_C05,SENSORY,flavor_profile,PREFERRED,vanilla flavour,,SOFT,0.7,"Sensory flavor, visual color, and mouthfeel target profile",Formulate an elderly-oriented soft nutri,0.95
+PB065,PB065_C06,SHELF_LIFE,shelf_stability,REQUIRED,6-month,,SOFT,0.75,Target ambient shelf stability requirement,Formulate an elderly-oriented soft nutri,0.95
+PB066,PB066_C01,PRODUCT_CATEGORY,product_category,REQUIRED,Bakery Products,,SOFT,0.7,Extracted PRODUCT_CATEGORY requirement,Create a keto-friendly seed & flax artis,0.95
+PB066,PB066_C02,NUTRITION,protein_min,>=,14.0,,SOFT,0.7,Extracted NUTRITION requirement,Create a keto-friendly seed & flax artis,0.95
+PB066,PB066_C03,SHELF_LIFE,shelf_stability,REQUIRED,14-day,,SOFT,0.75,Target ambient shelf stability requirement,Create a keto-friendly seed & flax artis,0.95
+PB067,PB067_C01,PRODUCT_CATEGORY,product_category,REQUIRED,Bakery Products,,SOFT,0.7,Extracted PRODUCT_CATEGORY requirement,Design a clean label whole-grain oat dig,0.95
+PB067,PB067_C02,REGULATORY,clean_label,REQUIRED,no_synthetic_additives,,HARD,1.0,Mandatory regulatory compliance (FDA/EFSA/FSSAI Codex GSFA),Design a clean label whole-grain oat dig,0.95
+PB067,PB067_C03,NUTRITION,protein_min,>=,9.0,,SOFT,0.7,Extracted NUTRITION requirement,Design a clean label whole-grain oat dig,0.95
+PB067,PB067_C04,NUTRITION,fibre_min,>=,7.0,,SOFT,0.7,Extracted NUTRITION requirement,Design a clean label whole-grain oat dig,0.95
+PB067,PB067_C05,COST,max_raw_material_cost,<=,6.0,,SOFT,0.85,Commercial raw material cost target per kg,Design a clean label whole-grain oat dig,0.95
+PB067,PB067_C06,SENSORY,texture_profile,PREFERRED,Crumbly,,SOFT,0.7,"Sensory flavor, visual color, and mouthfeel target profile",Design a clean label whole-grain oat dig,0.95
+PB067,PB067_C07,SHELF_LIFE,shelf_stability,REQUIRED,9-month,,SOFT,0.75,Target ambient shelf stability requirement,Design a clean label whole-grain oat dig,0.95
+PB068,PB068_C01,PRODUCT_CATEGORY,product_category,REQUIRED,Bakery Products,,SOFT,0.7,Extracted PRODUCT_CATEGORY requirement,Develop an ultra-low-cost commercial bur,0.95
+PB068,PB068_C02,NUTRITION,protein_min,>=,8.0,,SOFT,0.7,Extracted NUTRITION requirement,Develop an ultra-low-cost commercial bur,0.95
+PB068,PB068_C03,COST,max_raw_material_cost,<=,3.5,,SOFT,0.85,Commercial raw material cost target per kg,Develop an ultra-low-cost commercial bur,0.95
+PB068,PB068_C04,SENSORY,texture_profile,PREFERRED,Soft,,SOFT,0.7,"Sensory flavor, visual color, and mouthfeel target profile",Develop an ultra-low-cost commercial bur,0.95
+PB068,PB068_C05,SHELF_LIFE,shelf_stability,REQUIRED,14-day,,SOFT,0.75,Target ambient shelf stability requirement,Develop an ultra-low-cost commercial bur,0.95
+PB069,PB069_C01,PRODUCT_CATEGORY,product_category,REQUIRED,General,,SOFT,0.7,Extracted PRODUCT_CATEGORY requirement,Formulate a vegan high-protein brownie c,0.95
+PB069,PB069_C02,DIETARY,dietary_pattern,FORBIDDEN,animal_derived_ingredients,,HARD,0.95,"Mandatory dietary label claim (Vegan, Gluten-Free, Dairy-Free)",Formulate a vegan high-protein brownie c,0.95
+PB069,PB069_C03,NUTRITION,protein_min,>=,16.0,,SOFT,0.7,Extracted NUTRITION requirement,Formulate a vegan high-protein brownie c,0.95
+PB069,PB069_C04,NUTRITION,fat_max,<=,15.0,,SOFT,0.7,Extracted NUTRITION requirement,Formulate a vegan high-protein brownie c,0.95
+PB069,PB069_C05,PROCESSING,water_activity,<=,0.6,,SOFT,0.7,Extracted PROCESSING requirement,Formulate a vegan high-protein brownie c,0.95
+PB069,PB069_C06,SENSORY,flavor_profile,PREFERRED,cocoa flavour,,SOFT,0.7,"Sensory flavor, visual color, and mouthfeel target profile",Formulate a vegan high-protein brownie c,0.95
+PB069,PB069_C07,SHELF_LIFE,shelf_stability,REQUIRED,6-month,,SOFT,0.75,Target ambient shelf stability requirement,Formulate a vegan high-protein brownie c,0.95
+PB070,PB070_C01,PRODUCT_CATEGORY,product_category,REQUIRED,Bakery Products,,SOFT,0.7,Extracted PRODUCT_CATEGORY requirement,Create a clean label cinnamon spice brea,0.95
+PB070,PB070_C02,REGULATORY,clean_label,REQUIRED,no_synthetic_additives,,HARD,1.0,Mandatory regulatory compliance (FDA/EFSA/FSSAI Codex GSFA),Create a clean label cinnamon spice brea,0.95
+PB070,PB070_C03,NUTRITION,protein_min,>=,8.0,,SOFT,0.7,Extracted NUTRITION requirement,Create a clean label cinnamon spice brea,0.95
+PB070,PB070_C04,NUTRITION,fibre_min,>=,5.0,,SOFT,0.7,Extracted NUTRITION requirement,Create a clean label cinnamon spice brea,0.95
+PB070,PB070_C05,COST,max_raw_material_cost,<=,6.5,,SOFT,0.85,Commercial raw material cost target per kg,Create a clean label cinnamon spice brea,0.95
+PB070,PB070_C06,SHELF_LIFE,shelf_stability,REQUIRED,14-day,,SOFT,0.75,Target ambient shelf stability requirement,Create a clean label cinnamon spice brea,0.95
+PB071,PB071_C01,PRODUCT_CATEGORY,product_category,REQUIRED,Protein Bars / Functional Snacks,,SOFT,0.7,Extracted PRODUCT_CATEGORY requirement,Design a gluten-free vegan pizza crust c,0.95
+PB071,PB071_C02,DIETARY,dietary_pattern,FORBIDDEN,animal_derived_ingredients,,HARD,0.95,"Mandatory dietary label claim (Vegan, Gluten-Free, Dairy-Free)",Design a gluten-free vegan pizza crust c,0.95
+PB071,PB071_C03,ALLERGEN,gluten,FORBIDDEN,gluten_containing_grains,,HARD,1.0,Mandatory consumer allergen exclusion and cross-contact safety,Design a gluten-free vegan pizza crust c,0.95
+PB071,PB071_C04,NUTRITION,protein_min,>=,8.0,,SOFT,0.7,Extracted NUTRITION requirement,Design a gluten-free vegan pizza crust c,0.95
+PB071,PB071_C05,COST,max_raw_material_cost,<=,6.0,,SOFT,0.85,Commercial raw material cost target per kg,Design a gluten-free vegan pizza crust c,0.95
+PB071,PB071_C06,SHELF_LIFE,shelf_stability,REQUIRED,9-month,,SOFT,0.75,Target ambient shelf stability requirement,Design a gluten-free vegan pizza crust c,0.95
+PB072,PB072_C01,PRODUCT_CATEGORY,product_category,REQUIRED,Protein Bars / Functional Snacks,,SOFT,0.7,Extracted PRODUCT_CATEGORY requirement,Develop a high-protein savory cracker co,0.95
+PB072,PB072_C02,NUTRITION,protein_min,>=,18.0,,SOFT,0.7,Extracted NUTRITION requirement,Develop a high-protein savory cracker co,0.95
+PB072,PB072_C03,NUTRITION,fat_max,<=,10.0,,SOFT,0.7,Extracted NUTRITION requirement,Develop a high-protein savory cracker co,0.95
+PB072,PB072_C04,PROCESSING,water_activity,<=,0.6,,SOFT,0.7,Extracted PROCESSING requirement,Develop a high-protein savory cracker co,0.95
+PB072,PB072_C05,SENSORY,texture_profile,PREFERRED,Crunchy,,SOFT,0.7,"Sensory flavor, visual color, and mouthfeel target profile",Develop a high-protein savory cracker co,0.95
+PB072,PB072_C06,SENSORY,flavor_profile,PREFERRED,savory flavour,,SOFT,0.7,"Sensory flavor, visual color, and mouthfeel target profile",Develop a high-protein savory cracker co,0.95
+PB072,PB072_C07,SHELF_LIFE,shelf_stability,REQUIRED,12-month,,SOFT,0.75,Target ambient shelf stability requirement,Develop a high-protein savory cracker co,0.95
+PB073,PB073_C01,PRODUCT_CATEGORY,product_category,REQUIRED,Bakery Products,,SOFT,0.7,Extracted PRODUCT_CATEGORY requirement,Formulate a sugar-free vegan lemon short,0.95
+PB073,PB073_C02,DIETARY,dietary_pattern,FORBIDDEN,animal_derived_ingredients,,HARD,0.95,"Mandatory dietary label claim (Vegan, Gluten-Free, Dairy-Free)",Formulate a sugar-free vegan lemon short,0.95
+PB073,PB073_C03,NUTRITION,protein_min,>=,8.0,,SOFT,0.7,Extracted NUTRITION requirement,Formulate a sugar-free vegan lemon short,0.95
+PB073,PB073_C04,NUTRITION,sugar_max,<=,0.5,,SOFT,0.7,Extracted NUTRITION requirement,Formulate a sugar-free vegan lemon short,0.95
+PB073,PB073_C05,SENSORY,texture_profile,PREFERRED,Crumbly,,SOFT,0.7,"Sensory flavor, visual color, and mouthfeel target profile",Formulate a sugar-free vegan lemon short,0.95
+PB073,PB073_C06,SENSORY,flavor_profile,PREFERRED,citrus flavour,,SOFT,0.7,"Sensory flavor, visual color, and mouthfeel target profile",Formulate a sugar-free vegan lemon short,0.95
+PB073,PB073_C07,SENSORY,flavor_profile,PREFERRED,lemon flavour,,SOFT,0.7,"Sensory flavor, visual color, and mouthfeel target profile",Formulate a sugar-free vegan lemon short,0.95
+PB073,PB073_C08,SHELF_LIFE,shelf_stability,REQUIRED,6-month,,SOFT,0.75,Target ambient shelf stability requirement,Formulate a sugar-free vegan lemon short,0.95
+PB074,PB074_C01,PRODUCT_CATEGORY,product_category,REQUIRED,Bakery Products,,SOFT,0.7,Extracted PRODUCT_CATEGORY requirement,Create a hypoallergenic banana bread sna,0.95
+PB074,PB074_C02,NUTRITION,protein_min,>=,7.0,,SOFT,0.7,Extracted NUTRITION requirement,Create a hypoallergenic banana bread sna,0.95
+PB074,PB074_C03,NUTRITION,fibre_min,>=,4.0,,SOFT,0.7,Extracted NUTRITION requirement,Create a hypoallergenic banana bread sna,0.95
+PB074,PB074_C04,COST,max_raw_material_cost,<=,7.0,,SOFT,0.85,Commercial raw material cost target per kg,Create a hypoallergenic banana bread sna,0.95
+PB074,PB074_C05,SHELF_LIFE,shelf_stability,REQUIRED,14-day,,SOFT,0.75,Target ambient shelf stability requirement,Create a hypoallergenic banana bread sna,0.95
+PB075,PB075_C01,PRODUCT_CATEGORY,product_category,REQUIRED,General,,SOFT,0.7,Extracted PRODUCT_CATEGORY requirement,Design a high-protein soft pretzel conta,0.95
+PB075,PB075_C02,NUTRITION,protein_min,>=,14.0,,SOFT,0.7,Extracted NUTRITION requirement,Design a high-protein soft pretzel conta,0.95
+PB075,PB075_C03,COST,max_raw_material_cost,<=,4.5,,SOFT,0.85,Commercial raw material cost target per kg,Design a high-protein soft pretzel conta,0.95
+PB075,PB075_C04,SENSORY,texture_profile,PREFERRED,Soft,,SOFT,0.7,"Sensory flavor, visual color, and mouthfeel target profile",Design a high-protein soft pretzel conta,0.95
+PB075,PB075_C05,SENSORY,texture_profile,PREFERRED,Chewy,,SOFT,0.7,"Sensory flavor, visual color, and mouthfeel target profile",Design a high-protein soft pretzel conta,0.95
+PB075,PB075_C06,SENSORY,flavor_profile,PREFERRED,savory flavour,,SOFT,0.7,"Sensory flavor, visual color, and mouthfeel target profile",Design a high-protein soft pretzel conta,0.95
+PB075,PB075_C07,SHELF_LIFE,shelf_stability,REQUIRED,7-day,,SOFT,0.75,Target ambient shelf stability requirement,Design a high-protein soft pretzel conta,0.95
+PB076,PB076_C01,PRODUCT_CATEGORY,product_category,REQUIRED,Bakery Products,,SOFT,0.7,Extracted PRODUCT_CATEGORY requirement,Develop a clean label gluten-free chocol,0.95
+PB076,PB076_C02,ALLERGEN,gluten,FORBIDDEN,gluten_containing_grains,,HARD,1.0,Mandatory consumer allergen exclusion and cross-contact safety,Develop a clean label gluten-free chocol,0.95
+PB076,PB076_C03,REGULATORY,clean_label,REQUIRED,no_synthetic_additives,,HARD,1.0,Mandatory regulatory compliance (FDA/EFSA/FSSAI Codex GSFA),Develop a clean label gluten-free chocol,0.95
+PB076,PB076_C04,NUTRITION,protein_min,>=,9.0,,SOFT,0.7,Extracted NUTRITION requirement,Develop a clean label gluten-free chocol,0.95
+PB076,PB076_C05,NUTRITION,fat_max,<=,12.0,,SOFT,0.7,Extracted NUTRITION requirement,Develop a clean label gluten-free chocol,0.95
+PB076,PB076_C06,COST,max_raw_material_cost,<=,8.5,,SOFT,0.85,Commercial raw material cost target per kg,Develop a clean label gluten-free chocol,0.95
+PB076,PB076_C07,SENSORY,flavor_profile,PREFERRED,cocoa flavour,,SOFT,0.7,"Sensory flavor, visual color, and mouthfeel target profile",Develop a clean label gluten-free chocol,0.95
+PB076,PB076_C08,SENSORY,flavor_profile,PREFERRED,chocolate flavour,,SOFT,0.7,"Sensory flavor, visual color, and mouthfeel target profile",Develop a clean label gluten-free chocol,0.95
+PB076,PB076_C09,SHELF_LIFE,shelf_stability,REQUIRED,21-day,,SOFT,0.75,Target ambient shelf stability requirement,Develop a clean label gluten-free chocol,0.95
+PB077,PB077_C01,PRODUCT_CATEGORY,product_category,REQUIRED,Bakery Products,,SOFT,0.7,Extracted PRODUCT_CATEGORY requirement,Formulate an energy-dense functional tra,0.95
+PB077,PB077_C02,NUTRITION,protein_min,>=,15.0,,SOFT,0.7,Extracted NUTRITION requirement,Formulate an energy-dense functional tra,0.95
+PB077,PB077_C03,NUTRITION,fibre_min,>=,8.0,,SOFT,0.7,Extracted NUTRITION requirement,Formulate an energy-dense functional tra,0.95
+PB077,PB077_C04,SENSORY,texture_profile,PREFERRED,Crunchy,,SOFT,0.7,"Sensory flavor, visual color, and mouthfeel target profile",Formulate an energy-dense functional tra,0.95
+PB077,PB077_C05,SENSORY,flavor_profile,PREFERRED,vanilla flavour,,SOFT,0.7,"Sensory flavor, visual color, and mouthfeel target profile",Formulate an energy-dense functional tra,0.95
+PB077,PB077_C06,SENSORY,flavor_profile,PREFERRED,berry flavour,,SOFT,0.7,"Sensory flavor, visual color, and mouthfeel target profile",Formulate an energy-dense functional tra,0.95
+PB077,PB077_C07,SHELF_LIFE,shelf_stability,REQUIRED,12-month,,SOFT,0.75,Target ambient shelf stability requirement,Formulate an energy-dense functional tra,0.95
+PB078,PB078_C01,PRODUCT_CATEGORY,product_category,REQUIRED,General,,SOFT,0.7,Extracted PRODUCT_CATEGORY requirement,Create a vegan brioche-style soft dinner,0.95
+PB078,PB078_C02,DIETARY,dietary_pattern,FORBIDDEN,animal_derived_ingredients,,HARD,0.95,"Mandatory dietary label claim (Vegan, Gluten-Free, Dairy-Free)",Create a vegan brioche-style soft dinner,0.95
+PB078,PB078_C03,NUTRITION,protein_min,>=,8.0,,SOFT,0.7,Extracted NUTRITION requirement,Create a vegan brioche-style soft dinner,0.95
+PB078,PB078_C04,COST,max_raw_material_cost,<=,4.0,,SOFT,0.85,Commercial raw material cost target per kg,Create a vegan brioche-style soft dinner,0.95
+PB078,PB078_C05,SENSORY,texture_profile,PREFERRED,Soft,,SOFT,0.7,"Sensory flavor, visual color, and mouthfeel target profile",Create a vegan brioche-style soft dinner,0.95
+PB078,PB078_C06,SHELF_LIFE,shelf_stability,REQUIRED,10-day,,SOFT,0.75,Target ambient shelf stability requirement,Create a vegan brioche-style soft dinner,0.95
+PB079,PB079_C01,PRODUCT_CATEGORY,product_category,REQUIRED,Bakery Products,,SOFT,0.7,Extracted PRODUCT_CATEGORY requirement,Design a low-sodium high-potassium sandw,0.95
+PB079,PB079_C02,NUTRITION,protein_min,>=,9.0,,SOFT,0.7,Extracted NUTRITION requirement,Design a low-sodium high-potassium sandw,0.95
+PB079,PB079_C03,SENSORY,texture_profile,PREFERRED,Soft,,SOFT,0.7,"Sensory flavor, visual color, and mouthfeel target profile",Design a low-sodium high-potassium sandw,0.95
+PB079,PB079_C04,SHELF_LIFE,shelf_stability,REQUIRED,14-day,,SOFT,0.75,Target ambient shelf stability requirement,Design a low-sodium high-potassium sandw,0.95
+PB080,PB080_C01,PRODUCT_CATEGORY,product_category,REQUIRED,Bakery Products,,SOFT,0.7,Extracted PRODUCT_CATEGORY requirement,Develop an organic gingerbread functiona,0.95
+PB080,PB080_C02,NUTRITION,protein_min,>=,10.0,,SOFT,0.7,Extracted NUTRITION requirement,Develop an organic gingerbread functiona,0.95
+PB080,PB080_C03,NUTRITION,fibre_min,>=,5.0,,SOFT,0.7,Extracted NUTRITION requirement,Develop an organic gingerbread functiona,0.95
+PB080,PB080_C04,COST,max_raw_material_cost,<=,7.5,,SOFT,0.85,Commercial raw material cost target per kg,Develop an organic gingerbread functiona,0.95
+PB080,PB080_C05,SHELF_LIFE,shelf_stability,REQUIRED,9-month,,SOFT,0.75,Target ambient shelf stability requirement,Develop an organic gingerbread functiona,0.95
+PB081,PB081_C01,PRODUCT_CATEGORY,product_category,REQUIRED,Sauces / Spreads / Emulsified Products,,SOFT,0.7,Extracted PRODUCT_CATEGORY requirement,Create an egg-free vegan mayonnaise emul,0.95
+PB081,PB081_C02,DIETARY,dietary_pattern,FORBIDDEN,animal_derived_ingredients,,HARD,0.95,"Mandatory dietary label claim (Vegan, Gluten-Free, Dairy-Free)",Create an egg-free vegan mayonnaise emul,0.95
+PB081,PB081_C03,ALLERGEN,eggs,FORBIDDEN,egg_derived_ingredients,,HARD,1.0,Mandatory consumer allergen exclusion and cross-contact safety,Create an egg-free vegan mayonnaise emul,0.95
+PB081,PB081_C04,NUTRITION,fat_max,<=,45.0,,SOFT,0.7,Extracted NUTRITION requirement,Create an egg-free vegan mayonnaise emul,0.95
+PB081,PB081_C05,NUTRITION,sugar_max,<=,2.0,,SOFT,0.7,Extracted NUTRITION requirement,Create an egg-free vegan mayonnaise emul,0.95
+PB081,PB081_C06,SENSORY,texture_profile,PREFERRED,Creamy,,SOFT,0.7,"Sensory flavor, visual color, and mouthfeel target profile",Create an egg-free vegan mayonnaise emul,0.95
+PB081,PB081_C07,SENSORY,flavor_profile,PREFERRED,lemon flavour,,SOFT,0.7,"Sensory flavor, visual color, and mouthfeel target profile",Create an egg-free vegan mayonnaise emul,0.95
+PB081,PB081_C08,SHELF_LIFE,shelf_stability,REQUIRED,9-month,,SOFT,0.75,Target ambient shelf stability requirement,Create an egg-free vegan mayonnaise emul,0.95
+PB082,PB082_C01,PRODUCT_CATEGORY,product_category,REQUIRED,Sauces / Spreads / Emulsified Products,,SOFT,0.7,Extracted PRODUCT_CATEGORY requirement,Formulate a clean label chocolate hazeln,0.95
+PB082,PB082_C02,REGULATORY,clean_label,REQUIRED,no_synthetic_additives,,HARD,1.0,Mandatory regulatory compliance (FDA/EFSA/FSSAI Codex GSFA),Formulate a clean label chocolate hazeln,0.95
+PB082,PB082_C03,NUTRITION,protein_min,>=,8.0,,SOFT,0.7,Extracted NUTRITION requirement,Formulate a clean label chocolate hazeln,0.95
+PB082,PB082_C04,NUTRITION,sugar_max,<=,20.0,,SOFT,0.7,Extracted NUTRITION requirement,Formulate a clean label chocolate hazeln,0.95
+PB082,PB082_C05,COST,max_raw_material_cost,<=,11.0,,SOFT,0.85,Commercial raw material cost target per kg,Formulate a clean label chocolate hazeln,0.95
+PB082,PB082_C06,SENSORY,texture_profile,PREFERRED,Smooth,,SOFT,0.7,"Sensory flavor, visual color, and mouthfeel target profile",Formulate a clean label chocolate hazeln,0.95
+PB082,PB082_C07,SENSORY,flavor_profile,PREFERRED,cocoa flavour,,SOFT,0.7,"Sensory flavor, visual color, and mouthfeel target profile",Formulate a clean label chocolate hazeln,0.95
+PB082,PB082_C08,SENSORY,flavor_profile,PREFERRED,chocolate flavour,,SOFT,0.7,"Sensory flavor, visual color, and mouthfeel target profile",Formulate a clean label chocolate hazeln,0.95
+PB082,PB082_C09,SHELF_LIFE,shelf_stability,REQUIRED,12-month,,SOFT,0.75,Target ambient shelf stability requirement,Formulate a clean label chocolate hazeln,0.95
+PB083,PB083_C01,PRODUCT_CATEGORY,product_category,REQUIRED,General,,SOFT,0.7,Extracted PRODUCT_CATEGORY requirement,Design a diabetic-safe sugar-free tomato,0.95
+PB083,PB083_C02,NUTRITION,protein_min,>=,3.0,,SOFT,0.7,Extracted NUTRITION requirement,Design a diabetic-safe sugar-free tomato,0.95
+PB083,PB083_C03,NUTRITION,sugar_max,<=,0.5,,SOFT,0.7,Extracted NUTRITION requirement,Design a diabetic-safe sugar-free tomato,0.95
+PB083,PB083_C04,SENSORY,flavor_profile,PREFERRED,savory flavour,,SOFT,0.7,"Sensory flavor, visual color, and mouthfeel target profile",Design a diabetic-safe sugar-free tomato,0.95
+PB083,PB083_C05,SHELF_LIFE,shelf_stability,REQUIRED,12-month,,SOFT,0.75,Target ambient shelf stability requirement,Design a diabetic-safe sugar-free tomato,0.95
+PB084,PB084_C01,PRODUCT_CATEGORY,product_category,REQUIRED,Sauces / Spreads / Emulsified Products,,SOFT,0.7,Extracted PRODUCT_CATEGORY requirement,Develop an allergen-free school-safe san,0.95
+PB084,PB084_C02,ALLERGEN,major_allergens,FORBIDDEN,top_9_allergens,,HARD,1.0,Mandatory consumer allergen exclusion and cross-contact safety,Develop an allergen-free school-safe san,0.95
+PB084,PB084_C03,NUTRITION,protein_min,>=,6.0,,SOFT,0.7,Extracted NUTRITION requirement,Develop an allergen-free school-safe san,0.95
+PB084,PB084_C04,COST,max_raw_material_cost,<=,7.0,,SOFT,0.85,Commercial raw material cost target per kg,Develop an allergen-free school-safe san,0.95
+PB084,PB084_C05,SENSORY,texture_profile,PREFERRED,Smooth,,SOFT,0.7,"Sensory flavor, visual color, and mouthfeel target profile",Develop an allergen-free school-safe san,0.95
+PB084,PB084_C06,SENSORY,texture_profile,PREFERRED,Spreadable,,SOFT,0.7,"Sensory flavor, visual color, and mouthfeel target profile",Develop an allergen-free school-safe san,0.95
+PB084,PB084_C07,SENSORY,flavor_profile,PREFERRED,savory flavour,,SOFT,0.7,"Sensory flavor, visual color, and mouthfeel target profile",Develop an allergen-free school-safe san,0.95
+PB084,PB084_C08,SHELF_LIFE,shelf_stability,REQUIRED,9 month,,SOFT,0.75,Target ambient shelf stability requirement,Develop an allergen-free school-safe san,0.95
+PB085,PB085_C01,PRODUCT_CATEGORY,product_category,REQUIRED,Sauces / Spreads / Emulsified Products,,SOFT,0.7,Extracted PRODUCT_CATEGORY requirement,Formulate an elderly-friendly nutrient-d,0.95
+PB085,PB085_C02,NUTRITION,protein_min,>=,5.0,,SOFT,0.7,Extracted NUTRITION requirement,Formulate an elderly-friendly nutrient-d,0.95
+PB085,PB085_C03,SENSORY,texture_profile,PREFERRED,Smooth,,SOFT,0.7,"Sensory flavor, visual color, and mouthfeel target profile",Formulate an elderly-friendly nutrient-d,0.95
+PB085,PB085_C04,SENSORY,flavor_profile,PREFERRED,herb flavour,,SOFT,0.7,"Sensory flavor, visual color, and mouthfeel target profile",Formulate an elderly-friendly nutrient-d,0.95
+PB085,PB085_C05,SENSORY,flavor_profile,PREFERRED,savory flavour,,SOFT,0.7,"Sensory flavor, visual color, and mouthfeel target profile",Formulate an elderly-friendly nutrient-d,0.95
+PB085,PB085_C06,SHELF_LIFE,shelf_stability,REQUIRED,12-month,,SOFT,0.75,Target ambient shelf stability requirement,Formulate an elderly-friendly nutrient-d,0.95
+PB086,PB086_C01,PRODUCT_CATEGORY,product_category,REQUIRED,Sauces / Spreads / Emulsified Products,,SOFT,0.7,Extracted PRODUCT_CATEGORY requirement,Create a keto high-fat creamy garlic dip,0.95
+PB086,PB086_C02,NUTRITION,protein_min,>=,3.0,,SOFT,0.7,Extracted NUTRITION requirement,Create a keto high-fat creamy garlic dip,0.95
+PB086,PB086_C03,NUTRITION,fat_max,<=,60.0,,SOFT,0.7,Extracted NUTRITION requirement,Create a keto high-fat creamy garlic dip,0.95
+PB086,PB086_C04,SENSORY,texture_profile,PREFERRED,Creamy,,SOFT,0.7,"Sensory flavor, visual color, and mouthfeel target profile",Create a keto high-fat creamy garlic dip,0.95
+PB086,PB086_C05,SENSORY,flavor_profile,PREFERRED,garlic flavour,,SOFT,0.7,"Sensory flavor, visual color, and mouthfeel target profile",Create a keto high-fat creamy garlic dip,0.95
+PB086,PB086_C06,SENSORY,flavor_profile,PREFERRED,herb flavour,,SOFT,0.7,"Sensory flavor, visual color, and mouthfeel target profile",Create a keto high-fat creamy garlic dip,0.95
+PB086,PB086_C07,SHELF_LIFE,shelf_stability,REQUIRED,6-month,,SOFT,0.75,Target ambient shelf stability requirement,Create a keto high-fat creamy garlic dip,0.95
+PB087,PB087_C01,PRODUCT_CATEGORY,product_category,REQUIRED,Sauces / Spreads / Emulsified Products,,SOFT,0.7,Extracted PRODUCT_CATEGORY requirement,Design a clean label vegan creamy ranch ,0.95
+PB087,PB087_C02,DIETARY,dietary_pattern,FORBIDDEN,animal_derived_ingredients,,HARD,0.95,"Mandatory dietary label claim (Vegan, Gluten-Free, Dairy-Free)",Design a clean label vegan creamy ranch ,0.95
+PB087,PB087_C03,REGULATORY,clean_label,REQUIRED,no_synthetic_additives,,HARD,1.0,Mandatory regulatory compliance (FDA/EFSA/FSSAI Codex GSFA),Design a clean label vegan creamy ranch ,0.95
+PB087,PB087_C04,NUTRITION,fat_max,<=,30.0,,SOFT,0.7,Extracted NUTRITION requirement,Design a clean label vegan creamy ranch ,0.95
+PB087,PB087_C05,NUTRITION,sugar_max,<=,3.0,,SOFT,0.7,Extracted NUTRITION requirement,Design a clean label vegan creamy ranch ,0.95
+PB087,PB087_C06,COST,max_raw_material_cost,<=,6.5,,SOFT,0.85,Commercial raw material cost target per kg,Design a clean label vegan creamy ranch ,0.95
+PB087,PB087_C07,SENSORY,texture_profile,PREFERRED,Creamy,,SOFT,0.7,"Sensory flavor, visual color, and mouthfeel target profile",Design a clean label vegan creamy ranch ,0.95
+PB087,PB087_C08,SENSORY,flavor_profile,PREFERRED,garlic flavour,,SOFT,0.7,"Sensory flavor, visual color, and mouthfeel target profile",Design a clean label vegan creamy ranch ,0.95
+PB087,PB087_C09,SENSORY,flavor_profile,PREFERRED,herb flavour,,SOFT,0.7,"Sensory flavor, visual color, and mouthfeel target profile",Design a clean label vegan creamy ranch ,0.95
+PB087,PB087_C10,SHELF_LIFE,shelf_stability,REQUIRED,6-month,,SOFT,0.75,Target ambient shelf stability requirement,Design a clean label vegan creamy ranch ,0.95
+PB088,PB088_C01,PRODUCT_CATEGORY,product_category,REQUIRED,Sauces / Spreads / Emulsified Products,,SOFT,0.7,Extracted PRODUCT_CATEGORY requirement,Develop an ultra-low-cost commercial emu,0.95
+PB088,PB088_C02,NUTRITION,protein_min,>=,2.5,,SOFT,0.7,Extracted NUTRITION requirement,Develop an ultra-low-cost commercial emu,0.95
+PB088,PB088_C03,COST,max_raw_material_cost,<=,3.0,,SOFT,0.85,Commercial raw material cost target per kg,Develop an ultra-low-cost commercial emu,0.95
+PB088,PB088_C04,SENSORY,texture_profile,PREFERRED,Smooth,,SOFT,0.7,"Sensory flavor, visual color, and mouthfeel target profile",Develop an ultra-low-cost commercial emu,0.95
+PB088,PB088_C05,SHELF_LIFE,shelf_stability,REQUIRED,9-month,,SOFT,0.75,Target ambient shelf stability requirement,Develop an ultra-low-cost commercial emu,0.95
+PB089,PB089_C01,PRODUCT_CATEGORY,product_category,REQUIRED,Sauces / Spreads / Emulsified Products,,SOFT,0.7,Extracted PRODUCT_CATEGORY requirement,Formulate a high-protein savory peanut s,0.95
+PB089,PB089_C02,NUTRITION,protein_min,>=,12.0,,SOFT,0.7,Extracted NUTRITION requirement,Formulate a high-protein savory peanut s,0.95
+PB089,PB089_C03,COST,max_raw_material_cost,<=,7.5,,SOFT,0.85,Commercial raw material cost target per kg,Formulate a high-protein savory peanut s,0.95
+PB089,PB089_C04,SENSORY,flavor_profile,PREFERRED,savory flavour,,SOFT,0.7,"Sensory flavor, visual color, and mouthfeel target profile",Formulate a high-protein savory peanut s,0.95
+PB089,PB089_C05,SHELF_LIFE,shelf_stability,REQUIRED,12 months,,SOFT,0.75,Target ambient shelf stability requirement,Formulate a high-protein savory peanut s,0.95
+PB090,PB090_C01,PRODUCT_CATEGORY,product_category,REQUIRED,Sauces / Spreads / Emulsified Products,,SOFT,0.7,Extracted PRODUCT_CATEGORY requirement,Create a clean label dairy-free cheese s,0.95
+PB090,PB090_C02,ALLERGEN,dairy,FORBIDDEN,milk_and_dairy_derivatives,,HARD,1.0,Mandatory consumer allergen exclusion and cross-contact safety,Create a clean label dairy-free cheese s,0.95
+PB090,PB090_C03,REGULATORY,clean_label,REQUIRED,no_synthetic_additives,,HARD,1.0,Mandatory regulatory compliance (FDA/EFSA/FSSAI Codex GSFA),Create a clean label dairy-free cheese s,0.95
+PB090,PB090_C04,NUTRITION,protein_min,>=,6.0,,SOFT,0.7,Extracted NUTRITION requirement,Create a clean label dairy-free cheese s,0.95
+PB090,PB090_C05,COST,max_raw_material_cost,<=,9.5,,SOFT,0.85,Commercial raw material cost target per kg,Create a clean label dairy-free cheese s,0.95
+PB090,PB090_C06,SENSORY,texture_profile,PREFERRED,Smooth,,SOFT,0.7,"Sensory flavor, visual color, and mouthfeel target profile",Create a clean label dairy-free cheese s,0.95
+PB090,PB090_C07,SENSORY,texture_profile,PREFERRED,Spreadable,,SOFT,0.7,"Sensory flavor, visual color, and mouthfeel target profile",Create a clean label dairy-free cheese s,0.95
+PB090,PB090_C08,SENSORY,flavor_profile,PREFERRED,savory flavour,,SOFT,0.7,"Sensory flavor, visual color, and mouthfeel target profile",Create a clean label dairy-free cheese s,0.95
+PB090,PB090_C09,SHELF_LIFE,shelf_stability,REQUIRED,60-day,,SOFT,0.75,Target ambient shelf stability requirement,Create a clean label dairy-free cheese s,0.95
+PB091,PB091_C01,PRODUCT_CATEGORY,product_category,REQUIRED,Sauces / Spreads / Emulsified Products,,SOFT,0.7,Extracted PRODUCT_CATEGORY requirement,Design a low-calorie plant-based vinaigr,0.95
+PB091,PB091_C02,NUTRITION,fat_max,<=,10.0,,SOFT,0.7,Extracted NUTRITION requirement,Design a low-calorie plant-based vinaigr,0.95
+PB091,PB091_C03,NUTRITION,sugar_max,<=,3.0,,SOFT,0.7,Extracted NUTRITION requirement,Design a low-calorie plant-based vinaigr,0.95
+PB091,PB091_C04,SENSORY,flavor_profile,PREFERRED,lemon flavour,,SOFT,0.7,"Sensory flavor, visual color, and mouthfeel target profile",Design a low-calorie plant-based vinaigr,0.95
+PB091,PB091_C05,SENSORY,flavor_profile,PREFERRED,herb flavour,,SOFT,0.7,"Sensory flavor, visual color, and mouthfeel target profile",Design a low-calorie plant-based vinaigr,0.95
+PB091,PB091_C06,SHELF_LIFE,shelf_stability,REQUIRED,12-month,,SOFT,0.75,Target ambient shelf stability requirement,Design a low-calorie plant-based vinaigr,0.95
+PB092,PB092_C01,PRODUCT_CATEGORY,product_category,REQUIRED,Sauces / Spreads / Emulsified Products,,SOFT,0.7,Extracted PRODUCT_CATEGORY requirement,Develop a spicy chipotle vegan mayo emul,0.95
+PB092,PB092_C02,DIETARY,dietary_pattern,FORBIDDEN,animal_derived_ingredients,,HARD,0.95,"Mandatory dietary label claim (Vegan, Gluten-Free, Dairy-Free)",Develop a spicy chipotle vegan mayo emul,0.95
+PB092,PB092_C03,NUTRITION,protein_min,>=,2.0,,SOFT,0.7,Extracted NUTRITION requirement,Develop a spicy chipotle vegan mayo emul,0.95
+PB092,PB092_C04,NUTRITION,fat_max,<=,40.0,,SOFT,0.7,Extracted NUTRITION requirement,Develop a spicy chipotle vegan mayo emul,0.95
+PB092,PB092_C05,SENSORY,texture_profile,PREFERRED,Smooth,,SOFT,0.7,"Sensory flavor, visual color, and mouthfeel target profile",Develop a spicy chipotle vegan mayo emul,0.95
+PB092,PB092_C06,SHELF_LIFE,shelf_stability,REQUIRED,9-month,,SOFT,0.75,Target ambient shelf stability requirement,Develop a spicy chipotle vegan mayo emul,0.95
+PB093,PB093_C01,PRODUCT_CATEGORY,product_category,REQUIRED,Sauces / Spreads / Emulsified Products,,SOFT,0.7,Extracted PRODUCT_CATEGORY requirement,Formulate an allergen-free sweet caramel,0.95
+PB093,PB093_C02,ALLERGEN,major_allergens,FORBIDDEN,top_9_allergens,,HARD,1.0,Mandatory consumer allergen exclusion and cross-contact safety,Formulate an allergen-free sweet caramel,0.95
+PB093,PB093_C03,NUTRITION,protein_min,>=,3.0,,SOFT,0.7,Extracted NUTRITION requirement,Formulate an allergen-free sweet caramel,0.95
+PB093,PB093_C04,NUTRITION,sugar_max,<=,25.0,,SOFT,0.7,Extracted NUTRITION requirement,Formulate an allergen-free sweet caramel,0.95
+PB093,PB093_C05,COST,max_raw_material_cost,<=,8.0,,SOFT,0.85,Commercial raw material cost target per kg,Formulate an allergen-free sweet caramel,0.95
+PB093,PB093_C06,SENSORY,texture_profile,PREFERRED,Smooth,,SOFT,0.7,"Sensory flavor, visual color, and mouthfeel target profile",Formulate an allergen-free sweet caramel,0.95
+PB093,PB093_C07,SENSORY,flavor_profile,PREFERRED,caramel flavour,,SOFT,0.7,"Sensory flavor, visual color, and mouthfeel target profile",Formulate an allergen-free sweet caramel,0.95
+PB093,PB093_C08,SHELF_LIFE,shelf_stability,REQUIRED,9-month,,SOFT,0.75,Target ambient shelf stability requirement,Formulate an allergen-free sweet caramel,0.95
+PB094,PB094_C01,PRODUCT_CATEGORY,product_category,REQUIRED,Sauces / Spreads / Emulsified Products,,SOFT,0.7,Extracted PRODUCT_CATEGORY requirement,Create a high-protein hummus spread cont,0.95
+PB094,PB094_C02,NUTRITION,protein_min,>=,10.0,,SOFT,0.7,Extracted NUTRITION requirement,Create a high-protein hummus spread cont,0.95
+PB094,PB094_C03,NUTRITION,fat_max,<=,12.0,,SOFT,0.7,Extracted NUTRITION requirement,Create a high-protein hummus spread cont,0.95
+PB094,PB094_C04,COST,max_raw_material_cost,<=,5.5,,SOFT,0.85,Commercial raw material cost target per kg,Create a high-protein hummus spread cont,0.95
+PB094,PB094_C05,SENSORY,flavor_profile,PREFERRED,garlic flavour,,SOFT,0.7,"Sensory flavor, visual color, and mouthfeel target profile",Create a high-protein hummus spread cont,0.95
+PB094,PB094_C06,SHELF_LIFE,shelf_stability,REQUIRED,45-day,,SOFT,0.75,Target ambient shelf stability requirement,Create a high-protein hummus spread cont,0.95
+PB095,PB095_C01,PRODUCT_CATEGORY,product_category,REQUIRED,Sauces / Spreads / Emulsified Products,,SOFT,0.7,Extracted PRODUCT_CATEGORY requirement,Design a clean label plant-based holland,0.95
+PB095,PB095_C02,REGULATORY,clean_label,REQUIRED,no_synthetic_additives,,HARD,1.0,Mandatory regulatory compliance (FDA/EFSA/FSSAI Codex GSFA),Design a clean label plant-based holland,0.95
+PB095,PB095_C03,SENSORY,texture_profile,PREFERRED,Smooth,,SOFT,0.7,"Sensory flavor, visual color, and mouthfeel target profile",Design a clean label plant-based holland,0.95
+PB095,PB095_C04,SENSORY,flavor_profile,PREFERRED,lemon flavour,,SOFT,0.7,"Sensory flavor, visual color, and mouthfeel target profile",Design a clean label plant-based holland,0.95
+PB095,PB095_C05,SHELF_LIFE,shelf_stability,REQUIRED,6-month,,SOFT,0.75,Target ambient shelf stability requirement,Design a clean label plant-based holland,0.95
+PB096,PB096_C01,PRODUCT_CATEGORY,product_category,REQUIRED,Sauces / Spreads / Emulsified Products,,SOFT,0.7,Extracted PRODUCT_CATEGORY requirement,Develop a diabetic-friendly smoky barbec,0.95
+PB096,PB096_C02,NUTRITION,protein_min,>=,3.0,,SOFT,0.7,Extracted NUTRITION requirement,Develop a diabetic-friendly smoky barbec,0.95
+PB096,PB096_C03,NUTRITION,sugar_max,<=,1.5,,SOFT,0.7,Extracted NUTRITION requirement,Develop a diabetic-friendly smoky barbec,0.95
+PB096,PB096_C04,COST,max_raw_material_cost,<=,4.5,,SOFT,0.85,Commercial raw material cost target per kg,Develop a diabetic-friendly smoky barbec,0.95
+PB096,PB096_C05,SHELF_LIFE,shelf_stability,REQUIRED,12-month,,SOFT,0.75,Target ambient shelf stability requirement,Develop a diabetic-friendly smoky barbec,0.95
+PB097,PB097_C01,PRODUCT_CATEGORY,product_category,REQUIRED,Sauces / Spreads / Emulsified Products,,SOFT,0.7,Extracted PRODUCT_CATEGORY requirement,Formulate a hypoallergenic seed butter s,0.95
+PB097,PB097_C02,NUTRITION,protein_min,>=,15.0,,SOFT,0.7,Extracted NUTRITION requirement,Formulate a hypoallergenic seed butter s,0.95
+PB097,PB097_C03,NUTRITION,fibre_min,>=,6.0,,SOFT,0.7,Extracted NUTRITION requirement,Formulate a hypoallergenic seed butter s,0.95
+PB097,PB097_C04,SHELF_LIFE,shelf_stability,REQUIRED,12-month,,SOFT,0.75,Target ambient shelf stability requirement,Formulate a hypoallergenic seed butter s,0.95
+PB098,PB098_C01,PRODUCT_CATEGORY,product_category,REQUIRED,Sauces / Spreads / Emulsified Products,,SOFT,0.7,Extracted PRODUCT_CATEGORY requirement,Create a functional turmeric and black p,0.95
+PB098,PB098_C02,NUTRITION,protein_min,>=,8.0,,SOFT,0.7,Extracted NUTRITION requirement,Create a functional turmeric and black p,0.95
+PB098,PB098_C03,SENSORY,texture_profile,PREFERRED,Smooth,,SOFT,0.7,"Sensory flavor, visual color, and mouthfeel target profile",Create a functional turmeric and black p,0.95
+PB098,PB098_C04,SHELF_LIFE,shelf_stability,REQUIRED,9-month,,SOFT,0.75,Target ambient shelf stability requirement,Create a functional turmeric and black p,0.95
+PB099,PB099_C01,PRODUCT_CATEGORY,product_category,REQUIRED,Sauces / Spreads / Emulsified Products,,SOFT,0.7,Extracted PRODUCT_CATEGORY requirement,Design a low-sodium vegan pesto spread c,0.95
+PB099,PB099_C02,DIETARY,dietary_pattern,FORBIDDEN,animal_derived_ingredients,,HARD,0.95,"Mandatory dietary label claim (Vegan, Gluten-Free, Dairy-Free)",Design a low-sodium vegan pesto spread c,0.95
+PB099,PB099_C03,NUTRITION,protein_min,>=,7.0,,SOFT,0.7,Extracted NUTRITION requirement,Design a low-sodium vegan pesto spread c,0.95
+PB099,PB099_C04,COST,max_raw_material_cost,<=,10.0,,SOFT,0.85,Commercial raw material cost target per kg,Design a low-sodium vegan pesto spread c,0.95
+PB099,PB099_C05,SENSORY,flavor_profile,PREFERRED,garlic flavour,,SOFT,0.7,"Sensory flavor, visual color, and mouthfeel target profile",Design a low-sodium vegan pesto spread c,0.95
+PB099,PB099_C06,SENSORY,flavor_profile,PREFERRED,herb flavour,,SOFT,0.7,"Sensory flavor, visual color, and mouthfeel target profile",Design a low-sodium vegan pesto spread c,0.95
+PB099,PB099_C07,SHELF_LIFE,shelf_stability,REQUIRED,60-day,,SOFT,0.75,Target ambient shelf stability requirement,Design a low-sodium vegan pesto spread c,0.95
+PB100,PB100_C01,PRODUCT_CATEGORY,product_category,REQUIRED,Sauces / Spreads / Emulsified Products,,SOFT,0.7,Extracted PRODUCT_CATEGORY requirement,Develop an organic clean label dark choc,0.95
+PB100,PB100_C02,REGULATORY,clean_label,REQUIRED,no_synthetic_additives,,HARD,1.0,Mandatory regulatory compliance (FDA/EFSA/FSSAI Codex GSFA),Develop an organic clean label dark choc,0.95
+PB100,PB100_C03,NUTRITION,protein_min,>=,12.0,,SOFT,0.7,Extracted NUTRITION requirement,Develop an organic clean label dark choc,0.95
+PB100,PB100_C04,NUTRITION,sugar_max,<=,15.0,,SOFT,0.7,Extracted NUTRITION requirement,Develop an organic clean label dark choc,0.95
+PB100,PB100_C05,COST,max_raw_material_cost,<=,13.5,,SOFT,0.85,Commercial raw material cost target per kg,Develop an organic clean label dark choc,0.95
+PB100,PB100_C06,SENSORY,flavor_profile,PREFERRED,cocoa flavour,,SOFT,0.7,"Sensory flavor, visual color, and mouthfeel target profile",Develop an organic clean label dark choc,0.95
+PB100,PB100_C07,SENSORY,flavor_profile,PREFERRED,chocolate flavour,,SOFT,0.7,"Sensory flavor, visual color, and mouthfeel target profile",Develop an organic clean label dark choc,0.95
+PB100,PB100_C08,SENSORY,flavor_profile,PREFERRED,almond flavour,,SOFT,0.7,"Sensory flavor, visual color, and mouthfeel target profile",Develop an organic clean label dark choc,0.95
+PB100,PB100_C09,SHELF_LIFE,shelf_stability,REQUIRED,12-month,,SOFT,0.75,Target ambient shelf stability requirement,Develop an organic clean label dark choc,0.95

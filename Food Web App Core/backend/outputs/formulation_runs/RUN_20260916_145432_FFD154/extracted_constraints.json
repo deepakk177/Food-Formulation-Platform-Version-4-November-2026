@@ -1,0 +1,110 @@
+[
+  {
+    "constraint_id": "CONST-001",
+    "type": "category",
+    "parameter": "product_category",
+    "operator": "REQUIRED",
+    "target_value": "Confectionery & Chocolate",
+    "unit": null,
+    "importance": "CRITICAL",
+    "source_text": "High-Protein Vegan Chocolate Bar\n\nCreate a vegan d",
+    "confidence": 0.95,
+    "hard_or_soft": null
+  },
+  {
+    "constraint_id": "CONST-002",
+    "type": "ingredient_restriction",
+    "parameter": "dietary_pattern",
+    "operator": "FORBIDDEN",
+    "target_value": "animal_derived_ingredients",
+    "unit": null,
+    "importance": "CRITICAL",
+    "source_text": "Vegan",
+    "confidence": 1.0,
+    "hard_or_soft": null
+  },
+  {
+    "constraint_id": "CONST-003",
+    "type": "allergen",
+    "parameter": "dairy",
+    "operator": "FORBIDDEN",
+    "target_value": "milk_and_dairy_derivatives",
+    "unit": null,
+    "importance": "CRITICAL",
+    "source_text": "no dairy",
+    "confidence": 1.0,
+    "hard_or_soft": null
+  },
+  {
+    "constraint_id": "CONST-004",
+    "type": "nutrition",
+    "parameter": "protein_min",
+    "operator": ">=",
+    "target_value": 20.0,
+    "unit": "%",
+    "importance": "CRITICAL",
+    "source_text": "20% protein",
+    "confidence": 0.98,
+    "hard_or_soft": null
+  },
+  {
+    "constraint_id": "CONST-005",
+    "type": "nutrition",
+    "parameter": "fat_max",
+    "operator": "<=",
+    "target_value": 32.0,
+    "unit": "%",
+    "importance": "HIGH",
+    "source_text": "32% fat",
+    "confidence": 0.98,
+    "hard_or_soft": null
+  },
+  {
+    "constraint_id": "CONST-006",
+    "type": "processing",
+    "parameter": "water_activity",
+    "operator": "<=",
+    "target_value": 0.6,
+    "unit": "Aw",
+    "importance": "HIGH",
+    "source_text": "low water activity",
+    "confidence": 0.9,
+    "hard_or_soft": null
+  },
+  {
+    "constraint_id": "CONST-007",
+    "type": "sensory",
+    "parameter": "texture_profile",
+    "operator": "PREFERRED",
+    "target_value": "Smooth",
+    "unit": null,
+    "importance": "MEDIUM",
+    "source_text": "smooth",
+    "confidence": 0.9,
+    "hard_or_soft": null
+  },
+  {
+    "constraint_id": "CONST-008",
+    "type": "sensory",
+    "parameter": "flavor_profile",
+    "operator": "PREFERRED",
+    "target_value": "chocolate flavour",
+    "unit": null,
+    "importance": "MEDIUM",
+    "source_text": "Chocolate",
+    "confidence": 0.9,
+    "hard_or_soft": null
+  },
+  {
+    "constraint_id": "CONST-009",
+    "type": "shelf_life",
+    "parameter": "shelf_stability",
+    "operator": "REQUIRED",
+    "target_value": "9-month",
+    "unit": null,
+    "importance": "MEDIUM",
+    "source_text": "ambient",
+    "confidence": 0.88,
+    "hard_or_soft": null
+  }
+]

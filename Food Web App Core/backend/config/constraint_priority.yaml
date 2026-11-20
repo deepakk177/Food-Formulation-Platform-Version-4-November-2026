@@ -1,0 +1,63 @@
+# Constraint Priority Configuration
+# Defines priority weights (0.00 - 1.00) and default classification for formulation constraints
+
+constraint_priority:
+  regulatory:
+    weight: 1.00
+    hard_or_soft: "HARD"
+    reason: "Mandatory regulatory compliance (FDA/EFSA/FSSAI Codex GSFA)"
+    source: "Regulatory Knowledge Base"
+
+  allergen:
+    weight: 1.00
+    hard_or_soft: "HARD"
+    reason: "Mandatory consumer allergen exclusion and cross-contact safety"
+    source: "Allergen Exclusion Rules"
+
+  dietary:
+    weight: 0.95
+    hard_or_soft: "HARD"
+    reason: "Mandatory dietary label claim (Vegan, Gluten-Free, Dairy-Free)"
+    source: "Dietary Standard Rules"
+
+  nutritional_minimum:
+    weight: 0.90
+    hard_or_soft: "HARD"
+    reason: "Critical nutritional minimum requirement"
+    source: "Nutritional Target Specification"
+
+  mass_balance:
+    weight: 1.00
+    hard_or_soft: "HARD"
+    reason: "Mathematical mass balance law: sum of percentages must equal 100%"
+    source: "Physical Law"
+
+  nutritional_target:
+    weight: 0.75
+    hard_or_soft: "SOFT"
+    reason: "Target nutritional density optimization"
+    source: "Nutritional Target Specification"
+
+  functional:
+    weight: 0.80
+    hard_or_soft: "SOFT"
+    reason: "Target technological function (texture, emulsion, water activity)"
+    source: "Food Hydrocolloid & Rheology Rules"
+
+  sensory:
+    weight: 0.70
+    hard_or_soft: "SOFT"
+    reason: "Sensory flavor, visual color, and mouthfeel target profile"
+    source: "Sensory Panel Targets"
+
+  cost:
+    weight: 0.85
+    hard_or_soft: "SOFT"
+    reason: "Commercial raw material cost target per kg"
+    source: "Commercial Cost Target"
+
+  shelf_life:
+    weight: 0.75
+    hard_or_soft: "SOFT"
+    reason: "Target ambient shelf stability requirement"
+    source: "Quality Assurance Standard"

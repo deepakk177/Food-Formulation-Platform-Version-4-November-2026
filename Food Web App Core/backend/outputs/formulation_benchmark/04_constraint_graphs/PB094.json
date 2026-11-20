@@ -1,0 +1,89 @@
+{
+  "nodes": [
+    {
+      "id": "PROD-001",
+      "type": "ProductBrief",
+      "value": "Target Product (Sauces / Spreads / Emulsified Products)",
+      "source": "User Product Brief"
+    },
+    {
+      "id": "CONST-001",
+      "type": "Product_CategoryConstraintNode",
+      "value": "product_category REQUIRED Sauces / Spreads / Emulsified Products",
+      "source": "Create a high-protein hummus spread containing at least 10% "
+    },
+    {
+      "id": "CONST-002",
+      "type": "NutritionConstraintNode",
+      "value": "protein_min >= 10.0 %",
+      "source": "10% protein"
+    },
+    {
+      "id": "CONST-003",
+      "type": "NutritionConstraintNode",
+      "value": "fat_max <= 12.0 %",
+      "source": "12% fat"
+    },
+    {
+      "id": "CONST-004",
+      "type": "CostConstraintNode",
+      "value": "max_raw_material_cost <= 5.5 USD/kg",
+      "source": "5.5 USD/kg"
+    },
+    {
+      "id": "CONST-005",
+      "type": "SensoryConstraintNode",
+      "value": "flavor_profile PREFERRED garlic flavour",
+      "source": "garlic"
+    },
+    {
+      "id": "CONST-006",
+      "type": "Shelf_LifeConstraintNode",
+      "value": "shelf_stability REQUIRED 45-day",
+      "source": "stability"
+    }
+  ],
+  "edges": [
+    {
+      "source": "PROD-001",
+      "relationship": "HAS_CONSTRAINT",
+      "target": "CONST-001"
+    },
+    {
+      "source": "PROD-001",
+      "relationship": "HAS_NUTRITION_CONSTRAINT",
+      "target": "CONST-002"
+    },
+    {
+      "source": "PROD-001",
+      "relationship": "HAS_NUTRITION_CONSTRAINT",
+      "target": "CONST-003"
+    },
+    {
+      "source": "PROD-001",
+      "relationship": "HAS_COST_CONSTRAINT",
+      "target": "CONST-004"
+    },
+    {
+      "source": "PROD-001",
+      "relationship": "HAS_SENSORY_CONSTRAINT",
+      "target": "CONST-005"
+    },
+    {
+      "source": "PROD-001",
+      "relationship": "HAS_PROCESSING_CONSTRAINT",
+      "target": "CONST-006"
+    }
+  ],
+  "summary": {
+    "Nutrition Constraints": 2,
+    "Functional Constraints": 0,
+    "Sensory Constraints": 1,
+    "Regulatory Constraints": 0,
+    "Cost Constraints": 1,
+    "Ingredient Restrictions": 0,
+    "Processing Constraints": 1,
+    "Graph Nodes": 7,
+    "Graph Edges": 6
+  }
+}

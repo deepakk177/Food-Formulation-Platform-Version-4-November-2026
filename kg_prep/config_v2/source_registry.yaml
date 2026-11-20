@@ -1,0 +1,344 @@
+# ==============================================================================
+# Pipeline V2: Source Registry Configuration
+# Version: 2.0.0
+# Description: Declarative registry of 12 approved data sources for the Food
+#              Formulation Knowledge Graph. No mocks, no fabricated endpoints.
+# ==============================================================================
+
+version: "2.0.0"
+
+sources:
+  - source_id: "SRC-FOODON"
+    source_name: "FoodOn Ontology"
+    authority: "Food Ontology Consortium / OBO Foundry"
+    source_type: "ONTOLOGY"
+    base_url: "https://foodon.org"
+    endpoint: "https://raw.githubusercontent.com/FoodOntology/foodon/master/foodon.owl"
+    access_method: "LOCAL_FILE"
+    expected_format: "OWL"
+    authentication_required: false
+    environment_variable_name: null
+    license_reference: "Creative Commons Attribution 4.0 International (CC-BY 4.0)"
+    update_frequency: "MONTHLY"
+    dataset_version: "2024-03-08"
+    supported_node_types:
+      - "Ingredient"
+      - "FoodCategory"
+      - "ExternalIdentifier"
+    supported_relationship_types:
+      - "IS_A"
+      - "BELONGS_TO_CATEGORY"
+      - "HAS_EXTERNAL_IDENTIFIER"
+    enabled: true
+    access_status: "LOCAL_AVAILABLE"
+    parser_identifier: "foodon_extractor"
+    notes: "Verified local RDF/XML file: data/raw/ontology/foodon.owl (40.4 MB, 23,000+ classes)."
+    source_limitations: "Provides high-level taxonomic classifications; lacks quantitative nutrient contents and industrial processing parameters."
+
+  - source_id: "SRC-FLAVORDB"
+    source_name: "FlavorDB"
+    authority: "Center for Computational Biology, IIIT-Delhi"
+    source_type: "DATABASE"
+    base_url: "https://cosman.in/flavordb"
+    endpoint: "https://cosman.in/flavordb/entities_json?id="
+    access_method: "LOCAL_FILE"
+    expected_format: "JSON"
+    authentication_required: false
+    environment_variable_name: null
+    license_reference: "Academic Research License (IIIT-Delhi)"
+    update_frequency: "IRREGULAR"
+    dataset_version: "1.0"
+    supported_node_types:
+      - "FlavorMolecule"
+      - "SensoryFlavorDescriptor"
+      - "Compound"
+    supported_relationship_types:
+      - "HAS_FLAVOR_MOLECULE"
+      - "EXHIBITS_FLAVOR_DESCRIPTOR"
+      - "CONTAINS_COMPOUND"
+    enabled: true
+    access_status: "LOCAL_AVAILABLE"
+    parser_identifier: "flavordb_extractor"
+    notes: "Verified 20 genuine JSON files in data/raw/semi_structured/flavordb/entity_{1..20}.json."
+    source_limitations: "Qualitative flavor profiles without quantitative concentration thresholds or sensory intensity scores."
+
+  - source_id: "SRC-CODEX-GSFA"
+    source_name: "Codex General Standard for Food Additives (CXS 192-1995)"
+    authority: "Joint FAO/WHO Food Standards Programme (Codex Alimentarius)"
+    source_type: "REGULATION"
+    base_url: "https://www.fao.org/fao-who-codexalimentarius"
+    endpoint: "https://www.fao.org/fao-who-codexalimentarius/gsfa-online"
+    access_method: "WEB_SCRAPING"
+    expected_format: "HTML"
+    authentication_required: false
+    environment_variable_name: null
+    license_reference: "Public Domain / FAO Open Access"
+    update_frequency: "ANNUAL"
+    dataset_version: "CXS 192-1995 (Adopted 1995, Revised 2023)"
+    supported_node_types:
+      - "Regulation"
+      - "RegulatoryPermission"
+      - "Constraint"
+      - "FunctionalRole"
+    supported_relationship_types:
+      - "DEFINES"
+      - "PERMITTED_IN"
+      - "GOVERNS_ADDITIVE"
+      - "HAS_FUNCTIONAL_ROLE"
+    enabled: true
+    access_status: "LOCAL_PARTIAL"
+    parser_identifier: "codex_gsfa_extractor"
+    notes: "Local HTML index in data/raw/semi_structured/gsfa_html/gsfa_additives.html. Targeted scraping of provisions for categories 01.0, 02.0, 05.0, 06.0, 07.0, 14.0."
+    source_limitations: "Specifies maximum permissible limits only; does not provide operational recipe dosages or flavor thresholds."
+
+  - source_id: "SRC-USDA-FDC"
+    source_name: "USDA FoodData Central (FDC)"
+    authority: "Agricultural Research Service, U.S. Department of Agriculture"
+    source_type: "DATABASE"
+    base_url: "https://fdc.nal.usda.gov"
+    endpoint: "https://fdc.nal.usda.gov/fdc-datasets/FoodData_Central_csv_2024-04-18.zip"
+    access_method: "BULK_DOWNLOAD"
+    expected_format: "CSV"
+    authentication_required: false
+    environment_variable_name: "USDA_FDC_API_KEY"
+    license_reference: "U.S. Public Domain (U.S. Government Work)"
+    update_frequency: "SEMI_ANNUAL"
+    dataset_version: "2024-04-18"
+    supported_node_types:
+      - "Ingredient"
+      - "Nutrient"
+      - "NutrientMeasurement"
+      - "NutrientProfile"
+      - "ExternalIdentifier"
+    supported_relationship_types:
+      - "HAS_NUTRIENT_PROFILE"
+      - "HAS_NUTRIENT_MEASUREMENT"
+      - "MEASURES_NUTRIENT"
+      - "HAS_EXTERNAL_IDENTIFIER"
+    enabled: true
+    access_status: "REMOTE_AVAILABLE"
+    parser_identifier: "usda_fdc_extractor"
+    notes: "Scoped strictly to Foundation Foods and SR Legacy (~10,000 foods, ~60 MB uncompressed) per Decision D-01."
+    source_limitations: "Provides per-100g raw analytical nutrient values; does not account for factory processing yield loss."
+
+  - source_id: "SRC-OPENFOODFACTS"
+    source_name: "Open Food Facts"
+    authority: "Open Food Facts AISBL"
+    source_type: "DATABASE"
+    base_url: "https://world.openfoodfacts.org"
+    endpoint: "https://world.openfoodfacts.org/api/v2/product/"
+    access_method: "REST_API"
+    expected_format: "JSON"
+    authentication_required: false
+    environment_variable_name: null
+    license_reference: "Open Database License (ODbL) 1.0 / Database Contents License (DbCL) 1.0"
+    update_frequency: "REAL_TIME"
+    dataset_version: "API v2"
+    supported_node_types:
+      - "CommercialProduct"
+      - "ProductIngredientDeclaration"
+      - "Allergen"
+      - "PackagingSpecification"
+    supported_relationship_types:
+      - "HAS_INGREDIENT_DECLARATION"
+      - "USES_INGREDIENT"
+      - "HAS_ALLERGEN"
+      - "USES_MATERIAL"
+    enabled: true
+    access_status: "LOCAL_PARTIAL"
+    parser_identifier: "off_extractor"
+    notes: "Verified 2 local product HTMLs in data/raw/semi_structured/openfoodfacts/. API freely accessible."
+    source_limitations: "Ingredient declarations are in descending order by weight; exact percentage is populated only if explicitly printed on the physical label."
+
+  - source_id: "SRC-PUBCHEM"
+    source_name: "PubChem Compound Database"
+    authority: "National Center for Biotechnology Information (NCBI), U.S. NLM"
+    source_type: "DATABASE"
+    base_url: "https://pubchem.ncbi.nlm.nih.gov"
+    endpoint: "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/"
+    access_method: "REST_API"
+    expected_format: "JSON"
+    authentication_required: false
+    environment_variable_name: null
+    license_reference: "Public Domain (NCBI / NLM / NIH)"
+    update_frequency: "CONTINUOUS"
+    dataset_version: "PUG REST v1"
+    supported_node_types:
+      - "Compound"
+      - "ExternalIdentifier"
+    supported_relationship_types:
+      - "HAS_EXTERNAL_IDENTIFIER"
+    enabled: true
+    access_status: "REMOTE_AVAILABLE"
+    parser_identifier: "pubchem_extractor"
+    notes: "Direct open REST API; rate-limited to 5 requests per second."
+    source_limitations: "Strictly chemical structure and descriptor database; lacks food formulation technological roles and sensory profiles."
+
+  - source_id: "SRC-PEER-REVIEWED-LIT"
+    source_name: "Food Science Research Literature"
+    authority: "Scientific Publishing Houses (Elsevier, Springer, Wiley, ACS)"
+    source_type: "LITERATURE"
+    base_url: "https://doi.org"
+    endpoint: "LOCAL_REPOSITORY"
+    access_method: "LOCAL_FILE"
+    expected_format: "PDF"
+    authentication_required: false
+    environment_variable_name: null
+    license_reference: "Open Access (CC-BY / Publisher OA Terms)"
+    update_frequency: "IRREGULAR"
+    dataset_version: "Curated 2024-2026 Corpus"
+    supported_node_types:
+      - "Evidence"
+      - "IngredientInteraction"
+      - "CompatibilityRule"
+      - "Process"
+      - "ShelfLifeStudy"
+      - "SensoryEvaluation"
+    supported_relationship_types:
+      - "SUPPORTED_BY_EVIDENCE"
+      - "PARTICIPATES_IN_INTERACTION"
+      - "GOVERNED_BY_RULE"
+      - "HAS_SHELF_LIFE_STUDY"
+      - "HAS_SENSORY_EVALUATION"
+    enabled: true
+    access_status: "LOCAL_AVAILABLE"
+    parser_identifier: "literature_extractor"
+    notes: "Verified 3 local peer-reviewed food engineering PDFs (~1.8 MB total) in data/raw/unstructured/papers/."
+    source_limitations: "Unstructured scientific narrative tables requiring high-precision section parsing and explicit condition extraction."
+
+  - source_id: "SRC-MANUFACTURER-SPECS"
+    source_name: "Manufacturer Technical Data Sheets (TDS)"
+    authority: "Commercial Ingredient Suppliers (Cargill, Tate & Lyle, Ingredion, Kerry)"
+    source_type: "SPECIFICATION"
+    base_url: "LOCAL_REPOSITORY"
+    endpoint: "LOCAL_REPOSITORY"
+    access_method: "LOCAL_FILE"
+    expected_format: "PDF"
+    authentication_required: false
+    environment_variable_name: null
+    license_reference: "Commercial Public Technical Literature (Fair Use / Fact Extraction)"
+    update_frequency: "IRREGULAR"
+    dataset_version: "Curated 2024 Release"
+    supported_node_types:
+      - "Supplier"
+      - "IngredientGrade"
+      - "IngredientSpecification"
+      - "PropertyMeasurement"
+    supported_relationship_types:
+      - "SUPPLIED_BY"
+      - "HAS_GRADE"
+      - "HAS_SPECIFICATION"
+      - "HAS_PROPERTY_MEASUREMENT"
+    enabled: true
+    access_status: "LOCAL_AVAILABLE"
+    parser_identifier: "manufacturer_spec_extractor"
+    notes: "Verified local supplier TDS documents in data/raw/unstructured/patents_and_specs/."
+    source_limitations: "Commercial grade specifications vary by manufacturing lot; contains proprietary trade names that require resolution to canonical ingredients."
+
+  - source_id: "SRC-FSSAI"
+    source_name: "Food Safety and Standards Authority of India (FSSAI) Gazettes"
+    authority: "Ministry of Health and Family Welfare, Government of India"
+    source_type: "REGULATION"
+    base_url: "https://www.fssai.gov.in"
+    endpoint: "NOT_VERIFIED"
+    access_method: "MANUAL_DOWNLOAD"
+    expected_format: "PDF"
+    authentication_required: false
+    environment_variable_name: null
+    license_reference: "Government of India Open Data / Public Gazette"
+    update_frequency: "STATUTORY_AMENDMENTS"
+    dataset_version: "FSS (Food Products Standards and Food Additives) Regulations 2011 (as amended)"
+    supported_node_types:
+      - "Regulation"
+      - "RegulatoryPermission"
+      - "Constraint"
+    supported_relationship_types:
+      - "DEFINES"
+      - "PERMITTED_IN"
+      - "GOVERNS_ADDITIVE"
+    enabled: true
+    access_status: "REMOTE_AVAILABLE"
+    parser_identifier: "fssai_gazette_extractor"
+    notes: "Official gazettes accessible via fssai.gov.in. Replaces legacy placeholder text file with genuine PDF gazette parser."
+    source_limitations: "Complex statutory gazette structure with schedule-specific exemptions and regional commodity standards."
+
+  - source_id: "SRC-COMMODITY-COST"
+    source_name: "Agricultural Mandi Commodity Cost Bulletins (AGMARKNET / USDA AMS)"
+    authority: "Directorate of Marketing & Inspection (India) / USDA Agricultural Marketing Service"
+    source_type: "MARKET_DATA"
+    base_url: "https://agmarknet.gov.in"
+    endpoint: "NOT_VERIFIED"
+    access_method: "REST_API"
+    expected_format: "CSV"
+    authentication_required: false
+    environment_variable_name: null
+    license_reference: "Public Domain / Open Government Data"
+    update_frequency: "DAILY"
+    dataset_version: "Spot Daily Market Bulletin"
+    supported_node_types:
+      - "CostRecord"
+      - "Supplier"
+    supported_relationship_types:
+      - "HAS_COST_RECORD"
+      - "SUPPLIED_BY"
+    enabled: true
+    access_status: "REMOTE_AVAILABLE"
+    parser_identifier: "commodity_cost_extractor"
+    notes: "Wholesale agricultural mandi spot prices. Strictly typed as price_type=COMMODITY_MANDI. Never represented as supplier quotes."
+    source_limitations: "Covers farmgate raw commodities only (grains, pulses, oils); does not cover refined specialty hydrocolloids or customized flavors."
+
+  - source_id: "SRC-RECIPE1M"
+    source_name: "Recipe1M+ Dataset"
+    authority: "MIT Computer Science and Artificial Intelligence Laboratory (CSAIL)"
+    source_type: "REPOSITORY"
+    base_url: "http://pic2recipe.csail.mit.edu"
+    endpoint: "NOT_VERIFIED"
+    access_method: "GATED_API"
+    expected_format: "JSON"
+    authentication_required: true
+    environment_variable_name: "RECIPE1M_AUTH_KEY"
+    license_reference: "MIT CSAIL Academic Research Agreement (Restricted)"
+    update_frequency: "STATIC"
+    dataset_version: "Recipe1M+ 2017"
+    supported_node_types:
+      - "Recipe"
+      - "RecipeComponent"
+      - "RecipeStep"
+    supported_relationship_types:
+      - "HAS_RECIPE_COMPONENT"
+      - "USES_INGREDIENT"
+      - "HAS_RECIPE_STEP"
+      - "PRECEDES"
+    enabled: false
+    access_status: "BLOCKED_REQUIRES_REGISTRATION"
+    parser_identifier: "recipe1m_extractor"
+    notes: "Requires formal institutional research agreement. Registered and skipped gracefully per Decision D-03 without mock fallback."
+    source_limitations: "Culinary home kitchen recipes with qualitative instructions; not industrial batch formulations."
+
+  - source_id: "SRC-ICMR-IFCT"
+    source_name: "Indian Food Composition Tables (IFCT 2017)"
+    authority: "National Institute of Nutrition (NIN) / Indian Council of Medical Research (ICMR)"
+    source_type: "DATABASE"
+    base_url: "https://www.nin.res.in"
+    endpoint: "NOT_VERIFIED"
+    access_method: "GATED_API"
+    expected_format: "CSV"
+    authentication_required: true
+    environment_variable_name: "IFCT_LICENSE_KEY"
+    license_reference: "Copyright ICMR-NIN (Institutional Commercial License Required)"
+    update_frequency: "DECENNIAL"
+    dataset_version: "IFCT 2017"
+    supported_node_types:
+      - "Ingredient"
+      - "Nutrient"
+      - "NutrientMeasurement"
+      - "NutrientProfile"
+    supported_relationship_types:
+      - "HAS_NUTRIENT_PROFILE"
+      - "HAS_NUTRIENT_MEASUREMENT"
+      - "MEASURES_NUTRIENT"
+    enabled: false
+    access_status: "BLOCKED_REQUIRES_LICENSE"
+    parser_identifier: "ifct_extractor"
+    notes: "Proprietary database requiring institutional licensing. Registered and skipped gracefully per Decision D-03 without mock fallback."
+    source_limitations: "Gated Indian nutritional composition database; cannot be ingested without valid institutional license."

@@ -1,0 +1,6 @@
+dataset_id,source_id,dataset_version,release_date,record_count,file_size_bytes,sha256,source_url,local_path
+DSK-FOODON-2024-03,SRC-FOODON,2024-03,2024-03-15,39682,40429965,1e11fc50283c6498697a7aca9606c9d914f1cda71cc5510e006d949c32df7db0,https://github.com/FoodOntology/foodon/raw/master/foodon.owl,data/raw_v2/foodon/foodon.owl
+DSK-USDA-FDC-FOUNDATION,SRC-USDA-FDC,2024-10-31,2024-10-31,316,6285511,0aefbdb9558661a8bbdf088cf1a4613ff111a93e36e768e7b99c8f070e1762b1,https://fdc.nal.usda.gov/fdc-datasets/FoodData_Central_foundation_food_json_2024-10-31.zip,data/raw_v2/usda_bulk/foundationDownload.json
+DSK-USDA-FDC-SR-LEGACY,SRC-USDA-FDC,2018-04,2018-04-01,7793,210758826,70d4235ae3a2bdf4d41fa16db7eb70b1ff9ec6727774d0a3d53fb7969ca4d9ea,https://fdc.nal.usda.gov/fdc-datasets/FoodData_Central_sr_legacy_food_json_2018-04.zip,data/raw_v2/usda_bulk/FoodData_Central_sr_legacy_food_json_2018-04.json
+DSK-CODEX-GSFA-ONLINE,SRC-CODEX-GSFA,48th Session,2024-01-01,296,49430,ff06587e0d5abdc84e6b6a2650964013a34fc80f4483880052ee8f124679fae8,https://www.fao.org/gsfaonline/,data/raw_v2/codex_gsfa/gsfa_additives.html
+DSK-PUBCHEM-COMPOUNDS,SRC-PUBCHEM,Live REST API,2024-11-01,8,56353,MULTIPLE_JSON_ASSETS,https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/,data/raw_v2/pubchem/

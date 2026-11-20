@@ -1,5 +1,5 @@
 metric,value
-total_nodes,24930
-total_relationships,5826
+total_nodes,26668
+total_relationships,30750
 validation_failures,0
 pipeline_status,PASSED

@@ -1,0 +1,52 @@
+# Scoring & Ranking Profile Configuration
+# Defines multi-objective profile weights for ranking candidate sets
+
+scoring:
+  default_weights:
+    functional_weight: 0.20
+    evidence_weight: 0.15
+    compatibility_weight: 0.15
+    nutrition_weight: 0.20
+    cost_weight: 0.15
+    regulatory_weight: 0.15
+
+profiles:
+  NUTRITION_OPTIMIZED:
+    functional_weight: 0.15
+    evidence_weight: 0.15
+    compatibility_weight: 0.10
+    nutrition_weight: 0.40
+    cost_weight: 0.10
+    regulatory_weight: 0.10
+
+  COST_OPTIMIZED:
+    functional_weight: 0.15
+    evidence_weight: 0.10
+    compatibility_weight: 0.10
+    nutrition_weight: 0.15
+    cost_weight: 0.40
+    regulatory_weight: 0.10
+
+  FUNCTIONAL_OPTIMIZED:
+    functional_weight: 0.40
+    evidence_weight: 0.15
+    compatibility_weight: 0.15
+    nutrition_weight: 0.10
+    cost_weight: 0.10
+    regulatory_weight: 0.10
+
+  SENSORY_OPTIMIZED:
+    functional_weight: 0.25
+    evidence_weight: 0.15
+    compatibility_weight: 0.20
+    nutrition_weight: 0.15
+    cost_weight: 0.10
+    regulatory_weight: 0.15
+
+  BALANCED:
+    functional_weight: 0.20
+    evidence_weight: 0.15
+    compatibility_weight: 0.15
+    nutrition_weight: 0.20
+    cost_weight: 0.15
+    regulatory_weight: 0.15

@@ -1,0 +1,6 @@
+{
+  "solver": "SLSQP",
+  "iterations": 300,
+  "tolerance": 1e-05,
+  "status": "OPTIMIZED"
+}

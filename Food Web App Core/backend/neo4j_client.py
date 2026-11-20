@@ -8,6 +8,12 @@ import logging
 import pandas as pd
 from pathlib import Path
 from typing import Dict, Any, List, Optional, Set
+from dotenv import load_dotenv
+
+# Ensure environmental variables are loaded
+_script_dir = os.path.dirname(os.path.abspath(__file__))
+load_dotenv(os.path.join(_script_dir, ".env"))
+load_dotenv()
 
 try:
     from neo4j import GraphDatabase, Driver
@@ -22,7 +28,7 @@ class Neo4jClient:
     def __init__(self):
         self.uri = os.getenv("NEO4J_URI", "bolt://localhost:7687")
         self.username = os.getenv("NEO4J_USERNAME", "neo4j")
-        self.password = os.getenv("NEO4J_PASSWORD", "password")
+        self.password = os.getenv("NEO4J_PASSWORD", "Food@123")
         self.database = os.getenv("NEO4J_DATABASE", "neo4j")
         self.driver: Optional[Driver] = None
         self._connected = False
@@ -31,6 +37,10 @@ class Neo4jClient:
         self._init_connection()
 
     def _init_connection(self):
+        if os.getenv("NEO4J_ENABLED", "").lower() in ["0", "false", "no"]:
+            self._connected = False
+            return
+
         if not GraphDatabase:
             logger.warning("[Neo4jClient] neo4j python package is not installed.")
             self._connected = False
@@ -42,7 +52,8 @@ class Neo4jClient:
                 auth=(self.username, self.password),
                 max_connection_lifetime=3600,
                 max_connection_pool_size=50,
-                connection_acquisition_timeout=5.0
+                connection_timeout=1.0,
+                connection_acquisition_timeout=1.0
             )
             self.driver.verify_connectivity()
             self._connected = True

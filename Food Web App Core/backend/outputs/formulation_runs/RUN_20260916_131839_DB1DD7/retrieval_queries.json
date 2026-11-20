@@ -1,0 +1,63 @@
+[
+  {
+    "intent_id": "INTENT-01",
+    "purpose": "Find compatible lipid system and oil matrix",
+    "entities": [
+      "Fats",
+      "Oils",
+      "Lipid Matrix"
+    ],
+    "constraints": [],
+    "required_properties": [
+      "fat_g",
+      "solid_fat_index",
+      "melting_point"
+    ]
+  },
+  {
+    "intent_id": "INTENT-02",
+    "purpose": "Find permitted sweetener system for target sweetness profile",
+    "entities": [
+      "Sweeteners",
+      "Syrups",
+      "Polyols"
+    ],
+    "constraints": [],
+    "required_properties": [
+      "sweetness_index",
+      "glycemic_index"
+    ]
+  },
+  {
+    "intent_id": "INTENT-03",
+    "purpose": "Find emulsifier & texturizer agents for rheology",
+    "entities": [
+      "Emulsifiers",
+      "Hydrocolloids",
+      "Gums",
+      "Fibres"
+    ],
+    "constraints": [
+      "Food Additive Compliance"
+    ],
+    "required_properties": [
+      "emulsion_capacity",
+      "viscosity_impact"
+    ]
+  },
+  {
+    "intent_id": "INTENT-04",
+    "purpose": "Find flavor components matching cocoa flavour, chocolate flavour",
+    "entities": [
+      "cocoa flavour",
+      "chocolate flavour"
+    ],
+    "constraints": [
+      "GRAS Status"
+    ],
+    "required_properties": [
+      "aroma_notes",
+      "flavor_intensity"
+    ]
+  }
+]

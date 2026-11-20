@@ -1,0 +1,74 @@
+{
+  "execution_id": "RUN-PHASE-2A-2-INGESTION-01",
+  "stage_name": "ACQUISITION",
+  "status": "COMPLETED",
+  "pipeline_version": "2.0.0",
+  "started_at": "2026-11-17T13:16:03Z",
+  "completed_at": "2026-11-17T13:16:36Z",
+  "duration_seconds": 33.25,
+  "summary_metrics": {
+    "total_raw_records_staged": 48097,
+    "total_records_discovered": 48197,
+    "total_records_extracted": 48197,
+    "total_records_rejected": 10,
+    "total_datasets_registered": 5,
+    "total_source_assets_verified": 18,
+    "database_file": "data/intermediate_v2/kg_staging.duckdb"
+  },
+  "sources": {
+    "SRC-FOODON": {
+      "source_name": "FoodOn Ontology",
+      "dataset_id": "DSK-FOODON-2024-03",
+      "asset_id": "AST-FOODON-OWL-001",
+      "records_staged": 39682,
+      "details": {
+        "classes_with_definitions": 19158,
+        "classes_with_synonyms": 12282,
+        "classes_with_external_xrefs": 4609,
+        "deprecated_classes": 587,
+        "replacement_terms": 502,
+        "subclass_subsumption_edges": 46027
+      }
+    },
+    "SRC-USDA-FDC": {
+      "source_name": "USDA FoodData Central",
+      "datasets": ["DSK-USDA-FDC-FOUNDATION", "DSK-USDA-FDC-SR-LEGACY", "DSK-USDA-FDC-2024-04"],
+      "records_staged": 8111,
+      "breakdown_by_data_type": {
+        "SR Legacy": 7793,
+        "Foundation": 318
+      },
+      "nutrient_metrics": {
+        "total_nutrient_measurements": 655865,
+        "zero_value_nutrients_preserved": 175801,
+        "total_food_portions": 14399
+      }
+    },
+    "SRC-CODEX-GSFA": {
+      "source_name": "Codex Alimentarius GSFA",
+      "dataset_id": "DSK-CODEX-GSFA-ONLINE",
+      "asset_id": "AST-CODEX-GSFA-ADDITIVES-001",
+      "records_staged": 296,
+      "details": {
+        "entity_type": "FOOD_ADDITIVE_IDENTITY",
+        "ins_numbers_extracted": 296
+      }
+    },
+    "SRC-PUBCHEM": {
+      "source_name": "PubChem Compound Database",
+      "dataset_id": "DSK-PUBCHEM-COMPOUNDS",
+      "records_staged": 8,
+      "details": {
+        "entity_type": "CHEMICAL_COMPOUND",
+        "cids_extracted": [1183, 2519, 311, 5988, 54670067, 712, 23665764, 104]
+      }
+    }
+  },
+  "test_execution": {
+    "total_tests": 57,
+    "passed": 57,
+    "failed": 0,
+    "skipped": 0,
+    "duration_seconds": 12.74
+  }
+}

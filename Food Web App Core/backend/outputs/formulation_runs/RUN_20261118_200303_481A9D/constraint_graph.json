@@ -1,0 +1,251 @@
+{
+  "nodes": [
+    {
+      "id": "PROD-001",
+      "type": "ProductBrief",
+      "value": "Target Product (Confectionery & Chocolate)",
+      "source": "User Product Brief"
+    },
+    {
+      "id": "CONST-001",
+      "type": "Product_CategoryConstraintNode",
+      "attribute": "product_category",
+      "operator": "REQUIRED",
+      "target_value": "Confectionery & Chocolate",
+      "unit": null,
+      "hard_or_soft": "HARD",
+      "priority": "CRITICAL",
+      "value": "product_category REQUIRED Confectionery & Chocolate",
+      "source": "Create a dairy-free chocolate containing cocoa butter, plant"
+    },
+    {
+      "id": "CONST-002",
+      "type": "AllergenConstraintNode",
+      "attribute": "dairy",
+      "operator": "FORBIDDEN",
+      "target_value": "milk_and_dairy_derivatives",
+      "unit": null,
+      "hard_or_soft": "HARD",
+      "priority": "CRITICAL",
+      "value": "dairy FORBIDDEN milk_and_dairy_derivatives",
+      "source": "dairy-free"
+    },
+    {
+      "id": "CONST-003",
+      "type": "NutritionConstraintNode",
+      "attribute": "protein_min",
+      "operator": ">=",
+      "target_value": 7.0,
+      "unit": "%",
+      "hard_or_soft": "HARD",
+      "priority": "CRITICAL",
+      "value": "protein_min >= 7.0 %",
+      "source": "7 % protein"
+    },
+    {
+      "id": "CONST-004",
+      "type": "NutritionConstraintNode",
+      "attribute": "sugar_max",
+      "operator": "<=",
+      "target_value": 28.0,
+      "unit": "%",
+      "hard_or_soft": "HARD",
+      "priority": "HIGH",
+      "value": "sugar_max <= 28.0 %",
+      "source": "28 % sugar"
+    },
+    {
+      "id": "CONST-005",
+      "type": "Ingredient_RestrictionConstraintNode",
+      "attribute": "cocoa_butter",
+      "operator": ">=",
+      "target_value": 25.0,
+      "unit": "%",
+      "hard_or_soft": "HARD",
+      "priority": "CRITICAL",
+      "value": "cocoa_butter >= 25.0 %",
+      "source": "25 % cocoa butter"
+    },
+    {
+      "id": "CONST-006",
+      "type": "SensoryConstraintNode",
+      "attribute": "texture_profile",
+      "operator": "PREFERRED",
+      "target_value": "Creamy Melt",
+      "unit": null,
+      "hard_or_soft": "SOFT",
+      "priority": "MEDIUM",
+      "value": "texture_profile PREFERRED Creamy Melt",
+      "source": "creamy melt"
+    },
+    {
+      "id": "CONST-007",
+      "type": "SensoryConstraintNode",
+      "attribute": "flavor_profile",
+      "operator": "PREFERRED",
+      "target_value": "cocoa flavour",
+      "unit": null,
+      "hard_or_soft": "SOFT",
+      "priority": "MEDIUM",
+      "value": "flavor_profile PREFERRED cocoa flavour",
+      "source": "cocoa"
+    },
+    {
+      "id": "CONST-008",
+      "type": "SensoryConstraintNode",
+      "attribute": "flavor_profile",
+      "operator": "PREFERRED",
+      "target_value": "chocolate flavour",
+      "unit": null,
+      "hard_or_soft": "SOFT",
+      "priority": "MEDIUM",
+      "value": "flavor_profile PREFERRED chocolate flavour",
+      "source": "chocolate"
+    },
+    {
+      "id": "CONST-009",
+      "type": "SensoryConstraintNode",
+      "attribute": "flavor_profile",
+      "operator": "PREFERRED",
+      "target_value": "vanilla flavour",
+      "unit": null,
+      "hard_or_soft": "SOFT",
+      "priority": "MEDIUM",
+      "value": "flavor_profile PREFERRED vanilla flavour",
+      "source": "vanilla"
+    },
+    {
+      "id": "CONST-010",
+      "type": "SensoryConstraintNode",
+      "attribute": "flavor_profile",
+      "operator": "PREFERRED",
+      "target_value": "almond flavour",
+      "unit": null,
+      "hard_or_soft": "SOFT",
+      "priority": "MEDIUM",
+      "value": "flavor_profile PREFERRED almond flavour",
+      "source": "almond"
+    },
+    {
+      "id": "CONST-011",
+      "type": "SensoryConstraintNode",
+      "attribute": "flavor_profile",
+      "operator": "PREFERRED",
+      "target_value": "caramel flavour",
+      "unit": null,
+      "hard_or_soft": "SOFT",
+      "priority": "MEDIUM",
+      "value": "flavor_profile PREFERRED caramel flavour",
+      "source": "caramel"
+    },
+    {
+      "id": "CONST-012",
+      "type": "Shelf_LifeConstraintNode",
+      "attribute": "shelf_stability",
+      "operator": ">=",
+      "target_value": "12-month",
+      "unit": "month",
+      "hard_or_soft": "SOFT",
+      "priority": "MEDIUM",
+      "value": "shelf_stability >= 12-month month",
+      "source": "shelf life"
+    }
+  ],
+  "edges": [
+    {
+      "source": "PROD-001",
+      "relationship": "HAS_CONSTRAINT",
+      "target": "CONST-001",
+      "hard_or_soft": "HARD",
+      "priority": "CRITICAL"
+    },
+    {
+      "source": "PROD-001",
+      "relationship": "HAS_ALLERGEN_CONSTRAINT",
+      "target": "CONST-002",
+      "hard_or_soft": "HARD",
+      "priority": "CRITICAL"
+    },
+    {
+      "source": "PROD-001",
+      "relationship": "HAS_NUTRITION_CONSTRAINT",
+      "target": "CONST-003",
+      "hard_or_soft": "HARD",
+      "priority": "CRITICAL"
+    },
+    {
+      "source": "PROD-001",
+      "relationship": "HAS_NUTRITION_CONSTRAINT",
+      "target": "CONST-004",
+      "hard_or_soft": "HARD",
+      "priority": "HIGH"
+    },
+    {
+      "source": "PROD-001",
+      "relationship": "HAS_INGREDIENT_RESTRICTION",
+      "target": "CONST-005",
+      "hard_or_soft": "HARD",
+      "priority": "CRITICAL"
+    },
+    {
+      "source": "PROD-001",
+      "relationship": "HAS_SENSORY_CONSTRAINT",
+      "target": "CONST-006",
+      "hard_or_soft": "SOFT",
+      "priority": "MEDIUM"
+    },
+    {
+      "source": "PROD-001",
+      "relationship": "HAS_SENSORY_CONSTRAINT",
+      "target": "CONST-007",
+      "hard_or_soft": "SOFT",
+      "priority": "MEDIUM"
+    },
+    {
+      "source": "PROD-001",
+      "relationship": "HAS_SENSORY_CONSTRAINT",
+      "target": "CONST-008",
+      "hard_or_soft": "SOFT",
+      "priority": "MEDIUM"
+    },
+    {
+      "source": "PROD-001",
+      "relationship": "HAS_SENSORY_CONSTRAINT",
+      "target": "CONST-009",
+      "hard_or_soft": "SOFT",
+      "priority": "MEDIUM"
+    },
+    {
+      "source": "PROD-001",
+      "relationship": "HAS_SENSORY_CONSTRAINT",
+      "target": "CONST-010",
+      "hard_or_soft": "SOFT",
+      "priority": "MEDIUM"
+    },
+    {
+      "source": "PROD-001",
+      "relationship": "HAS_SENSORY_CONSTRAINT",
+      "target": "CONST-011",
+      "hard_or_soft": "SOFT",
+      "priority": "MEDIUM"
+    },
+    {
+      "source": "PROD-001",
+      "relationship": "HAS_PROCESSING_CONSTRAINT",
+      "target": "CONST-012",
+      "hard_or_soft": "SOFT",
+      "priority": "MEDIUM"
+    }
+  ],
+  "summary": {
+    "Nutrition Constraints": 2,
+    "Functional Constraints": 0,
+    "Sensory Constraints": 6,
+    "Regulatory Constraints": 0,
+    "Cost Constraints": 0,
+    "Ingredient Restrictions": 2,
+    "Processing Constraints": 1,
+    "Graph Nodes": 13,
+    "Graph Edges": 12
+  }
+}

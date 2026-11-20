@@ -1,0 +1,36 @@
+{
+  "iteration_1": {
+    "profile": "BALANCED",
+    "candidate_id": "FC-004",
+    "strategy": "Functionality & Texture Strategy",
+    "score": 93.9,
+    "nutrition": {
+      "protein": 21.8,
+      "fat": 25.5,
+      "carbohydrates": 45.4,
+      "calories": 395.0,
+      "texture": "Firm & Dense",
+      "mouthfeel": "Complete balanced industrial texture",
+      "viscosity": "Controlled process viscosity",
+      "shelf_life": 9
+    },
+    "cost_per_kg": 13.36
+  },
+  "iteration_2": {
+    "profile": "COST_OPTIMIZED",
+    "candidate_id": "FC-001",
+    "strategy": "Nutrition-Maximized Strategy",
+    "score": 92.1,
+    "nutrition": {
+      "protein": 17.7,
+      "fat": 0.4,
+      "carbohydrates": 3.1,
+      "calories": 363.0,
+      "texture": "Firm & Dense",
+      "mouthfeel": "Complete balanced industrial texture",
+      "viscosity": "Controlled process viscosity",
+      "shelf_life": 9
+    },
+    "cost_per_kg": 8.03
+  }
+}

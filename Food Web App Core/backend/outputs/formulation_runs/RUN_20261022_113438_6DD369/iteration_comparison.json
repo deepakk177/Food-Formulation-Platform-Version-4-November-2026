@@ -1,0 +1,38 @@
+{
+  "iteration_1": {
+    "profile": "BALANCED",
+    "candidate_id": "FC-001",
+    "strategy": "Nutrition-Maximized Strategy",
+    "score": 87.1,
+    "nutrition": {
+      "protein": 5.0,
+      "fat": 15.0,
+      "carbohydrates": 3.4,
+      "calories": 259.0,
+      "texture": "Laboratory testing required",
+      "mouthfeel": "Not measured",
+      "viscosity": "Not measured",
+      "shelf_life": null,
+      "shelf_life_status": "INSUFFICIENT_LABELED_DATA"
+    },
+    "cost_per_kg": 13.36
+  },
+  "iteration_2": {
+    "profile": "COST_OPTIMIZED",
+    "candidate_id": "FC-003",
+    "strategy": "Balanced Strategy",
+    "score": 86.5,
+    "nutrition": {
+      "protein": 5.2,
+      "fat": 12.3,
+      "carbohydrates": 15.6,
+      "calories": 247.0,
+      "texture": "Laboratory testing required",
+      "mouthfeel": "Not measured",
+      "viscosity": "Not measured",
+      "shelf_life": null,
+      "shelf_life_status": "INSUFFICIENT_LABELED_DATA"
+    },
+    "cost_per_kg": 10.63
+  }
+}

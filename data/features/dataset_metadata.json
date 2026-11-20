@@ -1,0 +1,29 @@
+{
+  "dataset_version": "2026.11.04",
+  "preprocessing_version": "v2.0.0",
+  "total_curated_samples": 3163,
+  "train_samples": 2213,
+  "validation_samples": 475,
+  "test_samples": 475,
+  "random_seed": 42,
+  "classes": [
+    "Acidity & Preservation",
+    "Bulking Agent",
+    "Emulsifier",
+    "Flavor System",
+    "Hydrocolloid & Stabilizer",
+    "Lipid Source",
+    "Protein Source",
+    "Sweetener"
+  ],
+  "class_counts": {
+    "Lipid Source": 1031,
+    "Bulking Agent": 1013,
+    "Sweetener": 542,
+    "Protein Source": 279,
+    "Flavor System": 156,
+    "Hydrocolloid & Stabilizer": 105,
+    "Acidity & Preservation": 24,
+    "Emulsifier": 13
+  }
+}

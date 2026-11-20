@@ -1,0 +1,190 @@
+{
+  "category": "Confectionery & Chocolate",
+  "product_type": "chocolate_bar",
+  "description": "High-Fiber Dark Chocolate\n\nCreate a dark chocolate bar containing \u226510% dietary fiber, \u226418% sugar and \u226560% cocoa.\nIt should remain smooth without excessive grittiness and include roasted almond inclusions.\nTarget 12-month shelf life with acceptable sensory properties.",
+  "texture_requirements": [
+    "Smooth"
+  ],
+  "mouthfeel_requirements": [],
+  "dietary_requirements": [],
+  "allergen_constraints": [],
+  "nutrition_targets": {
+    "protein_min": null,
+    "protein_max": null,
+    "fat_min": null,
+    "fat_max": null,
+    "carbohydrate_max": null,
+    "sugar_max": null,
+    "fibre_min": null,
+    "sodium_max": null,
+    "calories_max": null
+  },
+  "functional_goals": [],
+  "flavor_profile": [
+    "cocoa flavour",
+    "chocolate flavour"
+  ],
+  "aroma_profile": [],
+  "processing_constraints": [],
+  "shelf_life_requirements": "12-month",
+  "water_activity_target": null,
+  "pH_target": null,
+  "regulatory_market": [],
+  "cost_target": null,
+  "excluded_ingredients": [],
+  "preferred_ingredients": [],
+  "required_claims": [],
+  "prohibited_claims": [],
+  "hard_constraints": [],
+  "soft_objectives": [
+    "OPTIMIZE_TEXTURE_AND_MOUTHFEEL",
+    "MAXIMIZE_CLEAN_LABEL_FIBER"
+  ],
+  "experiment_strategies": [
+    "nutrition_maximized",
+    "cost_optimized",
+    "balanced",
+    "functionality_texture",
+    "clean_label_fiber"
+  ],
+  "constraint_items": [
+    {
+      "constraint_id": "CONST-001",
+      "type": "category",
+      "parameter": "product_category",
+      "operator": "REQUIRED",
+      "target_value": "Confectionery & Chocolate",
+      "unit": null,
+      "importance": "CRITICAL",
+      "source_text": "High-Fiber Dark Chocolate\n\nCreate a dark chocolate",
+      "confidence": 0.95,
+      "hard_or_soft": null
+    },
+    {
+      "constraint_id": "CONST-002",
+      "type": "sensory",
+      "parameter": "texture_profile",
+      "operator": "PREFERRED",
+      "target_value": "Smooth",
+      "unit": null,
+      "importance": "MEDIUM",
+      "source_text": "smooth",
+      "confidence": 0.9,
+      "hard_or_soft": null
+    },
+    {
+      "constraint_id": "CONST-003",
+      "type": "sensory",
+      "parameter": "flavor_profile",
+      "operator": "PREFERRED",
+      "target_value": "cocoa flavour",
+      "unit": null,
+      "importance": "MEDIUM",
+      "source_text": "cocoa",
+      "confidence": 0.9,
+      "hard_or_soft": null
+    },
+    {
+      "constraint_id": "CONST-004",
+      "type": "sensory",
+      "parameter": "flavor_profile",
+      "operator": "PREFERRED",
+      "target_value": "chocolate flavour",
+      "unit": null,
+      "importance": "MEDIUM",
+      "source_text": "Chocolate",
+      "confidence": 0.9,
+      "hard_or_soft": null
+    },
+    {
+      "constraint_id": "CONST-005",
+      "type": "shelf_life",
+      "parameter": "shelf_stability",
+      "operator": "REQUIRED",
+      "target_value": "12-month",
+      "unit": null,
+      "importance": "MEDIUM",
+      "source_text": "shelf",
+      "confidence": 0.88,
+      "hard_or_soft": null
+    }
+  ],
+  "constraint_graph": {
+    "nodes": [
+      {
+        "id": "PROD-001",
+        "type": "ProductBrief",
+        "value": "Target Product (Confectionery & Chocolate)",
+        "source": "User Product Brief"
+      },
+      {
+        "id": "CONST-001",
+        "type": "CategoryConstraintNode",
+        "value": "product_category REQUIRED Confectionery & Chocolate",
+        "source": "High-Fiber Dark Chocolate\n\nCreate a dark chocolate"
+      },
+      {
+        "id": "CONST-002",
+        "type": "SensoryConstraintNode",
+        "value": "texture_profile PREFERRED Smooth",
+        "source": "smooth"
+      },
+      {
+        "id": "CONST-003",
+        "type": "SensoryConstraintNode",
+        "value": "flavor_profile PREFERRED cocoa flavour",
+        "source": "cocoa"
+      },
+      {
+        "id": "CONST-004",
+        "type": "SensoryConstraintNode",
+        "value": "flavor_profile PREFERRED chocolate flavour",
+        "source": "Chocolate"
+      },
+      {
+        "id": "CONST-005",
+        "type": "Shelf_LifeConstraintNode",
+        "value": "shelf_stability REQUIRED 12-month",
+        "source": "shelf"
+      }
+    ],
+    "edges": [
+      {
+        "source": "PROD-001",
+        "relationship": "HAS_CONSTRAINT",
+        "target": "CONST-001"
+      },
+      {
+        "source": "PROD-001",
+        "relationship": "HAS_SENSORY_CONSTRAINT",
+        "target": "CONST-002"
+      },
+      {
+        "source": "PROD-001",
+        "relationship": "HAS_SENSORY_CONSTRAINT",
+        "target": "CONST-003"
+      },
+      {
+        "source": "PROD-001",
+        "relationship": "HAS_SENSORY_CONSTRAINT",
+        "target": "CONST-004"
+      },
+      {
+        "source": "PROD-001",
+        "relationship": "HAS_PROCESSING_CONSTRAINT",
+        "target": "CONST-005"
+      }
+    ],
+    "summary": {
+      "Nutrition Constraints": 0,
+      "Functional Constraints": 0,
+      "Sensory Constraints": 3,
+      "Regulatory Constraints": 0,
+      "Cost Constraints": 0,
+      "Ingredient Restrictions": 0,
+      "Processing Constraints": 1,
+      "Graph Nodes": 6,
+      "Graph Edges": 5
+    }
+  }
+}

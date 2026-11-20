@@ -39,3 +39,11 @@ Thumbs.db
 
 # Logs
 *.log
+
+# Large media & bulk data (>100 MB)
+demo_output/Final Recording with Narration.mp4
+demo_output/FINAL RECORDING.mp4
+narration_output/FINAL_RECORDING_WITH_AI_NARRATION.mp4
+narration_output/narration_full.wav
+final_narrated_output/FINAL_RECORDING_WITH_AI_NARRATION.mp4
+kg_prep/data/raw_v2/usda_bulk/FoodData_Central_sr_legacy_food_json_2018-04.json

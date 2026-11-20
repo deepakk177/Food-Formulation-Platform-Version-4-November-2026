@@ -1,0 +1,89 @@
+{
+  "nodes": [
+    {
+      "id": "PROD-001",
+      "type": "ProductBrief",
+      "value": "Target Product (General)",
+      "source": "User Product Brief"
+    },
+    {
+      "id": "CONST-001",
+      "type": "Product_CategoryConstraintNode",
+      "value": "product_category REQUIRED General",
+      "source": "Formulate a diabetic-safe unsweetened plant milk containing "
+    },
+    {
+      "id": "CONST-002",
+      "type": "NutritionConstraintNode",
+      "value": "protein_min >= 4.0 %",
+      "source": "4% protein"
+    },
+    {
+      "id": "CONST-003",
+      "type": "NutritionConstraintNode",
+      "value": "sugar_max <= 0.2 %",
+      "source": "0.2% sugar"
+    },
+    {
+      "id": "CONST-004",
+      "type": "CostConstraintNode",
+      "value": "max_raw_material_cost <= 5.5 USD/kg",
+      "source": "5.5 USD/kg"
+    },
+    {
+      "id": "CONST-005",
+      "type": "SensoryConstraintNode",
+      "value": "texture_profile PREFERRED Creamy",
+      "source": "creamy"
+    },
+    {
+      "id": "CONST-006",
+      "type": "Shelf_LifeConstraintNode",
+      "value": "shelf_stability REQUIRED 9-month",
+      "source": "ambient"
+    }
+  ],
+  "edges": [
+    {
+      "source": "PROD-001",
+      "relationship": "HAS_CONSTRAINT",
+      "target": "CONST-001"
+    },
+    {
+      "source": "PROD-001",
+      "relationship": "HAS_NUTRITION_CONSTRAINT",
+      "target": "CONST-002"
+    },
+    {
+      "source": "PROD-001",
+      "relationship": "HAS_NUTRITION_CONSTRAINT",
+      "target": "CONST-003"
+    },
+    {
+      "source": "PROD-001",
+      "relationship": "HAS_COST_CONSTRAINT",
+      "target": "CONST-004"
+    },
+    {
+      "source": "PROD-001",
+      "relationship": "HAS_SENSORY_CONSTRAINT",
+      "target": "CONST-005"
+    },
+    {
+      "source": "PROD-001",
+      "relationship": "HAS_PROCESSING_CONSTRAINT",
+      "target": "CONST-006"
+    }
+  ],
+  "summary": {
+    "Nutrition Constraints": 2,
+    "Functional Constraints": 0,
+    "Sensory Constraints": 1,
+    "Regulatory Constraints": 0,
+    "Cost Constraints": 1,
+    "Ingredient Restrictions": 0,
+    "Processing Constraints": 1,
+    "Graph Nodes": 7,
+    "Graph Edges": 6
+  }
+}

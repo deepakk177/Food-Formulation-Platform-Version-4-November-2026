@@ -1,0 +1,23 @@
+{
+  "experiment_id": "EXP-001",
+  "product_brief": "Create a vegan high-protein chocolate bar containing at least 20% protein and at most 25% fat. The product should feature a chewy texture, rich cocoa flavour, low water activity (aw <= 0.60), 12-month ambient shelf stability, and a competitive raw material cost below 10.0 USD/kg. Avoid dairy, whey, and animal-derived ingredients.",
+  "constraint_count": 10,
+  "dynamic_subgraph_size": 26,
+  "candidate_counts_by_role": {
+    "Protein": 2,
+    "Fat": 7,
+    "Sweetener": 6,
+    "Flavor": 2,
+    "Binder/Texture": 9
+  },
+  "theoretical_combinations": 1512,
+  "combinations_evaluated": 1512,
+  "slsqp_success": 1512,
+  "slsqp_failure": 0,
+  "hard_constraint_failures": 578,
+  "valid_formulations": 934,
+  "formulations_scored": 934,
+  "best_score": 86.6,
+  "mean_score": 81.53,
+  "median_score": 81.4
+}

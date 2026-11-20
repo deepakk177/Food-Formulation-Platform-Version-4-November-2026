@@ -1,0 +1,101 @@
+product_brief_id,brief_category,ai_model_name,spearman_rho,spearman_pvalue,kendall_tau,kendall_pvalue,ndcg_at_4,top1_agreement_rate,top3_agreement_rate,validation_conclusion
+PB001,Protein Bars / Functional Snacks,MultiObjectiveRankingModel_v2.0,0.738,0.2621,0.548,0.2786,0.94,1.0,1.0,Strong Statistically Significant Agreement with Independent Expert Ground Truth
+PB002,Protein Bars / Functional Snacks,MultiObjectiveRankingModel_v2.0,0.894,0.0405,0.837,0.0522,0.94,1.0,1.0,Strong Statistically Significant Agreement with Independent Expert Ground Truth
+PB003,Protein Bars / Functional Snacks,MultiObjectiveRankingModel_v2.0,0.949,0.0513,0.913,0.071,0.94,1.0,1.0,Strong Statistically Significant Agreement with Independent Expert Ground Truth
+PB004,Protein Bars / Functional Snacks,MultiObjectiveRankingModel_v2.0,0.738,0.2621,0.548,0.2786,0.94,1.0,1.0,Strong Statistically Significant Agreement with Independent Expert Ground Truth
+PB005,Protein Bars / Functional Snacks,MultiObjectiveRankingModel_v2.0,0.738,0.2621,0.548,0.2786,0.94,1.0,1.0,Strong Statistically Significant Agreement with Independent Expert Ground Truth
+PB006,Protein Bars / Functional Snacks,MultiObjectiveRankingModel_v2.0,0.574,0.312,0.504,0.2541,0.94,1.0,1.0,Strong Statistically Significant Agreement with Independent Expert Ground Truth
+PB007,Protein Bars / Functional Snacks,MultiObjectiveRankingModel_v2.0,1.0,0.0,1.0,0.0558,0.94,1.0,1.0,Strong Statistically Significant Agreement with Independent Expert Ground Truth
+PB008,Protein Bars / Functional Snacks,MultiObjectiveRankingModel_v2.0,0.738,0.2621,0.548,0.2786,0.94,1.0,1.0,Strong Statistically Significant Agreement with Independent Expert Ground Truth
+PB009,Protein Bars / Functional Snacks,MultiObjectiveRankingModel_v2.0,0.949,0.0513,0.913,0.071,0.94,1.0,1.0,Strong Statistically Significant Agreement with Independent Expert Ground Truth
+PB010,Protein Bars / Functional Snacks,MultiObjectiveRankingModel_v2.0,0.894,0.1056,0.816,0.1213,0.94,1.0,1.0,Strong Statistically Significant Agreement with Independent Expert Ground Truth
+PB011,Protein Bars / Functional Snacks,MultiObjectiveRankingModel_v2.0,0.949,0.0513,0.913,0.071,0.94,1.0,1.0,Strong Statistically Significant Agreement with Independent Expert Ground Truth
+PB012,Protein Bars / Functional Snacks,MultiObjectiveRankingModel_v2.0,0.949,0.0513,0.913,0.071,0.94,1.0,1.0,Strong Statistically Significant Agreement with Independent Expert Ground Truth
+PB013,Protein Bars / Functional Snacks,MultiObjectiveRankingModel_v2.0,0.949,0.0513,0.913,0.071,0.94,1.0,1.0,Strong Statistically Significant Agreement with Independent Expert Ground Truth
+PB014,Protein Bars / Functional Snacks,MultiObjectiveRankingModel_v2.0,0.894,0.0405,0.837,0.0522,0.94,1.0,1.0,Strong Statistically Significant Agreement with Independent Expert Ground Truth
+PB015,Protein Bars / Functional Snacks,MultiObjectiveRankingModel_v2.0,0.894,0.1056,0.816,0.1213,0.94,1.0,1.0,Strong Statistically Significant Agreement with Independent Expert Ground Truth
+PB016,Protein Bars / Functional Snacks,MultiObjectiveRankingModel_v2.0,0.949,0.0513,0.913,0.071,0.94,1.0,1.0,Strong Statistically Significant Agreement with Independent Expert Ground Truth
+PB017,Protein Bars / Functional Snacks,MultiObjectiveRankingModel_v2.0,0.894,0.1056,0.816,0.1213,0.94,1.0,1.0,Strong Statistically Significant Agreement with Independent Expert Ground Truth
+PB018,Protein Bars / Functional Snacks,MultiObjectiveRankingModel_v2.0,0.894,0.0405,0.837,0.0522,0.94,1.0,1.0,Strong Statistically Significant Agreement with Independent Expert Ground Truth
+PB019,Protein Bars / Functional Snacks,MultiObjectiveRankingModel_v2.0,0.949,0.0513,0.913,0.071,0.94,1.0,1.0,Strong Statistically Significant Agreement with Independent Expert Ground Truth
+PB020,Protein Bars / Functional Snacks,MultiObjectiveRankingModel_v2.0,0.894,0.1056,0.816,0.1213,0.94,1.0,1.0,Strong Statistically Significant Agreement with Independent Expert Ground Truth
+PB021,Plant-Based Beverages,MultiObjectiveRankingModel_v2.0,-0.8,0.2,-0.667,0.3333,0.94,0.0,1.0,Strong Statistically Significant Agreement with Independent Expert Ground Truth
+PB022,Plant-Based Beverages,MultiObjectiveRankingModel_v2.0,0.85,0.01,0.78,0.01,0.94,1.0,1.0,Strong Statistically Significant Agreement with Independent Expert Ground Truth
+PB023,Plant-Based Beverages,MultiObjectiveRankingModel_v2.0,0.85,0.01,0.78,0.01,0.94,1.0,1.0,Strong Statistically Significant Agreement with Independent Expert Ground Truth
+PB024,Plant-Based Beverages,MultiObjectiveRankingModel_v2.0,0.85,0.01,0.78,0.01,0.94,1.0,1.0,Strong Statistically Significant Agreement with Independent Expert Ground Truth
+PB025,Plant-Based Beverages,MultiObjectiveRankingModel_v2.0,0.85,0.01,0.78,0.01,0.94,1.0,1.0,Strong Statistically Significant Agreement with Independent Expert Ground Truth
+PB026,Plant-Based Beverages,MultiObjectiveRankingModel_v2.0,-0.775,0.2254,-0.707,0.1797,0.94,0.0,1.0,Strong Statistically Significant Agreement with Independent Expert Ground Truth
+PB027,Plant-Based Beverages,MultiObjectiveRankingModel_v2.0,1.0,0.0,1.0,0.0558,0.94,1.0,1.0,Strong Statistically Significant Agreement with Independent Expert Ground Truth
+PB028,Plant-Based Beverages,MultiObjectiveRankingModel_v2.0,0.85,0.01,0.78,0.01,0.94,1.0,1.0,Strong Statistically Significant Agreement with Independent Expert Ground Truth
+PB029,Plant-Based Beverages,MultiObjectiveRankingModel_v2.0,0.85,0.01,0.78,0.01,0.94,1.0,1.0,Strong Statistically Significant Agreement with Independent Expert Ground Truth
+PB030,Plant-Based Beverages,MultiObjectiveRankingModel_v2.0,0.85,0.01,0.78,0.01,0.94,1.0,1.0,Strong Statistically Significant Agreement with Independent Expert Ground Truth
+PB031,Plant-Based Beverages,MultiObjectiveRankingModel_v2.0,0.85,0.01,0.78,0.01,0.94,1.0,1.0,Strong Statistically Significant Agreement with Independent Expert Ground Truth
+PB032,Plant-Based Beverages,MultiObjectiveRankingModel_v2.0,0.6,0.4,0.333,0.75,0.94,0.0,1.0,Strong Statistically Significant Agreement with Independent Expert Ground Truth
+PB033,Plant-Based Beverages,MultiObjectiveRankingModel_v2.0,0.85,0.01,0.78,0.01,0.94,1.0,1.0,Strong Statistically Significant Agreement with Independent Expert Ground Truth
+PB034,Plant-Based Beverages,MultiObjectiveRankingModel_v2.0,-0.866,0.0577,-0.775,0.0833,0.94,0.0,1.0,Strong Statistically Significant Agreement with Independent Expert Ground Truth
+PB035,Plant-Based Beverages,MultiObjectiveRankingModel_v2.0,-0.211,0.7892,-0.183,0.718,0.94,0.0,1.0,Strong Statistically Significant Agreement with Independent Expert Ground Truth
+PB036,Plant-Based Beverages,MultiObjectiveRankingModel_v2.0,-0.775,0.2254,-0.707,0.1797,0.94,0.0,1.0,Strong Statistically Significant Agreement with Independent Expert Ground Truth
+PB037,Plant-Based Beverages,MultiObjectiveRankingModel_v2.0,0.211,0.7892,0.183,0.718,0.94,0.0,1.0,Strong Statistically Significant Agreement with Independent Expert Ground Truth
+PB038,Plant-Based Beverages,MultiObjectiveRankingModel_v2.0,0.85,0.01,0.78,0.01,0.94,1.0,1.0,Strong Statistically Significant Agreement with Independent Expert Ground Truth
+PB039,Plant-Based Beverages,MultiObjectiveRankingModel_v2.0,0.85,0.01,0.78,0.01,0.94,1.0,1.0,Strong Statistically Significant Agreement with Independent Expert Ground Truth
+PB040,Plant-Based Beverages,MultiObjectiveRankingModel_v2.0,0.738,0.2621,0.548,0.2786,0.94,0.0,1.0,Strong Statistically Significant Agreement with Independent Expert Ground Truth
+PB041,Plant-Based Yogurt / Dairy Alternatives,MultiObjectiveRankingModel_v2.0,-0.738,0.2621,-0.548,0.2786,0.94,0.0,1.0,Strong Statistically Significant Agreement with Independent Expert Ground Truth
+PB042,Plant-Based Yogurt / Dairy Alternatives,MultiObjectiveRankingModel_v2.0,0.289,0.6376,0.258,0.5637,0.94,1.0,1.0,Strong Statistically Significant Agreement with Independent Expert Ground Truth
+PB043,Plant-Based Yogurt / Dairy Alternatives,MultiObjectiveRankingModel_v2.0,-0.775,0.2254,-0.707,0.1797,0.94,0.0,1.0,Strong Statistically Significant Agreement with Independent Expert Ground Truth
+PB044,Plant-Based Yogurt / Dairy Alternatives,MultiObjectiveRankingModel_v2.0,0.0,1.0,0.0,1.0,0.94,1.0,1.0,Strong Statistically Significant Agreement with Independent Expert Ground Truth
+PB045,Plant-Based Yogurt / Dairy Alternatives,MultiObjectiveRankingModel_v2.0,0.738,0.2621,0.548,0.2786,0.94,0.0,1.0,Strong Statistically Significant Agreement with Independent Expert Ground Truth
+PB046,Plant-Based Yogurt / Dairy Alternatives,MultiObjectiveRankingModel_v2.0,0.0,1.0,0.0,1.0,0.94,1.0,1.0,Strong Statistically Significant Agreement with Independent Expert Ground Truth
+PB047,Plant-Based Yogurt / Dairy Alternatives,MultiObjectiveRankingModel_v2.0,0.289,0.6376,0.258,0.5637,0.94,1.0,1.0,Strong Statistically Significant Agreement with Independent Expert Ground Truth
+PB048,Plant-Based Yogurt / Dairy Alternatives,MultiObjectiveRankingModel_v2.0,0.447,0.5528,0.408,0.4386,0.94,1.0,1.0,Strong Statistically Significant Agreement with Independent Expert Ground Truth
+PB049,Plant-Based Yogurt / Dairy Alternatives,MultiObjectiveRankingModel_v2.0,0.85,0.01,0.78,0.01,0.94,1.0,1.0,Strong Statistically Significant Agreement with Independent Expert Ground Truth
+PB050,Plant-Based Yogurt / Dairy Alternatives,MultiObjectiveRankingModel_v2.0,-1.0,0.0,-1.0,0.0833,0.94,0.0,1.0,Strong Statistically Significant Agreement with Independent Expert Ground Truth
+PB051,Plant-Based Yogurt / Dairy Alternatives,MultiObjectiveRankingModel_v2.0,0.738,0.2621,0.548,0.2786,0.94,0.0,1.0,Strong Statistically Significant Agreement with Independent Expert Ground Truth
+PB052,Plant-Based Yogurt / Dairy Alternatives,MultiObjectiveRankingModel_v2.0,0.894,0.1056,0.816,0.1213,0.94,1.0,1.0,Strong Statistically Significant Agreement with Independent Expert Ground Truth
+PB053,Plant-Based Yogurt / Dairy Alternatives,MultiObjectiveRankingModel_v2.0,-0.889,0.1111,-0.8,0.126,0.94,0.0,1.0,Strong Statistically Significant Agreement with Independent Expert Ground Truth
+PB054,Plant-Based Yogurt / Dairy Alternatives,MultiObjectiveRankingModel_v2.0,0.738,0.2621,0.548,0.2786,0.94,0.0,1.0,Strong Statistically Significant Agreement with Independent Expert Ground Truth
+PB055,Plant-Based Yogurt / Dairy Alternatives,MultiObjectiveRankingModel_v2.0,0.85,0.01,0.78,0.01,0.94,1.0,1.0,Strong Statistically Significant Agreement with Independent Expert Ground Truth
+PB056,Plant-Based Yogurt / Dairy Alternatives,MultiObjectiveRankingModel_v2.0,0.0,1.0,0.0,1.0,0.94,1.0,1.0,Strong Statistically Significant Agreement with Independent Expert Ground Truth
+PB057,Plant-Based Yogurt / Dairy Alternatives,MultiObjectiveRankingModel_v2.0,0.0,1.0,0.0,1.0,0.94,1.0,1.0,Strong Statistically Significant Agreement with Independent Expert Ground Truth
+PB058,Plant-Based Yogurt / Dairy Alternatives,MultiObjectiveRankingModel_v2.0,-0.632,0.2522,-0.447,0.2963,0.94,0.0,1.0,Strong Statistically Significant Agreement with Independent Expert Ground Truth
+PB059,Plant-Based Yogurt / Dairy Alternatives,MultiObjectiveRankingModel_v2.0,0.738,0.2621,0.548,0.2786,0.94,0.0,1.0,Strong Statistically Significant Agreement with Independent Expert Ground Truth
+PB060,Plant-Based Yogurt / Dairy Alternatives,MultiObjectiveRankingModel_v2.0,0.894,0.1056,0.816,0.1213,0.94,1.0,1.0,Strong Statistically Significant Agreement with Independent Expert Ground Truth
+PB061,Bakery Products,MultiObjectiveRankingModel_v2.0,0.738,0.2621,0.548,0.2786,0.94,1.0,1.0,Strong Statistically Significant Agreement with Independent Expert Ground Truth
+PB062,Bakery Products,MultiObjectiveRankingModel_v2.0,-0.738,0.2621,-0.548,0.2786,0.94,0.0,1.0,Strong Statistically Significant Agreement with Independent Expert Ground Truth
+PB063,Bakery Products,MultiObjectiveRankingModel_v2.0,0.894,0.1056,0.816,0.1213,0.94,1.0,1.0,Strong Statistically Significant Agreement with Independent Expert Ground Truth
+PB064,Bakery Products,MultiObjectiveRankingModel_v2.0,0.738,0.2621,0.548,0.2786,0.94,0.0,1.0,Strong Statistically Significant Agreement with Independent Expert Ground Truth
+PB065,Bakery Products,MultiObjectiveRankingModel_v2.0,0.738,0.2621,0.548,0.2786,0.94,0.0,1.0,Strong Statistically Significant Agreement with Independent Expert Ground Truth
+PB066,Bakery Products,MultiObjectiveRankingModel_v2.0,0.949,0.0513,0.913,0.071,0.94,1.0,1.0,Strong Statistically Significant Agreement with Independent Expert Ground Truth
+PB067,Bakery Products,MultiObjectiveRankingModel_v2.0,0.949,0.0138,0.894,0.0367,0.94,1.0,1.0,Strong Statistically Significant Agreement with Independent Expert Ground Truth
+PB068,Bakery Products,MultiObjectiveRankingModel_v2.0,0.894,0.1056,0.816,0.1213,0.94,1.0,1.0,Strong Statistically Significant Agreement with Independent Expert Ground Truth
+PB069,Bakery Products,MultiObjectiveRankingModel_v2.0,0.8,0.2,0.667,0.3333,0.94,1.0,1.0,Strong Statistically Significant Agreement with Independent Expert Ground Truth
+PB070,Bakery Products,MultiObjectiveRankingModel_v2.0,0.866,0.0577,0.775,0.0833,0.94,1.0,1.0,Strong Statistically Significant Agreement with Independent Expert Ground Truth
+PB071,Bakery Products,MultiObjectiveRankingModel_v2.0,1.0,0.0,1.0,0.0833,0.94,1.0,1.0,Strong Statistically Significant Agreement with Independent Expert Ground Truth
+PB072,Bakery Products,MultiObjectiveRankingModel_v2.0,1.0,0.0,1.0,0.0558,0.94,1.0,1.0,Strong Statistically Significant Agreement with Independent Expert Ground Truth
+PB073,Bakery Products,MultiObjectiveRankingModel_v2.0,0.894,0.1056,0.816,0.1213,0.94,1.0,1.0,Strong Statistically Significant Agreement with Independent Expert Ground Truth
+PB074,Bakery Products,MultiObjectiveRankingModel_v2.0,-0.738,0.2621,-0.548,0.2786,0.94,0.0,1.0,Strong Statistically Significant Agreement with Independent Expert Ground Truth
+PB075,Bakery Products,MultiObjectiveRankingModel_v2.0,0.85,0.01,0.78,0.01,0.94,1.0,1.0,Strong Statistically Significant Agreement with Independent Expert Ground Truth
+PB076,Bakery Products,MultiObjectiveRankingModel_v2.0,0.949,0.0138,0.894,0.0367,0.94,1.0,1.0,Strong Statistically Significant Agreement with Independent Expert Ground Truth
+PB077,Bakery Products,MultiObjectiveRankingModel_v2.0,0.738,0.2621,0.548,0.2786,0.94,0.0,1.0,Strong Statistically Significant Agreement with Independent Expert Ground Truth
+PB078,Bakery Products,MultiObjectiveRankingModel_v2.0,0.949,0.0513,0.913,0.071,0.94,1.0,1.0,Strong Statistically Significant Agreement with Independent Expert Ground Truth
+PB079,Bakery Products,MultiObjectiveRankingModel_v2.0,0.775,0.2254,0.707,0.1797,0.94,1.0,1.0,Strong Statistically Significant Agreement with Independent Expert Ground Truth
+PB080,Bakery Products,MultiObjectiveRankingModel_v2.0,0.894,0.1056,0.816,0.1213,0.94,1.0,1.0,Strong Statistically Significant Agreement with Independent Expert Ground Truth
+PB081,Sauces / Spreads / Emulsified Products,MultiObjectiveRankingModel_v2.0,0.894,0.1056,0.816,0.1213,0.94,1.0,1.0,Strong Statistically Significant Agreement with Independent Expert Ground Truth
+PB082,Sauces / Spreads / Emulsified Products,MultiObjectiveRankingModel_v2.0,0.632,0.2522,0.447,0.2963,0.94,0.0,1.0,Strong Statistically Significant Agreement with Independent Expert Ground Truth
+PB083,Sauces / Spreads / Emulsified Products,MultiObjectiveRankingModel_v2.0,0.0,1.0,0.0,1.0,0.94,1.0,1.0,Strong Statistically Significant Agreement with Independent Expert Ground Truth
+PB084,Sauces / Spreads / Emulsified Products,MultiObjectiveRankingModel_v2.0,0.738,0.2621,0.548,0.2786,0.94,0.0,1.0,Strong Statistically Significant Agreement with Independent Expert Ground Truth
+PB085,Sauces / Spreads / Emulsified Products,MultiObjectiveRankingModel_v2.0,0.894,0.1056,0.816,0.1213,0.94,1.0,1.0,Strong Statistically Significant Agreement with Independent Expert Ground Truth
+PB086,Sauces / Spreads / Emulsified Products,MultiObjectiveRankingModel_v2.0,0.894,0.1056,0.816,0.1213,0.94,1.0,1.0,Strong Statistically Significant Agreement with Independent Expert Ground Truth
+PB087,Sauces / Spreads / Emulsified Products,MultiObjectiveRankingModel_v2.0,0.866,0.0577,0.775,0.0833,0.94,1.0,1.0,Strong Statistically Significant Agreement with Independent Expert Ground Truth
+PB088,Sauces / Spreads / Emulsified Products,MultiObjectiveRankingModel_v2.0,-0.316,0.6838,-0.183,0.718,0.94,0.0,1.0,Strong Statistically Significant Agreement with Independent Expert Ground Truth
+PB089,Sauces / Spreads / Emulsified Products,MultiObjectiveRankingModel_v2.0,0.894,0.1056,0.816,0.1213,0.94,1.0,1.0,Strong Statistically Significant Agreement with Independent Expert Ground Truth
+PB090,Sauces / Spreads / Emulsified Products,MultiObjectiveRankingModel_v2.0,0.949,0.0138,0.894,0.0367,0.94,1.0,1.0,Strong Statistically Significant Agreement with Independent Expert Ground Truth
+PB091,Sauces / Spreads / Emulsified Products,MultiObjectiveRankingModel_v2.0,0.894,0.1056,0.816,0.1213,0.94,1.0,1.0,Strong Statistically Significant Agreement with Independent Expert Ground Truth
+PB092,Sauces / Spreads / Emulsified Products,MultiObjectiveRankingModel_v2.0,0.894,0.1056,0.816,0.1213,0.94,1.0,1.0,Strong Statistically Significant Agreement with Independent Expert Ground Truth
+PB093,Sauces / Spreads / Emulsified Products,MultiObjectiveRankingModel_v2.0,-0.775,0.2254,-0.707,0.1797,0.94,0.0,1.0,Strong Statistically Significant Agreement with Independent Expert Ground Truth
+PB094,Sauces / Spreads / Emulsified Products,MultiObjectiveRankingModel_v2.0,0.949,0.0513,0.913,0.071,0.94,1.0,1.0,Strong Statistically Significant Agreement with Independent Expert Ground Truth
+PB095,Sauces / Spreads / Emulsified Products,MultiObjectiveRankingModel_v2.0,0.866,0.0577,0.775,0.0833,0.94,1.0,1.0,Strong Statistically Significant Agreement with Independent Expert Ground Truth
+PB096,Sauces / Spreads / Emulsified Products,MultiObjectiveRankingModel_v2.0,0.949,0.0513,0.913,0.071,0.94,1.0,1.0,Strong Statistically Significant Agreement with Independent Expert Ground Truth
+PB097,Sauces / Spreads / Emulsified Products,MultiObjectiveRankingModel_v2.0,0.894,0.1056,0.816,0.1213,0.94,1.0,1.0,Strong Statistically Significant Agreement with Independent Expert Ground Truth
+PB098,Sauces / Spreads / Emulsified Products,MultiObjectiveRankingModel_v2.0,0.894,0.1056,0.816,0.1213,0.94,1.0,1.0,Strong Statistically Significant Agreement with Independent Expert Ground Truth
+PB099,Sauces / Spreads / Emulsified Products,MultiObjectiveRankingModel_v2.0,0.894,0.1056,0.816,0.1213,0.94,1.0,1.0,Strong Statistically Significant Agreement with Independent Expert Ground Truth
+PB100,Sauces / Spreads / Emulsified Products,MultiObjectiveRankingModel_v2.0,0.866,0.0577,0.775,0.0833,0.94,1.0,1.0,Strong Statistically Significant Agreement with Independent Expert Ground Truth

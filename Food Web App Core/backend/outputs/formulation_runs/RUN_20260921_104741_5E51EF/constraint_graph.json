@@ -1,0 +1,133 @@
+{
+  "nodes": [
+    {
+      "id": "PROD-001",
+      "type": "ProductBrief",
+      "value": "Target Product (Confectionery & Chocolate)",
+      "source": "User Product Brief"
+    },
+    {
+      "id": "CONST-001",
+      "type": "CategoryConstraintNode",
+      "value": "product_category REQUIRED Confectionery & Chocolate",
+      "source": "Create a strawberry-flavored white chocolate using"
+    },
+    {
+      "id": "CONST-002",
+      "type": "NutritionConstraintNode",
+      "value": "protein_min >= 5.0 %",
+      "source": "5% protein"
+    },
+    {
+      "id": "CONST-003",
+      "type": "ProcessingConstraintNode",
+      "value": "water_activity <= 0.6 Aw",
+      "source": "low water activity"
+    },
+    {
+      "id": "CONST-004",
+      "type": "SensoryConstraintNode",
+      "value": "texture_profile PREFERRED Smooth",
+      "source": "smooth"
+    },
+    {
+      "id": "CONST-005",
+      "type": "SensoryConstraintNode",
+      "value": "texture_profile PREFERRED Creamy",
+      "source": "creamy"
+    },
+    {
+      "id": "CONST-006",
+      "type": "SensoryConstraintNode",
+      "value": "flavor_profile PREFERRED cocoa flavour",
+      "source": "cocoa"
+    },
+    {
+      "id": "CONST-007",
+      "type": "SensoryConstraintNode",
+      "value": "flavor_profile PREFERRED chocolate flavour",
+      "source": "chocolate"
+    },
+    {
+      "id": "CONST-008",
+      "type": "SensoryConstraintNode",
+      "value": "flavor_profile PREFERRED vanilla flavour",
+      "source": "vanilla"
+    },
+    {
+      "id": "CONST-009",
+      "type": "SensoryConstraintNode",
+      "value": "flavor_profile PREFERRED berry flavour",
+      "source": "berry"
+    },
+    {
+      "id": "CONST-010",
+      "type": "Shelf_LifeConstraintNode",
+      "value": "shelf_stability REQUIRED 12-month",
+      "source": "shelf"
+    }
+  ],
+  "edges": [
+    {
+      "source": "PROD-001",
+      "relationship": "HAS_CONSTRAINT",
+      "target": "CONST-001"
+    },
+    {
+      "source": "PROD-001",
+      "relationship": "HAS_NUTRITION_CONSTRAINT",
+      "target": "CONST-002"
+    },
+    {
+      "source": "PROD-001",
+      "relationship": "HAS_PROCESSING_CONSTRAINT",
+      "target": "CONST-003"
+    },
+    {
+      "source": "PROD-001",
+      "relationship": "HAS_SENSORY_CONSTRAINT",
+      "target": "CONST-004"
+    },
+    {
+      "source": "PROD-001",
+      "relationship": "HAS_SENSORY_CONSTRAINT",
+      "target": "CONST-005"
+    },
+    {
+      "source": "PROD-001",
+      "relationship": "HAS_SENSORY_CONSTRAINT",
+      "target": "CONST-006"
+    },
+    {
+      "source": "PROD-001",
+      "relationship": "HAS_SENSORY_CONSTRAINT",
+      "target": "CONST-007"
+    },
+    {
+      "source": "PROD-001",
+      "relationship": "HAS_SENSORY_CONSTRAINT",
+      "target": "CONST-008"
+    },
+    {
+      "source": "PROD-001",
+      "relationship": "HAS_SENSORY_CONSTRAINT",
+      "target": "CONST-009"
+    },
+    {
+      "source": "PROD-001",
+      "relationship": "HAS_PROCESSING_CONSTRAINT",
+      "target": "CONST-010"
+    }
+  ],
+  "summary": {
+    "Nutrition Constraints": 1,
+    "Functional Constraints": 0,
+    "Sensory Constraints": 6,
+    "Regulatory Constraints": 0,
+    "Cost Constraints": 0,
+    "Ingredient Restrictions": 0,
+    "Processing Constraints": 2,
+    "Graph Nodes": 11,
+    "Graph Edges": 10
+  }
+}

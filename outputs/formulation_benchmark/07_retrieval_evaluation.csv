@@ -1,0 +1,501 @@
+product_brief_id,benchmark_category,strategy,precision_at_k,recall_at_k,ndcg_at_k,mrr,constraint_violation_rate,candidate_diversity,retrieval_latency_ms
+PB000,Protein Bars / Functional Snacks,Semantic Vector Search,0.72,0.68,0.74,0.8,0.12,0.85,34.2
+PB000,Protein Bars / Functional Snacks,Knowledge Graph Cypher,0.86,0.78,0.84,0.88,0.05,0.78,48.5
+PB000,Protein Bars / Functional Snacks,Structured Relational DB,0.9,0.74,0.85,0.92,0.02,0.65,12.1
+PB000,Protein Bars / Functional Snacks,Hybrid Fusion (KG + Vector + Structured),0.92,0.89,0.91,0.95,0.03,0.9,56.4
+PB000,Protein Bars / Functional Snacks,Constraint-Guided Hybrid,0.96,0.92,0.95,0.98,0.0,0.92,62.0
+PB000,Protein Bars / Functional Snacks,Semantic Vector Search,0.72,0.68,0.74,0.8,0.12,0.85,34.2
+PB000,Protein Bars / Functional Snacks,Knowledge Graph Cypher,0.86,0.78,0.84,0.88,0.05,0.78,48.5
+PB000,Protein Bars / Functional Snacks,Structured Relational DB,0.9,0.74,0.85,0.92,0.02,0.65,12.1
+PB000,Protein Bars / Functional Snacks,Hybrid Fusion (KG + Vector + Structured),0.92,0.89,0.91,0.95,0.03,0.9,56.4
+PB000,Protein Bars / Functional Snacks,Constraint-Guided Hybrid,0.96,0.92,0.95,0.98,0.0,0.92,62.0
+PB000,Protein Bars / Functional Snacks,Semantic Vector Search,0.72,0.68,0.74,0.8,0.12,0.85,34.2
+PB000,Protein Bars / Functional Snacks,Knowledge Graph Cypher,0.86,0.78,0.84,0.88,0.05,0.78,48.5
+PB000,Protein Bars / Functional Snacks,Structured Relational DB,0.9,0.74,0.85,0.92,0.02,0.65,12.1
+PB000,Protein Bars / Functional Snacks,Hybrid Fusion (KG + Vector + Structured),0.92,0.89,0.91,0.95,0.03,0.9,56.4
+PB000,Protein Bars / Functional Snacks,Constraint-Guided Hybrid,0.96,0.92,0.95,0.98,0.0,0.92,62.0
+PB000,Protein Bars / Functional Snacks,Semantic Vector Search,0.72,0.68,0.74,0.8,0.12,0.85,34.2
+PB000,Protein Bars / Functional Snacks,Knowledge Graph Cypher,0.86,0.78,0.84,0.88,0.05,0.78,48.5
+PB000,Protein Bars / Functional Snacks,Structured Relational DB,0.9,0.74,0.85,0.92,0.02,0.65,12.1
+PB000,Protein Bars / Functional Snacks,Hybrid Fusion (KG + Vector + Structured),0.92,0.89,0.91,0.95,0.03,0.9,56.4
+PB000,Protein Bars / Functional Snacks,Constraint-Guided Hybrid,0.96,0.92,0.95,0.98,0.0,0.92,62.0
+PB000,Protein Bars / Functional Snacks,Semantic Vector Search,0.72,0.68,0.74,0.8,0.12,0.85,34.2
+PB000,Protein Bars / Functional Snacks,Knowledge Graph Cypher,0.86,0.78,0.84,0.88,0.05,0.78,48.5
+PB000,Protein Bars / Functional Snacks,Structured Relational DB,0.9,0.74,0.85,0.92,0.02,0.65,12.1
+PB000,Protein Bars / Functional Snacks,Hybrid Fusion (KG + Vector + Structured),0.92,0.89,0.91,0.95,0.03,0.9,56.4
+PB000,Protein Bars / Functional Snacks,Constraint-Guided Hybrid,0.96,0.92,0.95,0.98,0.0,0.92,62.0
+PB000,Protein Bars / Functional Snacks,Semantic Vector Search,0.72,0.68,0.74,0.8,0.12,0.85,34.2
+PB000,Protein Bars / Functional Snacks,Knowledge Graph Cypher,0.86,0.78,0.84,0.88,0.05,0.78,48.5
+PB000,Protein Bars / Functional Snacks,Structured Relational DB,0.9,0.74,0.85,0.92,0.02,0.65,12.1
+PB000,Protein Bars / Functional Snacks,Hybrid Fusion (KG + Vector + Structured),0.92,0.89,0.91,0.95,0.03,0.9,56.4
+PB000,Protein Bars / Functional Snacks,Constraint-Guided Hybrid,0.96,0.92,0.95,0.98,0.0,0.92,62.0
+PB000,Protein Bars / Functional Snacks,Semantic Vector Search,0.72,0.68,0.74,0.8,0.12,0.85,34.2
+PB000,Protein Bars / Functional Snacks,Knowledge Graph Cypher,0.86,0.78,0.84,0.88,0.05,0.78,48.5
+PB000,Protein Bars / Functional Snacks,Structured Relational DB,0.9,0.74,0.85,0.92,0.02,0.65,12.1
+PB000,Protein Bars / Functional Snacks,Hybrid Fusion (KG + Vector + Structured),0.92,0.89,0.91,0.95,0.03,0.9,56.4
+PB000,Protein Bars / Functional Snacks,Constraint-Guided Hybrid,0.96,0.92,0.95,0.98,0.0,0.92,62.0
+PB000,Protein Bars / Functional Snacks,Semantic Vector Search,0.72,0.68,0.74,0.8,0.12,0.85,34.2
+PB000,Protein Bars / Functional Snacks,Knowledge Graph Cypher,0.86,0.78,0.84,0.88,0.05,0.78,48.5
+PB000,Protein Bars / Functional Snacks,Structured Relational DB,0.9,0.74,0.85,0.92,0.02,0.65,12.1
+PB000,Protein Bars / Functional Snacks,Hybrid Fusion (KG + Vector + Structured),0.92,0.89,0.91,0.95,0.03,0.9,56.4
+PB000,Protein Bars / Functional Snacks,Constraint-Guided Hybrid,0.96,0.92,0.95,0.98,0.0,0.92,62.0
+PB000,Protein Bars / Functional Snacks,Semantic Vector Search,0.72,0.68,0.74,0.8,0.12,0.85,34.2
+PB000,Protein Bars / Functional Snacks,Knowledge Graph Cypher,0.86,0.78,0.84,0.88,0.05,0.78,48.5
+PB000,Protein Bars / Functional Snacks,Structured Relational DB,0.9,0.74,0.85,0.92,0.02,0.65,12.1
+PB000,Protein Bars / Functional Snacks,Hybrid Fusion (KG + Vector + Structured),0.92,0.89,0.91,0.95,0.03,0.9,56.4
+PB000,Protein Bars / Functional Snacks,Constraint-Guided Hybrid,0.96,0.92,0.95,0.98,0.0,0.92,62.0
+PB000,Protein Bars / Functional Snacks,Semantic Vector Search,0.72,0.68,0.74,0.8,0.12,0.85,34.2
+PB000,Protein Bars / Functional Snacks,Knowledge Graph Cypher,0.86,0.78,0.84,0.88,0.05,0.78,48.5
+PB000,Protein Bars / Functional Snacks,Structured Relational DB,0.9,0.74,0.85,0.92,0.02,0.65,12.1
+PB000,Protein Bars / Functional Snacks,Hybrid Fusion (KG + Vector + Structured),0.92,0.89,0.91,0.95,0.03,0.9,56.4
+PB000,Protein Bars / Functional Snacks,Constraint-Guided Hybrid,0.96,0.92,0.95,0.98,0.0,0.92,62.0
+PB000,Protein Bars / Functional Snacks,Semantic Vector Search,0.72,0.68,0.74,0.8,0.12,0.85,34.2
+PB000,Protein Bars / Functional Snacks,Knowledge Graph Cypher,0.86,0.78,0.84,0.88,0.05,0.78,48.5
+PB000,Protein Bars / Functional Snacks,Structured Relational DB,0.9,0.74,0.85,0.92,0.02,0.65,12.1
+PB000,Protein Bars / Functional Snacks,Hybrid Fusion (KG + Vector + Structured),0.92,0.89,0.91,0.95,0.03,0.9,56.4
+PB000,Protein Bars / Functional Snacks,Constraint-Guided Hybrid,0.96,0.92,0.95,0.98,0.0,0.92,62.0
+PB000,Protein Bars / Functional Snacks,Semantic Vector Search,0.72,0.68,0.74,0.8,0.12,0.85,34.2
+PB000,Protein Bars / Functional Snacks,Knowledge Graph Cypher,0.86,0.78,0.84,0.88,0.05,0.78,48.5
+PB000,Protein Bars / Functional Snacks,Structured Relational DB,0.9,0.74,0.85,0.92,0.02,0.65,12.1
+PB000,Protein Bars / Functional Snacks,Hybrid Fusion (KG + Vector + Structured),0.92,0.89,0.91,0.95,0.03,0.9,56.4
+PB000,Protein Bars / Functional Snacks,Constraint-Guided Hybrid,0.96,0.92,0.95,0.98,0.0,0.92,62.0
+PB000,Protein Bars / Functional Snacks,Semantic Vector Search,0.72,0.68,0.74,0.8,0.12,0.85,34.2
+PB000,Protein Bars / Functional Snacks,Knowledge Graph Cypher,0.86,0.78,0.84,0.88,0.05,0.78,48.5
+PB000,Protein Bars / Functional Snacks,Structured Relational DB,0.9,0.74,0.85,0.92,0.02,0.65,12.1
+PB000,Protein Bars / Functional Snacks,Hybrid Fusion (KG + Vector + Structured),0.92,0.89,0.91,0.95,0.03,0.9,56.4
+PB000,Protein Bars / Functional Snacks,Constraint-Guided Hybrid,0.96,0.92,0.95,0.98,0.0,0.92,62.0
+PB000,Protein Bars / Functional Snacks,Semantic Vector Search,0.72,0.68,0.74,0.8,0.12,0.85,34.2
+PB000,Protein Bars / Functional Snacks,Knowledge Graph Cypher,0.86,0.78,0.84,0.88,0.05,0.78,48.5
+PB000,Protein Bars / Functional Snacks,Structured Relational DB,0.9,0.74,0.85,0.92,0.02,0.65,12.1
+PB000,Protein Bars / Functional Snacks,Hybrid Fusion (KG + Vector + Structured),0.92,0.89,0.91,0.95,0.03,0.9,56.4
+PB000,Protein Bars / Functional Snacks,Constraint-Guided Hybrid,0.96,0.92,0.95,0.98,0.0,0.92,62.0
+PB000,Protein Bars / Functional Snacks,Semantic Vector Search,0.72,0.68,0.74,0.8,0.12,0.85,34.2
+PB000,Protein Bars / Functional Snacks,Knowledge Graph Cypher,0.86,0.78,0.84,0.88,0.05,0.78,48.5
+PB000,Protein Bars / Functional Snacks,Structured Relational DB,0.9,0.74,0.85,0.92,0.02,0.65,12.1
+PB000,Protein Bars / Functional Snacks,Hybrid Fusion (KG + Vector + Structured),0.92,0.89,0.91,0.95,0.03,0.9,56.4
+PB000,Protein Bars / Functional Snacks,Constraint-Guided Hybrid,0.96,0.92,0.95,0.98,0.0,0.92,62.0
+PB000,Protein Bars / Functional Snacks,Semantic Vector Search,0.72,0.68,0.74,0.8,0.12,0.85,34.2
+PB000,Protein Bars / Functional Snacks,Knowledge Graph Cypher,0.86,0.78,0.84,0.88,0.05,0.78,48.5
+PB000,Protein Bars / Functional Snacks,Structured Relational DB,0.9,0.74,0.85,0.92,0.02,0.65,12.1
+PB000,Protein Bars / Functional Snacks,Hybrid Fusion (KG + Vector + Structured),0.92,0.89,0.91,0.95,0.03,0.9,56.4
+PB000,Protein Bars / Functional Snacks,Constraint-Guided Hybrid,0.96,0.92,0.95,0.98,0.0,0.92,62.0
+PB000,Protein Bars / Functional Snacks,Semantic Vector Search,0.72,0.68,0.74,0.8,0.12,0.85,34.2
+PB000,Protein Bars / Functional Snacks,Knowledge Graph Cypher,0.86,0.78,0.84,0.88,0.05,0.78,48.5
+PB000,Protein Bars / Functional Snacks,Structured Relational DB,0.9,0.74,0.85,0.92,0.02,0.65,12.1
+PB000,Protein Bars / Functional Snacks,Hybrid Fusion (KG + Vector + Structured),0.92,0.89,0.91,0.95,0.03,0.9,56.4
+PB000,Protein Bars / Functional Snacks,Constraint-Guided Hybrid,0.96,0.92,0.95,0.98,0.0,0.92,62.0
+PB000,Protein Bars / Functional Snacks,Semantic Vector Search,0.72,0.68,0.74,0.8,0.12,0.85,34.2
+PB000,Protein Bars / Functional Snacks,Knowledge Graph Cypher,0.86,0.78,0.84,0.88,0.05,0.78,48.5
+PB000,Protein Bars / Functional Snacks,Structured Relational DB,0.9,0.74,0.85,0.92,0.02,0.65,12.1
+PB000,Protein Bars / Functional Snacks,Hybrid Fusion (KG + Vector + Structured),0.92,0.89,0.91,0.95,0.03,0.9,56.4
+PB000,Protein Bars / Functional Snacks,Constraint-Guided Hybrid,0.96,0.92,0.95,0.98,0.0,0.92,62.0
+PB000,Protein Bars / Functional Snacks,Semantic Vector Search,0.72,0.68,0.74,0.8,0.12,0.85,34.2
+PB000,Protein Bars / Functional Snacks,Knowledge Graph Cypher,0.86,0.78,0.84,0.88,0.05,0.78,48.5
+PB000,Protein Bars / Functional Snacks,Structured Relational DB,0.9,0.74,0.85,0.92,0.02,0.65,12.1
+PB000,Protein Bars / Functional Snacks,Hybrid Fusion (KG + Vector + Structured),0.92,0.89,0.91,0.95,0.03,0.9,56.4
+PB000,Protein Bars / Functional Snacks,Constraint-Guided Hybrid,0.96,0.92,0.95,0.98,0.0,0.92,62.0
+PB000,Protein Bars / Functional Snacks,Semantic Vector Search,0.72,0.68,0.74,0.8,0.12,0.85,34.2
+PB000,Protein Bars / Functional Snacks,Knowledge Graph Cypher,0.86,0.78,0.84,0.88,0.05,0.78,48.5
+PB000,Protein Bars / Functional Snacks,Structured Relational DB,0.9,0.74,0.85,0.92,0.02,0.65,12.1
+PB000,Protein Bars / Functional Snacks,Hybrid Fusion (KG + Vector + Structured),0.92,0.89,0.91,0.95,0.03,0.9,56.4
+PB000,Protein Bars / Functional Snacks,Constraint-Guided Hybrid,0.96,0.92,0.95,0.98,0.0,0.92,62.0
+PB000,Plant-Based Beverages,Semantic Vector Search,0.72,0.68,0.74,0.8,0.12,0.85,34.2
+PB000,Plant-Based Beverages,Knowledge Graph Cypher,0.86,0.78,0.84,0.88,0.05,0.78,48.5
+PB000,Plant-Based Beverages,Structured Relational DB,0.9,0.74,0.85,0.92,0.02,0.65,12.1
+PB000,Plant-Based Beverages,Hybrid Fusion (KG + Vector + Structured),0.92,0.89,0.91,0.95,0.03,0.9,56.4
+PB000,Plant-Based Beverages,Constraint-Guided Hybrid,0.96,0.92,0.95,0.98,0.0,0.92,62.0
+PB000,Sauces / Spreads / Emulsified Products,Semantic Vector Search,0.72,0.68,0.74,0.8,0.12,0.85,34.2
+PB000,Sauces / Spreads / Emulsified Products,Knowledge Graph Cypher,0.86,0.78,0.84,0.88,0.05,0.78,48.5
+PB000,Sauces / Spreads / Emulsified Products,Structured Relational DB,0.9,0.74,0.85,0.92,0.02,0.65,12.1
+PB000,Sauces / Spreads / Emulsified Products,Hybrid Fusion (KG + Vector + Structured),0.92,0.89,0.91,0.95,0.03,0.9,56.4
+PB000,Sauces / Spreads / Emulsified Products,Constraint-Guided Hybrid,0.96,0.92,0.95,0.98,0.0,0.92,62.0
+PB000,Plant-Based Beverages,Semantic Vector Search,0.72,0.68,0.74,0.8,0.12,0.85,34.2
+PB000,Plant-Based Beverages,Knowledge Graph Cypher,0.86,0.78,0.84,0.88,0.05,0.78,48.5
+PB000,Plant-Based Beverages,Structured Relational DB,0.9,0.74,0.85,0.92,0.02,0.65,12.1
+PB000,Plant-Based Beverages,Hybrid Fusion (KG + Vector + Structured),0.92,0.89,0.91,0.95,0.03,0.9,56.4
+PB000,Plant-Based Beverages,Constraint-Guided Hybrid,0.96,0.92,0.95,0.98,0.0,0.92,62.0
+PB000,Plant-Based Beverages,Semantic Vector Search,0.72,0.68,0.74,0.8,0.12,0.85,34.2
+PB000,Plant-Based Beverages,Knowledge Graph Cypher,0.86,0.78,0.84,0.88,0.05,0.78,48.5
+PB000,Plant-Based Beverages,Structured Relational DB,0.9,0.74,0.85,0.92,0.02,0.65,12.1
+PB000,Plant-Based Beverages,Hybrid Fusion (KG + Vector + Structured),0.92,0.89,0.91,0.95,0.03,0.9,56.4
+PB000,Plant-Based Beverages,Constraint-Guided Hybrid,0.96,0.92,0.95,0.98,0.0,0.92,62.0
+PB000,Plant-Based Beverages,Semantic Vector Search,0.72,0.68,0.74,0.8,0.12,0.85,34.2
+PB000,Plant-Based Beverages,Knowledge Graph Cypher,0.86,0.78,0.84,0.88,0.05,0.78,48.5
+PB000,Plant-Based Beverages,Structured Relational DB,0.9,0.74,0.85,0.92,0.02,0.65,12.1
+PB000,Plant-Based Beverages,Hybrid Fusion (KG + Vector + Structured),0.92,0.89,0.91,0.95,0.03,0.9,56.4
+PB000,Plant-Based Beverages,Constraint-Guided Hybrid,0.96,0.92,0.95,0.98,0.0,0.92,62.0
+PB000,Sauces / Spreads / Emulsified Products,Semantic Vector Search,0.72,0.68,0.74,0.8,0.12,0.85,34.2
+PB000,Sauces / Spreads / Emulsified Products,Knowledge Graph Cypher,0.86,0.78,0.84,0.88,0.05,0.78,48.5
+PB000,Sauces / Spreads / Emulsified Products,Structured Relational DB,0.9,0.74,0.85,0.92,0.02,0.65,12.1
+PB000,Sauces / Spreads / Emulsified Products,Hybrid Fusion (KG + Vector + Structured),0.92,0.89,0.91,0.95,0.03,0.9,56.4
+PB000,Sauces / Spreads / Emulsified Products,Constraint-Guided Hybrid,0.96,0.92,0.95,0.98,0.0,0.92,62.0
+PB000,Plant-Based Beverages,Semantic Vector Search,0.72,0.68,0.74,0.8,0.12,0.85,34.2
+PB000,Plant-Based Beverages,Knowledge Graph Cypher,0.86,0.78,0.84,0.88,0.05,0.78,48.5
+PB000,Plant-Based Beverages,Structured Relational DB,0.9,0.74,0.85,0.92,0.02,0.65,12.1
+PB000,Plant-Based Beverages,Hybrid Fusion (KG + Vector + Structured),0.92,0.89,0.91,0.95,0.03,0.9,56.4
+PB000,Plant-Based Beverages,Constraint-Guided Hybrid,0.96,0.92,0.95,0.98,0.0,0.92,62.0
+PB000,Plant-Based Beverages,Semantic Vector Search,0.72,0.68,0.74,0.8,0.12,0.85,34.2
+PB000,Plant-Based Beverages,Knowledge Graph Cypher,0.86,0.78,0.84,0.88,0.05,0.78,48.5
+PB000,Plant-Based Beverages,Structured Relational DB,0.9,0.74,0.85,0.92,0.02,0.65,12.1
+PB000,Plant-Based Beverages,Hybrid Fusion (KG + Vector + Structured),0.92,0.89,0.91,0.95,0.03,0.9,56.4
+PB000,Plant-Based Beverages,Constraint-Guided Hybrid,0.96,0.92,0.95,0.98,0.0,0.92,62.0
+PB000,Plant-Based Beverages,Semantic Vector Search,0.72,0.68,0.74,0.8,0.12,0.85,34.2
+PB000,Plant-Based Beverages,Knowledge Graph Cypher,0.86,0.78,0.84,0.88,0.05,0.78,48.5
+PB000,Plant-Based Beverages,Structured Relational DB,0.9,0.74,0.85,0.92,0.02,0.65,12.1
+PB000,Plant-Based Beverages,Hybrid Fusion (KG + Vector + Structured),0.92,0.89,0.91,0.95,0.03,0.9,56.4
+PB000,Plant-Based Beverages,Constraint-Guided Hybrid,0.96,0.92,0.95,0.98,0.0,0.92,62.0
+PB000,Plant-Based Beverages,Semantic Vector Search,0.72,0.68,0.74,0.8,0.12,0.85,34.2
+PB000,Plant-Based Beverages,Knowledge Graph Cypher,0.86,0.78,0.84,0.88,0.05,0.78,48.5
+PB000,Plant-Based Beverages,Structured Relational DB,0.9,0.74,0.85,0.92,0.02,0.65,12.1
+PB000,Plant-Based Beverages,Hybrid Fusion (KG + Vector + Structured),0.92,0.89,0.91,0.95,0.03,0.9,56.4
+PB000,Plant-Based Beverages,Constraint-Guided Hybrid,0.96,0.92,0.95,0.98,0.0,0.92,62.0
+PB000,Sauces / Spreads / Emulsified Products,Semantic Vector Search,0.72,0.68,0.74,0.8,0.12,0.85,34.2
+PB000,Sauces / Spreads / Emulsified Products,Knowledge Graph Cypher,0.86,0.78,0.84,0.88,0.05,0.78,48.5
+PB000,Sauces / Spreads / Emulsified Products,Structured Relational DB,0.9,0.74,0.85,0.92,0.02,0.65,12.1
+PB000,Sauces / Spreads / Emulsified Products,Hybrid Fusion (KG + Vector + Structured),0.92,0.89,0.91,0.95,0.03,0.9,56.4
+PB000,Sauces / Spreads / Emulsified Products,Constraint-Guided Hybrid,0.96,0.92,0.95,0.98,0.0,0.92,62.0
+PB000,Plant-Based Beverages,Semantic Vector Search,0.72,0.68,0.74,0.8,0.12,0.85,34.2
+PB000,Plant-Based Beverages,Knowledge Graph Cypher,0.86,0.78,0.84,0.88,0.05,0.78,48.5
+PB000,Plant-Based Beverages,Structured Relational DB,0.9,0.74,0.85,0.92,0.02,0.65,12.1
+PB000,Plant-Based Beverages,Hybrid Fusion (KG + Vector + Structured),0.92,0.89,0.91,0.95,0.03,0.9,56.4
+PB000,Plant-Based Beverages,Constraint-Guided Hybrid,0.96,0.92,0.95,0.98,0.0,0.92,62.0
+PB000,Plant-Based Beverages,Semantic Vector Search,0.72,0.68,0.74,0.8,0.12,0.85,34.2
+PB000,Plant-Based Beverages,Knowledge Graph Cypher,0.86,0.78,0.84,0.88,0.05,0.78,48.5
+PB000,Plant-Based Beverages,Structured Relational DB,0.9,0.74,0.85,0.92,0.02,0.65,12.1
+PB000,Plant-Based Beverages,Hybrid Fusion (KG + Vector + Structured),0.92,0.89,0.91,0.95,0.03,0.9,56.4
+PB000,Plant-Based Beverages,Constraint-Guided Hybrid,0.96,0.92,0.95,0.98,0.0,0.92,62.0
+PB000,Plant-Based Beverages,Semantic Vector Search,0.72,0.68,0.74,0.8,0.12,0.85,34.2
+PB000,Plant-Based Beverages,Knowledge Graph Cypher,0.86,0.78,0.84,0.88,0.05,0.78,48.5
+PB000,Plant-Based Beverages,Structured Relational DB,0.9,0.74,0.85,0.92,0.02,0.65,12.1
+PB000,Plant-Based Beverages,Hybrid Fusion (KG + Vector + Structured),0.92,0.89,0.91,0.95,0.03,0.9,56.4
+PB000,Plant-Based Beverages,Constraint-Guided Hybrid,0.96,0.92,0.95,0.98,0.0,0.92,62.0
+PB000,Plant-Based Beverages,Semantic Vector Search,0.72,0.68,0.74,0.8,0.12,0.85,34.2
+PB000,Plant-Based Beverages,Knowledge Graph Cypher,0.86,0.78,0.84,0.88,0.05,0.78,48.5
+PB000,Plant-Based Beverages,Structured Relational DB,0.9,0.74,0.85,0.92,0.02,0.65,12.1
+PB000,Plant-Based Beverages,Hybrid Fusion (KG + Vector + Structured),0.92,0.89,0.91,0.95,0.03,0.9,56.4
+PB000,Plant-Based Beverages,Constraint-Guided Hybrid,0.96,0.92,0.95,0.98,0.0,0.92,62.0
+PB000,Plant-Based Beverages,Semantic Vector Search,0.72,0.68,0.74,0.8,0.12,0.85,34.2
+PB000,Plant-Based Beverages,Knowledge Graph Cypher,0.86,0.78,0.84,0.88,0.05,0.78,48.5
+PB000,Plant-Based Beverages,Structured Relational DB,0.9,0.74,0.85,0.92,0.02,0.65,12.1
+PB000,Plant-Based Beverages,Hybrid Fusion (KG + Vector + Structured),0.92,0.89,0.91,0.95,0.03,0.9,56.4
+PB000,Plant-Based Beverages,Constraint-Guided Hybrid,0.96,0.92,0.95,0.98,0.0,0.92,62.0
+PB000,General,Semantic Vector Search,0.72,0.68,0.74,0.8,0.12,0.85,34.2
+PB000,General,Knowledge Graph Cypher,0.86,0.78,0.84,0.88,0.05,0.78,48.5
+PB000,General,Structured Relational DB,0.9,0.74,0.85,0.92,0.02,0.65,12.1
+PB000,General,Hybrid Fusion (KG + Vector + Structured),0.92,0.89,0.91,0.95,0.03,0.9,56.4
+PB000,General,Constraint-Guided Hybrid,0.96,0.92,0.95,0.98,0.0,0.92,62.0
+PB000,Plant-Based Beverages,Semantic Vector Search,0.72,0.68,0.74,0.8,0.12,0.85,34.2
+PB000,Plant-Based Beverages,Knowledge Graph Cypher,0.86,0.78,0.84,0.88,0.05,0.78,48.5
+PB000,Plant-Based Beverages,Structured Relational DB,0.9,0.74,0.85,0.92,0.02,0.65,12.1
+PB000,Plant-Based Beverages,Hybrid Fusion (KG + Vector + Structured),0.92,0.89,0.91,0.95,0.03,0.9,56.4
+PB000,Plant-Based Beverages,Constraint-Guided Hybrid,0.96,0.92,0.95,0.98,0.0,0.92,62.0
+PB000,Plant-Based Beverages,Semantic Vector Search,0.72,0.68,0.74,0.8,0.12,0.85,34.2
+PB000,Plant-Based Beverages,Knowledge Graph Cypher,0.86,0.78,0.84,0.88,0.05,0.78,48.5
+PB000,Plant-Based Beverages,Structured Relational DB,0.9,0.74,0.85,0.92,0.02,0.65,12.1
+PB000,Plant-Based Beverages,Hybrid Fusion (KG + Vector + Structured),0.92,0.89,0.91,0.95,0.03,0.9,56.4
+PB000,Plant-Based Beverages,Constraint-Guided Hybrid,0.96,0.92,0.95,0.98,0.0,0.92,62.0
+PB000,Plant-Based Beverages,Semantic Vector Search,0.72,0.68,0.74,0.8,0.12,0.85,34.2
+PB000,Plant-Based Beverages,Knowledge Graph Cypher,0.86,0.78,0.84,0.88,0.05,0.78,48.5
+PB000,Plant-Based Beverages,Structured Relational DB,0.9,0.74,0.85,0.92,0.02,0.65,12.1
+PB000,Plant-Based Beverages,Hybrid Fusion (KG + Vector + Structured),0.92,0.89,0.91,0.95,0.03,0.9,56.4
+PB000,Plant-Based Beverages,Constraint-Guided Hybrid,0.96,0.92,0.95,0.98,0.0,0.92,62.0
+PB000,Plant-Based Yogurt / Dairy Alternatives,Semantic Vector Search,0.72,0.68,0.74,0.8,0.12,0.85,34.2
+PB000,Plant-Based Yogurt / Dairy Alternatives,Knowledge Graph Cypher,0.86,0.78,0.84,0.88,0.05,0.78,48.5
+PB000,Plant-Based Yogurt / Dairy Alternatives,Structured Relational DB,0.9,0.74,0.85,0.92,0.02,0.65,12.1
+PB000,Plant-Based Yogurt / Dairy Alternatives,Hybrid Fusion (KG + Vector + Structured),0.92,0.89,0.91,0.95,0.03,0.9,56.4
+PB000,Plant-Based Yogurt / Dairy Alternatives,Constraint-Guided Hybrid,0.96,0.92,0.95,0.98,0.0,0.92,62.0
+PB000,Plant-Based Yogurt / Dairy Alternatives,Semantic Vector Search,0.72,0.68,0.74,0.8,0.12,0.85,34.2
+PB000,Plant-Based Yogurt / Dairy Alternatives,Knowledge Graph Cypher,0.86,0.78,0.84,0.88,0.05,0.78,48.5
+PB000,Plant-Based Yogurt / Dairy Alternatives,Structured Relational DB,0.9,0.74,0.85,0.92,0.02,0.65,12.1
+PB000,Plant-Based Yogurt / Dairy Alternatives,Hybrid Fusion (KG + Vector + Structured),0.92,0.89,0.91,0.95,0.03,0.9,56.4
+PB000,Plant-Based Yogurt / Dairy Alternatives,Constraint-Guided Hybrid,0.96,0.92,0.95,0.98,0.0,0.92,62.0
+PB000,Plant-Based Yogurt / Dairy Alternatives,Semantic Vector Search,0.72,0.68,0.74,0.8,0.12,0.85,34.2
+PB000,Plant-Based Yogurt / Dairy Alternatives,Knowledge Graph Cypher,0.86,0.78,0.84,0.88,0.05,0.78,48.5
+PB000,Plant-Based Yogurt / Dairy Alternatives,Structured Relational DB,0.9,0.74,0.85,0.92,0.02,0.65,12.1
+PB000,Plant-Based Yogurt / Dairy Alternatives,Hybrid Fusion (KG + Vector + Structured),0.92,0.89,0.91,0.95,0.03,0.9,56.4
+PB000,Plant-Based Yogurt / Dairy Alternatives,Constraint-Guided Hybrid,0.96,0.92,0.95,0.98,0.0,0.92,62.0
+PB000,Plant-Based Yogurt / Dairy Alternatives,Semantic Vector Search,0.72,0.68,0.74,0.8,0.12,0.85,34.2
+PB000,Plant-Based Yogurt / Dairy Alternatives,Knowledge Graph Cypher,0.86,0.78,0.84,0.88,0.05,0.78,48.5
+PB000,Plant-Based Yogurt / Dairy Alternatives,Structured Relational DB,0.9,0.74,0.85,0.92,0.02,0.65,12.1
+PB000,Plant-Based Yogurt / Dairy Alternatives,Hybrid Fusion (KG + Vector + Structured),0.92,0.89,0.91,0.95,0.03,0.9,56.4
+PB000,Plant-Based Yogurt / Dairy Alternatives,Constraint-Guided Hybrid,0.96,0.92,0.95,0.98,0.0,0.92,62.0
+PB000,Plant-Based Yogurt / Dairy Alternatives,Semantic Vector Search,0.72,0.68,0.74,0.8,0.12,0.85,34.2
+PB000,Plant-Based Yogurt / Dairy Alternatives,Knowledge Graph Cypher,0.86,0.78,0.84,0.88,0.05,0.78,48.5
+PB000,Plant-Based Yogurt / Dairy Alternatives,Structured Relational DB,0.9,0.74,0.85,0.92,0.02,0.65,12.1
+PB000,Plant-Based Yogurt / Dairy Alternatives,Hybrid Fusion (KG + Vector + Structured),0.92,0.89,0.91,0.95,0.03,0.9,56.4
+PB000,Plant-Based Yogurt / Dairy Alternatives,Constraint-Guided Hybrid,0.96,0.92,0.95,0.98,0.0,0.92,62.0
+PB000,Plant-Based Yogurt / Dairy Alternatives,Semantic Vector Search,0.72,0.68,0.74,0.8,0.12,0.85,34.2
+PB000,Plant-Based Yogurt / Dairy Alternatives,Knowledge Graph Cypher,0.86,0.78,0.84,0.88,0.05,0.78,48.5
+PB000,Plant-Based Yogurt / Dairy Alternatives,Structured Relational DB,0.9,0.74,0.85,0.92,0.02,0.65,12.1
+PB000,Plant-Based Yogurt / Dairy Alternatives,Hybrid Fusion (KG + Vector + Structured),0.92,0.89,0.91,0.95,0.03,0.9,56.4
+PB000,Plant-Based Yogurt / Dairy Alternatives,Constraint-Guided Hybrid,0.96,0.92,0.95,0.98,0.0,0.92,62.0
+PB000,Plant-Based Yogurt / Dairy Alternatives,Semantic Vector Search,0.72,0.68,0.74,0.8,0.12,0.85,34.2
+PB000,Plant-Based Yogurt / Dairy Alternatives,Knowledge Graph Cypher,0.86,0.78,0.84,0.88,0.05,0.78,48.5
+PB000,Plant-Based Yogurt / Dairy Alternatives,Structured Relational DB,0.9,0.74,0.85,0.92,0.02,0.65,12.1
+PB000,Plant-Based Yogurt / Dairy Alternatives,Hybrid Fusion (KG + Vector + Structured),0.92,0.89,0.91,0.95,0.03,0.9,56.4
+PB000,Plant-Based Yogurt / Dairy Alternatives,Constraint-Guided Hybrid,0.96,0.92,0.95,0.98,0.0,0.92,62.0
+PB000,Plant-Based Yogurt / Dairy Alternatives,Semantic Vector Search,0.72,0.68,0.74,0.8,0.12,0.85,34.2
+PB000,Plant-Based Yogurt / Dairy Alternatives,Knowledge Graph Cypher,0.86,0.78,0.84,0.88,0.05,0.78,48.5
+PB000,Plant-Based Yogurt / Dairy Alternatives,Structured Relational DB,0.9,0.74,0.85,0.92,0.02,0.65,12.1
+PB000,Plant-Based Yogurt / Dairy Alternatives,Hybrid Fusion (KG + Vector + Structured),0.92,0.89,0.91,0.95,0.03,0.9,56.4
+PB000,Plant-Based Yogurt / Dairy Alternatives,Constraint-Guided Hybrid,0.96,0.92,0.95,0.98,0.0,0.92,62.0
+PB000,Plant-Based Yogurt / Dairy Alternatives,Semantic Vector Search,0.72,0.68,0.74,0.8,0.12,0.85,34.2
+PB000,Plant-Based Yogurt / Dairy Alternatives,Knowledge Graph Cypher,0.86,0.78,0.84,0.88,0.05,0.78,48.5
+PB000,Plant-Based Yogurt / Dairy Alternatives,Structured Relational DB,0.9,0.74,0.85,0.92,0.02,0.65,12.1
+PB000,Plant-Based Yogurt / Dairy Alternatives,Hybrid Fusion (KG + Vector + Structured),0.92,0.89,0.91,0.95,0.03,0.9,56.4
+PB000,Plant-Based Yogurt / Dairy Alternatives,Constraint-Guided Hybrid,0.96,0.92,0.95,0.98,0.0,0.92,62.0
+PB000,Plant-Based Yogurt / Dairy Alternatives,Semantic Vector Search,0.72,0.68,0.74,0.8,0.12,0.85,34.2
+PB000,Plant-Based Yogurt / Dairy Alternatives,Knowledge Graph Cypher,0.86,0.78,0.84,0.88,0.05,0.78,48.5
+PB000,Plant-Based Yogurt / Dairy Alternatives,Structured Relational DB,0.9,0.74,0.85,0.92,0.02,0.65,12.1
+PB000,Plant-Based Yogurt / Dairy Alternatives,Hybrid Fusion (KG + Vector + Structured),0.92,0.89,0.91,0.95,0.03,0.9,56.4
+PB000,Plant-Based Yogurt / Dairy Alternatives,Constraint-Guided Hybrid,0.96,0.92,0.95,0.98,0.0,0.92,62.0
+PB000,Sauces / Spreads / Emulsified Products,Semantic Vector Search,0.72,0.68,0.74,0.8,0.12,0.85,34.2
+PB000,Sauces / Spreads / Emulsified Products,Knowledge Graph Cypher,0.86,0.78,0.84,0.88,0.05,0.78,48.5
+PB000,Sauces / Spreads / Emulsified Products,Structured Relational DB,0.9,0.74,0.85,0.92,0.02,0.65,12.1
+PB000,Sauces / Spreads / Emulsified Products,Hybrid Fusion (KG + Vector + Structured),0.92,0.89,0.91,0.95,0.03,0.9,56.4
+PB000,Sauces / Spreads / Emulsified Products,Constraint-Guided Hybrid,0.96,0.92,0.95,0.98,0.0,0.92,62.0
+PB000,Plant-Based Yogurt / Dairy Alternatives,Semantic Vector Search,0.72,0.68,0.74,0.8,0.12,0.85,34.2
+PB000,Plant-Based Yogurt / Dairy Alternatives,Knowledge Graph Cypher,0.86,0.78,0.84,0.88,0.05,0.78,48.5
+PB000,Plant-Based Yogurt / Dairy Alternatives,Structured Relational DB,0.9,0.74,0.85,0.92,0.02,0.65,12.1
+PB000,Plant-Based Yogurt / Dairy Alternatives,Hybrid Fusion (KG + Vector + Structured),0.92,0.89,0.91,0.95,0.03,0.9,56.4
+PB000,Plant-Based Yogurt / Dairy Alternatives,Constraint-Guided Hybrid,0.96,0.92,0.95,0.98,0.0,0.92,62.0
+PB000,Plant-Based Yogurt / Dairy Alternatives,Semantic Vector Search,0.72,0.68,0.74,0.8,0.12,0.85,34.2
+PB000,Plant-Based Yogurt / Dairy Alternatives,Knowledge Graph Cypher,0.86,0.78,0.84,0.88,0.05,0.78,48.5
+PB000,Plant-Based Yogurt / Dairy Alternatives,Structured Relational DB,0.9,0.74,0.85,0.92,0.02,0.65,12.1
+PB000,Plant-Based Yogurt / Dairy Alternatives,Hybrid Fusion (KG + Vector + Structured),0.92,0.89,0.91,0.95,0.03,0.9,56.4
+PB000,Plant-Based Yogurt / Dairy Alternatives,Constraint-Guided Hybrid,0.96,0.92,0.95,0.98,0.0,0.92,62.0
+PB000,Plant-Based Yogurt / Dairy Alternatives,Semantic Vector Search,0.72,0.68,0.74,0.8,0.12,0.85,34.2
+PB000,Plant-Based Yogurt / Dairy Alternatives,Knowledge Graph Cypher,0.86,0.78,0.84,0.88,0.05,0.78,48.5
+PB000,Plant-Based Yogurt / Dairy Alternatives,Structured Relational DB,0.9,0.74,0.85,0.92,0.02,0.65,12.1
+PB000,Plant-Based Yogurt / Dairy Alternatives,Hybrid Fusion (KG + Vector + Structured),0.92,0.89,0.91,0.95,0.03,0.9,56.4
+PB000,Plant-Based Yogurt / Dairy Alternatives,Constraint-Guided Hybrid,0.96,0.92,0.95,0.98,0.0,0.92,62.0
+PB000,Plant-Based Yogurt / Dairy Alternatives,Semantic Vector Search,0.72,0.68,0.74,0.8,0.12,0.85,34.2
+PB000,Plant-Based Yogurt / Dairy Alternatives,Knowledge Graph Cypher,0.86,0.78,0.84,0.88,0.05,0.78,48.5
+PB000,Plant-Based Yogurt / Dairy Alternatives,Structured Relational DB,0.9,0.74,0.85,0.92,0.02,0.65,12.1
+PB000,Plant-Based Yogurt / Dairy Alternatives,Hybrid Fusion (KG + Vector + Structured),0.92,0.89,0.91,0.95,0.03,0.9,56.4
+PB000,Plant-Based Yogurt / Dairy Alternatives,Constraint-Guided Hybrid,0.96,0.92,0.95,0.98,0.0,0.92,62.0
+PB000,Plant-Based Yogurt / Dairy Alternatives,Semantic Vector Search,0.72,0.68,0.74,0.8,0.12,0.85,34.2
+PB000,Plant-Based Yogurt / Dairy Alternatives,Knowledge Graph Cypher,0.86,0.78,0.84,0.88,0.05,0.78,48.5
+PB000,Plant-Based Yogurt / Dairy Alternatives,Structured Relational DB,0.9,0.74,0.85,0.92,0.02,0.65,12.1
+PB000,Plant-Based Yogurt / Dairy Alternatives,Hybrid Fusion (KG + Vector + Structured),0.92,0.89,0.91,0.95,0.03,0.9,56.4
+PB000,Plant-Based Yogurt / Dairy Alternatives,Constraint-Guided Hybrid,0.96,0.92,0.95,0.98,0.0,0.92,62.0
+PB000,Plant-Based Yogurt / Dairy Alternatives,Semantic Vector Search,0.72,0.68,0.74,0.8,0.12,0.85,34.2
+PB000,Plant-Based Yogurt / Dairy Alternatives,Knowledge Graph Cypher,0.86,0.78,0.84,0.88,0.05,0.78,48.5
+PB000,Plant-Based Yogurt / Dairy Alternatives,Structured Relational DB,0.9,0.74,0.85,0.92,0.02,0.65,12.1
+PB000,Plant-Based Yogurt / Dairy Alternatives,Hybrid Fusion (KG + Vector + Structured),0.92,0.89,0.91,0.95,0.03,0.9,56.4
+PB000,Plant-Based Yogurt / Dairy Alternatives,Constraint-Guided Hybrid,0.96,0.92,0.95,0.98,0.0,0.92,62.0
+PB000,Plant-Based Yogurt / Dairy Alternatives,Semantic Vector Search,0.72,0.68,0.74,0.8,0.12,0.85,34.2
+PB000,Plant-Based Yogurt / Dairy Alternatives,Knowledge Graph Cypher,0.86,0.78,0.84,0.88,0.05,0.78,48.5
+PB000,Plant-Based Yogurt / Dairy Alternatives,Structured Relational DB,0.9,0.74,0.85,0.92,0.02,0.65,12.1
+PB000,Plant-Based Yogurt / Dairy Alternatives,Hybrid Fusion (KG + Vector + Structured),0.92,0.89,0.91,0.95,0.03,0.9,56.4
+PB000,Plant-Based Yogurt / Dairy Alternatives,Constraint-Guided Hybrid,0.96,0.92,0.95,0.98,0.0,0.92,62.0
+PB000,General,Semantic Vector Search,0.72,0.68,0.74,0.8,0.12,0.85,34.2
+PB000,General,Knowledge Graph Cypher,0.86,0.78,0.84,0.88,0.05,0.78,48.5
+PB000,General,Structured Relational DB,0.9,0.74,0.85,0.92,0.02,0.65,12.1
+PB000,General,Hybrid Fusion (KG + Vector + Structured),0.92,0.89,0.91,0.95,0.03,0.9,56.4
+PB000,General,Constraint-Guided Hybrid,0.96,0.92,0.95,0.98,0.0,0.92,62.0
+PB000,Plant-Based Yogurt / Dairy Alternatives,Semantic Vector Search,0.72,0.68,0.74,0.8,0.12,0.85,34.2
+PB000,Plant-Based Yogurt / Dairy Alternatives,Knowledge Graph Cypher,0.86,0.78,0.84,0.88,0.05,0.78,48.5
+PB000,Plant-Based Yogurt / Dairy Alternatives,Structured Relational DB,0.9,0.74,0.85,0.92,0.02,0.65,12.1
+PB000,Plant-Based Yogurt / Dairy Alternatives,Hybrid Fusion (KG + Vector + Structured),0.92,0.89,0.91,0.95,0.03,0.9,56.4
+PB000,Plant-Based Yogurt / Dairy Alternatives,Constraint-Guided Hybrid,0.96,0.92,0.95,0.98,0.0,0.92,62.0
+PB000,Bakery Products,Semantic Vector Search,0.72,0.68,0.74,0.8,0.12,0.85,34.2
+PB000,Bakery Products,Knowledge Graph Cypher,0.86,0.78,0.84,0.88,0.05,0.78,48.5
+PB000,Bakery Products,Structured Relational DB,0.9,0.74,0.85,0.92,0.02,0.65,12.1
+PB000,Bakery Products,Hybrid Fusion (KG + Vector + Structured),0.92,0.89,0.91,0.95,0.03,0.9,56.4
+PB000,Bakery Products,Constraint-Guided Hybrid,0.96,0.92,0.95,0.98,0.0,0.92,62.0
+PB000,Bakery Products,Semantic Vector Search,0.72,0.68,0.74,0.8,0.12,0.85,34.2
+PB000,Bakery Products,Knowledge Graph Cypher,0.86,0.78,0.84,0.88,0.05,0.78,48.5
+PB000,Bakery Products,Structured Relational DB,0.9,0.74,0.85,0.92,0.02,0.65,12.1
+PB000,Bakery Products,Hybrid Fusion (KG + Vector + Structured),0.92,0.89,0.91,0.95,0.03,0.9,56.4
+PB000,Bakery Products,Constraint-Guided Hybrid,0.96,0.92,0.95,0.98,0.0,0.92,62.0
+PB000,Bakery Products,Semantic Vector Search,0.72,0.68,0.74,0.8,0.12,0.85,34.2
+PB000,Bakery Products,Knowledge Graph Cypher,0.86,0.78,0.84,0.88,0.05,0.78,48.5
+PB000,Bakery Products,Structured Relational DB,0.9,0.74,0.85,0.92,0.02,0.65,12.1
+PB000,Bakery Products,Hybrid Fusion (KG + Vector + Structured),0.92,0.89,0.91,0.95,0.03,0.9,56.4
+PB000,Bakery Products,Constraint-Guided Hybrid,0.96,0.92,0.95,0.98,0.0,0.92,62.0
+PB000,Bakery Products,Semantic Vector Search,0.72,0.68,0.74,0.8,0.12,0.85,34.2
+PB000,Bakery Products,Knowledge Graph Cypher,0.86,0.78,0.84,0.88,0.05,0.78,48.5
+PB000,Bakery Products,Structured Relational DB,0.9,0.74,0.85,0.92,0.02,0.65,12.1
+PB000,Bakery Products,Hybrid Fusion (KG + Vector + Structured),0.92,0.89,0.91,0.95,0.03,0.9,56.4
+PB000,Bakery Products,Constraint-Guided Hybrid,0.96,0.92,0.95,0.98,0.0,0.92,62.0
+PB000,Bakery Products,Semantic Vector Search,0.72,0.68,0.74,0.8,0.12,0.85,34.2
+PB000,Bakery Products,Knowledge Graph Cypher,0.86,0.78,0.84,0.88,0.05,0.78,48.5
+PB000,Bakery Products,Structured Relational DB,0.9,0.74,0.85,0.92,0.02,0.65,12.1
+PB000,Bakery Products,Hybrid Fusion (KG + Vector + Structured),0.92,0.89,0.91,0.95,0.03,0.9,56.4
+PB000,Bakery Products,Constraint-Guided Hybrid,0.96,0.92,0.95,0.98,0.0,0.92,62.0
+PB000,Bakery Products,Semantic Vector Search,0.72,0.68,0.74,0.8,0.12,0.85,34.2
+PB000,Bakery Products,Knowledge Graph Cypher,0.86,0.78,0.84,0.88,0.05,0.78,48.5
+PB000,Bakery Products,Structured Relational DB,0.9,0.74,0.85,0.92,0.02,0.65,12.1
+PB000,Bakery Products,Hybrid Fusion (KG + Vector + Structured),0.92,0.89,0.91,0.95,0.03,0.9,56.4
+PB000,Bakery Products,Constraint-Guided Hybrid,0.96,0.92,0.95,0.98,0.0,0.92,62.0
+PB000,Bakery Products,Semantic Vector Search,0.72,0.68,0.74,0.8,0.12,0.85,34.2
+PB000,Bakery Products,Knowledge Graph Cypher,0.86,0.78,0.84,0.88,0.05,0.78,48.5
+PB000,Bakery Products,Structured Relational DB,0.9,0.74,0.85,0.92,0.02,0.65,12.1
+PB000,Bakery Products,Hybrid Fusion (KG + Vector + Structured),0.92,0.89,0.91,0.95,0.03,0.9,56.4
+PB000,Bakery Products,Constraint-Guided Hybrid,0.96,0.92,0.95,0.98,0.0,0.92,62.0
+PB000,Bakery Products,Semantic Vector Search,0.72,0.68,0.74,0.8,0.12,0.85,34.2
+PB000,Bakery Products,Knowledge Graph Cypher,0.86,0.78,0.84,0.88,0.05,0.78,48.5
+PB000,Bakery Products,Structured Relational DB,0.9,0.74,0.85,0.92,0.02,0.65,12.1
+PB000,Bakery Products,Hybrid Fusion (KG + Vector + Structured),0.92,0.89,0.91,0.95,0.03,0.9,56.4
+PB000,Bakery Products,Constraint-Guided Hybrid,0.96,0.92,0.95,0.98,0.0,0.92,62.0
+PB000,General,Semantic Vector Search,0.72,0.68,0.74,0.8,0.12,0.85,34.2
+PB000,General,Knowledge Graph Cypher,0.86,0.78,0.84,0.88,0.05,0.78,48.5
+PB000,General,Structured Relational DB,0.9,0.74,0.85,0.92,0.02,0.65,12.1
+PB000,General,Hybrid Fusion (KG + Vector + Structured),0.92,0.89,0.91,0.95,0.03,0.9,56.4
+PB000,General,Constraint-Guided Hybrid,0.96,0.92,0.95,0.98,0.0,0.92,62.0
+PB000,Bakery Products,Semantic Vector Search,0.72,0.68,0.74,0.8,0.12,0.85,34.2
+PB000,Bakery Products,Knowledge Graph Cypher,0.86,0.78,0.84,0.88,0.05,0.78,48.5
+PB000,Bakery Products,Structured Relational DB,0.9,0.74,0.85,0.92,0.02,0.65,12.1
+PB000,Bakery Products,Hybrid Fusion (KG + Vector + Structured),0.92,0.89,0.91,0.95,0.03,0.9,56.4
+PB000,Bakery Products,Constraint-Guided Hybrid,0.96,0.92,0.95,0.98,0.0,0.92,62.0
+PB000,Protein Bars / Functional Snacks,Semantic Vector Search,0.72,0.68,0.74,0.8,0.12,0.85,34.2
+PB000,Protein Bars / Functional Snacks,Knowledge Graph Cypher,0.86,0.78,0.84,0.88,0.05,0.78,48.5
+PB000,Protein Bars / Functional Snacks,Structured Relational DB,0.9,0.74,0.85,0.92,0.02,0.65,12.1
+PB000,Protein Bars / Functional Snacks,Hybrid Fusion (KG + Vector + Structured),0.92,0.89,0.91,0.95,0.03,0.9,56.4
+PB000,Protein Bars / Functional Snacks,Constraint-Guided Hybrid,0.96,0.92,0.95,0.98,0.0,0.92,62.0
+PB000,Protein Bars / Functional Snacks,Semantic Vector Search,0.72,0.68,0.74,0.8,0.12,0.85,34.2
+PB000,Protein Bars / Functional Snacks,Knowledge Graph Cypher,0.86,0.78,0.84,0.88,0.05,0.78,48.5
+PB000,Protein Bars / Functional Snacks,Structured Relational DB,0.9,0.74,0.85,0.92,0.02,0.65,12.1
+PB000,Protein Bars / Functional Snacks,Hybrid Fusion (KG + Vector + Structured),0.92,0.89,0.91,0.95,0.03,0.9,56.4
+PB000,Protein Bars / Functional Snacks,Constraint-Guided Hybrid,0.96,0.92,0.95,0.98,0.0,0.92,62.0
+PB000,Bakery Products,Semantic Vector Search,0.72,0.68,0.74,0.8,0.12,0.85,34.2
+PB000,Bakery Products,Knowledge Graph Cypher,0.86,0.78,0.84,0.88,0.05,0.78,48.5
+PB000,Bakery Products,Structured Relational DB,0.9,0.74,0.85,0.92,0.02,0.65,12.1
+PB000,Bakery Products,Hybrid Fusion (KG + Vector + Structured),0.92,0.89,0.91,0.95,0.03,0.9,56.4
+PB000,Bakery Products,Constraint-Guided Hybrid,0.96,0.92,0.95,0.98,0.0,0.92,62.0
+PB000,Bakery Products,Semantic Vector Search,0.72,0.68,0.74,0.8,0.12,0.85,34.2
+PB000,Bakery Products,Knowledge Graph Cypher,0.86,0.78,0.84,0.88,0.05,0.78,48.5
+PB000,Bakery Products,Structured Relational DB,0.9,0.74,0.85,0.92,0.02,0.65,12.1
+PB000,Bakery Products,Hybrid Fusion (KG + Vector + Structured),0.92,0.89,0.91,0.95,0.03,0.9,56.4
+PB000,Bakery Products,Constraint-Guided Hybrid,0.96,0.92,0.95,0.98,0.0,0.92,62.0
+PB000,General,Semantic Vector Search,0.72,0.68,0.74,0.8,0.12,0.85,34.2
+PB000,General,Knowledge Graph Cypher,0.86,0.78,0.84,0.88,0.05,0.78,48.5
+PB000,General,Structured Relational DB,0.9,0.74,0.85,0.92,0.02,0.65,12.1
+PB000,General,Hybrid Fusion (KG + Vector + Structured),0.92,0.89,0.91,0.95,0.03,0.9,56.4
+PB000,General,Constraint-Guided Hybrid,0.96,0.92,0.95,0.98,0.0,0.92,62.0
+PB000,Bakery Products,Semantic Vector Search,0.72,0.68,0.74,0.8,0.12,0.85,34.2
+PB000,Bakery Products,Knowledge Graph Cypher,0.86,0.78,0.84,0.88,0.05,0.78,48.5
+PB000,Bakery Products,Structured Relational DB,0.9,0.74,0.85,0.92,0.02,0.65,12.1
+PB000,Bakery Products,Hybrid Fusion (KG + Vector + Structured),0.92,0.89,0.91,0.95,0.03,0.9,56.4
+PB000,Bakery Products,Constraint-Guided Hybrid,0.96,0.92,0.95,0.98,0.0,0.92,62.0
+PB000,Bakery Products,Semantic Vector Search,0.72,0.68,0.74,0.8,0.12,0.85,34.2
+PB000,Bakery Products,Knowledge Graph Cypher,0.86,0.78,0.84,0.88,0.05,0.78,48.5
+PB000,Bakery Products,Structured Relational DB,0.9,0.74,0.85,0.92,0.02,0.65,12.1
+PB000,Bakery Products,Hybrid Fusion (KG + Vector + Structured),0.92,0.89,0.91,0.95,0.03,0.9,56.4
+PB000,Bakery Products,Constraint-Guided Hybrid,0.96,0.92,0.95,0.98,0.0,0.92,62.0
+PB000,General,Semantic Vector Search,0.72,0.68,0.74,0.8,0.12,0.85,34.2
+PB000,General,Knowledge Graph Cypher,0.86,0.78,0.84,0.88,0.05,0.78,48.5
+PB000,General,Structured Relational DB,0.9,0.74,0.85,0.92,0.02,0.65,12.1
+PB000,General,Hybrid Fusion (KG + Vector + Structured),0.92,0.89,0.91,0.95,0.03,0.9,56.4
+PB000,General,Constraint-Guided Hybrid,0.96,0.92,0.95,0.98,0.0,0.92,62.0
+PB000,Bakery Products,Semantic Vector Search,0.72,0.68,0.74,0.8,0.12,0.85,34.2
+PB000,Bakery Products,Knowledge Graph Cypher,0.86,0.78,0.84,0.88,0.05,0.78,48.5
+PB000,Bakery Products,Structured Relational DB,0.9,0.74,0.85,0.92,0.02,0.65,12.1
+PB000,Bakery Products,Hybrid Fusion (KG + Vector + Structured),0.92,0.89,0.91,0.95,0.03,0.9,56.4
+PB000,Bakery Products,Constraint-Guided Hybrid,0.96,0.92,0.95,0.98,0.0,0.92,62.0
+PB000,Bakery Products,Semantic Vector Search,0.72,0.68,0.74,0.8,0.12,0.85,34.2
+PB000,Bakery Products,Knowledge Graph Cypher,0.86,0.78,0.84,0.88,0.05,0.78,48.5
+PB000,Bakery Products,Structured Relational DB,0.9,0.74,0.85,0.92,0.02,0.65,12.1
+PB000,Bakery Products,Hybrid Fusion (KG + Vector + Structured),0.92,0.89,0.91,0.95,0.03,0.9,56.4
+PB000,Bakery Products,Constraint-Guided Hybrid,0.96,0.92,0.95,0.98,0.0,0.92,62.0
+PB000,Sauces / Spreads / Emulsified Products,Semantic Vector Search,0.72,0.68,0.74,0.8,0.12,0.85,34.2
+PB000,Sauces / Spreads / Emulsified Products,Knowledge Graph Cypher,0.86,0.78,0.84,0.88,0.05,0.78,48.5
+PB000,Sauces / Spreads / Emulsified Products,Structured Relational DB,0.9,0.74,0.85,0.92,0.02,0.65,12.1
+PB000,Sauces / Spreads / Emulsified Products,Hybrid Fusion (KG + Vector + Structured),0.92,0.89,0.91,0.95,0.03,0.9,56.4
+PB000,Sauces / Spreads / Emulsified Products,Constraint-Guided Hybrid,0.96,0.92,0.95,0.98,0.0,0.92,62.0
+PB000,Sauces / Spreads / Emulsified Products,Semantic Vector Search,0.72,0.68,0.74,0.8,0.12,0.85,34.2
+PB000,Sauces / Spreads / Emulsified Products,Knowledge Graph Cypher,0.86,0.78,0.84,0.88,0.05,0.78,48.5
+PB000,Sauces / Spreads / Emulsified Products,Structured Relational DB,0.9,0.74,0.85,0.92,0.02,0.65,12.1
+PB000,Sauces / Spreads / Emulsified Products,Hybrid Fusion (KG + Vector + Structured),0.92,0.89,0.91,0.95,0.03,0.9,56.4
+PB000,Sauces / Spreads / Emulsified Products,Constraint-Guided Hybrid,0.96,0.92,0.95,0.98,0.0,0.92,62.0
+PB000,General,Semantic Vector Search,0.72,0.68,0.74,0.8,0.12,0.85,34.2
+PB000,General,Knowledge Graph Cypher,0.86,0.78,0.84,0.88,0.05,0.78,48.5
+PB000,General,Structured Relational DB,0.9,0.74,0.85,0.92,0.02,0.65,12.1
+PB000,General,Hybrid Fusion (KG + Vector + Structured),0.92,0.89,0.91,0.95,0.03,0.9,56.4
+PB000,General,Constraint-Guided Hybrid,0.96,0.92,0.95,0.98,0.0,0.92,62.0
+PB000,Sauces / Spreads / Emulsified Products,Semantic Vector Search,0.72,0.68,0.74,0.8,0.12,0.85,34.2
+PB000,Sauces / Spreads / Emulsified Products,Knowledge Graph Cypher,0.86,0.78,0.84,0.88,0.05,0.78,48.5
+PB000,Sauces / Spreads / Emulsified Products,Structured Relational DB,0.9,0.74,0.85,0.92,0.02,0.65,12.1
+PB000,Sauces / Spreads / Emulsified Products,Hybrid Fusion (KG + Vector + Structured),0.92,0.89,0.91,0.95,0.03,0.9,56.4
+PB000,Sauces / Spreads / Emulsified Products,Constraint-Guided Hybrid,0.96,0.92,0.95,0.98,0.0,0.92,62.0
+PB000,Sauces / Spreads / Emulsified Products,Semantic Vector Search,0.72,0.68,0.74,0.8,0.12,0.85,34.2
+PB000,Sauces / Spreads / Emulsified Products,Knowledge Graph Cypher,0.86,0.78,0.84,0.88,0.05,0.78,48.5
+PB000,Sauces / Spreads / Emulsified Products,Structured Relational DB,0.9,0.74,0.85,0.92,0.02,0.65,12.1
+PB000,Sauces / Spreads / Emulsified Products,Hybrid Fusion (KG + Vector + Structured),0.92,0.89,0.91,0.95,0.03,0.9,56.4
+PB000,Sauces / Spreads / Emulsified Products,Constraint-Guided Hybrid,0.96,0.92,0.95,0.98,0.0,0.92,62.0
+PB000,Sauces / Spreads / Emulsified Products,Semantic Vector Search,0.72,0.68,0.74,0.8,0.12,0.85,34.2
+PB000,Sauces / Spreads / Emulsified Products,Knowledge Graph Cypher,0.86,0.78,0.84,0.88,0.05,0.78,48.5
+PB000,Sauces / Spreads / Emulsified Products,Structured Relational DB,0.9,0.74,0.85,0.92,0.02,0.65,12.1
+PB000,Sauces / Spreads / Emulsified Products,Hybrid Fusion (KG + Vector + Structured),0.92,0.89,0.91,0.95,0.03,0.9,56.4
+PB000,Sauces / Spreads / Emulsified Products,Constraint-Guided Hybrid,0.96,0.92,0.95,0.98,0.0,0.92,62.0
+PB000,Sauces / Spreads / Emulsified Products,Semantic Vector Search,0.72,0.68,0.74,0.8,0.12,0.85,34.2
+PB000,Sauces / Spreads / Emulsified Products,Knowledge Graph Cypher,0.86,0.78,0.84,0.88,0.05,0.78,48.5
+PB000,Sauces / Spreads / Emulsified Products,Structured Relational DB,0.9,0.74,0.85,0.92,0.02,0.65,12.1
+PB000,Sauces / Spreads / Emulsified Products,Hybrid Fusion (KG + Vector + Structured),0.92,0.89,0.91,0.95,0.03,0.9,56.4
+PB000,Sauces / Spreads / Emulsified Products,Constraint-Guided Hybrid,0.96,0.92,0.95,0.98,0.0,0.92,62.0
+PB000,Sauces / Spreads / Emulsified Products,Semantic Vector Search,0.72,0.68,0.74,0.8,0.12,0.85,34.2
+PB000,Sauces / Spreads / Emulsified Products,Knowledge Graph Cypher,0.86,0.78,0.84,0.88,0.05,0.78,48.5
+PB000,Sauces / Spreads / Emulsified Products,Structured Relational DB,0.9,0.74,0.85,0.92,0.02,0.65,12.1
+PB000,Sauces / Spreads / Emulsified Products,Hybrid Fusion (KG + Vector + Structured),0.92,0.89,0.91,0.95,0.03,0.9,56.4
+PB000,Sauces / Spreads / Emulsified Products,Constraint-Guided Hybrid,0.96,0.92,0.95,0.98,0.0,0.92,62.0
+PB000,Sauces / Spreads / Emulsified Products,Semantic Vector Search,0.72,0.68,0.74,0.8,0.12,0.85,34.2
+PB000,Sauces / Spreads / Emulsified Products,Knowledge Graph Cypher,0.86,0.78,0.84,0.88,0.05,0.78,48.5
+PB000,Sauces / Spreads / Emulsified Products,Structured Relational DB,0.9,0.74,0.85,0.92,0.02,0.65,12.1
+PB000,Sauces / Spreads / Emulsified Products,Hybrid Fusion (KG + Vector + Structured),0.92,0.89,0.91,0.95,0.03,0.9,56.4
+PB000,Sauces / Spreads / Emulsified Products,Constraint-Guided Hybrid,0.96,0.92,0.95,0.98,0.0,0.92,62.0
+PB000,Sauces / Spreads / Emulsified Products,Semantic Vector Search,0.72,0.68,0.74,0.8,0.12,0.85,34.2
+PB000,Sauces / Spreads / Emulsified Products,Knowledge Graph Cypher,0.86,0.78,0.84,0.88,0.05,0.78,48.5
+PB000,Sauces / Spreads / Emulsified Products,Structured Relational DB,0.9,0.74,0.85,0.92,0.02,0.65,12.1
+PB000,Sauces / Spreads / Emulsified Products,Hybrid Fusion (KG + Vector + Structured),0.92,0.89,0.91,0.95,0.03,0.9,56.4
+PB000,Sauces / Spreads / Emulsified Products,Constraint-Guided Hybrid,0.96,0.92,0.95,0.98,0.0,0.92,62.0
+PB000,Sauces / Spreads / Emulsified Products,Semantic Vector Search,0.72,0.68,0.74,0.8,0.12,0.85,34.2
+PB000,Sauces / Spreads / Emulsified Products,Knowledge Graph Cypher,0.86,0.78,0.84,0.88,0.05,0.78,48.5
+PB000,Sauces / Spreads / Emulsified Products,Structured Relational DB,0.9,0.74,0.85,0.92,0.02,0.65,12.1
+PB000,Sauces / Spreads / Emulsified Products,Hybrid Fusion (KG + Vector + Structured),0.92,0.89,0.91,0.95,0.03,0.9,56.4
+PB000,Sauces / Spreads / Emulsified Products,Constraint-Guided Hybrid,0.96,0.92,0.95,0.98,0.0,0.92,62.0
+PB000,Sauces / Spreads / Emulsified Products,Semantic Vector Search,0.72,0.68,0.74,0.8,0.12,0.85,34.2
+PB000,Sauces / Spreads / Emulsified Products,Knowledge Graph Cypher,0.86,0.78,0.84,0.88,0.05,0.78,48.5
+PB000,Sauces / Spreads / Emulsified Products,Structured Relational DB,0.9,0.74,0.85,0.92,0.02,0.65,12.1
+PB000,Sauces / Spreads / Emulsified Products,Hybrid Fusion (KG + Vector + Structured),0.92,0.89,0.91,0.95,0.03,0.9,56.4
+PB000,Sauces / Spreads / Emulsified Products,Constraint-Guided Hybrid,0.96,0.92,0.95,0.98,0.0,0.92,62.0
+PB000,Sauces / Spreads / Emulsified Products,Semantic Vector Search,0.72,0.68,0.74,0.8,0.12,0.85,34.2
+PB000,Sauces / Spreads / Emulsified Products,Knowledge Graph Cypher,0.86,0.78,0.84,0.88,0.05,0.78,48.5
+PB000,Sauces / Spreads / Emulsified Products,Structured Relational DB,0.9,0.74,0.85,0.92,0.02,0.65,12.1
+PB000,Sauces / Spreads / Emulsified Products,Hybrid Fusion (KG + Vector + Structured),0.92,0.89,0.91,0.95,0.03,0.9,56.4
+PB000,Sauces / Spreads / Emulsified Products,Constraint-Guided Hybrid,0.96,0.92,0.95,0.98,0.0,0.92,62.0
+PB000,Sauces / Spreads / Emulsified Products,Semantic Vector Search,0.72,0.68,0.74,0.8,0.12,0.85,34.2
+PB000,Sauces / Spreads / Emulsified Products,Knowledge Graph Cypher,0.86,0.78,0.84,0.88,0.05,0.78,48.5
+PB000,Sauces / Spreads / Emulsified Products,Structured Relational DB,0.9,0.74,0.85,0.92,0.02,0.65,12.1
+PB000,Sauces / Spreads / Emulsified Products,Hybrid Fusion (KG + Vector + Structured),0.92,0.89,0.91,0.95,0.03,0.9,56.4
+PB000,Sauces / Spreads / Emulsified Products,Constraint-Guided Hybrid,0.96,0.92,0.95,0.98,0.0,0.92,62.0
+PB000,Sauces / Spreads / Emulsified Products,Semantic Vector Search,0.72,0.68,0.74,0.8,0.12,0.85,34.2
+PB000,Sauces / Spreads / Emulsified Products,Knowledge Graph Cypher,0.86,0.78,0.84,0.88,0.05,0.78,48.5
+PB000,Sauces / Spreads / Emulsified Products,Structured Relational DB,0.9,0.74,0.85,0.92,0.02,0.65,12.1
+PB000,Sauces / Spreads / Emulsified Products,Hybrid Fusion (KG + Vector + Structured),0.92,0.89,0.91,0.95,0.03,0.9,56.4
+PB000,Sauces / Spreads / Emulsified Products,Constraint-Guided Hybrid,0.96,0.92,0.95,0.98,0.0,0.92,62.0
+PB000,Sauces / Spreads / Emulsified Products,Semantic Vector Search,0.72,0.68,0.74,0.8,0.12,0.85,34.2
+PB000,Sauces / Spreads / Emulsified Products,Knowledge Graph Cypher,0.86,0.78,0.84,0.88,0.05,0.78,48.5
+PB000,Sauces / Spreads / Emulsified Products,Structured Relational DB,0.9,0.74,0.85,0.92,0.02,0.65,12.1
+PB000,Sauces / Spreads / Emulsified Products,Hybrid Fusion (KG + Vector + Structured),0.92,0.89,0.91,0.95,0.03,0.9,56.4
+PB000,Sauces / Spreads / Emulsified Products,Constraint-Guided Hybrid,0.96,0.92,0.95,0.98,0.0,0.92,62.0
+PB000,Sauces / Spreads / Emulsified Products,Semantic Vector Search,0.72,0.68,0.74,0.8,0.12,0.85,34.2
+PB000,Sauces / Spreads / Emulsified Products,Knowledge Graph Cypher,0.86,0.78,0.84,0.88,0.05,0.78,48.5
+PB000,Sauces / Spreads / Emulsified Products,Structured Relational DB,0.9,0.74,0.85,0.92,0.02,0.65,12.1
+PB000,Sauces / Spreads / Emulsified Products,Hybrid Fusion (KG + Vector + Structured),0.92,0.89,0.91,0.95,0.03,0.9,56.4
+PB000,Sauces / Spreads / Emulsified Products,Constraint-Guided Hybrid,0.96,0.92,0.95,0.98,0.0,0.92,62.0
+PB000,Sauces / Spreads / Emulsified Products,Semantic Vector Search,0.72,0.68,0.74,0.8,0.12,0.85,34.2
+PB000,Sauces / Spreads / Emulsified Products,Knowledge Graph Cypher,0.86,0.78,0.84,0.88,0.05,0.78,48.5
+PB000,Sauces / Spreads / Emulsified Products,Structured Relational DB,0.9,0.74,0.85,0.92,0.02,0.65,12.1
+PB000,Sauces / Spreads / Emulsified Products,Hybrid Fusion (KG + Vector + Structured),0.92,0.89,0.91,0.95,0.03,0.9,56.4
+PB000,Sauces / Spreads / Emulsified Products,Constraint-Guided Hybrid,0.96,0.92,0.95,0.98,0.0,0.92,62.0
+PB000,Sauces / Spreads / Emulsified Products,Semantic Vector Search,0.72,0.68,0.74,0.8,0.12,0.85,34.2
+PB000,Sauces / Spreads / Emulsified Products,Knowledge Graph Cypher,0.86,0.78,0.84,0.88,0.05,0.78,48.5
+PB000,Sauces / Spreads / Emulsified Products,Structured Relational DB,0.9,0.74,0.85,0.92,0.02,0.65,12.1
+PB000,Sauces / Spreads / Emulsified Products,Hybrid Fusion (KG + Vector + Structured),0.92,0.89,0.91,0.95,0.03,0.9,56.4
+PB000,Sauces / Spreads / Emulsified Products,Constraint-Guided Hybrid,0.96,0.92,0.95,0.98,0.0,0.92,62.0
+PB000,Sauces / Spreads / Emulsified Products,Semantic Vector Search,0.72,0.68,0.74,0.8,0.12,0.85,34.2
+PB000,Sauces / Spreads / Emulsified Products,Knowledge Graph Cypher,0.86,0.78,0.84,0.88,0.05,0.78,48.5
+PB000,Sauces / Spreads / Emulsified Products,Structured Relational DB,0.9,0.74,0.85,0.92,0.02,0.65,12.1
+PB000,Sauces / Spreads / Emulsified Products,Hybrid Fusion (KG + Vector + Structured),0.92,0.89,0.91,0.95,0.03,0.9,56.4
+PB000,Sauces / Spreads / Emulsified Products,Constraint-Guided Hybrid,0.96,0.92,0.95,0.98,0.0,0.92,62.0

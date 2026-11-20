@@ -1,0 +1,89 @@
+[
+  {
+    "intent_id": "INTENT-01",
+    "purpose": "Find ingredients satisfying protein requirement",
+    "entities": [
+      "Proteins",
+      "Protein Isolate",
+      "Plant Protein"
+    ],
+    "constraints": [
+      "Vegan",
+      "NOT butter",
+      "NOT dairy",
+      "NOT egg",
+      "NOT gelatin",
+      "NOT milk",
+      "NOT whey"
+    ],
+    "required_properties": [
+      "protein_g",
+      "solubility",
+      "pdcaas"
+    ]
+  },
+  {
+    "intent_id": "INTENT-02",
+    "purpose": "Find compatible lipid system and oil matrix",
+    "entities": [
+      "Fats",
+      "Oils",
+      "Lipid Matrix"
+    ],
+    "constraints": [
+      "Vegan"
+    ],
+    "required_properties": [
+      "fat_g",
+      "solid_fat_index",
+      "melting_point"
+    ]
+  },
+  {
+    "intent_id": "INTENT-03",
+    "purpose": "Find permitted sweetener system for target sweetness profile",
+    "entities": [
+      "Sweeteners",
+      "Syrups",
+      "Polyols"
+    ],
+    "constraints": [
+      "Vegan"
+    ],
+    "required_properties": [
+      "sweetness_index",
+      "glycemic_index"
+    ]
+  },
+  {
+    "intent_id": "INTENT-04",
+    "purpose": "Find emulsifier & texturizer agents for rheology",
+    "entities": [
+      "Emulsifiers",
+      "Hydrocolloids",
+      "Gums",
+      "Fibres"
+    ],
+    "constraints": [
+      "Food Additive Compliance"
+    ],
+    "required_properties": [
+      "emulsion_capacity",
+      "viscosity_impact"
+    ]
+  },
+  {
+    "intent_id": "INTENT-05",
+    "purpose": "Find flavor components matching chocolate flavour",
+    "entities": [
+      "chocolate flavour"
+    ],
+    "constraints": [
+      "GRAS Status"
+    ],
+    "required_properties": [
+      "aroma_notes",
+      "flavor_intensity"
+    ]
+  }
+]

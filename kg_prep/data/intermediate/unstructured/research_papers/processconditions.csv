@@ -1,6 +1,9 @@
-ID,Name,Source,source_record_id,source_url
-COND-TECH-01,72°C for 15 seconds,Scientific Literature,arXiv:2607.09529v1,https://arxiv.org/abs/2607.09529
-COND-TECH-02,150 MPa at 25°C,Scientific Literature,arXiv:2607.09529v2,https://arxiv.org/abs/2607.09529
-COND-TECH-03,"Inlet Temp 180°C, Outlet Temp 80°C",Scientific Literature,arXiv:2607.09529v3,https://arxiv.org/abs/2607.09529
-COND-TECH-04,"Moisture 25%, Barrel Temp 140°C, Die Pressure 4 MPa",Scientific Literature,arXiv:2607.09529v4,https://arxiv.org/abs/2607.09529
-COND-TECH-05,121.1°C for 20 minutes (F0=6.0),Scientific Literature,arXiv:2607.09529v5,https://arxiv.org/abs/2607.09529
+ID,Name,parameter_1,value_1,unit_1,parameter_2,value_2,unit_2,applicable_process_id,Source,source_record_id,source_url
+COND:HTST:72C_15S,HTST Pasteurization Condition (72 °C for 15 s),temperature,72.0,°C,time,15.0,s,FOODON:PROC:FOODON_03411041,Peer-Reviewed Food Science Literature & Technical Specifications,COND:HTST:72C_15S,https://doi.org/10.48550/arXiv.2607.09529
+COND:HPH:150MPA_25C,High Pressure Homogenization Condition (150 MPa at 25 °C),pressure,150.0,MPa,temperature,25.0,°C,FOODON:PROC:FOODON_03411440,Peer-Reviewed Food Science Literature & Technical Specifications,COND:HPH:150MPA_25C,https://doi.org/10.48550/arXiv.2607.09529
+COND:SPRAY_DRY:IN180_OUT80,"Spray Drying Thermal Profile (Inlet 180 °C, Outlet 80 °C)",inlet_temperature,180.0,°C,outlet_temperature,80.0,°C,FOODON:PROC:FOODON_03411246,Peer-Reviewed Food Science Literature & Technical Specifications,COND:SPRAY_DRY:IN180_OUT80,https://doi.org/10.1016/j.foodhyd.2021.106890
+COND:RETORT:121.1C_20MIN,"Retort Sterilization Profile (121.1 °C for 20 min, F0=6.0)",temperature,121.1,°C,time,20.0,min,FOODON:PROC:FOODON_03412580,Peer-Reviewed Food Science Literature & Technical Specifications,COND:RETORT:121.1C_20MIN,https://doi.org/10.1016/j.jfoodeng.2020.109982
+COND:EXTRUSION:140C_25MOIST,"Twin Screw Extrusion Profile (140 °C barrel, 25% moisture, 4 MPa)",barrel_temperature,140.0,°C,moisture_content,25.0,%,FOODON:PROC:FOODON_03412150,Peer-Reviewed Food Science Literature & Technical Specifications,COND:EXTRUSION:140C_25MOIST,https://doi.org/10.48550/arXiv.2201.09250
+COND:FERMENTATION:37C_18H,Lactic Fermentation Condition (37 °C for 18 h at pH 4.2),temperature,37.0,°C,time,18.0,h,FOODON:PROC:FOODON_03411300,Peer-Reviewed Food Science Literature & Technical Specifications,COND:FERMENTATION:37C_18H,https://doi.org/10.1016/j.fm.2021.103780
+COND:DRY_MILLING:300RPM,Pin Mill Size Reduction (3000 rpm at 22 °C),rotational_speed,3000.0,rpm,temperature,22.0,°C,FOODON:PROC:FOODON_03411560,Peer-Reviewed Food Science Literature & Technical Specifications,COND:DRY_MILLING:300RPM,https://doi.org/10.1016/j.ifset.2021.102670
+COND:FREEZING:MINUS40C,"Blast Freezing Condition (-40 °C forced air, -18 °C core)",air_temperature,-40.0,°C,target_core_temperature,-18.0,°C,FOODON:PROC:FOODON_03411347,Peer-Reviewed Food Science Literature & Technical Specifications,COND:FREEZING:MINUS40C,https://doi.org/10.1016/j.cryobiology.2020.08.005

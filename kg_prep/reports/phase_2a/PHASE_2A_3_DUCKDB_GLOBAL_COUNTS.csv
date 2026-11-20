@@ -1,0 +1,21 @@
+metric_name,category,count_value,integrity_status,reconciliation_notes
+total_raw_records,Storage,48105,VALID,Total active records staged in DuckDB raw_records table
+unique_raw_record_ids,Storage,48105,VALID,Primary key uniqueness (100% unique; 0 duplicate primary keys)
+unique_native_record_ids,Storage,48105,VALID,Native source ID uniqueness (0 duplicate IDs across entire database)
+src_foodon_records,Source-Wise,39682,VALID,FoodOn OWL classes staged (100% of ontology named classes)
+src_usda_fdc_records,Source-Wise,8111,VALID,USDA FoodData Central items (7793 SR Legacy + 318 Foundation)
+src_codex_gsfa_records,Source-Wise,296,VALID,Codex GSFA Table 3 authentic additive identities
+src_pubchem_records,Source-Wise,16,VALID,PubChem chemical compounds (8 pilot + 8 genuine formulation chemicals)
+dsk_foodon_2024_03,Dataset-Wise,39682,VALID,FoodOn 2024-03 release dataset
+dsk_usda_fdc_sr_legacy,Dataset-Wise,7707,VALID,USDA SR Legacy bulk asset records
+dsk_usda_fdc_foundation,Dataset-Wise,302,VALID,USDA Foundation bulk asset records
+dsk_usda_fdc_2024_04,Dataset-Wise,102,VALID,USDA targeted search sample (2 Foundation + 86 SR Legacy + 14 bulk-overlap)
+dsk_codex_gsfa_2023,Dataset-Wise,296,VALID,Codex GSFA online HTML index
+dsk_pubchem_2026,Dataset-Wise,8,VALID,Phase 2A pilot PubChem REST compounds
+dsk_pubchem_compounds,Dataset-Wise,8,VALID,Phase 2A.3 authentic food formulation chemicals
+duplicate_records,Data Quality,0,VALID,Zero duplicated rows; strictly enforced by primary key index
+missing_source_assets,Referential Integrity,0,VALID,All records join to valid source_assets entries
+missing_dataset_references,Referential Integrity,0,VALID,All records join to valid dataset_registry entries
+invalid_foreign_keys,Referential Integrity,0,VALID,Zero foreign key constraint violations across entire database
+completed_execution_runs,Execution Tracking,3,VALID,RUN-PHASE-2A-ACQUISITION-01; RUN-PHASE-2A-2-INGESTION-01; RUN-PHASE-2A-3-RECONCILIATION-01
+running_or_failed_executions,Execution Tracking,0,VALID,Zero hanging or failed execution runs in execution_runs table

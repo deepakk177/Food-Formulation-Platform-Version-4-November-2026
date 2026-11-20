@@ -11,31 +11,31 @@
     "node_stats": {
         "Ingredients": {
             "status": "OK",
-            "count": 23824
+            "count": 23811
         },
         "Products": {
             "status": "OK",
-            "count": 4
+            "count": 64
         },
         "Nutrients": {
             "status": "OK",
-            "count": 100
+            "count": 163
         },
         "Compounds": {
             "status": "OK",
-            "count": 6
+            "count": 462
         },
         "Flavors": {
             "status": "OK",
-            "count": 5
+            "count": 449
         },
         "FlavorMolecules": {
             "status": "OK",
-            "count": 2
+            "count": 462
         },
         "FunctionalRoles": {
             "status": "OK",
-            "count": 15
+            "count": 27
         },
         "FoodAdditives": {
             "status": "OK",
@@ -47,23 +47,23 @@
         },
         "FoodCategories": {
             "status": "OK",
-            "count": 10
+            "count": 134
         },
         "Regulations": {
             "status": "OK",
-            "count": 1
+            "count": 4
         },
         "Constraints": {
             "status": "OK",
-            "count": 320
+            "count": 210
         },
         "Processes": {
             "status": "OK",
-            "count": 5
+            "count": 50
         },
         "ProcessConditions": {
             "status": "OK",
-            "count": 5
+            "count": 8
         },
         "Allergens": {
             "status": "OK",
@@ -71,19 +71,19 @@
         },
         "Properties": {
             "status": "OK",
-            "count": 5
+            "count": 10
         },
         "Packaging": {
             "status": "OK",
-            "count": 3
+            "count": 12
         },
         "Equipment": {
             "status": "OK",
-            "count": 5
+            "count": 30
         },
         "Evidence": {
             "status": "OK",
-            "count": 202
+            "count": 354
         },
         "Sources": {
             "status": "OK",
@@ -93,23 +93,23 @@
     "relationship_stats": {
         "ingredient_contains_compound": {
             "status": "OK",
-            "count": 1000
+            "count": 47
         },
         "ingredient_has_nutrient": {
             "status": "OK",
-            "count": 1000
+            "count": 9953
         },
         "ingredient_has_flavor": {
             "status": "OK",
-            "count": 501
+            "count": 17016
         },
         "ingredient_performs_role": {
             "status": "OK",
-            "count": 254
+            "count": 344
         },
         "ingredient_has_property": {
             "status": "OK",
-            "count": 50
+            "count": 424
         },
         "ingredient_used_in_product": {
             "status": "OK",
@@ -117,15 +117,15 @@
         },
         "product_in_category": {
             "status": "OK",
-            "count": 4
+            "count": 0
         },
         "ingredient_has_constraint": {
             "status": "OK",
-            "count": 9
+            "count": 8
         },
         "product_has_constraint": {
             "status": "OK",
-            "count": 20
+            "count": 320
         },
         "ingredient_interactions": {
             "status": "OK",
@@ -137,31 +137,31 @@
         },
         "foodadditive_allowed_in_foodcategory": {
             "status": "OK",
-            "count": 308
+            "count": 199
         },
         "regulation_has_constraint": {
             "status": "OK",
-            "count": 308
+            "count": 199
         },
         "constraint_applies_to_category": {
             "status": "OK",
-            "count": 320
+            "count": 199
         },
         "constraint_applies_to_ingredient": {
             "status": "OK",
-            "count": 317
+            "count": 207
         },
         "product_requires_process": {
             "status": "OK",
-            "count": 4
+            "count": 0
         },
         "process_has_condition": {
             "status": "OK",
-            "count": 5
+            "count": 0
         },
         "process_uses_equipment": {
             "status": "OK",
-            "count": 5
+            "count": 50
         },
         "evidence_supports_entity": {
             "status": "OK",
@@ -169,41 +169,41 @@
         },
         "constraint_supported_by_evidence": {
             "status": "OK",
-            "count": 310
+            "count": 201
         },
         "property_supported_by_evidence": {
             "status": "OK",
-            "count": 5
+            "count": 10
         },
         "process_supported_by_evidence": {
             "status": "OK",
-            "count": 5
+            "count": 50
         },
         "source_supports_evidence": {
             "status": "OK",
-            "count": 202
+            "count": 354
         },
         "ingredient_has_allergen": {
             "status": "OK",
-            "count": 533
+            "count": 446
         },
         "product_has_allergen": {
             "status": "OK",
-            "count": 5
+            "count": 2
         },
         "product_requires_packaging": {
             "status": "OK",
-            "count": 4
+            "count": 64
         }
     },
     "graph_stats": {
-        "total_nodes": 24928,
-        "total_relationships": 12582,
-        "connected_nodes": 3174,
-        "orphan_nodes": 21734,
-        "connected_components": 21738,
-        "largest_component_size": 3174,
-        "nodes_reachable_from_product_category": 3174,
-        "percentage_reachable": 12.73
+        "total_nodes": 26668,
+        "total_relationships": 63758,
+        "connected_nodes": 15271,
+        "orphan_nodes": 10624,
+        "connected_components": 11111,
+        "largest_component_size": 15265,
+        "nodes_reachable_from_product_category": 15271,
+        "percentage_reachable": 57.26
     }
 }

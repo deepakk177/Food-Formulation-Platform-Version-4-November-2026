@@ -1,0 +1,327 @@
+{
+  "category": "Confectionery & Chocolate",
+  "product_type": "chocolate_bar",
+  "description": "Vegan White Chocolate: Create a dairy-free white chocolate using cocoa butter and plant-based ingredients. Target >=25% cocoa butter, <=30% sugar and >=5% protein with a smooth, creamy melt. Develop a vanilla-caramel flavor profile and 12-month shelf life.",
+  "texture_requirements": [
+    "Smooth",
+    "Creamy"
+  ],
+  "mouthfeel_requirements": [],
+  "dietary_requirements": [
+    "Vegan",
+    "Dairy-Free"
+  ],
+  "allergen_constraints": [
+    "milk",
+    "whey",
+    "gelatin",
+    "butter",
+    "egg",
+    "dairy"
+  ],
+  "nutrition_targets": {
+    "protein_min": 5.0,
+    "protein_max": null,
+    "fat_min": null,
+    "fat_max": null,
+    "carbohydrate_max": null,
+    "sugar_max": null,
+    "fibre_min": null,
+    "sodium_max": null,
+    "calories_max": null
+  },
+  "functional_goals": [],
+  "flavor_profile": [
+    "cocoa flavour",
+    "chocolate flavour",
+    "vanilla flavour"
+  ],
+  "aroma_profile": [],
+  "processing_constraints": [],
+  "shelf_life_requirements": "12-month",
+  "water_activity_target": null,
+  "pH_target": null,
+  "regulatory_market": [],
+  "cost_target": null,
+  "excluded_ingredients": [
+    "milk",
+    "whey",
+    "gelatin",
+    "butter",
+    "egg",
+    "dairy"
+  ],
+  "preferred_ingredients": [],
+  "required_claims": [],
+  "prohibited_claims": [],
+  "hard_constraints": [
+    "DIETARY_EXCLUSIVE_VEGAN",
+    "DIETARY_EXCLUSIVE_DAIRY_FREE",
+    "EXCLUDED_INGREDIENTS_PROHIBITION"
+  ],
+  "soft_objectives": [
+    "MAXIMIZE_PROTEIN_DENSITY",
+    "OPTIMIZE_TEXTURE_AND_MOUTHFEEL"
+  ],
+  "experiment_strategies": [
+    "nutrition_maximized",
+    "cost_optimized",
+    "balanced",
+    "functionality_texture"
+  ],
+  "constraint_items": [
+    {
+      "constraint_id": "CONST-001",
+      "type": "category",
+      "parameter": "product_category",
+      "operator": "REQUIRED",
+      "target_value": "Confectionery & Chocolate",
+      "unit": null,
+      "importance": "CRITICAL",
+      "source_text": "Vegan White Chocolate: Create a dairy-free white c",
+      "confidence": 0.95,
+      "hard_or_soft": null
+    },
+    {
+      "constraint_id": "CONST-002",
+      "type": "ingredient_restriction",
+      "parameter": "dietary_pattern",
+      "operator": "FORBIDDEN",
+      "target_value": "animal_derived_ingredients",
+      "unit": null,
+      "importance": "CRITICAL",
+      "source_text": "Vegan",
+      "confidence": 1.0,
+      "hard_or_soft": null
+    },
+    {
+      "constraint_id": "CONST-003",
+      "type": "allergen",
+      "parameter": "dairy",
+      "operator": "FORBIDDEN",
+      "target_value": "milk_and_dairy_derivatives",
+      "unit": null,
+      "importance": "CRITICAL",
+      "source_text": "dairy-free",
+      "confidence": 1.0,
+      "hard_or_soft": null
+    },
+    {
+      "constraint_id": "CONST-004",
+      "type": "nutrition",
+      "parameter": "protein_min",
+      "operator": ">=",
+      "target_value": 5.0,
+      "unit": "%",
+      "importance": "CRITICAL",
+      "source_text": "5% protein",
+      "confidence": 0.98,
+      "hard_or_soft": null
+    },
+    {
+      "constraint_id": "CONST-005",
+      "type": "sensory",
+      "parameter": "texture_profile",
+      "operator": "PREFERRED",
+      "target_value": "Smooth",
+      "unit": null,
+      "importance": "MEDIUM",
+      "source_text": "smooth",
+      "confidence": 0.9,
+      "hard_or_soft": null
+    },
+    {
+      "constraint_id": "CONST-006",
+      "type": "sensory",
+      "parameter": "texture_profile",
+      "operator": "PREFERRED",
+      "target_value": "Creamy",
+      "unit": null,
+      "importance": "MEDIUM",
+      "source_text": "creamy",
+      "confidence": 0.9,
+      "hard_or_soft": null
+    },
+    {
+      "constraint_id": "CONST-007",
+      "type": "sensory",
+      "parameter": "flavor_profile",
+      "operator": "PREFERRED",
+      "target_value": "cocoa flavour",
+      "unit": null,
+      "importance": "MEDIUM",
+      "source_text": "cocoa",
+      "confidence": 0.9,
+      "hard_or_soft": null
+    },
+    {
+      "constraint_id": "CONST-008",
+      "type": "sensory",
+      "parameter": "flavor_profile",
+      "operator": "PREFERRED",
+      "target_value": "chocolate flavour",
+      "unit": null,
+      "importance": "MEDIUM",
+      "source_text": "Chocolate",
+      "confidence": 0.9,
+      "hard_or_soft": null
+    },
+    {
+      "constraint_id": "CONST-009",
+      "type": "sensory",
+      "parameter": "flavor_profile",
+      "operator": "PREFERRED",
+      "target_value": "vanilla flavour",
+      "unit": null,
+      "importance": "MEDIUM",
+      "source_text": "vanilla",
+      "confidence": 0.9,
+      "hard_or_soft": null
+    },
+    {
+      "constraint_id": "CONST-010",
+      "type": "shelf_life",
+      "parameter": "shelf_stability",
+      "operator": "REQUIRED",
+      "target_value": "12-month",
+      "unit": null,
+      "importance": "MEDIUM",
+      "source_text": "shelf",
+      "confidence": 0.88,
+      "hard_or_soft": null
+    }
+  ],
+  "constraint_graph": {
+    "nodes": [
+      {
+        "id": "PROD-001",
+        "type": "ProductBrief",
+        "value": "Target Product (Confectionery & Chocolate)",
+        "source": "User Product Brief"
+      },
+      {
+        "id": "CONST-001",
+        "type": "CategoryConstraintNode",
+        "value": "product_category REQUIRED Confectionery & Chocolate",
+        "source": "Vegan White Chocolate: Create a dairy-free white c"
+      },
+      {
+        "id": "CONST-002",
+        "type": "Ingredient_RestrictionConstraintNode",
+        "value": "dietary_pattern FORBIDDEN animal_derived_ingredients",
+        "source": "Vegan"
+      },
+      {
+        "id": "CONST-003",
+        "type": "AllergenConstraintNode",
+        "value": "dairy FORBIDDEN milk_and_dairy_derivatives",
+        "source": "dairy-free"
+      },
+      {
+        "id": "CONST-004",
+        "type": "NutritionConstraintNode",
+        "value": "protein_min >= 5.0 %",
+        "source": "5% protein"
+      },
+      {
+        "id": "CONST-005",
+        "type": "SensoryConstraintNode",
+        "value": "texture_profile PREFERRED Smooth",
+        "source": "smooth"
+      },
+      {
+        "id": "CONST-006",
+        "type": "SensoryConstraintNode",
+        "value": "texture_profile PREFERRED Creamy",
+        "source": "creamy"
+      },
+      {
+        "id": "CONST-007",
+        "type": "SensoryConstraintNode",
+        "value": "flavor_profile PREFERRED cocoa flavour",
+        "source": "cocoa"
+      },
+      {
+        "id": "CONST-008",
+        "type": "SensoryConstraintNode",
+        "value": "flavor_profile PREFERRED chocolate flavour",
+        "source": "Chocolate"
+      },
+      {
+        "id": "CONST-009",
+        "type": "SensoryConstraintNode",
+        "value": "flavor_profile PREFERRED vanilla flavour",
+        "source": "vanilla"
+      },
+      {
+        "id": "CONST-010",
+        "type": "Shelf_LifeConstraintNode",
+        "value": "shelf_stability REQUIRED 12-month",
+        "source": "shelf"
+      }
+    ],
+    "edges": [
+      {
+        "source": "PROD-001",
+        "relationship": "HAS_CONSTRAINT",
+        "target": "CONST-001"
+      },
+      {
+        "source": "PROD-001",
+        "relationship": "HAS_INGREDIENT_RESTRICTION",
+        "target": "CONST-002"
+      },
+      {
+        "source": "PROD-001",
+        "relationship": "HAS_ALLERGEN_CONSTRAINT",
+        "target": "CONST-003"
+      },
+      {
+        "source": "PROD-001",
+        "relationship": "HAS_NUTRITION_CONSTRAINT",
+        "target": "CONST-004"
+      },
+      {
+        "source": "PROD-001",
+        "relationship": "HAS_SENSORY_CONSTRAINT",
+        "target": "CONST-005"
+      },
+      {
+        "source": "PROD-001",
+        "relationship": "HAS_SENSORY_CONSTRAINT",
+        "target": "CONST-006"
+      },
+      {
+        "source": "PROD-001",
+        "relationship": "HAS_SENSORY_CONSTRAINT",
+        "target": "CONST-007"
+      },
+      {
+        "source": "PROD-001",
+        "relationship": "HAS_SENSORY_CONSTRAINT",
+        "target": "CONST-008"
+      },
+      {
+        "source": "PROD-001",
+        "relationship": "HAS_SENSORY_CONSTRAINT",
+        "target": "CONST-009"
+      },
+      {
+        "source": "PROD-001",
+        "relationship": "HAS_PROCESSING_CONSTRAINT",
+        "target": "CONST-010"
+      }
+    ],
+    "summary": {
+      "Nutrition Constraints": 1,
+      "Functional Constraints": 0,
+      "Sensory Constraints": 5,
+      "Regulatory Constraints": 0,
+      "Cost Constraints": 0,
+      "Ingredient Restrictions": 2,
+      "Processing Constraints": 1,
+      "Graph Nodes": 11,
+      "Graph Edges": 10
+    }
+  }
+}

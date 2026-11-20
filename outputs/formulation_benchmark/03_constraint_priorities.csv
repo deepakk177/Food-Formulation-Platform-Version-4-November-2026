@@ -1,0 +1,669 @@
+constraint_id,product_brief_id,name,hard_or_soft,priority_rank,weight,rationale,source
+PB001-PC01,PB001,dietary_pattern FORBIDDEN animal_derived_ingredients,HARD,1,1.0,"Mandatory safety, regulatory or zero-tolerance dietary gate",Dietary Standard Rules
+PB001-PC02,PB001,product_category REQUIRED Protein Bars / Functional Snacks,SOFT,2,0.7,"Continuous quality, cost, or nutritional target",Product Brief Parser
+PB001-PC03,PB001,protein_min >= 20.0,SOFT,3,0.7,"Continuous quality, cost, or nutritional target",Product Brief Parser
+PB001-PC04,PB001,fat_max <= 25.0,SOFT,4,0.7,"Continuous quality, cost, or nutritional target",Product Brief Parser
+PB001-PC05,PB001,max_raw_material_cost <= 10.0,SOFT,5,0.85,"Continuous quality, cost, or nutritional target",Commercial Cost Target
+PB001-PC06,PB001,water_activity <= 0.6,SOFT,6,0.7,"Continuous quality, cost, or nutritional target",Product Brief Parser
+PB001-PC07,PB001,texture_profile PREFERRED Chewy,SOFT,7,0.7,"Continuous quality, cost, or nutritional target",Sensory Panel Targets
+PB001-PC08,PB001,flavor_profile PREFERRED cocoa flavour,SOFT,8,0.7,"Continuous quality, cost, or nutritional target",Sensory Panel Targets
+PB001-PC09,PB001,flavor_profile PREFERRED chocolate flavour,SOFT,9,0.7,"Continuous quality, cost, or nutritional target",Sensory Panel Targets
+PB001-PC10,PB001,shelf_stability REQUIRED 12-month,SOFT,10,0.75,"Continuous quality, cost, or nutritional target",Quality Assurance Standard
+PB002-PC01,PB002,gluten FORBIDDEN gluten_containing_grains,HARD,1,1.0,"Mandatory safety, regulatory or zero-tolerance dietary gate",Allergen Exclusion Rules
+PB002-PC02,PB002,clean_label REQUIRED no_synthetic_additives,HARD,2,1.0,"Mandatory safety, regulatory or zero-tolerance dietary gate",Regulatory Knowledge Base
+PB002-PC03,PB002,product_category REQUIRED Protein Bars / Functional Snacks,SOFT,3,0.7,"Continuous quality, cost, or nutritional target",Product Brief Parser
+PB002-PC04,PB002,protein_min >= 15.0,SOFT,4,0.7,"Continuous quality, cost, or nutritional target",Product Brief Parser
+PB002-PC05,PB002,fibre_min >= 8.0,SOFT,5,0.7,"Continuous quality, cost, or nutritional target",Product Brief Parser
+PB002-PC06,PB002,max_raw_material_cost <= 12.0,SOFT,6,0.85,"Continuous quality, cost, or nutritional target",Commercial Cost Target
+PB002-PC07,PB002,texture_profile PREFERRED Soft,SOFT,7,0.7,"Continuous quality, cost, or nutritional target",Sensory Panel Targets
+PB002-PC08,PB002,texture_profile PREFERRED Chewy,SOFT,8,0.7,"Continuous quality, cost, or nutritional target",Sensory Panel Targets
+PB002-PC09,PB002,flavor_profile PREFERRED berry flavour,SOFT,9,0.7,"Continuous quality, cost, or nutritional target",Sensory Panel Targets
+PB002-PC10,PB002,flavor_profile PREFERRED strawberry flavour,SOFT,10,0.7,"Continuous quality, cost, or nutritional target",Sensory Panel Targets
+PB003-PC01,PB003,product_category REQUIRED Protein Bars / Functional Snacks,SOFT,1,0.7,"Continuous quality, cost, or nutritional target",Product Brief Parser
+PB003-PC02,PB003,protein_min >= 18.0,SOFT,2,0.7,"Continuous quality, cost, or nutritional target",Product Brief Parser
+PB003-PC03,PB003,sugar_max <= 3.0,SOFT,3,0.7,"Continuous quality, cost, or nutritional target",Product Brief Parser
+PB003-PC04,PB003,max_raw_material_cost <= 14.0,SOFT,4,0.85,"Continuous quality, cost, or nutritional target",Commercial Cost Target
+PB003-PC05,PB003,texture_profile PREFERRED Crunchy,SOFT,5,0.7,"Continuous quality, cost, or nutritional target",Sensory Panel Targets
+PB003-PC06,PB003,flavor_profile PREFERRED almond flavour,SOFT,6,0.7,"Continuous quality, cost, or nutritional target",Sensory Panel Targets
+PB003-PC07,PB003,shelf_stability REQUIRED 9-month,SOFT,7,0.75,"Continuous quality, cost, or nutritional target",Quality Assurance Standard
+PB004-PC01,PB004,major_allergens FORBIDDEN top_9_allergens,HARD,1,1.0,"Mandatory safety, regulatory or zero-tolerance dietary gate",Allergen Exclusion Rules
+PB004-PC02,PB004,product_category REQUIRED Protein Bars / Functional Snacks,SOFT,2,0.7,"Continuous quality, cost, or nutritional target",Product Brief Parser
+PB004-PC03,PB004,protein_min >= 16.0,SOFT,3,0.7,"Continuous quality, cost, or nutritional target",Product Brief Parser
+PB004-PC04,PB004,fibre_min >= 6.0,SOFT,4,0.7,"Continuous quality, cost, or nutritional target",Product Brief Parser
+PB004-PC05,PB004,water_activity <= 0.6,SOFT,5,0.7,"Continuous quality, cost, or nutritional target",Product Brief Parser
+PB004-PC06,PB004,flavor_profile PREFERRED vanilla flavour,SOFT,6,0.7,"Continuous quality, cost, or nutritional target",Sensory Panel Targets
+PB004-PC07,PB004,shelf_stability REQUIRED 6-month,SOFT,7,0.75,"Continuous quality, cost, or nutritional target",Quality Assurance Standard
+PB005-PC01,PB005,dietary_pattern FORBIDDEN animal_derived_ingredients,HARD,1,1.0,"Mandatory safety, regulatory or zero-tolerance dietary gate",Dietary Standard Rules
+PB005-PC02,PB005,product_category REQUIRED Protein Bars / Functional Snacks,SOFT,2,0.7,"Continuous quality, cost, or nutritional target",Product Brief Parser
+PB005-PC03,PB005,protein_min >= 22.0,SOFT,3,0.7,"Continuous quality, cost, or nutritional target",Product Brief Parser
+PB005-PC04,PB005,sugar_max <= 2.0,SOFT,4,0.7,"Continuous quality, cost, or nutritional target",Product Brief Parser
+PB005-PC05,PB005,max_raw_material_cost <= 11.5,SOFT,5,0.85,"Continuous quality, cost, or nutritional target",Commercial Cost Target
+PB005-PC06,PB005,texture_profile PREFERRED Firm,SOFT,6,0.7,"Continuous quality, cost, or nutritional target",Sensory Panel Targets
+PB005-PC07,PB005,flavor_profile PREFERRED chocolate flavour,SOFT,7,0.7,"Continuous quality, cost, or nutritional target",Sensory Panel Targets
+PB005-PC08,PB005,flavor_profile PREFERRED coffee flavour,SOFT,8,0.7,"Continuous quality, cost, or nutritional target",Sensory Panel Targets
+PB006-PC01,PB006,clean_label REQUIRED no_synthetic_additives,HARD,1,1.0,"Mandatory safety, regulatory or zero-tolerance dietary gate",Regulatory Knowledge Base
+PB006-PC02,PB006,product_category REQUIRED Protein Bars / Functional Snacks,SOFT,2,0.7,"Continuous quality, cost, or nutritional target",Product Brief Parser
+PB006-PC03,PB006,protein_min >= 20.0,SOFT,3,0.7,"Continuous quality, cost, or nutritional target",Product Brief Parser
+PB006-PC04,PB006,fibre_min >= 7.0,SOFT,4,0.7,"Continuous quality, cost, or nutritional target",Product Brief Parser
+PB006-PC05,PB006,max_raw_material_cost <= 9.0,SOFT,5,0.85,"Continuous quality, cost, or nutritional target",Commercial Cost Target
+PB006-PC06,PB006,texture_profile PREFERRED Chewy,SOFT,6,0.7,"Continuous quality, cost, or nutritional target",Sensory Panel Targets
+PB006-PC07,PB006,bitterness_masking REQUIRED Low Bitterness,SOFT,7,0.7,"Continuous quality, cost, or nutritional target",Sensory Panel Targets
+PB006-PC08,PB006,shelf_stability REQUIRED 12 months,SOFT,8,0.75,"Continuous quality, cost, or nutritional target",Quality Assurance Standard
+PB007-PC01,PB007,product_category REQUIRED Protein Bars / Functional Snacks,SOFT,1,0.7,"Continuous quality, cost, or nutritional target",Product Brief Parser
+PB007-PC02,PB007,protein_min >= 18.0,SOFT,2,0.7,"Continuous quality, cost, or nutritional target",Product Brief Parser
+PB007-PC03,PB007,moisture_retention REQUIRED Water Binding,SOFT,3,0.8,"Continuous quality, cost, or nutritional target",Food Hydrocolloid & Rheology Rules
+PB007-PC04,PB007,texture_profile PREFERRED Soft,SOFT,4,0.7,"Continuous quality, cost, or nutritional target",Sensory Panel Targets
+PB007-PC05,PB007,texture_profile PREFERRED Chewy,SOFT,5,0.7,"Continuous quality, cost, or nutritional target",Sensory Panel Targets
+PB007-PC06,PB007,flavor_profile PREFERRED vanilla flavour,SOFT,6,0.7,"Continuous quality, cost, or nutritional target",Sensory Panel Targets
+PB007-PC07,PB007,shelf_stability REQUIRED 9-month,SOFT,7,0.75,"Continuous quality, cost, or nutritional target",Quality Assurance Standard
+PB008-PC01,PB008,dairy FORBIDDEN milk_and_dairy_derivatives,HARD,1,1.0,"Mandatory safety, regulatory or zero-tolerance dietary gate",Allergen Exclusion Rules
+PB008-PC02,PB008,tree_nuts_and_peanuts FORBIDDEN peanut_and_tree_nut_allergens,HARD,2,1.0,"Mandatory safety, regulatory or zero-tolerance dietary gate",Allergen Exclusion Rules
+PB008-PC03,PB008,product_category REQUIRED Protein Bars / Functional Snacks,SOFT,3,0.7,"Continuous quality, cost, or nutritional target",Product Brief Parser
+PB008-PC04,PB008,protein_min >= 15.0,SOFT,4,0.7,"Continuous quality, cost, or nutritional target",Product Brief Parser
+PB008-PC05,PB008,max_raw_material_cost <= 6.5,SOFT,5,0.85,"Continuous quality, cost, or nutritional target",Commercial Cost Target
+PB008-PC06,PB008,texture_profile PREFERRED Crunchy,SOFT,6,0.7,"Continuous quality, cost, or nutritional target",Sensory Panel Targets
+PB008-PC07,PB008,flavor_profile PREFERRED cocoa flavour,SOFT,7,0.7,"Continuous quality, cost, or nutritional target",Sensory Panel Targets
+PB008-PC08,PB008,shelf_stability REQUIRED 12-month,SOFT,8,0.75,"Continuous quality, cost, or nutritional target",Quality Assurance Standard
+PB009-PC01,PB009,dietary_pattern FORBIDDEN animal_derived_ingredients,HARD,1,1.0,"Mandatory safety, regulatory or zero-tolerance dietary gate",Dietary Standard Rules
+PB009-PC02,PB009,product_category REQUIRED Protein Bars / Functional Snacks,SOFT,2,0.7,"Continuous quality, cost, or nutritional target",Product Brief Parser
+PB009-PC03,PB009,protein_min >= 17.0,SOFT,3,0.7,"Continuous quality, cost, or nutritional target",Product Brief Parser
+PB009-PC04,PB009,fibre_min >= 10.0,SOFT,4,0.7,"Continuous quality, cost, or nutritional target",Product Brief Parser
+PB009-PC05,PB009,water_activity <= 0.6,SOFT,5,0.7,"Continuous quality, cost, or nutritional target",Product Brief Parser
+PB009-PC06,PB009,texture_profile PREFERRED Chewy,SOFT,6,0.7,"Continuous quality, cost, or nutritional target",Sensory Panel Targets
+PB009-PC07,PB009,flavor_profile PREFERRED citrus flavour,SOFT,7,0.7,"Continuous quality, cost, or nutritional target",Sensory Panel Targets
+PB009-PC08,PB009,flavor_profile PREFERRED lemon flavour,SOFT,8,0.7,"Continuous quality, cost, or nutritional target",Sensory Panel Targets
+PB009-PC09,PB009,shelf_stability REQUIRED 9-month,SOFT,9,0.75,"Continuous quality, cost, or nutritional target",Quality Assurance Standard
+PB010-PC01,PB010,product_category REQUIRED Protein Bars / Functional Snacks,SOFT,1,0.7,"Continuous quality, cost, or nutritional target",Product Brief Parser
+PB010-PC02,PB010,protein_min >= 25.0,SOFT,2,0.7,"Continuous quality, cost, or nutritional target",Product Brief Parser
+PB010-PC03,PB010,fat_max <= 18.0,SOFT,3,0.7,"Continuous quality, cost, or nutritional target",Product Brief Parser
+PB010-PC04,PB010,max_raw_material_cost <= 15.0,SOFT,4,0.85,"Continuous quality, cost, or nutritional target",Commercial Cost Target
+PB010-PC05,PB010,flavor_profile PREFERRED cocoa flavour,SOFT,5,0.7,"Continuous quality, cost, or nutritional target",Sensory Panel Targets
+PB010-PC06,PB010,flavor_profile PREFERRED chocolate flavour,SOFT,6,0.7,"Continuous quality, cost, or nutritional target",Sensory Panel Targets
+PB011-PC01,PB011,dietary_pattern FORBIDDEN animal_derived_ingredients,HARD,1,1.0,"Mandatory safety, regulatory or zero-tolerance dietary gate",Dietary Standard Rules
+PB011-PC02,PB011,gluten FORBIDDEN gluten_containing_grains,HARD,2,1.0,"Mandatory safety, regulatory or zero-tolerance dietary gate",Allergen Exclusion Rules
+PB011-PC03,PB011,product_category REQUIRED Protein Bars / Functional Snacks,SOFT,3,0.7,"Continuous quality, cost, or nutritional target",Product Brief Parser
+PB011-PC04,PB011,protein_min >= 16.0,SOFT,4,0.7,"Continuous quality, cost, or nutritional target",Product Brief Parser
+PB011-PC05,PB011,fibre_min >= 8.0,SOFT,5,0.7,"Continuous quality, cost, or nutritional target",Product Brief Parser
+PB011-PC06,PB011,max_raw_material_cost <= 10.5,SOFT,6,0.85,"Continuous quality, cost, or nutritional target",Commercial Cost Target
+PB011-PC07,PB011,texture_profile PREFERRED Soft,SOFT,7,0.7,"Continuous quality, cost, or nutritional target",Sensory Panel Targets
+PB011-PC08,PB011,shelf_stability REQUIRED 6-month,SOFT,8,0.75,"Continuous quality, cost, or nutritional target",Quality Assurance Standard
+PB012-PC01,PB012,product_category REQUIRED Protein Bars / Functional Snacks,SOFT,1,0.7,"Continuous quality, cost, or nutritional target",Product Brief Parser
+PB012-PC02,PB012,protein_min >= 20.0,SOFT,2,0.7,"Continuous quality, cost, or nutritional target",Product Brief Parser
+PB012-PC03,PB012,sugar_max <= 5.0,SOFT,3,0.7,"Continuous quality, cost, or nutritional target",Product Brief Parser
+PB012-PC04,PB012,water_activity <= 0.6,SOFT,4,0.7,"Continuous quality, cost, or nutritional target",Product Brief Parser
+PB012-PC05,PB012,texture_profile PREFERRED Crunchy,SOFT,5,0.7,"Continuous quality, cost, or nutritional target",Sensory Panel Targets
+PB012-PC06,PB012,flavor_profile PREFERRED garlic flavour,SOFT,6,0.7,"Continuous quality, cost, or nutritional target",Sensory Panel Targets
+PB012-PC07,PB012,flavor_profile PREFERRED herb flavour,SOFT,7,0.7,"Continuous quality, cost, or nutritional target",Sensory Panel Targets
+PB012-PC08,PB012,flavor_profile PREFERRED savory flavour,SOFT,8,0.7,"Continuous quality, cost, or nutritional target",Sensory Panel Targets
+PB012-PC09,PB012,shelf_stability REQUIRED 12-month,SOFT,9,0.75,"Continuous quality, cost, or nutritional target",Quality Assurance Standard
+PB013-PC01,PB013,dairy FORBIDDEN milk_and_dairy_derivatives,HARD,1,1.0,"Mandatory safety, regulatory or zero-tolerance dietary gate",Allergen Exclusion Rules
+PB013-PC02,PB013,product_category REQUIRED Protein Bars / Functional Snacks,SOFT,2,0.7,"Continuous quality, cost, or nutritional target",Product Brief Parser
+PB013-PC03,PB013,protein_min >= 18.0,SOFT,3,0.7,"Continuous quality, cost, or nutritional target",Product Brief Parser
+PB013-PC04,PB013,fat_max <= 20.0,SOFT,4,0.7,"Continuous quality, cost, or nutritional target",Product Brief Parser
+PB013-PC05,PB013,max_raw_material_cost <= 11.0,SOFT,5,0.85,"Continuous quality, cost, or nutritional target",Commercial Cost Target
+PB013-PC06,PB013,texture_profile PREFERRED Smooth,SOFT,6,0.7,"Continuous quality, cost, or nutritional target",Sensory Panel Targets
+PB013-PC07,PB013,texture_profile PREFERRED Chewy,SOFT,7,0.7,"Continuous quality, cost, or nutritional target",Sensory Panel Targets
+PB013-PC08,PB013,flavor_profile PREFERRED caramel flavour,SOFT,8,0.7,"Continuous quality, cost, or nutritional target",Sensory Panel Targets
+PB013-PC09,PB013,shelf_stability REQUIRED 12 months,SOFT,9,0.75,"Continuous quality, cost, or nutritional target",Quality Assurance Standard
+PB014-PC01,PB014,clean_label REQUIRED no_synthetic_additives,HARD,1,1.0,"Mandatory safety, regulatory or zero-tolerance dietary gate",Regulatory Knowledge Base
+PB014-PC02,PB014,product_category REQUIRED Protein Bars / Functional Snacks,SOFT,2,0.7,"Continuous quality, cost, or nutritional target",Product Brief Parser
+PB014-PC03,PB014,protein_min >= 15.0,SOFT,3,0.7,"Continuous quality, cost, or nutritional target",Product Brief Parser
+PB014-PC04,PB014,fibre_min >= 10.0,SOFT,4,0.7,"Continuous quality, cost, or nutritional target",Product Brief Parser
+PB014-PC05,PB014,max_raw_material_cost <= 12.5,SOFT,5,0.85,"Continuous quality, cost, or nutritional target",Commercial Cost Target
+PB014-PC06,PB014,texture_profile PREFERRED Soft,SOFT,6,0.7,"Continuous quality, cost, or nutritional target",Sensory Panel Targets
+PB014-PC07,PB014,texture_profile PREFERRED Chewy,SOFT,7,0.7,"Continuous quality, cost, or nutritional target",Sensory Panel Targets
+PB014-PC08,PB014,flavor_profile PREFERRED vanilla flavour,SOFT,8,0.7,"Continuous quality, cost, or nutritional target",Sensory Panel Targets
+PB014-PC09,PB014,flavor_profile PREFERRED berry flavour,SOFT,9,0.7,"Continuous quality, cost, or nutritional target",Sensory Panel Targets
+PB014-PC10,PB014,shelf_stability REQUIRED 12 months,SOFT,10,0.75,"Continuous quality, cost, or nutritional target",Quality Assurance Standard
+PB015-PC01,PB015,product_category REQUIRED Protein Bars / Functional Snacks,SOFT,1,0.7,"Continuous quality, cost, or nutritional target",Product Brief Parser
+PB015-PC02,PB015,protein_min >= 22.0,SOFT,2,0.7,"Continuous quality, cost, or nutritional target",Product Brief Parser
+PB015-PC03,PB015,fat_max <= 12.0,SOFT,3,0.7,"Continuous quality, cost, or nutritional target",Product Brief Parser
+PB015-PC04,PB015,max_raw_material_cost <= 9.5,SOFT,4,0.85,"Continuous quality, cost, or nutritional target",Commercial Cost Target
+PB015-PC05,PB015,foam_and_air_incorporation REQUIRED Aeration,SOFT,5,0.8,"Continuous quality, cost, or nutritional target",Food Hydrocolloid & Rheology Rules
+PB015-PC06,PB015,water_activity <= 0.6,SOFT,6,0.7,"Continuous quality, cost, or nutritional target",Product Brief Parser
+PB015-PC07,PB015,texture_profile PREFERRED Crunchy,SOFT,7,0.7,"Continuous quality, cost, or nutritional target",Sensory Panel Targets
+PB015-PC08,PB015,flavor_profile PREFERRED chocolate flavour,SOFT,8,0.7,"Continuous quality, cost, or nutritional target",Sensory Panel Targets
+PB015-PC09,PB015,shelf_stability REQUIRED 9-month,SOFT,9,0.75,"Continuous quality, cost, or nutritional target",Quality Assurance Standard
+PB016-PC01,PB016,dietary_pattern FORBIDDEN animal_derived_ingredients,HARD,1,1.0,"Mandatory safety, regulatory or zero-tolerance dietary gate",Dietary Standard Rules
+PB016-PC02,PB016,product_category REQUIRED Protein Bars / Functional Snacks,SOFT,2,0.7,"Continuous quality, cost, or nutritional target",Product Brief Parser
+PB016-PC03,PB016,protein_min >= 20.0,SOFT,3,0.7,"Continuous quality, cost, or nutritional target",Product Brief Parser
+PB016-PC04,PB016,sugar_max <= 1.0,SOFT,4,0.7,"Continuous quality, cost, or nutritional target",Product Brief Parser
+PB016-PC05,PB016,max_raw_material_cost <= 13.0,SOFT,5,0.85,"Continuous quality, cost, or nutritional target",Commercial Cost Target
+PB016-PC06,PB016,texture_profile PREFERRED Chewy,SOFT,6,0.7,"Continuous quality, cost, or nutritional target",Sensory Panel Targets
+PB016-PC07,PB016,texture_profile PREFERRED Firm,SOFT,7,0.7,"Continuous quality, cost, or nutritional target",Sensory Panel Targets
+PB016-PC08,PB016,flavor_profile PREFERRED vanilla flavour,SOFT,8,0.7,"Continuous quality, cost, or nutritional target",Sensory Panel Targets
+PB016-PC09,PB016,flavor_profile PREFERRED almond flavour,SOFT,9,0.7,"Continuous quality, cost, or nutritional target",Sensory Panel Targets
+PB016-PC10,PB016,shelf_stability REQUIRED 12 months,SOFT,10,0.75,"Continuous quality, cost, or nutritional target",Quality Assurance Standard
+PB017-PC01,PB017,product_category REQUIRED Protein Bars / Functional Snacks,SOFT,1,0.7,"Continuous quality, cost, or nutritional target",Product Brief Parser
+PB017-PC02,PB017,protein_min >= 14.0,SOFT,2,0.7,"Continuous quality, cost, or nutritional target",Product Brief Parser
+PB017-PC03,PB017,fibre_min >= 5.0,SOFT,3,0.7,"Continuous quality, cost, or nutritional target",Product Brief Parser
+PB017-PC04,PB017,texture_profile PREFERRED Soft,SOFT,4,0.7,"Continuous quality, cost, or nutritional target",Sensory Panel Targets
+PB017-PC05,PB017,flavor_profile PREFERRED cocoa flavour,SOFT,5,0.7,"Continuous quality, cost, or nutritional target",Sensory Panel Targets
+PB017-PC06,PB017,shelf_stability REQUIRED 6-month,SOFT,6,0.75,"Continuous quality, cost, or nutritional target",Quality Assurance Standard
+PB018-PC01,PB018,clean_label REQUIRED no_synthetic_additives,HARD,1,1.0,"Mandatory safety, regulatory or zero-tolerance dietary gate",Regulatory Knowledge Base
+PB018-PC02,PB018,product_category REQUIRED Protein Bars / Functional Snacks,SOFT,2,0.7,"Continuous quality, cost, or nutritional target",Product Brief Parser
+PB018-PC03,PB018,protein_min >= 18.0,SOFT,3,0.7,"Continuous quality, cost, or nutritional target",Product Brief Parser
+PB018-PC04,PB018,texture_profile PREFERRED Smooth,SOFT,4,0.7,"Continuous quality, cost, or nutritional target",Sensory Panel Targets
+PB018-PC05,PB018,bitterness_masking REQUIRED Low Bitterness,SOFT,5,0.7,"Continuous quality, cost, or nutritional target",Sensory Panel Targets
+PB018-PC06,PB018,shelf_stability REQUIRED 12 months,SOFT,6,0.75,"Continuous quality, cost, or nutritional target",Quality Assurance Standard
+PB019-PC01,PB019,product_category REQUIRED Protein Bars / Functional Snacks,SOFT,1,0.7,"Continuous quality, cost, or nutritional target",Product Brief Parser
+PB019-PC02,PB019,protein_min >= 16.0,SOFT,2,0.7,"Continuous quality, cost, or nutritional target",Product Brief Parser
+PB019-PC03,PB019,fibre_min >= 9.0,SOFT,3,0.7,"Continuous quality, cost, or nutritional target",Product Brief Parser
+PB019-PC04,PB019,max_raw_material_cost <= 8.5,SOFT,4,0.85,"Continuous quality, cost, or nutritional target",Commercial Cost Target
+PB019-PC05,PB019,texture_profile PREFERRED Chewy,SOFT,5,0.7,"Continuous quality, cost, or nutritional target",Sensory Panel Targets
+PB019-PC06,PB019,flavor_profile PREFERRED vanilla flavour,SOFT,6,0.7,"Continuous quality, cost, or nutritional target",Sensory Panel Targets
+PB019-PC07,PB019,shelf_stability REQUIRED 9-month,SOFT,7,0.75,"Continuous quality, cost, or nutritional target",Quality Assurance Standard
+PB020-PC01,PB020,product_category REQUIRED Protein Bars / Functional Snacks,SOFT,1,0.7,"Continuous quality, cost, or nutritional target",Product Brief Parser
+PB020-PC02,PB020,protein_min >= 30.0,SOFT,2,0.7,"Continuous quality, cost, or nutritional target",Product Brief Parser
+PB020-PC03,PB020,fat_max <= 14.0,SOFT,3,0.7,"Continuous quality, cost, or nutritional target",Product Brief Parser
+PB020-PC04,PB020,max_raw_material_cost <= 14.5,SOFT,4,0.85,"Continuous quality, cost, or nutritional target",Commercial Cost Target
+PB020-PC05,PB020,flavor_profile PREFERRED chocolate flavour,SOFT,5,0.7,"Continuous quality, cost, or nutritional target",Sensory Panel Targets
+PB020-PC06,PB020,shelf_stability REQUIRED 9 month,SOFT,6,0.75,"Continuous quality, cost, or nutritional target",Quality Assurance Standard
+PB021-PC01,PB021,dietary_pattern FORBIDDEN animal_derived_ingredients,HARD,1,1.0,"Mandatory safety, regulatory or zero-tolerance dietary gate",Dietary Standard Rules
+PB021-PC02,PB021,product_category REQUIRED Plant-Based Beverages,SOFT,2,0.7,"Continuous quality, cost, or nutritional target",Product Brief Parser
+PB021-PC03,PB021,protein_min >= 6.0,SOFT,3,0.7,"Continuous quality, cost, or nutritional target",Product Brief Parser
+PB021-PC04,PB021,fat_max <= 2.0,SOFT,4,0.7,"Continuous quality, cost, or nutritional target",Product Brief Parser
+PB021-PC05,PB021,emulsification_stability REQUIRED Emulsification,SOFT,5,0.8,"Continuous quality, cost, or nutritional target",Food Hydrocolloid & Rheology Rules
+PB021-PC06,PB021,texture_profile PREFERRED Smooth,SOFT,6,0.7,"Continuous quality, cost, or nutritional target",Sensory Panel Targets
+PB021-PC07,PB021,texture_profile PREFERRED Creamy,SOFT,7,0.7,"Continuous quality, cost, or nutritional target",Sensory Panel Targets
+PB021-PC08,PB021,flavor_profile PREFERRED cocoa flavour,SOFT,8,0.7,"Continuous quality, cost, or nutritional target",Sensory Panel Targets
+PB021-PC09,PB021,flavor_profile PREFERRED chocolate flavour,SOFT,9,0.7,"Continuous quality, cost, or nutritional target",Sensory Panel Targets
+PB021-PC10,PB021,shelf_stability REQUIRED 9-month,SOFT,10,0.75,"Continuous quality, cost, or nutritional target",Quality Assurance Standard
+PB022-PC01,PB022,product_category REQUIRED Sauces / Spreads / Emulsified Products,SOFT,1,0.7,"Continuous quality, cost, or nutritional target",Product Brief Parser
+PB022-PC02,PB022,protein_min >= 3.0,SOFT,2,0.7,"Continuous quality, cost, or nutritional target",Product Brief Parser
+PB022-PC03,PB022,sugar_max <= 0.5,SOFT,3,0.7,"Continuous quality, cost, or nutritional target",Product Brief Parser
+PB022-PC04,PB022,texture_profile PREFERRED Creamy,SOFT,4,0.7,"Continuous quality, cost, or nutritional target",Sensory Panel Targets
+PB022-PC05,PB022,flavor_profile PREFERRED vanilla flavour,SOFT,5,0.7,"Continuous quality, cost, or nutritional target",Sensory Panel Targets
+PB022-PC06,PB022,flavor_profile PREFERRED coffee flavour,SOFT,6,0.7,"Continuous quality, cost, or nutritional target",Sensory Panel Targets
+PB022-PC07,PB022,shelf_stability REQUIRED 12-month,SOFT,7,0.75,"Continuous quality, cost, or nutritional target",Quality Assurance Standard
+PB023-PC01,PB023,clean_label REQUIRED no_synthetic_additives,HARD,1,1.0,"Mandatory safety, regulatory or zero-tolerance dietary gate",Regulatory Knowledge Base
+PB023-PC02,PB023,product_category REQUIRED Plant-Based Beverages,SOFT,2,0.7,"Continuous quality, cost, or nutritional target",Product Brief Parser
+PB023-PC03,PB023,protein_min >= 5.0,SOFT,3,0.7,"Continuous quality, cost, or nutritional target",Product Brief Parser
+PB023-PC04,PB023,fibre_min >= 3.0,SOFT,4,0.7,"Continuous quality, cost, or nutritional target",Product Brief Parser
+PB023-PC05,PB023,max_raw_material_cost <= 7.5,SOFT,5,0.85,"Continuous quality, cost, or nutritional target",Commercial Cost Target
+PB023-PC06,PB023,texture_profile PREFERRED Smooth,SOFT,6,0.7,"Continuous quality, cost, or nutritional target",Sensory Panel Targets
+PB023-PC07,PB023,flavor_profile PREFERRED almond flavour,SOFT,7,0.7,"Continuous quality, cost, or nutritional target",Sensory Panel Targets
+PB024-PC01,PB024,tree_nuts_and_peanuts FORBIDDEN peanut_and_tree_nut_allergens,HARD,1,1.0,"Mandatory safety, regulatory or zero-tolerance dietary gate",Allergen Exclusion Rules
+PB024-PC02,PB024,product_category REQUIRED Plant-Based Beverages,SOFT,2,0.7,"Continuous quality, cost, or nutritional target",Product Brief Parser
+PB024-PC03,PB024,protein_min >= 4.0,SOFT,3,0.7,"Continuous quality, cost, or nutritional target",Product Brief Parser
+PB024-PC04,PB024,sugar_max <= 4.0,SOFT,4,0.7,"Continuous quality, cost, or nutritional target",Product Brief Parser
+PB024-PC05,PB024,max_raw_material_cost <= 5.0,SOFT,5,0.85,"Continuous quality, cost, or nutritional target",Commercial Cost Target
+PB024-PC06,PB024,texture_profile PREFERRED Smooth,SOFT,6,0.7,"Continuous quality, cost, or nutritional target",Sensory Panel Targets
+PB024-PC07,PB024,texture_profile PREFERRED Creamy,SOFT,7,0.7,"Continuous quality, cost, or nutritional target",Sensory Panel Targets
+PB024-PC08,PB024,flavor_profile PREFERRED vanilla flavour,SOFT,8,0.7,"Continuous quality, cost, or nutritional target",Sensory Panel Targets
+PB024-PC09,PB024,shelf_stability REQUIRED 6-month,SOFT,9,0.75,"Continuous quality, cost, or nutritional target",Quality Assurance Standard
+PB025-PC01,PB025,product_category REQUIRED Plant-Based Beverages,SOFT,1,0.7,"Continuous quality, cost, or nutritional target",Product Brief Parser
+PB025-PC02,PB025,protein_min >= 7.0,SOFT,2,0.7,"Continuous quality, cost, or nutritional target",Product Brief Parser
+PB025-PC03,PB025,emulsification_stability REQUIRED Emulsification,SOFT,3,0.8,"Continuous quality, cost, or nutritional target",Food Hydrocolloid & Rheology Rules
+PB025-PC04,PB025,flavor_profile PREFERRED vanilla flavour,SOFT,4,0.7,"Continuous quality, cost, or nutritional target",Sensory Panel Targets
+PB025-PC05,PB025,shelf_stability REQUIRED 9-month,SOFT,5,0.75,"Continuous quality, cost, or nutritional target",Quality Assurance Standard
+PB026-PC01,PB026,product_category REQUIRED Sauces / Spreads / Emulsified Products,SOFT,1,0.7,"Continuous quality, cost, or nutritional target",Product Brief Parser
+PB026-PC02,PB026,protein_min >= 4.0,SOFT,2,0.7,"Continuous quality, cost, or nutritional target",Product Brief Parser
+PB026-PC03,PB026,fat_max <= 8.0,SOFT,3,0.7,"Continuous quality, cost, or nutritional target",Product Brief Parser
+PB026-PC04,PB026,texture_profile PREFERRED Creamy,SOFT,4,0.7,"Continuous quality, cost, or nutritional target",Sensory Panel Targets
+PB026-PC05,PB026,shelf_stability REQUIRED 12 months,SOFT,5,0.75,"Continuous quality, cost, or nutritional target",Quality Assurance Standard
+PB027-PC01,PB027,product_category REQUIRED Plant-Based Beverages,SOFT,1,0.7,"Continuous quality, cost, or nutritional target",Product Brief Parser
+PB027-PC02,PB027,protein_min >= 3.0,SOFT,2,0.7,"Continuous quality, cost, or nutritional target",Product Brief Parser
+PB027-PC03,PB027,sugar_max <= 5.0,SOFT,3,0.7,"Continuous quality, cost, or nutritional target",Product Brief Parser
+PB027-PC04,PB027,flavor_profile PREFERRED citrus flavour,SOFT,4,0.7,"Continuous quality, cost, or nutritional target",Sensory Panel Targets
+PB027-PC05,PB027,flavor_profile PREFERRED lemon flavour,SOFT,5,0.7,"Continuous quality, cost, or nutritional target",Sensory Panel Targets
+PB027-PC06,PB027,shelf_stability REQUIRED 6-month,SOFT,6,0.75,"Continuous quality, cost, or nutritional target",Quality Assurance Standard
+PB028-PC01,PB028,dairy FORBIDDEN milk_and_dairy_derivatives,HARD,1,1.0,"Mandatory safety, regulatory or zero-tolerance dietary gate",Allergen Exclusion Rules
+PB028-PC02,PB028,product_category REQUIRED Plant-Based Beverages,SOFT,2,0.7,"Continuous quality, cost, or nutritional target",Product Brief Parser
+PB028-PC03,PB028,protein_min >= 2.5,SOFT,3,0.7,"Continuous quality, cost, or nutritional target",Product Brief Parser
+PB028-PC04,PB028,max_raw_material_cost <= 4.0,SOFT,4,0.85,"Continuous quality, cost, or nutritional target",Commercial Cost Target
+PB028-PC05,PB028,texture_profile PREFERRED Smooth,SOFT,5,0.7,"Continuous quality, cost, or nutritional target",Sensory Panel Targets
+PB028-PC06,PB028,texture_profile PREFERRED Creamy,SOFT,6,0.7,"Continuous quality, cost, or nutritional target",Sensory Panel Targets
+PB028-PC07,PB028,shelf_stability REQUIRED 12-month,SOFT,7,0.75,"Continuous quality, cost, or nutritional target",Quality Assurance Standard
+PB029-PC01,PB029,product_category REQUIRED Plant-Based Beverages,SOFT,1,0.7,"Continuous quality, cost, or nutritional target",Product Brief Parser
+PB029-PC02,PB029,protein_min >= 3.0,SOFT,2,0.7,"Continuous quality, cost, or nutritional target",Product Brief Parser
+PB029-PC03,PB029,bitterness_masking REQUIRED Low Bitterness,SOFT,3,0.7,"Continuous quality, cost, or nutritional target",Sensory Panel Targets
+PB029-PC04,PB029,shelf_stability REQUIRED 6-month,SOFT,4,0.75,"Continuous quality, cost, or nutritional target",Quality Assurance Standard
+PB030-PC01,PB030,product_category REQUIRED Plant-Based Beverages,SOFT,1,0.7,"Continuous quality, cost, or nutritional target",Product Brief Parser
+PB030-PC02,PB030,protein_min >= 8.0,SOFT,2,0.7,"Continuous quality, cost, or nutritional target",Product Brief Parser
+PB030-PC03,PB030,fibre_min >= 5.0,SOFT,3,0.7,"Continuous quality, cost, or nutritional target",Product Brief Parser
+PB030-PC04,PB030,texture_profile PREFERRED Smooth,SOFT,4,0.7,"Continuous quality, cost, or nutritional target",Sensory Panel Targets
+PB030-PC05,PB030,texture_profile PREFERRED Viscous,SOFT,5,0.7,"Continuous quality, cost, or nutritional target",Sensory Panel Targets
+PB030-PC06,PB030,flavor_profile PREFERRED berry flavour,SOFT,6,0.7,"Continuous quality, cost, or nutritional target",Sensory Panel Targets
+PB030-PC07,PB030,flavor_profile PREFERRED strawberry flavour,SOFT,7,0.7,"Continuous quality, cost, or nutritional target",Sensory Panel Targets
+PB030-PC08,PB030,flavor_profile PREFERRED blueberry flavour,SOFT,8,0.7,"Continuous quality, cost, or nutritional target",Sensory Panel Targets
+PB030-PC09,PB030,shelf_stability REQUIRED 45-day,SOFT,9,0.75,"Continuous quality, cost, or nutritional target",Quality Assurance Standard
+PB031-PC01,PB031,gluten FORBIDDEN gluten_containing_grains,HARD,1,1.0,"Mandatory safety, regulatory or zero-tolerance dietary gate",Allergen Exclusion Rules
+PB031-PC02,PB031,product_category REQUIRED Sauces / Spreads / Emulsified Products,SOFT,2,0.7,"Continuous quality, cost, or nutritional target",Product Brief Parser
+PB031-PC03,PB031,protein_min >= 6.0,SOFT,3,0.7,"Continuous quality, cost, or nutritional target",Product Brief Parser
+PB031-PC04,PB031,sugar_max <= 3.0,SOFT,4,0.7,"Continuous quality, cost, or nutritional target",Product Brief Parser
+PB031-PC05,PB031,flavor_profile PREFERRED coffee flavour,SOFT,5,0.7,"Continuous quality, cost, or nutritional target",Sensory Panel Targets
+PB031-PC06,PB031,shelf_stability REQUIRED 9-month,SOFT,6,0.75,"Continuous quality, cost, or nutritional target",Quality Assurance Standard
+PB032-PC01,PB032,dietary_pattern FORBIDDEN animal_derived_ingredients,HARD,1,1.0,"Mandatory safety, regulatory or zero-tolerance dietary gate",Dietary Standard Rules
+PB032-PC02,PB032,product_category REQUIRED Plant-Based Beverages,SOFT,2,0.7,"Continuous quality, cost, or nutritional target",Product Brief Parser
+PB032-PC03,PB032,protein_min >= 5.0,SOFT,3,0.7,"Continuous quality, cost, or nutritional target",Product Brief Parser
+PB032-PC04,PB032,max_raw_material_cost <= 8.0,SOFT,4,0.85,"Continuous quality, cost, or nutritional target",Commercial Cost Target
+PB032-PC05,PB032,flavor_profile PREFERRED cocoa flavour,SOFT,5,0.7,"Continuous quality, cost, or nutritional target",Sensory Panel Targets
+PB032-PC06,PB032,flavor_profile PREFERRED chocolate flavour,SOFT,6,0.7,"Continuous quality, cost, or nutritional target",Sensory Panel Targets
+PB033-PC01,PB033,major_allergens FORBIDDEN top_9_allergens,HARD,1,1.0,"Mandatory safety, regulatory or zero-tolerance dietary gate",Allergen Exclusion Rules
+PB033-PC02,PB033,product_category REQUIRED Plant-Based Beverages,SOFT,2,0.7,"Continuous quality, cost, or nutritional target",Product Brief Parser
+PB033-PC03,PB033,protein_min >= 7.0,SOFT,3,0.7,"Continuous quality, cost, or nutritional target",Product Brief Parser
+PB033-PC04,PB033,texture_profile PREFERRED Smooth,SOFT,4,0.7,"Continuous quality, cost, or nutritional target",Sensory Panel Targets
+PB033-PC05,PB033,flavor_profile PREFERRED vanilla flavour,SOFT,5,0.7,"Continuous quality, cost, or nutritional target",Sensory Panel Targets
+PB033-PC06,PB033,bitterness_masking REQUIRED Low Bitterness,SOFT,6,0.7,"Continuous quality, cost, or nutritional target",Sensory Panel Targets
+PB033-PC07,PB033,shelf_stability REQUIRED 12-month,SOFT,7,0.75,"Continuous quality, cost, or nutritional target",Quality Assurance Standard
+PB034-PC01,PB034,dairy FORBIDDEN milk_and_dairy_derivatives,HARD,1,1.0,"Mandatory safety, regulatory or zero-tolerance dietary gate",Allergen Exclusion Rules
+PB034-PC02,PB034,clean_label REQUIRED no_synthetic_additives,HARD,2,1.0,"Mandatory safety, regulatory or zero-tolerance dietary gate",Regulatory Knowledge Base
+PB034-PC03,PB034,product_category REQUIRED Plant-Based Beverages,SOFT,3,0.7,"Continuous quality, cost, or nutritional target",Product Brief Parser
+PB034-PC04,PB034,protein_min >= 3.5,SOFT,4,0.7,"Continuous quality, cost, or nutritional target",Product Brief Parser
+PB034-PC05,PB034,sugar_max <= 4.0,SOFT,5,0.7,"Continuous quality, cost, or nutritional target",Product Brief Parser
+PB034-PC06,PB034,texture_profile PREFERRED Creamy,SOFT,6,0.7,"Continuous quality, cost, or nutritional target",Sensory Panel Targets
+PB034-PC07,PB034,shelf_stability REQUIRED 6-month,SOFT,7,0.75,"Continuous quality, cost, or nutritional target",Quality Assurance Standard
+PB035-PC01,PB035,product_category REQUIRED Plant-Based Beverages,SOFT,1,0.7,"Continuous quality, cost, or nutritional target",Product Brief Parser
+PB035-PC02,PB035,protein_min >= 2.0,SOFT,2,0.7,"Continuous quality, cost, or nutritional target",Product Brief Parser
+PB035-PC03,PB035,flavor_profile PREFERRED berry flavour,SOFT,3,0.7,"Continuous quality, cost, or nutritional target",Sensory Panel Targets
+PB035-PC04,PB035,shelf_stability REQUIRED 9-month,SOFT,4,0.75,"Continuous quality, cost, or nutritional target",Quality Assurance Standard
+PB036-PC01,PB036,product_category REQUIRED Plant-Based Beverages,SOFT,1,0.7,"Continuous quality, cost, or nutritional target",Product Brief Parser
+PB036-PC02,PB036,protein_min >= 3.0,SOFT,2,0.7,"Continuous quality, cost, or nutritional target",Product Brief Parser
+PB036-PC03,PB036,fat_max <= 5.0,SOFT,3,0.7,"Continuous quality, cost, or nutritional target",Product Brief Parser
+PB036-PC04,PB036,texture_profile PREFERRED Smooth,SOFT,4,0.7,"Continuous quality, cost, or nutritional target",Sensory Panel Targets
+PB036-PC05,PB036,flavor_profile PREFERRED vanilla flavour,SOFT,5,0.7,"Continuous quality, cost, or nutritional target",Sensory Panel Targets
+PB036-PC06,PB036,flavor_profile PREFERRED herb flavour,SOFT,6,0.7,"Continuous quality, cost, or nutritional target",Sensory Panel Targets
+PB036-PC07,PB036,shelf_stability REQUIRED 12-month,SOFT,7,0.75,"Continuous quality, cost, or nutritional target",Quality Assurance Standard
+PB037-PC01,PB037,product_category REQUIRED General,SOFT,1,0.7,"Continuous quality, cost, or nutritional target",Product Brief Parser
+PB037-PC02,PB037,protein_min >= 4.0,SOFT,2,0.7,"Continuous quality, cost, or nutritional target",Product Brief Parser
+PB037-PC03,PB037,sugar_max <= 0.2,SOFT,3,0.7,"Continuous quality, cost, or nutritional target",Product Brief Parser
+PB037-PC04,PB037,max_raw_material_cost <= 5.5,SOFT,4,0.85,"Continuous quality, cost, or nutritional target",Commercial Cost Target
+PB037-PC05,PB037,texture_profile PREFERRED Creamy,SOFT,5,0.7,"Continuous quality, cost, or nutritional target",Sensory Panel Targets
+PB037-PC06,PB037,shelf_stability REQUIRED 9-month,SOFT,6,0.75,"Continuous quality, cost, or nutritional target",Quality Assurance Standard
+PB038-PC01,PB038,product_category REQUIRED Plant-Based Beverages,SOFT,1,0.7,"Continuous quality, cost, or nutritional target",Product Brief Parser
+PB038-PC02,PB038,protein_min >= 5.0,SOFT,2,0.7,"Continuous quality, cost, or nutritional target",Product Brief Parser
+PB038-PC03,PB038,fibre_min >= 4.0,SOFT,3,0.7,"Continuous quality, cost, or nutritional target",Product Brief Parser
+PB038-PC04,PB038,max_raw_material_cost <= 6.8,SOFT,4,0.85,"Continuous quality, cost, or nutritional target",Commercial Cost Target
+PB038-PC05,PB038,flavor_profile PREFERRED vanilla flavour,SOFT,5,0.7,"Continuous quality, cost, or nutritional target",Sensory Panel Targets
+PB038-PC06,PB038,shelf_stability REQUIRED 6-month,SOFT,6,0.75,"Continuous quality, cost, or nutritional target",Quality Assurance Standard
+PB039-PC01,PB039,product_category REQUIRED Plant-Based Beverages,SOFT,1,0.7,"Continuous quality, cost, or nutritional target",Product Brief Parser
+PB039-PC02,PB039,protein_min >= 8.0,SOFT,2,0.7,"Continuous quality, cost, or nutritional target",Product Brief Parser
+PB039-PC03,PB039,fat_max <= 3.0,SOFT,3,0.7,"Continuous quality, cost, or nutritional target",Product Brief Parser
+PB039-PC04,PB039,shelf_stability REQUIRED 9-month,SOFT,4,0.75,"Continuous quality, cost, or nutritional target",Quality Assurance Standard
+PB040-PC01,PB040,clean_label REQUIRED no_synthetic_additives,HARD,1,1.0,"Mandatory safety, regulatory or zero-tolerance dietary gate",Regulatory Knowledge Base
+PB040-PC02,PB040,product_category REQUIRED Plant-Based Beverages,SOFT,2,0.7,"Continuous quality, cost, or nutritional target",Product Brief Parser
+PB040-PC03,PB040,protein_min >= 6.0,SOFT,3,0.7,"Continuous quality, cost, or nutritional target",Product Brief Parser
+PB040-PC04,PB040,fibre_min >= 3.0,SOFT,4,0.7,"Continuous quality, cost, or nutritional target",Product Brief Parser
+PB040-PC05,PB040,max_raw_material_cost <= 9.0,SOFT,5,0.85,"Continuous quality, cost, or nutritional target",Commercial Cost Target
+PB040-PC06,PB040,flavor_profile PREFERRED cocoa flavour,SOFT,6,0.7,"Continuous quality, cost, or nutritional target",Sensory Panel Targets
+PB040-PC07,PB040,shelf_stability REQUIRED 12-month,SOFT,7,0.75,"Continuous quality, cost, or nutritional target",Quality Assurance Standard
+PB041-PC01,PB041,dietary_pattern FORBIDDEN animal_derived_ingredients,HARD,1,1.0,"Mandatory safety, regulatory or zero-tolerance dietary gate",Dietary Standard Rules
+PB041-PC02,PB041,product_category REQUIRED Plant-Based Yogurt / Dairy Alternatives,SOFT,2,0.7,"Continuous quality, cost, or nutritional target",Product Brief Parser
+PB041-PC03,PB041,protein_min >= 8.0,SOFT,3,0.7,"Continuous quality, cost, or nutritional target",Product Brief Parser
+PB041-PC04,PB041,fat_max <= 4.0,SOFT,4,0.7,"Continuous quality, cost, or nutritional target",Product Brief Parser
+PB041-PC05,PB041,texture_profile PREFERRED Smooth,SOFT,5,0.7,"Continuous quality, cost, or nutritional target",Sensory Panel Targets
+PB041-PC06,PB041,shelf_stability REQUIRED 45-day,SOFT,6,0.75,"Continuous quality, cost, or nutritional target",Quality Assurance Standard
+PB042-PC01,PB042,clean_label REQUIRED no_synthetic_additives,HARD,1,1.0,"Mandatory safety, regulatory or zero-tolerance dietary gate",Regulatory Knowledge Base
+PB042-PC02,PB042,product_category REQUIRED Plant-Based Yogurt / Dairy Alternatives,SOFT,2,0.7,"Continuous quality, cost, or nutritional target",Product Brief Parser
+PB042-PC03,PB042,protein_min >= 3.0,SOFT,3,0.7,"Continuous quality, cost, or nutritional target",Product Brief Parser
+PB042-PC04,PB042,sugar_max <= 5.0,SOFT,4,0.7,"Continuous quality, cost, or nutritional target",Product Brief Parser
+PB042-PC05,PB042,texture_profile PREFERRED Creamy,SOFT,5,0.7,"Continuous quality, cost, or nutritional target",Sensory Panel Targets
+PB042-PC06,PB042,texture_profile PREFERRED Firm,SOFT,6,0.7,"Continuous quality, cost, or nutritional target",Sensory Panel Targets
+PB042-PC07,PB042,flavor_profile PREFERRED vanilla flavour,SOFT,7,0.7,"Continuous quality, cost, or nutritional target",Sensory Panel Targets
+PB042-PC08,PB042,shelf_stability REQUIRED 60-day,SOFT,8,0.75,"Continuous quality, cost, or nutritional target",Quality Assurance Standard
+PB043-PC01,PB043,product_category REQUIRED Plant-Based Yogurt / Dairy Alternatives,SOFT,1,0.7,"Continuous quality, cost, or nutritional target",Product Brief Parser
+PB043-PC02,PB043,protein_min >= 4.0,SOFT,2,0.7,"Continuous quality, cost, or nutritional target",Product Brief Parser
+PB043-PC03,PB043,sugar_max <= 0.5,SOFT,3,0.7,"Continuous quality, cost, or nutritional target",Product Brief Parser
+PB043-PC04,PB043,max_raw_material_cost <= 6.5,SOFT,4,0.85,"Continuous quality, cost, or nutritional target",Commercial Cost Target
+PB043-PC05,PB043,texture_profile PREFERRED Smooth,SOFT,5,0.7,"Continuous quality, cost, or nutritional target",Sensory Panel Targets
+PB043-PC06,PB043,texture_profile PREFERRED Creamy,SOFT,6,0.7,"Continuous quality, cost, or nutritional target",Sensory Panel Targets
+PB044-PC01,PB044,major_allergens FORBIDDEN top_9_allergens,HARD,1,1.0,"Mandatory safety, regulatory or zero-tolerance dietary gate",Allergen Exclusion Rules
+PB044-PC02,PB044,product_category REQUIRED Plant-Based Yogurt / Dairy Alternatives,SOFT,2,0.7,"Continuous quality, cost, or nutritional target",Product Brief Parser
+PB044-PC03,PB044,protein_min >= 3.5,SOFT,3,0.7,"Continuous quality, cost, or nutritional target",Product Brief Parser
+PB044-PC04,PB044,fibre_min >= 3.0,SOFT,4,0.7,"Continuous quality, cost, or nutritional target",Product Brief Parser
+PB044-PC05,PB044,texture_profile PREFERRED Smooth,SOFT,5,0.7,"Continuous quality, cost, or nutritional target",Sensory Panel Targets
+PB044-PC06,PB044,flavor_profile PREFERRED berry flavour,SOFT,6,0.7,"Continuous quality, cost, or nutritional target",Sensory Panel Targets
+PB044-PC07,PB044,flavor_profile PREFERRED strawberry flavour,SOFT,7,0.7,"Continuous quality, cost, or nutritional target",Sensory Panel Targets
+PB044-PC08,PB044,shelf_stability REQUIRED 45-day,SOFT,8,0.75,"Continuous quality, cost, or nutritional target",Quality Assurance Standard
+PB045-PC01,PB045,product_category REQUIRED Plant-Based Yogurt / Dairy Alternatives,SOFT,1,0.7,"Continuous quality, cost, or nutritional target",Product Brief Parser
+PB045-PC02,PB045,protein_min >= 6.0,SOFT,2,0.7,"Continuous quality, cost, or nutritional target",Product Brief Parser
+PB045-PC03,PB045,texture_profile PREFERRED Smooth,SOFT,3,0.7,"Continuous quality, cost, or nutritional target",Sensory Panel Targets
+PB045-PC04,PB045,texture_profile PREFERRED Creamy,SOFT,4,0.7,"Continuous quality, cost, or nutritional target",Sensory Panel Targets
+PB045-PC05,PB045,shelf_stability REQUIRED 60-day,SOFT,5,0.75,"Continuous quality, cost, or nutritional target",Quality Assurance Standard
+PB046-PC01,PB046,product_category REQUIRED Plant-Based Yogurt / Dairy Alternatives,SOFT,1,0.7,"Continuous quality, cost, or nutritional target",Product Brief Parser
+PB046-PC02,PB046,protein_min >= 3.0,SOFT,2,0.7,"Continuous quality, cost, or nutritional target",Product Brief Parser
+PB046-PC03,PB046,fat_max <= 12.0,SOFT,3,0.7,"Continuous quality, cost, or nutritional target",Product Brief Parser
+PB046-PC04,PB046,shelf_stability REQUIRED 45-day,SOFT,4,0.75,"Continuous quality, cost, or nutritional target",Quality Assurance Standard
+PB047-PC01,PB047,clean_label REQUIRED no_synthetic_additives,HARD,1,1.0,"Mandatory safety, regulatory or zero-tolerance dietary gate",Regulatory Knowledge Base
+PB047-PC02,PB047,product_category REQUIRED Plant-Based Yogurt / Dairy Alternatives,SOFT,2,0.7,"Continuous quality, cost, or nutritional target",Product Brief Parser
+PB047-PC03,PB047,protein_min >= 4.0,SOFT,3,0.7,"Continuous quality, cost, or nutritional target",Product Brief Parser
+PB047-PC04,PB047,fibre_min >= 4.0,SOFT,4,0.7,"Continuous quality, cost, or nutritional target",Product Brief Parser
+PB047-PC05,PB047,max_raw_material_cost <= 7.5,SOFT,5,0.85,"Continuous quality, cost, or nutritional target",Commercial Cost Target
+PB047-PC06,PB047,texture_profile PREFERRED Smooth,SOFT,6,0.7,"Continuous quality, cost, or nutritional target",Sensory Panel Targets
+PB047-PC07,PB047,flavor_profile PREFERRED berry flavour,SOFT,7,0.7,"Continuous quality, cost, or nutritional target",Sensory Panel Targets
+PB047-PC08,PB047,flavor_profile PREFERRED blueberry flavour,SOFT,8,0.7,"Continuous quality, cost, or nutritional target",Sensory Panel Targets
+PB047-PC09,PB047,flavor_profile PREFERRED almond flavour,SOFT,9,0.7,"Continuous quality, cost, or nutritional target",Sensory Panel Targets
+PB048-PC01,PB048,product_category REQUIRED Plant-Based Yogurt / Dairy Alternatives,SOFT,1,0.7,"Continuous quality, cost, or nutritional target",Product Brief Parser
+PB048-PC02,PB048,protein_min >= 3.0,SOFT,2,0.7,"Continuous quality, cost, or nutritional target",Product Brief Parser
+PB048-PC03,PB048,max_raw_material_cost <= 4.5,SOFT,3,0.85,"Continuous quality, cost, or nutritional target",Commercial Cost Target
+PB048-PC04,PB048,shelf_stability REQUIRED 45-day,SOFT,4,0.75,"Continuous quality, cost, or nutritional target",Quality Assurance Standard
+PB049-PC01,PB049,product_category REQUIRED Plant-Based Yogurt / Dairy Alternatives,SOFT,1,0.7,"Continuous quality, cost, or nutritional target",Product Brief Parser
+PB049-PC02,PB049,protein_min >= 4.0,SOFT,2,0.7,"Continuous quality, cost, or nutritional target",Product Brief Parser
+PB049-PC03,PB049,shelf_stability REQUIRED 60-day,SOFT,3,0.75,"Continuous quality, cost, or nutritional target",Quality Assurance Standard
+PB050-PC01,PB050,product_category REQUIRED Plant-Based Yogurt / Dairy Alternatives,SOFT,1,0.7,"Continuous quality, cost, or nutritional target",Product Brief Parser
+PB050-PC02,PB050,protein_min >= 7.0,SOFT,2,0.7,"Continuous quality, cost, or nutritional target",Product Brief Parser
+PB050-PC03,PB050,sugar_max <= 6.0,SOFT,3,0.7,"Continuous quality, cost, or nutritional target",Product Brief Parser
+PB050-PC04,PB050,flavor_profile PREFERRED cocoa flavour,SOFT,4,0.7,"Continuous quality, cost, or nutritional target",Sensory Panel Targets
+PB050-PC05,PB050,flavor_profile PREFERRED chocolate flavour,SOFT,5,0.7,"Continuous quality, cost, or nutritional target",Sensory Panel Targets
+PB050-PC06,PB050,shelf_stability REQUIRED 45-day,SOFT,6,0.75,"Continuous quality, cost, or nutritional target",Quality Assurance Standard
+PB051-PC01,PB051,gluten FORBIDDEN gluten_containing_grains,HARD,1,1.0,"Mandatory safety, regulatory or zero-tolerance dietary gate",Allergen Exclusion Rules
+PB051-PC02,PB051,product_category REQUIRED Sauces / Spreads / Emulsified Products,SOFT,2,0.7,"Continuous quality, cost, or nutritional target",Product Brief Parser
+PB051-PC03,PB051,protein_min >= 5.0,SOFT,3,0.7,"Continuous quality, cost, or nutritional target",Product Brief Parser
+PB051-PC04,PB051,max_raw_material_cost <= 11.0,SOFT,4,0.85,"Continuous quality, cost, or nutritional target",Commercial Cost Target
+PB051-PC05,PB051,texture_profile PREFERRED Smooth,SOFT,5,0.7,"Continuous quality, cost, or nutritional target",Sensory Panel Targets
+PB051-PC06,PB051,texture_profile PREFERRED Spreadable,SOFT,6,0.7,"Continuous quality, cost, or nutritional target",Sensory Panel Targets
+PB051-PC07,PB051,shelf_stability REQUIRED 60 day,SOFT,7,0.75,"Continuous quality, cost, or nutritional target",Quality Assurance Standard
+PB052-PC01,PB052,dietary_pattern FORBIDDEN animal_derived_ingredients,HARD,1,1.0,"Mandatory safety, regulatory or zero-tolerance dietary gate",Dietary Standard Rules
+PB052-PC02,PB052,clean_label REQUIRED no_synthetic_additives,HARD,2,1.0,"Mandatory safety, regulatory or zero-tolerance dietary gate",Regulatory Knowledge Base
+PB052-PC03,PB052,product_category REQUIRED Plant-Based Yogurt / Dairy Alternatives,SOFT,3,0.7,"Continuous quality, cost, or nutritional target",Product Brief Parser
+PB052-PC04,PB052,protein_min >= 5.0,SOFT,4,0.7,"Continuous quality, cost, or nutritional target",Product Brief Parser
+PB052-PC05,PB052,texture_profile PREFERRED Firm,SOFT,5,0.7,"Continuous quality, cost, or nutritional target",Sensory Panel Targets
+PB052-PC06,PB052,shelf_stability REQUIRED 45-day,SOFT,6,0.75,"Continuous quality, cost, or nutritional target",Quality Assurance Standard
+PB053-PC01,PB053,product_category REQUIRED Plant-Based Yogurt / Dairy Alternatives,SOFT,1,0.7,"Continuous quality, cost, or nutritional target",Product Brief Parser
+PB053-PC02,PB053,protein_min >= 6.0,SOFT,2,0.7,"Continuous quality, cost, or nutritional target",Product Brief Parser
+PB053-PC03,PB053,texture_profile PREFERRED Smooth,SOFT,3,0.7,"Continuous quality, cost, or nutritional target",Sensory Panel Targets
+PB053-PC04,PB053,texture_profile PREFERRED Creamy,SOFT,4,0.7,"Continuous quality, cost, or nutritional target",Sensory Panel Targets
+PB053-PC05,PB053,shelf_stability REQUIRED 45-day,SOFT,5,0.75,"Continuous quality, cost, or nutritional target",Quality Assurance Standard
+PB054-PC01,PB054,product_category REQUIRED Plant-Based Yogurt / Dairy Alternatives,SOFT,1,0.7,"Continuous quality, cost, or nutritional target",Product Brief Parser
+PB054-PC02,PB054,protein_min >= 5.0,SOFT,2,0.7,"Continuous quality, cost, or nutritional target",Product Brief Parser
+PB054-PC03,PB054,texture_profile PREFERRED Smooth,SOFT,3,0.7,"Continuous quality, cost, or nutritional target",Sensory Panel Targets
+PB054-PC04,PB054,flavor_profile PREFERRED citrus flavour,SOFT,4,0.7,"Continuous quality, cost, or nutritional target",Sensory Panel Targets
+PB054-PC05,PB054,flavor_profile PREFERRED lemon flavour,SOFT,5,0.7,"Continuous quality, cost, or nutritional target",Sensory Panel Targets
+PB054-PC06,PB054,shelf_stability REQUIRED 60-day,SOFT,6,0.75,"Continuous quality, cost, or nutritional target",Quality Assurance Standard
+PB055-PC01,PB055,product_category REQUIRED Plant-Based Yogurt / Dairy Alternatives,SOFT,1,0.7,"Continuous quality, cost, or nutritional target",Product Brief Parser
+PB055-PC02,PB055,protein_min >= 4.0,SOFT,2,0.7,"Continuous quality, cost, or nutritional target",Product Brief Parser
+PB055-PC03,PB055,fat_max <= 2.0,SOFT,3,0.7,"Continuous quality, cost, or nutritional target",Product Brief Parser
+PB055-PC04,PB055,max_raw_material_cost <= 6.0,SOFT,4,0.85,"Continuous quality, cost, or nutritional target",Commercial Cost Target
+PB055-PC05,PB055,texture_profile PREFERRED Creamy,SOFT,5,0.7,"Continuous quality, cost, or nutritional target",Sensory Panel Targets
+PB056-PC01,PB056,product_category REQUIRED Plant-Based Yogurt / Dairy Alternatives,SOFT,1,0.7,"Continuous quality, cost, or nutritional target",Product Brief Parser
+PB056-PC02,PB056,protein_min >= 3.5,SOFT,2,0.7,"Continuous quality, cost, or nutritional target",Product Brief Parser
+PB056-PC03,PB056,texture_profile PREFERRED Smooth,SOFT,3,0.7,"Continuous quality, cost, or nutritional target",Sensory Panel Targets
+PB056-PC04,PB056,shelf_stability REQUIRED 12-month,SOFT,4,0.75,"Continuous quality, cost, or nutritional target",Quality Assurance Standard
+PB057-PC01,PB057,product_category REQUIRED Plant-Based Yogurt / Dairy Alternatives,SOFT,1,0.7,"Continuous quality, cost, or nutritional target",Product Brief Parser
+PB057-PC02,PB057,protein_min >= 5.0,SOFT,2,0.7,"Continuous quality, cost, or nutritional target",Product Brief Parser
+PB057-PC03,PB057,fat_max <= 8.0,SOFT,3,0.7,"Continuous quality, cost, or nutritional target",Product Brief Parser
+PB057-PC04,PB057,flavor_profile PREFERRED garlic flavour,SOFT,4,0.7,"Continuous quality, cost, or nutritional target",Sensory Panel Targets
+PB057-PC05,PB057,flavor_profile PREFERRED herb flavour,SOFT,5,0.7,"Continuous quality, cost, or nutritional target",Sensory Panel Targets
+PB057-PC06,PB057,flavor_profile PREFERRED savory flavour,SOFT,6,0.7,"Continuous quality, cost, or nutritional target",Sensory Panel Targets
+PB057-PC07,PB057,shelf_stability REQUIRED 60-day,SOFT,7,0.75,"Continuous quality, cost, or nutritional target",Quality Assurance Standard
+PB058-PC01,PB058,clean_label REQUIRED no_synthetic_additives,HARD,1,1.0,"Mandatory safety, regulatory or zero-tolerance dietary gate",Regulatory Knowledge Base
+PB058-PC02,PB058,product_category REQUIRED Plant-Based Yogurt / Dairy Alternatives,SOFT,2,0.7,"Continuous quality, cost, or nutritional target",Product Brief Parser
+PB058-PC03,PB058,protein_min >= 4.5,SOFT,3,0.7,"Continuous quality, cost, or nutritional target",Product Brief Parser
+PB058-PC04,PB058,fibre_min >= 3.0,SOFT,4,0.7,"Continuous quality, cost, or nutritional target",Product Brief Parser
+PB058-PC05,PB058,max_raw_material_cost <= 7.0,SOFT,5,0.85,"Continuous quality, cost, or nutritional target",Commercial Cost Target
+PB058-PC06,PB058,texture_profile PREFERRED Smooth,SOFT,6,0.7,"Continuous quality, cost, or nutritional target",Sensory Panel Targets
+PB058-PC07,PB058,flavor_profile PREFERRED berry flavour,SOFT,7,0.7,"Continuous quality, cost, or nutritional target",Sensory Panel Targets
+PB059-PC01,PB059,product_category REQUIRED General,SOFT,1,0.7,"Continuous quality, cost, or nutritional target",Product Brief Parser
+PB059-PC02,PB059,protein_min >= 10.0,SOFT,2,0.7,"Continuous quality, cost, or nutritional target",Product Brief Parser
+PB059-PC03,PB059,fat_max <= 3.0,SOFT,3,0.7,"Continuous quality, cost, or nutritional target",Product Brief Parser
+PB059-PC04,PB059,flavor_profile PREFERRED vanilla flavour,SOFT,4,0.7,"Continuous quality, cost, or nutritional target",Sensory Panel Targets
+PB059-PC05,PB059,bitterness_masking REQUIRED Low Bitterness,SOFT,5,0.7,"Continuous quality, cost, or nutritional target",Sensory Panel Targets
+PB059-PC06,PB059,shelf_stability REQUIRED 45-day,SOFT,6,0.75,"Continuous quality, cost, or nutritional target",Quality Assurance Standard
+PB060-PC01,PB060,product_category REQUIRED Plant-Based Yogurt / Dairy Alternatives,SOFT,1,0.7,"Continuous quality, cost, or nutritional target",Product Brief Parser
+PB060-PC02,PB060,protein_min >= 4.0,SOFT,2,0.7,"Continuous quality, cost, or nutritional target",Product Brief Parser
+PB060-PC03,PB060,fibre_min >= 6.0,SOFT,3,0.7,"Continuous quality, cost, or nutritional target",Product Brief Parser
+PB060-PC04,PB060,texture_profile PREFERRED Viscous,SOFT,4,0.7,"Continuous quality, cost, or nutritional target",Sensory Panel Targets
+PB060-PC05,PB060,shelf_stability REQUIRED 45-day,SOFT,5,0.75,"Continuous quality, cost, or nutritional target",Quality Assurance Standard
+PB061-PC01,PB061,dietary_pattern FORBIDDEN animal_derived_ingredients,HARD,1,1.0,"Mandatory safety, regulatory or zero-tolerance dietary gate",Dietary Standard Rules
+PB061-PC02,PB061,product_category REQUIRED Bakery Products,SOFT,2,0.7,"Continuous quality, cost, or nutritional target",Product Brief Parser
+PB061-PC03,PB061,protein_min >= 15.0,SOFT,3,0.7,"Continuous quality, cost, or nutritional target",Product Brief Parser
+PB061-PC04,PB061,fat_max <= 18.0,SOFT,4,0.7,"Continuous quality, cost, or nutritional target",Product Brief Parser
+PB061-PC05,PB061,max_raw_material_cost <= 9.0,SOFT,5,0.85,"Continuous quality, cost, or nutritional target",Commercial Cost Target
+PB061-PC06,PB061,texture_profile PREFERRED Soft,SOFT,6,0.7,"Continuous quality, cost, or nutritional target",Sensory Panel Targets
+PB061-PC07,PB061,texture_profile PREFERRED Chewy,SOFT,7,0.7,"Continuous quality, cost, or nutritional target",Sensory Panel Targets
+PB061-PC08,PB061,flavor_profile PREFERRED chocolate flavour,SOFT,8,0.7,"Continuous quality, cost, or nutritional target",Sensory Panel Targets
+PB061-PC09,PB061,flavor_profile PREFERRED vanilla flavour,SOFT,9,0.7,"Continuous quality, cost, or nutritional target",Sensory Panel Targets
+PB061-PC10,PB061,shelf_stability REQUIRED 6-month,SOFT,10,0.75,"Continuous quality, cost, or nutritional target",Quality Assurance Standard
+PB062-PC01,PB062,gluten FORBIDDEN gluten_containing_grains,HARD,1,1.0,"Mandatory safety, regulatory or zero-tolerance dietary gate",Allergen Exclusion Rules
+PB062-PC02,PB062,product_category REQUIRED Bakery Products,SOFT,2,0.7,"Continuous quality, cost, or nutritional target",Product Brief Parser
+PB062-PC03,PB062,protein_min >= 8.0,SOFT,3,0.7,"Continuous quality, cost, or nutritional target",Product Brief Parser
+PB062-PC04,PB062,fibre_min >= 6.0,SOFT,4,0.7,"Continuous quality, cost, or nutritional target",Product Brief Parser
+PB062-PC05,PB062,max_raw_material_cost <= 5.0,SOFT,5,0.85,"Continuous quality, cost, or nutritional target",Commercial Cost Target
+PB062-PC06,PB062,foam_and_air_incorporation REQUIRED Aeration,SOFT,6,0.8,"Continuous quality, cost, or nutritional target",Food Hydrocolloid & Rheology Rules
+PB062-PC07,PB062,texture_profile PREFERRED Soft,SOFT,7,0.7,"Continuous quality, cost, or nutritional target",Sensory Panel Targets
+PB062-PC08,PB062,shelf_stability REQUIRED 14-day,SOFT,8,0.75,"Continuous quality, cost, or nutritional target",Quality Assurance Standard
+PB063-PC01,PB063,product_category REQUIRED Bakery Products,SOFT,1,0.7,"Continuous quality, cost, or nutritional target",Product Brief Parser
+PB063-PC02,PB063,protein_min >= 12.0,SOFT,2,0.7,"Continuous quality, cost, or nutritional target",Product Brief Parser
+PB063-PC03,PB063,sugar_max <= 2.0,SOFT,3,0.7,"Continuous quality, cost, or nutritional target",Product Brief Parser
+PB063-PC04,PB063,flavor_profile PREFERRED almond flavour,SOFT,4,0.7,"Continuous quality, cost, or nutritional target",Sensory Panel Targets
+PB063-PC05,PB063,shelf_stability REQUIRED 21-day,SOFT,5,0.75,"Continuous quality, cost, or nutritional target",Quality Assurance Standard
+PB064-PC01,PB064,major_allergens FORBIDDEN top_9_allergens,HARD,1,1.0,"Mandatory safety, regulatory or zero-tolerance dietary gate",Allergen Exclusion Rules
+PB064-PC02,PB064,product_category REQUIRED Bakery Products,SOFT,2,0.7,"Continuous quality, cost, or nutritional target",Product Brief Parser
+PB064-PC03,PB064,protein_min >= 7.0,SOFT,3,0.7,"Continuous quality, cost, or nutritional target",Product Brief Parser
+PB064-PC04,PB064,fibre_min >= 4.0,SOFT,4,0.7,"Continuous quality, cost, or nutritional target",Product Brief Parser
+PB064-PC05,PB064,chemical_or_biological_leavening REQUIRED Leavening,SOFT,5,0.8,"Continuous quality, cost, or nutritional target",Food Hydrocolloid & Rheology Rules
+PB064-PC06,PB064,texture_profile PREFERRED Soft,SOFT,6,0.7,"Continuous quality, cost, or nutritional target",Sensory Panel Targets
+PB064-PC07,PB064,flavor_profile PREFERRED berry flavour,SOFT,7,0.7,"Continuous quality, cost, or nutritional target",Sensory Panel Targets
+PB064-PC08,PB064,flavor_profile PREFERRED blueberry flavour,SOFT,8,0.7,"Continuous quality, cost, or nutritional target",Sensory Panel Targets
+PB064-PC09,PB064,shelf_stability REQUIRED 14-day,SOFT,9,0.75,"Continuous quality, cost, or nutritional target",Quality Assurance Standard
+PB065-PC01,PB065,product_category REQUIRED Bakery Products,SOFT,1,0.7,"Continuous quality, cost, or nutritional target",Product Brief Parser
+PB065-PC02,PB065,protein_min >= 10.0,SOFT,2,0.7,"Continuous quality, cost, or nutritional target",Product Brief Parser
+PB065-PC03,PB065,texture_profile PREFERRED Soft,SOFT,3,0.7,"Continuous quality, cost, or nutritional target",Sensory Panel Targets
+PB065-PC04,PB065,texture_profile PREFERRED Crunchy,SOFT,4,0.7,"Continuous quality, cost, or nutritional target",Sensory Panel Targets
+PB065-PC05,PB065,flavor_profile PREFERRED vanilla flavour,SOFT,5,0.7,"Continuous quality, cost, or nutritional target",Sensory Panel Targets
+PB065-PC06,PB065,shelf_stability REQUIRED 6-month,SOFT,6,0.75,"Continuous quality, cost, or nutritional target",Quality Assurance Standard
+PB066-PC01,PB066,product_category REQUIRED Bakery Products,SOFT,1,0.7,"Continuous quality, cost, or nutritional target",Product Brief Parser
+PB066-PC02,PB066,protein_min >= 14.0,SOFT,2,0.7,"Continuous quality, cost, or nutritional target",Product Brief Parser
+PB066-PC03,PB066,shelf_stability REQUIRED 14-day,SOFT,3,0.75,"Continuous quality, cost, or nutritional target",Quality Assurance Standard
+PB067-PC01,PB067,clean_label REQUIRED no_synthetic_additives,HARD,1,1.0,"Mandatory safety, regulatory or zero-tolerance dietary gate",Regulatory Knowledge Base
+PB067-PC02,PB067,product_category REQUIRED Bakery Products,SOFT,2,0.7,"Continuous quality, cost, or nutritional target",Product Brief Parser
+PB067-PC03,PB067,protein_min >= 9.0,SOFT,3,0.7,"Continuous quality, cost, or nutritional target",Product Brief Parser
+PB067-PC04,PB067,fibre_min >= 7.0,SOFT,4,0.7,"Continuous quality, cost, or nutritional target",Product Brief Parser
+PB067-PC05,PB067,max_raw_material_cost <= 6.0,SOFT,5,0.85,"Continuous quality, cost, or nutritional target",Commercial Cost Target
+PB067-PC06,PB067,texture_profile PREFERRED Crumbly,SOFT,6,0.7,"Continuous quality, cost, or nutritional target",Sensory Panel Targets
+PB067-PC07,PB067,shelf_stability REQUIRED 9-month,SOFT,7,0.75,"Continuous quality, cost, or nutritional target",Quality Assurance Standard
+PB068-PC01,PB068,product_category REQUIRED Bakery Products,SOFT,1,0.7,"Continuous quality, cost, or nutritional target",Product Brief Parser
+PB068-PC02,PB068,protein_min >= 8.0,SOFT,2,0.7,"Continuous quality, cost, or nutritional target",Product Brief Parser
+PB068-PC03,PB068,max_raw_material_cost <= 3.5,SOFT,3,0.85,"Continuous quality, cost, or nutritional target",Commercial Cost Target
+PB068-PC04,PB068,texture_profile PREFERRED Soft,SOFT,4,0.7,"Continuous quality, cost, or nutritional target",Sensory Panel Targets
+PB068-PC05,PB068,shelf_stability REQUIRED 14-day,SOFT,5,0.75,"Continuous quality, cost, or nutritional target",Quality Assurance Standard
+PB069-PC01,PB069,dietary_pattern FORBIDDEN animal_derived_ingredients,HARD,1,1.0,"Mandatory safety, regulatory or zero-tolerance dietary gate",Dietary Standard Rules
+PB069-PC02,PB069,product_category REQUIRED General,SOFT,2,0.7,"Continuous quality, cost, or nutritional target",Product Brief Parser
+PB069-PC03,PB069,protein_min >= 16.0,SOFT,3,0.7,"Continuous quality, cost, or nutritional target",Product Brief Parser
+PB069-PC04,PB069,fat_max <= 15.0,SOFT,4,0.7,"Continuous quality, cost, or nutritional target",Product Brief Parser
+PB069-PC05,PB069,water_activity <= 0.6,SOFT,5,0.7,"Continuous quality, cost, or nutritional target",Product Brief Parser
+PB069-PC06,PB069,flavor_profile PREFERRED cocoa flavour,SOFT,6,0.7,"Continuous quality, cost, or nutritional target",Sensory Panel Targets
+PB069-PC07,PB069,shelf_stability REQUIRED 6-month,SOFT,7,0.75,"Continuous quality, cost, or nutritional target",Quality Assurance Standard
+PB070-PC01,PB070,clean_label REQUIRED no_synthetic_additives,HARD,1,1.0,"Mandatory safety, regulatory or zero-tolerance dietary gate",Regulatory Knowledge Base
+PB070-PC02,PB070,product_category REQUIRED Bakery Products,SOFT,2,0.7,"Continuous quality, cost, or nutritional target",Product Brief Parser
+PB070-PC03,PB070,protein_min >= 8.0,SOFT,3,0.7,"Continuous quality, cost, or nutritional target",Product Brief Parser
+PB070-PC04,PB070,fibre_min >= 5.0,SOFT,4,0.7,"Continuous quality, cost, or nutritional target",Product Brief Parser
+PB070-PC05,PB070,max_raw_material_cost <= 6.5,SOFT,5,0.85,"Continuous quality, cost, or nutritional target",Commercial Cost Target
+PB070-PC06,PB070,shelf_stability REQUIRED 14-day,SOFT,6,0.75,"Continuous quality, cost, or nutritional target",Quality Assurance Standard
+PB071-PC01,PB071,dietary_pattern FORBIDDEN animal_derived_ingredients,HARD,1,1.0,"Mandatory safety, regulatory or zero-tolerance dietary gate",Dietary Standard Rules
+PB071-PC02,PB071,gluten FORBIDDEN gluten_containing_grains,HARD,2,1.0,"Mandatory safety, regulatory or zero-tolerance dietary gate",Allergen Exclusion Rules
+PB071-PC03,PB071,product_category REQUIRED Protein Bars / Functional Snacks,SOFT,3,0.7,"Continuous quality, cost, or nutritional target",Product Brief Parser
+PB071-PC04,PB071,protein_min >= 8.0,SOFT,4,0.7,"Continuous quality, cost, or nutritional target",Product Brief Parser
+PB071-PC05,PB071,max_raw_material_cost <= 6.0,SOFT,5,0.85,"Continuous quality, cost, or nutritional target",Commercial Cost Target
+PB071-PC06,PB071,shelf_stability REQUIRED 9-month,SOFT,6,0.75,"Continuous quality, cost, or nutritional target",Quality Assurance Standard
+PB072-PC01,PB072,product_category REQUIRED Protein Bars / Functional Snacks,SOFT,1,0.7,"Continuous quality, cost, or nutritional target",Product Brief Parser
+PB072-PC02,PB072,protein_min >= 18.0,SOFT,2,0.7,"Continuous quality, cost, or nutritional target",Product Brief Parser
+PB072-PC03,PB072,fat_max <= 10.0,SOFT,3,0.7,"Continuous quality, cost, or nutritional target",Product Brief Parser
+PB072-PC04,PB072,water_activity <= 0.6,SOFT,4,0.7,"Continuous quality, cost, or nutritional target",Product Brief Parser
+PB072-PC05,PB072,texture_profile PREFERRED Crunchy,SOFT,5,0.7,"Continuous quality, cost, or nutritional target",Sensory Panel Targets
+PB072-PC06,PB072,flavor_profile PREFERRED savory flavour,SOFT,6,0.7,"Continuous quality, cost, or nutritional target",Sensory Panel Targets
+PB072-PC07,PB072,shelf_stability REQUIRED 12-month,SOFT,7,0.75,"Continuous quality, cost, or nutritional target",Quality Assurance Standard
+PB073-PC01,PB073,dietary_pattern FORBIDDEN animal_derived_ingredients,HARD,1,1.0,"Mandatory safety, regulatory or zero-tolerance dietary gate",Dietary Standard Rules
+PB073-PC02,PB073,product_category REQUIRED Bakery Products,SOFT,2,0.7,"Continuous quality, cost, or nutritional target",Product Brief Parser
+PB073-PC03,PB073,protein_min >= 8.0,SOFT,3,0.7,"Continuous quality, cost, or nutritional target",Product Brief Parser
+PB073-PC04,PB073,sugar_max <= 0.5,SOFT,4,0.7,"Continuous quality, cost, or nutritional target",Product Brief Parser
+PB073-PC05,PB073,texture_profile PREFERRED Crumbly,SOFT,5,0.7,"Continuous quality, cost, or nutritional target",Sensory Panel Targets
+PB073-PC06,PB073,flavor_profile PREFERRED citrus flavour,SOFT,6,0.7,"Continuous quality, cost, or nutritional target",Sensory Panel Targets
+PB073-PC07,PB073,flavor_profile PREFERRED lemon flavour,SOFT,7,0.7,"Continuous quality, cost, or nutritional target",Sensory Panel Targets
+PB073-PC08,PB073,shelf_stability REQUIRED 6-month,SOFT,8,0.75,"Continuous quality, cost, or nutritional target",Quality Assurance Standard
+PB074-PC01,PB074,product_category REQUIRED Bakery Products,SOFT,1,0.7,"Continuous quality, cost, or nutritional target",Product Brief Parser
+PB074-PC02,PB074,protein_min >= 7.0,SOFT,2,0.7,"Continuous quality, cost, or nutritional target",Product Brief Parser
+PB074-PC03,PB074,fibre_min >= 4.0,SOFT,3,0.7,"Continuous quality, cost, or nutritional target",Product Brief Parser
+PB074-PC04,PB074,max_raw_material_cost <= 7.0,SOFT,4,0.85,"Continuous quality, cost, or nutritional target",Commercial Cost Target
+PB074-PC05,PB074,shelf_stability REQUIRED 14-day,SOFT,5,0.75,"Continuous quality, cost, or nutritional target",Quality Assurance Standard
+PB075-PC01,PB075,product_category REQUIRED General,SOFT,1,0.7,"Continuous quality, cost, or nutritional target",Product Brief Parser
+PB075-PC02,PB075,protein_min >= 14.0,SOFT,2,0.7,"Continuous quality, cost, or nutritional target",Product Brief Parser
+PB075-PC03,PB075,max_raw_material_cost <= 4.5,SOFT,3,0.85,"Continuous quality, cost, or nutritional target",Commercial Cost Target
+PB075-PC04,PB075,texture_profile PREFERRED Soft,SOFT,4,0.7,"Continuous quality, cost, or nutritional target",Sensory Panel Targets
+PB075-PC05,PB075,texture_profile PREFERRED Chewy,SOFT,5,0.7,"Continuous quality, cost, or nutritional target",Sensory Panel Targets
+PB075-PC06,PB075,flavor_profile PREFERRED savory flavour,SOFT,6,0.7,"Continuous quality, cost, or nutritional target",Sensory Panel Targets
+PB075-PC07,PB075,shelf_stability REQUIRED 7-day,SOFT,7,0.75,"Continuous quality, cost, or nutritional target",Quality Assurance Standard
+PB076-PC01,PB076,gluten FORBIDDEN gluten_containing_grains,HARD,1,1.0,"Mandatory safety, regulatory or zero-tolerance dietary gate",Allergen Exclusion Rules
+PB076-PC02,PB076,clean_label REQUIRED no_synthetic_additives,HARD,2,1.0,"Mandatory safety, regulatory or zero-tolerance dietary gate",Regulatory Knowledge Base
+PB076-PC03,PB076,product_category REQUIRED Bakery Products,SOFT,3,0.7,"Continuous quality, cost, or nutritional target",Product Brief Parser
+PB076-PC04,PB076,protein_min >= 9.0,SOFT,4,0.7,"Continuous quality, cost, or nutritional target",Product Brief Parser
+PB076-PC05,PB076,fat_max <= 12.0,SOFT,5,0.7,"Continuous quality, cost, or nutritional target",Product Brief Parser
+PB076-PC06,PB076,max_raw_material_cost <= 8.5,SOFT,6,0.85,"Continuous quality, cost, or nutritional target",Commercial Cost Target
+PB076-PC07,PB076,flavor_profile PREFERRED cocoa flavour,SOFT,7,0.7,"Continuous quality, cost, or nutritional target",Sensory Panel Targets
+PB076-PC08,PB076,flavor_profile PREFERRED chocolate flavour,SOFT,8,0.7,"Continuous quality, cost, or nutritional target",Sensory Panel Targets
+PB076-PC09,PB076,shelf_stability REQUIRED 21-day,SOFT,9,0.75,"Continuous quality, cost, or nutritional target",Quality Assurance Standard
+PB077-PC01,PB077,product_category REQUIRED Bakery Products,SOFT,1,0.7,"Continuous quality, cost, or nutritional target",Product Brief Parser
+PB077-PC02,PB077,protein_min >= 15.0,SOFT,2,0.7,"Continuous quality, cost, or nutritional target",Product Brief Parser
+PB077-PC03,PB077,fibre_min >= 8.0,SOFT,3,0.7,"Continuous quality, cost, or nutritional target",Product Brief Parser
+PB077-PC04,PB077,texture_profile PREFERRED Crunchy,SOFT,4,0.7,"Continuous quality, cost, or nutritional target",Sensory Panel Targets
+PB077-PC05,PB077,flavor_profile PREFERRED vanilla flavour,SOFT,5,0.7,"Continuous quality, cost, or nutritional target",Sensory Panel Targets
+PB077-PC06,PB077,flavor_profile PREFERRED berry flavour,SOFT,6,0.7,"Continuous quality, cost, or nutritional target",Sensory Panel Targets
+PB077-PC07,PB077,shelf_stability REQUIRED 12-month,SOFT,7,0.75,"Continuous quality, cost, or nutritional target",Quality Assurance Standard
+PB078-PC01,PB078,dietary_pattern FORBIDDEN animal_derived_ingredients,HARD,1,1.0,"Mandatory safety, regulatory or zero-tolerance dietary gate",Dietary Standard Rules
+PB078-PC02,PB078,product_category REQUIRED General,SOFT,2,0.7,"Continuous quality, cost, or nutritional target",Product Brief Parser
+PB078-PC03,PB078,protein_min >= 8.0,SOFT,3,0.7,"Continuous quality, cost, or nutritional target",Product Brief Parser
+PB078-PC04,PB078,max_raw_material_cost <= 4.0,SOFT,4,0.85,"Continuous quality, cost, or nutritional target",Commercial Cost Target
+PB078-PC05,PB078,texture_profile PREFERRED Soft,SOFT,5,0.7,"Continuous quality, cost, or nutritional target",Sensory Panel Targets
+PB078-PC06,PB078,shelf_stability REQUIRED 10-day,SOFT,6,0.75,"Continuous quality, cost, or nutritional target",Quality Assurance Standard
+PB079-PC01,PB079,product_category REQUIRED Bakery Products,SOFT,1,0.7,"Continuous quality, cost, or nutritional target",Product Brief Parser
+PB079-PC02,PB079,protein_min >= 9.0,SOFT,2,0.7,"Continuous quality, cost, or nutritional target",Product Brief Parser
+PB079-PC03,PB079,texture_profile PREFERRED Soft,SOFT,3,0.7,"Continuous quality, cost, or nutritional target",Sensory Panel Targets
+PB079-PC04,PB079,shelf_stability REQUIRED 14-day,SOFT,4,0.75,"Continuous quality, cost, or nutritional target",Quality Assurance Standard
+PB080-PC01,PB080,product_category REQUIRED Bakery Products,SOFT,1,0.7,"Continuous quality, cost, or nutritional target",Product Brief Parser
+PB080-PC02,PB080,protein_min >= 10.0,SOFT,2,0.7,"Continuous quality, cost, or nutritional target",Product Brief Parser
+PB080-PC03,PB080,fibre_min >= 5.0,SOFT,3,0.7,"Continuous quality, cost, or nutritional target",Product Brief Parser
+PB080-PC04,PB080,max_raw_material_cost <= 7.5,SOFT,4,0.85,"Continuous quality, cost, or nutritional target",Commercial Cost Target
+PB080-PC05,PB080,shelf_stability REQUIRED 9-month,SOFT,5,0.75,"Continuous quality, cost, or nutritional target",Quality Assurance Standard
+PB081-PC01,PB081,dietary_pattern FORBIDDEN animal_derived_ingredients,HARD,1,1.0,"Mandatory safety, regulatory or zero-tolerance dietary gate",Dietary Standard Rules
+PB081-PC02,PB081,eggs FORBIDDEN egg_derived_ingredients,HARD,2,1.0,"Mandatory safety, regulatory or zero-tolerance dietary gate",Allergen Exclusion Rules
+PB081-PC03,PB081,product_category REQUIRED Sauces / Spreads / Emulsified Products,SOFT,3,0.7,"Continuous quality, cost, or nutritional target",Product Brief Parser
+PB081-PC04,PB081,fat_max <= 45.0,SOFT,4,0.7,"Continuous quality, cost, or nutritional target",Product Brief Parser
+PB081-PC05,PB081,sugar_max <= 2.0,SOFT,5,0.7,"Continuous quality, cost, or nutritional target",Product Brief Parser
+PB081-PC06,PB081,texture_profile PREFERRED Creamy,SOFT,6,0.7,"Continuous quality, cost, or nutritional target",Sensory Panel Targets
+PB081-PC07,PB081,flavor_profile PREFERRED lemon flavour,SOFT,7,0.7,"Continuous quality, cost, or nutritional target",Sensory Panel Targets
+PB081-PC08,PB081,shelf_stability REQUIRED 9-month,SOFT,8,0.75,"Continuous quality, cost, or nutritional target",Quality Assurance Standard
+PB082-PC01,PB082,clean_label REQUIRED no_synthetic_additives,HARD,1,1.0,"Mandatory safety, regulatory or zero-tolerance dietary gate",Regulatory Knowledge Base
+PB082-PC02,PB082,product_category REQUIRED Sauces / Spreads / Emulsified Products,SOFT,2,0.7,"Continuous quality, cost, or nutritional target",Product Brief Parser
+PB082-PC03,PB082,protein_min >= 8.0,SOFT,3,0.7,"Continuous quality, cost, or nutritional target",Product Brief Parser
+PB082-PC04,PB082,sugar_max <= 20.0,SOFT,4,0.7,"Continuous quality, cost, or nutritional target",Product Brief Parser
+PB082-PC05,PB082,max_raw_material_cost <= 11.0,SOFT,5,0.85,"Continuous quality, cost, or nutritional target",Commercial Cost Target
+PB082-PC06,PB082,texture_profile PREFERRED Smooth,SOFT,6,0.7,"Continuous quality, cost, or nutritional target",Sensory Panel Targets
+PB082-PC07,PB082,flavor_profile PREFERRED cocoa flavour,SOFT,7,0.7,"Continuous quality, cost, or nutritional target",Sensory Panel Targets
+PB082-PC08,PB082,flavor_profile PREFERRED chocolate flavour,SOFT,8,0.7,"Continuous quality, cost, or nutritional target",Sensory Panel Targets
+PB082-PC09,PB082,shelf_stability REQUIRED 12-month,SOFT,9,0.75,"Continuous quality, cost, or nutritional target",Quality Assurance Standard
+PB083-PC01,PB083,product_category REQUIRED General,SOFT,1,0.7,"Continuous quality, cost, or nutritional target",Product Brief Parser
+PB083-PC02,PB083,protein_min >= 3.0,SOFT,2,0.7,"Continuous quality, cost, or nutritional target",Product Brief Parser
+PB083-PC03,PB083,sugar_max <= 0.5,SOFT,3,0.7,"Continuous quality, cost, or nutritional target",Product Brief Parser
+PB083-PC04,PB083,flavor_profile PREFERRED savory flavour,SOFT,4,0.7,"Continuous quality, cost, or nutritional target",Sensory Panel Targets
+PB083-PC05,PB083,shelf_stability REQUIRED 12-month,SOFT,5,0.75,"Continuous quality, cost, or nutritional target",Quality Assurance Standard
+PB084-PC01,PB084,major_allergens FORBIDDEN top_9_allergens,HARD,1,1.0,"Mandatory safety, regulatory or zero-tolerance dietary gate",Allergen Exclusion Rules
+PB084-PC02,PB084,product_category REQUIRED Sauces / Spreads / Emulsified Products,SOFT,2,0.7,"Continuous quality, cost, or nutritional target",Product Brief Parser
+PB084-PC03,PB084,protein_min >= 6.0,SOFT,3,0.7,"Continuous quality, cost, or nutritional target",Product Brief Parser
+PB084-PC04,PB084,max_raw_material_cost <= 7.0,SOFT,4,0.85,"Continuous quality, cost, or nutritional target",Commercial Cost Target
+PB084-PC05,PB084,texture_profile PREFERRED Smooth,SOFT,5,0.7,"Continuous quality, cost, or nutritional target",Sensory Panel Targets
+PB084-PC06,PB084,texture_profile PREFERRED Spreadable,SOFT,6,0.7,"Continuous quality, cost, or nutritional target",Sensory Panel Targets
+PB084-PC07,PB084,flavor_profile PREFERRED savory flavour,SOFT,7,0.7,"Continuous quality, cost, or nutritional target",Sensory Panel Targets
+PB084-PC08,PB084,shelf_stability REQUIRED 9 month,SOFT,8,0.75,"Continuous quality, cost, or nutritional target",Quality Assurance Standard
+PB085-PC01,PB085,product_category REQUIRED Sauces / Spreads / Emulsified Products,SOFT,1,0.7,"Continuous quality, cost, or nutritional target",Product Brief Parser
+PB085-PC02,PB085,protein_min >= 5.0,SOFT,2,0.7,"Continuous quality, cost, or nutritional target",Product Brief Parser
+PB085-PC03,PB085,texture_profile PREFERRED Smooth,SOFT,3,0.7,"Continuous quality, cost, or nutritional target",Sensory Panel Targets
+PB085-PC04,PB085,flavor_profile PREFERRED herb flavour,SOFT,4,0.7,"Continuous quality, cost, or nutritional target",Sensory Panel Targets
+PB085-PC05,PB085,flavor_profile PREFERRED savory flavour,SOFT,5,0.7,"Continuous quality, cost, or nutritional target",Sensory Panel Targets
+PB085-PC06,PB085,shelf_stability REQUIRED 12-month,SOFT,6,0.75,"Continuous quality, cost, or nutritional target",Quality Assurance Standard
+PB086-PC01,PB086,product_category REQUIRED Sauces / Spreads / Emulsified Products,SOFT,1,0.7,"Continuous quality, cost, or nutritional target",Product Brief Parser
+PB086-PC02,PB086,protein_min >= 3.0,SOFT,2,0.7,"Continuous quality, cost, or nutritional target",Product Brief Parser
+PB086-PC03,PB086,fat_max <= 60.0,SOFT,3,0.7,"Continuous quality, cost, or nutritional target",Product Brief Parser
+PB086-PC04,PB086,texture_profile PREFERRED Creamy,SOFT,4,0.7,"Continuous quality, cost, or nutritional target",Sensory Panel Targets
+PB086-PC05,PB086,flavor_profile PREFERRED garlic flavour,SOFT,5,0.7,"Continuous quality, cost, or nutritional target",Sensory Panel Targets
+PB086-PC06,PB086,flavor_profile PREFERRED herb flavour,SOFT,6,0.7,"Continuous quality, cost, or nutritional target",Sensory Panel Targets
+PB086-PC07,PB086,shelf_stability REQUIRED 6-month,SOFT,7,0.75,"Continuous quality, cost, or nutritional target",Quality Assurance Standard
+PB087-PC01,PB087,dietary_pattern FORBIDDEN animal_derived_ingredients,HARD,1,1.0,"Mandatory safety, regulatory or zero-tolerance dietary gate",Dietary Standard Rules
+PB087-PC02,PB087,clean_label REQUIRED no_synthetic_additives,HARD,2,1.0,"Mandatory safety, regulatory or zero-tolerance dietary gate",Regulatory Knowledge Base
+PB087-PC03,PB087,product_category REQUIRED Sauces / Spreads / Emulsified Products,SOFT,3,0.7,"Continuous quality, cost, or nutritional target",Product Brief Parser
+PB087-PC04,PB087,fat_max <= 30.0,SOFT,4,0.7,"Continuous quality, cost, or nutritional target",Product Brief Parser
+PB087-PC05,PB087,sugar_max <= 3.0,SOFT,5,0.7,"Continuous quality, cost, or nutritional target",Product Brief Parser
+PB087-PC06,PB087,max_raw_material_cost <= 6.5,SOFT,6,0.85,"Continuous quality, cost, or nutritional target",Commercial Cost Target
+PB087-PC07,PB087,texture_profile PREFERRED Creamy,SOFT,7,0.7,"Continuous quality, cost, or nutritional target",Sensory Panel Targets
+PB087-PC08,PB087,flavor_profile PREFERRED garlic flavour,SOFT,8,0.7,"Continuous quality, cost, or nutritional target",Sensory Panel Targets
+PB087-PC09,PB087,flavor_profile PREFERRED herb flavour,SOFT,9,0.7,"Continuous quality, cost, or nutritional target",Sensory Panel Targets
+PB087-PC10,PB087,shelf_stability REQUIRED 6-month,SOFT,10,0.75,"Continuous quality, cost, or nutritional target",Quality Assurance Standard
+PB088-PC01,PB088,product_category REQUIRED Sauces / Spreads / Emulsified Products,SOFT,1,0.7,"Continuous quality, cost, or nutritional target",Product Brief Parser
+PB088-PC02,PB088,protein_min >= 2.5,SOFT,2,0.7,"Continuous quality, cost, or nutritional target",Product Brief Parser
+PB088-PC03,PB088,max_raw_material_cost <= 3.0,SOFT,3,0.85,"Continuous quality, cost, or nutritional target",Commercial Cost Target
+PB088-PC04,PB088,texture_profile PREFERRED Smooth,SOFT,4,0.7,"Continuous quality, cost, or nutritional target",Sensory Panel Targets
+PB088-PC05,PB088,shelf_stability REQUIRED 9-month,SOFT,5,0.75,"Continuous quality, cost, or nutritional target",Quality Assurance Standard
+PB089-PC01,PB089,product_category REQUIRED Sauces / Spreads / Emulsified Products,SOFT,1,0.7,"Continuous quality, cost, or nutritional target",Product Brief Parser
+PB089-PC02,PB089,protein_min >= 12.0,SOFT,2,0.7,"Continuous quality, cost, or nutritional target",Product Brief Parser
+PB089-PC03,PB089,max_raw_material_cost <= 7.5,SOFT,3,0.85,"Continuous quality, cost, or nutritional target",Commercial Cost Target
+PB089-PC04,PB089,flavor_profile PREFERRED savory flavour,SOFT,4,0.7,"Continuous quality, cost, or nutritional target",Sensory Panel Targets
+PB089-PC05,PB089,shelf_stability REQUIRED 12 months,SOFT,5,0.75,"Continuous quality, cost, or nutritional target",Quality Assurance Standard
+PB090-PC01,PB090,dairy FORBIDDEN milk_and_dairy_derivatives,HARD,1,1.0,"Mandatory safety, regulatory or zero-tolerance dietary gate",Allergen Exclusion Rules
+PB090-PC02,PB090,clean_label REQUIRED no_synthetic_additives,HARD,2,1.0,"Mandatory safety, regulatory or zero-tolerance dietary gate",Regulatory Knowledge Base
+PB090-PC03,PB090,product_category REQUIRED Sauces / Spreads / Emulsified Products,SOFT,3,0.7,"Continuous quality, cost, or nutritional target",Product Brief Parser
+PB090-PC04,PB090,protein_min >= 6.0,SOFT,4,0.7,"Continuous quality, cost, or nutritional target",Product Brief Parser
+PB090-PC05,PB090,max_raw_material_cost <= 9.5,SOFT,5,0.85,"Continuous quality, cost, or nutritional target",Commercial Cost Target
+PB090-PC06,PB090,texture_profile PREFERRED Smooth,SOFT,6,0.7,"Continuous quality, cost, or nutritional target",Sensory Panel Targets
+PB090-PC07,PB090,texture_profile PREFERRED Spreadable,SOFT,7,0.7,"Continuous quality, cost, or nutritional target",Sensory Panel Targets
+PB090-PC08,PB090,flavor_profile PREFERRED savory flavour,SOFT,8,0.7,"Continuous quality, cost, or nutritional target",Sensory Panel Targets
+PB090-PC09,PB090,shelf_stability REQUIRED 60-day,SOFT,9,0.75,"Continuous quality, cost, or nutritional target",Quality Assurance Standard
+PB091-PC01,PB091,product_category REQUIRED Sauces / Spreads / Emulsified Products,SOFT,1,0.7,"Continuous quality, cost, or nutritional target",Product Brief Parser
+PB091-PC02,PB091,fat_max <= 10.0,SOFT,2,0.7,"Continuous quality, cost, or nutritional target",Product Brief Parser
+PB091-PC03,PB091,sugar_max <= 3.0,SOFT,3,0.7,"Continuous quality, cost, or nutritional target",Product Brief Parser
+PB091-PC04,PB091,flavor_profile PREFERRED lemon flavour,SOFT,4,0.7,"Continuous quality, cost, or nutritional target",Sensory Panel Targets
+PB091-PC05,PB091,flavor_profile PREFERRED herb flavour,SOFT,5,0.7,"Continuous quality, cost, or nutritional target",Sensory Panel Targets
+PB091-PC06,PB091,shelf_stability REQUIRED 12-month,SOFT,6,0.75,"Continuous quality, cost, or nutritional target",Quality Assurance Standard
+PB092-PC01,PB092,dietary_pattern FORBIDDEN animal_derived_ingredients,HARD,1,1.0,"Mandatory safety, regulatory or zero-tolerance dietary gate",Dietary Standard Rules
+PB092-PC02,PB092,product_category REQUIRED Sauces / Spreads / Emulsified Products,SOFT,2,0.7,"Continuous quality, cost, or nutritional target",Product Brief Parser
+PB092-PC03,PB092,protein_min >= 2.0,SOFT,3,0.7,"Continuous quality, cost, or nutritional target",Product Brief Parser
+PB092-PC04,PB092,fat_max <= 40.0,SOFT,4,0.7,"Continuous quality, cost, or nutritional target",Product Brief Parser
+PB092-PC05,PB092,texture_profile PREFERRED Smooth,SOFT,5,0.7,"Continuous quality, cost, or nutritional target",Sensory Panel Targets
+PB092-PC06,PB092,shelf_stability REQUIRED 9-month,SOFT,6,0.75,"Continuous quality, cost, or nutritional target",Quality Assurance Standard
+PB093-PC01,PB093,major_allergens FORBIDDEN top_9_allergens,HARD,1,1.0,"Mandatory safety, regulatory or zero-tolerance dietary gate",Allergen Exclusion Rules
+PB093-PC02,PB093,product_category REQUIRED Sauces / Spreads / Emulsified Products,SOFT,2,0.7,"Continuous quality, cost, or nutritional target",Product Brief Parser
+PB093-PC03,PB093,protein_min >= 3.0,SOFT,3,0.7,"Continuous quality, cost, or nutritional target",Product Brief Parser
+PB093-PC04,PB093,sugar_max <= 25.0,SOFT,4,0.7,"Continuous quality, cost, or nutritional target",Product Brief Parser
+PB093-PC05,PB093,max_raw_material_cost <= 8.0,SOFT,5,0.85,"Continuous quality, cost, or nutritional target",Commercial Cost Target
+PB093-PC06,PB093,texture_profile PREFERRED Smooth,SOFT,6,0.7,"Continuous quality, cost, or nutritional target",Sensory Panel Targets
+PB093-PC07,PB093,flavor_profile PREFERRED caramel flavour,SOFT,7,0.7,"Continuous quality, cost, or nutritional target",Sensory Panel Targets
+PB093-PC08,PB093,shelf_stability REQUIRED 9-month,SOFT,8,0.75,"Continuous quality, cost, or nutritional target",Quality Assurance Standard
+PB094-PC01,PB094,product_category REQUIRED Sauces / Spreads / Emulsified Products,SOFT,1,0.7,"Continuous quality, cost, or nutritional target",Product Brief Parser
+PB094-PC02,PB094,protein_min >= 10.0,SOFT,2,0.7,"Continuous quality, cost, or nutritional target",Product Brief Parser
+PB094-PC03,PB094,fat_max <= 12.0,SOFT,3,0.7,"Continuous quality, cost, or nutritional target",Product Brief Parser
+PB094-PC04,PB094,max_raw_material_cost <= 5.5,SOFT,4,0.85,"Continuous quality, cost, or nutritional target",Commercial Cost Target
+PB094-PC05,PB094,flavor_profile PREFERRED garlic flavour,SOFT,5,0.7,"Continuous quality, cost, or nutritional target",Sensory Panel Targets
+PB094-PC06,PB094,shelf_stability REQUIRED 45-day,SOFT,6,0.75,"Continuous quality, cost, or nutritional target",Quality Assurance Standard
+PB095-PC01,PB095,clean_label REQUIRED no_synthetic_additives,HARD,1,1.0,"Mandatory safety, regulatory or zero-tolerance dietary gate",Regulatory Knowledge Base
+PB095-PC02,PB095,product_category REQUIRED Sauces / Spreads / Emulsified Products,SOFT,2,0.7,"Continuous quality, cost, or nutritional target",Product Brief Parser
+PB095-PC03,PB095,texture_profile PREFERRED Smooth,SOFT,3,0.7,"Continuous quality, cost, or nutritional target",Sensory Panel Targets
+PB095-PC04,PB095,flavor_profile PREFERRED lemon flavour,SOFT,4,0.7,"Continuous quality, cost, or nutritional target",Sensory Panel Targets
+PB095-PC05,PB095,shelf_stability REQUIRED 6-month,SOFT,5,0.75,"Continuous quality, cost, or nutritional target",Quality Assurance Standard
+PB096-PC01,PB096,product_category REQUIRED Sauces / Spreads / Emulsified Products,SOFT,1,0.7,"Continuous quality, cost, or nutritional target",Product Brief Parser
+PB096-PC02,PB096,protein_min >= 3.0,SOFT,2,0.7,"Continuous quality, cost, or nutritional target",Product Brief Parser
+PB096-PC03,PB096,sugar_max <= 1.5,SOFT,3,0.7,"Continuous quality, cost, or nutritional target",Product Brief Parser
+PB096-PC04,PB096,max_raw_material_cost <= 4.5,SOFT,4,0.85,"Continuous quality, cost, or nutritional target",Commercial Cost Target
+PB096-PC05,PB096,shelf_stability REQUIRED 12-month,SOFT,5,0.75,"Continuous quality, cost, or nutritional target",Quality Assurance Standard
+PB097-PC01,PB097,product_category REQUIRED Sauces / Spreads / Emulsified Products,SOFT,1,0.7,"Continuous quality, cost, or nutritional target",Product Brief Parser
+PB097-PC02,PB097,protein_min >= 15.0,SOFT,2,0.7,"Continuous quality, cost, or nutritional target",Product Brief Parser
+PB097-PC03,PB097,fibre_min >= 6.0,SOFT,3,0.7,"Continuous quality, cost, or nutritional target",Product Brief Parser
+PB097-PC04,PB097,shelf_stability REQUIRED 12-month,SOFT,4,0.75,"Continuous quality, cost, or nutritional target",Quality Assurance Standard
+PB098-PC01,PB098,product_category REQUIRED Sauces / Spreads / Emulsified Products,SOFT,1,0.7,"Continuous quality, cost, or nutritional target",Product Brief Parser
+PB098-PC02,PB098,protein_min >= 8.0,SOFT,2,0.7,"Continuous quality, cost, or nutritional target",Product Brief Parser
+PB098-PC03,PB098,texture_profile PREFERRED Smooth,SOFT,3,0.7,"Continuous quality, cost, or nutritional target",Sensory Panel Targets
+PB098-PC04,PB098,shelf_stability REQUIRED 9-month,SOFT,4,0.75,"Continuous quality, cost, or nutritional target",Quality Assurance Standard
+PB099-PC01,PB099,dietary_pattern FORBIDDEN animal_derived_ingredients,HARD,1,1.0,"Mandatory safety, regulatory or zero-tolerance dietary gate",Dietary Standard Rules
+PB099-PC02,PB099,product_category REQUIRED Sauces / Spreads / Emulsified Products,SOFT,2,0.7,"Continuous quality, cost, or nutritional target",Product Brief Parser
+PB099-PC03,PB099,protein_min >= 7.0,SOFT,3,0.7,"Continuous quality, cost, or nutritional target",Product Brief Parser
+PB099-PC04,PB099,max_raw_material_cost <= 10.0,SOFT,4,0.85,"Continuous quality, cost, or nutritional target",Commercial Cost Target
+PB099-PC05,PB099,flavor_profile PREFERRED garlic flavour,SOFT,5,0.7,"Continuous quality, cost, or nutritional target",Sensory Panel Targets
+PB099-PC06,PB099,flavor_profile PREFERRED herb flavour,SOFT,6,0.7,"Continuous quality, cost, or nutritional target",Sensory Panel Targets
+PB099-PC07,PB099,shelf_stability REQUIRED 60-day,SOFT,7,0.75,"Continuous quality, cost, or nutritional target",Quality Assurance Standard
+PB100-PC01,PB100,clean_label REQUIRED no_synthetic_additives,HARD,1,1.0,"Mandatory safety, regulatory or zero-tolerance dietary gate",Regulatory Knowledge Base
+PB100-PC02,PB100,product_category REQUIRED Sauces / Spreads / Emulsified Products,SOFT,2,0.7,"Continuous quality, cost, or nutritional target",Product Brief Parser
+PB100-PC03,PB100,protein_min >= 12.0,SOFT,3,0.7,"Continuous quality, cost, or nutritional target",Product Brief Parser
+PB100-PC04,PB100,sugar_max <= 15.0,SOFT,4,0.7,"Continuous quality, cost, or nutritional target",Product Brief Parser
+PB100-PC05,PB100,max_raw_material_cost <= 13.5,SOFT,5,0.85,"Continuous quality, cost, or nutritional target",Commercial Cost Target
+PB100-PC06,PB100,flavor_profile PREFERRED cocoa flavour,SOFT,6,0.7,"Continuous quality, cost, or nutritional target",Sensory Panel Targets
+PB100-PC07,PB100,flavor_profile PREFERRED chocolate flavour,SOFT,7,0.7,"Continuous quality, cost, or nutritional target",Sensory Panel Targets
+PB100-PC08,PB100,flavor_profile PREFERRED almond flavour,SOFT,8,0.7,"Continuous quality, cost, or nutritional target",Sensory Panel Targets
+PB100-PC09,PB100,shelf_stability REQUIRED 12-month,SOFT,9,0.75,"Continuous quality, cost, or nutritional target",Quality Assurance Standard

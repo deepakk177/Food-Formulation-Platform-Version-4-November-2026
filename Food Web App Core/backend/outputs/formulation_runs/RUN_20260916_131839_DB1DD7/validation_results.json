@@ -1,0 +1,296 @@
+{
+  "status": "PASS",
+  "hard_constraint_results": [],
+  "soft_constraint_results": [
+    {
+      "constraint": "Cost Target Optimization",
+      "result": "PASS",
+      "evidence": "Cost Calculation"
+    },
+    {
+      "constraint": "Texture & Rheology Optimization",
+      "result": "PASS",
+      "evidence": "Hydrocolloid Matrix"
+    }
+  ],
+  "property_completeness_results": [
+    {
+      "ingredient": "Pea Protein Isolate (85%)",
+      "status": "PASS",
+      "missing_properties": []
+    },
+    {
+      "ingredient": "Coconut MCT Oil Powder (70%)",
+      "status": "PASS",
+      "missing_properties": []
+    },
+    {
+      "ingredient": "Monk Fruit Extract (Mogroside V50)",
+      "status": "PASS",
+      "missing_properties": []
+    },
+    {
+      "ingredient": "Fava Bean Protein Isolate",
+      "status": "PASS",
+      "missing_properties": []
+    },
+    {
+      "ingredient": "Soluble Corn Fiber",
+      "status": "PASS",
+      "missing_properties": []
+    },
+    {
+      "ingredient": "Polysorbate 80",
+      "status": "PASS",
+      "missing_properties": []
+    },
+    {
+      "ingredient": "Citric Acid",
+      "status": "PASS",
+      "missing_properties": []
+    }
+  ],
+  "regulatory_results": [
+    {
+      "ingredient": "Pea Protein Isolate (85%)",
+      "permitted": true,
+      "restriction": "GRAS / General Food Raw Material",
+      "jurisdiction": "FDA / EFSA / FSSAI Codex",
+      "status": "PASS"
+    },
+    {
+      "ingredient": "Coconut MCT Oil Powder (70%)",
+      "permitted": true,
+      "restriction": "GRAS / General Food Raw Material",
+      "jurisdiction": "FDA / EFSA / FSSAI Codex",
+      "status": "PASS"
+    },
+    {
+      "ingredient": "Monk Fruit Extract (Mogroside V50)",
+      "permitted": true,
+      "restriction": "GRAS / General Food Raw Material",
+      "jurisdiction": "FDA / EFSA / FSSAI Codex",
+      "status": "PASS"
+    },
+    {
+      "ingredient": "Fava Bean Protein Isolate",
+      "permitted": true,
+      "restriction": "GRAS / General Food Raw Material",
+      "jurisdiction": "FDA / EFSA / FSSAI Codex",
+      "status": "PASS"
+    },
+    {
+      "ingredient": "Soluble Corn Fiber",
+      "permitted": true,
+      "restriction": "GRAS / General Food Raw Material",
+      "jurisdiction": "FDA / EFSA / FSSAI Codex",
+      "status": "PASS"
+    },
+    {
+      "ingredient": "Polysorbate 80",
+      "permitted": true,
+      "restriction": "Codex GSFA Category 05.2 Max Level",
+      "jurisdiction": "FDA / EFSA / FSSAI Codex",
+      "status": "PASS"
+    },
+    {
+      "ingredient": "Citric Acid",
+      "permitted": true,
+      "restriction": "Codex GSFA Category 05.2 Max Level",
+      "jurisdiction": "FDA / EFSA / FSSAI Codex",
+      "status": "PASS"
+    }
+  ],
+  "allergen_results": [
+    {
+      "ingredient": "Pea Protein Isolate (85%)",
+      "allergen": "None",
+      "status": "PASS"
+    },
+    {
+      "ingredient": "Coconut MCT Oil Powder (70%)",
+      "allergen": "None",
+      "status": "PASS"
+    },
+    {
+      "ingredient": "Monk Fruit Extract (Mogroside V50)",
+      "allergen": "None",
+      "status": "PASS"
+    },
+    {
+      "ingredient": "Fava Bean Protein Isolate",
+      "allergen": "None",
+      "status": "PASS"
+    },
+    {
+      "ingredient": "Soluble Corn Fiber",
+      "allergen": "None",
+      "status": "PASS"
+    },
+    {
+      "ingredient": "Polysorbate 80",
+      "allergen": "None",
+      "status": "PASS"
+    },
+    {
+      "ingredient": "Citric Acid",
+      "allergen": "None",
+      "status": "PASS"
+    }
+  ],
+  "compatibility_results": [
+    {
+      "pair": "Pea Protein Isolate (85%) \u2194 Coconut MCT Oil Powder (70%)",
+      "status": "Compatible",
+      "reason": "Chemical & Matrix Hydrocolloid Compatible"
+    },
+    {
+      "pair": "Pea Protein Isolate (85%) \u2194 Monk Fruit Extract (Mogroside V50)",
+      "status": "Compatible",
+      "reason": "Chemical & Matrix Hydrocolloid Compatible"
+    },
+    {
+      "pair": "Pea Protein Isolate (85%) \u2194 Fava Bean Protein Isolate",
+      "status": "Compatible",
+      "reason": "Chemical & Matrix Hydrocolloid Compatible"
+    },
+    {
+      "pair": "Pea Protein Isolate (85%) \u2194 Soluble Corn Fiber",
+      "status": "Compatible",
+      "reason": "Chemical & Matrix Hydrocolloid Compatible"
+    },
+    {
+      "pair": "Pea Protein Isolate (85%) \u2194 Polysorbate 80",
+      "status": "Compatible",
+      "reason": "Chemical & Matrix Hydrocolloid Compatible"
+    },
+    {
+      "pair": "Pea Protein Isolate (85%) \u2194 Citric Acid",
+      "status": "Compatible",
+      "reason": "Chemical & Matrix Hydrocolloid Compatible"
+    },
+    {
+      "pair": "Coconut MCT Oil Powder (70%) \u2194 Monk Fruit Extract (Mogroside V50)",
+      "status": "Compatible",
+      "reason": "Chemical & Matrix Hydrocolloid Compatible"
+    },
+    {
+      "pair": "Coconut MCT Oil Powder (70%) \u2194 Fava Bean Protein Isolate",
+      "status": "Compatible",
+      "reason": "Chemical & Matrix Hydrocolloid Compatible"
+    },
+    {
+      "pair": "Coconut MCT Oil Powder (70%) \u2194 Soluble Corn Fiber",
+      "status": "Compatible",
+      "reason": "Chemical & Matrix Hydrocolloid Compatible"
+    },
+    {
+      "pair": "Coconut MCT Oil Powder (70%) \u2194 Polysorbate 80",
+      "status": "Compatible",
+      "reason": "Chemical & Matrix Hydrocolloid Compatible"
+    },
+    {
+      "pair": "Coconut MCT Oil Powder (70%) \u2194 Citric Acid",
+      "status": "Compatible",
+      "reason": "Chemical & Matrix Hydrocolloid Compatible"
+    },
+    {
+      "pair": "Monk Fruit Extract (Mogroside V50) \u2194 Fava Bean Protein Isolate",
+      "status": "Compatible",
+      "reason": "Chemical & Matrix Hydrocolloid Compatible"
+    },
+    {
+      "pair": "Monk Fruit Extract (Mogroside V50) \u2194 Soluble Corn Fiber",
+      "status": "Compatible",
+      "reason": "Chemical & Matrix Hydrocolloid Compatible"
+    },
+    {
+      "pair": "Monk Fruit Extract (Mogroside V50) \u2194 Polysorbate 80",
+      "status": "Compatible",
+      "reason": "Chemical & Matrix Hydrocolloid Compatible"
+    },
+    {
+      "pair": "Monk Fruit Extract (Mogroside V50) \u2194 Citric Acid",
+      "status": "Compatible",
+      "reason": "Chemical & Matrix Hydrocolloid Compatible"
+    },
+    {
+      "pair": "Fava Bean Protein Isolate \u2194 Soluble Corn Fiber",
+      "status": "Compatible",
+      "reason": "Chemical & Matrix Hydrocolloid Compatible"
+    },
+    {
+      "pair": "Fava Bean Protein Isolate \u2194 Polysorbate 80",
+      "status": "Compatible",
+      "reason": "Chemical & Matrix Hydrocolloid Compatible"
+    },
+    {
+      "pair": "Fava Bean Protein Isolate \u2194 Citric Acid",
+      "status": "Compatible",
+      "reason": "Chemical & Matrix Hydrocolloid Compatible"
+    },
+    {
+      "pair": "Soluble Corn Fiber \u2194 Polysorbate 80",
+      "status": "Compatible",
+      "reason": "Chemical & Matrix Hydrocolloid Compatible"
+    },
+    {
+      "pair": "Soluble Corn Fiber \u2194 Citric Acid",
+      "status": "Compatible",
+      "reason": "Chemical & Matrix Hydrocolloid Compatible"
+    },
+    {
+      "pair": "Polysorbate 80 \u2194 Citric Acid",
+      "status": "Compatible",
+      "reason": "Chemical & Matrix Hydrocolloid Compatible"
+    }
+  ],
+  "groundedness_results": [
+    {
+      "claim": "Pea Protein Isolate (85%) (Protein Source)",
+      "source": "USDA FDC / Codex GSFA",
+      "grounded": true
+    },
+    {
+      "claim": "Coconut MCT Oil Powder (70%) (Fats & Oils)",
+      "source": "USDA FDC / Codex GSFA",
+      "grounded": true
+    },
+    {
+      "claim": "Monk Fruit Extract (Mogroside V50) (Sweetener)",
+      "source": "USDA FDC / Codex GSFA",
+      "grounded": true
+    },
+    {
+      "claim": "Fava Bean Protein Isolate (Protein Source)",
+      "source": "USDA FDC / Codex GSFA",
+      "grounded": true
+    },
+    {
+      "claim": "Soluble Corn Fiber (Fiber)",
+      "source": "USDA FDC / Codex GSFA",
+      "grounded": true
+    },
+    {
+      "claim": "Polysorbate 80 (Preservative)",
+      "source": "USDA FDC / Codex GSFA",
+      "grounded": true
+    },
+    {
+      "claim": "Citric Acid (Acidity Regulator)",
+      "source": "USDA FDC / Codex GSFA",
+      "grounded": true
+    }
+  ],
+  "mass_balance_result": {
+    "total_percentage": 100.0,
+    "target_percentage": 100.0,
+    "is_feasible": true,
+    "status": "PASS"
+  },
+  "failure_reasons": [],
+  "requires_evidence_reasons": [],
+  "iteration_number": 1,
+  "max_iterations": 3,
+  "iteration_recommendation": "continue to STEP 6 (Scoring & Strategy Ranking)"
+}

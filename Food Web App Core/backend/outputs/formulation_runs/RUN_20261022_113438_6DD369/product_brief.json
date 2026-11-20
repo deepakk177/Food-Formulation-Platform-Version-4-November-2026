@@ -1,0 +1,570 @@
+{
+  "category": "Protein Bars / Functional Snacks",
+  "product_type": "chocolate_bar",
+  "product_name": "Dairy-Free Plant-Based White Chocolate Using Cocoa Butter And Plant-Based Ingredients",
+  "target_consumer": {
+    "consumer_group": "Vegan & Plant-Based Consumers",
+    "diet": "100% Plant-Based Strict Vegan",
+    "special_requirements": [
+      "Zero Animal Derived Ingredients",
+      "Sustainable Plant Nutrition"
+    ]
+  },
+  "description": "Vegan White Chocolate: Create a dairy-free plant-based white chocolate using cocoa butter and plant-based ingredients. Target >=25% cocoa butter, <=30% sugar and >=5% protein with a smooth, creamy melt. Develop a vanilla-caramel flavor profile and 12-month shelf life.",
+  "texture_requirements": [
+    "Creamy Melt",
+    "Smooth"
+  ],
+  "mouthfeel_requirements": [
+    "Smooth"
+  ],
+  "dietary_requirements": [
+    "Vegan",
+    "Dairy-Free"
+  ],
+  "allergen_constraints": [
+    "casein",
+    "dairy",
+    "lard",
+    "gelatin",
+    "milk",
+    "egg",
+    "lactose",
+    "whey",
+    "butter"
+  ],
+  "nutrition_targets": {
+    "protein_min": 5.0,
+    "protein_max": null,
+    "fat_min": null,
+    "fat_max": null,
+    "carbohydrate_max": null,
+    "sugar_max": 30.0,
+    "fibre_min": null,
+    "sodium_max": null,
+    "calories_max": null
+  },
+  "functional_goals": [],
+  "flavor_profile": [
+    "cocoa flavour",
+    "chocolate flavour",
+    "vanilla flavour",
+    "caramel flavour"
+  ],
+  "aroma_profile": [],
+  "processing_constraints": [],
+  "shelf_life_requirements": "12-month",
+  "water_activity_target": null,
+  "pH_target": null,
+  "regulatory_market": [],
+  "cost_target": null,
+  "excluded_ingredients": [
+    "casein",
+    "dairy",
+    "lard",
+    "gelatin",
+    "milk",
+    "egg",
+    "lactose",
+    "whey",
+    "butter"
+  ],
+  "preferred_ingredients": [],
+  "required_claims": [],
+  "prohibited_claims": [],
+  "hard_constraints": [
+    "DIETARY_EXCLUSIVE_VEGAN",
+    "DIETARY_EXCLUSIVE_DAIRY_FREE",
+    "EXCLUDED_INGREDIENTS_PROHIBITION"
+  ],
+  "soft_objectives": [
+    "MAXIMIZE_PROTEIN_DENSITY",
+    "OPTIMIZE_TEXTURE_AND_MOUTHFEEL"
+  ],
+  "experiment_strategies": [
+    "nutrition_maximized",
+    "cost_optimized",
+    "balanced",
+    "functionality_texture"
+  ],
+  "constraint_items": [
+    {
+      "constraint_id": "CONST-001",
+      "type": "PRODUCT_CATEGORY",
+      "parameter": "product_category",
+      "operator": "REQUIRED",
+      "target_value": "Protein Bars / Functional Snacks",
+      "unit": null,
+      "priority": "CRITICAL",
+      "importance": "CRITICAL",
+      "source_text": "Vegan White Chocolate: Create a dairy-free plant-based white",
+      "source_span": "Vegan White Chocolate: Create a dairy-free plant-based white",
+      "confidence": 0.98,
+      "hard_or_soft": "HARD",
+      "weight": null,
+      "reason": null
+    },
+    {
+      "constraint_id": "CONST-002",
+      "type": "DIETARY",
+      "parameter": "dietary_pattern",
+      "operator": "FORBIDDEN",
+      "target_value": "animal_derived_ingredients",
+      "unit": null,
+      "priority": "CRITICAL",
+      "importance": "CRITICAL",
+      "source_text": "Vegan",
+      "source_span": "Vegan",
+      "confidence": 1.0,
+      "hard_or_soft": "HARD",
+      "weight": null,
+      "reason": null
+    },
+    {
+      "constraint_id": "CONST-003",
+      "type": "ALLERGEN",
+      "parameter": "dairy",
+      "operator": "FORBIDDEN",
+      "target_value": "milk_and_dairy_derivatives",
+      "unit": null,
+      "priority": "CRITICAL",
+      "importance": "CRITICAL",
+      "source_text": "dairy-free",
+      "source_span": "dairy-free",
+      "confidence": 1.0,
+      "hard_or_soft": "HARD",
+      "weight": null,
+      "reason": null
+    },
+    {
+      "constraint_id": "CONST-004",
+      "type": "NUTRITION",
+      "parameter": "protein_min",
+      "operator": ">=",
+      "target_value": 5.0,
+      "unit": "%",
+      "priority": "CRITICAL",
+      "importance": "CRITICAL",
+      "source_text": "5% protein",
+      "source_span": "5% protein",
+      "confidence": 0.98,
+      "hard_or_soft": "HARD",
+      "weight": null,
+      "reason": null
+    },
+    {
+      "constraint_id": "CONST-005",
+      "type": "NUTRITION",
+      "parameter": "sugar_max",
+      "operator": "<=",
+      "target_value": 30.0,
+      "unit": "%",
+      "priority": "HIGH",
+      "importance": "HIGH",
+      "source_text": "30% sugar",
+      "source_span": "30% sugar",
+      "confidence": 0.95,
+      "hard_or_soft": "HARD",
+      "weight": null,
+      "reason": null
+    },
+    {
+      "constraint_id": "CONST-006",
+      "type": "INGREDIENT_RESTRICTION",
+      "parameter": "cocoa_butter",
+      "operator": ">=",
+      "target_value": 25.0,
+      "unit": "%",
+      "priority": "CRITICAL",
+      "importance": "CRITICAL",
+      "source_text": "25% cocoa butter",
+      "source_span": "25% cocoa butter",
+      "confidence": 0.98,
+      "hard_or_soft": "HARD",
+      "weight": null,
+      "reason": null
+    },
+    {
+      "constraint_id": "CONST-007",
+      "type": "SENSORY",
+      "parameter": "texture_profile",
+      "operator": "PREFERRED",
+      "target_value": "Creamy Melt",
+      "unit": null,
+      "priority": "MEDIUM",
+      "importance": "MEDIUM",
+      "source_text": "creamy melt",
+      "source_span": "creamy melt",
+      "confidence": 0.95,
+      "hard_or_soft": "SOFT",
+      "weight": null,
+      "reason": null
+    },
+    {
+      "constraint_id": "CONST-008",
+      "type": "SENSORY",
+      "parameter": "texture_profile",
+      "operator": "PREFERRED",
+      "target_value": "Smooth",
+      "unit": null,
+      "priority": "MEDIUM",
+      "importance": "MEDIUM",
+      "source_text": "smooth",
+      "source_span": "smooth",
+      "confidence": 0.9,
+      "hard_or_soft": "SOFT",
+      "weight": null,
+      "reason": null
+    },
+    {
+      "constraint_id": "CONST-009",
+      "type": "SENSORY",
+      "parameter": "flavor_profile",
+      "operator": "PREFERRED",
+      "target_value": "cocoa flavour",
+      "unit": null,
+      "priority": "MEDIUM",
+      "importance": "MEDIUM",
+      "source_text": "cocoa",
+      "source_span": "cocoa",
+      "confidence": 0.9,
+      "hard_or_soft": "SOFT",
+      "weight": null,
+      "reason": null
+    },
+    {
+      "constraint_id": "CONST-010",
+      "type": "SENSORY",
+      "parameter": "flavor_profile",
+      "operator": "PREFERRED",
+      "target_value": "chocolate flavour",
+      "unit": null,
+      "priority": "MEDIUM",
+      "importance": "MEDIUM",
+      "source_text": "Chocolate",
+      "source_span": "Chocolate",
+      "confidence": 0.9,
+      "hard_or_soft": "SOFT",
+      "weight": null,
+      "reason": null
+    },
+    {
+      "constraint_id": "CONST-011",
+      "type": "SENSORY",
+      "parameter": "flavor_profile",
+      "operator": "PREFERRED",
+      "target_value": "vanilla flavour",
+      "unit": null,
+      "priority": "MEDIUM",
+      "importance": "MEDIUM",
+      "source_text": "vanilla",
+      "source_span": "vanilla",
+      "confidence": 0.9,
+      "hard_or_soft": "SOFT",
+      "weight": null,
+      "reason": null
+    },
+    {
+      "constraint_id": "CONST-012",
+      "type": "SENSORY",
+      "parameter": "flavor_profile",
+      "operator": "PREFERRED",
+      "target_value": "caramel flavour",
+      "unit": null,
+      "priority": "MEDIUM",
+      "importance": "MEDIUM",
+      "source_text": "caramel",
+      "source_span": "caramel",
+      "confidence": 0.9,
+      "hard_or_soft": "SOFT",
+      "weight": null,
+      "reason": null
+    },
+    {
+      "constraint_id": "CONST-013",
+      "type": "SHELF_LIFE",
+      "parameter": "shelf_stability",
+      "operator": ">=",
+      "target_value": "12-month",
+      "unit": "month",
+      "priority": "MEDIUM",
+      "importance": "MEDIUM",
+      "source_text": "shelf life",
+      "source_span": "shelf life",
+      "confidence": 0.88,
+      "hard_or_soft": "SOFT",
+      "weight": null,
+      "reason": null
+    }
+  ],
+  "constraint_graph": {
+    "nodes": [
+      {
+        "id": "PROD-001",
+        "type": "ProductBrief",
+        "value": "Target Product (Protein Bars / Functional Snacks)",
+        "source": "User Product Brief"
+      },
+      {
+        "id": "CONST-001",
+        "type": "Product_CategoryConstraintNode",
+        "attribute": "product_category",
+        "operator": "REQUIRED",
+        "target_value": "Protein Bars / Functional Snacks",
+        "unit": null,
+        "hard_or_soft": "HARD",
+        "priority": "CRITICAL",
+        "value": "product_category REQUIRED Protein Bars / Functional Snacks",
+        "source": "Vegan White Chocolate: Create a dairy-free plant-based white"
+      },
+      {
+        "id": "CONST-002",
+        "type": "DietaryConstraintNode",
+        "attribute": "dietary_pattern",
+        "operator": "FORBIDDEN",
+        "target_value": "animal_derived_ingredients",
+        "unit": null,
+        "hard_or_soft": "HARD",
+        "priority": "CRITICAL",
+        "value": "dietary_pattern FORBIDDEN animal_derived_ingredients",
+        "source": "Vegan"
+      },
+      {
+        "id": "CONST-003",
+        "type": "AllergenConstraintNode",
+        "attribute": "dairy",
+        "operator": "FORBIDDEN",
+        "target_value": "milk_and_dairy_derivatives",
+        "unit": null,
+        "hard_or_soft": "HARD",
+        "priority": "CRITICAL",
+        "value": "dairy FORBIDDEN milk_and_dairy_derivatives",
+        "source": "dairy-free"
+      },
+      {
+        "id": "CONST-004",
+        "type": "NutritionConstraintNode",
+        "attribute": "protein_min",
+        "operator": ">=",
+        "target_value": 5.0,
+        "unit": "%",
+        "hard_or_soft": "HARD",
+        "priority": "CRITICAL",
+        "value": "protein_min >= 5.0 %",
+        "source": "5% protein"
+      },
+      {
+        "id": "CONST-005",
+        "type": "NutritionConstraintNode",
+        "attribute": "sugar_max",
+        "operator": "<=",
+        "target_value": 30.0,
+        "unit": "%",
+        "hard_or_soft": "HARD",
+        "priority": "HIGH",
+        "value": "sugar_max <= 30.0 %",
+        "source": "30% sugar"
+      },
+      {
+        "id": "CONST-006",
+        "type": "Ingredient_RestrictionConstraintNode",
+        "attribute": "cocoa_butter",
+        "operator": ">=",
+        "target_value": 25.0,
+        "unit": "%",
+        "hard_or_soft": "HARD",
+        "priority": "CRITICAL",
+        "value": "cocoa_butter >= 25.0 %",
+        "source": "25% cocoa butter"
+      },
+      {
+        "id": "CONST-007",
+        "type": "SensoryConstraintNode",
+        "attribute": "texture_profile",
+        "operator": "PREFERRED",
+        "target_value": "Creamy Melt",
+        "unit": null,
+        "hard_or_soft": "SOFT",
+        "priority": "MEDIUM",
+        "value": "texture_profile PREFERRED Creamy Melt",
+        "source": "creamy melt"
+      },
+      {
+        "id": "CONST-008",
+        "type": "SensoryConstraintNode",
+        "attribute": "texture_profile",
+        "operator": "PREFERRED",
+        "target_value": "Smooth",
+        "unit": null,
+        "hard_or_soft": "SOFT",
+        "priority": "MEDIUM",
+        "value": "texture_profile PREFERRED Smooth",
+        "source": "smooth"
+      },
+      {
+        "id": "CONST-009",
+        "type": "SensoryConstraintNode",
+        "attribute": "flavor_profile",
+        "operator": "PREFERRED",
+        "target_value": "cocoa flavour",
+        "unit": null,
+        "hard_or_soft": "SOFT",
+        "priority": "MEDIUM",
+        "value": "flavor_profile PREFERRED cocoa flavour",
+        "source": "cocoa"
+      },
+      {
+        "id": "CONST-010",
+        "type": "SensoryConstraintNode",
+        "attribute": "flavor_profile",
+        "operator": "PREFERRED",
+        "target_value": "chocolate flavour",
+        "unit": null,
+        "hard_or_soft": "SOFT",
+        "priority": "MEDIUM",
+        "value": "flavor_profile PREFERRED chocolate flavour",
+        "source": "Chocolate"
+      },
+      {
+        "id": "CONST-011",
+        "type": "SensoryConstraintNode",
+        "attribute": "flavor_profile",
+        "operator": "PREFERRED",
+        "target_value": "vanilla flavour",
+        "unit": null,
+        "hard_or_soft": "SOFT",
+        "priority": "MEDIUM",
+        "value": "flavor_profile PREFERRED vanilla flavour",
+        "source": "vanilla"
+      },
+      {
+        "id": "CONST-012",
+        "type": "SensoryConstraintNode",
+        "attribute": "flavor_profile",
+        "operator": "PREFERRED",
+        "target_value": "caramel flavour",
+        "unit": null,
+        "hard_or_soft": "SOFT",
+        "priority": "MEDIUM",
+        "value": "flavor_profile PREFERRED caramel flavour",
+        "source": "caramel"
+      },
+      {
+        "id": "CONST-013",
+        "type": "Shelf_LifeConstraintNode",
+        "attribute": "shelf_stability",
+        "operator": ">=",
+        "target_value": "12-month",
+        "unit": "month",
+        "hard_or_soft": "SOFT",
+        "priority": "MEDIUM",
+        "value": "shelf_stability >= 12-month month",
+        "source": "shelf life"
+      }
+    ],
+    "edges": [
+      {
+        "source": "PROD-001",
+        "relationship": "HAS_CONSTRAINT",
+        "target": "CONST-001",
+        "hard_or_soft": "HARD",
+        "priority": "CRITICAL"
+      },
+      {
+        "source": "PROD-001",
+        "relationship": "HAS_CONSTRAINT",
+        "target": "CONST-002",
+        "hard_or_soft": "HARD",
+        "priority": "CRITICAL"
+      },
+      {
+        "source": "PROD-001",
+        "relationship": "HAS_ALLERGEN_CONSTRAINT",
+        "target": "CONST-003",
+        "hard_or_soft": "HARD",
+        "priority": "CRITICAL"
+      },
+      {
+        "source": "PROD-001",
+        "relationship": "HAS_NUTRITION_CONSTRAINT",
+        "target": "CONST-004",
+        "hard_or_soft": "HARD",
+        "priority": "CRITICAL"
+      },
+      {
+        "source": "PROD-001",
+        "relationship": "HAS_NUTRITION_CONSTRAINT",
+        "target": "CONST-005",
+        "hard_or_soft": "HARD",
+        "priority": "HIGH"
+      },
+      {
+        "source": "PROD-001",
+        "relationship": "HAS_INGREDIENT_RESTRICTION",
+        "target": "CONST-006",
+        "hard_or_soft": "HARD",
+        "priority": "CRITICAL"
+      },
+      {
+        "source": "PROD-001",
+        "relationship": "HAS_SENSORY_CONSTRAINT",
+        "target": "CONST-007",
+        "hard_or_soft": "SOFT",
+        "priority": "MEDIUM"
+      },
+      {
+        "source": "PROD-001",
+        "relationship": "HAS_SENSORY_CONSTRAINT",
+        "target": "CONST-008",
+        "hard_or_soft": "SOFT",
+        "priority": "MEDIUM"
+      },
+      {
+        "source": "PROD-001",
+        "relationship": "HAS_SENSORY_CONSTRAINT",
+        "target": "CONST-009",
+        "hard_or_soft": "SOFT",
+        "priority": "MEDIUM"
+      },
+      {
+        "source": "PROD-001",
+        "relationship": "HAS_SENSORY_CONSTRAINT",
+        "target": "CONST-010",
+        "hard_or_soft": "SOFT",
+        "priority": "MEDIUM"
+      },
+      {
+        "source": "PROD-001",
+        "relationship": "HAS_SENSORY_CONSTRAINT",
+        "target": "CONST-011",
+        "hard_or_soft": "SOFT",
+        "priority": "MEDIUM"
+      },
+      {
+        "source": "PROD-001",
+        "relationship": "HAS_SENSORY_CONSTRAINT",
+        "target": "CONST-012",
+        "hard_or_soft": "SOFT",
+        "priority": "MEDIUM"
+      },
+      {
+        "source": "PROD-001",
+        "relationship": "HAS_PROCESSING_CONSTRAINT",
+        "target": "CONST-013",
+        "hard_or_soft": "SOFT",
+        "priority": "MEDIUM"
+      }
+    ],
+    "summary": {
+      "Nutrition Constraints": 2,
+      "Functional Constraints": 0,
+      "Sensory Constraints": 6,
+      "Regulatory Constraints": 0,
+      "Cost Constraints": 0,
+      "Ingredient Restrictions": 2,
+      "Processing Constraints": 1,
+      "Graph Nodes": 14,
+      "Graph Edges": 13
+    }
+  }
+}

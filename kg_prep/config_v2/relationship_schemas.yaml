@@ -1,0 +1,533 @@
+# ==============================================================================
+# Pipeline V2: Relationship Schemas Configuration
+# Version: 2.0.0
+# Description: Declarative specifications for all 38 canonical relationship
+#              contracts frozen in Phase 0.2. Strict endpoint referential integrity.
+# ==============================================================================
+
+version: "2.0.0"
+
+standard_header:
+  - "relationship_id"
+  - "source_id"
+  - "source_type"
+  - "relationship_type"
+  - "target_id"
+  - "target_type"
+  - "source_dataset_id"
+  - "source_record_id"
+  - "extraction_confidence"
+  - "evidence_id"
+  - "verification_status"
+
+relationships:
+  - relationship_name: "ingredient_belongs_to_category"
+    relationship_type: "BELONGS_TO_CATEGORY"
+    source_node_type: "Ingredient"
+    target_node_type: "FoodCategory"
+    direction: "OUTGOING"
+    required_properties: []
+    optional_properties: []
+    provenance_requirement: "Mandatory source_dataset_id and source_record_id from FoodOn or USDA FDC."
+    evidence_requirement: "Explicit hierarchy assertion in FoodOn OWL or USDA Food Category table."
+    allowed_assertion_status: ["SOURCE_VERIFIED", "CALCULATION_VERIFIED"]
+    uniqueness_constraints: ["source_id", "relationship_type", "target_id"]
+    is_derived: false
+
+  - relationship_name: "ingredient_is_a"
+    relationship_type: "IS_A"
+    source_node_type: "Ingredient"
+    target_node_type: "Ingredient"
+    direction: "OUTGOING"
+    required_properties: []
+    optional_properties: []
+    provenance_requirement: "Mandatory source_dataset_id pointing to FoodOn."
+    evidence_requirement: "FoodOn OWL rdfs:subClassOf assertion."
+    allowed_assertion_status: ["SOURCE_VERIFIED"]
+    uniqueness_constraints: ["source_id", "relationship_type", "target_id"]
+    is_derived: false
+
+  - relationship_name: "ingredient_has_grade"
+    relationship_type: "HAS_GRADE"
+    source_node_type: "Ingredient"
+    target_node_type: "IngredientGrade"
+    direction: "OUTGOING"
+    required_properties: []
+    optional_properties: []
+    provenance_requirement: "Manufacturer Technical Data Sheet citation."
+    evidence_requirement: "Official commercial product catalog or specification."
+    allowed_assertion_status: ["SOURCE_VERIFIED"]
+    uniqueness_constraints: ["source_id", "relationship_type", "target_id"]
+    is_derived: false
+
+  - relationship_name: "grade_has_specification"
+    relationship_type: "HAS_SPECIFICATION"
+    source_node_type: "IngredientGrade"
+    target_node_type: "IngredientSpecification"
+    direction: "OUTGOING"
+    required_properties: []
+    optional_properties: []
+    provenance_requirement: "Mandatory manufacturer TDS reference."
+    evidence_requirement: "Commercial technical data sheet parameter table."
+    allowed_assertion_status: ["SOURCE_VERIFIED"]
+    uniqueness_constraints: ["source_id", "relationship_type", "target_id"]
+    is_derived: false
+
+  - relationship_name: "grade_supplied_by"
+    relationship_type: "SUPPLIED_BY"
+    source_node_type: "IngredientGrade"
+    target_node_type: "Supplier"
+    direction: "OUTGOING"
+    required_properties: []
+    optional_properties: []
+    provenance_requirement: "Commercial manufacturer or distributor listing."
+    evidence_requirement: "Supplier commercial catalog or official website."
+    allowed_assertion_status: ["SOURCE_VERIFIED"]
+    uniqueness_constraints: ["source_id", "relationship_type", "target_id"]
+    is_derived: false
+
+  - relationship_name: "entity_has_external_identifier"
+    relationship_type: "HAS_EXTERNAL_IDENTIFIER"
+    source_node_type:
+      - "Ingredient"
+      - "Compound"
+    target_node_type: "ExternalIdentifier"
+    direction: "OUTGOING"
+    required_properties: []
+    optional_properties: []
+    provenance_requirement: "Cross-reference registry mapping."
+    evidence_requirement: "Database identifier linkage (PubChem, CAS, UNII, FDC, FoodOn)."
+    allowed_assertion_status: ["SOURCE_VERIFIED"]
+    uniqueness_constraints: ["source_id", "relationship_type", "target_id"]
+    is_derived: false
+
+  - relationship_name: "ingredient_substitutes_for"
+    relationship_type: "SUBSTITUTES_FOR"
+    source_node_type: "Ingredient"
+    target_node_type: "Ingredient"
+    direction: "OUTGOING"
+    required_properties: []
+    optional_properties:
+      - "substitution_ratio"
+      - "application_context"
+    provenance_requirement: "Peer-reviewed scientific study or formulation trial."
+    evidence_requirement: "Empirical formulation paper validating functional equivalence."
+    allowed_assertion_status: ["DERIVED_RULE_VERIFIED", "REQUIRES_EXPERT_REVIEW"]
+    uniqueness_constraints: ["source_id", "relationship_type", "target_id"]
+    is_derived: true
+
+  - relationship_name: "ingredient_has_nutrient_profile"
+    relationship_type: "HAS_NUTRIENT_PROFILE"
+    source_node_type: "Ingredient"
+    target_node_type: "NutrientProfile"
+    direction: "OUTGOING"
+    required_properties: []
+    optional_properties: []
+    provenance_requirement: "Official nutritional database release (USDA FDC / IFCT)."
+    evidence_requirement: "USDA FDC food record or IFCT publication entry."
+    allowed_assertion_status: ["SOURCE_VERIFIED"]
+    uniqueness_constraints: ["source_id", "relationship_type", "target_id"]
+    is_derived: false
+
+  - relationship_name: "profile_has_nutrient_measurement"
+    relationship_type: "HAS_NUTRIENT_MEASUREMENT"
+    source_node_type: "NutrientProfile"
+    target_node_type: "NutrientMeasurement"
+    direction: "OUTGOING"
+    required_properties: []
+    optional_properties: []
+    provenance_requirement: "USDA FDC food_nutrient.csv record."
+    evidence_requirement: "Laboratory assay or nutrient calculation log in source dataset."
+    allowed_assertion_status: ["SOURCE_VERIFIED"]
+    uniqueness_constraints: ["source_id", "relationship_type", "target_id"]
+    is_derived: false
+
+  - relationship_name: "measurement_measures_nutrient"
+    relationship_type: "MEASURES_NUTRIENT"
+    source_node_type: "NutrientMeasurement"
+    target_node_type: "Nutrient"
+    direction: "OUTGOING"
+    required_properties: []
+    optional_properties: []
+    provenance_requirement: "INFOODS / USDA nutrient dictionary."
+    evidence_requirement: "Official nutrient code mapping."
+    allowed_assertion_status: ["SOURCE_VERIFIED"]
+    uniqueness_constraints: ["source_id", "relationship_type", "target_id"]
+    is_derived: false
+
+  - relationship_name: "ingredient_contains_compound"
+    relationship_type: "CONTAINS_COMPOUND"
+    source_node_type: "Ingredient"
+    target_node_type: "Compound"
+    direction: "OUTGOING"
+    required_properties: []
+    optional_properties:
+      - "concentration_min_ppm"
+      - "concentration_max_ppm"
+    provenance_requirement: "Chemical database or analytical literature."
+    evidence_requirement: "Peer-reviewed chemical analysis or FooDB entry."
+    allowed_assertion_status: ["SOURCE_VERIFIED"]
+    uniqueness_constraints: ["source_id", "relationship_type", "target_id"]
+    is_derived: false
+
+  - relationship_name: "ingredient_has_flavor_molecule"
+    relationship_type: "HAS_FLAVOR_MOLECULE"
+    source_node_type: "Ingredient"
+    target_node_type: "FlavorMolecule"
+    direction: "OUTGOING"
+    required_properties: []
+    optional_properties: []
+    provenance_requirement: "FlavorDB entity association."
+    evidence_requirement: "FlavorDB natural occurrence mapping."
+    allowed_assertion_status: ["SOURCE_VERIFIED"]
+    uniqueness_constraints: ["source_id", "relationship_type", "target_id"]
+    is_derived: false
+
+  - relationship_name: "molecule_exhibits_descriptor"
+    relationship_type: "EXHIBITS_FLAVOR_DESCRIPTOR"
+    source_node_type: "FlavorMolecule"
+    target_node_type: "SensoryFlavorDescriptor"
+    direction: "OUTGOING"
+    required_properties: []
+    optional_properties: []
+    provenance_requirement: "FlavorDB or FEMA aroma descriptor profile."
+    evidence_requirement: "Sensory panel evaluation or standardized flavor profile."
+    allowed_assertion_status: ["SOURCE_VERIFIED"]
+    uniqueness_constraints: ["source_id", "relationship_type", "target_id"]
+    is_derived: false
+
+  - relationship_name: "ingredient_has_functional_role"
+    relationship_type: "HAS_FUNCTIONAL_ROLE"
+    source_node_type: "Ingredient"
+    target_node_type: "FunctionalRole"
+    direction: "OUTGOING"
+    required_properties: []
+    optional_properties: []
+    provenance_requirement: "Codex Class Names and the International Numbering System (CXG 36-1989)."
+    evidence_requirement: "Statutory functional class designation in Codex or national regulations."
+    allowed_assertion_status: ["SOURCE_VERIFIED"]
+    uniqueness_constraints: ["source_id", "relationship_type", "target_id"]
+    is_derived: false
+
+  - relationship_name: "ingredient_has_allergen"
+    relationship_type: "HAS_ALLERGEN"
+    source_node_type: "Ingredient"
+    target_node_type: "Allergen"
+    direction: "OUTGOING"
+    required_properties: []
+    optional_properties: []
+    provenance_requirement: "Statutory allergen regulation (FALCPA, EU 1169/2011, FSSAI)."
+    evidence_requirement: "Official statutory allergen classification table."
+    allowed_assertion_status: ["SOURCE_VERIFIED"]
+    uniqueness_constraints: ["source_id", "relationship_type", "target_id"]
+    is_derived: false
+
+  - relationship_name: "grade_has_property_measurement"
+    relationship_type: "HAS_PROPERTY_MEASUREMENT"
+    source_node_type: "IngredientGrade"
+    target_node_type: "PropertyMeasurement"
+    direction: "OUTGOING"
+    required_properties: []
+    optional_properties: []
+    provenance_requirement: "Certificate of Analysis (COA) or analytical paper citation."
+    evidence_requirement: "Laboratory experimental measurement under specified conditions."
+    allowed_assertion_status: ["SOURCE_VERIFIED"]
+    uniqueness_constraints: ["source_id", "relationship_type", "target_id"]
+    is_derived: false
+
+  - relationship_name: "ingredient_participates_in_interaction"
+    relationship_type: "PARTICIPATES_IN_INTERACTION"
+    source_node_type: "Ingredient"
+    target_node_type: "IngredientInteraction"
+    direction: "OUTGOING"
+    required_properties: []
+    optional_properties: []
+    provenance_requirement: "Peer-reviewed journal paper (DOI mandatory)."
+    evidence_requirement: "Empirical physical or chemical interaction observation in published literature."
+    allowed_assertion_status: ["SOURCE_VERIFIED"]
+    uniqueness_constraints: ["source_id", "relationship_type", "target_id"]
+    is_derived: false
+
+  - relationship_name: "interaction_governed_by_rule"
+    relationship_type: "GOVERNED_BY_RULE"
+    source_node_type: "IngredientInteraction"
+    target_node_type: "CompatibilityRule"
+    direction: "OUTGOING"
+    required_properties: []
+    optional_properties: []
+    provenance_requirement: "Food chemistry consensus or formal thermodynamic principle."
+    evidence_requirement: "Domain rule codified from peer-reviewed food physical chemistry."
+    allowed_assertion_status: ["DERIVED_RULE_VERIFIED"]
+    uniqueness_constraints: ["source_id", "relationship_type", "target_id"]
+    is_derived: true
+
+  - relationship_name: "subject_supported_by_evidence"
+    relationship_type: "SUPPORTED_BY_EVIDENCE"
+    source_node_type:
+      - "IngredientInteraction"
+      - "ShelfLifeStudy"
+      - "SensoryEvaluation"
+      - "RegulatoryPermission"
+      - "FormulationVersion"
+      - "Claim"
+      - "Recipe"
+    target_node_type: "Evidence"
+    direction: "OUTGOING"
+    required_properties: []
+    optional_properties: []
+    provenance_requirement: "Primary source document citation (DOI, Patent Number, Gazette Ref)."
+    evidence_requirement: "Direct verifiable source citation."
+    allowed_assertion_status: ["SOURCE_VERIFIED"]
+    uniqueness_constraints: ["source_id", "relationship_type", "target_id"]
+    is_derived: false
+
+  - relationship_name: "recipe_has_component"
+    relationship_type: "HAS_RECIPE_COMPONENT"
+    source_node_type: "Recipe"
+    target_node_type: "RecipeComponent"
+    direction: "OUTGOING"
+    required_properties: []
+    optional_properties: []
+    provenance_requirement: "Culinary recipe repository source record."
+    evidence_requirement: "Explicit ingredient line in published recipe."
+    allowed_assertion_status: ["SOURCE_VERIFIED"]
+    uniqueness_constraints: ["source_id", "relationship_type", "target_id"]
+    is_derived: false
+
+  - relationship_name: "component_uses_ingredient"
+    relationship_type: "USES_INGREDIENT"
+    source_node_type: "RecipeComponent"
+    target_node_type: "Ingredient"
+    direction: "OUTGOING"
+    required_properties: []
+    optional_properties: []
+    provenance_requirement: "Deterministic entity resolution rule."
+    evidence_requirement: "Mapped via validated culinary text resolver."
+    allowed_assertion_status: ["DERIVED_RULE_VERIFIED", "REQUIRES_EXPERT_REVIEW"]
+    uniqueness_constraints: ["source_id", "relationship_type", "target_id"]
+    is_derived: true
+
+  - relationship_name: "recipe_has_step"
+    relationship_type: "HAS_RECIPE_STEP"
+    source_node_type: "Recipe"
+    target_node_type: "RecipeStep"
+    direction: "OUTGOING"
+    required_properties: []
+    optional_properties: []
+    provenance_requirement: "Culinary recipe repository source record."
+    evidence_requirement: "Instruction step in source recipe."
+    allowed_assertion_status: ["SOURCE_VERIFIED"]
+    uniqueness_constraints: ["source_id", "relationship_type", "target_id"]
+    is_derived: false
+
+  - relationship_name: "product_has_declaration"
+    relationship_type: "HAS_INGREDIENT_DECLARATION"
+    source_node_type: "CommercialProduct"
+    target_node_type: "ProductIngredientDeclaration"
+    direction: "OUTGOING"
+    required_properties: []
+    optional_properties: []
+    provenance_requirement: "Open Food Facts product record (barcode verified)."
+    evidence_requirement: "Physical label ingredients list crawl."
+    allowed_assertion_status: ["SOURCE_VERIFIED"]
+    uniqueness_constraints: ["source_id", "relationship_type", "target_id"]
+    is_derived: false
+
+  - relationship_name: "declaration_uses_ingredient"
+    relationship_type: "USES_INGREDIENT"
+    source_node_type: "ProductIngredientDeclaration"
+    target_node_type: "Ingredient"
+    direction: "OUTGOING"
+    required_properties: []
+    optional_properties: []
+    provenance_requirement: "Deterministic entity resolution hierarchy."
+    evidence_requirement: "Normalized label declaration mapping to FoodOn/canonical ingredient."
+    allowed_assertion_status: ["DERIVED_RULE_VERIFIED", "REQUIRES_EXPERT_REVIEW"]
+    uniqueness_constraints: ["source_id", "relationship_type", "target_id"]
+    is_derived: true
+
+  - relationship_name: "formulation_has_version"
+    relationship_type: "HAS_VERSION"
+    source_node_type: "Formulation"
+    target_node_type: "FormulationVersion"
+    direction: "OUTGOING"
+    required_properties: []
+    optional_properties: []
+    provenance_requirement: "Industrial formulation notebook or patent specification."
+    evidence_requirement: "Trial version batch record."
+    allowed_assertion_status: ["SOURCE_VERIFIED"]
+    uniqueness_constraints: ["source_id", "relationship_type", "target_id"]
+    is_derived: false
+
+  - relationship_name: "version_has_component"
+    relationship_type: "HAS_FORMULATION_COMPONENT"
+    source_node_type: "FormulationVersion"
+    target_node_type: "FormulationComponent"
+    direction: "OUTGOING"
+    required_properties: []
+    optional_properties: []
+    provenance_requirement: "Industrial formulation batch sheet or patent table."
+    evidence_requirement: "Explicit batch component row with mass percentage."
+    allowed_assertion_status: ["SOURCE_VERIFIED"]
+    uniqueness_constraints: ["source_id", "relationship_type", "target_id"]
+    is_derived: false
+
+  - relationship_name: "component_uses_grade"
+    relationship_type: "USES_INGREDIENT_GRADE"
+    source_node_type: "FormulationComponent"
+    target_node_type: "IngredientGrade"
+    direction: "OUTGOING"
+    required_properties: []
+    optional_properties: []
+    provenance_requirement: "Formulation batch specification."
+    evidence_requirement: "Specified commercial grade used in formulation."
+    allowed_assertion_status: ["SOURCE_VERIFIED"]
+    uniqueness_constraints: ["source_id", "relationship_type", "target_id"]
+    is_derived: false
+
+  - relationship_name: "version_has_process_sequence"
+    relationship_type: "HAS_PROCESS_SEQUENCE"
+    source_node_type: "FormulationVersion"
+    target_node_type: "ProcessStep"
+    direction: "OUTGOING"
+    required_properties: []
+    optional_properties: []
+    provenance_requirement: "Manufacturing process flowchart or patent description."
+    evidence_requirement: "Process sequence specification for formulation."
+    allowed_assertion_status: ["SOURCE_VERIFIED"]
+    uniqueness_constraints: ["source_id", "relationship_type", "target_id"]
+    is_derived: false
+
+  - relationship_name: "step_precedes_step"
+    relationship_type: "PRECEDES"
+    source_node_type:
+      - "ProcessStep"
+      - "RecipeStep"
+    target_node_type:
+      - "ProcessStep"
+      - "RecipeStep"
+    direction: "OUTGOING"
+    required_properties: []
+    optional_properties: []
+    provenance_requirement: "Sequential ordering in recipe or industrial process DAG."
+    evidence_requirement: "Linear execution order."
+    allowed_assertion_status: ["SOURCE_VERIFIED"]
+    uniqueness_constraints: ["source_id", "relationship_type", "target_id"]
+    is_derived: false
+
+  - relationship_name: "process_step_uses_equipment"
+    relationship_type: "USES_EQUIPMENT"
+    source_node_type: "ProcessStep"
+    target_node_type: "Equipment"
+    direction: "OUTGOING"
+    required_properties: []
+    optional_properties: []
+    provenance_requirement: "Processing equipment disclosure in patent or pilot trial."
+    evidence_requirement: "Machinery specified for unit operation."
+    allowed_assertion_status: ["SOURCE_VERIFIED"]
+    uniqueness_constraints: ["source_id", "relationship_type", "target_id"]
+    is_derived: false
+
+  - relationship_name: "regulation_defines_permission"
+    relationship_type: "DEFINES"
+    source_node_type: "Regulation"
+    target_node_type: "RegulatoryPermission"
+    direction: "OUTGOING"
+    required_properties: []
+    optional_properties: []
+    provenance_requirement: "Statutory regulation or standard citation."
+    evidence_requirement: "Official legal provision in published regulation."
+    allowed_assertion_status: ["SOURCE_VERIFIED"]
+    uniqueness_constraints: ["source_id", "relationship_type", "target_id"]
+    is_derived: false
+
+  - relationship_name: "permission_permitted_in_category"
+    relationship_type: "PERMITTED_IN"
+    source_node_type: "RegulatoryPermission"
+    target_node_type: "FoodCategory"
+    direction: "OUTGOING"
+    required_properties: []
+    optional_properties: []
+    provenance_requirement: "Codex GSFA Table 2 or national standard schedule."
+    evidence_requirement: "Explicit provision associating additive with food category."
+    allowed_assertion_status: ["SOURCE_VERIFIED"]
+    uniqueness_constraints: ["source_id", "relationship_type", "target_id"]
+    is_derived: false
+
+  - relationship_name: "permission_governs_additive"
+    relationship_type: "GOVERNS_ADDITIVE"
+    source_node_type: "RegulatoryPermission"
+    target_node_type: "Ingredient"
+    direction: "OUTGOING"
+    required_properties: []
+    optional_properties: []
+    provenance_requirement: "Codex INS or statutory additive schedule."
+    evidence_requirement: "Exact additive match in regulatory permission."
+    allowed_assertion_status: ["SOURCE_VERIFIED"]
+    uniqueness_constraints: ["source_id", "relationship_type", "target_id"]
+    is_derived: false
+
+  - relationship_name: "grade_has_cost_record"
+    relationship_type: "HAS_COST_RECORD"
+    source_node_type: "IngredientGrade"
+    target_node_type: "CostRecord"
+    direction: "OUTGOING"
+    required_properties: []
+    optional_properties: []
+    provenance_requirement: "Supplier price quotation or market bulletin."
+    evidence_requirement: "Binding commercial quotation or official market news bulletin."
+    allowed_assertion_status: ["SOURCE_VERIFIED"]
+    uniqueness_constraints: ["source_id", "relationship_type", "target_id"]
+    is_derived: false
+
+  - relationship_name: "version_has_shelf_life_study"
+    relationship_type: "HAS_SHELF_LIFE_STUDY"
+    source_node_type: "FormulationVersion"
+    target_node_type: "ShelfLifeStudy"
+    direction: "OUTGOING"
+    required_properties: []
+    optional_properties: []
+    provenance_requirement: "Formal accelerated or real-time shelf life study report."
+    evidence_requirement: "Scientific stability report with observed failure mode."
+    allowed_assertion_status: ["SOURCE_VERIFIED"]
+    uniqueness_constraints: ["source_id", "relationship_type", "target_id"]
+    is_derived: false
+
+  - relationship_name: "version_has_sensory_evaluation"
+    relationship_type: "HAS_SENSORY_EVALUATION"
+    source_node_type: "FormulationVersion"
+    target_node_type: "SensoryEvaluation"
+    direction: "OUTGOING"
+    required_properties: []
+    optional_properties: []
+    provenance_requirement: "Sensory panel evaluation study report."
+    evidence_requirement: "Trained panel or consumer sensory test report."
+    allowed_assertion_status: ["SOURCE_VERIFIED"]
+    uniqueness_constraints: ["source_id", "relationship_type", "target_id"]
+    is_derived: false
+
+  - relationship_name: "packaging_uses_material"
+    relationship_type: "USES_MATERIAL"
+    source_node_type: "PackagingSpecification"
+    target_node_type: "PackagingMaterial"
+    direction: "OUTGOING"
+    required_properties: []
+    optional_properties: []
+    provenance_requirement: "Packaging technical specification."
+    evidence_requirement: "Packaging manufacturer material specification."
+    allowed_assertion_status: ["SOURCE_VERIFIED"]
+    uniqueness_constraints: ["source_id", "relationship_type", "target_id"]
+    is_derived: false
+
+  - relationship_name: "claim_governed_by_regulation"
+    relationship_type: "GOVERNED_BY_REGULATION"
+    source_node_type: "Claim"
+    target_node_type: "Regulation"
+    direction: "OUTGOING"
+    required_properties: []
+    optional_properties: []
+    provenance_requirement: "Statutory nutrition/health claims standard (FDA, EFSA, FSSAI)."
+    evidence_requirement: "Statutory claim authorization clause."
+    allowed_assertion_status: ["SOURCE_VERIFIED"]
+    uniqueness_constraints: ["source_id", "relationship_type", "target_id"]
+    is_derived: false

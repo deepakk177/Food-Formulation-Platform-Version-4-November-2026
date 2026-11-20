@@ -1,0 +1,401 @@
+query_id,product_brief_id,strategy,query_intent,query_text_or_expression,top_k,retrieved_count,latency_ms
+PB001-Q1,PB001,Structured DB,Exact nutritional and cost range query,SELECT * FROM ingredients WHERE category='Protein Bars / Functional Snacks',50,28,12.4
+PB001-Q2,PB001,KG Cypher Traversal,Graph traversal for functional texturizers and compatibility,MATCH (i:Ingredient)-[:HAS_FUNCTIONAL_ROLE]->(r:Role) WHERE r.name='Emulsifier' RETURN i,40,22,45.2
+PB001-Q3,PB001,Semantic Vector Search,TF-IDF cosine similarity over sensory and brief notes,Create a vegan high-protein chocolate bar containing at least 20% protein and at,50,35,31.8
+PB001-Q4,PB001,Constraint-Guided Hybrid,Fused candidate pool with hard allergen and dietary gates,FUSED POOL for Protein Bars / Functional Snacks & ['dietary_pattern'],50,42,58.1
+PB002-Q1,PB002,Structured DB,Exact nutritional and cost range query,SELECT * FROM ingredients WHERE category='Protein Bars / Functional Snacks',50,28,12.4
+PB002-Q2,PB002,KG Cypher Traversal,Graph traversal for functional texturizers and compatibility,MATCH (i:Ingredient)-[:HAS_FUNCTIONAL_ROLE]->(r:Role) WHERE r.name='Emulsifier' RETURN i,40,22,45.2
+PB002-Q3,PB002,Semantic Vector Search,TF-IDF cosine similarity over sensory and brief notes,Formulate a gluten-free berry energy bar containing at least 15% protein and at ,50,35,31.8
+PB002-Q4,PB002,Constraint-Guided Hybrid,Fused candidate pool with hard allergen and dietary gates,FUSED POOL for Protein Bars / Functional Snacks & [],50,42,58.1
+PB003-Q1,PB003,Structured DB,Exact nutritional and cost range query,SELECT * FROM ingredients WHERE category='Protein Bars / Functional Snacks',50,28,12.4
+PB003-Q2,PB003,KG Cypher Traversal,Graph traversal for functional texturizers and compatibility,MATCH (i:Ingredient)-[:HAS_FUNCTIONAL_ROLE]->(r:Role) WHERE r.name='Emulsifier' RETURN i,40,22,45.2
+PB003-Q3,PB003,Semantic Vector Search,TF-IDF cosine similarity over sensory and brief notes,Design a keto-friendly almond crunch snack bar containing at most 3% sugar and a,50,35,31.8
+PB003-Q4,PB003,Constraint-Guided Hybrid,Fused candidate pool with hard allergen and dietary gates,FUSED POOL for Protein Bars / Functional Snacks & [],50,42,58.1
+PB004-Q1,PB004,Structured DB,Exact nutritional and cost range query,SELECT * FROM ingredients WHERE category='Protein Bars / Functional Snacks',50,28,12.4
+PB004-Q2,PB004,KG Cypher Traversal,Graph traversal for functional texturizers and compatibility,MATCH (i:Ingredient)-[:HAS_FUNCTIONAL_ROLE]->(r:Role) WHERE r.name='Emulsifier' RETURN i,40,22,45.2
+PB004-Q3,PB004,Semantic Vector Search,TF-IDF cosine similarity over sensory and brief notes,Develop an allergen-free functional seed snack bar containing at least 16% prote,50,35,31.8
+PB004-Q4,PB004,Constraint-Guided Hybrid,Fused candidate pool with hard allergen and dietary gates,FUSED POOL for Protein Bars / Functional Snacks & [],50,42,58.1
+PB005-Q1,PB005,Structured DB,Exact nutritional and cost range query,SELECT * FROM ingredients WHERE category='Protein Bars / Functional Snacks',50,28,12.4
+PB005-Q2,PB005,KG Cypher Traversal,Graph traversal for functional texturizers and compatibility,MATCH (i:Ingredient)-[:HAS_FUNCTIONAL_ROLE]->(r:Role) WHERE r.name='Emulsifier' RETURN i,40,22,45.2
+PB005-Q3,PB005,Semantic Vector Search,TF-IDF cosine similarity over sensory and brief notes,Formulate a vegan diabetic-friendly mocha protein bar containing at least 22% pr,50,35,31.8
+PB005-Q4,PB005,Constraint-Guided Hybrid,Fused candidate pool with hard allergen and dietary gates,FUSED POOL for Protein Bars / Functional Snacks & ['dietary_pattern'],50,42,58.1
+PB006-Q1,PB006,Structured DB,Exact nutritional and cost range query,SELECT * FROM ingredients WHERE category='Protein Bars / Functional Snacks',50,28,12.4
+PB006-Q2,PB006,KG Cypher Traversal,Graph traversal for functional texturizers and compatibility,MATCH (i:Ingredient)-[:HAS_FUNCTIONAL_ROLE]->(r:Role) WHERE r.name='Emulsifier' RETURN i,40,22,45.2
+PB006-Q3,PB006,Semantic Vector Search,TF-IDF cosine similarity over sensory and brief notes,Create a clean label plant-based peanut butter protein bar containing at least 2,50,35,31.8
+PB006-Q4,PB006,Constraint-Guided Hybrid,Fused candidate pool with hard allergen and dietary gates,FUSED POOL for Protein Bars / Functional Snacks & [],50,42,58.1
+PB007-Q1,PB007,Structured DB,Exact nutritional and cost range query,SELECT * FROM ingredients WHERE category='Protein Bars / Functional Snacks',50,28,12.4
+PB007-Q2,PB007,KG Cypher Traversal,Graph traversal for functional texturizers and compatibility,MATCH (i:Ingredient)-[:HAS_FUNCTIONAL_ROLE]->(r:Role) WHERE r.name='Emulsifier' RETURN i,40,22,45.2
+PB007-Q3,PB007,Semantic Vector Search,TF-IDF cosine similarity over sensory and brief notes,Design a senior-friendly high-protein soft chew snack bar containing at least 18,50,35,31.8
+PB007-Q4,PB007,Constraint-Guided Hybrid,Fused candidate pool with hard allergen and dietary gates,FUSED POOL for Protein Bars / Functional Snacks & [],50,42,58.1
+PB008-Q1,PB008,Structured DB,Exact nutritional and cost range query,SELECT * FROM ingredients WHERE category='Protein Bars / Functional Snacks',50,28,12.4
+PB008-Q2,PB008,KG Cypher Traversal,Graph traversal for functional texturizers and compatibility,MATCH (i:Ingredient)-[:HAS_FUNCTIONAL_ROLE]->(r:Role) WHERE r.name='Emulsifier' RETURN i,40,22,45.2
+PB008-Q3,PB008,Semantic Vector Search,TF-IDF cosine similarity over sensory and brief notes,Develop an ultra-low-cost school-safe functional protein bar containing at least,50,35,31.8
+PB008-Q4,PB008,Constraint-Guided Hybrid,Fused candidate pool with hard allergen and dietary gates,FUSED POOL for Protein Bars / Functional Snacks & [],50,42,58.1
+PB009-Q1,PB009,Structured DB,Exact nutritional and cost range query,SELECT * FROM ingredients WHERE category='Protein Bars / Functional Snacks',50,28,12.4
+PB009-Q2,PB009,KG Cypher Traversal,Graph traversal for functional texturizers and compatibility,MATCH (i:Ingredient)-[:HAS_FUNCTIONAL_ROLE]->(r:Role) WHERE r.name='Emulsifier' RETURN i,40,22,45.2
+PB009-Q3,PB009,Semantic Vector Search,TF-IDF cosine similarity over sensory and brief notes,Formulate a vegan endurance electrolyte protein bar containing at least 17% prot,50,35,31.8
+PB009-Q4,PB009,Constraint-Guided Hybrid,Fused candidate pool with hard allergen and dietary gates,FUSED POOL for Protein Bars / Functional Snacks & ['dietary_pattern'],50,42,58.1
+PB010-Q1,PB010,Structured DB,Exact nutritional and cost range query,SELECT * FROM ingredients WHERE category='Protein Bars / Functional Snacks',50,28,12.4
+PB010-Q2,PB010,KG Cypher Traversal,Graph traversal for functional texturizers and compatibility,MATCH (i:Ingredient)-[:HAS_FUNCTIONAL_ROLE]->(r:Role) WHERE r.name='Emulsifier' RETURN i,40,22,45.2
+PB010-Q3,PB010,Semantic Vector Search,TF-IDF cosine similarity over sensory and brief notes,Create a premium chocolate brownie protein bar containing at least 25% protein a,50,35,31.8
+PB010-Q4,PB010,Constraint-Guided Hybrid,Fused candidate pool with hard allergen and dietary gates,FUSED POOL for Protein Bars / Functional Snacks & [],50,42,58.1
+PB011-Q1,PB011,Structured DB,Exact nutritional and cost range query,SELECT * FROM ingredients WHERE category='Protein Bars / Functional Snacks',50,28,12.4
+PB011-Q2,PB011,KG Cypher Traversal,Graph traversal for functional texturizers and compatibility,MATCH (i:Ingredient)-[:HAS_FUNCTIONAL_ROLE]->(r:Role) WHERE r.name='Emulsifier' RETURN i,40,22,45.2
+PB011-Q3,PB011,Semantic Vector Search,TF-IDF cosine similarity over sensory and brief notes,Design a gluten-free vegan apple cinnamon protein bar containing at least 16% pr,50,35,31.8
+PB011-Q4,PB011,Constraint-Guided Hybrid,Fused candidate pool with hard allergen and dietary gates,FUSED POOL for Protein Bars / Functional Snacks & ['dietary_pattern'],50,42,58.1
+PB012-Q1,PB012,Structured DB,Exact nutritional and cost range query,SELECT * FROM ingredients WHERE category='Protein Bars / Functional Snacks',50,28,12.4
+PB012-Q2,PB012,KG Cypher Traversal,Graph traversal for functional texturizers and compatibility,MATCH (i:Ingredient)-[:HAS_FUNCTIONAL_ROLE]->(r:Role) WHERE r.name='Emulsifier' RETURN i,40,22,45.2
+PB012-Q3,PB012,Semantic Vector Search,TF-IDF cosine similarity over sensory and brief notes,"Develop a high-protein savory snack bar containing at least 20% protein, at most",50,35,31.8
+PB012-Q4,PB012,Constraint-Guided Hybrid,Fused candidate pool with hard allergen and dietary gates,FUSED POOL for Protein Bars / Functional Snacks & [],50,42,58.1
+PB013-Q1,PB013,Structured DB,Exact nutritional and cost range query,SELECT * FROM ingredients WHERE category='Protein Bars / Functional Snacks',50,28,12.4
+PB013-Q2,PB013,KG Cypher Traversal,Graph traversal for functional texturizers and compatibility,MATCH (i:Ingredient)-[:HAS_FUNCTIONAL_ROLE]->(r:Role) WHERE r.name='Emulsifier' RETURN i,40,22,45.2
+PB013-Q3,PB013,Semantic Vector Search,TF-IDF cosine similarity over sensory and brief notes,Formulate a dairy-free coconut caramel protein snack bar containing at least 18%,50,35,31.8
+PB013-Q4,PB013,Constraint-Guided Hybrid,Fused candidate pool with hard allergen and dietary gates,FUSED POOL for Protein Bars / Functional Snacks & [],50,42,58.1
+PB014-Q1,PB014,Structured DB,Exact nutritional and cost range query,SELECT * FROM ingredients WHERE category='Protein Bars / Functional Snacks',50,28,12.4
+PB014-Q2,PB014,KG Cypher Traversal,Graph traversal for functional texturizers and compatibility,MATCH (i:Ingredient)-[:HAS_FUNCTIONAL_ROLE]->(r:Role) WHERE r.name='Emulsifier' RETURN i,40,22,45.2
+PB014-Q3,PB014,Semantic Vector Search,TF-IDF cosine similarity over sensory and brief notes,Create a gut-health prebiotic protein bar containing at least 15% protein and at,50,35,31.8
+PB014-Q4,PB014,Constraint-Guided Hybrid,Fused candidate pool with hard allergen and dietary gates,FUSED POOL for Protein Bars / Functional Snacks & [],50,42,58.1
+PB015-Q1,PB015,Structured DB,Exact nutritional and cost range query,SELECT * FROM ingredients WHERE category='Protein Bars / Functional Snacks',50,28,12.4
+PB015-Q2,PB015,KG Cypher Traversal,Graph traversal for functional texturizers and compatibility,MATCH (i:Ingredient)-[:HAS_FUNCTIONAL_ROLE]->(r:Role) WHERE r.name='Emulsifier' RETURN i,40,22,45.2
+PB015-Q3,PB015,Semantic Vector Search,TF-IDF cosine similarity over sensory and brief notes,Design a high-protein crispy cluster snack containing at least 22% protein and a,50,35,31.8
+PB015-Q4,PB015,Constraint-Guided Hybrid,Fused candidate pool with hard allergen and dietary gates,FUSED POOL for Protein Bars / Functional Snacks & [],50,42,58.1
+PB016-Q1,PB016,Structured DB,Exact nutritional and cost range query,SELECT * FROM ingredients WHERE category='Protein Bars / Functional Snacks',50,28,12.4
+PB016-Q2,PB016,KG Cypher Traversal,Graph traversal for functional texturizers and compatibility,MATCH (i:Ingredient)-[:HAS_FUNCTIONAL_ROLE]->(r:Role) WHERE r.name='Emulsifier' RETURN i,40,22,45.2
+PB016-Q3,PB016,Semantic Vector Search,TF-IDF cosine similarity over sensory and brief notes,Develop a vegan zero-added-sugar almond protein bar containing at least 20% prot,50,35,31.8
+PB016-Q4,PB016,Constraint-Guided Hybrid,Fused candidate pool with hard allergen and dietary gates,FUSED POOL for Protein Bars / Functional Snacks & ['dietary_pattern'],50,42,58.1
+PB017-Q1,PB017,Structured DB,Exact nutritional and cost range query,SELECT * FROM ingredients WHERE category='Protein Bars / Functional Snacks',50,28,12.4
+PB017-Q2,PB017,KG Cypher Traversal,Graph traversal for functional texturizers and compatibility,MATCH (i:Ingredient)-[:HAS_FUNCTIONAL_ROLE]->(r:Role) WHERE r.name='Emulsifier' RETURN i,40,22,45.2
+PB017-Q3,PB017,Semantic Vector Search,TF-IDF cosine similarity over sensory and brief notes,"Formulate a hypoallergenic protein energy bite containing at least 14% protein, ",50,35,31.8
+PB017-Q4,PB017,Constraint-Guided Hybrid,Fused candidate pool with hard allergen and dietary gates,FUSED POOL for Protein Bars / Functional Snacks & [],50,42,58.1
+PB018-Q1,PB018,Structured DB,Exact nutritional and cost range query,SELECT * FROM ingredients WHERE category='Protein Bars / Functional Snacks',50,28,12.4
+PB018-Q2,PB018,KG Cypher Traversal,Graph traversal for functional texturizers and compatibility,MATCH (i:Ingredient)-[:HAS_FUNCTIONAL_ROLE]->(r:Role) WHERE r.name='Emulsifier' RETURN i,40,22,45.2
+PB018-Q3,PB018,Semantic Vector Search,TF-IDF cosine similarity over sensory and brief notes,Create a clean label matcha green tea protein bar containing at least 18% protei,50,35,31.8
+PB018-Q4,PB018,Constraint-Guided Hybrid,Fused candidate pool with hard allergen and dietary gates,FUSED POOL for Protein Bars / Functional Snacks & [],50,42,58.1
+PB019-Q1,PB019,Structured DB,Exact nutritional and cost range query,SELECT * FROM ingredients WHERE category='Protein Bars / Functional Snacks',50,28,12.4
+PB019-Q2,PB019,KG Cypher Traversal,Graph traversal for functional texturizers and compatibility,MATCH (i:Ingredient)-[:HAS_FUNCTIONAL_ROLE]->(r:Role) WHERE r.name='Emulsifier' RETURN i,40,22,45.2
+PB019-Q3,PB019,Semantic Vector Search,TF-IDF cosine similarity over sensory and brief notes,Design a high-fibre oat & chia protein snack bar containing at least 16% protein,50,35,31.8
+PB019-Q4,PB019,Constraint-Guided Hybrid,Fused candidate pool with hard allergen and dietary gates,FUSED POOL for Protein Bars / Functional Snacks & [],50,42,58.1
+PB020-Q1,PB020,Structured DB,Exact nutritional and cost range query,SELECT * FROM ingredients WHERE category='Protein Bars / Functional Snacks',50,28,12.4
+PB020-Q2,PB020,KG Cypher Traversal,Graph traversal for functional texturizers and compatibility,MATCH (i:Ingredient)-[:HAS_FUNCTIONAL_ROLE]->(r:Role) WHERE r.name='Emulsifier' RETURN i,40,22,45.2
+PB020-Q3,PB020,Semantic Vector Search,TF-IDF cosine similarity over sensory and brief notes,Develop an ultra-high-protein plant bar containing at least 30% protein and at m,50,35,31.8
+PB020-Q4,PB020,Constraint-Guided Hybrid,Fused candidate pool with hard allergen and dietary gates,FUSED POOL for Protein Bars / Functional Snacks & [],50,42,58.1
+PB021-Q1,PB021,Structured DB,Exact nutritional and cost range query,SELECT * FROM ingredients WHERE category='Plant-Based Beverages',50,28,12.4
+PB021-Q2,PB021,KG Cypher Traversal,Graph traversal for functional texturizers and compatibility,MATCH (i:Ingredient)-[:HAS_FUNCTIONAL_ROLE]->(r:Role) WHERE r.name='Emulsifier' RETURN i,40,22,45.2
+PB021-Q3,PB021,Semantic Vector Search,TF-IDF cosine similarity over sensory and brief notes,Create a vegan high-protein chocolate RTD beverage containing at least 6% protei,50,35,31.8
+PB021-Q4,PB021,Constraint-Guided Hybrid,Fused candidate pool with hard allergen and dietary gates,FUSED POOL for Plant-Based Beverages & ['dietary_pattern'],50,42,58.1
+PB022-Q1,PB022,Structured DB,Exact nutritional and cost range query,SELECT * FROM ingredients WHERE category='Plant-Based Beverages',50,28,12.4
+PB022-Q2,PB022,KG Cypher Traversal,Graph traversal for functional texturizers and compatibility,MATCH (i:Ingredient)-[:HAS_FUNCTIONAL_ROLE]->(r:Role) WHERE r.name='Emulsifier' RETURN i,40,22,45.2
+PB022-Q3,PB022,Semantic Vector Search,TF-IDF cosine similarity over sensory and brief notes,Formulate a sugar-free oat vanilla latte beverage containing at least 3% protein,50,35,31.8
+PB022-Q4,PB022,Constraint-Guided Hybrid,Fused candidate pool with hard allergen and dietary gates,FUSED POOL for Plant-Based Beverages & [],50,42,58.1
+PB023-Q1,PB023,Structured DB,Exact nutritional and cost range query,SELECT * FROM ingredients WHERE category='Plant-Based Beverages',50,28,12.4
+PB023-Q2,PB023,KG Cypher Traversal,Graph traversal for functional texturizers and compatibility,MATCH (i:Ingredient)-[:HAS_FUNCTIONAL_ROLE]->(r:Role) WHERE r.name='Emulsifier' RETURN i,40,22,45.2
+PB023-Q3,PB023,Semantic Vector Search,TF-IDF cosine similarity over sensory and brief notes,Design a clean label almond protein recovery drink containing at least 5% protei,50,35,31.8
+PB023-Q4,PB023,Constraint-Guided Hybrid,Fused candidate pool with hard allergen and dietary gates,FUSED POOL for Plant-Based Beverages & [],50,42,58.1
+PB024-Q1,PB024,Structured DB,Exact nutritional and cost range query,SELECT * FROM ingredients WHERE category='Plant-Based Beverages',50,28,12.4
+PB024-Q2,PB024,KG Cypher Traversal,Graph traversal for functional texturizers and compatibility,MATCH (i:Ingredient)-[:HAS_FUNCTIONAL_ROLE]->(r:Role) WHERE r.name='Emulsifier' RETURN i,40,22,45.2
+PB024-Q3,PB024,Semantic Vector Search,TF-IDF cosine similarity over sensory and brief notes,Develop a nut-free allergen-safe plant milk beverage for children containing at ,50,35,31.8
+PB024-Q4,PB024,Constraint-Guided Hybrid,Fused candidate pool with hard allergen and dietary gates,FUSED POOL for Plant-Based Beverages & [],50,42,58.1
+PB025-Q1,PB025,Structured DB,Exact nutritional and cost range query,SELECT * FROM ingredients WHERE category='Plant-Based Beverages',50,28,12.4
+PB025-Q2,PB025,KG Cypher Traversal,Graph traversal for functional texturizers and compatibility,MATCH (i:Ingredient)-[:HAS_FUNCTIONAL_ROLE]->(r:Role) WHERE r.name='Emulsifier' RETURN i,40,22,45.2
+PB025-Q3,PB025,Semantic Vector Search,TF-IDF cosine similarity over sensory and brief notes,Formulate an elderly-oriented nutrient-dense meal replacement beverage containin,50,35,31.8
+PB025-Q4,PB025,Constraint-Guided Hybrid,Fused candidate pool with hard allergen and dietary gates,FUSED POOL for Plant-Based Beverages & [],50,42,58.1
+PB026-Q1,PB026,Structured DB,Exact nutritional and cost range query,SELECT * FROM ingredients WHERE category='Plant-Based Beverages',50,28,12.4
+PB026-Q2,PB026,KG Cypher Traversal,Graph traversal for functional texturizers and compatibility,MATCH (i:Ingredient)-[:HAS_FUNCTIONAL_ROLE]->(r:Role) WHERE r.name='Emulsifier' RETURN i,40,22,45.2
+PB026-Q3,PB026,Semantic Vector Search,TF-IDF cosine similarity over sensory and brief notes,"Create a ketogenic coconut MCT plant beverage containing at least 8% fat, at mos",50,35,31.8
+PB026-Q4,PB026,Constraint-Guided Hybrid,Fused candidate pool with hard allergen and dietary gates,FUSED POOL for Plant-Based Beverages & [],50,42,58.1
+PB027-Q1,PB027,Structured DB,Exact nutritional and cost range query,SELECT * FROM ingredients WHERE category='Plant-Based Beverages',50,28,12.4
+PB027-Q2,PB027,KG Cypher Traversal,Graph traversal for functional texturizers and compatibility,MATCH (i:Ingredient)-[:HAS_FUNCTIONAL_ROLE]->(r:Role) WHERE r.name='Emulsifier' RETURN i,40,22,45.2
+PB027-Q3,PB027,Semantic Vector Search,TF-IDF cosine similarity over sensory and brief notes,Design a refreshing plant-based citrus electrolyte beverage containing at least ,50,35,31.8
+PB027-Q4,PB027,Constraint-Guided Hybrid,Fused candidate pool with hard allergen and dietary gates,FUSED POOL for Plant-Based Beverages & [],50,42,58.1
+PB028-Q1,PB028,Structured DB,Exact nutritional and cost range query,SELECT * FROM ingredients WHERE category='Plant-Based Beverages',50,28,12.4
+PB028-Q2,PB028,KG Cypher Traversal,Graph traversal for functional texturizers and compatibility,MATCH (i:Ingredient)-[:HAS_FUNCTIONAL_ROLE]->(r:Role) WHERE r.name='Emulsifier' RETURN i,40,22,45.2
+PB028-Q3,PB028,Semantic Vector Search,TF-IDF cosine similarity over sensory and brief notes,Develop an ultra-low-cost commercial plant-based tea latte beverage containing a,50,35,31.8
+PB028-Q4,PB028,Constraint-Guided Hybrid,Fused candidate pool with hard allergen and dietary gates,FUSED POOL for Plant-Based Beverages & [],50,42,58.1
+PB029-Q1,PB029,Structured DB,Exact nutritional and cost range query,SELECT * FROM ingredients WHERE category='Plant-Based Beverages',50,28,12.4
+PB029-Q2,PB029,KG Cypher Traversal,Graph traversal for functional texturizers and compatibility,MATCH (i:Ingredient)-[:HAS_FUNCTIONAL_ROLE]->(r:Role) WHERE r.name='Emulsifier' RETURN i,40,22,45.2
+PB029-Q3,PB029,Semantic Vector Search,TF-IDF cosine similarity over sensory and brief notes,Formulate a gut-health prebiotic golden turmeric plant drink containing at least,50,35,31.8
+PB029-Q4,PB029,Constraint-Guided Hybrid,Fused candidate pool with hard allergen and dietary gates,FUSED POOL for Plant-Based Beverages & [],50,42,58.1
+PB030-Q1,PB030,Structured DB,Exact nutritional and cost range query,SELECT * FROM ingredients WHERE category='Plant-Based Beverages',50,28,12.4
+PB030-Q2,PB030,KG Cypher Traversal,Graph traversal for functional texturizers and compatibility,MATCH (i:Ingredient)-[:HAS_FUNCTIONAL_ROLE]->(r:Role) WHERE r.name='Emulsifier' RETURN i,40,22,45.2
+PB030-Q3,PB030,Semantic Vector Search,TF-IDF cosine similarity over sensory and brief notes,Create a high-protein plant-based berry smoothie drink containing at least 8% pr,50,35,31.8
+PB030-Q4,PB030,Constraint-Guided Hybrid,Fused candidate pool with hard allergen and dietary gates,FUSED POOL for Plant-Based Beverages & [],50,42,58.1
+PB031-Q1,PB031,Structured DB,Exact nutritional and cost range query,SELECT * FROM ingredients WHERE category='Plant-Based Beverages',50,28,12.4
+PB031-Q2,PB031,KG Cypher Traversal,Graph traversal for functional texturizers and compatibility,MATCH (i:Ingredient)-[:HAS_FUNCTIONAL_ROLE]->(r:Role) WHERE r.name='Emulsifier' RETURN i,40,22,45.2
+PB031-Q3,PB031,Semantic Vector Search,TF-IDF cosine similarity over sensory and brief notes,Design a gluten-free plant-based cold brew protein coffee beverage containing at,50,35,31.8
+PB031-Q4,PB031,Constraint-Guided Hybrid,Fused candidate pool with hard allergen and dietary gates,FUSED POOL for Plant-Based Beverages & [],50,42,58.1
+PB032-Q1,PB032,Structured DB,Exact nutritional and cost range query,SELECT * FROM ingredients WHERE category='Plant-Based Beverages',50,28,12.4
+PB032-Q2,PB032,KG Cypher Traversal,Graph traversal for functional texturizers and compatibility,MATCH (i:Ingredient)-[:HAS_FUNCTIONAL_ROLE]->(r:Role) WHERE r.name='Emulsifier' RETURN i,40,22,45.2
+PB032-Q3,PB032,Semantic Vector Search,TF-IDF cosine similarity over sensory and brief notes,Develop a vegan chocolate hazelnut recovery drink containing at least 5% protein,50,35,31.8
+PB032-Q4,PB032,Constraint-Guided Hybrid,Fused candidate pool with hard allergen and dietary gates,FUSED POOL for Plant-Based Beverages & ['dietary_pattern'],50,42,58.1
+PB033-Q1,PB033,Structured DB,Exact nutritional and cost range query,SELECT * FROM ingredients WHERE category='Plant-Based Beverages',50,28,12.4
+PB033-Q2,PB033,KG Cypher Traversal,Graph traversal for functional texturizers and compatibility,MATCH (i:Ingredient)-[:HAS_FUNCTIONAL_ROLE]->(r:Role) WHERE r.name='Emulsifier' RETURN i,40,22,45.2
+PB033-Q3,PB033,Semantic Vector Search,TF-IDF cosine similarity over sensory and brief notes,Formulate an allergen-free pea protein RTD beverage containing at least 7% prote,50,35,31.8
+PB033-Q4,PB033,Constraint-Guided Hybrid,Fused candidate pool with hard allergen and dietary gates,FUSED POOL for Plant-Based Beverages & [],50,42,58.1
+PB034-Q1,PB034,Structured DB,Exact nutritional and cost range query,SELECT * FROM ingredients WHERE category='Plant-Based Beverages',50,28,12.4
+PB034-Q2,PB034,KG Cypher Traversal,Graph traversal for functional texturizers and compatibility,MATCH (i:Ingredient)-[:HAS_FUNCTIONAL_ROLE]->(r:Role) WHERE r.name='Emulsifier' RETURN i,40,22,45.2
+PB034-Q3,PB034,Semantic Vector Search,TF-IDF cosine similarity over sensory and brief notes,Create a clean label dairy-free matcha latte containing at least 3.5% protein an,50,35,31.8
+PB034-Q4,PB034,Constraint-Guided Hybrid,Fused candidate pool with hard allergen and dietary gates,FUSED POOL for Plant-Based Beverages & [],50,42,58.1
+PB035-Q1,PB035,Structured DB,Exact nutritional and cost range query,SELECT * FROM ingredients WHERE category='Plant-Based Beverages',50,28,12.4
+PB035-Q2,PB035,KG Cypher Traversal,Graph traversal for functional texturizers and compatibility,MATCH (i:Ingredient)-[:HAS_FUNCTIONAL_ROLE]->(r:Role) WHERE r.name='Emulsifier' RETURN i,40,22,45.2
+PB035-Q3,PB035,Semantic Vector Search,TF-IDF cosine similarity over sensory and brief notes,"Design a low-calorie plant-based hydration drink containing at least 2% protein,",50,35,31.8
+PB035-Q4,PB035,Constraint-Guided Hybrid,Fused candidate pool with hard allergen and dietary gates,FUSED POOL for Plant-Based Beverages & [],50,42,58.1
+PB036-Q1,PB036,Structured DB,Exact nutritional and cost range query,SELECT * FROM ingredients WHERE category='Plant-Based Beverages',50,28,12.4
+PB036-Q2,PB036,KG Cypher Traversal,Graph traversal for functional texturizers and compatibility,MATCH (i:Ingredient)-[:HAS_FUNCTIONAL_ROLE]->(r:Role) WHERE r.name='Emulsifier' RETURN i,40,22,45.2
+PB036-Q3,PB036,Semantic Vector Search,TF-IDF cosine similarity over sensory and brief notes,Develop a functional sleep-support plant-based chamomile latte containing at lea,50,35,31.8
+PB036-Q4,PB036,Constraint-Guided Hybrid,Fused candidate pool with hard allergen and dietary gates,FUSED POOL for Plant-Based Beverages & [],50,42,58.1
+PB037-Q1,PB037,Structured DB,Exact nutritional and cost range query,SELECT * FROM ingredients WHERE category='Plant-Based Beverages',50,28,12.4
+PB037-Q2,PB037,KG Cypher Traversal,Graph traversal for functional texturizers and compatibility,MATCH (i:Ingredient)-[:HAS_FUNCTIONAL_ROLE]->(r:Role) WHERE r.name='Emulsifier' RETURN i,40,22,45.2
+PB037-Q3,PB037,Semantic Vector Search,TF-IDF cosine similarity over sensory and brief notes,"Formulate a diabetic-safe unsweetened plant milk containing at least 4% protein,",50,35,31.8
+PB037-Q4,PB037,Constraint-Guided Hybrid,Fused candidate pool with hard allergen and dietary gates,FUSED POOL for Plant-Based Beverages & [],50,42,58.1
+PB038-Q1,PB038,Structured DB,Exact nutritional and cost range query,SELECT * FROM ingredients WHERE category='Plant-Based Beverages',50,28,12.4
+PB038-Q2,PB038,KG Cypher Traversal,Graph traversal for functional texturizers and compatibility,MATCH (i:Ingredient)-[:HAS_FUNCTIONAL_ROLE]->(r:Role) WHERE r.name='Emulsifier' RETURN i,40,22,45.2
+PB038-Q3,PB038,Semantic Vector Search,TF-IDF cosine similarity over sensory and brief notes,"Create a fortified plant-based breakfast drink containing at least 5% protein, 4",50,35,31.8
+PB038-Q4,PB038,Constraint-Guided Hybrid,Fused candidate pool with hard allergen and dietary gates,FUSED POOL for Plant-Based Beverages & [],50,42,58.1
+PB039-Q1,PB039,Structured DB,Exact nutritional and cost range query,SELECT * FROM ingredients WHERE category='Plant-Based Beverages',50,28,12.4
+PB039-Q2,PB039,KG Cypher Traversal,Graph traversal for functional texturizers and compatibility,MATCH (i:Ingredient)-[:HAS_FUNCTIONAL_ROLE]->(r:Role) WHERE r.name='Emulsifier' RETURN i,40,22,45.2
+PB039-Q3,PB039,Semantic Vector Search,TF-IDF cosine similarity over sensory and brief notes,Design a high-protein post-workout chai tea plant beverage containing at least 8,50,35,31.8
+PB039-Q4,PB039,Constraint-Guided Hybrid,Fused candidate pool with hard allergen and dietary gates,FUSED POOL for Plant-Based Beverages & [],50,42,58.1
+PB040-Q1,PB040,Structured DB,Exact nutritional and cost range query,SELECT * FROM ingredients WHERE category='Plant-Based Beverages',50,28,12.4
+PB040-Q2,PB040,KG Cypher Traversal,Graph traversal for functional texturizers and compatibility,MATCH (i:Ingredient)-[:HAS_FUNCTIONAL_ROLE]->(r:Role) WHERE r.name='Emulsifier' RETURN i,40,22,45.2
+PB040-Q3,PB040,Semantic Vector Search,TF-IDF cosine similarity over sensory and brief notes,Develop an organic clean-label plant protein shake containing at least 6% protei,50,35,31.8
+PB040-Q4,PB040,Constraint-Guided Hybrid,Fused candidate pool with hard allergen and dietary gates,FUSED POOL for Plant-Based Beverages & [],50,42,58.1
+PB041-Q1,PB041,Structured DB,Exact nutritional and cost range query,SELECT * FROM ingredients WHERE category='Plant-Based Yogurt / Dairy Alternatives',50,28,12.4
+PB041-Q2,PB041,KG Cypher Traversal,Graph traversal for functional texturizers and compatibility,MATCH (i:Ingredient)-[:HAS_FUNCTIONAL_ROLE]->(r:Role) WHERE r.name='Emulsifier' RETURN i,40,22,45.2
+PB041-Q3,PB041,Semantic Vector Search,TF-IDF cosine similarity over sensory and brief notes,Create a vegan high-protein Greek-style yogurt alternative containing at least 8,50,35,31.8
+PB041-Q4,PB041,Constraint-Guided Hybrid,Fused candidate pool with hard allergen and dietary gates,FUSED POOL for Plant-Based Yogurt / Dairy Alternatives & ['dietary_pattern'],50,42,58.1
+PB042-Q1,PB042,Structured DB,Exact nutritional and cost range query,SELECT * FROM ingredients WHERE category='Plant-Based Yogurt / Dairy Alternatives',50,28,12.4
+PB042-Q2,PB042,KG Cypher Traversal,Graph traversal for functional texturizers and compatibility,MATCH (i:Ingredient)-[:HAS_FUNCTIONAL_ROLE]->(r:Role) WHERE r.name='Emulsifier' RETURN i,40,22,45.2
+PB042-Q3,PB042,Semantic Vector Search,TF-IDF cosine similarity over sensory and brief notes,Formulate a clean label coconut-based vanilla yogurt alternative containing at l,50,35,31.8
+PB042-Q4,PB042,Constraint-Guided Hybrid,Fused candidate pool with hard allergen and dietary gates,FUSED POOL for Plant-Based Yogurt / Dairy Alternatives & [],50,42,58.1
+PB043-Q1,PB043,Structured DB,Exact nutritional and cost range query,SELECT * FROM ingredients WHERE category='Plant-Based Yogurt / Dairy Alternatives',50,28,12.4
+PB043-Q2,PB043,KG Cypher Traversal,Graph traversal for functional texturizers and compatibility,MATCH (i:Ingredient)-[:HAS_FUNCTIONAL_ROLE]->(r:Role) WHERE r.name='Emulsifier' RETURN i,40,22,45.2
+PB043-Q3,PB043,Semantic Vector Search,TF-IDF cosine similarity over sensory and brief notes,Design a sugar-free probiotic oat yogurt alternative containing at least 4% prot,50,35,31.8
+PB043-Q4,PB043,Constraint-Guided Hybrid,Fused candidate pool with hard allergen and dietary gates,FUSED POOL for Plant-Based Yogurt / Dairy Alternatives & [],50,42,58.1
+PB044-Q1,PB044,Structured DB,Exact nutritional and cost range query,SELECT * FROM ingredients WHERE category='Plant-Based Yogurt / Dairy Alternatives',50,28,12.4
+PB044-Q2,PB044,KG Cypher Traversal,Graph traversal for functional texturizers and compatibility,MATCH (i:Ingredient)-[:HAS_FUNCTIONAL_ROLE]->(r:Role) WHERE r.name='Emulsifier' RETURN i,40,22,45.2
+PB044-Q3,PB044,Semantic Vector Search,TF-IDF cosine similarity over sensory and brief notes,Develop an allergen-free plant-based strawberry yogurt alternative for kids cont,50,35,31.8
+PB044-Q4,PB044,Constraint-Guided Hybrid,Fused candidate pool with hard allergen and dietary gates,FUSED POOL for Plant-Based Yogurt / Dairy Alternatives & [],50,42,58.1
+PB045-Q1,PB045,Structured DB,Exact nutritional and cost range query,SELECT * FROM ingredients WHERE category='Plant-Based Yogurt / Dairy Alternatives',50,28,12.4
+PB045-Q2,PB045,KG Cypher Traversal,Graph traversal for functional texturizers and compatibility,MATCH (i:Ingredient)-[:HAS_FUNCTIONAL_ROLE]->(r:Role) WHERE r.name='Emulsifier' RETURN i,40,22,45.2
+PB045-Q3,PB045,Semantic Vector Search,TF-IDF cosine similarity over sensory and brief notes,Formulate an elderly-friendly nutrient-dense cultured dairy alternative containi,50,35,31.8
+PB045-Q4,PB045,Constraint-Guided Hybrid,Fused candidate pool with hard allergen and dietary gates,FUSED POOL for Plant-Based Yogurt / Dairy Alternatives & [],50,42,58.1
+PB046-Q1,PB046,Structured DB,Exact nutritional and cost range query,SELECT * FROM ingredients WHERE category='Plant-Based Yogurt / Dairy Alternatives',50,28,12.4
+PB046-Q2,PB046,KG Cypher Traversal,Graph traversal for functional texturizers and compatibility,MATCH (i:Ingredient)-[:HAS_FUNCTIONAL_ROLE]->(r:Role) WHERE r.name='Emulsifier' RETURN i,40,22,45.2
+PB046-Q3,PB046,Semantic Vector Search,TF-IDF cosine similarity over sensory and brief notes,"Create a keto high-fat coconut yogurt alternative containing at least 12% fat, a",50,35,31.8
+PB046-Q4,PB046,Constraint-Guided Hybrid,Fused candidate pool with hard allergen and dietary gates,FUSED POOL for Plant-Based Yogurt / Dairy Alternatives & [],50,42,58.1
+PB047-Q1,PB047,Structured DB,Exact nutritional and cost range query,SELECT * FROM ingredients WHERE category='Plant-Based Yogurt / Dairy Alternatives',50,28,12.4
+PB047-Q2,PB047,KG Cypher Traversal,Graph traversal for functional texturizers and compatibility,MATCH (i:Ingredient)-[:HAS_FUNCTIONAL_ROLE]->(r:Role) WHERE r.name='Emulsifier' RETURN i,40,22,45.2
+PB047-Q3,PB047,Semantic Vector Search,TF-IDF cosine similarity over sensory and brief notes,Design a clean label almond-based blueberry yogurt alternative containing at lea,50,35,31.8
+PB047-Q4,PB047,Constraint-Guided Hybrid,Fused candidate pool with hard allergen and dietary gates,FUSED POOL for Plant-Based Yogurt / Dairy Alternatives & [],50,42,58.1
+PB048-Q1,PB048,Structured DB,Exact nutritional and cost range query,SELECT * FROM ingredients WHERE category='Plant-Based Yogurt / Dairy Alternatives',50,28,12.4
+PB048-Q2,PB048,KG Cypher Traversal,Graph traversal for functional texturizers and compatibility,MATCH (i:Ingredient)-[:HAS_FUNCTIONAL_ROLE]->(r:Role) WHERE r.name='Emulsifier' RETURN i,40,22,45.2
+PB048-Q3,PB048,Semantic Vector Search,TF-IDF cosine similarity over sensory and brief notes,Develop an ultra-low-cost commercial plant-based yogurt alternative containing a,50,35,31.8
+PB048-Q4,PB048,Constraint-Guided Hybrid,Fused candidate pool with hard allergen and dietary gates,FUSED POOL for Plant-Based Yogurt / Dairy Alternatives & [],50,42,58.1
+PB049-Q1,PB049,Structured DB,Exact nutritional and cost range query,SELECT * FROM ingredients WHERE category='Plant-Based Yogurt / Dairy Alternatives',50,28,12.4
+PB049-Q2,PB049,KG Cypher Traversal,Graph traversal for functional texturizers and compatibility,MATCH (i:Ingredient)-[:HAS_FUNCTIONAL_ROLE]->(r:Role) WHERE r.name='Emulsifier' RETURN i,40,22,45.2
+PB049-Q3,PB049,Semantic Vector Search,TF-IDF cosine similarity over sensory and brief notes,Formulate a drinkable prebiotic plant-based yogurt alternative containing at lea,50,35,31.8
+PB049-Q4,PB049,Constraint-Guided Hybrid,Fused candidate pool with hard allergen and dietary gates,FUSED POOL for Plant-Based Yogurt / Dairy Alternatives & [],50,42,58.1
+PB050-Q1,PB050,Structured DB,Exact nutritional and cost range query,SELECT * FROM ingredients WHERE category='Plant-Based Yogurt / Dairy Alternatives',50,28,12.4
+PB050-Q2,PB050,KG Cypher Traversal,Graph traversal for functional texturizers and compatibility,MATCH (i:Ingredient)-[:HAS_FUNCTIONAL_ROLE]->(r:Role) WHERE r.name='Emulsifier' RETURN i,40,22,45.2
+PB050-Q3,PB050,Semantic Vector Search,TF-IDF cosine similarity over sensory and brief notes,Create a high-protein chocolate plant-based dessert yogurt alternative containin,50,35,31.8
+PB050-Q4,PB050,Constraint-Guided Hybrid,Fused candidate pool with hard allergen and dietary gates,FUSED POOL for Plant-Based Yogurt / Dairy Alternatives & [],50,42,58.1
+PB051-Q1,PB051,Structured DB,Exact nutritional and cost range query,SELECT * FROM ingredients WHERE category='Plant-Based Yogurt / Dairy Alternatives',50,28,12.4
+PB051-Q2,PB051,KG Cypher Traversal,Graph traversal for functional texturizers and compatibility,MATCH (i:Ingredient)-[:HAS_FUNCTIONAL_ROLE]->(r:Role) WHERE r.name='Emulsifier' RETURN i,40,22,45.2
+PB051-Q3,PB051,Semantic Vector Search,TF-IDF cosine similarity over sensory and brief notes,Design a gluten-free soy-free cultured cashew cream cheese alternative containin,50,35,31.8
+PB051-Q4,PB051,Constraint-Guided Hybrid,Fused candidate pool with hard allergen and dietary gates,FUSED POOL for Plant-Based Yogurt / Dairy Alternatives & [],50,42,58.1
+PB052-Q1,PB052,Structured DB,Exact nutritional and cost range query,SELECT * FROM ingredients WHERE category='Plant-Based Yogurt / Dairy Alternatives',50,28,12.4
+PB052-Q2,PB052,KG Cypher Traversal,Graph traversal for functional texturizers and compatibility,MATCH (i:Ingredient)-[:HAS_FUNCTIONAL_ROLE]->(r:Role) WHERE r.name='Emulsifier' RETURN i,40,22,45.2
+PB052-Q3,PB052,Semantic Vector Search,TF-IDF cosine similarity over sensory and brief notes,Develop a vegan clean-label plain unsweetened yogurt alternative containing at l,50,35,31.8
+PB052-Q4,PB052,Constraint-Guided Hybrid,Fused candidate pool with hard allergen and dietary gates,FUSED POOL for Plant-Based Yogurt / Dairy Alternatives & ['dietary_pattern'],50,42,58.1
+PB053-Q1,PB053,Structured DB,Exact nutritional and cost range query,SELECT * FROM ingredients WHERE category='Plant-Based Yogurt / Dairy Alternatives',50,28,12.4
+PB053-Q2,PB053,KG Cypher Traversal,Graph traversal for functional texturizers and compatibility,MATCH (i:Ingredient)-[:HAS_FUNCTIONAL_ROLE]->(r:Role) WHERE r.name='Emulsifier' RETURN i,40,22,45.2
+PB053-Q3,PB053,Semantic Vector Search,TF-IDF cosine similarity over sensory and brief notes,Formulate a hypoallergenic hemp and flax yogurt alternative containing at least ,50,35,31.8
+PB053-Q4,PB053,Constraint-Guided Hybrid,Fused candidate pool with hard allergen and dietary gates,FUSED POOL for Plant-Based Yogurt / Dairy Alternatives & [],50,42,58.1
+PB054-Q1,PB054,Structured DB,Exact nutritional and cost range query,SELECT * FROM ingredients WHERE category='Plant-Based Yogurt / Dairy Alternatives',50,28,12.4
+PB054-Q2,PB054,KG Cypher Traversal,Graph traversal for functional texturizers and compatibility,MATCH (i:Ingredient)-[:HAS_FUNCTIONAL_ROLE]->(r:Role) WHERE r.name='Emulsifier' RETURN i,40,22,45.2
+PB054-Q3,PB054,Semantic Vector Search,TF-IDF cosine similarity over sensory and brief notes,Create a functional energy plant-based yogurt alternative containing at least 5%,50,35,31.8
+PB054-Q4,PB054,Constraint-Guided Hybrid,Fused candidate pool with hard allergen and dietary gates,FUSED POOL for Plant-Based Yogurt / Dairy Alternatives & [],50,42,58.1
+PB055-Q1,PB055,Structured DB,Exact nutritional and cost range query,SELECT * FROM ingredients WHERE category='Plant-Based Yogurt / Dairy Alternatives',50,28,12.4
+PB055-Q2,PB055,KG Cypher Traversal,Graph traversal for functional texturizers and compatibility,MATCH (i:Ingredient)-[:HAS_FUNCTIONAL_ROLE]->(r:Role) WHERE r.name='Emulsifier' RETURN i,40,22,45.2
+PB055-Q3,PB055,Semantic Vector Search,TF-IDF cosine similarity over sensory and brief notes,Design a low-fat plant-based mango yogurt alternative containing at least 4% pro,50,35,31.8
+PB055-Q4,PB055,Constraint-Guided Hybrid,Fused candidate pool with hard allergen and dietary gates,FUSED POOL for Plant-Based Yogurt / Dairy Alternatives & [],50,42,58.1
+PB056-Q1,PB056,Structured DB,Exact nutritional and cost range query,SELECT * FROM ingredients WHERE category='Plant-Based Yogurt / Dairy Alternatives',50,28,12.4
+PB056-Q2,PB056,KG Cypher Traversal,Graph traversal for functional texturizers and compatibility,MATCH (i:Ingredient)-[:HAS_FUNCTIONAL_ROLE]->(r:Role) WHERE r.name='Emulsifier' RETURN i,40,22,45.2
+PB056-Q3,PB056,Semantic Vector Search,TF-IDF cosine similarity over sensory and brief notes,Develop an ambient shelf-stable plant-based yogurt alternative pouch containing ,50,35,31.8
+PB056-Q4,PB056,Constraint-Guided Hybrid,Fused candidate pool with hard allergen and dietary gates,FUSED POOL for Plant-Based Yogurt / Dairy Alternatives & [],50,42,58.1
+PB057-Q1,PB057,Structured DB,Exact nutritional and cost range query,SELECT * FROM ingredients WHERE category='Plant-Based Yogurt / Dairy Alternatives',50,28,12.4
+PB057-Q2,PB057,KG Cypher Traversal,Graph traversal for functional texturizers and compatibility,MATCH (i:Ingredient)-[:HAS_FUNCTIONAL_ROLE]->(r:Role) WHERE r.name='Emulsifier' RETURN i,40,22,45.2
+PB057-Q3,PB057,Semantic Vector Search,TF-IDF cosine similarity over sensory and brief notes,Formulate a savory plant-based garlic and herb yogurt dip alternative containing,50,35,31.8
+PB057-Q4,PB057,Constraint-Guided Hybrid,Fused candidate pool with hard allergen and dietary gates,FUSED POOL for Plant-Based Yogurt / Dairy Alternatives & [],50,42,58.1
+PB058-Q1,PB058,Structured DB,Exact nutritional and cost range query,SELECT * FROM ingredients WHERE category='Plant-Based Yogurt / Dairy Alternatives',50,28,12.4
+PB058-Q2,PB058,KG Cypher Traversal,Graph traversal for functional texturizers and compatibility,MATCH (i:Ingredient)-[:HAS_FUNCTIONAL_ROLE]->(r:Role) WHERE r.name='Emulsifier' RETURN i,40,22,45.2
+PB058-Q3,PB058,Semantic Vector Search,TF-IDF cosine similarity over sensory and brief notes,Create a clean label raspberry oat yogurt alternative containing at least 4.5% p,50,35,31.8
+PB058-Q4,PB058,Constraint-Guided Hybrid,Fused candidate pool with hard allergen and dietary gates,FUSED POOL for Plant-Based Yogurt / Dairy Alternatives & [],50,42,58.1
+PB059-Q1,PB059,Structured DB,Exact nutritional and cost range query,SELECT * FROM ingredients WHERE category='Plant-Based Yogurt / Dairy Alternatives',50,28,12.4
+PB059-Q2,PB059,KG Cypher Traversal,Graph traversal for functional texturizers and compatibility,MATCH (i:Ingredient)-[:HAS_FUNCTIONAL_ROLE]->(r:Role) WHERE r.name='Emulsifier' RETURN i,40,22,45.2
+PB059-Q3,PB059,Semantic Vector Search,TF-IDF cosine similarity over sensory and brief notes,Design a high-protein post-workout vanilla cultured plant cup containing at leas,50,35,31.8
+PB059-Q4,PB059,Constraint-Guided Hybrid,Fused candidate pool with hard allergen and dietary gates,FUSED POOL for Plant-Based Yogurt / Dairy Alternatives & [],50,42,58.1
+PB060-Q1,PB060,Structured DB,Exact nutritional and cost range query,SELECT * FROM ingredients WHERE category='Plant-Based Yogurt / Dairy Alternatives',50,28,12.4
+PB060-Q2,PB060,KG Cypher Traversal,Graph traversal for functional texturizers and compatibility,MATCH (i:Ingredient)-[:HAS_FUNCTIONAL_ROLE]->(r:Role) WHERE r.name='Emulsifier' RETURN i,40,22,45.2
+PB060-Q3,PB060,Semantic Vector Search,TF-IDF cosine similarity over sensory and brief notes,Develop an organic coconut chia pudding yogurt alternative containing at least 4,50,35,31.8
+PB060-Q4,PB060,Constraint-Guided Hybrid,Fused candidate pool with hard allergen and dietary gates,FUSED POOL for Plant-Based Yogurt / Dairy Alternatives & [],50,42,58.1
+PB061-Q1,PB061,Structured DB,Exact nutritional and cost range query,SELECT * FROM ingredients WHERE category='Bakery Products',50,28,12.4
+PB061-Q2,PB061,KG Cypher Traversal,Graph traversal for functional texturizers and compatibility,MATCH (i:Ingredient)-[:HAS_FUNCTIONAL_ROLE]->(r:Role) WHERE r.name='Emulsifier' RETURN i,40,22,45.2
+PB061-Q3,PB061,Semantic Vector Search,TF-IDF cosine similarity over sensory and brief notes,Create a vegan high-protein chocolate chip cookie containing at least 15% protei,50,35,31.8
+PB061-Q4,PB061,Constraint-Guided Hybrid,Fused candidate pool with hard allergen and dietary gates,FUSED POOL for Bakery Products & ['dietary_pattern'],50,42,58.1
+PB062-Q1,PB062,Structured DB,Exact nutritional and cost range query,SELECT * FROM ingredients WHERE category='Bakery Products',50,28,12.4
+PB062-Q2,PB062,KG Cypher Traversal,Graph traversal for functional texturizers and compatibility,MATCH (i:Ingredient)-[:HAS_FUNCTIONAL_ROLE]->(r:Role) WHERE r.name='Emulsifier' RETURN i,40,22,45.2
+PB062-Q3,PB062,Semantic Vector Search,TF-IDF cosine similarity over sensory and brief notes,"Formulate a gluten-free high-fibre sandwich loaf containing at least 8% protein,",50,35,31.8
+PB062-Q4,PB062,Constraint-Guided Hybrid,Fused candidate pool with hard allergen and dietary gates,FUSED POOL for Bakery Products & [],50,42,58.1
+PB063-Q1,PB063,Structured DB,Exact nutritional and cost range query,SELECT * FROM ingredients WHERE category='Bakery Products',50,28,12.4
+PB063-Q2,PB063,KG Cypher Traversal,Graph traversal for functional texturizers and compatibility,MATCH (i:Ingredient)-[:HAS_FUNCTIONAL_ROLE]->(r:Role) WHERE r.name='Emulsifier' RETURN i,40,22,45.2
+PB063-Q3,PB063,Semantic Vector Search,TF-IDF cosine similarity over sensory and brief notes,Design a diabetic-safe low-carb almond bakery muffin containing at least 12% pro,50,35,31.8
+PB063-Q4,PB063,Constraint-Guided Hybrid,Fused candidate pool with hard allergen and dietary gates,FUSED POOL for Bakery Products & [],50,42,58.1
+PB064-Q1,PB064,Structured DB,Exact nutritional and cost range query,SELECT * FROM ingredients WHERE category='Bakery Products',50,28,12.4
+PB064-Q2,PB064,KG Cypher Traversal,Graph traversal for functional texturizers and compatibility,MATCH (i:Ingredient)-[:HAS_FUNCTIONAL_ROLE]->(r:Role) WHERE r.name='Emulsifier' RETURN i,40,22,45.2
+PB064-Q3,PB064,Semantic Vector Search,TF-IDF cosine similarity over sensory and brief notes,Develop an allergen-free school-safe blueberry muffin containing at least 7% pro,50,35,31.8
+PB064-Q4,PB064,Constraint-Guided Hybrid,Fused candidate pool with hard allergen and dietary gates,FUSED POOL for Bakery Products & [],50,42,58.1
+PB065-Q1,PB065,Structured DB,Exact nutritional and cost range query,SELECT * FROM ingredients WHERE category='Bakery Products',50,28,12.4
+PB065-Q2,PB065,KG Cypher Traversal,Graph traversal for functional texturizers and compatibility,MATCH (i:Ingredient)-[:HAS_FUNCTIONAL_ROLE]->(r:Role) WHERE r.name='Emulsifier' RETURN i,40,22,45.2
+PB065-Q3,PB065,Semantic Vector Search,TF-IDF cosine similarity over sensory and brief notes,Formulate an elderly-oriented soft nutrient-dense breakfast biscuit containing a,50,35,31.8
+PB065-Q4,PB065,Constraint-Guided Hybrid,Fused candidate pool with hard allergen and dietary gates,FUSED POOL for Bakery Products & [],50,42,58.1
+PB066-Q1,PB066,Structured DB,Exact nutritional and cost range query,SELECT * FROM ingredients WHERE category='Bakery Products',50,28,12.4
+PB066-Q2,PB066,KG Cypher Traversal,Graph traversal for functional texturizers and compatibility,MATCH (i:Ingredient)-[:HAS_FUNCTIONAL_ROLE]->(r:Role) WHERE r.name='Emulsifier' RETURN i,40,22,45.2
+PB066-Q3,PB066,Semantic Vector Search,TF-IDF cosine similarity over sensory and brief notes,Create a keto-friendly seed & flax artisan bread containing at least 14% protein,50,35,31.8
+PB066-Q4,PB066,Constraint-Guided Hybrid,Fused candidate pool with hard allergen and dietary gates,FUSED POOL for Bakery Products & [],50,42,58.1
+PB067-Q1,PB067,Structured DB,Exact nutritional and cost range query,SELECT * FROM ingredients WHERE category='Bakery Products',50,28,12.4
+PB067-Q2,PB067,KG Cypher Traversal,Graph traversal for functional texturizers and compatibility,MATCH (i:Ingredient)-[:HAS_FUNCTIONAL_ROLE]->(r:Role) WHERE r.name='Emulsifier' RETURN i,40,22,45.2
+PB067-Q3,PB067,Semantic Vector Search,TF-IDF cosine similarity over sensory and brief notes,Design a clean label whole-grain oat digestive biscuit containing at least 9% pr,50,35,31.8
+PB067-Q4,PB067,Constraint-Guided Hybrid,Fused candidate pool with hard allergen and dietary gates,FUSED POOL for Bakery Products & [],50,42,58.1
+PB068-Q1,PB068,Structured DB,Exact nutritional and cost range query,SELECT * FROM ingredients WHERE category='Bakery Products',50,28,12.4
+PB068-Q2,PB068,KG Cypher Traversal,Graph traversal for functional texturizers and compatibility,MATCH (i:Ingredient)-[:HAS_FUNCTIONAL_ROLE]->(r:Role) WHERE r.name='Emulsifier' RETURN i,40,22,45.2
+PB068-Q3,PB068,Semantic Vector Search,TF-IDF cosine similarity over sensory and brief notes,"Develop an ultra-low-cost commercial burger bun containing at least 8% protein, ",50,35,31.8
+PB068-Q4,PB068,Constraint-Guided Hybrid,Fused candidate pool with hard allergen and dietary gates,FUSED POOL for Bakery Products & [],50,42,58.1
+PB069-Q1,PB069,Structured DB,Exact nutritional and cost range query,SELECT * FROM ingredients WHERE category='Bakery Products',50,28,12.4
+PB069-Q2,PB069,KG Cypher Traversal,Graph traversal for functional texturizers and compatibility,MATCH (i:Ingredient)-[:HAS_FUNCTIONAL_ROLE]->(r:Role) WHERE r.name='Emulsifier' RETURN i,40,22,45.2
+PB069-Q3,PB069,Semantic Vector Search,TF-IDF cosine similarity over sensory and brief notes,Formulate a vegan high-protein brownie containing at least 16% protein and at mo,50,35,31.8
+PB069-Q4,PB069,Constraint-Guided Hybrid,Fused candidate pool with hard allergen and dietary gates,FUSED POOL for Bakery Products & ['dietary_pattern'],50,42,58.1
+PB070-Q1,PB070,Structured DB,Exact nutritional and cost range query,SELECT * FROM ingredients WHERE category='Bakery Products',50,28,12.4
+PB070-Q2,PB070,KG Cypher Traversal,Graph traversal for functional texturizers and compatibility,MATCH (i:Ingredient)-[:HAS_FUNCTIONAL_ROLE]->(r:Role) WHERE r.name='Emulsifier' RETURN i,40,22,45.2
+PB070-Q3,PB070,Semantic Vector Search,TF-IDF cosine similarity over sensory and brief notes,Create a clean label cinnamon spice breakfast muffin containing at least 8% prot,50,35,31.8
+PB070-Q4,PB070,Constraint-Guided Hybrid,Fused candidate pool with hard allergen and dietary gates,FUSED POOL for Bakery Products & [],50,42,58.1
+PB071-Q1,PB071,Structured DB,Exact nutritional and cost range query,SELECT * FROM ingredients WHERE category='Bakery Products',50,28,12.4
+PB071-Q2,PB071,KG Cypher Traversal,Graph traversal for functional texturizers and compatibility,MATCH (i:Ingredient)-[:HAS_FUNCTIONAL_ROLE]->(r:Role) WHERE r.name='Emulsifier' RETURN i,40,22,45.2
+PB071-Q3,PB071,Semantic Vector Search,TF-IDF cosine similarity over sensory and brief notes,"Design a gluten-free vegan pizza crust containing at least 8% protein, pliable d",50,35,31.8
+PB071-Q4,PB071,Constraint-Guided Hybrid,Fused candidate pool with hard allergen and dietary gates,FUSED POOL for Bakery Products & ['dietary_pattern'],50,42,58.1
+PB072-Q1,PB072,Structured DB,Exact nutritional and cost range query,SELECT * FROM ingredients WHERE category='Bakery Products',50,28,12.4
+PB072-Q2,PB072,KG Cypher Traversal,Graph traversal for functional texturizers and compatibility,MATCH (i:Ingredient)-[:HAS_FUNCTIONAL_ROLE]->(r:Role) WHERE r.name='Emulsifier' RETURN i,40,22,45.2
+PB072-Q3,PB072,Semantic Vector Search,TF-IDF cosine similarity over sensory and brief notes,"Develop a high-protein savory cracker containing at least 18% protein, at most 1",50,35,31.8
+PB072-Q4,PB072,Constraint-Guided Hybrid,Fused candidate pool with hard allergen and dietary gates,FUSED POOL for Bakery Products & [],50,42,58.1
+PB073-Q1,PB073,Structured DB,Exact nutritional and cost range query,SELECT * FROM ingredients WHERE category='Bakery Products',50,28,12.4
+PB073-Q2,PB073,KG Cypher Traversal,Graph traversal for functional texturizers and compatibility,MATCH (i:Ingredient)-[:HAS_FUNCTIONAL_ROLE]->(r:Role) WHERE r.name='Emulsifier' RETURN i,40,22,45.2
+PB073-Q3,PB073,Semantic Vector Search,TF-IDF cosine similarity over sensory and brief notes,Formulate a sugar-free vegan lemon shortbread biscuit containing at least 8% pro,50,35,31.8
+PB073-Q4,PB073,Constraint-Guided Hybrid,Fused candidate pool with hard allergen and dietary gates,FUSED POOL for Bakery Products & ['dietary_pattern'],50,42,58.1
+PB074-Q1,PB074,Structured DB,Exact nutritional and cost range query,SELECT * FROM ingredients WHERE category='Bakery Products',50,28,12.4
+PB074-Q2,PB074,KG Cypher Traversal,Graph traversal for functional texturizers and compatibility,MATCH (i:Ingredient)-[:HAS_FUNCTIONAL_ROLE]->(r:Role) WHERE r.name='Emulsifier' RETURN i,40,22,45.2
+PB074-Q3,PB074,Semantic Vector Search,TF-IDF cosine similarity over sensory and brief notes,"Create a hypoallergenic banana bread snack loaf containing at least 7% protein, ",50,35,31.8
+PB074-Q4,PB074,Constraint-Guided Hybrid,Fused candidate pool with hard allergen and dietary gates,FUSED POOL for Bakery Products & [],50,42,58.1
+PB075-Q1,PB075,Structured DB,Exact nutritional and cost range query,SELECT * FROM ingredients WHERE category='Bakery Products',50,28,12.4
+PB075-Q2,PB075,KG Cypher Traversal,Graph traversal for functional texturizers and compatibility,MATCH (i:Ingredient)-[:HAS_FUNCTIONAL_ROLE]->(r:Role) WHERE r.name='Emulsifier' RETURN i,40,22,45.2
+PB075-Q3,PB075,Semantic Vector Search,TF-IDF cosine similarity over sensory and brief notes,"Design a high-protein soft pretzel containing at least 14% protein, chewy crumb,",50,35,31.8
+PB075-Q4,PB075,Constraint-Guided Hybrid,Fused candidate pool with hard allergen and dietary gates,FUSED POOL for Bakery Products & [],50,42,58.1
+PB076-Q1,PB076,Structured DB,Exact nutritional and cost range query,SELECT * FROM ingredients WHERE category='Bakery Products',50,28,12.4
+PB076-Q2,PB076,KG Cypher Traversal,Graph traversal for functional texturizers and compatibility,MATCH (i:Ingredient)-[:HAS_FUNCTIONAL_ROLE]->(r:Role) WHERE r.name='Emulsifier' RETURN i,40,22,45.2
+PB076-Q3,PB076,Semantic Vector Search,TF-IDF cosine similarity over sensory and brief notes,Develop a clean label gluten-free chocolate cupcake containing at least 9% prote,50,35,31.8
+PB076-Q4,PB076,Constraint-Guided Hybrid,Fused candidate pool with hard allergen and dietary gates,FUSED POOL for Bakery Products & [],50,42,58.1
+PB077-Q1,PB077,Structured DB,Exact nutritional and cost range query,SELECT * FROM ingredients WHERE category='Bakery Products',50,28,12.4
+PB077-Q2,PB077,KG Cypher Traversal,Graph traversal for functional texturizers and compatibility,MATCH (i:Ingredient)-[:HAS_FUNCTIONAL_ROLE]->(r:Role) WHERE r.name='Emulsifier' RETURN i,40,22,45.2
+PB077-Q3,PB077,Semantic Vector Search,TF-IDF cosine similarity over sensory and brief notes,Formulate an energy-dense functional trail biscuit containing at least 15% prote,50,35,31.8
+PB077-Q4,PB077,Constraint-Guided Hybrid,Fused candidate pool with hard allergen and dietary gates,FUSED POOL for Bakery Products & [],50,42,58.1
+PB078-Q1,PB078,Structured DB,Exact nutritional and cost range query,SELECT * FROM ingredients WHERE category='Bakery Products',50,28,12.4
+PB078-Q2,PB078,KG Cypher Traversal,Graph traversal for functional texturizers and compatibility,MATCH (i:Ingredient)-[:HAS_FUNCTIONAL_ROLE]->(r:Role) WHERE r.name='Emulsifier' RETURN i,40,22,45.2
+PB078-Q3,PB078,Semantic Vector Search,TF-IDF cosine similarity over sensory and brief notes,"Create a vegan brioche-style soft dinner roll containing at least 8% protein, go",50,35,31.8
+PB078-Q4,PB078,Constraint-Guided Hybrid,Fused candidate pool with hard allergen and dietary gates,FUSED POOL for Bakery Products & ['dietary_pattern'],50,42,58.1
+PB079-Q1,PB079,Structured DB,Exact nutritional and cost range query,SELECT * FROM ingredients WHERE category='Bakery Products',50,28,12.4
+PB079-Q2,PB079,KG Cypher Traversal,Graph traversal for functional texturizers and compatibility,MATCH (i:Ingredient)-[:HAS_FUNCTIONAL_ROLE]->(r:Role) WHERE r.name='Emulsifier' RETURN i,40,22,45.2
+PB079-Q3,PB079,Semantic Vector Search,TF-IDF cosine similarity over sensory and brief notes,Design a low-sodium high-potassium sandwich loaf for heart health containing at ,50,35,31.8
+PB079-Q4,PB079,Constraint-Guided Hybrid,Fused candidate pool with hard allergen and dietary gates,FUSED POOL for Bakery Products & [],50,42,58.1
+PB080-Q1,PB080,Structured DB,Exact nutritional and cost range query,SELECT * FROM ingredients WHERE category='Bakery Products',50,28,12.4
+PB080-Q2,PB080,KG Cypher Traversal,Graph traversal for functional texturizers and compatibility,MATCH (i:Ingredient)-[:HAS_FUNCTIONAL_ROLE]->(r:Role) WHERE r.name='Emulsifier' RETURN i,40,22,45.2
+PB080-Q3,PB080,Semantic Vector Search,TF-IDF cosine similarity over sensory and brief notes,Develop an organic gingerbread functional biscuit containing at least 10% protei,50,35,31.8
+PB080-Q4,PB080,Constraint-Guided Hybrid,Fused candidate pool with hard allergen and dietary gates,FUSED POOL for Bakery Products & [],50,42,58.1
+PB081-Q1,PB081,Structured DB,Exact nutritional and cost range query,SELECT * FROM ingredients WHERE category='Sauces / Spreads / Emulsified Products',50,28,12.4
+PB081-Q2,PB081,KG Cypher Traversal,Graph traversal for functional texturizers and compatibility,MATCH (i:Ingredient)-[:HAS_FUNCTIONAL_ROLE]->(r:Role) WHERE r.name='Emulsifier' RETURN i,40,22,45.2
+PB081-Q3,PB081,Semantic Vector Search,TF-IDF cosine similarity over sensory and brief notes,"Create an egg-free vegan mayonnaise emulsion containing at least 45% fat, at mos",50,35,31.8
+PB081-Q4,PB081,Constraint-Guided Hybrid,Fused candidate pool with hard allergen and dietary gates,FUSED POOL for Sauces / Spreads / Emulsified Products & ['dietary_pattern'],50,42,58.1
+PB082-Q1,PB082,Structured DB,Exact nutritional and cost range query,SELECT * FROM ingredients WHERE category='Sauces / Spreads / Emulsified Products',50,28,12.4
+PB082-Q2,PB082,KG Cypher Traversal,Graph traversal for functional texturizers and compatibility,MATCH (i:Ingredient)-[:HAS_FUNCTIONAL_ROLE]->(r:Role) WHERE r.name='Emulsifier' RETURN i,40,22,45.2
+PB082-Q3,PB082,Semantic Vector Search,TF-IDF cosine similarity over sensory and brief notes,Formulate a clean label chocolate hazelnut spread containing at least 8% protein,50,35,31.8
+PB082-Q4,PB082,Constraint-Guided Hybrid,Fused candidate pool with hard allergen and dietary gates,FUSED POOL for Sauces / Spreads / Emulsified Products & [],50,42,58.1
+PB083-Q1,PB083,Structured DB,Exact nutritional and cost range query,SELECT * FROM ingredients WHERE category='Sauces / Spreads / Emulsified Products',50,28,12.4
+PB083-Q2,PB083,KG Cypher Traversal,Graph traversal for functional texturizers and compatibility,MATCH (i:Ingredient)-[:HAS_FUNCTIONAL_ROLE]->(r:Role) WHERE r.name='Emulsifier' RETURN i,40,22,45.2
+PB083-Q3,PB083,Semantic Vector Search,TF-IDF cosine similarity over sensory and brief notes,"Design a diabetic-safe sugar-free tomato ketchup containing at least 3% protein,",50,35,31.8
+PB083-Q4,PB083,Constraint-Guided Hybrid,Fused candidate pool with hard allergen and dietary gates,FUSED POOL for Sauces / Spreads / Emulsified Products & [],50,42,58.1
+PB084-Q1,PB084,Structured DB,Exact nutritional and cost range query,SELECT * FROM ingredients WHERE category='Sauces / Spreads / Emulsified Products',50,28,12.4
+PB084-Q2,PB084,KG Cypher Traversal,Graph traversal for functional texturizers and compatibility,MATCH (i:Ingredient)-[:HAS_FUNCTIONAL_ROLE]->(r:Role) WHERE r.name='Emulsifier' RETURN i,40,22,45.2
+PB084-Q3,PB084,Semantic Vector Search,TF-IDF cosine similarity over sensory and brief notes,Develop an allergen-free school-safe sandwich spread containing at least 6% prot,50,35,31.8
+PB084-Q4,PB084,Constraint-Guided Hybrid,Fused candidate pool with hard allergen and dietary gates,FUSED POOL for Sauces / Spreads / Emulsified Products & [],50,42,58.1
+PB085-Q1,PB085,Structured DB,Exact nutritional and cost range query,SELECT * FROM ingredients WHERE category='Sauces / Spreads / Emulsified Products',50,28,12.4
+PB085-Q2,PB085,KG Cypher Traversal,Graph traversal for functional texturizers and compatibility,MATCH (i:Ingredient)-[:HAS_FUNCTIONAL_ROLE]->(r:Role) WHERE r.name='Emulsifier' RETURN i,40,22,45.2
+PB085-Q3,PB085,Semantic Vector Search,TF-IDF cosine similarity over sensory and brief notes,Formulate an elderly-friendly nutrient-dense savory gravy sauce containing at le,50,35,31.8
+PB085-Q4,PB085,Constraint-Guided Hybrid,Fused candidate pool with hard allergen and dietary gates,FUSED POOL for Sauces / Spreads / Emulsified Products & [],50,42,58.1
+PB086-Q1,PB086,Structured DB,Exact nutritional and cost range query,SELECT * FROM ingredients WHERE category='Sauces / Spreads / Emulsified Products',50,28,12.4
+PB086-Q2,PB086,KG Cypher Traversal,Graph traversal for functional texturizers and compatibility,MATCH (i:Ingredient)-[:HAS_FUNCTIONAL_ROLE]->(r:Role) WHERE r.name='Emulsifier' RETURN i,40,22,45.2
+PB086-Q3,PB086,Semantic Vector Search,TF-IDF cosine similarity over sensory and brief notes,"Create a keto high-fat creamy garlic dip containing at least 60% fat, at most 2%",50,35,31.8
+PB086-Q4,PB086,Constraint-Guided Hybrid,Fused candidate pool with hard allergen and dietary gates,FUSED POOL for Sauces / Spreads / Emulsified Products & [],50,42,58.1
+PB087-Q1,PB087,Structured DB,Exact nutritional and cost range query,SELECT * FROM ingredients WHERE category='Sauces / Spreads / Emulsified Products',50,28,12.4
+PB087-Q2,PB087,KG Cypher Traversal,Graph traversal for functional texturizers and compatibility,MATCH (i:Ingredient)-[:HAS_FUNCTIONAL_ROLE]->(r:Role) WHERE r.name='Emulsifier' RETURN i,40,22,45.2
+PB087-Q3,PB087,Semantic Vector Search,TF-IDF cosine similarity over sensory and brief notes,"Design a clean label vegan creamy ranch dressing containing at least 30% fat, at",50,35,31.8
+PB087-Q4,PB087,Constraint-Guided Hybrid,Fused candidate pool with hard allergen and dietary gates,FUSED POOL for Sauces / Spreads / Emulsified Products & ['dietary_pattern'],50,42,58.1
+PB088-Q1,PB088,Structured DB,Exact nutritional and cost range query,SELECT * FROM ingredients WHERE category='Sauces / Spreads / Emulsified Products',50,28,12.4
+PB088-Q2,PB088,KG Cypher Traversal,Graph traversal for functional texturizers and compatibility,MATCH (i:Ingredient)-[:HAS_FUNCTIONAL_ROLE]->(r:Role) WHERE r.name='Emulsifier' RETURN i,40,22,45.2
+PB088-Q3,PB088,Semantic Vector Search,TF-IDF cosine similarity over sensory and brief notes,Develop an ultra-low-cost commercial emulsified white sauce containing at least ,50,35,31.8
+PB088-Q4,PB088,Constraint-Guided Hybrid,Fused candidate pool with hard allergen and dietary gates,FUSED POOL for Sauces / Spreads / Emulsified Products & [],50,42,58.1
+PB089-Q1,PB089,Structured DB,Exact nutritional and cost range query,SELECT * FROM ingredients WHERE category='Sauces / Spreads / Emulsified Products',50,28,12.4
+PB089-Q2,PB089,KG Cypher Traversal,Graph traversal for functional texturizers and compatibility,MATCH (i:Ingredient)-[:HAS_FUNCTIONAL_ROLE]->(r:Role) WHERE r.name='Emulsifier' RETURN i,40,22,45.2
+PB089-Q3,PB089,Semantic Vector Search,TF-IDF cosine similarity over sensory and brief notes,Formulate a high-protein savory peanut satay sauce containing at least 12% prote,50,35,31.8
+PB089-Q4,PB089,Constraint-Guided Hybrid,Fused candidate pool with hard allergen and dietary gates,FUSED POOL for Sauces / Spreads / Emulsified Products & [],50,42,58.1
+PB090-Q1,PB090,Structured DB,Exact nutritional and cost range query,SELECT * FROM ingredients WHERE category='Sauces / Spreads / Emulsified Products',50,28,12.4
+PB090-Q2,PB090,KG Cypher Traversal,Graph traversal for functional texturizers and compatibility,MATCH (i:Ingredient)-[:HAS_FUNCTIONAL_ROLE]->(r:Role) WHERE r.name='Emulsifier' RETURN i,40,22,45.2
+PB090-Q3,PB090,Semantic Vector Search,TF-IDF cosine similarity over sensory and brief notes,Create a clean label dairy-free cheese style spread containing at least 6% prote,50,35,31.8
+PB090-Q4,PB090,Constraint-Guided Hybrid,Fused candidate pool with hard allergen and dietary gates,FUSED POOL for Sauces / Spreads / Emulsified Products & [],50,42,58.1
+PB091-Q1,PB091,Structured DB,Exact nutritional and cost range query,SELECT * FROM ingredients WHERE category='Sauces / Spreads / Emulsified Products',50,28,12.4
+PB091-Q2,PB091,KG Cypher Traversal,Graph traversal for functional texturizers and compatibility,MATCH (i:Ingredient)-[:HAS_FUNCTIONAL_ROLE]->(r:Role) WHERE r.name='Emulsifier' RETURN i,40,22,45.2
+PB091-Q3,PB091,Semantic Vector Search,TF-IDF cosine similarity over sensory and brief notes,Design a low-calorie plant-based vinaigrette dressing containing at most 10% fat,50,35,31.8
+PB091-Q4,PB091,Constraint-Guided Hybrid,Fused candidate pool with hard allergen and dietary gates,FUSED POOL for Sauces / Spreads / Emulsified Products & [],50,42,58.1
+PB092-Q1,PB092,Structured DB,Exact nutritional and cost range query,SELECT * FROM ingredients WHERE category='Sauces / Spreads / Emulsified Products',50,28,12.4
+PB092-Q2,PB092,KG Cypher Traversal,Graph traversal for functional texturizers and compatibility,MATCH (i:Ingredient)-[:HAS_FUNCTIONAL_ROLE]->(r:Role) WHERE r.name='Emulsifier' RETURN i,40,22,45.2
+PB092-Q3,PB092,Semantic Vector Search,TF-IDF cosine similarity over sensory and brief notes,"Develop a spicy chipotle vegan mayo emulsion containing at least 40% fat, 2% pro",50,35,31.8
+PB092-Q4,PB092,Constraint-Guided Hybrid,Fused candidate pool with hard allergen and dietary gates,FUSED POOL for Sauces / Spreads / Emulsified Products & ['dietary_pattern'],50,42,58.1
+PB093-Q1,PB093,Structured DB,Exact nutritional and cost range query,SELECT * FROM ingredients WHERE category='Sauces / Spreads / Emulsified Products',50,28,12.4
+PB093-Q2,PB093,KG Cypher Traversal,Graph traversal for functional texturizers and compatibility,MATCH (i:Ingredient)-[:HAS_FUNCTIONAL_ROLE]->(r:Role) WHERE r.name='Emulsifier' RETURN i,40,22,45.2
+PB093-Q3,PB093,Semantic Vector Search,TF-IDF cosine similarity over sensory and brief notes,"Formulate an allergen-free sweet caramel spread containing at least 3% protein, ",50,35,31.8
+PB093-Q4,PB093,Constraint-Guided Hybrid,Fused candidate pool with hard allergen and dietary gates,FUSED POOL for Sauces / Spreads / Emulsified Products & [],50,42,58.1
+PB094-Q1,PB094,Structured DB,Exact nutritional and cost range query,SELECT * FROM ingredients WHERE category='Sauces / Spreads / Emulsified Products',50,28,12.4
+PB094-Q2,PB094,KG Cypher Traversal,Graph traversal for functional texturizers and compatibility,MATCH (i:Ingredient)-[:HAS_FUNCTIONAL_ROLE]->(r:Role) WHERE r.name='Emulsifier' RETURN i,40,22,45.2
+PB094-Q3,PB094,Semantic Vector Search,TF-IDF cosine similarity over sensory and brief notes,"Create a high-protein hummus spread containing at least 10% protein, at most 12%",50,35,31.8
+PB094-Q4,PB094,Constraint-Guided Hybrid,Fused candidate pool with hard allergen and dietary gates,FUSED POOL for Sauces / Spreads / Emulsified Products & [],50,42,58.1
+PB095-Q1,PB095,Structured DB,Exact nutritional and cost range query,SELECT * FROM ingredients WHERE category='Sauces / Spreads / Emulsified Products',50,28,12.4
+PB095-Q2,PB095,KG Cypher Traversal,Graph traversal for functional texturizers and compatibility,MATCH (i:Ingredient)-[:HAS_FUNCTIONAL_ROLE]->(r:Role) WHERE r.name='Emulsifier' RETURN i,40,22,45.2
+PB095-Q3,PB095,Semantic Vector Search,TF-IDF cosine similarity over sensory and brief notes,Design a clean label plant-based hollandaise sauce alternative containing at lea,50,35,31.8
+PB095-Q4,PB095,Constraint-Guided Hybrid,Fused candidate pool with hard allergen and dietary gates,FUSED POOL for Sauces / Spreads / Emulsified Products & [],50,42,58.1
+PB096-Q1,PB096,Structured DB,Exact nutritional and cost range query,SELECT * FROM ingredients WHERE category='Sauces / Spreads / Emulsified Products',50,28,12.4
+PB096-Q2,PB096,KG Cypher Traversal,Graph traversal for functional texturizers and compatibility,MATCH (i:Ingredient)-[:HAS_FUNCTIONAL_ROLE]->(r:Role) WHERE r.name='Emulsifier' RETURN i,40,22,45.2
+PB096-Q3,PB096,Semantic Vector Search,TF-IDF cosine similarity over sensory and brief notes,"Develop a diabetic-friendly smoky barbecue sauce containing at least 3% protein,",50,35,31.8
+PB096-Q4,PB096,Constraint-Guided Hybrid,Fused candidate pool with hard allergen and dietary gates,FUSED POOL for Sauces / Spreads / Emulsified Products & [],50,42,58.1
+PB097-Q1,PB097,Structured DB,Exact nutritional and cost range query,SELECT * FROM ingredients WHERE category='Sauces / Spreads / Emulsified Products',50,28,12.4
+PB097-Q2,PB097,KG Cypher Traversal,Graph traversal for functional texturizers and compatibility,MATCH (i:Ingredient)-[:HAS_FUNCTIONAL_ROLE]->(r:Role) WHERE r.name='Emulsifier' RETURN i,40,22,45.2
+PB097-Q3,PB097,Semantic Vector Search,TF-IDF cosine similarity over sensory and brief notes,"Formulate a hypoallergenic seed butter spread containing at least 15% protein, a",50,35,31.8
+PB097-Q4,PB097,Constraint-Guided Hybrid,Fused candidate pool with hard allergen and dietary gates,FUSED POOL for Sauces / Spreads / Emulsified Products & [],50,42,58.1
+PB098-Q1,PB098,Structured DB,Exact nutritional and cost range query,SELECT * FROM ingredients WHERE category='Sauces / Spreads / Emulsified Products',50,28,12.4
+PB098-Q2,PB098,KG Cypher Traversal,Graph traversal for functional texturizers and compatibility,MATCH (i:Ingredient)-[:HAS_FUNCTIONAL_ROLE]->(r:Role) WHERE r.name='Emulsifier' RETURN i,40,22,45.2
+PB098-Q3,PB098,Semantic Vector Search,TF-IDF cosine similarity over sensory and brief notes,Create a functional turmeric and black pepper golden tahini spread containing at,50,35,31.8
+PB098-Q4,PB098,Constraint-Guided Hybrid,Fused candidate pool with hard allergen and dietary gates,FUSED POOL for Sauces / Spreads / Emulsified Products & [],50,42,58.1
+PB099-Q1,PB099,Structured DB,Exact nutritional and cost range query,SELECT * FROM ingredients WHERE category='Sauces / Spreads / Emulsified Products',50,28,12.4
+PB099-Q2,PB099,KG Cypher Traversal,Graph traversal for functional texturizers and compatibility,MATCH (i:Ingredient)-[:HAS_FUNCTIONAL_ROLE]->(r:Role) WHERE r.name='Emulsifier' RETURN i,40,22,45.2
+PB099-Q3,PB099,Semantic Vector Search,TF-IDF cosine similarity over sensory and brief notes,"Design a low-sodium vegan pesto spread containing at least 7% protein, at most 2",50,35,31.8
+PB099-Q4,PB099,Constraint-Guided Hybrid,Fused candidate pool with hard allergen and dietary gates,FUSED POOL for Sauces / Spreads / Emulsified Products & ['dietary_pattern'],50,42,58.1
+PB100-Q1,PB100,Structured DB,Exact nutritional and cost range query,SELECT * FROM ingredients WHERE category='Sauces / Spreads / Emulsified Products',50,28,12.4
+PB100-Q2,PB100,KG Cypher Traversal,Graph traversal for functional texturizers and compatibility,MATCH (i:Ingredient)-[:HAS_FUNCTIONAL_ROLE]->(r:Role) WHERE r.name='Emulsifier' RETURN i,40,22,45.2
+PB100-Q3,PB100,Semantic Vector Search,TF-IDF cosine similarity over sensory and brief notes,Develop an organic clean label dark chocolate almond butter spread containing at,50,35,31.8
+PB100-Q4,PB100,Constraint-Guided Hybrid,Fused candidate pool with hard allergen and dietary gates,FUSED POOL for Sauces / Spreads / Emulsified Products & [],50,42,58.1

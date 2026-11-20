@@ -1,0 +1,3002 @@
+[
+  {
+    "ingredient": "Almond Butter (Smooth)",
+    "removed_because": "Matches explicit exclusion 'butter'",
+    "constraint": "Hard Dietary / Exclusion Constraint",
+    "evidence": "Grounded Repository DB"
+  },
+  {
+    "ingredient": "Prime Press Cocoa Butter",
+    "removed_because": "Matches explicit exclusion 'butter'",
+    "constraint": "Hard Dietary / Exclusion Constraint",
+    "evidence": "Grounded Repository DB"
+  },
+  {
+    "ingredient": "Oat Milk Powder (Dairy-Free Milk Solids)",
+    "removed_because": "Matches explicit exclusion 'milk'; Matches explicit exclusion 'dairy'",
+    "constraint": "Hard Dietary / Exclusion Constraint",
+    "evidence": "Grounded Repository DB"
+  },
+  {
+    "ingredient": "Skimmed Milk Solids (Powder)",
+    "removed_because": "Violates Dairy-Free requirement; Matches explicit exclusion 'milk'",
+    "constraint": "Hard Dietary / Exclusion Constraint",
+    "evidence": "Grounded Repository DB"
+  },
+  {
+    "ingredient": "Whey Protein Concentrate 80",
+    "removed_because": "Violates Dairy-Free requirement; Matches explicit exclusion 'whey'; Matches explicit exclusion 'milk'",
+    "constraint": "Hard Dietary / Exclusion Constraint",
+    "evidence": "Grounded Repository DB"
+  },
+  {
+    "ingredient": "Full Cream Milk Solids (Whole Milk Powder)",
+    "removed_because": "Violates Dairy-Free requirement; Matches explicit exclusion 'milk'",
+    "constraint": "Hard Dietary / Exclusion Constraint",
+    "evidence": "Grounded Repository DB"
+  },
+  {
+    "ingredient": "02390 - butter biscuits (efsa foodex2)",
+    "removed_because": "Matches explicit exclusion 'butter'",
+    "constraint": "Hard Dietary / Exclusion Constraint",
+    "evidence": "Grounded Repository DB"
+  },
+  {
+    "ingredient": "03300 - porridge milk based (ready to eat) (efsa foodex2)",
+    "removed_because": "Violates Dairy-Free requirement; Matches explicit exclusion 'milk'",
+    "constraint": "Hard Dietary / Exclusion Constraint",
+    "evidence": "Grounded Repository DB"
+  },
+  {
+    "ingredient": "033  milks (ml) (ccpr)",
+    "removed_because": "Violates Dairy-Free requirement; Matches explicit exclusion 'milk'",
+    "constraint": "Hard Dietary / Exclusion Constraint",
+    "evidence": "Grounded Repository DB"
+  },
+  {
+    "ingredient": "camelid dairy food product",
+    "removed_because": "Matches explicit exclusion 'dairy'",
+    "constraint": "Hard Dietary / Exclusion Constraint",
+    "evidence": "Grounded Repository DB"
+  },
+  {
+    "ingredient": "bovine dairy food product",
+    "removed_because": "Matches explicit exclusion 'dairy'",
+    "constraint": "Hard Dietary / Exclusion Constraint",
+    "evidence": "Grounded Repository DB"
+  },
+  {
+    "ingredient": "caprine dairy food product",
+    "removed_because": "Matches explicit exclusion 'dairy'",
+    "constraint": "Hard Dietary / Exclusion Constraint",
+    "evidence": "Grounded Repository DB"
+  },
+  {
+    "ingredient": "donkey dairy food product",
+    "removed_because": "Matches explicit exclusion 'dairy'",
+    "constraint": "Hard Dietary / Exclusion Constraint",
+    "evidence": "Grounded Repository DB"
+  },
+  {
+    "ingredient": "equine dairy food product",
+    "removed_because": "Matches explicit exclusion 'dairy'",
+    "constraint": "Hard Dietary / Exclusion Constraint",
+    "evidence": "Grounded Repository DB"
+  },
+  {
+    "ingredient": "ovine dairy food product",
+    "removed_because": "Matches explicit exclusion 'dairy'",
+    "constraint": "Hard Dietary / Exclusion Constraint",
+    "evidence": "Grounded Repository DB"
+  },
+  {
+    "ingredient": "yak dairy food product",
+    "removed_because": "Matches explicit exclusion 'dairy'",
+    "constraint": "Hard Dietary / Exclusion Constraint",
+    "evidence": "Grounded Repository DB"
+  },
+  {
+    "ingredient": "zebra dairy food product",
+    "removed_because": "Matches explicit exclusion 'dairy'",
+    "constraint": "Hard Dietary / Exclusion Constraint",
+    "evidence": "Grounded Repository DB"
+  },
+  {
+    "ingredient": "reindeer dairy food product",
+    "removed_because": "Matches explicit exclusion 'dairy'",
+    "constraint": "Hard Dietary / Exclusion Constraint",
+    "evidence": "Grounded Repository DB"
+  },
+  {
+    "ingredient": "water buffalo dairy food product",
+    "removed_because": "Matches explicit exclusion 'dairy'",
+    "constraint": "Hard Dietary / Exclusion Constraint",
+    "evidence": "Grounded Repository DB"
+  },
+  {
+    "ingredient": "milk chocolate bar",
+    "removed_because": "Violates Dairy-Free requirement; Matches explicit exclusion 'milk'",
+    "constraint": "Hard Dietary / Exclusion Constraint",
+    "evidence": "Grounded Repository DB"
+  },
+  {
+    "ingredient": "chocolate milk (reduced fat)",
+    "removed_because": "Violates Dairy-Free requirement; Matches explicit exclusion 'milk'",
+    "constraint": "Hard Dietary / Exclusion Constraint",
+    "evidence": "Grounded Repository DB"
+  },
+  {
+    "ingredient": "bakery product (containing butter)",
+    "removed_because": "Matches explicit exclusion 'butter'",
+    "constraint": "Hard Dietary / Exclusion Constraint",
+    "evidence": "Grounded Repository DB"
+  },
+  {
+    "ingredient": "bakery product (containing buttermilk)",
+    "removed_because": "Violates Dairy-Free requirement; Matches explicit exclusion 'butter'; Matches explicit exclusion 'milk'",
+    "constraint": "Hard Dietary / Exclusion Constraint",
+    "evidence": "Grounded Repository DB"
+  },
+  {
+    "ingredient": "swiss cheese (filled, containing butter)",
+    "removed_because": "Matches explicit exclusion 'butter'",
+    "constraint": "Hard Dietary / Exclusion Constraint",
+    "evidence": "Grounded Repository DB"
+  },
+  {
+    "ingredient": "cocoa butter oil",
+    "removed_because": "Matches explicit exclusion 'butter'",
+    "constraint": "Hard Dietary / Exclusion Constraint",
+    "evidence": "Grounded Repository DB"
+  },
+  {
+    "ingredient": "sweet milk cocoa",
+    "removed_because": "Violates Dairy-Free requirement; Matches explicit exclusion 'milk'",
+    "constraint": "Hard Dietary / Exclusion Constraint",
+    "evidence": "Grounded Repository DB"
+  },
+  {
+    "ingredient": "Unsalted Butter",
+    "removed_because": "Matches explicit exclusion 'butter'",
+    "constraint": "Hard Dietary / Exclusion Constraint",
+    "evidence": "Grounded Repository DB"
+  },
+  {
+    "ingredient": "mammalian milk butter",
+    "removed_because": "Violates Dairy-Free requirement; Matches explicit exclusion 'butter'; Matches explicit exclusion 'milk'",
+    "constraint": "Hard Dietary / Exclusion Constraint",
+    "evidence": "Grounded Repository DB"
+  },
+  {
+    "ingredient": "buttermilk food product",
+    "removed_because": "Violates Dairy-Free requirement; Matches explicit exclusion 'butter'; Matches explicit exclusion 'milk'",
+    "constraint": "Hard Dietary / Exclusion Constraint",
+    "evidence": "Grounded Repository DB"
+  },
+  {
+    "ingredient": "butter product analog",
+    "removed_because": "Matches explicit exclusion 'butter'",
+    "constraint": "Hard Dietary / Exclusion Constraint",
+    "evidence": "Grounded Repository DB"
+  },
+  {
+    "ingredient": "butterfly mackerel food product",
+    "removed_because": "Matches explicit exclusion 'butter'",
+    "constraint": "Hard Dietary / Exclusion Constraint",
+    "evidence": "Grounded Repository DB"
+  },
+  {
+    "ingredient": "cow buttermilk food product",
+    "removed_because": "Violates Dairy-Free requirement; Matches explicit exclusion 'butter'; Matches explicit exclusion 'milk'",
+    "constraint": "Hard Dietary / Exclusion Constraint",
+    "evidence": "Grounded Repository DB"
+  },
+  {
+    "ingredient": "cow milk butter food product",
+    "removed_because": "Violates Dairy-Free requirement; Matches explicit exclusion 'butter'; Matches explicit exclusion 'milk'",
+    "constraint": "Hard Dietary / Exclusion Constraint",
+    "evidence": "Grounded Repository DB"
+  },
+  {
+    "ingredient": "fruit butter food product",
+    "removed_because": "Matches explicit exclusion 'butter'",
+    "constraint": "Hard Dietary / Exclusion Constraint",
+    "evidence": "Grounded Repository DB"
+  },
+  {
+    "ingredient": "mammalian buttermilk",
+    "removed_because": "Violates Dairy-Free requirement; Matches explicit exclusion 'butter'; Matches explicit exclusion 'milk'",
+    "constraint": "Hard Dietary / Exclusion Constraint",
+    "evidence": "Grounded Repository DB"
+  },
+  {
+    "ingredient": "nutmeg butter",
+    "removed_because": "Matches explicit exclusion 'butter'",
+    "constraint": "Hard Dietary / Exclusion Constraint",
+    "evidence": "Grounded Repository DB"
+  },
+  {
+    "ingredient": "whey protein isolate",
+    "removed_because": "Violates Dairy-Free requirement; Matches explicit exclusion 'whey'; Matches explicit exclusion 'milk'",
+    "constraint": "Hard Dietary / Exclusion Constraint",
+    "evidence": "Grounded Repository DB"
+  },
+  {
+    "ingredient": "whey-based protein powder",
+    "removed_because": "Violates Dairy-Free requirement; Matches explicit exclusion 'whey'; Matches explicit exclusion 'milk'",
+    "constraint": "Hard Dietary / Exclusion Constraint",
+    "evidence": "Grounded Repository DB"
+  },
+  {
+    "ingredient": "Skim Milk Powder",
+    "removed_because": "Violates Dairy-Free requirement; Matches explicit exclusion 'milk'",
+    "constraint": "Hard Dietary / Exclusion Constraint",
+    "evidence": "Neo4j KG"
+  },
+  {
+    "ingredient": "Egg White Powder",
+    "removed_because": "Violates Dairy-Free requirement",
+    "constraint": "Hard Dietary / Exclusion Constraint",
+    "evidence": "Neo4j KG"
+  },
+  {
+    "ingredient": "Oat Flour",
+    "removed_because": "Violates Dairy-Free requirement",
+    "constraint": "Hard Dietary / Exclusion Constraint",
+    "evidence": "Neo4j KG"
+  },
+  {
+    "ingredient": "Wheat Flour",
+    "removed_because": "Violates Dairy-Free requirement",
+    "constraint": "Hard Dietary / Exclusion Constraint",
+    "evidence": "Neo4j KG"
+  },
+  {
+    "ingredient": "Maltodextrin",
+    "removed_because": "Violates Dairy-Free requirement",
+    "constraint": "Hard Dietary / Exclusion Constraint",
+    "evidence": "Neo4j KG"
+  },
+  {
+    "ingredient": "Polydextrose",
+    "removed_because": "Violates Dairy-Free requirement",
+    "constraint": "Hard Dietary / Exclusion Constraint",
+    "evidence": "Neo4j KG"
+  },
+  {
+    "ingredient": "Pea Starch",
+    "removed_because": "Violates Dairy-Free requirement",
+    "constraint": "Hard Dietary / Exclusion Constraint",
+    "evidence": "Neo4j KG"
+  },
+  {
+    "ingredient": "Rice Flour",
+    "removed_because": "Violates Dairy-Free requirement",
+    "constraint": "Hard Dietary / Exclusion Constraint",
+    "evidence": "Neo4j KG"
+  },
+  {
+    "ingredient": "Corn Starch",
+    "removed_because": "Violates Dairy-Free requirement",
+    "constraint": "Hard Dietary / Exclusion Constraint",
+    "evidence": "Neo4j KG"
+  },
+  {
+    "ingredient": "Almond Flour",
+    "removed_because": "Violates Dairy-Free requirement",
+    "constraint": "Hard Dietary / Exclusion Constraint",
+    "evidence": "Neo4j KG"
+  },
+  {
+    "ingredient": "Chickpea Flour",
+    "removed_because": "Violates Dairy-Free requirement",
+    "constraint": "Hard Dietary / Exclusion Constraint",
+    "evidence": "Neo4j KG"
+  },
+  {
+    "ingredient": "Tapioca Starch",
+    "removed_because": "Violates Dairy-Free requirement",
+    "constraint": "Hard Dietary / Exclusion Constraint",
+    "evidence": "Neo4j KG"
+  },
+  {
+    "ingredient": "Coconut Oil",
+    "removed_because": "Violates Dairy-Free requirement",
+    "constraint": "Hard Dietary / Exclusion Constraint",
+    "evidence": "Neo4j KG"
+  },
+  {
+    "ingredient": "Sunflower Oil",
+    "removed_because": "Violates Dairy-Free requirement",
+    "constraint": "Hard Dietary / Exclusion Constraint",
+    "evidence": "Neo4j KG"
+  },
+  {
+    "ingredient": "Canola Oil",
+    "removed_because": "Violates Dairy-Free requirement",
+    "constraint": "Hard Dietary / Exclusion Constraint",
+    "evidence": "Neo4j KG"
+  },
+  {
+    "ingredient": "MCT Oil",
+    "removed_because": "Violates Dairy-Free requirement",
+    "constraint": "Hard Dietary / Exclusion Constraint",
+    "evidence": "Neo4j KG"
+  },
+  {
+    "ingredient": "Soy Lecithin",
+    "removed_because": "Violates Dairy-Free requirement",
+    "constraint": "Hard Dietary / Exclusion Constraint",
+    "evidence": "Neo4j KG"
+  },
+  {
+    "ingredient": "Mono- and Diglycerides",
+    "removed_because": "Violates Dairy-Free requirement",
+    "constraint": "Hard Dietary / Exclusion Constraint",
+    "evidence": "Neo4j KG"
+  },
+  {
+    "ingredient": "Polysorbate 80",
+    "removed_because": "Violates Dairy-Free requirement",
+    "constraint": "Hard Dietary / Exclusion Constraint",
+    "evidence": "Neo4j KG"
+  },
+  {
+    "ingredient": "DATEM",
+    "removed_because": "Violates Dairy-Free requirement",
+    "constraint": "Hard Dietary / Exclusion Constraint",
+    "evidence": "Neo4j KG"
+  },
+  {
+    "ingredient": "Xanthan Gum",
+    "removed_because": "Violates Dairy-Free requirement",
+    "constraint": "Hard Dietary / Exclusion Constraint",
+    "evidence": "Neo4j KG"
+  },
+  {
+    "ingredient": "Guar Gum",
+    "removed_because": "Violates Dairy-Free requirement",
+    "constraint": "Hard Dietary / Exclusion Constraint",
+    "evidence": "Neo4j KG"
+  },
+  {
+    "ingredient": "Locust Bean Gum",
+    "removed_because": "Violates Dairy-Free requirement",
+    "constraint": "Hard Dietary / Exclusion Constraint",
+    "evidence": "Neo4j KG"
+  },
+  {
+    "ingredient": "Carrageenan",
+    "removed_because": "Violates Dairy-Free requirement",
+    "constraint": "Hard Dietary / Exclusion Constraint",
+    "evidence": "Neo4j KG"
+  },
+  {
+    "ingredient": "Gellan Gum",
+    "removed_because": "Violates Dairy-Free requirement",
+    "constraint": "Hard Dietary / Exclusion Constraint",
+    "evidence": "Neo4j KG"
+  },
+  {
+    "ingredient": "Methylcellulose",
+    "removed_because": "Violates Dairy-Free requirement",
+    "constraint": "Hard Dietary / Exclusion Constraint",
+    "evidence": "Neo4j KG"
+  },
+  {
+    "ingredient": "Pectin",
+    "removed_because": "Violates Dairy-Free requirement",
+    "constraint": "Hard Dietary / Exclusion Constraint",
+    "evidence": "Neo4j KG"
+  },
+  {
+    "ingredient": "Sodium Alginate",
+    "removed_because": "Violates Dairy-Free requirement",
+    "constraint": "Hard Dietary / Exclusion Constraint",
+    "evidence": "Neo4j KG"
+  },
+  {
+    "ingredient": "Cane Sugar",
+    "removed_because": "Violates Dairy-Free requirement",
+    "constraint": "Hard Dietary / Exclusion Constraint",
+    "evidence": "Neo4j KG"
+  },
+  {
+    "ingredient": "Stevia Extract",
+    "removed_because": "Violates Dairy-Free requirement",
+    "constraint": "Hard Dietary / Exclusion Constraint",
+    "evidence": "Neo4j KG"
+  },
+  {
+    "ingredient": "Sucralose",
+    "removed_because": "Violates Dairy-Free requirement",
+    "constraint": "Hard Dietary / Exclusion Constraint",
+    "evidence": "Neo4j KG"
+  },
+  {
+    "ingredient": "Erythritol",
+    "removed_because": "Violates Dairy-Free requirement",
+    "constraint": "Hard Dietary / Exclusion Constraint",
+    "evidence": "Neo4j KG"
+  },
+  {
+    "ingredient": "Monk Fruit Extract",
+    "removed_because": "Violates Dairy-Free requirement",
+    "constraint": "Hard Dietary / Exclusion Constraint",
+    "evidence": "Neo4j KG"
+  },
+  {
+    "ingredient": "Allulose",
+    "removed_because": "Violates Dairy-Free requirement",
+    "constraint": "Hard Dietary / Exclusion Constraint",
+    "evidence": "Neo4j KG"
+  },
+  {
+    "ingredient": "Coconut Sugar",
+    "removed_because": "Violates Dairy-Free requirement",
+    "constraint": "Hard Dietary / Exclusion Constraint",
+    "evidence": "Neo4j KG"
+  },
+  {
+    "ingredient": "Cocoa Powder",
+    "removed_because": "Violates Dairy-Free requirement",
+    "constraint": "Hard Dietary / Exclusion Constraint",
+    "evidence": "Neo4j KG"
+  },
+  {
+    "ingredient": "Vanilla Extract",
+    "removed_because": "Violates Dairy-Free requirement",
+    "constraint": "Hard Dietary / Exclusion Constraint",
+    "evidence": "Neo4j KG"
+  },
+  {
+    "ingredient": "Natural Strawberry Flavor",
+    "removed_because": "Violates Dairy-Free requirement",
+    "constraint": "Hard Dietary / Exclusion Constraint",
+    "evidence": "Neo4j KG"
+  },
+  {
+    "ingredient": "Natural Caramel Flavor",
+    "removed_because": "Violates Dairy-Free requirement",
+    "constraint": "Hard Dietary / Exclusion Constraint",
+    "evidence": "Neo4j KG"
+  },
+  {
+    "ingredient": "Salt",
+    "removed_because": "Violates Dairy-Free requirement",
+    "constraint": "Hard Dietary / Exclusion Constraint",
+    "evidence": "Neo4j KG"
+  },
+  {
+    "ingredient": "Cinnamon Powder",
+    "removed_because": "Violates Dairy-Free requirement",
+    "constraint": "Hard Dietary / Exclusion Constraint",
+    "evidence": "Neo4j KG"
+  },
+  {
+    "ingredient": "Citric Acid",
+    "removed_because": "Violates Dairy-Free requirement",
+    "constraint": "Hard Dietary / Exclusion Constraint",
+    "evidence": "Neo4j KG"
+  },
+  {
+    "ingredient": "Sodium Bicarbonate",
+    "removed_because": "Violates Dairy-Free requirement",
+    "constraint": "Hard Dietary / Exclusion Constraint",
+    "evidence": "Neo4j KG"
+  },
+  {
+    "ingredient": "Malic Acid",
+    "removed_because": "Violates Dairy-Free requirement",
+    "constraint": "Hard Dietary / Exclusion Constraint",
+    "evidence": "Neo4j KG"
+  },
+  {
+    "ingredient": "Lactic Acid",
+    "removed_because": "Violates Dairy-Free requirement",
+    "constraint": "Hard Dietary / Exclusion Constraint",
+    "evidence": "Neo4j KG"
+  },
+  {
+    "ingredient": "Sodium Citrate",
+    "removed_because": "Violates Dairy-Free requirement",
+    "constraint": "Hard Dietary / Exclusion Constraint",
+    "evidence": "Neo4j KG"
+  },
+  {
+    "ingredient": "Tartaric Acid",
+    "removed_because": "Violates Dairy-Free requirement",
+    "constraint": "Hard Dietary / Exclusion Constraint",
+    "evidence": "Neo4j KG"
+  },
+  {
+    "ingredient": "Potassium Sorbate",
+    "removed_because": "Violates Dairy-Free requirement",
+    "constraint": "Hard Dietary / Exclusion Constraint",
+    "evidence": "Neo4j KG"
+  },
+  {
+    "ingredient": "Sodium Benzoate",
+    "removed_because": "Violates Dairy-Free requirement",
+    "constraint": "Hard Dietary / Exclusion Constraint",
+    "evidence": "Neo4j KG"
+  },
+  {
+    "ingredient": "Rosemary Extract",
+    "removed_because": "Violates Dairy-Free requirement",
+    "constraint": "Hard Dietary / Exclusion Constraint",
+    "evidence": "Neo4j KG"
+  },
+  {
+    "ingredient": "Mixed Tocopherols",
+    "removed_because": "Violates Dairy-Free requirement",
+    "constraint": "Hard Dietary / Exclusion Constraint",
+    "evidence": "Neo4j KG"
+  },
+  {
+    "ingredient": "Ascorbic Acid",
+    "removed_because": "Violates Dairy-Free requirement",
+    "constraint": "Hard Dietary / Exclusion Constraint",
+    "evidence": "Neo4j KG"
+  },
+  {
+    "ingredient": "Vitamin D3",
+    "removed_because": "Violates Dairy-Free requirement",
+    "constraint": "Hard Dietary / Exclusion Constraint",
+    "evidence": "Neo4j KG"
+  },
+  {
+    "ingredient": "Natamycin",
+    "removed_because": "Violates Dairy-Free requirement",
+    "constraint": "Hard Dietary / Exclusion Constraint",
+    "evidence": "Neo4j KG"
+  },
+  {
+    "ingredient": "Water",
+    "removed_because": "Violates Dairy-Free requirement",
+    "constraint": "Hard Dietary / Exclusion Constraint",
+    "evidence": "Neo4j KG"
+  },
+  {
+    "ingredient": "Sucrose",
+    "removed_because": "Violates Dairy-Free requirement",
+    "constraint": "Hard Dietary / Exclusion Constraint",
+    "evidence": "Neo4j KG"
+  },
+  {
+    "ingredient": "Sodium Chloride",
+    "removed_because": "Violates Dairy-Free requirement",
+    "constraint": "Hard Dietary / Exclusion Constraint",
+    "evidence": "Neo4j KG"
+  },
+  {
+    "ingredient": "Caffeine",
+    "removed_because": "Violates Dairy-Free requirement",
+    "constraint": "Hard Dietary / Exclusion Constraint",
+    "evidence": "Neo4j KG"
+  },
+  {
+    "ingredient": "Monosodium Glutamate",
+    "removed_because": "Violates Dairy-Free requirement",
+    "constraint": "Hard Dietary / Exclusion Constraint",
+    "evidence": "Neo4j KG"
+  },
+  {
+    "ingredient": "Whole Eggs",
+    "removed_because": "Violates Dairy-Free requirement",
+    "constraint": "Hard Dietary / Exclusion Constraint",
+    "evidence": "Neo4j KG"
+  },
+  {
+    "ingredient": "Milk",
+    "removed_because": "Violates Dairy-Free requirement; Matches explicit exclusion 'milk'",
+    "constraint": "Hard Dietary / Exclusion Constraint",
+    "evidence": "Neo4j KG"
+  },
+  {
+    "ingredient": "Yeast",
+    "removed_because": "Violates Dairy-Free requirement",
+    "constraint": "Hard Dietary / Exclusion Constraint",
+    "evidence": "Neo4j KG"
+  },
+  {
+    "ingredient": "Soybean Oil",
+    "removed_because": "Violates Dairy-Free requirement",
+    "constraint": "Hard Dietary / Exclusion Constraint",
+    "evidence": "Neo4j KG"
+  },
+  {
+    "ingredient": "Vegetable Oil",
+    "removed_because": "Violates Dairy-Free requirement",
+    "constraint": "Hard Dietary / Exclusion Constraint",
+    "evidence": "Neo4j KG"
+  },
+  {
+    "ingredient": "Potatoes",
+    "removed_because": "Violates Dairy-Free requirement",
+    "constraint": "Hard Dietary / Exclusion Constraint",
+    "evidence": "Neo4j KG"
+  },
+  {
+    "ingredient": "Baking Soda",
+    "removed_because": "Violates Dairy-Free requirement",
+    "constraint": "Hard Dietary / Exclusion Constraint",
+    "evidence": "Neo4j KG"
+  },
+  {
+    "ingredient": "Strawberries",
+    "removed_because": "Violates Dairy-Free requirement",
+    "constraint": "Hard Dietary / Exclusion Constraint",
+    "evidence": "Neo4j KG"
+  },
+  {
+    "ingredient": "Modified Corn Starch",
+    "removed_because": "Violates Dairy-Free requirement",
+    "constraint": "Hard Dietary / Exclusion Constraint",
+    "evidence": "Neo4j KG"
+  },
+  {
+    "ingredient": "Gelatin",
+    "removed_because": "Violates Dairy-Free requirement",
+    "constraint": "Hard Dietary / Exclusion Constraint",
+    "evidence": "Neo4j KG"
+  },
+  {
+    "ingredient": "Peanuts",
+    "removed_because": "Violates Dairy-Free requirement",
+    "constraint": "Hard Dietary / Exclusion Constraint",
+    "evidence": "Neo4j KG"
+  },
+  {
+    "ingredient": "Calcium Carbonate",
+    "removed_because": "Violates Dairy-Free requirement",
+    "constraint": "Hard Dietary / Exclusion Constraint",
+    "evidence": "Neo4j KG"
+  },
+  {
+    "ingredient": "Vitamin A",
+    "removed_because": "Violates Dairy-Free requirement",
+    "constraint": "Hard Dietary / Exclusion Constraint",
+    "evidence": "Neo4j KG"
+  },
+  {
+    "ingredient": "Distilled Vinegar",
+    "removed_because": "Violates Dairy-Free requirement",
+    "constraint": "Hard Dietary / Exclusion Constraint",
+    "evidence": "Neo4j KG"
+  },
+  {
+    "ingredient": "High Fructose Corn Syrup",
+    "removed_because": "Violates Dairy-Free requirement",
+    "constraint": "Hard Dietary / Exclusion Constraint",
+    "evidence": "Neo4j KG"
+  },
+  {
+    "ingredient": "food item specification",
+    "removed_because": "Violates Dairy-Free requirement",
+    "constraint": "Hard Dietary / Exclusion Constraint",
+    "evidence": "Neo4j KG"
+  },
+  {
+    "ingredient": "lobster tail food product",
+    "removed_because": "Violates Dairy-Free requirement",
+    "constraint": "Hard Dietary / Exclusion Constraint",
+    "evidence": "Neo4j KG"
+  },
+  {
+    "ingredient": "food cutting process",
+    "removed_because": "Violates Dairy-Free requirement",
+    "constraint": "Hard Dietary / Exclusion Constraint",
+    "evidence": "Neo4j KG"
+  },
+  {
+    "ingredient": "mammalian meat (ground)",
+    "removed_because": "Violates Dairy-Free requirement",
+    "constraint": "Hard Dietary / Exclusion Constraint",
+    "evidence": "Neo4j KG"
+  },
+  {
+    "ingredient": "cereal food fines (byproduct)",
+    "removed_because": "Violates Dairy-Free requirement",
+    "constraint": "Hard Dietary / Exclusion Constraint",
+    "evidence": "Neo4j KG"
+  },
+  {
+    "ingredient": "tortoise",
+    "removed_because": "Violates Dairy-Free requirement",
+    "constraint": "Hard Dietary / Exclusion Constraint",
+    "evidence": "Neo4j KG"
+  },
+  {
+    "ingredient": "pea (whole or pieces)",
+    "removed_because": "Violates Dairy-Free requirement",
+    "constraint": "Hard Dietary / Exclusion Constraint",
+    "evidence": "Neo4j KG"
+  },
+  {
+    "ingredient": "food product",
+    "removed_because": "Violates Dairy-Free requirement",
+    "constraint": "Hard Dietary / Exclusion Constraint",
+    "evidence": "Neo4j KG"
+  },
+  {
+    "ingredient": "fermented agave juice",
+    "removed_because": "Violates Dairy-Free requirement",
+    "constraint": "Hard Dietary / Exclusion Constraint",
+    "evidence": "Neo4j KG"
+  },
+  {
+    "ingredient": "fermenting sugar cane juice",
+    "removed_because": "Violates Dairy-Free requirement",
+    "constraint": "Hard Dietary / Exclusion Constraint",
+    "evidence": "Neo4j KG"
+  },
+  {
+    "ingredient": "fermenting elaeis palm sap food product",
+    "removed_because": "Violates Dairy-Free requirement",
+    "constraint": "Hard Dietary / Exclusion Constraint",
+    "evidence": "Neo4j KG"
+  },
+  {
+    "ingredient": "mammalian meat food product",
+    "removed_because": "Violates Dairy-Free requirement",
+    "constraint": "Hard Dietary / Exclusion Constraint",
+    "evidence": "Neo4j KG"
+  },
+  {
+    "ingredient": "meat sausage food product",
+    "removed_because": "Violates Dairy-Free requirement",
+    "constraint": "Hard Dietary / Exclusion Constraint",
+    "evidence": "Neo4j KG"
+  },
+  {
+    "ingredient": "liver paste",
+    "removed_because": "Violates Dairy-Free requirement",
+    "constraint": "Hard Dietary / Exclusion Constraint",
+    "evidence": "Neo4j KG"
+  },
+  {
+    "ingredient": "hot dog",
+    "removed_because": "Violates Dairy-Free requirement",
+    "constraint": "Hard Dietary / Exclusion Constraint",
+    "evidence": "Neo4j KG"
+  },
+  {
+    "ingredient": "processed meat food product",
+    "removed_because": "Violates Dairy-Free requirement",
+    "constraint": "Hard Dietary / Exclusion Constraint",
+    "evidence": "Neo4j KG"
+  },
+  {
+    "ingredient": "milk formula food product",
+    "removed_because": "Violates Dairy-Free requirement; Matches explicit exclusion 'milk'",
+    "constraint": "Hard Dietary / Exclusion Constraint",
+    "evidence": "Neo4j KG"
+  },
+  {
+    "ingredient": "milk formula (powdered)",
+    "removed_because": "Violates Dairy-Free requirement; Matches explicit exclusion 'milk'",
+    "constraint": "Hard Dietary / Exclusion Constraint",
+    "evidence": "Neo4j KG"
+  },
+  {
+    "ingredient": "cheese food product",
+    "removed_because": "Violates Dairy-Free requirement",
+    "constraint": "Hard Dietary / Exclusion Constraint",
+    "evidence": "Neo4j KG"
+  },
+  {
+    "ingredient": "yogurt food product",
+    "removed_because": "Violates Dairy-Free requirement",
+    "constraint": "Hard Dietary / Exclusion Constraint",
+    "evidence": "Neo4j KG"
+  },
+  {
+    "ingredient": "cabbage food product",
+    "removed_because": "Violates Dairy-Free requirement",
+    "constraint": "Hard Dietary / Exclusion Constraint",
+    "evidence": "Neo4j KG"
+  },
+  {
+    "ingredient": "commercial yogurt",
+    "removed_because": "Violates Dairy-Free requirement",
+    "constraint": "Hard Dietary / Exclusion Constraint",
+    "evidence": "Neo4j KG"
+  },
+  {
+    "ingredient": "cheese starter culture",
+    "removed_because": "Violates Dairy-Free requirement",
+    "constraint": "Hard Dietary / Exclusion Constraint",
+    "evidence": "Neo4j KG"
+  },
+  {
+    "ingredient": "wort food product",
+    "removed_because": "Violates Dairy-Free requirement",
+    "constraint": "Hard Dietary / Exclusion Constraint",
+    "evidence": "Neo4j KG"
+  },
+  {
+    "ingredient": "beer wort food product",
+    "removed_because": "Violates Dairy-Free requirement",
+    "constraint": "Hard Dietary / Exclusion Constraint",
+    "evidence": "Neo4j KG"
+  },
+  {
+    "ingredient": "acifified beer wort food product",
+    "removed_because": "Violates Dairy-Free requirement",
+    "constraint": "Hard Dietary / Exclusion Constraint",
+    "evidence": "Neo4j KG"
+  },
+  {
+    "ingredient": "Bleu de Bresse cheese",
+    "removed_because": "Violates Dairy-Free requirement",
+    "constraint": "Hard Dietary / Exclusion Constraint",
+    "evidence": "Neo4j KG"
+  },
+  {
+    "ingredient": "camembert cheese food product",
+    "removed_because": "Violates Dairy-Free requirement",
+    "constraint": "Hard Dietary / Exclusion Constraint",
+    "evidence": "Neo4j KG"
+  },
+  {
+    "ingredient": "obsolete: cane sugar",
+    "removed_because": "Violates Dairy-Free requirement",
+    "constraint": "Hard Dietary / Exclusion Constraint",
+    "evidence": "Neo4j KG"
+  },
+  {
+    "ingredient": "cheddar cheese food product",
+    "removed_because": "Violates Dairy-Free requirement",
+    "constraint": "Hard Dietary / Exclusion Constraint",
+    "evidence": "Neo4j KG"
+  },
+  {
+    "ingredient": "Brie cheese food product",
+    "removed_because": "Violates Dairy-Free requirement",
+    "constraint": "Hard Dietary / Exclusion Constraint",
+    "evidence": "Neo4j KG"
+  },
+  {
+    "ingredient": "gouda cheese food product",
+    "removed_because": "Violates Dairy-Free requirement",
+    "constraint": "Hard Dietary / Exclusion Constraint",
+    "evidence": "Neo4j KG"
+  },
+  {
+    "ingredient": "halloumi cheese food product",
+    "removed_because": "Violates Dairy-Free requirement",
+    "constraint": "Hard Dietary / Exclusion Constraint",
+    "evidence": "Neo4j KG"
+  },
+  {
+    "ingredient": "gorgonzola cheese food product",
+    "removed_because": "Violates Dairy-Free requirement",
+    "constraint": "Hard Dietary / Exclusion Constraint",
+    "evidence": "Neo4j KG"
+  },
+  {
+    "ingredient": "swiss cheese food product",
+    "removed_because": "Violates Dairy-Free requirement",
+    "constraint": "Hard Dietary / Exclusion Constraint",
+    "evidence": "Neo4j KG"
+  },
+  {
+    "ingredient": "emmenthal cheese",
+    "removed_because": "Violates Dairy-Free requirement",
+    "constraint": "Hard Dietary / Exclusion Constraint",
+    "evidence": "Neo4j KG"
+  },
+  {
+    "ingredient": "harzer cheese food product",
+    "removed_because": "Violates Dairy-Free requirement",
+    "constraint": "Hard Dietary / Exclusion Constraint",
+    "evidence": "Neo4j KG"
+  },
+  {
+    "ingredient": "new zealand cheddar cheese food product",
+    "removed_because": "Violates Dairy-Free requirement",
+    "constraint": "Hard Dietary / Exclusion Constraint",
+    "evidence": "Neo4j KG"
+  },
+  {
+    "ingredient": "pont ieveque cheese food product",
+    "removed_because": "Violates Dairy-Free requirement",
+    "constraint": "Hard Dietary / Exclusion Constraint",
+    "evidence": "Neo4j KG"
+  },
+  {
+    "ingredient": "vacherin mont dor cheese food product",
+    "removed_because": "Violates Dairy-Free requirement",
+    "constraint": "Hard Dietary / Exclusion Constraint",
+    "evidence": "Neo4j KG"
+  },
+  {
+    "ingredient": "cured meat food product",
+    "removed_because": "Violates Dairy-Free requirement",
+    "constraint": "Hard Dietary / Exclusion Constraint",
+    "evidence": "Neo4j KG"
+  },
+  {
+    "ingredient": "ovine milk beverage",
+    "removed_because": "Violates Dairy-Free requirement; Matches explicit exclusion 'milk'",
+    "constraint": "Hard Dietary / Exclusion Constraint",
+    "evidence": "Neo4j KG"
+  },
+  {
+    "ingredient": "ice cream food product",
+    "removed_because": "Violates Dairy-Free requirement",
+    "constraint": "Hard Dietary / Exclusion Constraint",
+    "evidence": "Neo4j KG"
+  },
+  {
+    "ingredient": "animal seafood product",
+    "removed_because": "Violates Dairy-Free requirement",
+    "constraint": "Hard Dietary / Exclusion Constraint",
+    "evidence": "Neo4j KG"
+  },
+  {
+    "ingredient": "obsolete: jeotgal food product",
+    "removed_because": "Violates Dairy-Free requirement",
+    "constraint": "Hard Dietary / Exclusion Constraint",
+    "evidence": "Neo4j KG"
+  },
+  {
+    "ingredient": "meshanger cheese food product",
+    "removed_because": "Violates Dairy-Free requirement",
+    "constraint": "Hard Dietary / Exclusion Constraint",
+    "evidence": "Neo4j KG"
+  },
+  {
+    "ingredient": "pork chop food product",
+    "removed_because": "Violates Dairy-Free requirement",
+    "constraint": "Hard Dietary / Exclusion Constraint",
+    "evidence": "Neo4j KG"
+  },
+  {
+    "ingredient": "tempeh food product",
+    "removed_because": "Violates Dairy-Free requirement",
+    "constraint": "Hard Dietary / Exclusion Constraint",
+    "evidence": "Neo4j KG"
+  },
+  {
+    "ingredient": "fermented rice beverage",
+    "removed_because": "Violates Dairy-Free requirement",
+    "constraint": "Hard Dietary / Exclusion Constraint",
+    "evidence": "Neo4j KG"
+  },
+  {
+    "ingredient": "amasake food product",
+    "removed_because": "Violates Dairy-Free requirement",
+    "constraint": "Hard Dietary / Exclusion Constraint",
+    "evidence": "Neo4j KG"
+  },
+  {
+    "ingredient": "sea water fish food product",
+    "removed_because": "Violates Dairy-Free requirement",
+    "constraint": "Hard Dietary / Exclusion Constraint",
+    "evidence": "Neo4j KG"
+  },
+  {
+    "ingredient": "flour food product",
+    "removed_because": "Violates Dairy-Free requirement",
+    "constraint": "Hard Dietary / Exclusion Constraint",
+    "evidence": "Neo4j KG"
+  },
+  {
+    "ingredient": "fruit extract food product",
+    "removed_because": "Violates Dairy-Free requirement",
+    "constraint": "Hard Dietary / Exclusion Constraint",
+    "evidence": "Neo4j KG"
+  },
+  {
+    "ingredient": "awamori food product",
+    "removed_because": "Violates Dairy-Free requirement",
+    "constraint": "Hard Dietary / Exclusion Constraint",
+    "evidence": "Neo4j KG"
+  },
+  {
+    "ingredient": "bacon food product",
+    "removed_because": "Violates Dairy-Free requirement",
+    "constraint": "Hard Dietary / Exclusion Constraint",
+    "evidence": "Neo4j KG"
+  },
+  {
+    "ingredient": "millet beer food product",
+    "removed_because": "Violates Dairy-Free requirement",
+    "constraint": "Hard Dietary / Exclusion Constraint",
+    "evidence": "Neo4j KG"
+  },
+  {
+    "ingredient": "blue cheese food product",
+    "removed_because": "Violates Dairy-Free requirement",
+    "constraint": "Hard Dietary / Exclusion Constraint",
+    "evidence": "Neo4j KG"
+  },
+  {
+    "ingredient": "bottled fruit food product",
+    "removed_because": "Violates Dairy-Free requirement",
+    "constraint": "Hard Dietary / Exclusion Constraint",
+    "evidence": "Neo4j KG"
+  },
+  {
+    "ingredient": "obsolete: canned fruit food product",
+    "removed_because": "Violates Dairy-Free requirement",
+    "constraint": "Hard Dietary / Exclusion Constraint",
+    "evidence": "Neo4j KG"
+  },
+  {
+    "ingredient": "miso food product",
+    "removed_because": "Violates Dairy-Free requirement",
+    "constraint": "Hard Dietary / Exclusion Constraint",
+    "evidence": "Neo4j KG"
+  },
+  {
+    "ingredient": "grape must",
+    "removed_because": "Violates Dairy-Free requirement",
+    "constraint": "Hard Dietary / Exclusion Constraint",
+    "evidence": "Neo4j KG"
+  },
+  {
+    "ingredient": "obsolete: yeast cake food product",
+    "removed_because": "Violates Dairy-Free requirement",
+    "constraint": "Hard Dietary / Exclusion Constraint",
+    "evidence": "Neo4j KG"
+  },
+  {
+    "ingredient": "vinegar food product",
+    "removed_because": "Violates Dairy-Free requirement",
+    "constraint": "Hard Dietary / Exclusion Constraint",
+    "evidence": "Neo4j KG"
+  },
+  {
+    "ingredient": "mammalian milk (nonfat, dry)",
+    "removed_because": "Violates Dairy-Free requirement; Matches explicit exclusion 'milk'",
+    "constraint": "Hard Dietary / Exclusion Constraint",
+    "evidence": "Neo4j KG"
+  },
+  {
+    "ingredient": "sake food product",
+    "removed_because": "Violates Dairy-Free requirement",
+    "constraint": "Hard Dietary / Exclusion Constraint",
+    "evidence": "Neo4j KG"
+  },
+  {
+    "ingredient": "salt pork meat food product",
+    "removed_because": "Violates Dairy-Free requirement",
+    "constraint": "Hard Dietary / Exclusion Constraint",
+    "evidence": "Neo4j KG"
+  },
+  {
+    "ingredient": "fermented soybean food product",
+    "removed_because": "Violates Dairy-Free requirement",
+    "constraint": "Hard Dietary / Exclusion Constraint",
+    "evidence": "Neo4j KG"
+  },
+  {
+    "ingredient": "tape kefan food product",
+    "removed_because": "Violates Dairy-Free requirement",
+    "constraint": "Hard Dietary / Exclusion Constraint",
+    "evidence": "Neo4j KG"
+  },
+  {
+    "ingredient": "Bondon cheese food product",
+    "removed_because": "Violates Dairy-Free requirement",
+    "constraint": "Hard Dietary / Exclusion Constraint",
+    "evidence": "Neo4j KG"
+  },
+  {
+    "ingredient": "bitter cheese food product",
+    "removed_because": "Violates Dairy-Free requirement",
+    "constraint": "Hard Dietary / Exclusion Constraint",
+    "evidence": "Neo4j KG"
+  },
+  {
+    "ingredient": "obsolete: brown sugar",
+    "removed_because": "Violates Dairy-Free requirement",
+    "constraint": "Hard Dietary / Exclusion Constraint",
+    "evidence": "Neo4j KG"
+  },
+  {
+    "ingredient": "evaporated milk food product",
+    "removed_because": "Violates Dairy-Free requirement; Matches explicit exclusion 'milk'",
+    "constraint": "Hard Dietary / Exclusion Constraint",
+    "evidence": "Neo4j KG"
+  },
+  {
+    "ingredient": "kefir food product",
+    "removed_because": "Violates Dairy-Free requirement",
+    "constraint": "Hard Dietary / Exclusion Constraint",
+    "evidence": "Neo4j KG"
+  },
+  {
+    "ingredient": "vegetable oil food product",
+    "removed_because": "Violates Dairy-Free requirement",
+    "constraint": "Hard Dietary / Exclusion Constraint",
+    "evidence": "Neo4j KG"
+  },
+  {
+    "ingredient": "flaxseed oil",
+    "removed_because": "Violates Dairy-Free requirement",
+    "constraint": "Hard Dietary / Exclusion Constraint",
+    "evidence": "Neo4j KG"
+  },
+  {
+    "ingredient": "milled corn food product",
+    "removed_because": "Violates Dairy-Free requirement",
+    "constraint": "Hard Dietary / Exclusion Constraint",
+    "evidence": "Neo4j KG"
+  },
+  {
+    "ingredient": "sour milk beverage",
+    "removed_because": "Violates Dairy-Free requirement; Matches explicit exclusion 'milk'",
+    "constraint": "Hard Dietary / Exclusion Constraint",
+    "evidence": "Neo4j KG"
+  },
+  {
+    "ingredient": "fermented elaeis palm beverage",
+    "removed_because": "Violates Dairy-Free requirement",
+    "constraint": "Hard Dietary / Exclusion Constraint",
+    "evidence": "Neo4j KG"
+  },
+  {
+    "ingredient": "fermented sugar cane beverage",
+    "removed_because": "Violates Dairy-Free requirement",
+    "constraint": "Hard Dietary / Exclusion Constraint",
+    "evidence": "Neo4j KG"
+  },
+  {
+    "ingredient": "apple beverage",
+    "removed_because": "Violates Dairy-Free requirement",
+    "constraint": "Hard Dietary / Exclusion Constraint",
+    "evidence": "Neo4j KG"
+  },
+  {
+    "ingredient": "grape beverage",
+    "removed_because": "Violates Dairy-Free requirement",
+    "constraint": "Hard Dietary / Exclusion Constraint",
+    "evidence": "Neo4j KG"
+  },
+  {
+    "ingredient": "fermented grain beverage",
+    "removed_because": "Violates Dairy-Free requirement",
+    "constraint": "Hard Dietary / Exclusion Constraint",
+    "evidence": "Neo4j KG"
+  },
+  {
+    "ingredient": "sea water fish egg food product",
+    "removed_because": "Violates Dairy-Free requirement",
+    "constraint": "Hard Dietary / Exclusion Constraint",
+    "evidence": "Neo4j KG"
+  },
+  {
+    "ingredient": "horse dairy food product",
+    "removed_because": "Violates Dairy-Free requirement; Matches explicit exclusion 'dairy'",
+    "constraint": "Hard Dietary / Exclusion Constraint",
+    "evidence": "Neo4j KG"
+  },
+  {
+    "ingredient": "cattle dairy food product",
+    "removed_because": "Violates Dairy-Free requirement; Matches explicit exclusion 'dairy'",
+    "constraint": "Hard Dietary / Exclusion Constraint",
+    "evidence": "Neo4j KG"
+  },
+  {
+    "ingredient": "cervid dairy food product",
+    "removed_because": "Violates Dairy-Free requirement; Matches explicit exclusion 'dairy'",
+    "constraint": "Hard Dietary / Exclusion Constraint",
+    "evidence": "Neo4j KG"
+  },
+  {
+    "ingredient": "camelid milk beverage",
+    "removed_because": "Violates Dairy-Free requirement; Matches explicit exclusion 'milk'",
+    "constraint": "Hard Dietary / Exclusion Constraint",
+    "evidence": "Neo4j KG"
+  },
+  {
+    "ingredient": "equine milk beverage",
+    "removed_because": "Violates Dairy-Free requirement; Matches explicit exclusion 'milk'",
+    "constraint": "Hard Dietary / Exclusion Constraint",
+    "evidence": "Neo4j KG"
+  },
+  {
+    "ingredient": "cervid milk beverage",
+    "removed_because": "Violates Dairy-Free requirement; Matches explicit exclusion 'milk'",
+    "constraint": "Hard Dietary / Exclusion Constraint",
+    "evidence": "Neo4j KG"
+  },
+  {
+    "ingredient": "cow milk beverage",
+    "removed_because": "Violates Dairy-Free requirement; Matches explicit exclusion 'milk'",
+    "constraint": "Hard Dietary / Exclusion Constraint",
+    "evidence": "Neo4j KG"
+  },
+  {
+    "ingredient": "caprine cheese food product",
+    "removed_because": "Violates Dairy-Free requirement",
+    "constraint": "Hard Dietary / Exclusion Constraint",
+    "evidence": "Neo4j KG"
+  },
+  {
+    "ingredient": "ovine cheese food product",
+    "removed_because": "Violates Dairy-Free requirement",
+    "constraint": "Hard Dietary / Exclusion Constraint",
+    "evidence": "Neo4j KG"
+  },
+  {
+    "ingredient": "bovine cheese food product",
+    "removed_because": "Violates Dairy-Free requirement",
+    "constraint": "Hard Dietary / Exclusion Constraint",
+    "evidence": "Neo4j KG"
+  },
+  {
+    "ingredient": "cow milk cheese",
+    "removed_because": "Violates Dairy-Free requirement; Matches explicit exclusion 'milk'",
+    "constraint": "Hard Dietary / Exclusion Constraint",
+    "evidence": "Neo4j KG"
+  },
+  {
+    "ingredient": "Limburger cheese food product",
+    "removed_because": "Violates Dairy-Free requirement",
+    "constraint": "Hard Dietary / Exclusion Constraint",
+    "evidence": "Neo4j KG"
+  },
+  {
+    "ingredient": "goat milk cheese food product",
+    "removed_because": "Violates Dairy-Free requirement; Matches explicit exclusion 'milk'",
+    "constraint": "Hard Dietary / Exclusion Constraint",
+    "evidence": "Neo4j KG"
+  },
+  {
+    "ingredient": "sheep milk cheese food product",
+    "removed_because": "Violates Dairy-Free requirement; Matches explicit exclusion 'milk'",
+    "constraint": "Hard Dietary / Exclusion Constraint",
+    "evidence": "Neo4j KG"
+  },
+  {
+    "ingredient": "poultry meat food product",
+    "removed_because": "Violates Dairy-Free requirement",
+    "constraint": "Hard Dietary / Exclusion Constraint",
+    "evidence": "Neo4j KG"
+  },
+  {
+    "ingredient": "condiment",
+    "removed_because": "Violates Dairy-Free requirement",
+    "constraint": "Hard Dietary / Exclusion Constraint",
+    "evidence": "Neo4j KG"
+  },
+  {
+    "ingredient": "distilled fermented grain beverage",
+    "removed_because": "Violates Dairy-Free requirement",
+    "constraint": "Hard Dietary / Exclusion Constraint",
+    "evidence": "Neo4j KG"
+  },
+  {
+    "ingredient": "distilled fermented beverage",
+    "removed_because": "Violates Dairy-Free requirement",
+    "constraint": "Hard Dietary / Exclusion Constraint",
+    "evidence": "Neo4j KG"
+  },
+  {
+    "ingredient": "obsolete: soya food product",
+    "removed_because": "Violates Dairy-Free requirement",
+    "constraint": "Hard Dietary / Exclusion Constraint",
+    "evidence": "Neo4j KG"
+  },
+  {
+    "ingredient": "coffee based beverage product",
+    "removed_because": "Violates Dairy-Free requirement",
+    "constraint": "Hard Dietary / Exclusion Constraint",
+    "evidence": "Neo4j KG"
+  },
+  {
+    "ingredient": "wheat food product",
+    "removed_because": "Violates Dairy-Free requirement",
+    "constraint": "Hard Dietary / Exclusion Constraint",
+    "evidence": "Neo4j KG"
+  },
+  {
+    "ingredient": "fungus food product",
+    "removed_because": "Violates Dairy-Free requirement",
+    "constraint": "Hard Dietary / Exclusion Constraint",
+    "evidence": "Neo4j KG"
+  },
+  {
+    "ingredient": "yeast material",
+    "removed_because": "Violates Dairy-Free requirement",
+    "constraint": "Hard Dietary / Exclusion Constraint",
+    "evidence": "Neo4j KG"
+  },
+  {
+    "ingredient": "microbial food material",
+    "removed_because": "Violates Dairy-Free requirement",
+    "constraint": "Hard Dietary / Exclusion Constraint",
+    "evidence": "Neo4j KG"
+  },
+  {
+    "ingredient": "solanaceous root food product",
+    "removed_because": "Violates Dairy-Free requirement",
+    "constraint": "Hard Dietary / Exclusion Constraint",
+    "evidence": "Neo4j KG"
+  },
+  {
+    "ingredient": "confectionery food",
+    "removed_because": "Violates Dairy-Free requirement",
+    "constraint": "Hard Dietary / Exclusion Constraint",
+    "evidence": "Neo4j KG"
+  },
+  {
+    "ingredient": "cucurbit fruit food product",
+    "removed_because": "Violates Dairy-Free requirement",
+    "constraint": "Hard Dietary / Exclusion Constraint",
+    "evidence": "Neo4j KG"
+  },
+  {
+    "ingredient": "melon fruit food product",
+    "removed_because": "Violates Dairy-Free requirement",
+    "constraint": "Hard Dietary / Exclusion Constraint",
+    "evidence": "Neo4j KG"
+  },
+  {
+    "ingredient": "muskmelon (Cucumis melo) fruit food product",
+    "removed_because": "Violates Dairy-Free requirement",
+    "constraint": "Hard Dietary / Exclusion Constraint",
+    "evidence": "Neo4j KG"
+  },
+  {
+    "ingredient": "citrullus lanatus fruit food product",
+    "removed_because": "Violates Dairy-Free requirement",
+    "constraint": "Hard Dietary / Exclusion Constraint",
+    "evidence": "Neo4j KG"
+  },
+  {
+    "ingredient": "pomaceous fruit juice beverage",
+    "removed_because": "Violates Dairy-Free requirement",
+    "constraint": "Hard Dietary / Exclusion Constraint",
+    "evidence": "Neo4j KG"
+  },
+  {
+    "ingredient": "pomaceous fruit extract",
+    "removed_because": "Violates Dairy-Free requirement",
+    "constraint": "Hard Dietary / Exclusion Constraint",
+    "evidence": "Neo4j KG"
+  },
+  {
+    "ingredient": "citrus fruit extract food product",
+    "removed_because": "Violates Dairy-Free requirement",
+    "constraint": "Hard Dietary / Exclusion Constraint",
+    "evidence": "Neo4j KG"
+  },
+  {
+    "ingredient": "grape extract",
+    "removed_because": "Violates Dairy-Free requirement",
+    "constraint": "Hard Dietary / Exclusion Constraint",
+    "evidence": "Neo4j KG"
+  },
+  {
+    "ingredient": "solanaceous fruit food product",
+    "removed_because": "Violates Dairy-Free requirement",
+    "constraint": "Hard Dietary / Exclusion Constraint",
+    "evidence": "Neo4j KG"
+  },
+  {
+    "ingredient": "tomato food product",
+    "removed_because": "Violates Dairy-Free requirement",
+    "constraint": "Hard Dietary / Exclusion Constraint",
+    "evidence": "Neo4j KG"
+  },
+  {
+    "ingredient": "solanaceous food product",
+    "removed_because": "Violates Dairy-Free requirement",
+    "constraint": "Hard Dietary / Exclusion Constraint",
+    "evidence": "Neo4j KG"
+  },
+  {
+    "ingredient": "obsolete: leguminous food product",
+    "removed_because": "Violates Dairy-Free requirement",
+    "constraint": "Hard Dietary / Exclusion Constraint",
+    "evidence": "Neo4j KG"
+  },
+  {
+    "ingredient": "cruciferous food product",
+    "removed_because": "Violates Dairy-Free requirement",
+    "constraint": "Hard Dietary / Exclusion Constraint",
+    "evidence": "Neo4j KG"
+  },
+  {
+    "ingredient": "cruciferous inflorescence food product",
+    "removed_because": "Violates Dairy-Free requirement",
+    "constraint": "Hard Dietary / Exclusion Constraint",
+    "evidence": "Neo4j KG"
+  },
+  {
+    "ingredient": "nut food product",
+    "removed_because": "Violates Dairy-Free requirement",
+    "constraint": "Hard Dietary / Exclusion Constraint",
+    "evidence": "Neo4j KG"
+  },
+  {
+    "ingredient": "amaranthaceous inflorescence food product",
+    "removed_because": "Violates Dairy-Free requirement",
+    "constraint": "Hard Dietary / Exclusion Constraint",
+    "evidence": "Neo4j KG"
+  },
+  {
+    "ingredient": "prepared food product",
+    "removed_because": "Violates Dairy-Free requirement",
+    "constraint": "Hard Dietary / Exclusion Constraint",
+    "evidence": "Neo4j KG"
+  },
+  {
+    "ingredient": "pickled cruciferous food product",
+    "removed_because": "Violates Dairy-Free requirement",
+    "constraint": "Hard Dietary / Exclusion Constraint",
+    "evidence": "Neo4j KG"
+  },
+  {
+    "ingredient": "bread food product",
+    "removed_because": "Violates Dairy-Free requirement",
+    "constraint": "Hard Dietary / Exclusion Constraint",
+    "evidence": "Neo4j KG"
+  },
+  {
+    "ingredient": "buckewheat food product",
+    "removed_because": "Violates Dairy-Free requirement",
+    "constraint": "Hard Dietary / Exclusion Constraint",
+    "evidence": "Neo4j KG"
+  },
+  {
+    "ingredient": "sorghum food product",
+    "removed_because": "Violates Dairy-Free requirement",
+    "constraint": "Hard Dietary / Exclusion Constraint",
+    "evidence": "Neo4j KG"
+  },
+  {
+    "ingredient": "obsolete: milet food product",
+    "removed_because": "Violates Dairy-Free requirement",
+    "constraint": "Hard Dietary / Exclusion Constraint",
+    "evidence": "Neo4j KG"
+  },
+  {
+    "ingredient": "rye food product",
+    "removed_because": "Violates Dairy-Free requirement",
+    "constraint": "Hard Dietary / Exclusion Constraint",
+    "evidence": "Neo4j KG"
+  },
+  {
+    "ingredient": "fonio food product",
+    "removed_because": "Violates Dairy-Free requirement",
+    "constraint": "Hard Dietary / Exclusion Constraint",
+    "evidence": "Neo4j KG"
+  },
+  {
+    "ingredient": "obsolete: lentil food product",
+    "removed_because": "Violates Dairy-Free requirement",
+    "constraint": "Hard Dietary / Exclusion Constraint",
+    "evidence": "Neo4j KG"
+  },
+  {
+    "ingredient": "dry bean food product",
+    "removed_because": "Violates Dairy-Free requirement",
+    "constraint": "Hard Dietary / Exclusion Constraint",
+    "evidence": "Neo4j KG"
+  },
+  {
+    "ingredient": "pulse food product",
+    "removed_because": "Violates Dairy-Free requirement",
+    "constraint": "Hard Dietary / Exclusion Constraint",
+    "evidence": "Neo4j KG"
+  },
+  {
+    "ingredient": "wheat flour food product",
+    "removed_because": "Violates Dairy-Free requirement",
+    "constraint": "Hard Dietary / Exclusion Constraint",
+    "evidence": "Neo4j KG"
+  },
+  {
+    "ingredient": "pasta food product",
+    "removed_because": "Violates Dairy-Free requirement",
+    "constraint": "Hard Dietary / Exclusion Constraint",
+    "evidence": "Neo4j KG"
+  },
+  {
+    "ingredient": "pastry food product",
+    "removed_because": "Violates Dairy-Free requirement",
+    "constraint": "Hard Dietary / Exclusion Constraint",
+    "evidence": "Neo4j KG"
+  },
+  {
+    "ingredient": "obsolete: baked food product",
+    "removed_because": "Violates Dairy-Free requirement",
+    "constraint": "Hard Dietary / Exclusion Constraint",
+    "evidence": "Neo4j KG"
+  },
+  {
+    "ingredient": "candy food product",
+    "removed_because": "Violates Dairy-Free requirement",
+    "constraint": "Hard Dietary / Exclusion Constraint",
+    "evidence": "Neo4j KG"
+  },
+  {
+    "ingredient": "cream food product",
+    "removed_because": "Violates Dairy-Free requirement",
+    "constraint": "Hard Dietary / Exclusion Constraint",
+    "evidence": "Neo4j KG"
+  },
+  {
+    "ingredient": "bee food product",
+    "removed_because": "Violates Dairy-Free requirement",
+    "constraint": "Hard Dietary / Exclusion Constraint",
+    "evidence": "Neo4j KG"
+  },
+  {
+    "ingredient": "sausage (raw)",
+    "removed_because": "Violates Dairy-Free requirement",
+    "constraint": "Hard Dietary / Exclusion Constraint",
+    "evidence": "Neo4j KG"
+  },
+  {
+    "ingredient": "meat sausage (dried, fermented)",
+    "removed_because": "Violates Dairy-Free requirement",
+    "constraint": "Hard Dietary / Exclusion Constraint",
+    "evidence": "Neo4j KG"
+  },
+  {
+    "ingredient": "smoked meat food product",
+    "removed_because": "Violates Dairy-Free requirement",
+    "constraint": "Hard Dietary / Exclusion Constraint",
+    "evidence": "Neo4j KG"
+  },
+  {
+    "ingredient": "fruit preserve or jam food product",
+    "removed_because": "Violates Dairy-Free requirement",
+    "constraint": "Hard Dietary / Exclusion Constraint",
+    "evidence": "Neo4j KG"
+  },
+  {
+    "ingredient": "jam food product",
+    "removed_because": "Violates Dairy-Free requirement",
+    "constraint": "Hard Dietary / Exclusion Constraint",
+    "evidence": "Neo4j KG"
+  },
+  {
+    "ingredient": "rennet food product",
+    "removed_because": "Violates Dairy-Free requirement",
+    "constraint": "Hard Dietary / Exclusion Constraint",
+    "evidence": "Neo4j KG"
+  },
+  {
+    "ingredient": "processed cheese food product",
+    "removed_because": "Violates Dairy-Free requirement",
+    "constraint": "Hard Dietary / Exclusion Constraint",
+    "evidence": "Neo4j KG"
+  },
+  {
+    "ingredient": "mustard seed food product",
+    "removed_because": "Violates Dairy-Free requirement",
+    "constraint": "Hard Dietary / Exclusion Constraint",
+    "evidence": "Neo4j KG"
+  },
+  {
+    "ingredient": "creamy salad dressing",
+    "removed_because": "Violates Dairy-Free requirement",
+    "constraint": "Hard Dietary / Exclusion Constraint",
+    "evidence": "Neo4j KG"
+  },
+  {
+    "ingredient": "vinaigrette dressing food product",
+    "removed_because": "Violates Dairy-Free requirement",
+    "constraint": "Hard Dietary / Exclusion Constraint",
+    "evidence": "Neo4j KG"
+  },
+  {
+    "ingredient": "nut oil food product",
+    "removed_because": "Violates Dairy-Free requirement",
+    "constraint": "Hard Dietary / Exclusion Constraint",
+    "evidence": "Neo4j KG"
+  },
+  {
+    "ingredient": "mayonnaise food product",
+    "removed_because": "Violates Dairy-Free requirement",
+    "constraint": "Hard Dietary / Exclusion Constraint",
+    "evidence": "Neo4j KG"
+  },
+  {
+    "ingredient": "soy sauce food product",
+    "removed_because": "Violates Dairy-Free requirement",
+    "constraint": "Hard Dietary / Exclusion Constraint",
+    "evidence": "Neo4j KG"
+  },
+  {
+    "ingredient": "fresh sea water fish food product",
+    "removed_because": "Violates Dairy-Free requirement",
+    "constraint": "Hard Dietary / Exclusion Constraint",
+    "evidence": "Neo4j KG"
+  },
+  {
+    "ingredient": "rennet (genetically engineered)",
+    "removed_because": "Violates Dairy-Free requirement",
+    "constraint": "Hard Dietary / Exclusion Constraint",
+    "evidence": "Neo4j KG"
+  },
+  {
+    "ingredient": "animal lipid food product",
+    "removed_because": "Violates Dairy-Free requirement",
+    "constraint": "Hard Dietary / Exclusion Constraint",
+    "evidence": "Neo4j KG"
+  },
+  {
+    "ingredient": "coffee beverage",
+    "removed_because": "Violates Dairy-Free requirement",
+    "constraint": "Hard Dietary / Exclusion Constraint",
+    "evidence": "Neo4j KG"
+  },
+  {
+    "ingredient": "tea beverage (liquid)",
+    "removed_because": "Violates Dairy-Free requirement",
+    "constraint": "Hard Dietary / Exclusion Constraint",
+    "evidence": "Neo4j KG"
+  },
+  {
+    "ingredient": "freshwater fish food product",
+    "removed_because": "Violates Dairy-Free requirement",
+    "constraint": "Hard Dietary / Exclusion Constraint",
+    "evidence": "Neo4j KG"
+  },
+  {
+    "ingredient": "avian food product",
+    "removed_because": "Violates Dairy-Free requirement",
+    "constraint": "Hard Dietary / Exclusion Constraint",
+    "evidence": "Neo4j KG"
+  },
+  {
+    "ingredient": "animal derived beverage",
+    "removed_because": "Violates Dairy-Free requirement",
+    "constraint": "Hard Dietary / Exclusion Constraint",
+    "evidence": "Neo4j KG"
+  },
+  {
+    "ingredient": "dairy food product",
+    "removed_because": "Violates Dairy-Free requirement; Matches explicit exclusion 'dairy'",
+    "constraint": "Hard Dietary / Exclusion Constraint",
+    "evidence": "Neo4j KG"
+  },
+  {
+    "ingredient": "milk or milk based food product",
+    "removed_because": "Violates Dairy-Free requirement; Matches explicit exclusion 'milk'",
+    "constraint": "Hard Dietary / Exclusion Constraint",
+    "evidence": "Neo4j KG"
+  },
+  {
+    "ingredient": "food (fermented)",
+    "removed_because": "Violates Dairy-Free requirement",
+    "constraint": "Hard Dietary / Exclusion Constraint",
+    "evidence": "Neo4j KG"
+  },
+  {
+    "ingredient": "non-fruit wine food product",
+    "removed_because": "Violates Dairy-Free requirement",
+    "constraint": "Hard Dietary / Exclusion Constraint",
+    "evidence": "Neo4j KG"
+  },
+  {
+    "ingredient": "beer beverage",
+    "removed_because": "Violates Dairy-Free requirement",
+    "constraint": "Hard Dietary / Exclusion Constraint",
+    "evidence": "Neo4j KG"
+  },
+  {
+    "ingredient": "vegetable food product",
+    "removed_because": "Violates Dairy-Free requirement",
+    "constraint": "Hard Dietary / Exclusion Constraint",
+    "evidence": "Neo4j KG"
+  },
+  {
+    "ingredient": "botanical fruit food product",
+    "removed_because": "Violates Dairy-Free requirement",
+    "constraint": "Hard Dietary / Exclusion Constraint",
+    "evidence": "Neo4j KG"
+  },
+  {
+    "ingredient": "bu-du",
+    "removed_because": "Violates Dairy-Free requirement",
+    "constraint": "Hard Dietary / Exclusion Constraint",
+    "evidence": "Neo4j KG"
+  },
+  {
+    "ingredient": "legume food product",
+    "removed_because": "Violates Dairy-Free requirement",
+    "constraint": "Hard Dietary / Exclusion Constraint",
+    "evidence": "Neo4j KG"
+  },
+  {
+    "ingredient": "camel milk beverage",
+    "removed_because": "Violates Dairy-Free requirement; Matches explicit exclusion 'milk'",
+    "constraint": "Hard Dietary / Exclusion Constraint",
+    "evidence": "Neo4j KG"
+  },
+  {
+    "ingredient": "donkey milk beverage",
+    "removed_because": "Violates Dairy-Free requirement; Matches explicit exclusion 'milk'",
+    "constraint": "Hard Dietary / Exclusion Constraint",
+    "evidence": "Neo4j KG"
+  },
+  {
+    "ingredient": "horse milk beverage",
+    "removed_because": "Violates Dairy-Free requirement; Matches explicit exclusion 'milk'",
+    "constraint": "Hard Dietary / Exclusion Constraint",
+    "evidence": "Neo4j KG"
+  },
+  {
+    "ingredient": "reindeer milk beverage",
+    "removed_because": "Violates Dairy-Free requirement; Matches explicit exclusion 'milk'",
+    "constraint": "Hard Dietary / Exclusion Constraint",
+    "evidence": "Neo4j KG"
+  },
+  {
+    "ingredient": "water buffalo milk beverage",
+    "removed_because": "Violates Dairy-Free requirement; Matches explicit exclusion 'milk'",
+    "constraint": "Hard Dietary / Exclusion Constraint",
+    "evidence": "Neo4j KG"
+  },
+  {
+    "ingredient": "yak milk beverage",
+    "removed_because": "Violates Dairy-Free requirement; Matches explicit exclusion 'milk'",
+    "constraint": "Hard Dietary / Exclusion Constraint",
+    "evidence": "Neo4j KG"
+  },
+  {
+    "ingredient": "zebra milk beverage",
+    "removed_because": "Violates Dairy-Free requirement; Matches explicit exclusion 'milk'",
+    "constraint": "Hard Dietary / Exclusion Constraint",
+    "evidence": "Neo4j KG"
+  },
+  {
+    "ingredient": "egg food product",
+    "removed_because": "Violates Dairy-Free requirement",
+    "constraint": "Hard Dietary / Exclusion Constraint",
+    "evidence": "Neo4j KG"
+  },
+  {
+    "ingredient": "apple cider (alcoholic)",
+    "removed_because": "Violates Dairy-Free requirement",
+    "constraint": "Hard Dietary / Exclusion Constraint",
+    "evidence": "Neo4j KG"
+  },
+  {
+    "ingredient": "orange juice (unpasteurized)",
+    "removed_because": "Violates Dairy-Free requirement",
+    "constraint": "Hard Dietary / Exclusion Constraint",
+    "evidence": "Neo4j KG"
+  },
+  {
+    "ingredient": "cake food product",
+    "removed_because": "Violates Dairy-Free requirement",
+    "constraint": "Hard Dietary / Exclusion Constraint",
+    "evidence": "Neo4j KG"
+  },
+  {
+    "ingredient": "cake icing food product",
+    "removed_because": "Violates Dairy-Free requirement",
+    "constraint": "Hard Dietary / Exclusion Constraint",
+    "evidence": "Neo4j KG"
+  },
+  {
+    "ingredient": "custard dessert food product",
+    "removed_because": "Violates Dairy-Free requirement",
+    "constraint": "Hard Dietary / Exclusion Constraint",
+    "evidence": "Neo4j KG"
+  },
+  {
+    "ingredient": "poultry food product",
+    "removed_because": "Violates Dairy-Free requirement",
+    "constraint": "Hard Dietary / Exclusion Constraint",
+    "evidence": "Neo4j KG"
+  },
+  {
+    "ingredient": "duck meat food product",
+    "removed_because": "Violates Dairy-Free requirement",
+    "constraint": "Hard Dietary / Exclusion Constraint",
+    "evidence": "Neo4j KG"
+  },
+  {
+    "ingredient": "goose meat food product",
+    "removed_because": "Violates Dairy-Free requirement",
+    "constraint": "Hard Dietary / Exclusion Constraint",
+    "evidence": "Neo4j KG"
+  },
+  {
+    "ingredient": "obsolete: mushroom (whole organism)",
+    "removed_because": "Violates Dairy-Free requirement",
+    "constraint": "Hard Dietary / Exclusion Constraint",
+    "evidence": "Neo4j KG"
+  },
+  {
+    "ingredient": "potato salad food product",
+    "removed_because": "Violates Dairy-Free requirement",
+    "constraint": "Hard Dietary / Exclusion Constraint",
+    "evidence": "Neo4j KG"
+  },
+  {
+    "ingredient": "salad dressing",
+    "removed_because": "Violates Dairy-Free requirement",
+    "constraint": "Hard Dietary / Exclusion Constraint",
+    "evidence": "Neo4j KG"
+  },
+  {
+    "ingredient": "goat milk cheese (unpasteurized)",
+    "removed_because": "Violates Dairy-Free requirement; Matches explicit exclusion 'milk'",
+    "constraint": "Hard Dietary / Exclusion Constraint",
+    "evidence": "Neo4j KG"
+  },
+  {
+    "ingredient": "pecorino cheese",
+    "removed_because": "Violates Dairy-Free requirement",
+    "constraint": "Hard Dietary / Exclusion Constraint",
+    "evidence": "Neo4j KG"
+  },
+  {
+    "ingredient": "sheep milk cheese (unpasteurized)",
+    "removed_because": "Violates Dairy-Free requirement; Matches explicit exclusion 'milk'",
+    "constraint": "Hard Dietary / Exclusion Constraint",
+    "evidence": "Neo4j KG"
+  },
+  {
+    "ingredient": "unpasteurized cow milk cheese food product",
+    "removed_because": "Violates Dairy-Free requirement; Matches explicit exclusion 'milk'",
+    "constraint": "Hard Dietary / Exclusion Constraint",
+    "evidence": "Neo4j KG"
+  },
+  {
+    "ingredient": "unpasteurized camel milk beverage",
+    "removed_because": "Violates Dairy-Free requirement; Matches explicit exclusion 'milk'",
+    "constraint": "Hard Dietary / Exclusion Constraint",
+    "evidence": "Neo4j KG"
+  },
+  {
+    "ingredient": "caprine milk beverage (raw)",
+    "removed_because": "Violates Dairy-Free requirement; Matches explicit exclusion 'milk'",
+    "constraint": "Hard Dietary / Exclusion Constraint",
+    "evidence": "Neo4j KG"
+  },
+  {
+    "ingredient": "unpasteurized milk beverage",
+    "removed_because": "Violates Dairy-Free requirement; Matches explicit exclusion 'milk'",
+    "constraint": "Hard Dietary / Exclusion Constraint",
+    "evidence": "Neo4j KG"
+  },
+  {
+    "ingredient": "food fermentation",
+    "removed_because": "Violates Dairy-Free requirement",
+    "constraint": "Hard Dietary / Exclusion Constraint",
+    "evidence": "Neo4j KG"
+  },
+  {
+    "ingredient": "Hom dong",
+    "removed_because": "Violates Dairy-Free requirement",
+    "constraint": "Hard Dietary / Exclusion Constraint",
+    "evidence": "Neo4j KG"
+  },
+  {
+    "ingredient": "ma kham dong",
+    "removed_because": "Violates Dairy-Free requirement",
+    "constraint": "Hard Dietary / Exclusion Constraint",
+    "evidence": "Neo4j KG"
+  },
+  {
+    "ingredient": "ma yom dong",
+    "removed_because": "Violates Dairy-Free requirement",
+    "constraint": "Hard Dietary / Exclusion Constraint",
+    "evidence": "Neo4j KG"
+  },
+  {
+    "ingredient": "Miang",
+    "removed_because": "Violates Dairy-Free requirement",
+    "constraint": "Hard Dietary / Exclusion Constraint",
+    "evidence": "Neo4j KG"
+  },
+  {
+    "ingredient": "mum",
+    "removed_because": "Violates Dairy-Free requirement",
+    "constraint": "Hard Dietary / Exclusion Constraint",
+    "evidence": "Neo4j KG"
+  },
+  {
+    "ingredient": "mum-khai-pla",
+    "removed_because": "Violates Dairy-Free requirement",
+    "constraint": "Hard Dietary / Exclusion Constraint",
+    "evidence": "Neo4j KG"
+  },
+  {
+    "ingredient": "mum-sai-pla",
+    "removed_because": "Violates Dairy-Free requirement",
+    "constraint": "Hard Dietary / Exclusion Constraint",
+    "evidence": "Neo4j KG"
+  },
+  {
+    "ingredient": "nam-budu",
+    "removed_because": "Violates Dairy-Free requirement",
+    "constraint": "Hard Dietary / Exclusion Constraint",
+    "evidence": "Neo4j KG"
+  },
+  {
+    "ingredient": "nham",
+    "removed_because": "Violates Dairy-Free requirement",
+    "constraint": "Hard Dietary / Exclusion Constraint",
+    "evidence": "Neo4j KG"
+  },
+  {
+    "ingredient": "nham-pla",
+    "removed_because": "Violates Dairy-Free requirement",
+    "constraint": "Hard Dietary / Exclusion Constraint",
+    "evidence": "Neo4j KG"
+  },
+  {
+    "ingredient": "noa mai",
+    "removed_because": "Violates Dairy-Free requirement",
+    "constraint": "Hard Dietary / Exclusion Constraint",
+    "evidence": "Neo4j KG"
+  },
+  {
+    "ingredient": "noa mai dong",
+    "removed_because": "Violates Dairy-Free requirement",
+    "constraint": "Hard Dietary / Exclusion Constraint",
+    "evidence": "Neo4j KG"
+  },
+  {
+    "ingredient": "pak kard dong",
+    "removed_because": "Violates Dairy-Free requirement",
+    "constraint": "Hard Dietary / Exclusion Constraint",
+    "evidence": "Neo4j KG"
+  },
+  {
+    "ingredient": "pak kum dong",
+    "removed_because": "Violates Dairy-Free requirement",
+    "constraint": "Hard Dietary / Exclusion Constraint",
+    "evidence": "Neo4j KG"
+  },
+  {
+    "ingredient": "pak sean dong",
+    "removed_because": "Violates Dairy-Free requirement",
+    "constraint": "Hard Dietary / Exclusion Constraint",
+    "evidence": "Neo4j KG"
+  },
+  {
+    "ingredient": "pak sean and hua plee dong",
+    "removed_because": "Violates Dairy-Free requirement",
+    "constraint": "Hard Dietary / Exclusion Constraint",
+    "evidence": "Neo4j KG"
+  },
+  {
+    "ingredient": "pak sean and makhua dong",
+    "removed_because": "Violates Dairy-Free requirement",
+    "constraint": "Hard Dietary / Exclusion Constraint",
+    "evidence": "Neo4j KG"
+  },
+  {
+    "ingredient": "pla-chom",
+    "removed_because": "Violates Dairy-Free requirement",
+    "constraint": "Hard Dietary / Exclusion Constraint",
+    "evidence": "Neo4j KG"
+  },
+  {
+    "ingredient": "pla-jaw",
+    "removed_because": "Violates Dairy-Free requirement",
+    "constraint": "Hard Dietary / Exclusion Constraint",
+    "evidence": "Neo4j KG"
+  },
+  {
+    "ingredient": "pla-som",
+    "removed_because": "Violates Dairy-Free requirement",
+    "constraint": "Hard Dietary / Exclusion Constraint",
+    "evidence": "Neo4j KG"
+  },
+  {
+    "ingredient": "som-khai-pla",
+    "removed_because": "Violates Dairy-Free requirement",
+    "constraint": "Hard Dietary / Exclusion Constraint",
+    "evidence": "Neo4j KG"
+  },
+  {
+    "ingredient": "tai-pla",
+    "removed_because": "Violates Dairy-Free requirement",
+    "constraint": "Hard Dietary / Exclusion Constraint",
+    "evidence": "Neo4j KG"
+  },
+  {
+    "ingredient": "rice powder (roasted)",
+    "removed_because": "Violates Dairy-Free requirement",
+    "constraint": "Hard Dietary / Exclusion Constraint",
+    "evidence": "Neo4j KG"
+  },
+  {
+    "ingredient": "pre-evisceration carcass",
+    "removed_because": "Violates Dairy-Free requirement",
+    "constraint": "Hard Dietary / Exclusion Constraint",
+    "evidence": "Neo4j KG"
+  },
+  {
+    "ingredient": "post-evisceration carcass",
+    "removed_because": "Violates Dairy-Free requirement",
+    "constraint": "Hard Dietary / Exclusion Constraint",
+    "evidence": "Neo4j KG"
+  },
+  {
+    "ingredient": "animal primal cut",
+    "removed_because": "Violates Dairy-Free requirement",
+    "constraint": "Hard Dietary / Exclusion Constraint",
+    "evidence": "Neo4j KG"
+  },
+  {
+    "ingredient": "high moisture corn (animal feed)",
+    "removed_because": "Violates Dairy-Free requirement",
+    "constraint": "Hard Dietary / Exclusion Constraint",
+    "evidence": "Neo4j KG"
+  },
+  {
+    "ingredient": "rolled grain",
+    "removed_because": "Violates Dairy-Free requirement",
+    "constraint": "Hard Dietary / Exclusion Constraint",
+    "evidence": "Neo4j KG"
+  },
+  {
+    "ingredient": "corn stover",
+    "removed_because": "Violates Dairy-Free requirement",
+    "constraint": "Hard Dietary / Exclusion Constraint",
+    "evidence": "Neo4j KG"
+  },
+  {
+    "ingredient": "corn stubble",
+    "removed_because": "Violates Dairy-Free requirement",
+    "constraint": "Hard Dietary / Exclusion Constraint",
+    "evidence": "Neo4j KG"
+  },
+  {
+    "ingredient": "cottonseed hull",
+    "removed_because": "Violates Dairy-Free requirement",
+    "constraint": "Hard Dietary / Exclusion Constraint",
+    "evidence": "Neo4j KG"
+  },
+  {
+    "ingredient": "soybean stubble",
+    "removed_because": "Violates Dairy-Free requirement",
+    "constraint": "Hard Dietary / Exclusion Constraint",
+    "evidence": "Neo4j KG"
+  },
+  {
+    "ingredient": "aerated confectionery food product",
+    "removed_because": "Violates Dairy-Free requirement",
+    "constraint": "Hard Dietary / Exclusion Constraint",
+    "evidence": "Neo4j KG"
+  },
+  {
+    "ingredient": "alcoholic beverage",
+    "removed_because": "Violates Dairy-Free requirement",
+    "constraint": "Hard Dietary / Exclusion Constraint",
+    "evidence": "Neo4j KG"
+  },
+  {
+    "ingredient": "alcoholic beverage analog",
+    "removed_because": "Violates Dairy-Free requirement",
+    "constraint": "Hard Dietary / Exclusion Constraint",
+    "evidence": "Neo4j KG"
+  },
+  {
+    "ingredient": "alewife food product",
+    "removed_because": "Violates Dairy-Free requirement",
+    "constraint": "Hard Dietary / Exclusion Constraint",
+    "evidence": "Neo4j KG"
+  },
+  {
+    "ingredient": "almond candy food product",
+    "removed_because": "Violates Dairy-Free requirement",
+    "constraint": "Hard Dietary / Exclusion Constraint",
+    "evidence": "Neo4j KG"
+  },
+  {
+    "ingredient": "almond cookie food product",
+    "removed_because": "Violates Dairy-Free requirement",
+    "constraint": "Hard Dietary / Exclusion Constraint",
+    "evidence": "Neo4j KG"
+  },
+  {
+    "ingredient": "animal-based dessert",
+    "removed_because": "Violates Dairy-Free requirement",
+    "constraint": "Hard Dietary / Exclusion Constraint",
+    "evidence": "Neo4j KG"
+  },
+  {
+    "ingredient": "animal based refined or partially-refined food product",
+    "removed_because": "Violates Dairy-Free requirement",
+    "constraint": "Hard Dietary / Exclusion Constraint",
+    "evidence": "Neo4j KG"
+  },
+  {
+    "ingredient": "animal based salad food product",
+    "removed_because": "Violates Dairy-Free requirement",
+    "constraint": "Hard Dietary / Exclusion Constraint",
+    "evidence": "Neo4j KG"
+  },
+  {
+    "ingredient": "animal-based sandwich food product",
+    "removed_because": "Violates Dairy-Free requirement",
+    "constraint": "Hard Dietary / Exclusion Constraint",
+    "evidence": "Neo4j KG"
+  },
+  {
+    "ingredient": "animal-based stew or hash",
+    "removed_because": "Violates Dairy-Free requirement",
+    "constraint": "Hard Dietary / Exclusion Constraint",
+    "evidence": "Neo4j KG"
+  },
+  {
+    "ingredient": "animal fat or oil refined food product",
+    "removed_because": "Violates Dairy-Free requirement",
+    "constraint": "Hard Dietary / Exclusion Constraint",
+    "evidence": "Neo4j KG"
+  },
+  {
+    "ingredient": "animal product based dressing",
+    "removed_because": "Violates Dairy-Free requirement",
+    "constraint": "Hard Dietary / Exclusion Constraint",
+    "evidence": "Neo4j KG"
+  },
+  {
+    "ingredient": "animal product based flavoring or seasoning",
+    "removed_because": "Violates Dairy-Free requirement",
+    "constraint": "Hard Dietary / Exclusion Constraint",
+    "evidence": "Neo4j KG"
+  },
+  {
+    "ingredient": "animal product dressing",
+    "removed_because": "Violates Dairy-Free requirement",
+    "constraint": "Hard Dietary / Exclusion Constraint",
+    "evidence": "Neo4j KG"
+  },
+  {
+    "ingredient": "animal product sandwich",
+    "removed_because": "Violates Dairy-Free requirement",
+    "constraint": "Hard Dietary / Exclusion Constraint",
+    "evidence": "Neo4j KG"
+  },
+  {
+    "ingredient": "animal product sausage",
+    "removed_because": "Violates Dairy-Free requirement",
+    "constraint": "Hard Dietary / Exclusion Constraint",
+    "evidence": "Neo4j KG"
+  },
+  {
+    "ingredient": "soup animal component",
+    "removed_because": "Violates Dairy-Free requirement",
+    "constraint": "Hard Dietary / Exclusion Constraint",
+    "evidence": "Neo4j KG"
+  },
+  {
+    "ingredient": "obsolete: animal product stew or hash category",
+    "removed_because": "Violates Dairy-Free requirement",
+    "constraint": "Hard Dietary / Exclusion Constraint",
+    "evidence": "Neo4j KG"
+  },
+  {
+    "ingredient": "animal soup food product",
+    "removed_because": "Violates Dairy-Free requirement",
+    "constraint": "Hard Dietary / Exclusion Constraint",
+    "evidence": "Neo4j KG"
+  },
+  {
+    "ingredient": "apple based alcoholic beverage",
+    "removed_because": "Violates Dairy-Free requirement",
+    "constraint": "Hard Dietary / Exclusion Constraint",
+    "evidence": "Neo4j KG"
+  },
+  {
+    "ingredient": "apple wine food product",
+    "removed_because": "Violates Dairy-Free requirement",
+    "constraint": "Hard Dietary / Exclusion Constraint",
+    "evidence": "Neo4j KG"
+  },
+  {
+    "ingredient": "apricot food product",
+    "removed_because": "Violates Dairy-Free requirement",
+    "constraint": "Hard Dietary / Exclusion Constraint",
+    "evidence": "Neo4j KG"
+  },
+  {
+    "ingredient": "artificial sweetener",
+    "removed_because": "Violates Dairy-Free requirement",
+    "constraint": "Hard Dietary / Exclusion Constraint",
+    "evidence": "Neo4j KG"
+  },
+  {
+    "ingredient": "asian water buffalo meat food product",
+    "removed_because": "Violates Dairy-Free requirement",
+    "constraint": "Hard Dietary / Exclusion Constraint",
+    "evidence": "Neo4j KG"
+  },
+  {
+    "ingredient": "atlantic halibut food product",
+    "removed_because": "Violates Dairy-Free requirement",
+    "constraint": "Hard Dietary / Exclusion Constraint",
+    "evidence": "Neo4j KG"
+  },
+  {
+    "ingredient": "atlantic herring food product",
+    "removed_because": "Violates Dairy-Free requirement",
+    "constraint": "Hard Dietary / Exclusion Constraint",
+    "evidence": "Neo4j KG"
+  },
+  {
+    "ingredient": "atlantic salmon and trout food product",
+    "removed_because": "Violates Dairy-Free requirement",
+    "constraint": "Hard Dietary / Exclusion Constraint",
+    "evidence": "Neo4j KG"
+  },
+  {
+    "ingredient": "obsolete: avocado food product",
+    "removed_because": "Violates Dairy-Free requirement",
+    "constraint": "Hard Dietary / Exclusion Constraint",
+    "evidence": "Neo4j KG"
+  },
+  {
+    "ingredient": "avocado food product",
+    "removed_because": "Violates Dairy-Free requirement",
+    "constraint": "Hard Dietary / Exclusion Constraint",
+    "evidence": "Neo4j KG"
+  },
+  {
+    "ingredient": "bakery food product",
+    "removed_because": "Violates Dairy-Free requirement",
+    "constraint": "Hard Dietary / Exclusion Constraint",
+    "evidence": "Neo4j KG"
+  },
+  {
+    "ingredient": "banana food product",
+    "removed_because": "Violates Dairy-Free requirement",
+    "constraint": "Hard Dietary / Exclusion Constraint",
+    "evidence": "Neo4j KG"
+  },
+  {
+    "ingredient": "barley alcoholic beverage analog",
+    "removed_because": "Violates Dairy-Free requirement",
+    "constraint": "Hard Dietary / Exclusion Constraint",
+    "evidence": "Neo4j KG"
+  },
+  {
+    "ingredient": "barley product flavoring",
+    "removed_because": "Violates Dairy-Free requirement",
+    "constraint": "Hard Dietary / Exclusion Constraint",
+    "evidence": "Neo4j KG"
+  },
+  {
+    "ingredient": "milled barley food product",
+    "removed_because": "Violates Dairy-Free requirement",
+    "constraint": "Hard Dietary / Exclusion Constraint",
+    "evidence": "Neo4j KG"
+  },
+  {
+    "ingredient": "bass food product",
+    "removed_because": "Violates Dairy-Free requirement",
+    "constraint": "Hard Dietary / Exclusion Constraint",
+    "evidence": "Neo4j KG"
+  },
+  {
+    "ingredient": "bean food product",
+    "removed_because": "Violates Dairy-Free requirement",
+    "constraint": "Hard Dietary / Exclusion Constraint",
+    "evidence": "Neo4j KG"
+  },
+  {
+    "ingredient": "beef product based flavoring or seasoning",
+    "removed_because": "Violates Dairy-Free requirement",
+    "constraint": "Hard Dietary / Exclusion Constraint",
+    "evidence": "Neo4j KG"
+  },
+  {
+    "ingredient": "berry juice",
+    "removed_because": "Violates Dairy-Free requirement",
+    "constraint": "Hard Dietary / Exclusion Constraint",
+    "evidence": "Neo4j KG"
+  },
+  {
+    "ingredient": "beverage base product",
+    "removed_because": "Violates Dairy-Free requirement",
+    "constraint": "Hard Dietary / Exclusion Constraint",
+    "evidence": "Neo4j KG"
+  },
+  {
+    "ingredient": "beverage analog",
+    "removed_because": "Violates Dairy-Free requirement",
+    "constraint": "Hard Dietary / Exclusion Constraint",
+    "evidence": "Neo4j KG"
+  },
+  {
+    "ingredient": "black or white pepper product",
+    "removed_because": "Violates Dairy-Free requirement",
+    "constraint": "Hard Dietary / Exclusion Constraint",
+    "evidence": "Neo4j KG"
+  },
+  {
+    "ingredient": "black pepper food product",
+    "removed_because": "Violates Dairy-Free requirement",
+    "constraint": "Hard Dietary / Exclusion Constraint",
+    "evidence": "Neo4j KG"
+  },
+  {
+    "ingredient": "blackberry group food product",
+    "removed_because": "Violates Dairy-Free requirement",
+    "constraint": "Hard Dietary / Exclusion Constraint",
+    "evidence": "Neo4j KG"
+  },
+  {
+    "ingredient": "blue runner food product",
+    "removed_because": "Violates Dairy-Free requirement",
+    "constraint": "Hard Dietary / Exclusion Constraint",
+    "evidence": "Neo4j KG"
+  },
+  {
+    "ingredient": "bluefin tuna food product",
+    "removed_because": "Violates Dairy-Free requirement",
+    "constraint": "Hard Dietary / Exclusion Constraint",
+    "evidence": "Neo4j KG"
+  },
+  {
+    "ingredient": "bluefish food product",
+    "removed_because": "Violates Dairy-Free requirement",
+    "constraint": "Hard Dietary / Exclusion Constraint",
+    "evidence": "Neo4j KG"
+  },
+  {
+    "ingredient": "bonito food product",
+    "removed_because": "Violates Dairy-Free requirement",
+    "constraint": "Hard Dietary / Exclusion Constraint",
+    "evidence": "Neo4j KG"
+  },
+  {
+    "ingredient": "bony fish food product",
+    "removed_because": "Violates Dairy-Free requirement",
+    "constraint": "Hard Dietary / Exclusion Constraint",
+    "evidence": "Neo4j KG"
+  },
+  {
+    "ingredient": "brittle food product",
+    "removed_because": "Violates Dairy-Free requirement",
+    "constraint": "Hard Dietary / Exclusion Constraint",
+    "evidence": "Neo4j KG"
+  },
+  {
+    "ingredient": "broiler chicken meat food product",
+    "removed_because": "Violates Dairy-Free requirement",
+    "constraint": "Hard Dietary / Exclusion Constraint",
+    "evidence": "Neo4j KG"
+  },
+  {
+    "ingredient": "broth or stock food product",
+    "removed_because": "Violates Dairy-Free requirement",
+    "constraint": "Hard Dietary / Exclusion Constraint",
+    "evidence": "Neo4j KG"
+  },
+  {
+    "ingredient": "buffalo meat food product",
+    "removed_because": "Violates Dairy-Free requirement",
+    "constraint": "Hard Dietary / Exclusion Constraint",
+    "evidence": "Neo4j KG"
+  },
+  {
+    "ingredient": "buffalofish food product",
+    "removed_because": "Violates Dairy-Free requirement",
+    "constraint": "Hard Dietary / Exclusion Constraint",
+    "evidence": "Neo4j KG"
+  },
+  {
+    "ingredient": "obsolete: cabbage pickle food product",
+    "removed_because": "Violates Dairy-Free requirement",
+    "constraint": "Hard Dietary / Exclusion Constraint",
+    "evidence": "Neo4j KG"
+  },
+  {
+    "ingredient": "cabbage head food product",
+    "removed_because": "Violates Dairy-Free requirement",
+    "constraint": "Hard Dietary / Exclusion Constraint",
+    "evidence": "Neo4j KG"
+  },
+  {
+    "ingredient": "cape spiny lobster food product",
+    "removed_because": "Violates Dairy-Free requirement",
+    "constraint": "Hard Dietary / Exclusion Constraint",
+    "evidence": "Neo4j KG"
+  },
+  {
+    "ingredient": "caper food product",
+    "removed_because": "Violates Dairy-Free requirement",
+    "constraint": "Hard Dietary / Exclusion Constraint",
+    "evidence": "Neo4j KG"
+  },
+  {
+    "ingredient": "caramel candy food product",
+    "removed_because": "Violates Dairy-Free requirement",
+    "constraint": "Hard Dietary / Exclusion Constraint",
+    "evidence": "Neo4j KG"
+  },
+  {
+    "ingredient": "cardamom food product",
+    "removed_because": "Violates Dairy-Free requirement",
+    "constraint": "Hard Dietary / Exclusion Constraint",
+    "evidence": "Neo4j KG"
+  },
+  {
+    "ingredient": "carp food product",
+    "removed_because": "Violates Dairy-Free requirement",
+    "constraint": "Hard Dietary / Exclusion Constraint",
+    "evidence": "Neo4j KG"
+  },
+  {
+    "ingredient": "carp or minnow family food product",
+    "removed_because": "Violates Dairy-Free requirement",
+    "constraint": "Hard Dietary / Exclusion Constraint",
+    "evidence": "Neo4j KG"
+  },
+  {
+    "ingredient": "obsolete: cassava flour food product",
+    "removed_because": "Violates Dairy-Free requirement",
+    "constraint": "Hard Dietary / Exclusion Constraint",
+    "evidence": "Neo4j KG"
+  },
+  {
+    "ingredient": "obsolete: cassava food product",
+    "removed_because": "Violates Dairy-Free requirement",
+    "constraint": "Hard Dietary / Exclusion Constraint",
+    "evidence": "Neo4j KG"
+  },
+  {
+    "ingredient": "cassava snack food product",
+    "removed_because": "Violates Dairy-Free requirement",
+    "constraint": "Hard Dietary / Exclusion Constraint",
+    "evidence": "Neo4j KG"
+  },
+  {
+    "ingredient": "cassava food product",
+    "removed_because": "Violates Dairy-Free requirement",
+    "constraint": "Hard Dietary / Exclusion Constraint",
+    "evidence": "Neo4j KG"
+  },
+  {
+    "ingredient": "cattle based pie food product",
+    "removed_because": "Violates Dairy-Free requirement",
+    "constraint": "Hard Dietary / Exclusion Constraint",
+    "evidence": "Neo4j KG"
+  },
+  {
+    "ingredient": "cattle broth or stock food product",
+    "removed_because": "Violates Dairy-Free requirement",
+    "constraint": "Hard Dietary / Exclusion Constraint",
+    "evidence": "Neo4j KG"
+  },
+  {
+    "ingredient": "cattle product based flavoring or seasoning",
+    "removed_because": "Violates Dairy-Free requirement",
+    "constraint": "Hard Dietary / Exclusion Constraint",
+    "evidence": "Neo4j KG"
+  },
+  {
+    "ingredient": "cattle product stew or hash",
+    "removed_because": "Violates Dairy-Free requirement",
+    "constraint": "Hard Dietary / Exclusion Constraint",
+    "evidence": "Neo4j KG"
+  },
+  {
+    "ingredient": "cattle sandwich",
+    "removed_because": "Violates Dairy-Free requirement",
+    "constraint": "Hard Dietary / Exclusion Constraint",
+    "evidence": "Neo4j KG"
+  },
+  {
+    "ingredient": "cattle soup food product",
+    "removed_because": "Violates Dairy-Free requirement",
+    "constraint": "Hard Dietary / Exclusion Constraint",
+    "evidence": "Neo4j KG"
+  },
+  {
+    "ingredient": "leaf celery food product",
+    "removed_because": "Violates Dairy-Free requirement",
+    "constraint": "Hard Dietary / Exclusion Constraint",
+    "evidence": "Neo4j KG"
+  },
+  {
+    "ingredient": "cereal food product",
+    "removed_because": "Violates Dairy-Free requirement",
+    "constraint": "Hard Dietary / Exclusion Constraint",
+    "evidence": "Neo4j KG"
+  },
+  {
+    "ingredient": "channel catfish food product",
+    "removed_because": "Violates Dairy-Free requirement",
+    "constraint": "Hard Dietary / Exclusion Constraint",
+    "evidence": "Neo4j KG"
+  },
+  {
+    "ingredient": "chemical product based flavoring",
+    "removed_because": "Violates Dairy-Free requirement",
+    "constraint": "Hard Dietary / Exclusion Constraint",
+    "evidence": "Neo4j KG"
+  },
+  {
+    "ingredient": "food material component",
+    "removed_because": "Violates Dairy-Free requirement",
+    "constraint": "Hard Dietary / Exclusion Constraint",
+    "evidence": "Neo4j KG"
+  },
+  {
+    "ingredient": "chemical soft drink",
+    "removed_because": "Violates Dairy-Free requirement",
+    "constraint": "Hard Dietary / Exclusion Constraint",
+    "evidence": "Neo4j KG"
+  },
+  {
+    "ingredient": "chemical sweetener",
+    "removed_because": "Violates Dairy-Free requirement",
+    "constraint": "Hard Dietary / Exclusion Constraint",
+    "evidence": "Neo4j KG"
+  },
+  {
+    "ingredient": "cherry food product",
+    "removed_because": "Violates Dairy-Free requirement",
+    "constraint": "Hard Dietary / Exclusion Constraint",
+    "evidence": "Neo4j KG"
+  },
+  {
+    "ingredient": "cherry nectar beverage",
+    "removed_because": "Violates Dairy-Free requirement",
+    "constraint": "Hard Dietary / Exclusion Constraint",
+    "evidence": "Neo4j KG"
+  },
+  {
+    "ingredient": "chewing gum food product",
+    "removed_because": "Violates Dairy-Free requirement",
+    "constraint": "Hard Dietary / Exclusion Constraint",
+    "evidence": "Neo4j KG"
+  },
+  {
+    "ingredient": "chicken product based flavoring or seasoning",
+    "removed_because": "Violates Dairy-Free requirement",
+    "constraint": "Hard Dietary / Exclusion Constraint",
+    "evidence": "Neo4j KG"
+  },
+  {
+    "ingredient": "chicken pie food product",
+    "removed_because": "Violates Dairy-Free requirement",
+    "constraint": "Hard Dietary / Exclusion Constraint",
+    "evidence": "Neo4j KG"
+  },
+  {
+    "ingredient": "chicken salad food product",
+    "removed_because": "Violates Dairy-Free requirement",
+    "constraint": "Hard Dietary / Exclusion Constraint",
+    "evidence": "Neo4j KG"
+  },
+  {
+    "ingredient": "chicken soup food product",
+    "removed_because": "Violates Dairy-Free requirement",
+    "constraint": "Hard Dietary / Exclusion Constraint",
+    "evidence": "Neo4j KG"
+  },
+  {
+    "ingredient": "chicken stew or hash",
+    "removed_because": "Violates Dairy-Free requirement",
+    "constraint": "Hard Dietary / Exclusion Constraint",
+    "evidence": "Neo4j KG"
+  },
+  {
+    "ingredient": "chinook salmon food product",
+    "removed_because": "Violates Dairy-Free requirement",
+    "constraint": "Hard Dietary / Exclusion Constraint",
+    "evidence": "Neo4j KG"
+  },
+  {
+    "ingredient": "chive food product",
+    "removed_because": "Violates Dairy-Free requirement",
+    "constraint": "Hard Dietary / Exclusion Constraint",
+    "evidence": "Neo4j KG"
+  },
+  {
+    "ingredient": "chub mackerel food product",
+    "removed_because": "Violates Dairy-Free requirement",
+    "constraint": "Hard Dietary / Exclusion Constraint",
+    "evidence": "Neo4j KG"
+  },
+  {
+    "ingredient": "chum salmon food product",
+    "removed_because": "Violates Dairy-Free requirement",
+    "constraint": "Hard Dietary / Exclusion Constraint",
+    "evidence": "Neo4j KG"
+  },
+  {
+    "ingredient": "cichlid food product",
+    "removed_because": "Violates Dairy-Free requirement",
+    "constraint": "Hard Dietary / Exclusion Constraint",
+    "evidence": "Neo4j KG"
+  },
+  {
+    "ingredient": "cinnamon food product",
+    "removed_because": "Violates Dairy-Free requirement",
+    "constraint": "Hard Dietary / Exclusion Constraint",
+    "evidence": "Neo4j KG"
+  },
+  {
+    "ingredient": "citric acid soft drink",
+    "removed_because": "Violates Dairy-Free requirement",
+    "constraint": "Hard Dietary / Exclusion Constraint",
+    "evidence": "Neo4j KG"
+  },
+  {
+    "ingredient": "clingstone peach food product",
+    "removed_because": "Violates Dairy-Free requirement",
+    "constraint": "Hard Dietary / Exclusion Constraint",
+    "evidence": "Neo4j KG"
+  },
+  {
+    "ingredient": "clove food product",
+    "removed_because": "Violates Dairy-Free requirement",
+    "constraint": "Hard Dietary / Exclusion Constraint",
+    "evidence": "Neo4j KG"
+  },
+  {
+    "ingredient": "codling food product",
+    "removed_because": "Violates Dairy-Free requirement",
+    "constraint": "Hard Dietary / Exclusion Constraint",
+    "evidence": "Neo4j KG"
+  },
+  {
+    "ingredient": "coho salmon food product",
+    "removed_because": "Violates Dairy-Free requirement",
+    "constraint": "Hard Dietary / Exclusion Constraint",
+    "evidence": "Neo4j KG"
+  },
+  {
+    "ingredient": "cold-pack cheese food product",
+    "removed_because": "Violates Dairy-Free requirement",
+    "constraint": "Hard Dietary / Exclusion Constraint",
+    "evidence": "Neo4j KG"
+  },
+  {
+    "ingredient": "Cavendish banana food product",
+    "removed_because": "Violates Dairy-Free requirement",
+    "constraint": "Hard Dietary / Exclusion Constraint",
+    "evidence": "Neo4j KG"
+  },
+  {
+    "ingredient": "obsolete: common oat food product",
+    "removed_because": "Violates Dairy-Free requirement",
+    "constraint": "Hard Dietary / Exclusion Constraint",
+    "evidence": "Neo4j KG"
+  },
+  {
+    "ingredient": "condiment sauce",
+    "removed_because": "Violates Dairy-Free requirement",
+    "constraint": "Hard Dietary / Exclusion Constraint",
+    "evidence": "Neo4j KG"
+  },
+  {
+    "ingredient": "cookie food product",
+    "removed_because": "Violates Dairy-Free requirement",
+    "constraint": "Hard Dietary / Exclusion Constraint",
+    "evidence": "Neo4j KG"
+  },
+  {
+    "ingredient": "coriander food product",
+    "removed_because": "Violates Dairy-Free requirement",
+    "constraint": "Hard Dietary / Exclusion Constraint",
+    "evidence": "Neo4j KG"
+  },
+  {
+    "ingredient": "corn snack",
+    "removed_because": "Violates Dairy-Free requirement",
+    "constraint": "Hard Dietary / Exclusion Constraint",
+    "evidence": "Neo4j KG"
+  },
+  {
+    "ingredient": "corvina food product",
+    "removed_because": "Violates Dairy-Free requirement",
+    "constraint": "Hard Dietary / Exclusion Constraint",
+    "evidence": "Neo4j KG"
+  },
+  {
+    "ingredient": "cotton seed refined oil food product",
+    "removed_because": "Violates Dairy-Free requirement",
+    "constraint": "Hard Dietary / Exclusion Constraint",
+    "evidence": "Neo4j KG"
+  },
+  {
+    "ingredient": "dried cow milk food product",
+    "removed_because": "Violates Dairy-Free requirement; Matches explicit exclusion 'milk'",
+    "constraint": "Hard Dietary / Exclusion Constraint",
+    "evidence": "Neo4j KG"
+  },
+  {
+    "ingredient": "cow milk cheese analog",
+    "removed_because": "Violates Dairy-Free requirement; Matches explicit exclusion 'milk'",
+    "constraint": "Hard Dietary / Exclusion Constraint",
+    "evidence": "Neo4j KG"
+  },
+  {
+    "ingredient": "cow milk cheese cake food product",
+    "removed_because": "Violates Dairy-Free requirement; Matches explicit exclusion 'milk'",
+    "constraint": "Hard Dietary / Exclusion Constraint",
+    "evidence": "Neo4j KG"
+  },
+  {
+    "ingredient": "cow milk cream food product",
+    "removed_because": "Violates Dairy-Free requirement; Matches explicit exclusion 'milk'",
+    "constraint": "Hard Dietary / Exclusion Constraint",
+    "evidence": "Neo4j KG"
+  },
+  {
+    "ingredient": "cow milk cured cheese food product",
+    "removed_because": "Violates Dairy-Free requirement; Matches explicit exclusion 'milk'",
+    "constraint": "Hard Dietary / Exclusion Constraint",
+    "evidence": "Neo4j KG"
+  },
+  {
+    "ingredient": "cow milk dessert",
+    "removed_because": "Violates Dairy-Free requirement; Matches explicit exclusion 'milk'",
+    "constraint": "Hard Dietary / Exclusion Constraint",
+    "evidence": "Neo4j KG"
+  },
+  {
+    "ingredient": "cow milk hard cheese food product",
+    "removed_because": "Violates Dairy-Free requirement; Matches explicit exclusion 'milk'",
+    "constraint": "Hard Dietary / Exclusion Constraint",
+    "evidence": "Neo4j KG"
+  },
+  {
+    "ingredient": "cow milk pie food product",
+    "removed_because": "Violates Dairy-Free requirement; Matches explicit exclusion 'milk'",
+    "constraint": "Hard Dietary / Exclusion Constraint",
+    "evidence": "Neo4j KG"
+  },
+  {
+    "ingredient": "cow milk product based dressing",
+    "removed_because": "Violates Dairy-Free requirement; Matches explicit exclusion 'milk'",
+    "constraint": "Hard Dietary / Exclusion Constraint",
+    "evidence": "Neo4j KG"
+  },
+  {
+    "ingredient": "cow milk sherbet food product",
+    "removed_because": "Violates Dairy-Free requirement; Matches explicit exclusion 'milk'",
+    "constraint": "Hard Dietary / Exclusion Constraint",
+    "evidence": "Neo4j KG"
+  },
+  {
+    "ingredient": "cow milk snack",
+    "removed_because": "Violates Dairy-Free requirement; Matches explicit exclusion 'milk'",
+    "constraint": "Hard Dietary / Exclusion Constraint",
+    "evidence": "Neo4j KG"
+  },
+  {
+    "ingredient": "cow milk processed cheese product",
+    "removed_because": "Violates Dairy-Free requirement; Matches explicit exclusion 'milk'",
+    "constraint": "Hard Dietary / Exclusion Constraint",
+    "evidence": "Neo4j KG"
+  },
+  {
+    "ingredient": "obsolete: crab food product",
+    "removed_because": "Violates Dairy-Free requirement",
+    "constraint": "Hard Dietary / Exclusion Constraint",
+    "evidence": "Neo4j KG"
+  },
+  {
+    "ingredient": "cream dressing food product",
+    "removed_because": "Violates Dairy-Free requirement",
+    "constraint": "Hard Dietary / Exclusion Constraint",
+    "evidence": "Neo4j KG"
+  },
+  {
+    "ingredient": "cream product analog",
+    "removed_because": "Violates Dairy-Free requirement",
+    "constraint": "Hard Dietary / Exclusion Constraint",
+    "evidence": "Neo4j KG"
+  },
+  {
+    "ingredient": "cucumber relish food product",
+    "removed_because": "Violates Dairy-Free requirement",
+    "constraint": "Hard Dietary / Exclusion Constraint",
+    "evidence": "Neo4j KG"
+  },
+  {
+    "ingredient": "cucumber food product",
+    "removed_because": "Violates Dairy-Free requirement",
+    "constraint": "Hard Dietary / Exclusion Constraint",
+    "evidence": "Neo4j KG"
+  },
+  {
+    "ingredient": "cultural food",
+    "removed_because": "Violates Dairy-Free requirement",
+    "constraint": "Hard Dietary / Exclusion Constraint",
+    "evidence": "Neo4j KG"
+  },
+  {
+    "ingredient": "cured cheese food product",
+    "removed_because": "Violates Dairy-Free requirement",
+    "constraint": "Hard Dietary / Exclusion Constraint",
+    "evidence": "Neo4j KG"
+  },
+  {
+    "ingredient": "cusk food product",
+    "removed_because": "Violates Dairy-Free requirement",
+    "constraint": "Hard Dietary / Exclusion Constraint",
+    "evidence": "Neo4j KG"
+  },
+  {
+    "ingredient": "dairy dessert food product",
+    "removed_because": "Violates Dairy-Free requirement; Matches explicit exclusion 'dairy'",
+    "constraint": "Hard Dietary / Exclusion Constraint",
+    "evidence": "Neo4j KG"
+  },
+  {
+    "ingredient": "dairy product analog",
+    "removed_because": "Violates Dairy-Free requirement; Matches explicit exclusion 'dairy'",
+    "constraint": "Hard Dietary / Exclusion Constraint",
+    "evidence": "Neo4j KG"
+  },
+  {
+    "ingredient": "dairy product based dressing",
+    "removed_because": "Violates Dairy-Free requirement; Matches explicit exclusion 'dairy'",
+    "constraint": "Hard Dietary / Exclusion Constraint",
+    "evidence": "Neo4j KG"
+  },
+  {
+    "ingredient": "date food product",
+    "removed_because": "Violates Dairy-Free requirement",
+    "constraint": "Hard Dietary / Exclusion Constraint",
+    "evidence": "Neo4j KG"
+  },
+  {
+    "ingredient": "deep sea lobster food product",
+    "removed_because": "Violates Dairy-Free requirement",
+    "constraint": "Hard Dietary / Exclusion Constraint",
+    "evidence": "Neo4j KG"
+  },
+  {
+    "ingredient": "devilfish food product",
+    "removed_because": "Violates Dairy-Free requirement",
+    "constraint": "Hard Dietary / Exclusion Constraint",
+    "evidence": "Neo4j KG"
+  },
+  {
+    "ingredient": "dietary or therapeutic formulation food",
+    "removed_because": "Violates Dairy-Free requirement",
+    "constraint": "Hard Dietary / Exclusion Constraint",
+    "evidence": "Neo4j KG"
+  },
+  {
+    "ingredient": "dietetic food",
+    "removed_because": "Violates Dairy-Free requirement",
+    "constraint": "Hard Dietary / Exclusion Constraint",
+    "evidence": "Neo4j KG"
+  },
+  {
+    "ingredient": "dill food product",
+    "removed_because": "Violates Dairy-Free requirement",
+    "constraint": "Hard Dietary / Exclusion Constraint",
+    "evidence": "Neo4j KG"
+  },
+  {
+    "ingredient": "diluted apple beverage",
+    "removed_because": "Violates Dairy-Free requirement",
+    "constraint": "Hard Dietary / Exclusion Constraint",
+    "evidence": "Neo4j KG"
+  },
+  {
+    "ingredient": "diluted citrus fruit beverage",
+    "removed_because": "Violates Dairy-Free requirement",
+    "constraint": "Hard Dietary / Exclusion Constraint",
+    "evidence": "Neo4j KG"
+  },
+  {
+    "ingredient": "diluted fruit beverage",
+    "removed_because": "Violates Dairy-Free requirement",
+    "constraint": "Hard Dietary / Exclusion Constraint",
+    "evidence": "Neo4j KG"
+  },
+  {
+    "ingredient": "diluted grape beverage",
+    "removed_because": "Violates Dairy-Free requirement",
+    "constraint": "Hard Dietary / Exclusion Constraint",
+    "evidence": "Neo4j KG"
+  },
+  {
+    "ingredient": "diluted orange beverage",
+    "removed_because": "Violates Dairy-Free requirement",
+    "constraint": "Hard Dietary / Exclusion Constraint",
+    "evidence": "Neo4j KG"
+  },
+  {
+    "ingredient": "alcoholic beverage (distilled)",
+    "removed_because": "Violates Dairy-Free requirement",
+    "constraint": "Hard Dietary / Exclusion Constraint",
+    "evidence": "Neo4j KG"
+  },
+  {
+    "ingredient": "dogfish food product",
+    "removed_because": "Violates Dairy-Free requirement",
+    "constraint": "Hard Dietary / Exclusion Constraint",
+    "evidence": "Neo4j KG"
+  },
+  {
+    "ingredient": "dolphinfish food product",
+    "removed_because": "Violates Dairy-Free requirement",
+    "constraint": "Hard Dietary / Exclusion Constraint",
+    "evidence": "Neo4j KG"
+  },
+  {
+    "ingredient": "doughnut food product",
+    "removed_because": "Violates Dairy-Free requirement",
+    "constraint": "Hard Dietary / Exclusion Constraint",
+    "evidence": "Neo4j KG"
+  },
+  {
+    "ingredient": "duck egg food product",
+    "removed_because": "Violates Dairy-Free requirement",
+    "constraint": "Hard Dietary / Exclusion Constraint",
+    "evidence": "Neo4j KG"
+  },
+  {
+    "ingredient": "milled durum wheat",
+    "removed_because": "Violates Dairy-Free requirement",
+    "constraint": "Hard Dietary / Exclusion Constraint",
+    "evidence": "Neo4j KG"
+  },
+  {
+    "ingredient": "eel food product",
+    "removed_because": "Violates Dairy-Free requirement",
+    "constraint": "Hard Dietary / Exclusion Constraint",
+    "evidence": "Neo4j KG"
+  },
+  {
+    "ingredient": "egg-based dessert",
+    "removed_because": "Violates Dairy-Free requirement",
+    "constraint": "Hard Dietary / Exclusion Constraint",
+    "evidence": "Neo4j KG"
+  },
+  {
+    "ingredient": "emulsified cheese product",
+    "removed_because": "Violates Dairy-Free requirement",
+    "constraint": "Hard Dietary / Exclusion Constraint",
+    "evidence": "Neo4j KG"
+  },
+  {
+    "ingredient": "emulsified food product",
+    "removed_because": "Violates Dairy-Free requirement",
+    "constraint": "Hard Dietary / Exclusion Constraint",
+    "evidence": "Neo4j KG"
+  },
+  {
+    "ingredient": "european blackberry preserve or jam food product",
+    "removed_because": "Violates Dairy-Free requirement",
+    "constraint": "Hard Dietary / Exclusion Constraint",
+    "evidence": "Neo4j KG"
+  },
+  {
+    "ingredient": "fenugreek food product",
+    "removed_because": "Violates Dairy-Free requirement",
+    "constraint": "Hard Dietary / Exclusion Constraint",
+    "evidence": "Neo4j KG"
+  },
+  {
+    "ingredient": "fern vegetable food product",
+    "removed_because": "Violates Dairy-Free requirement",
+    "constraint": "Hard Dietary / Exclusion Constraint",
+    "evidence": "Neo4j KG"
+  },
+  {
+    "ingredient": "infant formula with corn syrup",
+    "removed_because": "Violates Dairy-Free requirement",
+    "constraint": "Hard Dietary / Exclusion Constraint",
+    "evidence": "Neo4j KG"
+  },
+  {
+    "ingredient": "field corn custard food product",
+    "removed_because": "Violates Dairy-Free requirement",
+    "constraint": "Hard Dietary / Exclusion Constraint",
+    "evidence": "Neo4j KG"
+  }
+]

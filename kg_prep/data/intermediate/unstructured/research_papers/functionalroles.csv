@@ -1,16 +1,28 @@
-ID,Name,Source,source_record_id,source_url
-ROLE-THICKENER,Thickener,Codex GSFA / FSSAI,ROLE-THICKENER,https://www.fao.org/gsfaonline
-ROLE-STABILIZER,Stabilizer,Codex GSFA / FSSAI,ROLE-STABILIZER,https://www.fao.org/gsfaonline
-ROLE-EMULSIFIER,Emulsifier,Codex GSFA / FSSAI,ROLE-EMULSIFIER,https://www.fao.org/gsfaonline
-ROLE-ACIDULANT,Acidulant,Codex GSFA / FSSAI,ROLE-ACIDULANT,https://www.fao.org/gsfaonline
-ROLE-PRESERVATIVE,Preservative,Codex GSFA / FSSAI,ROLE-PRESERVATIVE,https://www.fao.org/gsfaonline
-ROLE-ANTIOXIDANT,Antioxidant,Codex GSFA / FSSAI,ROLE-ANTIOXIDANT,https://www.fao.org/gsfaonline
-ROLE-SWEETENER,Sweetener,Codex GSFA / FSSAI,ROLE-SWEETENER,https://www.fao.org/gsfaonline
-ROLE-COLOR,Color,Codex GSFA / FSSAI,ROLE-COLOR,https://www.fao.org/gsfaonline
-ROLE-FLAVOR_ENHANCER,Flavor Enhancer,Codex GSFA / FSSAI,ROLE-FLAVOR_ENHANCER,https://www.fao.org/gsfaonline
-ROLE-GLAZING_AGENT,Glazing Agent,Codex GSFA / FSSAI,ROLE-GLAZING_AGENT,https://www.fao.org/gsfaonline
-ROLE-HUMECTANT,Humectant,Codex GSFA / FSSAI,ROLE-HUMECTANT,https://www.fao.org/gsfaonline
-ROLE-FIRMING_AGENT,Firming Agent,Codex GSFA / FSSAI,ROLE-FIRMING_AGENT,https://www.fao.org/gsfaonline
-ROLE-RAISING_AGENT,Raising Agent,Codex GSFA / FSSAI,ROLE-RAISING_AGENT,https://www.fao.org/gsfaonline
-ROLE-BULKING_AGENT,Bulking Agent,Codex GSFA / FSSAI,ROLE-BULKING_AGENT,https://www.fao.org/gsfaonline
-ROLE-FLOUR_TREATMENT,Flour Treatment Agent,Codex GSFA / FSSAI,ROLE-FLOUR_TREATMENT,https://www.fao.org/gsfaonline
+ID,Name,definition,Source,source_record_id,source_url
+CODEX-ROLE-ACIDITY_REGULATOR,Acidity regulator,Alters or controls the acidity or alkalinity of a food.,Codex Alimentarius Commission (FAO/WHO),Acidity regulator,https://www.fao.org/gsfaonline/docs/CXG_036e.pdf
+CODEX-ROLE-ANTICAKING_AGENT,Anticaking agent,Reduces the tendency of components of food to adhere to one another.,Codex Alimentarius Commission (FAO/WHO),Anticaking agent,https://www.fao.org/gsfaonline/docs/CXG_036e.pdf
+CODEX-ROLE-ANTIFOAMING_AGENT,Antifoaming agent,Prevents or reduces foaming.,Codex Alimentarius Commission (FAO/WHO),Antifoaming agent,https://www.fao.org/gsfaonline/docs/CXG_036e.pdf
+CODEX-ROLE-ANTIOXIDANT,Antioxidant,Prolongs the shelf-life of foods by protecting against deterioration caused by oxidation.,Codex Alimentarius Commission (FAO/WHO),Antioxidant,https://www.fao.org/gsfaonline/docs/CXG_036e.pdf
+CODEX-ROLE-BLEACHING_AGENT,Bleaching agent,Used to decolourize food (excluding flour treatment).,Codex Alimentarius Commission (FAO/WHO),Bleaching agent,https://www.fao.org/gsfaonline/docs/CXG_036e.pdf
+CODEX-ROLE-BULKING_AGENT,Bulking agent,Contributes to the bulk of a food without contributing significantly to its available energy value.,Codex Alimentarius Commission (FAO/WHO),Bulking agent,https://www.fao.org/gsfaonline/docs/CXG_036e.pdf
+CODEX-ROLE-CARBONATING_AGENT,Carbonating agent,Used to provide carbonation to a food or beverage.,Codex Alimentarius Commission (FAO/WHO),Carbonating agent,https://www.fao.org/gsfaonline/docs/CXG_036e.pdf
+CODEX-ROLE-CARRIER,Carrier,"Used to dissolve, dilute, disperse or physically modify a food additive or nutrient without altering its function.",Codex Alimentarius Commission (FAO/WHO),Carrier,https://www.fao.org/gsfaonline/docs/CXG_036e.pdf
+CODEX-ROLE-COLOR,Color,Adds or restores colour in a food.,Codex Alimentarius Commission (FAO/WHO),Color,https://www.fao.org/gsfaonline/docs/CXG_036e.pdf
+CODEX-ROLE-COLOR_RETENTION_AGENT,Color retention agent,"Stabilizes, retains or intensifies the colour of a food.",Codex Alimentarius Commission (FAO/WHO),Color retention agent,https://www.fao.org/gsfaonline/docs/CXG_036e.pdf
+CODEX-ROLE-EMULSIFIER,Emulsifier,Forms or maintains a uniform emulsion of two or more phases in a food.,Codex Alimentarius Commission (FAO/WHO),Emulsifier,https://www.fao.org/gsfaonline/docs/CXG_036e.pdf
+CODEX-ROLE-EMULSIFYING_SALT,Emulsifying salt,Rearranges proteins in cheese manufacture in order to prevent fat separation.,Codex Alimentarius Commission (FAO/WHO),Emulsifying salt,https://www.fao.org/gsfaonline/docs/CXG_036e.pdf
+CODEX-ROLE-FIRMING_AGENT,Firming agent,"Makes or keeps tissues of fruits or vegetables firm and crisp, or interacts with gelling agents to produce or strengthen a gel.",Codex Alimentarius Commission (FAO/WHO),Firming agent,https://www.fao.org/gsfaonline/docs/CXG_036e.pdf
+CODEX-ROLE-FLAVOR_ENHANCER,Flavor enhancer,Enhances the existing taste and/or odour of a food.,Codex Alimentarius Commission (FAO/WHO),Flavor enhancer,https://www.fao.org/gsfaonline/docs/CXG_036e.pdf
+CODEX-ROLE-FLOUR_TREATMENT_AGENT,Flour treatment agent,Added to flour or dough to improve its baking quality or colour.,Codex Alimentarius Commission (FAO/WHO),Flour treatment agent,https://www.fao.org/gsfaonline/docs/CXG_036e.pdf
+CODEX-ROLE-FOAMING_AGENT,Foaming agent,Makes it possible to form or maintain a uniform dispersion of a gaseous phase in a liquid or solid food.,Codex Alimentarius Commission (FAO/WHO),Foaming agent,https://www.fao.org/gsfaonline/docs/CXG_036e.pdf
+CODEX-ROLE-GELLING_AGENT,Gelling agent,Gives a food texture through the formation of a gel.,Codex Alimentarius Commission (FAO/WHO),Gelling agent,https://www.fao.org/gsfaonline/docs/CXG_036e.pdf
+CODEX-ROLE-GLAZING_AGENT,Glazing agent,"Applied to the external surface of a food, imparts a shiny appearance or provides a protective coating.",Codex Alimentarius Commission (FAO/WHO),Glazing agent,https://www.fao.org/gsfaonline/docs/CXG_036e.pdf
+CODEX-ROLE-HUMECTANT,Humectant,Prevents food from drying out by counteracting the effect of a dry atmosphere.,Codex Alimentarius Commission (FAO/WHO),Humectant,https://www.fao.org/gsfaonline/docs/CXG_036e.pdf
+CODEX-ROLE-PACKAGING_GAS,Packaging gas,"Gas, other than air, introduced into a container before, during or after the placing of food.",Codex Alimentarius Commission (FAO/WHO),Packaging gas,https://www.fao.org/gsfaonline/docs/CXG_036e.pdf
+CODEX-ROLE-PRESERVATIVE,Preservative,Prolongs the shelf-life of foods by protecting against deterioration caused by microorganisms.,Codex Alimentarius Commission (FAO/WHO),Preservative,https://www.fao.org/gsfaonline/docs/CXG_036e.pdf
+CODEX-ROLE-PROPELLANT,Propellant,"Gas, other than air, that expels a food from a container.",Codex Alimentarius Commission (FAO/WHO),Propellant,https://www.fao.org/gsfaonline/docs/CXG_036e.pdf
+CODEX-ROLE-RAISING_AGENT,Raising agent,Substance or combination of substances that liberate gas and thereby increase the volume of a dough or batter.,Codex Alimentarius Commission (FAO/WHO),Raising agent,https://www.fao.org/gsfaonline/docs/CXG_036e.pdf
+CODEX-ROLE-SEQUESTRANT,Sequestrant,Controls the availability of a cation by forming a chelate or complex.,Codex Alimentarius Commission (FAO/WHO),Sequestrant,https://www.fao.org/gsfaonline/docs/CXG_036e.pdf
+CODEX-ROLE-STABILIZER,Stabilizer,Makes it possible to maintain a uniform dispersion of two or more immiscible substances.,Codex Alimentarius Commission (FAO/WHO),Stabilizer,https://www.fao.org/gsfaonline/docs/CXG_036e.pdf
+CODEX-ROLE-SWEETENER,Sweetener,Non-sugar substance that imparts a sweet taste to a food.,Codex Alimentarius Commission (FAO/WHO),Sweetener,https://www.fao.org/gsfaonline/docs/CXG_036e.pdf
+CODEX-ROLE-THICKENER,Thickener,Increases the viscosity of a food.,Codex Alimentarius Commission (FAO/WHO),Thickener,https://www.fao.org/gsfaonline/docs/CXG_036e.pdf

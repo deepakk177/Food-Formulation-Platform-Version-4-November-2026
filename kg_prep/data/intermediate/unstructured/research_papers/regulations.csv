@@ -1,2 +1,5 @@
-ID,Name,Source,source_record_id,source_url
-REG-CODEX-GSFA-CXS192,Codex General Standard for Food Additives CXS 192-1995,Codex GSFA,CXS_192-1995,https://www.fao.org/gsfaonline/docs/CXS_192e.pdf
+ID,Name,Source,source_record_id,source_url,jurisdiction,status
+CODEX:CXS_192-1995,Codex General Standard for Food Additives (CXS 192-1995),Codex Alimentarius Commission (FAO/WHO),CXS 192-1995,https://www.fao.org/fao-who-codexalimentarius/sh-proxy/en/?lnk=1&url=https%253A%252F%252Fworkspace.fao.org%252Fsites%252Fcodex%252FStandards%252FCXS%2B192-1995%252FCXS_192e.pdf,International,CURRENT
+CODEX:CXG_36-1989,Class Names and the International Numbering System for Food Additives (CXG 36-1989),Codex Alimentarius Commission (FAO/WHO),CXG 36-1989,https://www.fao.org/fao-who-codexalimentarius/sh-proxy/en/?lnk=1&url=https%253A%252F%252Fworkspace.fao.org%252Fsites%252Fcodex%252FStandards%252FCXG%2B36-1989%252FCXG_036e.pdf,International,CURRENT
+CODEX:CXS_1-1985,Codex General Standard for the Labelling of Prepackaged Foods (CXS 1-1985),Codex Alimentarius Commission (FAO/WHO),CXS 1-1985,https://www.fao.org/fao-who-codexalimentarius/sh-proxy/en/?lnk=1&url=https%253A%252F%252Fworkspace.fao.org%252Fsites%252Fcodex%252FStandards%252FCXS%2B1-1985%252FCXS_001e.pdf,International,CURRENT
+US_FDA:21CFR,US FDA Title 21 Code of Federal Regulations (21 CFR),US Food and Drug Administration (FDA),21 CFR,https://www.ecfr.gov/current/title-21,United States,CURRENT

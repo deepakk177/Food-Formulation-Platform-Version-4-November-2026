@@ -1,0 +1,112 @@
+[
+  {
+    "profile_name": "BALANCED",
+    "radar_scores": {
+      "Protein": 100.0,
+      "Nutrition": 100.0,
+      "Functional": 95.0,
+      "Texture": 95.0,
+      "Evidence": 100.0,
+      "Compatibility": 95.0,
+      "Cost": 75.0,
+      "Compliance": 98.0,
+      "Regulatory": 98.0
+    },
+    "overall_score": 94.2,
+    "cost_per_kg_inr": 12.5,
+    "confidence_metric_name": "Evidence & Constraint Coverage",
+    "confidence_value": 94.2,
+    "is_feasible": true,
+    "performance": {
+      "overall": 94.2
+    }
+  },
+  {
+    "profile_name": "BALANCED",
+    "radar_scores": {
+      "Protein": 100.0,
+      "Nutrition": 100.0,
+      "Functional": 95.0,
+      "Texture": 95.0,
+      "Evidence": 100.0,
+      "Compatibility": 95.0,
+      "Cost": 73.3,
+      "Compliance": 98.0,
+      "Regulatory": 98.0
+    },
+    "overall_score": 93.9,
+    "cost_per_kg_inr": 13.37,
+    "confidence_metric_name": "Evidence & Constraint Coverage",
+    "confidence_value": 93.9,
+    "is_feasible": true,
+    "performance": {
+      "overall": 93.9
+    }
+  },
+  {
+    "profile_name": "BALANCED",
+    "radar_scores": {
+      "Protein": 100.0,
+      "Nutrition": 100.0,
+      "Functional": 95.0,
+      "Texture": 95.0,
+      "Evidence": 100.0,
+      "Compatibility": 95.0,
+      "Cost": 73.3,
+      "Compliance": 98.0,
+      "Regulatory": 98.0
+    },
+    "overall_score": 93.9,
+    "cost_per_kg_inr": 13.37,
+    "confidence_metric_name": "Evidence & Constraint Coverage",
+    "confidence_value": 93.9,
+    "is_feasible": true,
+    "performance": {
+      "overall": 93.9
+    }
+  },
+  {
+    "profile_name": "BALANCED",
+    "radar_scores": {
+      "Protein": 100.0,
+      "Nutrition": 100.0,
+      "Functional": 95.0,
+      "Texture": 95.0,
+      "Evidence": 100.0,
+      "Compatibility": 95.0,
+      "Cost": 56.5,
+      "Compliance": 98.0,
+      "Regulatory": 98.0
+    },
+    "overall_score": 91.4,
+    "cost_per_kg_inr": 21.77,
+    "confidence_metric_name": "Evidence & Constraint Coverage",
+    "confidence_value": 91.4,
+    "is_feasible": true,
+    "performance": {
+      "overall": 91.4
+    }
+  },
+  {
+    "profile_name": "BALANCED",
+    "radar_scores": {
+      "Protein": 0.0,
+      "Nutrition": 0.0,
+      "Functional": 95.0,
+      "Texture": 95.0,
+      "Evidence": 100.0,
+      "Compatibility": 95.0,
+      "Cost": 86.8,
+      "Compliance": 98.0,
+      "Regulatory": 98.0
+    },
+    "overall_score": 76.0,
+    "cost_per_kg_inr": 6.62,
+    "confidence_metric_name": "Evidence & Constraint Coverage",
+    "confidence_value": 76.0,
+    "is_feasible": true,
+    "performance": {
+      "overall": 76.0
+    }
+  }
+]

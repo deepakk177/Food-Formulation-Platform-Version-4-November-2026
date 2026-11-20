@@ -1,0 +1,50 @@
+[
+  {
+    "constraint_id": "CONST-001",
+    "type": "category",
+    "parameter": "product_category",
+    "operator": "REQUIRED",
+    "target_value": "Confectionery & Chocolate",
+    "unit": null,
+    "importance": "CRITICAL",
+    "source_text": "Formulate a classic Milk Chocolate bar with 25% mi",
+    "confidence": 0.95,
+    "hard_or_soft": null
+  },
+  {
+    "constraint_id": "CONST-002",
+    "type": "sensory",
+    "parameter": "flavor_profile",
+    "operator": "PREFERRED",
+    "target_value": "cocoa flavour",
+    "unit": null,
+    "importance": "MEDIUM",
+    "source_text": "cocoa",
+    "confidence": 0.9,
+    "hard_or_soft": null
+  },
+  {
+    "constraint_id": "CONST-003",
+    "type": "sensory",
+    "parameter": "flavor_profile",
+    "operator": "PREFERRED",
+    "target_value": "chocolate flavour",
+    "unit": null,
+    "importance": "MEDIUM",
+    "source_text": "Chocolate",
+    "confidence": 0.9,
+    "hard_or_soft": null
+  },
+  {
+    "constraint_id": "CONST-004",
+    "type": "sensory",
+    "parameter": "flavor_profile",
+    "operator": "PREFERRED",
+    "target_value": "vanilla flavour",
+    "unit": null,
+    "importance": "MEDIUM",
+    "source_text": "vanilla",
+    "confidence": 0.9,
+    "hard_or_soft": null
+  }
+]

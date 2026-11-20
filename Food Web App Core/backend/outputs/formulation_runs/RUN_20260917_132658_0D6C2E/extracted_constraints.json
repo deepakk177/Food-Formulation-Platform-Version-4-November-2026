@@ -1,0 +1,38 @@
+[
+  {
+    "constraint_id": "CONST-001",
+    "type": "category",
+    "parameter": "product_category",
+    "operator": "REQUIRED",
+    "target_value": "Confectionery & Chocolate",
+    "unit": null,
+    "importance": "CRITICAL",
+    "source_text": "Create a gluten-free high-protein peanut butter ba",
+    "confidence": 0.95,
+    "hard_or_soft": null
+  },
+  {
+    "constraint_id": "CONST-002",
+    "type": "allergen",
+    "parameter": "gluten",
+    "operator": "FORBIDDEN",
+    "target_value": "gluten_containing_grains",
+    "unit": null,
+    "importance": "CRITICAL",
+    "source_text": "gluten-free",
+    "confidence": 1.0,
+    "hard_or_soft": null
+  },
+  {
+    "constraint_id": "CONST-003",
+    "type": "nutrition",
+    "parameter": "protein_min",
+    "operator": ">=",
+    "target_value": 15.0,
+    "unit": "%",
+    "importance": "HIGH",
+    "source_text": "protein",
+    "confidence": 0.9,
+    "hard_or_soft": null
+  }
+]

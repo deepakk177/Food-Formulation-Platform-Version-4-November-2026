@@ -1,0 +1,23 @@
+[
+  {
+    "check": "Zero Nutrition in Formulations",
+    "affected_rows": 417,
+    "total_rows": 417,
+    "severity": "CRITICAL",
+    "details": "Formulations exported with Protein: 0.0g, Fat: 0.0g due to unmapped macros dict key."
+  },
+  {
+    "check": "Cost Unknown in Formulations",
+    "affected_rows": 417,
+    "total_rows": 417,
+    "severity": "HIGH",
+    "details": "Cost exported as COST_UNKNOWN across formulations due to missing unit price mapping."
+  },
+  {
+    "check": "Ontology Contamination (Chewing gum, bakery product dishes)",
+    "affected_rows": 187,
+    "total_rows": 417,
+    "severity": "CRITICAL",
+    "details": "Finished dishes / non-formulation ingredients retrieved from uncurated FoodEx2 ontology."
+  }
+]

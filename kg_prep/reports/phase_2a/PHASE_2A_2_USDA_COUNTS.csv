@@ -1,0 +1,4 @@
+dataset_type,foods_count,nutrients_count,zero_value_nutrients,portions_count,source_file
+Foundation,318,14152,3846,127,data/raw_v2/usda_bulk/foundationDownload.json
+SR Legacy,7793,641713,171955,14272,data/raw_v2/usda_bulk/FoodData_Central_sr_legacy_food_json_2018-04.json
+TOTAL_USDA,8111,655865,175801,14399,USDA FoodData Central Bulk Datasets

@@ -1,0 +1,156 @@
+{
+  "category": "Confectionery & Chocolate",
+  "product_type": "chocolate_bar",
+  "description": "Create a vegan protein bar containing 20% protein",
+  "texture_requirements": [],
+  "mouthfeel_requirements": [],
+  "dietary_requirements": [
+    "Vegan"
+  ],
+  "allergen_constraints": [
+    "dairy",
+    "egg",
+    "whey",
+    "butter",
+    "milk",
+    "gelatin"
+  ],
+  "nutrition_targets": {
+    "protein_min": 20.0,
+    "protein_max": null,
+    "fat_min": null,
+    "fat_max": null,
+    "carbohydrate_max": null,
+    "sugar_max": null,
+    "fibre_min": null,
+    "sodium_max": null,
+    "calories_max": null
+  },
+  "functional_goals": [],
+  "flavor_profile": [],
+  "aroma_profile": [],
+  "processing_constraints": [],
+  "shelf_life_requirements": "9 months",
+  "water_activity_target": null,
+  "pH_target": null,
+  "regulatory_market": [],
+  "cost_target": null,
+  "excluded_ingredients": [
+    "dairy",
+    "egg",
+    "whey",
+    "butter",
+    "milk",
+    "gelatin"
+  ],
+  "preferred_ingredients": [],
+  "required_claims": [],
+  "prohibited_claims": [],
+  "hard_constraints": [
+    "DIETARY_EXCLUSIVE_VEGAN",
+    "EXCLUDED_INGREDIENTS_PROHIBITION"
+  ],
+  "soft_objectives": [
+    "MAXIMIZE_PROTEIN_DENSITY"
+  ],
+  "experiment_strategies": [
+    "nutrition_maximized",
+    "cost_optimized",
+    "balanced",
+    "functionality_texture"
+  ],
+  "constraint_items": [
+    {
+      "constraint_id": "CONST-001",
+      "type": "category",
+      "parameter": "product_category",
+      "operator": "REQUIRED",
+      "target_value": "Confectionery & Chocolate",
+      "unit": null,
+      "importance": "CRITICAL",
+      "source_text": "Create a vegan protein bar containing 20% protein",
+      "confidence": 0.95,
+      "hard_or_soft": null
+    },
+    {
+      "constraint_id": "CONST-002",
+      "type": "ingredient_restriction",
+      "parameter": "dietary_pattern",
+      "operator": "FORBIDDEN",
+      "target_value": "animal_derived_ingredients",
+      "unit": null,
+      "importance": "CRITICAL",
+      "source_text": "vegan",
+      "confidence": 1.0,
+      "hard_or_soft": null
+    },
+    {
+      "constraint_id": "CONST-003",
+      "type": "nutrition",
+      "parameter": "protein_min",
+      "operator": ">=",
+      "target_value": 20.0,
+      "unit": "%",
+      "importance": "CRITICAL",
+      "source_text": "20% protein",
+      "confidence": 0.98,
+      "hard_or_soft": null
+    }
+  ],
+  "constraint_graph": {
+    "nodes": [
+      {
+        "id": "PROD-001",
+        "type": "ProductBrief",
+        "value": "Target Product (Confectionery & Chocolate)",
+        "source": "User Product Brief"
+      },
+      {
+        "id": "CONST-001",
+        "type": "CategoryConstraintNode",
+        "value": "product_category REQUIRED Confectionery & Chocolate",
+        "source": "Create a vegan protein bar containing 20% protein"
+      },
+      {
+        "id": "CONST-002",
+        "type": "Ingredient_RestrictionConstraintNode",
+        "value": "dietary_pattern FORBIDDEN animal_derived_ingredients",
+        "source": "vegan"
+      },
+      {
+        "id": "CONST-003",
+        "type": "NutritionConstraintNode",
+        "value": "protein_min >= 20.0 %",
+        "source": "20% protein"
+      }
+    ],
+    "edges": [
+      {
+        "source": "PROD-001",
+        "relationship": "HAS_CONSTRAINT",
+        "target": "CONST-001"
+      },
+      {
+        "source": "PROD-001",
+        "relationship": "HAS_INGREDIENT_RESTRICTION",
+        "target": "CONST-002"
+      },
+      {
+        "source": "PROD-001",
+        "relationship": "HAS_NUTRITION_CONSTRAINT",
+        "target": "CONST-003"
+      }
+    ],
+    "summary": {
+      "Nutrition Constraints": 1,
+      "Functional Constraints": 0,
+      "Sensory Constraints": 0,
+      "Regulatory Constraints": 0,
+      "Cost Constraints": 0,
+      "Ingredient Restrictions": 1,
+      "Processing Constraints": 0,
+      "Graph Nodes": 4,
+      "Graph Edges": 3
+    }
+  }
+}

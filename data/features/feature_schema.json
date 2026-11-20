@@ -1,0 +1,35 @@
+{
+  "numeric_features": [
+    "protein",
+    "fat",
+    "carbs",
+    "calories",
+    "protein_ratio",
+    "fat_ratio",
+    "carb_ratio",
+    "caloric_density"
+  ],
+  "binary_features": [
+    "is_isolate",
+    "is_hydrocolloid",
+    "is_lipid",
+    "is_sweetener",
+    "is_acid",
+    "is_preservative"
+  ],
+  "target": "functional_role",
+  "classes": [
+    "Acidity Control",
+    "Bulking Agent",
+    "Emulsifier",
+    "Flavor System",
+    "Lipid Source",
+    "Preservation",
+    "Protein Source",
+    "Stabilizer",
+    "Sweetener"
+  ],
+  "random_seed": 42,
+  "preprocessing_version": "v1.0.0",
+  "dataset_version": "2026.09.17"
+}

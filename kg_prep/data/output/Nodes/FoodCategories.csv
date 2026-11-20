@@ -1,11 +1,135 @@
 ID,Name,Source,source_record_id,source_url
 CAT-FOODON_TAXONOMY_HIERARCHY,Foodon Taxonomy Hierarchy,FoodOn,FOODON_00000000,http://purl.obolibrary.org/obo/FOODON_00000000
-CAT-DAIRY_PRODUCTS_AND_ANALOGUES,Dairy Products And Analogues,Codex GSFA,01.0,https://www.fao.org/gsfaonline/foods/index.html
-CAT-FATS_AND_OILS__AND_FAT_EMULSIONS,"Fats And Oils, And Fat Emulsions",Codex GSFA,02.0,https://www.fao.org/gsfaonline/foods/index.html
-CAT-EDIBLE_ICES__INCLUDING_SHERBET_AND_SORBET,"Edible Ices, Including Sherbet And Sorbet",Codex GSFA,03.0,https://www.fao.org/gsfaonline/foods/index.html
-CAT-FRUITS_AND_VEGETABLES,Fruits And Vegetables,Codex GSFA,04.0,https://www.fao.org/gsfaonline/foods/index.html
-CAT-CONFECTIONERY,Confectionery,Codex GSFA,05.0,https://www.fao.org/gsfaonline/foods/index.html
-CAT-CEREALS_AND_CEREAL_PRODUCTS,Cereals And Cereal Products,Codex GSFA,06.0,https://www.fao.org/gsfaonline/foods/index.html
-CAT-BAKERY_WARES,Bakery Wares,Codex GSFA,07.0,https://www.fao.org/gsfaonline/foods/index.html
-CAT-SALTS__SPICES__SOUPS__SAUCES__SALADS_AND_PROTEIN_PRODUCTS,"Salts, Spices, Soups, Sauces, Salads And Protein Products",Codex GSFA,12.0,https://www.fao.org/gsfaonline/foods/index.html
-CAT-BEVERAGES__EXCLUDING_DAIRY_PRODUCTS,"Beverages, Excluding Dairy Products",Codex GSFA,14.0,https://www.fao.org/gsfaonline/foods/index.html
+CODEX-CAT-01.0,"Dairy Products And Analogues, Excluding Products Of Food Category 02.0",Codex Alimentarius Commission (FAO/WHO),01.0,https://www.fao.org/gsfaonline/foods/details.html?id=01.0
+CODEX-CAT-01.1,Fluid Milk And Milk Products,Codex Alimentarius Commission (FAO/WHO),01.1,https://www.fao.org/gsfaonline/foods/details.html?id=01.1
+CODEX-CAT-01.2,Fermented And Renneted Milk Products (Plain),Codex Alimentarius Commission (FAO/WHO),01.2,https://www.fao.org/gsfaonline/foods/details.html?id=01.2
+CODEX-CAT-01.3,Condensed Milk And Analogues (Plain),Codex Alimentarius Commission (FAO/WHO),01.3,https://www.fao.org/gsfaonline/foods/details.html?id=01.3
+CODEX-CAT-01.4,Cream (Plain) And The Like,Codex Alimentarius Commission (FAO/WHO),01.4,https://www.fao.org/gsfaonline/foods/details.html?id=01.4
+CODEX-CAT-01.5,Milk Powder And Cream Powder And Powder Analogues (Plain),Codex Alimentarius Commission (FAO/WHO),01.5,https://www.fao.org/gsfaonline/foods/details.html?id=01.5
+CODEX-CAT-01.6,Cheese And Analogues,Codex Alimentarius Commission (FAO/WHO),01.6,https://www.fao.org/gsfaonline/foods/details.html?id=01.6
+CODEX-CAT-01.7,Dairy-Based Desserts,Codex Alimentarius Commission (FAO/WHO),01.7,https://www.fao.org/gsfaonline/foods/details.html?id=01.7
+CODEX-CAT-01.8,"Whey And Whey Products, Excluding Whey Cheeses",Codex Alimentarius Commission (FAO/WHO),01.8,https://www.fao.org/gsfaonline/foods/details.html?id=01.8
+CODEX-CAT-02.0,"Fats And Oils, And Fat Emulsions",Codex Alimentarius Commission (FAO/WHO),02.0,https://www.fao.org/gsfaonline/foods/details.html?id=02.0
+CODEX-CAT-02.1,Fats And Oils Essentially Free From Water,Codex Alimentarius Commission (FAO/WHO),02.1,https://www.fao.org/gsfaonline/foods/details.html?id=02.1
+CODEX-CAT-02.2,Fat Emulsions Mainly Of Type Water-In-Oil,Codex Alimentarius Commission (FAO/WHO),02.2,https://www.fao.org/gsfaonline/foods/details.html?id=02.2
+CODEX-CAT-02.3,"Fat Emulsions Mainly Of Type Oil-In-Water, Including Mixed And/Or Flavoured Products",Codex Alimentarius Commission (FAO/WHO),02.3,https://www.fao.org/gsfaonline/foods/details.html?id=02.3
+CODEX-CAT-02.4,Fat-Based Desserts Excluding Dairy-Based Dessert Products Of Category 01.7,Codex Alimentarius Commission (FAO/WHO),02.4,https://www.fao.org/gsfaonline/foods/details.html?id=02.4
+CODEX-CAT-03.0,"Edible Ices, Including Sherbet And Sorbet",Codex Alimentarius Commission (FAO/WHO),03.0,https://www.fao.org/gsfaonline/foods/details.html?id=03.0
+CODEX-CAT-04.0,"Fruits And Vegetables (Including Mushrooms And Fungi, Roots And Tubers, Pulses And Legumes, And Aloe Vera), Seaweeds, And Nuts And Seeds",Codex Alimentarius Commission (FAO/WHO),04.0,https://www.fao.org/gsfaonline/foods/details.html?id=04.0
+CODEX-CAT-04.1,Fruit,Codex Alimentarius Commission (FAO/WHO),04.1,https://www.fao.org/gsfaonline/foods/details.html?id=04.1
+CODEX-CAT-04.2,"Vegetables (Including Mushrooms And Fungi, Roots And Tubers, Pulses And Legumes, And Aloe Vera), Seaweeds, And Nuts And Seeds",Codex Alimentarius Commission (FAO/WHO),04.2,https://www.fao.org/gsfaonline/foods/details.html?id=04.2
+CODEX-CAT-05.0,Confectionery,Codex Alimentarius Commission (FAO/WHO),05.0,https://www.fao.org/gsfaonline/foods/details.html?id=05.0
+CODEX-CAT-05.1,Cocoa Products And Chocolate Products Including Imitations And Chocolate Substitutes,Codex Alimentarius Commission (FAO/WHO),05.1,https://www.fao.org/gsfaonline/foods/details.html?id=05.1
+CODEX-CAT-05.2,"Confectionery Including Hard And Soft Candy, Nougats, Etc. Other Than Food Categories 05.1, 05.3 And 05.4",Codex Alimentarius Commission (FAO/WHO),05.2,https://www.fao.org/gsfaonline/foods/details.html?id=05.2
+CODEX-CAT-05.3,Chewing Gum,Codex Alimentarius Commission (FAO/WHO),05.3,https://www.fao.org/gsfaonline/foods/details.html?id=05.3
+CODEX-CAT-05.4,"Decorations, Toppings (Non-Fruit) And Sweet Sauces",Codex Alimentarius Commission (FAO/WHO),05.4,https://www.fao.org/gsfaonline/foods/details.html?id=05.4
+CODEX-CAT-06.0,"Cereals And Cereal Products, Derived From Cereal Grains, From Roots And Tubers, Pulses, Legumes And Pith Or Soft Core Of Palm Tree, Excluding Bakery Wares Of Food Category 07.0",Codex Alimentarius Commission (FAO/WHO),06.0,https://www.fao.org/gsfaonline/foods/details.html?id=06.0
+CODEX-CAT-06.1,"Whole, Broken, Or Flaked Grain, Including Rice",Codex Alimentarius Commission (FAO/WHO),06.1,https://www.fao.org/gsfaonline/foods/details.html?id=06.1
+CODEX-CAT-06.2,Flours And Meals,Codex Alimentarius Commission (FAO/WHO),06.2,https://www.fao.org/gsfaonline/foods/details.html?id=06.2
+CODEX-CAT-06.3,"Breakfast Cereals, Including Rolled Oats",Codex Alimentarius Commission (FAO/WHO),06.3,https://www.fao.org/gsfaonline/foods/details.html?id=06.3
+CODEX-CAT-06.4,Pastas And Noodles And Like Products,Codex Alimentarius Commission (FAO/WHO),06.4,https://www.fao.org/gsfaonline/foods/details.html?id=06.4
+CODEX-CAT-06.5,Cereal And Starch Based Desserts,Codex Alimentarius Commission (FAO/WHO),06.5,https://www.fao.org/gsfaonline/foods/details.html?id=06.5
+CODEX-CAT-06.6,Batters (E.G. For Breading Or Batters For Fish Or Poultry),Codex Alimentarius Commission (FAO/WHO),06.6,https://www.fao.org/gsfaonline/foods/details.html?id=06.6
+CODEX-CAT-06.7,"Pre-Cooked Or Processed Rice Products, Including Rice Cakes (Oriented Type Only)",Codex Alimentarius Commission (FAO/WHO),06.7,https://www.fao.org/gsfaonline/foods/details.html?id=06.7
+CODEX-CAT-06.8,Soybean Products (Excluding Soybean-Based Seasonings And Condiments Of Food Category 12.9),Codex Alimentarius Commission (FAO/WHO),06.8,https://www.fao.org/gsfaonline/foods/details.html?id=06.8
+CODEX-CAT-07.0,Bakery Wares,Codex Alimentarius Commission (FAO/WHO),07.0,https://www.fao.org/gsfaonline/foods/details.html?id=07.0
+CODEX-CAT-07.1,Bread And Ordinary Bakery Wares And Mixes,Codex Alimentarius Commission (FAO/WHO),07.1,https://www.fao.org/gsfaonline/foods/details.html?id=07.1
+CODEX-CAT-07.2,"Fine Bakery Wares (Sweet, Salty, Savoury) And Mixes",Codex Alimentarius Commission (FAO/WHO),07.2,https://www.fao.org/gsfaonline/foods/details.html?id=07.2
+CODEX-CAT-08.0,"Meat And Meat Products, Including Poultry And Game",Codex Alimentarius Commission (FAO/WHO),08.0,https://www.fao.org/gsfaonline/foods/details.html?id=08.0
+CODEX-CAT-08.1,"Fresh Meat, Poultry, And Game",Codex Alimentarius Commission (FAO/WHO),08.1,https://www.fao.org/gsfaonline/foods/details.html?id=08.1
+CODEX-CAT-08.2,"Processed Meat, Poultry, And Game Products In Whole Pieces Or Cuts",Codex Alimentarius Commission (FAO/WHO),08.2,https://www.fao.org/gsfaonline/foods/details.html?id=08.2
+CODEX-CAT-08.3,"Processed Comminuted Meat, Poultry, And Game Products",Codex Alimentarius Commission (FAO/WHO),08.3,https://www.fao.org/gsfaonline/foods/details.html?id=08.3
+CODEX-CAT-08.4,Edible Casings (E.G. Sausage Casings),Codex Alimentarius Commission (FAO/WHO),08.4,https://www.fao.org/gsfaonline/foods/details.html?id=08.4
+CODEX-CAT-09.0,"Fish And Fish Products, Including Molluscs, Crustaceans, And Echinoderms",Codex Alimentarius Commission (FAO/WHO),09.0,https://www.fao.org/gsfaonline/foods/details.html?id=09.0
+CODEX-CAT-09.1,"Fresh Fish And Fish Products, Including Molluscs, Crustaceans, And Echinoderms",Codex Alimentarius Commission (FAO/WHO),09.1,https://www.fao.org/gsfaonline/foods/details.html?id=09.1
+CODEX-CAT-09.2,"Processed Fish And Fish Products, Including Molluscs, Crustaceans, And Echinoderms",Codex Alimentarius Commission (FAO/WHO),09.2,https://www.fao.org/gsfaonline/foods/details.html?id=09.2
+CODEX-CAT-09.3,"Semi-Preserved Fish And Fish Products, Including Molluscs, Crustaceans, And Echinoderms",Codex Alimentarius Commission (FAO/WHO),09.3,https://www.fao.org/gsfaonline/foods/details.html?id=09.3
+CODEX-CAT-09.4,"Fully Preserved, Including Canned Or Fermented Fish And Fish Products, Including Molluscs, Crustaceans, And Echinoderms",Codex Alimentarius Commission (FAO/WHO),09.4,https://www.fao.org/gsfaonline/foods/details.html?id=09.4
+CODEX-CAT-10.0,Eggs And Egg Products,Codex Alimentarius Commission (FAO/WHO),10.0,https://www.fao.org/gsfaonline/foods/details.html?id=10.0
+CODEX-CAT-10.1,Fresh Eggs,Codex Alimentarius Commission (FAO/WHO),10.1,https://www.fao.org/gsfaonline/foods/details.html?id=10.1
+CODEX-CAT-10.2,Egg Products,Codex Alimentarius Commission (FAO/WHO),10.2,https://www.fao.org/gsfaonline/foods/details.html?id=10.2
+CODEX-CAT-10.3,"Preserved Eggs, Including Alkaline, Salted, And Canned Eggs",Codex Alimentarius Commission (FAO/WHO),10.3,https://www.fao.org/gsfaonline/foods/details.html?id=10.3
+CODEX-CAT-10.4,Egg-Based Desserts (E.G. Custard),Codex Alimentarius Commission (FAO/WHO),10.4,https://www.fao.org/gsfaonline/foods/details.html?id=10.4
+CODEX-CAT-11.0,"Sweeteners, Including Honey",Codex Alimentarius Commission (FAO/WHO),11.0,https://www.fao.org/gsfaonline/foods/details.html?id=11.0
+CODEX-CAT-11.1,Refined And Raw Sugars,Codex Alimentarius Commission (FAO/WHO),11.1,https://www.fao.org/gsfaonline/foods/details.html?id=11.1
+CODEX-CAT-11.2,Brown Sugar Excluding Products Of Food Category 11.1.3,Codex Alimentarius Commission (FAO/WHO),11.2,https://www.fao.org/gsfaonline/foods/details.html?id=11.2
+CODEX-CAT-11.3,"Sugar Solutions And Syrups, And (Partially) Inverted Sugars, Including Molasses And Treacle",Codex Alimentarius Commission (FAO/WHO),11.3,https://www.fao.org/gsfaonline/foods/details.html?id=11.3
+CODEX-CAT-11.4,"Other Sugars And Syrups (E.G. Xylose, Maple Syrup, Sugar Toppings)",Codex Alimentarius Commission (FAO/WHO),11.4,https://www.fao.org/gsfaonline/foods/details.html?id=11.4
+CODEX-CAT-11.5,Honey,Codex Alimentarius Commission (FAO/WHO),11.5,https://www.fao.org/gsfaonline/foods/details.html?id=11.5
+CODEX-CAT-11.6,"Table-Top Sweeteners, Including Those Containing High-Intensity Sweeteners",Codex Alimentarius Commission (FAO/WHO),11.6,https://www.fao.org/gsfaonline/foods/details.html?id=11.6
+CODEX-CAT-12.0,"Salts, Spices, Soups, Sauces, Salads And Protein Products",Codex Alimentarius Commission (FAO/WHO),12.0,https://www.fao.org/gsfaonline/foods/details.html?id=12.0
+CODEX-CAT-12.1,Salt And Salt Substitutes,Codex Alimentarius Commission (FAO/WHO),12.1,https://www.fao.org/gsfaonline/foods/details.html?id=12.1
+CODEX-CAT-12.2,"Herbs, Spices, Seasonings And Condiments",Codex Alimentarius Commission (FAO/WHO),12.2,https://www.fao.org/gsfaonline/foods/details.html?id=12.2
+CODEX-CAT-12.3,Vinegars,Codex Alimentarius Commission (FAO/WHO),12.3,https://www.fao.org/gsfaonline/foods/details.html?id=12.3
+CODEX-CAT-12.4,Mustards,Codex Alimentarius Commission (FAO/WHO),12.4,https://www.fao.org/gsfaonline/foods/details.html?id=12.4
+CODEX-CAT-12.5,Soups And Broths,Codex Alimentarius Commission (FAO/WHO),12.5,https://www.fao.org/gsfaonline/foods/details.html?id=12.5
+CODEX-CAT-12.6,Sauces And Like Products,Codex Alimentarius Commission (FAO/WHO),12.6,https://www.fao.org/gsfaonline/foods/details.html?id=12.6
+CODEX-CAT-12.7,"Salads (E.G. Macaroni Salad, Potato Salad) And Sandwich Spreads Excluding Cocoa- And Nut-Based Spreads Of Food Categories 04.2.2.5 And 05.1.3",Codex Alimentarius Commission (FAO/WHO),12.7,https://www.fao.org/gsfaonline/foods/details.html?id=12.7
+CODEX-CAT-12.8,Yeast And Like Products,Codex Alimentarius Commission (FAO/WHO),12.8,https://www.fao.org/gsfaonline/foods/details.html?id=12.8
+CODEX-CAT-12.9,Soybean-Based Seasonings And Condiments,Codex Alimentarius Commission (FAO/WHO),12.9,https://www.fao.org/gsfaonline/foods/details.html?id=12.9
+CODEX-CAT-12.10,Protein Products Other Than From Soybeans,Codex Alimentarius Commission (FAO/WHO),12.10,https://www.fao.org/gsfaonline/foods/details.html?id=12.10
+CODEX-CAT-13.0,Foodstuffs Intended For Particular Nutritional Uses,Codex Alimentarius Commission (FAO/WHO),13.0,https://www.fao.org/gsfaonline/foods/details.html?id=13.0
+CODEX-CAT-13.1,"Infant Formulae, Follow-On Formulae, And Formulae For Special Medical Purposes For Infants",Codex Alimentarius Commission (FAO/WHO),13.1,https://www.fao.org/gsfaonline/foods/details.html?id=13.1
+CODEX-CAT-13.2,Complementary Foods For Infants And Young Children,Codex Alimentarius Commission (FAO/WHO),13.2,https://www.fao.org/gsfaonline/foods/details.html?id=13.2
+CODEX-CAT-13.3,Dietetic Foods Intended For Special Medical Purposes (Excluding Products Of Food Category 13.1),Codex Alimentarius Commission (FAO/WHO),13.3,https://www.fao.org/gsfaonline/foods/details.html?id=13.3
+CODEX-CAT-13.4,Dietetic Formulae For Slimming Purposes And Weight Reduction,Codex Alimentarius Commission (FAO/WHO),13.4,https://www.fao.org/gsfaonline/foods/details.html?id=13.4
+CODEX-CAT-13.5,Dietetic Foods (E.G. Supplementary Foods For Dietary Use) Excluding Products Of Food Categories 13.1 - 13.4 And 13.6,Codex Alimentarius Commission (FAO/WHO),13.5,https://www.fao.org/gsfaonline/foods/details.html?id=13.5
+CODEX-CAT-13.6,Food Supplements,Codex Alimentarius Commission (FAO/WHO),13.6,https://www.fao.org/gsfaonline/foods/details.html?id=13.6
+CODEX-CAT-14.0,"Beverages, Excluding Dairy Products",Codex Alimentarius Commission (FAO/WHO),14.0,https://www.fao.org/gsfaonline/foods/details.html?id=14.0
+CODEX-CAT-14.1,Non-Alcoholic ('Soft') Beverages,Codex Alimentarius Commission (FAO/WHO),14.1,https://www.fao.org/gsfaonline/foods/details.html?id=14.1
+CODEX-CAT-14.2,"Alcoholic Beverages, Including Alcohol-Free And Low-Alcoholic Counterparts",Codex Alimentarius Commission (FAO/WHO),14.2,https://www.fao.org/gsfaonline/foods/details.html?id=14.2
+CODEX-CAT-15.0,Ready-To-Eat Savouries,Codex Alimentarius Commission (FAO/WHO),15.0,https://www.fao.org/gsfaonline/foods/details.html?id=15.0
+CODEX-CAT-15.1,"Snacks - Potato, Cereal, Flour Or Starch Based (From Roots And Tubers, Pulses And Legumes)",Codex Alimentarius Commission (FAO/WHO),15.1,https://www.fao.org/gsfaonline/foods/details.html?id=15.1
+CODEX-CAT-15.2,"Processed Nuts, Including Coated Nuts And Nut Mixtures (With E.G. Dried Fruit)",Codex Alimentarius Commission (FAO/WHO),15.2,https://www.fao.org/gsfaonline/foods/details.html?id=15.2
+CODEX-CAT-15.3,Snacks - Fish Based,Codex Alimentarius Commission (FAO/WHO),15.3,https://www.fao.org/gsfaonline/foods/details.html?id=15.3
+CODEX-CAT-16.0,Prepared Foods,Codex Alimentarius Commission (FAO/WHO),16.0,https://www.fao.org/gsfaonline/foods/details.html?id=16.0
+FOODON:CAT:FOODON_00001607,Obsolete: Animal Product Stew Or Hash Category,FoodOn Ontology,FOODON_00001607,http://purl.obolibrary.org/obo/FOODON_00001607
+FOODON:CAT:FOODON_00001653,Blackberry Group Food Product,FoodOn Ontology,FOODON_00001653,http://purl.obolibrary.org/obo/FOODON_00001653
+FOODON:CAT:FOODON_00001938,Grouper Food Product,FoodOn Ontology,FOODON_00001938,http://purl.obolibrary.org/obo/FOODON_00001938
+FOODON:CAT:FOODON_00002039,Mineral Substance As Food Supplement Product Category,FoodOn Ontology,FOODON_00002039,http://purl.obolibrary.org/obo/FOODON_00002039
+FOODON:CAT:FOODON_00002147,Food Material By Consumer Group,FoodOn Ontology,FOODON_00002147,http://purl.obolibrary.org/obo/FOODON_00002147
+FOODON:CAT:FOODON_00003125,Malus Group,FoodOn Ontology,FOODON_00003125,http://purl.obolibrary.org/obo/FOODON_00003125
+FOODON:CAT:FOODON_00004123,Celery (Dulce Group) Food Product,FoodOn Ontology,FOODON_00004123,http://purl.obolibrary.org/obo/FOODON_00004123
+FOODON:CAT:FOODON_03303222,Wine Product Category,FoodOn Ontology,FOODON_03303222,http://purl.obolibrary.org/obo/FOODON_03303222
+FOODON:CAT:FOODON_03307966,Grouper Fillet With Shrimp And Crab Meat,FoodOn Ontology,FOODON_03307966,http://purl.obolibrary.org/obo/FOODON_03307966
+FOODON:CAT:FOODON_03308027,Grouper (Raw),FoodOn Ontology,FOODON_03308027,http://purl.obolibrary.org/obo/FOODON_03308027
+FOODON:CAT:FOODON_03308792,Red Grouper (Raw),FoodOn Ontology,FOODON_03308792,http://purl.obolibrary.org/obo/FOODON_03308792
+FOODON:CAT:FOODON_03308794,Grouper Fillet (Raw),FoodOn Ontology,FOODON_03308794,http://purl.obolibrary.org/obo/FOODON_03308794
+FOODON:CAT:FOODON_03308895,Persian Grouper (Raw),FoodOn Ontology,FOODON_03308895,http://purl.obolibrary.org/obo/FOODON_03308895
+FOODON:CAT:FOODON_03308897,Tauvina Grouper (Raw),FoodOn Ontology,FOODON_03308897,http://purl.obolibrary.org/obo/FOODON_03308897
+FOODON:CAT:FOODON_03308910,Argentine Grouper (Raw),FoodOn Ontology,FOODON_03308910,http://purl.obolibrary.org/obo/FOODON_03308910
+FOODON:CAT:FOODON_03309666,Grouper Fillet (Frozen),FoodOn Ontology,FOODON_03309666,http://purl.obolibrary.org/obo/FOODON_03309666
+FOODON:CAT:FOODON_03315709,Confectionery Glaze For Grain-Based Snack Foods,FoodOn Ontology,FOODON_03315709,http://purl.obolibrary.org/obo/FOODON_03315709
+FOODON:CAT:FOODON_03315710,Confectionery Glaze For Nut-Based Snack Foods,FoodOn Ontology,FOODON_03315710,http://purl.obolibrary.org/obo/FOODON_03315710
+FOODON:CAT:FOODON_03315711,Confectionery Glaze For Corn-Based Snack Foods,FoodOn Ontology,FOODON_03315711,http://purl.obolibrary.org/obo/FOODON_03315711
+FOODON:CAT:FOODON_03316242,Vegetable Protein Products,FoodOn Ontology,FOODON_03316242,http://purl.obolibrary.org/obo/FOODON_03316242
+FOODON:CAT:FOODON_03316332,Edible Gelatinous Coating For Meat Products,FoodOn Ontology,FOODON_03316332,http://purl.obolibrary.org/obo/FOODON_03316332
+FOODON:CAT:FOODON_03400323,Food Additive Regulatory Classification,FoodOn Ontology,FOODON_03400323,http://purl.obolibrary.org/obo/FOODON_03400323
+FOODON:CAT:FOODON_03400324,"Food Additive Classification, European Community",FoodOn Ontology,FOODON_03400324,http://purl.obolibrary.org/obo/FOODON_03400324
+FOODON:CAT:FOODON_03400355,Codex Alimentarius Food Classification For Food Additives,FoodOn Ontology,FOODON_03400355,http://purl.obolibrary.org/obo/FOODON_03400355
+FOODON:CAT:FOODON_03400357,Ciaa Food Classification For Food Additives,FoodOn Ontology,FOODON_03400357,http://purl.obolibrary.org/obo/FOODON_03400357
+FOODON:CAT:FOODON_03400452,Ciaa Dairy Products,FoodOn Ontology,FOODON_03400452,http://purl.obolibrary.org/obo/FOODON_03400452
+FOODON:CAT:FOODON_03400457,Ciaa Cereals And Cereal Products,FoodOn Ontology,FOODON_03400457,http://purl.obolibrary.org/obo/FOODON_03400457
+FOODON:CAT:FOODON_03400459,Ciaa Meat And Meat Products,FoodOn Ontology,FOODON_03400459,http://purl.obolibrary.org/obo/FOODON_03400459
+FOODON:CAT:FOODON_03400460,Ciaa Fish And Fish Products,FoodOn Ontology,FOODON_03400460,http://purl.obolibrary.org/obo/FOODON_03400460
+FOODON:CAT:FOODON_03400461,Ciaa Egg And Egg Products,FoodOn Ontology,FOODON_03400461,http://purl.obolibrary.org/obo/FOODON_03400461
+FOODON:CAT:FOODON_03400467,Ciaa Other Foods,FoodOn Ontology,FOODON_03400467,http://purl.obolibrary.org/obo/FOODON_03400467
+FOODON:CAT:FOODON_03400631,Ccfac Cereals And Cereal Products,FoodOn Ontology,FOODON_03400631,http://purl.obolibrary.org/obo/FOODON_03400631
+FOODON:CAT:FOODON_03400633,Ccfac Meat And Meat Products,FoodOn Ontology,FOODON_03400633,http://purl.obolibrary.org/obo/FOODON_03400633
+FOODON:CAT:FOODON_03400634,Ccfac Fish And Fish Products,FoodOn Ontology,FOODON_03400634,http://purl.obolibrary.org/obo/FOODON_03400634
+FOODON:CAT:FOODON_03400635,Ccfac Egg And Egg Products,FoodOn Ontology,FOODON_03400635,http://purl.obolibrary.org/obo/FOODON_03400635
+FOODON:CAT:FOODON_03400639,"Ccfac Beverages, Excluding Dairy Products",FoodOn Ontology,FOODON_03400639,http://purl.obolibrary.org/obo/FOODON_03400639
+FOODON:CAT:FOODON_03400641,Ccfac Composite Foods,FoodOn Ontology,FOODON_03400641,http://purl.obolibrary.org/obo/FOODON_03400641
+FOODON:CAT:FOODON_03400642,Eurocode 2 Food Classification,FoodOn Ontology,FOODON_03400642,http://purl.obolibrary.org/obo/FOODON_03400642
+FOODON:CAT:FOODON_03400643,Codex Alimentarius Classification Of Food And Feed Commodities,FoodOn Ontology,FOODON_03400643,http://purl.obolibrary.org/obo/FOODON_03400643
+FOODON:CAT:FOODON_03400690,European Food Groups (Efg),FoodOn Ontology,FOODON_03400690,http://purl.obolibrary.org/obo/FOODON_03400690
+FOODON:CAT:FOODON_03400777,Eurofir Food Classification,FoodOn Ontology,FOODON_03400777,http://purl.obolibrary.org/obo/FOODON_03400777
+FOODON:CAT:FOODON_03400874,Gs1 Global Product Classification (Gpc),FoodOn Ontology,FOODON_03400874,http://purl.obolibrary.org/obo/FOODON_03400874
+FOODON:CAT:FOODON_03401220,"Classification Of Products Of Plant And Animal Origin, European Community",FoodOn Ontology,FOODON_03401220,http://purl.obolibrary.org/obo/FOODON_03401220
+FOODON:CAT:FOODON_03401895,Efsa Food Classification And Description System For Exposure Assessment (Efsa Foodex2),FoodOn Ontology,FOODON_03401895,http://purl.obolibrary.org/obo/FOODON_03401895
+FOODON:CAT:FOODON_03411496,Grouper,FoodOn Ontology,FOODON_03411496,http://purl.obolibrary.org/obo/FOODON_03411496
+FOODON:CAT:FOODON_03411564,Obsolete: Organism By Alternate Grouping,FoodOn Ontology,FOODON_03411564,http://purl.obolibrary.org/obo/FOODON_03411564
+FOODON:CAT:FOODON_03411757,Red Grouper,FoodOn Ontology,FOODON_03411757,http://purl.obolibrary.org/obo/FOODON_03411757
+FOODON:CAT:FOODON_03411758,Persian Grouper,FoodOn Ontology,FOODON_03411758,http://purl.obolibrary.org/obo/FOODON_03411758
+FOODON:CAT:FOODON_03412390,Yellowfin Grouper,FoodOn Ontology,FOODON_03412390,http://purl.obolibrary.org/obo/FOODON_03412390
+FOODON:CAT:FOODON_03412657,Weakfish Group,FoodOn Ontology,FOODON_03412657,http://purl.obolibrary.org/obo/FOODON_03412657

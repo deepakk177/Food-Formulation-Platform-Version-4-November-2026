@@ -1,3 +1,465 @@
 ID,Name,PubChemID,FEMANumber,CASNumber,Source,source_record_id,source_url
-FLVMOL-FEMA-3107,Vanillin,5284448,3107,121-33-5,FEMA Flavor Library,3107,https://www.femaflavor.org/flavor/3107
-FLVMOL-FEMA-2633,Limonene,31279,2633,5989-27-5,FEMA Flavor Library,2633,https://www.femaflavor.org/flavor/2633
+FEMA:MOL:3271,"2,3-Dimethylpyrazine",22201,3271,25704-73-8,FlavorDB / FEMA Flavor Library,3271,https://www.femaflavor.org/flavor/3271
+FEMA:MOL:3272,"2,5-Dimethylpyrazine",31252,3272,123-32-0,FlavorDB / FEMA Flavor Library,3272,https://www.femaflavor.org/flavor/3272
+FEMA:MOL:3281,2-Ethylpyrazine,26331,3281,13925-00-3,FlavorDB / FEMA Flavor Library,3281,https://www.femaflavor.org/flavor/3281
+FEMA:MOL:3155,2-Ethyl-3-Methylpyrazine,27457,3155,15707-23-0,FlavorDB / FEMA Flavor Library,3155,https://www.femaflavor.org/flavor/3155
+FEMA:MOL:3309,2-Methylpyrazine,7976,3309,109-08-0,FlavorDB / FEMA Flavor Library,3309,https://www.femaflavor.org/flavor/3309
+FEMA:MOL:3244,"2,3,5-Trimethylpyrazine",26808,3244,14667-55-1,FlavorDB / FEMA Flavor Library,3244,https://www.femaflavor.org/flavor/3244
+FEMA:MOL:2800,1-octanol,957,2800,220713-26-8,FlavorDB / FEMA Flavor Library,2800,https://www.femaflavor.org/flavor/2800
+FEMA:MOL:2857,Phenethyl acetate,7654,2857,103-45-7,FlavorDB / FEMA Flavor Library,2857,https://www.femaflavor.org/flavor/2857
+FEMA:MOL:3098,Pentanal,8063,3098,27154-67-2,FlavorDB / FEMA Flavor Library,3098,https://www.femaflavor.org/flavor/3098
+FEMA:MOL:2923,Propionaldehyde,527,2923,123-38-6,FlavorDB / FEMA Flavor Library,2923,https://www.femaflavor.org/flavor/2923
+FEMA:MOL:2884,1-Phenyl-1-propanol,7147,2884,93-54-9,FlavorDB / FEMA Flavor Library,2884,https://www.femaflavor.org/flavor/2884
+FEMA:MOL:3644,2-Methylbutyl Acetate,12209,3644,624-41-9,FlavorDB / FEMA Flavor Library,3644,https://www.femaflavor.org/flavor/3644
+FEMA:MOL:2746,dimethyl sulfide,1068,2746,31533-72-9,FlavorDB / FEMA Flavor Library,2746,https://www.femaflavor.org/flavor/2746
+FEMA:MOL:2127,benzaldehyde,240,2127,100-52-7,FlavorDB / FEMA Flavor Library,2127,https://www.femaflavor.org/flavor/2127
+FEMA:MOL:3251,2-Acetylpyridine,14286,3251,30440-88-1,FlavorDB / FEMA Flavor Library,3251,https://www.femaflavor.org/flavor/3251
+FEMA:MOL:2722,Methyl tetradecanoate,31284,2722,124-10-7,FlavorDB / FEMA Flavor Library,2722,https://www.femaflavor.org/flavor/2722
+FEMA:MOL:2179,2-Methyl-1-propanol,6560,2179,78-83-1,FlavorDB / FEMA Flavor Library,2179,https://www.femaflavor.org/flavor/2179
+FEMA:MOL:2175,Isobutyl Acetate,8038,2175,110-19-0,FlavorDB / FEMA Flavor Library,2175,https://www.femaflavor.org/flavor/2175
+FLVMOL:PUBCHEM:6354,Oxirane,6354,,9072-62-2,FlavorDB / FEMA Flavor Library,6354,https://cosylab.iiitd.edu.in/flavordb2/entity_details?id=10
+FEMA:MOL:2489,2-Furaldehyde,7362,2489,98-01-1,FlavorDB / FEMA Flavor Library,2489,https://www.femaflavor.org/flavor/2489
+FEMA:MOL:3191,2-Methylhexanoic Acid,20653,3191,4536-23-6,FlavorDB / FEMA Flavor Library,3191,https://www.femaflavor.org/flavor/3191
+FEMA:MOL:3643,Ethyl 2-octenoate,5364399,3643,7367-82-0,FlavorDB / FEMA Flavor Library,3643,https://www.femaflavor.org/flavor/3643
+FEMA:MOL:2077,Isoamyl laurate,61386,2077,6309-51-9,FlavorDB / FEMA Flavor Library,2077,https://www.femaflavor.org/flavor/2077
+FEMA:MOL:3492,Ethyl Undecanoate,12327,3492,627-90-7,FlavorDB / FEMA Flavor Library,3492,https://www.femaflavor.org/flavor/3492
+FEMA:MOL:2427,Ethyl Butyrate,7762,2427,105-54-4,FlavorDB / FEMA Flavor Library,2427,https://www.femaflavor.org/flavor/2427
+FEMA:MOL:2544,2-Heptanone,8051,2544,29299-43-2,FlavorDB / FEMA Flavor Library,2544,https://www.femaflavor.org/flavor/2544
+FEMA:MOL:3988,Vanillic acid,8468,3988,121-34-6,FlavorDB / FEMA Flavor Library,3988,https://www.femaflavor.org/flavor/3988
+FEMA:MOL:2440,Ethyl Lactate,7344,2440,97-64-3,FlavorDB / FEMA Flavor Library,2440,https://www.femaflavor.org/flavor/2440
+FEMA:MOL:2943,Propyl Formate,8073,2943,110-74-7,FlavorDB / FEMA Flavor Library,2943,https://www.femaflavor.org/flavor/2943
+FEMA:MOL:2858,2-Phenylethanol,6054,2858,1321-27-3,FlavorDB / FEMA Flavor Library,2858,https://www.femaflavor.org/flavor/2858
+FEMA:MOL:3424,3-Acetylpyridine,9589,3424,350-03-8,FlavorDB / FEMA Flavor Library,3424,https://www.femaflavor.org/flavor/3424
+FEMA:MOL:2434,Ethyl Formate,8025,2434,109-94-4,FlavorDB / FEMA Flavor Library,2434,https://www.femaflavor.org/flavor/2434
+FEMA:MOL:3171,cis-3-Hexenyl acetate,5363388,3171,3681-71-8,FlavorDB / FEMA Flavor Library,3171,https://www.femaflavor.org/flavor/3171
+FEMA:MOL:3348,Heptanoic Acid,8094,3348,111-14-8,FlavorDB / FEMA Flavor Library,3348,https://www.femaflavor.org/flavor/3348
+FEMA:MOL:2532,guaiacol,460,2532,8021-39-4,FlavorDB / FEMA Flavor Library,2532,https://www.femaflavor.org/flavor/2532
+FEMA:MOL:2491,Furfuryl Alcohol,7361,2491,25212-86-6,FlavorDB / FEMA Flavor Library,2491,https://www.femaflavor.org/flavor/2491
+FEMA:MOL:2676,Methyl Acetate,6584,2676,79-20-9,FlavorDB / FEMA Flavor Library,2676,https://www.femaflavor.org/flavor/2676
+FEMA:MOL:3275,Dimethyl trisulfide,19310,3275,3658-80-8,FlavorDB / FEMA Flavor Library,3275,https://www.femaflavor.org/flavor/3275
+FEMA:MOL:2864,2-Phenylethyl formate,7711,2864,104-62-1,FlavorDB / FEMA Flavor Library,2864,https://www.femaflavor.org/flavor/2864
+FEMA:MOL:2562,trans-2-Hexen-1-Ol,5318042,2562,928-95-0,FlavorDB / FEMA Flavor Library,2562,https://www.femaflavor.org/flavor/2562
+FEMA:MOL:2456,Ethyl Propionate,7749,2456,105-37-3,FlavorDB / FEMA Flavor Library,2456,https://www.femaflavor.org/flavor/2456
+FEMA:MOL:3984,4-hydroxybenzaldehyde,126,3984,65581-83-1,FlavorDB / FEMA Flavor Library,3984,https://www.femaflavor.org/flavor/3984
+FEMA:MOL:2178,1-butanol,263,2178,5593-70-4,FlavorDB / FEMA Flavor Library,2178,https://www.femaflavor.org/flavor/2178
+FEMA:MOL:2567,1-Hexanol,8103,2567,111-27-3,FlavorDB / FEMA Flavor Library,2567,https://www.femaflavor.org/flavor/2567
+FEMA:MOL:3427,"2,4-Dimethylbenzaldehyde",61814,3427,15764-16-6,FlavorDB / FEMA Flavor Library,3427,https://www.femaflavor.org/flavor/3427
+FEMA:MOL:2966,Pyridine,1049,2966,110-86-1,FlavorDB / FEMA Flavor Library,2966,https://www.femaflavor.org/flavor/2966
+FEMA:MOL:3615,Thiazole,9256,3615,288-47-1,FlavorDB / FEMA Flavor Library,3615,https://www.femaflavor.org/flavor/3615
+FEMA:MOL:3204,4-Methyl-5-Thiazoleethanol,1136,3204,137-00-8,FlavorDB / FEMA Flavor Library,3204,https://www.femaflavor.org/flavor/3204
+FEMA:MOL:2728,Methyl octanoate,8091,2728,111-11-5,FlavorDB / FEMA Flavor Library,2728,https://www.femaflavor.org/flavor/2728
+FEMA:MOL:2341,4-isopropylbenzaldehyde,326,2341,122-03-2,FlavorDB / FEMA Flavor Library,2341,https://www.femaflavor.org/flavor/2341
+FEMA:MOL:2559,Hexanoic Acid,8892,2559,70248-25-8,FlavorDB / FEMA Flavor Library,2559,https://www.femaflavor.org/flavor/2559
+FEMA:MOL:2799,octanoic acid,379,2799,124-07-2,FlavorDB / FEMA Flavor Library,2799,https://www.femaflavor.org/flavor/2799
+FEMA:MOL:3762,3-Methyl-1-Pentanol,11508,3762,589-35-5,FlavorDB / FEMA Flavor Library,3762,https://www.femaflavor.org/flavor/3762
+FEMA:MOL:2437,Ethyl Heptanoate,7797,2437,106-30-9,FlavorDB / FEMA Flavor Library,2437,https://www.femaflavor.org/flavor/2437
+FEMA:MOL:2703,Methyl 2-furoate,11902,2703,611-13-2,FlavorDB / FEMA Flavor Library,2703,https://www.femaflavor.org/flavor/2703
+FEMA:MOL:3102,Isovaleric Acid,10430,3102,35915-22-1,FlavorDB / FEMA Flavor Library,3102,https://www.femaflavor.org/flavor/3102
+FEMA:MOL:2430,Ethyl Cinnamate,637758,2430,103-36-6,FlavorDB / FEMA Flavor Library,2430,https://www.femaflavor.org/flavor/2430
+FEMA:MOL:3690,cis-3-Hexenyl lactate,5364231,3690,61931-81-5,FlavorDB / FEMA Flavor Library,3690,https://www.femaflavor.org/flavor/3690
+FEMA:MOL:3288,2-Heptanol,10976,3288,543-49-7,FlavorDB / FEMA Flavor Library,3288,https://www.femaflavor.org/flavor/3288
+FEMA:MOL:2220,Isobutyraldehyde,6561,2220,78-84-2,FlavorDB / FEMA Flavor Library,2220,https://www.femaflavor.org/flavor/2220
+FEMA:MOL:2441,Ethyl dodecanoate,7800,2441,106-33-2,FlavorDB / FEMA Flavor Library,2441,https://www.femaflavor.org/flavor/2441
+FEMA:MOL:2770,nerol,643820,2770,106-25-2,FlavorDB / FEMA Flavor Library,2770,https://www.femaflavor.org/flavor/2770
+FEMA:MOL:2436,4-Ethyl-2-methoxyphenol,62465,2436,2785-89-9,FlavorDB / FEMA Flavor Library,2436,https://www.femaflavor.org/flavor/2436
+FEMA:MOL:2439,Ethyl caproate,31265,2439,123-66-0,FlavorDB / FEMA Flavor Library,2439,https://www.femaflavor.org/flavor/2439
+FEMA:MOL:2928,1-propanol,1031,2928,71-23-8,FlavorDB / FEMA Flavor Library,2928,https://www.femaflavor.org/flavor/2928
+FEMA:MOL:2707,6-Methyl-5-Hepten-2-One,9862,2707,110-93-0,FlavorDB / FEMA Flavor Library,2707,https://www.femaflavor.org/flavor/2707
+FEMA:MOL:2202,Isobutyl hexanoate,7775,2202,105-79-3,FlavorDB / FEMA Flavor Library,2202,https://www.femaflavor.org/flavor/2202
+FEMA:MOL:2075,Isopentyl hexanoate,16617,2075,2198-61-0,FlavorDB / FEMA Flavor Library,2075,https://www.femaflavor.org/flavor/2075
+FLVMOL:PUBCHEM:7501,Styrene,7501,,9003-53-6,FlavorDB / FEMA Flavor Library,7501,https://cosylab.iiitd.edu.in/flavordb2/entity_details?id=13
+FEMA:MOL:3415,3-methylthiopropanol,10448,3415,505-10-2,FlavorDB / FEMA Flavor Library,3415,https://www.femaflavor.org/flavor/3415
+FEMA:MOL:2377,Diethyl Succinate,31249,2377,123-25-1,FlavorDB / FEMA Flavor Library,2377,https://www.femaflavor.org/flavor/2377
+FEMA:MOL:2082,Isoamyl propionate,7772,2082,105-68-0,FlavorDB / FEMA Flavor Library,2082,https://www.femaflavor.org/flavor/2082
+FEMA:MOL:2187,Isobutyl butyrate,10885,2187,539-90-2,FlavorDB / FEMA Flavor Library,2187,https://www.femaflavor.org/flavor/2187
+FEMA:MOL:2422,Ethyl Benzoate,7165,2422,70750-03-7,FlavorDB / FEMA Flavor Library,2422,https://www.femaflavor.org/flavor/2422
+FEMA:MOL:2375,Diethyl Malonate,7761,2375,105-53-3,FlavorDB / FEMA Flavor Library,2375,https://www.femaflavor.org/flavor/2375
+FEMA:MOL:2867,2-Phenylethyl propionate,31225,2867,122-70-3,FlavorDB / FEMA Flavor Library,2867,https://www.femaflavor.org/flavor/2867
+FEMA:MOL:3639,beta-Cyclocitral,9895,3639,52844-21-0,FlavorDB / FEMA Flavor Library,3639,https://www.femaflavor.org/flavor/3639
+FEMA:MOL:3564,Beta-Terpineol,8748,3564,7299-41-4,FlavorDB / FEMA Flavor Library,3564,https://www.femaflavor.org/flavor/3564
+FEMA:MOL:2595,Beta-Ionone,638014,2595,8013-90-9,FlavorDB / FEMA Flavor Library,2595,https://www.femaflavor.org/flavor/2595
+FEMA:MOL:4024,13002-09-0,83036,4024,13002-09-0,FlavorDB / FEMA Flavor Library,4024,https://www.femaflavor.org/flavor/4024
+FEMA:MOL:2563,(Z)-Hex-3-en-1-ol,5281167,2563,928-96-1,FlavorDB / FEMA Flavor Library,2563,https://www.femaflavor.org/flavor/2563
+FEMA:MOL:2575,Hexyl octanoate,14228,2575,1117-55-1,FlavorDB / FEMA Flavor Library,2575,https://www.femaflavor.org/flavor/2575
+FEMA:MOL:2080,Isopentyl octanoate,16255,2080,2035-99-6,FlavorDB / FEMA Flavor Library,2080,https://www.femaflavor.org/flavor/2080
+FEMA:MOL:3221,2-Phenylethyl hexanoate,61384,3221,6290-37-5,FlavorDB / FEMA Flavor Library,3221,https://www.femaflavor.org/flavor/3221
+FEMA:MOL:2565,Hexyl acetate,8908,2565,"142-92-7, 88230-35-7",FlavorDB / FEMA Flavor Library,2565,https://www.femaflavor.org/flavor/2565
+FEMA:MOL:2861,Phenethyl butyrate,7658,2861,103-52-6,FlavorDB / FEMA Flavor Library,2861,https://www.femaflavor.org/flavor/2861
+FEMA:MOL:4613@3675,Ethyl hex-2-enoate,5364778,4613@3675,1552-67-6,FlavorDB / FEMA Flavor Library,4613@3675,https://www.femaflavor.org/flavor/4613@3675
+FEMA:MOL:2003,acetaldehyde,177,2003,75-07-0,FlavorDB / FEMA Flavor Library,2003,https://www.femaflavor.org/flavor/2003
+FEMA:MOL:2060,Isoamyl butyrate,7795,2060,106-27-4,FlavorDB / FEMA Flavor Library,2060,https://www.femaflavor.org/flavor/2060
+FEMA:MOL:2801,Octan-2-ol,20083,2801,123-96-6,FlavorDB / FEMA Flavor Library,2801,https://www.femaflavor.org/flavor/2801
+FEMA:MOL:3822,Cycloionone,110664,3822,5552-30-7,FlavorDB / FEMA Flavor Library,3822,https://www.femaflavor.org/flavor/3822
+FEMA:MOL:2691,2-Methylbutyraldehyde,7284,2691,96-17-3,FlavorDB / FEMA Flavor Library,2691,https://www.femaflavor.org/flavor/2691
+FEMA:MOL:2683,Methyl Benzoate,7150,2683,93-58-3,FlavorDB / FEMA Flavor Library,2683,https://www.femaflavor.org/flavor/2683
+FEMA:MOL:2449,Ethyl Octanoate,7799,2449,106-32-1,FlavorDB / FEMA Flavor Library,2449,https://www.femaflavor.org/flavor/2449
+FEMA:MOL:2487,formic acid,284,2487,64-18-6,FlavorDB / FEMA Flavor Library,2487,https://www.femaflavor.org/flavor/2487
+FEMA:MOL:2962,Isopulegol,170833,2962,89-79-2,FlavorDB / FEMA Flavor Library,2962,https://www.femaflavor.org/flavor/2962
+FEMA:MOL:2832,palmitic acid,985,2832,159733-92-3,FlavorDB / FEMA Flavor Library,2832,https://www.femaflavor.org/flavor/2832
+FEMA:MOL:2222,Isobutyric Acid,6590,2222,79-31-2,FlavorDB / FEMA Flavor Library,2222,https://www.femaflavor.org/flavor/2222
+FEMA:MOL:3581,3-Octanol,11527,3581,29063-28-3,FlavorDB / FEMA Flavor Library,3581,https://www.femaflavor.org/flavor/3581
+FEMA:MOL:2568,Hexyl Butyrate,17525,2568,2639-63-6,FlavorDB / FEMA Flavor Library,2568,https://www.femaflavor.org/flavor/2568
+FEMA:MOL:2785,2-Nonanone,13187,2785,821-55-6,FlavorDB / FEMA Flavor Library,2785,https://www.femaflavor.org/flavor/2785
+FEMA:MOL:2457,Ethyl Pyruvate,12041,2457,617-35-6,FlavorDB / FEMA Flavor Library,2457,https://www.femaflavor.org/flavor/2457
+FEMA:MOL:2069,Isopentyl formate,8052,2069,110-45-2,FlavorDB / FEMA Flavor Library,2069,https://www.femaflavor.org/flavor/2069
+FEMA:MOL:3140,"2,6-Dimethyl-4-heptanol",7957,3140,108-82-7,FlavorDB / FEMA Flavor Library,3140,https://www.femaflavor.org/flavor/3140
+FEMA:MOL:3661,Nerol oxide,61275,3661,1786-08-9,FlavorDB / FEMA Flavor Library,3661,https://www.femaflavor.org/flavor/3661
+FEMA:MOL:2443,Ethyl 2-methylbutyrate,24020,2443,7452-79-1,FlavorDB / FEMA Flavor Library,2443,https://www.femaflavor.org/flavor/2443
+FEMA:MOL:2200,Isobutyl heptanoate,24516,2200,7779-80-8,FlavorDB / FEMA Flavor Library,2200,https://www.femaflavor.org/flavor/2200
+FEMA:MOL:3407,Tiglic aldehyde,5321950,3407,6038-09-1,FlavorDB / FEMA Flavor Library,3407,https://www.femaflavor.org/flavor/3407
+FEMA:MOL:3924,cis-2-Hexen-1-ol,5324489,3924,928-94-9,FlavorDB / FEMA Flavor Library,3924,https://www.femaflavor.org/flavor/3924
+FEMA:MOL:2685,1-Phenylethanol,7409,2685,98-85-1,FlavorDB / FEMA Flavor Library,2685,https://www.femaflavor.org/flavor/2685
+FEMA:MOL:2925,Propyl acetate,7997,2925,109-60-4,FlavorDB / FEMA Flavor Library,2925,https://www.femaflavor.org/flavor/2925
+FEMA:MOL:2802,Octan-2-one,8093,2802,111-13-7,FlavorDB / FEMA Flavor Library,2802,https://www.femaflavor.org/flavor/2802
+FEMA:MOL:2548,1-Heptanol,8129,2548,111-70-6,FlavorDB / FEMA Flavor Library,2548,https://www.femaflavor.org/flavor/2548
+FEMA:MOL:3212,"trans,trans-2,4-Nonadienal",5283339,3212,30551-17-8,FlavorDB / FEMA Flavor Library,3212,https://www.femaflavor.org/flavor/3212
+FEMA:MOL:2452,Ethyl Phenylacetate,7590,2452,101-97-3,FlavorDB / FEMA Flavor Library,2452,https://www.femaflavor.org/flavor/2452
+FEMA:MOL:3759,13679-86-2,61665,3759,13679-86-2,FlavorDB / FEMA Flavor Library,3759,https://www.femaflavor.org/flavor/3759
+FEMA:MOL:2463,Ethyl Isovalerate,7945,2463,108-64-5,FlavorDB / FEMA Flavor Library,2463,https://www.femaflavor.org/flavor/2463
+FEMA:MOL:2197,Isobutyl Formate,10957,2197,542-55-2,FlavorDB / FEMA Flavor Library,2197,https://www.femaflavor.org/flavor/2197
+FEMA:MOL:3045,alpha-TERPINEOL,17100,3045,8000-41-7,FlavorDB / FEMA Flavor Library,3045,https://www.femaflavor.org/flavor/3045
+FEMA:MOL:2842,2-Pentanone,7895,2842,107-87-9,FlavorDB / FEMA Flavor Library,2842,https://www.femaflavor.org/flavor/2842
+FEMA:MOL:3209,13679-70-4,61663,3209,13679-70-4,FlavorDB / FEMA Flavor Library,3209,https://www.femaflavor.org/flavor/3209
+FEMA:MOL:2862,Phenethyl isobutyrate,7655,2862,103-48-0,FlavorDB / FEMA Flavor Library,2862,https://www.femaflavor.org/flavor/2862
+FEMA:MOL:2461,Ethyl 10-Undecenoate,12729,2461,692-86-4,FlavorDB / FEMA Flavor Library,2461,https://www.femaflavor.org/flavor/2461
+FEMA:MOL:3356,Delta-Nonalactone,18698,3356,3301-94-8,FlavorDB / FEMA Flavor Library,3356,https://www.femaflavor.org/flavor/3356
+FEMA:MOL:3545,Ethyl 3-hydroxyhexanoate,61293,3545,2305-25-1,FlavorDB / FEMA Flavor Library,3545,https://www.femaflavor.org/flavor/3545
+FLVMOL:PUBCHEM:61592,Ethyl 3-(methylthio)propionate,61592,,13327-56-5,FlavorDB / FEMA Flavor Library,61592,https://cosylab.iiitd.edu.in/flavordb2/entity_details?id=17
+FEMA:MOL:2432,Ethyl Decanoate,8048,2432,110-38-3,FlavorDB / FEMA Flavor Library,2432,https://www.femaflavor.org/flavor/2432
+FEMA:MOL:2871,Phenylethyl isovalerate,8792,2871,140-26-1,FlavorDB / FEMA Flavor Library,2871,https://www.femaflavor.org/flavor/2871
+FEMA:MOL:3490,Ethyl Stearate,8122,3490,111-61-5,FlavorDB / FEMA Flavor Library,3490,https://www.femaflavor.org/flavor/3490
+FEMA:MOL:3420,Damascenone,5366074,3420,23696-85-7,FlavorDB / FEMA Flavor Library,3420,https://www.femaflavor.org/flavor/3420
+FEMA:MOL:3547,3-Heptanol,11520,3547,40617-58-1,FlavorDB / FEMA Flavor Library,3547,https://www.femaflavor.org/flavor/3547
+FEMA:MOL:2556,gamma-Caprolactone,12756,2556,695-06-7,FlavorDB / FEMA Flavor Library,2556,https://www.femaflavor.org/flavor/2556
+FEMA:MOL:3351,3-Hexanol,12178,3351,623-37-0,FlavorDB / FEMA Flavor Library,3351,https://www.femaflavor.org/flavor/3351
+FEMA:MOL:2929,isopropanol,3776,2929,67-63-0,FlavorDB / FEMA Flavor Library,2929,https://www.femaflavor.org/flavor/2929
+FEMA:MOL:2764,Tetradecanoic acid,11005,2764,544-63-8,FlavorDB / FEMA Flavor Library,2764,https://www.femaflavor.org/flavor/2764
+FEMA:MOL:3379,trans-2-Nonen-1-ol,5364941,3379,22104-79-6,FlavorDB / FEMA Flavor Library,3379,https://www.femaflavor.org/flavor/3379
+FEMA:MOL:3107,vanillin,1183,3107,121-33-5,FlavorDB / FEMA Flavor Library,3107,https://www.femaflavor.org/flavor/3107
+FEMA:MOL:3709,Methyl Nicotinate,7151,3709,93-60-7,FlavorDB / FEMA Flavor Library,3709,https://www.femaflavor.org/flavor/3709
+FEMA:MOL:3536,Dimethyl disulfide,12232,3536,624-92-0,FlavorDB / FEMA Flavor Library,3536,https://www.femaflavor.org/flavor/3536
+FEMA:MOL:2715,Methyl Dodecanoate,8139,2715,111-82-0,FlavorDB / FEMA Flavor Library,2715,https://www.femaflavor.org/flavor/2715
+FEMA:MOL:2841,"2,3-Pentanedione",11747,2841,600-14-6,FlavorDB / FEMA Flavor Library,2841,https://www.femaflavor.org/flavor/2841
+FEMA:MOL:3223,phenol,996,3223,63496-48-0,FlavorDB / FEMA Flavor Library,3223,https://www.femaflavor.org/flavor/3223
+FEMA:MOL:2949,Propyl Hexanoate,12293,2949,626-77-7,FlavorDB / FEMA Flavor Library,2949,https://www.femaflavor.org/flavor/2949
+FEMA:MOL:2772,Nerolidol,5284507,2772,40716-66-3,FlavorDB / FEMA Flavor Library,2772,https://www.femaflavor.org/flavor/2772
+FEMA:MOL:2205,Butyl Lactate,8738,2205,138-22-7,FlavorDB / FEMA Flavor Library,2205,https://www.femaflavor.org/flavor/2205
+FEMA:MOL:3092,Undecanal,8186,3092,112-44-7,FlavorDB / FEMA Flavor Library,3092,https://www.femaflavor.org/flavor/3092
+FEMA:MOL:3176,Carvomenthone,10362,3176,499-70-7,FlavorDB / FEMA Flavor Library,3176,https://www.femaflavor.org/flavor/3176
+FEMA:MOL:2459,Ethyl Sorbate,1550470,2459,5941-48-0,FlavorDB / FEMA Flavor Library,2459,https://www.femaflavor.org/flavor/2459
+FEMA:MOL:4049,Syringaldehyde,8655,4049,134-96-3,FlavorDB / FEMA Flavor Library,4049,https://www.femaflavor.org/flavor/4049
+FEMA:MOL:3598,2-Methoxy-4-Propylphenol,17739,3598,2785-87-7,FlavorDB / FEMA Flavor Library,3598,https://www.femaflavor.org/flavor/3598
+FEMA:MOL:2878,Phenylacetic Acid,999,2878,103-82-2,FlavorDB / FEMA Flavor Library,2878,https://www.femaflavor.org/flavor/2878
+FEMA:MOL:2677,4'-Methylacetophenone,8500,2677,122-00-9,FlavorDB / FEMA Flavor Library,2677,https://www.femaflavor.org/flavor/2677
+FEMA:MOL:2445,Ethyl tetradecanoate,31283,2445,124-06-1,FlavorDB / FEMA Flavor Library,2445,https://www.femaflavor.org/flavor/2445
+FEMA:MOL:3316,2-Pentanol,22386,3316,6032-29-7,FlavorDB / FEMA Flavor Library,3316,https://www.femaflavor.org/flavor/3316
+FEMA:MOL:3799,"1,2-Dimethoxybenzene",7043,3799,91-16-7,FlavorDB / FEMA Flavor Library,3799,https://www.femaflavor.org/flavor/3799
+FEMA:MOL:3035,stearic acid,5281,3035,68937-76-8,FlavorDB / FEMA Flavor Library,3035,https://www.femaflavor.org/flavor/3035
+FEMA:MOL:2731,4-Methyl-2-pentanone,7909,2731,108-10-1,FlavorDB / FEMA Flavor Library,2731,https://www.femaflavor.org/flavor/2731
+FEMA:MOL:3245,Undecanoic Acid,8180,3245,112-37-8,FlavorDB / FEMA Flavor Library,3245,https://www.femaflavor.org/flavor/3245
+FEMA:MOL:3739,4-Vinylphenol,62453,3739,2628-17-3,FlavorDB / FEMA Flavor Library,3739,https://www.femaflavor.org/flavor/3739
+FEMA:MOL:2002,Acetal,7765,2002,30846-29-8,FlavorDB / FEMA Flavor Library,2002,https://www.femaflavor.org/flavor/2002
+FEMA:MOL:2805,1-Octen-3-Ol,18827,2805,3391-86-4,FlavorDB / FEMA Flavor Library,2805,https://www.femaflavor.org/flavor/2805
+FEMA:MOL:2803,3-Octanone,246728,2803,106-68-3,FlavorDB / FEMA Flavor Library,2803,https://www.femaflavor.org/flavor/2803
+FEMA:MOL:3426,"1,1-Dimethoxyethane",10795,3426,25154-53-4,FlavorDB / FEMA Flavor Library,3426,https://www.femaflavor.org/flavor/3426
+FEMA:MOL:2782,Nonanal,31289,2782,124-19-6,FlavorDB / FEMA Flavor Library,2782,https://www.femaflavor.org/flavor/2782
+FEMA:MOL:2442,Ethyl Levulinate,10883,2442,539-88-8,FlavorDB / FEMA Flavor Library,2442,https://www.femaflavor.org/flavor/2442
+FEMA:MOL:3151,2-Ethylhexan-1-ol,7720,3151,104-76-7,FlavorDB / FEMA Flavor Library,3151,https://www.femaflavor.org/flavor/3151
+FLVMOL:PUBCHEM:14529,2-(4-methylphenyl)propan-2-ol,14529,,1197-01-9,FlavorDB / FEMA Flavor Library,14529,https://cosylab.iiitd.edu.in/flavordb2/entity_details?id=17
+FEMA:MOL:3542,Geranylacetone,1549778,3542,3796-70-1,FlavorDB / FEMA Flavor Library,3542,https://www.femaflavor.org/flavor/3542
+FEMA:MOL:2874,phenylacetaldehyde,998,2874,122-78-1,FlavorDB / FEMA Flavor Library,2874,https://www.femaflavor.org/flavor/2874
+FEMA:MOL:3592,Campholenic aldehyde,98497,3592,4501-58-0,FlavorDB / FEMA Flavor Library,3592,https://www.femaflavor.org/flavor/3592
+FEMA:MOL:2365,1-Decanol,8174,2365,66455-17-2,FlavorDB / FEMA Flavor Library,2365,https://www.femaflavor.org/flavor/2365
+FEMA:MOL:2745@3112@3113,methyl salicylate,4133,2745@3112@3113,119-36-8,FlavorDB / FEMA Flavor Library,2745@3112@3113,https://www.femaflavor.org/flavor/2745@3112@3113
+FEMA:MOL:3587,Pinocarveol,102667,3587,3917-59-7,FlavorDB / FEMA Flavor Library,3587,https://www.femaflavor.org/flavor/3587
+FEMA:MOL:3315,2-Nonanol,12367,3315,628-99-9,FlavorDB / FEMA Flavor Library,3315,https://www.femaflavor.org/flavor/3315
+FEMA:MOL:2614,lauric acid,3893,2614,203714-07-2,FlavorDB / FEMA Flavor Library,2614,https://www.femaflavor.org/flavor/2614
+FEMA:MOL:3986,4-Hydroxybenzoic Acid,135,3986,99-96-7,FlavorDB / FEMA Flavor Library,3986,https://www.femaflavor.org/flavor/3986
+FEMA:MOL:2702,5-Methylfurfural,12097,2702,620-02-0,FlavorDB / FEMA Flavor Library,2702,https://www.femaflavor.org/flavor/2702
+FEMA:MOL:2815,oleic acid,445639,2815,112-80-1,FlavorDB / FEMA Flavor Library,2815,https://www.femaflavor.org/flavor/2815
+FEMA:MOL:2889,3-Phenylpropanoic acid,107,2889,501-52-0,FlavorDB / FEMA Flavor Library,2889,https://www.femaflavor.org/flavor/2889
+FEMA:MOL:2057,3-Methyl-1-butanol,31260,2057,6423-06-9,FlavorDB / FEMA Flavor Library,2057,https://www.femaflavor.org/flavor/2057
+FEMA:MOL:3887,trans-2-Octen-1-Ol,5318599,3887,18409-17-1,FlavorDB / FEMA Flavor Library,3887,https://www.femaflavor.org/flavor/3887
+FEMA:MOL:2428,Ethyl Isobutyrate,7342,2428,97-62-1,FlavorDB / FEMA Flavor Library,2428,https://www.femaflavor.org/flavor/2428
+FEMA:MOL:2447,Ethyl Nonanoate,31251,2447,123-29-5,FlavorDB / FEMA Flavor Library,2447,https://www.femaflavor.org/flavor/2447
+FEMA:MOL:3505,3-Methylbutyl 2-methylbutanoate,520326,3505,93803-99-7,FlavorDB / FEMA Flavor Library,3505,https://www.femaflavor.org/flavor/3505
+FEMA:MOL:2687,1-Phenylethyl isobutyrate,569214,2687,7775-39-5,FlavorDB / FEMA Flavor Library,2687,https://www.femaflavor.org/flavor/2687
+FEMA:MOL:3246,2-Undecanol,15448,3246,1653-30-1,FlavorDB / FEMA Flavor Library,3246,https://www.femaflavor.org/flavor/3246
+FEMA:MOL:3563,1-Terpineol,11468,3563,586-82-3,FlavorDB / FEMA Flavor Library,3563,https://www.femaflavor.org/flavor/3563
+FEMA:MOL:2364,Decanoic acid,2969,2364,52627-73-3,FlavorDB / FEMA Flavor Library,2364,https://www.femaflavor.org/flavor/2364
+FEMA:MOL:2068,Pentyl formate,12529,2068,638-49-3,FlavorDB / FEMA Flavor Library,2068,https://www.femaflavor.org/flavor/2068
+FEMA:MOL:3093,2-Undecanone,8163,3093,112-12-9,FlavorDB / FEMA Flavor Library,3093,https://www.femaflavor.org/flavor/3093
+FEMA:MOL:2374,Diethyl Malate,24197,2374,7554-28-1,FlavorDB / FEMA Flavor Library,2374,https://www.femaflavor.org/flavor/2374
+FEMA:MOL:3646,3-Methyl-2-butenal,61020,3646,107-86-8,FlavorDB / FEMA Flavor Library,3646,https://www.femaflavor.org/flavor/3646
+FEMA:MOL:3803,Whiskey lactone,62900,3803,80041-01-6,FlavorDB / FEMA Flavor Library,3803,https://www.femaflavor.org/flavor/3803
+FEMA:MOL:3815,4-(Ethoxymethyl)-2-methoxyphenol,61586,3815,13184-86-6,FlavorDB / FEMA Flavor Library,3815,https://www.femaflavor.org/flavor/3815
+FEMA:MOL:3388,2-Tridecanone,11622,3388,593-08-8,FlavorDB / FEMA Flavor Library,3388,https://www.femaflavor.org/flavor/3388
+FEMA:MOL:2611,lactic acid,612,2611,31587-11-8,FlavorDB / FEMA Flavor Library,2611,https://www.femaflavor.org/flavor/2611
+FEMA:MOL:2367,Decyl Acetate,8167,2367,112-17-4,FlavorDB / FEMA Flavor Library,2367,https://www.femaflavor.org/flavor/2367
+FEMA:MOL:2157@2158,Isoborneol,6321405,2157@2158,10334-13-1,FlavorDB / FEMA Flavor Library,2157@2158,https://www.femaflavor.org/flavor/2157@2158
+FEMA:MOL:2969,methylglyoxal,880,2969,78-98-8,FlavorDB / FEMA Flavor Library,2969,https://www.femaflavor.org/flavor/2969
+FEMA:MOL:3439,Myrtenol,10582,3439,111957-74-5,FlavorDB / FEMA Flavor Library,3439,https://www.femaflavor.org/flavor/3439
+FEMA:MOL:2370,"2,3-butanedione",650,2370,431-03-8,FlavorDB / FEMA Flavor Library,2370,https://www.femaflavor.org/flavor/2370
+FEMA:MOL:2055,Isoamyl Acetate,31276,2055,123-92-2,FlavorDB / FEMA Flavor Library,2055,https://www.femaflavor.org/flavor/2055
+FEMA:MOL:2675,2-Methoxy-4-vinylphenol,332,2675,7786-61-0,FlavorDB / FEMA Flavor Library,2675,https://www.femaflavor.org/flavor/2675
+FEMA:MOL:2733,Methyl Phenylacetate,7559,2733,101-41-7,FlavorDB / FEMA Flavor Library,2733,https://www.femaflavor.org/flavor/2733
+FEMA:MOL:3609,2-Acetyl-5-Methylfuran,14514,3609,1193-79-9,FlavorDB / FEMA Flavor Library,3609,https://www.femaflavor.org/flavor/3609
+FEMA:MOL:2594,Alpha-Ionone,5282108,2594,127-41-3,FlavorDB / FEMA Flavor Library,2594,https://www.femaflavor.org/flavor/2594
+FEMA:MOL:3213,trans-2-Nonenal,5283335,3213,18829-56-6,FlavorDB / FEMA Flavor Library,3213,https://www.femaflavor.org/flavor/3213
+FEMA:MOL:2480,Fenchol,15406,2480,2217-02-9,FlavorDB / FEMA Flavor Library,2480,https://www.femaflavor.org/flavor/2480
+FEMA:MOL:2288,Cinnamic Acid,444539,2288,621-82-9,FlavorDB / FEMA Flavor Library,2288,https://www.femaflavor.org/flavor/2288
+FEMA:MOL:3313,4-Methyl-5-Vinylthiazole,15654,3313,1759-28-0,FlavorDB / FEMA Flavor Library,3313,https://www.femaflavor.org/flavor/3313
+FEMA:MOL:3156,4-Ethylphenol,31242,3156,123-07-9,FlavorDB / FEMA Flavor Library,3156,https://www.femaflavor.org/flavor/3156
+FEMA:MOL:3194,2-Methyl-2-Pentenal,5319754,3194,14250-96-5,FlavorDB / FEMA Flavor Library,3194,https://www.femaflavor.org/flavor/3194
+FEMA:MOL:2781,gamma-Nonanolactone,7710,2781,104-61-0,FlavorDB / FEMA Flavor Library,2781,https://www.femaflavor.org/flavor/2781
+FEMA:MOL:2695,2-Methylbutanoic acid,8314,2695,600-07-7,FlavorDB / FEMA Flavor Library,2695,https://www.femaflavor.org/flavor/2695
+FEMA:MOL:3165,(E)-Hept-2-enal,5283316,3165,57266-86-1,FlavorDB / FEMA Flavor Library,3165,https://www.femaflavor.org/flavor/3165
+FEMA:MOL:2933,4-isopropylbenzyl alcohol,325,2933,536-60-7,FlavorDB / FEMA Flavor Library,2933,https://www.femaflavor.org/flavor/2933
+FEMA:MOL:2451,Ethyl Palmitate,12366,2451,628-97-7,FlavorDB / FEMA Flavor Library,2451,https://www.femaflavor.org/flavor/2451
+FEMA:MOL:2784,Nonanoic Acid,8158,2784,68937-75-7,FlavorDB / FEMA Flavor Library,2784,https://www.femaflavor.org/flavor/2784
+FEMA:MOL:2924,propionic acid,1032,2924,79-09-4,FlavorDB / FEMA Flavor Library,2924,https://www.femaflavor.org/flavor/2924
+FEMA:MOL:3421,1125-21-9,62374,3421,1125-21-9,FlavorDB / FEMA Flavor Library,3421,https://www.femaflavor.org/flavor/3421
+FEMA:MOL:3411,Methyl Linoleate,5284421,3411,68605-14-1,FlavorDB / FEMA Flavor Library,3411,https://www.femaflavor.org/flavor/3411
+FEMA:MOL:2692,3-Methylbutanal,11552,2692,590-86-3,FlavorDB / FEMA Flavor Library,2692,https://www.femaflavor.org/flavor/2692
+FEMA:MOL:2959,Isopropyl Propionate,12508,2959,637-78-5,FlavorDB / FEMA Flavor Library,2959,https://www.femaflavor.org/flavor/2959
+FEMA:MOL:3859,"2,4-Decadienoic acid methyl ester",5463485,3859,7328-33-8,FlavorDB / FEMA Flavor Library,3859,https://www.femaflavor.org/flavor/3859
+FEMA:MOL:2671,2-Methoxy-4-Methylphenol,7144,2671,93-51-6,FlavorDB / FEMA Flavor Library,2671,https://www.femaflavor.org/flavor/2671
+FEMA:MOL:2174,Butyl acetate,31272,2174,123-86-4,FlavorDB / FEMA Flavor Library,2174,https://www.femaflavor.org/flavor/2174
+FEMA:MOL:3648,"Propyl 2,4-decadienoate",5362592,3648,84788-08-9,FlavorDB / FEMA Flavor Library,3648,https://www.femaflavor.org/flavor/3648
+FEMA:MOL:3641,Ethyl trans-2-decenoate,5463904,3641,37486-72-9,FlavorDB / FEMA Flavor Library,3641,https://www.femaflavor.org/flavor/3641
+FEMA:MOL:3148,3025-30-7,5281162,3148,3025-30-7,FlavorDB / FEMA Flavor Library,3148,https://www.femaflavor.org/flavor/3148
+FLVMOL:PUBCHEM:323,coumarin,323,,91-64-5,FlavorDB / FEMA Flavor Library,323,https://cosylab.iiitd.edu.in/flavordb2/entity_details?id=2
+FEMA:MOL:3290,3-Hexanone,11509,3290,63072-44-6,FlavorDB / FEMA Flavor Library,3290,https://www.femaflavor.org/flavor/3290
+FEMA:MOL:2507,Geraniol,637566,2507,106-24-1,FlavorDB / FEMA Flavor Library,2507,https://www.femaflavor.org/flavor/2507
+FLVMOL:PUBCHEM:439341,alpha-Maltose,439341,,69-79-4,FlavorDB / FEMA Flavor Library,439341,https://cosylab.iiitd.edu.in/flavordb2/entity_details?id=2
+FLVMOL:PUBCHEM:33931,2-Ethyl-4-hydroxy-5-methyl-3(2H)-furanone,33931,,27538-10-9,FlavorDB / FEMA Flavor Library,33931,https://cosylab.iiitd.edu.in/flavordb2/entity_details?id=2
+FEMA:MOL:4015,Pyrazine,9261,4015,290-37-9,FlavorDB / FEMA Flavor Library,4015,https://www.femaflavor.org/flavor/4015
+FLVMOL:PUBCHEM:6072,Phlorizin,6072,,7061-54-3,FlavorDB / FEMA Flavor Library,6072,https://cosylab.iiitd.edu.in/flavordb2/entity_details?id=2
+FEMA:MOL:3463,4-Methylpentanoic Acid,12587,3463,646-07-1,FlavorDB / FEMA Flavor Library,3463,https://www.femaflavor.org/flavor/3463
+FEMA:MOL:2716,methanethiol,878,2716,74-93-1,FlavorDB / FEMA Flavor Library,2716,https://www.femaflavor.org/flavor/2716
+FLVMOL:PUBCHEM:5281708,daidzein,5281708,,486-66-8,FlavorDB / FEMA Flavor Library,5281708,https://cosylab.iiitd.edu.in/flavordb2/entity_details?id=2
+FEMA:MOL:2137,benzyl alcohol,244,2137,100-51-6,FlavorDB / FEMA Flavor Library,2137,https://www.femaflavor.org/flavor/2137
+FLVMOL:PUBCHEM:441484,alpha-L-Sorbopyranose,441484,,87-79-6,FlavorDB / FEMA Flavor Library,441484,https://cosylab.iiitd.edu.in/flavordb2/entity_details?id=2
+FLVMOL:PUBCHEM:1889,DL-Liquiritigenin,1889,,578-86-9,FlavorDB / FEMA Flavor Library,1889,https://cosylab.iiitd.edu.in/flavordb2/entity_details?id=2
+FEMA:MOL:4390,phloretin,4788,4390,60-82-2,FlavorDB / FEMA Flavor Library,4390,https://www.femaflavor.org/flavor/4390
+FEMA:MOL:2557,Hexanal,6184,2557,66-25-1,FlavorDB / FEMA Flavor Library,2557,https://www.femaflavor.org/flavor/2557
+FLVMOL:PUBCHEM:11128,Linamarin,11128,,554-35-8,FlavorDB / FEMA Flavor Library,11128,https://cosylab.iiitd.edu.in/flavordb2/entity_details?id=2
+FEMA:MOL:3998,2-Methyl-1-Butanol,8723,3998,1565-80-6,FlavorDB / FEMA Flavor Library,3998,https://www.femaflavor.org/flavor/3998
+FEMA:MOL:3985,salicylic acid,338,3985,97952-82-4,FlavorDB / FEMA Flavor Library,3985,https://www.femaflavor.org/flavor/3985
+FLVMOL:PUBCHEM:5280511,(Z)-cinnamyl alcohol,5280511,,104-54-1,FlavorDB / FEMA Flavor Library,5280511,https://cosylab.iiitd.edu.in/flavordb2/entity_details?id=2
+FEMA:MOL:2294,cinnamyl alcohol,5315892,2294,4407-36-7,FlavorDB / FEMA Flavor Library,2294,https://www.femaflavor.org/flavor/2294
+FEMA:MOL:3382,Ethyl Vinyl Ketone,15394,3382,1629-58-9,FlavorDB / FEMA Flavor Library,3382,https://www.femaflavor.org/flavor/3382
+FLVMOL:PUBCHEM:784,hydrogen peroxide,784,,7722-84-1,FlavorDB / FEMA Flavor Library,784,https://cosylab.iiitd.edu.in/flavordb2/entity_details?id=2
+FEMA:MOL:2468,Isoeugenol,853433,2468,5932-68-3,FlavorDB / FEMA Flavor Library,2468,https://www.femaflavor.org/flavor/2468
+FEMA:MOL:4223,betaine,247,4223,107-43-7,FlavorDB / FEMA Flavor Library,4223,https://www.femaflavor.org/flavor/4223
+FEMA:MOL:2419,ethanol,702,2419,"64-17-5, 97281-11-3",FlavorDB / FEMA Flavor Library,2419,https://www.femaflavor.org/flavor/2419
+FEMA:MOL:2561,cis-3-Hexenal,643941,2561,6789-80-6,FlavorDB / FEMA Flavor Library,2561,https://www.femaflavor.org/flavor/2561
+FEMA:MOL:2286,cinnamaldehyde,637511,2286,14371-10-9,FlavorDB / FEMA Flavor Library,2286,https://www.femaflavor.org/flavor/2286
+FLVMOL:PUBCHEM:637775,Sinapic Acid,637775,,530-59-6,FlavorDB / FEMA Flavor Library,637775,https://cosylab.iiitd.edu.in/flavordb2/entity_details?id=2
+FEMA:MOL:3910,Cyclopentanone,8452,3910,120-92-3,FlavorDB / FEMA Flavor Library,3910,https://www.femaflavor.org/flavor/3910
+FEMA:MOL:2667@3460,2-Isopropyl-5-methylcyclohexanone,6986,2667@3460,491-07-6,FlavorDB / FEMA Flavor Library,2667@3460,https://www.femaflavor.org/flavor/2667@3460
+FEMA:MOL:2665,(+)-Neomenthol,439263,2665,491-01-0,FlavorDB / FEMA Flavor Library,2665,https://www.femaflavor.org/flavor/2665
+FEMA:MOL:3540,"2,6-Dimethylpyridine",7937,3540,108-48-5,FlavorDB / FEMA Flavor Library,3540,https://www.femaflavor.org/flavor/3540
+FEMA:MOL:4719,succinic acid,1110,4719,110-15-6,FlavorDB / FEMA Flavor Library,4719,https://www.femaflavor.org/flavor/4719
+FLVMOL:PUBCHEM:5284639,NSC5112,5284639,,529-59-9,FlavorDB / FEMA Flavor Library,5284639,https://cosylab.iiitd.edu.in/flavordb2/entity_details?id=2
+FLVMOL:PUBCHEM:5280443,apigenin,5280443,,520-36-5,FlavorDB / FEMA Flavor Library,5280443,https://cosylab.iiitd.edu.in/flavordb2/entity_details?id=2
+FLVMOL:PUBCHEM:1130,thiamine,1130,,59-43-8,FlavorDB / FEMA Flavor Library,1130,https://cosylab.iiitd.edu.in/flavordb2/entity_details?id=2
+FLVMOL:PUBCHEM:10393,2-(4-Hydroxyphenyl)ethanol,10393,,501-94-0,FlavorDB / FEMA Flavor Library,10393,https://cosylab.iiitd.edu.in/flavordb2/entity_details?id=2
+FLVMOL:PUBCHEM:7847,Acrolein,7847,,25068-14-8,FlavorDB / FEMA Flavor Library,7847,https://cosylab.iiitd.edu.in/flavordb2/entity_details?id=2
+FLVMOL:PUBCHEM:441005,(+)-delta-Cadinene,441005,,483-76-1,FlavorDB / FEMA Flavor Library,441005,https://cosylab.iiitd.edu.in/flavordb2/entity_details?id=2
+FEMA:MOL:2593,indole,798,2593,120-72-9,FlavorDB / FEMA Flavor Library,2593,https://www.femaflavor.org/flavor/2593
+FLVMOL:PUBCHEM:6050,Tributyrin,6050,,60-01-5,FlavorDB / FEMA Flavor Library,6050,https://cosylab.iiitd.edu.in/flavordb2/entity_details?id=2
+FEMA:MOL:4179,2-Methylfuran,10797,4179,534-22-5,FlavorDB / FEMA Flavor Library,4179,https://www.femaflavor.org/flavor/4179
+FLVMOL:PUBCHEM:13144,calcium lactate,13144,,5743-48-6,FlavorDB / FEMA Flavor Library,13144,https://cosylab.iiitd.edu.in/flavordb2/entity_details?id=2
+FLVMOL:PUBCHEM:638278,isoliquiritigenin,638278,,13745-20-5,FlavorDB / FEMA Flavor Library,638278,https://cosylab.iiitd.edu.in/flavordb2/entity_details?id=2
+FEMA:MOL:4019,Farnesal,5280598,4019,19317-11-4,FlavorDB / FEMA Flavor Library,4019,https://www.femaflavor.org/flavor/4019
+FLVMOL:PUBCHEM:8768,"3,4-Dihydroxybenzaldehyde",8768,,139-85-5,FlavorDB / FEMA Flavor Library,8768,https://cosylab.iiitd.edu.in/flavordb2/entity_details?id=2
+FEMA:MOL:2478,farnesol,445070,2478,106-28-5,FlavorDB / FEMA Flavor Library,2478,https://www.femaflavor.org/flavor/2478
+FLVMOL:PUBCHEM:107971,Daidzin,107971,,552-66-9,FlavorDB / FEMA Flavor Library,107971,https://cosylab.iiitd.edu.in/flavordb2/entity_details?id=2
+FEMA:MOL:2303,Citral,638011,2303,5392-40-5,FlavorDB / FEMA Flavor Library,2303,https://www.femaflavor.org/flavor/2303
+FEMA:MOL:3410,Methyl jasmonate,5367719,3410,39924-52-2,FlavorDB / FEMA Flavor Library,3410,https://www.femaflavor.org/flavor/3410
+FEMA:MOL:4430,"3,4-Dihydroxybenzoic Acid",72,4430,99-50-3,FlavorDB / FEMA Flavor Library,4430,https://www.femaflavor.org/flavor/4430
+FLVMOL:PUBCHEM:89594,nicotine,89594,,54-11-5,FlavorDB / FEMA Flavor Library,89594,https://cosylab.iiitd.edu.in/flavordb2/entity_details?id=2
+FLVMOL:PUBCHEM:5280863,kaempferol,5280863,,520-18-3,FlavorDB / FEMA Flavor Library,5280863,https://cosylab.iiitd.edu.in/flavordb2/entity_details?id=2
+FEMA:MOL:3779,hydrogen sulfide,402,3779,7783-06-4,FlavorDB / FEMA Flavor Library,3779,https://www.femaflavor.org/flavor/3779
+FLVMOL:PUBCHEM:644104,CID 644104,644104,,,FlavorDB / FEMA Flavor Library,644104,https://cosylab.iiitd.edu.in/flavordb2/entity_details?id=2
+FLVMOL:PUBCHEM:439533,Taxifolin,439533,,480-18-2,FlavorDB / FEMA Flavor Library,439533,https://cosylab.iiitd.edu.in/flavordb2/entity_details?id=2
+FLVMOL:PUBCHEM:6251,D-mannitol,6251,,69-65-8,FlavorDB / FEMA Flavor Library,6251,https://cosylab.iiitd.edu.in/flavordb2/entity_details?id=2
+FLVMOL:PUBCHEM:802,indole-3-acetic acid,802,,87-51-4,FlavorDB / FEMA Flavor Library,802,https://cosylab.iiitd.edu.in/flavordb2/entity_details?id=2
+FEMA:MOL:3869,3-Methyl-2-oxobutanoic acid,49,3869,759-05-7,FlavorDB / FEMA Flavor Library,3869,https://www.femaflavor.org/flavor/3869
+FEMA:MOL:3898,1-Pyrroline,79803,3898,5724-81-2,FlavorDB / FEMA Flavor Library,3898,https://www.femaflavor.org/flavor/3898
+FEMA:MOL:2415,ethyl acetoacetate,8868,2415,141-97-9,FlavorDB / FEMA Flavor Library,2415,https://www.femaflavor.org/flavor/2415
+FEMA:MOL:2667,Menthone,26447,2667,14073-97-3,FlavorDB / FEMA Flavor Library,2667,https://www.femaflavor.org/flavor/2667
+FEMA:MOL:2509,Geranyl Acetate,1549026,2509,33843-18-4,FlavorDB / FEMA Flavor Library,2509,https://www.femaflavor.org/flavor/2509
+FEMA:MOL:3126,Acetylpyrazine,30914,3126,22047-25-2,FlavorDB / FEMA Flavor Library,3126,https://www.femaflavor.org/flavor/3126
+FLVMOL:PUBCHEM:7858,Allyl Alcohol,7858,,107-18-6,FlavorDB / FEMA Flavor Library,7858,https://cosylab.iiitd.edu.in/flavordb2/entity_details?id=2
+FEMA:MOL:3523,Pyrrolidine,31268,3523,123-75-1,FlavorDB / FEMA Flavor Library,3523,https://www.femaflavor.org/flavor/3523
+FEMA:MOL:4797,naringenin,439246,4797,480-41-1,FlavorDB / FEMA Flavor Library,4797,https://www.femaflavor.org/flavor/4797
+FEMA:MOL:2747,3-(Methylthio)propionaldehyde,18635,2747,3268-49-3,FlavorDB / FEMA Flavor Library,2747,https://www.femaflavor.org/flavor/2747
+FLVMOL:PUBCHEM:454,Octanal,454,,124-13-0,FlavorDB / FEMA Flavor Library,454,https://cosylab.iiitd.edu.in/flavordb2/entity_details?id=2
+FEMA:MOL:3322,Thiamine Hydrochloride,6202,3322,67-03-8,FlavorDB / FEMA Flavor Library,3322,https://www.femaflavor.org/flavor/3322
+FLVMOL:PUBCHEM:768,hydrogen cyanide,768,,74-90-8,FlavorDB / FEMA Flavor Library,768,https://cosylab.iiitd.edu.in/flavordb2/entity_details?id=2
+FEMA:MOL:2138,Benzyl Benzoate,2345,2138,120-51-4,FlavorDB / FEMA Flavor Library,2138,https://www.femaflavor.org/flavor/2138
+FEMA:MOL:4356,trans-3-Hexen-1-ol,5284503,4356,928-97-2,FlavorDB / FEMA Flavor Library,4356,https://www.femaflavor.org/flavor/4356
+FEMA:MOL:2414,Ethyl Acetate,8857,2414,141-78-6,FlavorDB / FEMA Flavor Library,2414,https://www.femaflavor.org/flavor/2414
+FEMA:MOL:3352,4-Hexen-3-One,5365811,3352,2497-21-4,FlavorDB / FEMA Flavor Library,3352,https://www.femaflavor.org/flavor/3352
+FLVMOL:PUBCHEM:7288,3-Pentanone,7288,,96-22-0,FlavorDB / FEMA Flavor Library,7288,https://cosylab.iiitd.edu.in/flavordb2/entity_details?id=2
+FEMA:MOL:4101,14400-67-0,85730,4101,14400-67-0,FlavorDB / FEMA Flavor Library,4101,https://www.femaflavor.org/flavor/4101
+FEMA:MOL:3317,2-Pentylfuran,19602,3317,64079-01-2,FlavorDB / FEMA Flavor Library,3317,https://www.femaflavor.org/flavor/3317
+FEMA:MOL:2540,Heptanal,8130,2540,111-71-7,FlavorDB / FEMA Flavor Library,2540,https://www.femaflavor.org/flavor/2540
+FEMA:MOL:3326,acetone,180,3326,4468-52-4,FlavorDB / FEMA Flavor Library,3326,https://www.femaflavor.org/flavor/3326
+FEMA:MOL:2170,2-Butanone,6569,2170,78-93-3,FlavorDB / FEMA Flavor Library,2170,https://www.femaflavor.org/flavor/2170
+FLVMOL:PUBCHEM:61503,D-Lactic acid,61503,,10326-41-7,FlavorDB / FEMA Flavor Library,61503,https://cosylab.iiitd.edu.in/flavordb2/entity_details?id=2
+FLVMOL:PUBCHEM:5280445,luteolin,5280445,,491-70-3,FlavorDB / FEMA Flavor Library,5280445,https://cosylab.iiitd.edu.in/flavordb2/entity_details?id=2
+FLVMOL:PUBCHEM:637542,p-coumaric acid,637542,,501-98-4,FlavorDB / FEMA Flavor Library,637542,https://cosylab.iiitd.edu.in/flavordb2/entity_details?id=2
+FEMA:MOL:2742,Methyl Propionate,11124,2742,554-12-1,FlavorDB / FEMA Flavor Library,2742,https://www.femaflavor.org/flavor/2742
+FEMA:MOL:2698,Methyl cinnamate,637520,2698,1754-62-7,FlavorDB / FEMA Flavor Library,2698,https://www.femaflavor.org/flavor/2698
+FEMA:MOL:2926,Isopropyl Acetate,7915,2926,108-21-4,FlavorDB / FEMA Flavor Library,2926,https://www.femaflavor.org/flavor/2926
+FEMA:MOL:3097,1-Undecanol,8184,3097,30207-98-8,FlavorDB / FEMA Flavor Library,3097,https://www.femaflavor.org/flavor/3097
+FEMA:MOL:2455,Ethyl 3-phenylpropionate,16237,2455,2021-28-5,FlavorDB / FEMA Flavor Library,2455,https://www.femaflavor.org/flavor/2455
+FEMA:MOL:2400,gamma-Dodecalactone,16821,2400,2305-05-7,FlavorDB / FEMA Flavor Library,2400,https://www.femaflavor.org/flavor/2400
+FEMA:MOL:3556,Isopropyl Myristate,8042,3556,110-27-0,FlavorDB / FEMA Flavor Library,3556,https://www.femaflavor.org/flavor/3556
+FEMA:MOL:2458,Ethyl salicylate,8365,2458,118-61-6,FlavorDB / FEMA Flavor Library,2458,https://www.femaflavor.org/flavor/2458
+FEMA:MOL:2545,3-Heptanone,7802,2545,106-35-4,FlavorDB / FEMA Flavor Library,2545,https://www.femaflavor.org/flavor/2545
+FEMA:MOL:2944,Isopropyl Formate,12257,2944,625-55-8,FlavorDB / FEMA Flavor Library,2944,https://www.femaflavor.org/flavor/2944
+FEMA:MOL:3354,"2-Butenoic acid, hexyl ester",5366038,3354,19089-92-0,FlavorDB / FEMA Flavor Library,3354,https://www.femaflavor.org/flavor/3354
+FLVMOL:PUBCHEM:5372954,cis-Cinnamic acid,5372954,,621-82-9,FlavorDB / FEMA Flavor Library,5372954,https://cosylab.iiitd.edu.in/flavordb2/entity_details?id=3
+FEMA:MOL:3377,Violet leaf aldehyde,643731,3377,557-48-2,FlavorDB / FEMA Flavor Library,3377,https://www.femaflavor.org/flavor/3377
+FEMA:MOL:3154,2-Ethyl-5-Methylpyrazine,25915,3154,13360-64-0,FlavorDB / FEMA Flavor Library,3154,https://www.femaflavor.org/flavor/3154
+FEMA:MOL:2708,Methyl Hexanoate,7824,2708,106-70-7,FlavorDB / FEMA Flavor Library,2708,https://www.femaflavor.org/flavor/2708
+FEMA:MOL:2656,Maltol,8369,2656,118-71-8,FlavorDB / FEMA Flavor Library,2656,https://www.femaflavor.org/flavor/2656
+FEMA:MOL:3306,23747-48-0,32065,3306,23747-48-0,FlavorDB / FEMA Flavor Library,3306,https://www.femaflavor.org/flavor/3306
+FEMA:MOL:3584,1-Penten-3-Ol,12020,3584,616-25-1,FlavorDB / FEMA Flavor Library,3584,https://www.femaflavor.org/flavor/3584
+FEMA:MOL:3174,3658-77-3,19309,3174,3658-77-3,FlavorDB / FEMA Flavor Library,3174,https://www.femaflavor.org/flavor/3174
+FEMA:MOL:3337,Difurfuryl ether,263034,3337,4437-22-3,FlavorDB / FEMA Flavor Library,3337,https://www.femaflavor.org/flavor/3337
+FEMA:MOL:2806,Octyl acetate,8164,2806,112-14-1,FlavorDB / FEMA Flavor Library,2806,https://www.femaflavor.org/flavor/2806
+FEMA:MOL:2490,Furfuryl acetate,12170,2490,623-17-6,FlavorDB / FEMA Flavor Library,2490,https://www.femaflavor.org/flavor/2490
+FEMA:MOL:2496,2-Furylacetone,228583,2496,6975-60-6,FlavorDB / FEMA Flavor Library,2496,https://www.femaflavor.org/flavor/2496
+FEMA:MOL:3429,"2,4-Hexadienal",637564,3429,142-83-6,FlavorDB / FEMA Flavor Library,3429,https://www.femaflavor.org/flavor/3429
+FEMA:MOL:3386,Pyrrole,8027,3386,109-97-7,FlavorDB / FEMA Flavor Library,3386,https://www.femaflavor.org/flavor/3386
+FEMA:MOL:3537,"2,6-Dimethyl-4-heptanone",7958,3537,68514-40-9,FlavorDB / FEMA Flavor Library,3537,https://www.femaflavor.org/flavor/3537
+FEMA:MOL:3603,2-Octen-4-one,5365891,3603,22286-99-3,FlavorDB / FEMA Flavor Library,3603,https://www.femaflavor.org/flavor/3603
+FEMA:MOL:2970,Pyruvic acid,1060,2970,127-17-3,FlavorDB / FEMA Flavor Library,2970,https://www.femaflavor.org/flavor/2970
+FEMA:MOL:2429,2-Ethylbutyric Acid,6915,2429,88-09-5,FlavorDB / FEMA Flavor Library,2429,https://www.femaflavor.org/flavor/2429
+FEMA:MOL:3724,2-Pentadecanone,61303,3724,2345-28-0,FlavorDB / FEMA Flavor Library,3724,https://www.femaflavor.org/flavor/3724
+FEMA:MOL:3150,"2-Ethyl-3,5-Dimethylpyrazine",26334,3150,13925-07-0,FlavorDB / FEMA Flavor Library,3150,https://www.femaflavor.org/flavor/3150
+FEMA:MOL:2426,2-Ethylbutanal,7359,2426,97-96-1,FlavorDB / FEMA Flavor Library,2426,https://www.femaflavor.org/flavor/2426
+FEMA:MOL:2908,Piperidine,8082,2908,110-89-4,FlavorDB / FEMA Flavor Library,2908,https://www.femaflavor.org/flavor/2908
+FEMA:MOL:3241,trimethylamine,1146,3241,75-50-3,FlavorDB / FEMA Flavor Library,3241,https://www.femaflavor.org/flavor/3241
+FEMA:MOL:3103,gamma-Valerolactone,7921,3103,108-29-2,FlavorDB / FEMA Flavor Library,3103,https://www.femaflavor.org/flavor/3103
+FEMA:MOL:3647,3-Methyl-2-Buten-1-Ol,11173,3647,556-82-1,FlavorDB / FEMA Flavor Library,3647,https://www.femaflavor.org/flavor/3647
+FEMA:MOL:3293,alpha-Angelica lactone,11559,3293,591-12-8,FlavorDB / FEMA Flavor Library,3293,https://www.femaflavor.org/flavor/3293
+FEMA:MOL:3726,Dl-Phenylalanine,994,3726,30394-07-1,FlavorDB / FEMA Flavor Library,3726,https://www.femaflavor.org/flavor/3726
+FEMA:MOL:3656,L-aspartic acid,5960,3656,27881-03-4,FlavorDB / FEMA Flavor Library,3656,https://www.femaflavor.org/flavor/3656
+FEMA:MOL:3585,L-phenylalanine,6140,3585,63-91-2,FlavorDB / FEMA Flavor Library,3585,https://www.femaflavor.org/flavor/3585
+FEMA:MOL:3373,2-Methyltetrahydrofuran-3-One,18522,3373,3188-00-9,FlavorDB / FEMA Flavor Library,3373,https://www.femaflavor.org/flavor/3373
+FEMA:MOL:3321,"5,6,7,8-Tetrahydroquinoxaline",36822,3321,34413-35-9,FlavorDB / FEMA Flavor Library,3321,https://www.femaflavor.org/flavor/3321
+FLVMOL:PUBCHEM:65064,(-)-Epigallocatechin gallate,65064,,989-51-5,FlavorDB / FEMA Flavor Library,65064,https://cosylab.iiitd.edu.in/flavordb2/entity_details?id=6
+FLVMOL:PUBCHEM:107905,(-)-Epicatechin gallate,107905,,1257-08-5,FlavorDB / FEMA Flavor Library,107905,https://cosylab.iiitd.edu.in/flavordb2/entity_details?id=6
+FEMA:MOL:3215,trans-2-Octenal,5283324,3215,2548-87-0,FlavorDB / FEMA Flavor Library,3215,https://www.femaflavor.org/flavor/3215
+FEMA:MOL:3218,trans-2-Pentenal,5364752,3218,1576-87-0,FlavorDB / FEMA Flavor Library,3218,https://www.femaflavor.org/flavor/3218
+FEMA:MOL:3237,"2,3,5,6-Tetramethylpyrazine",14296,3237,1124-11-4,FlavorDB / FEMA Flavor Library,3237,https://www.femaflavor.org/flavor/3237
+FEMA:MOL:2008,acetoin,179,2008,513-86-0,FlavorDB / FEMA Flavor Library,2008,https://www.femaflavor.org/flavor/2008
+FEMA:MOL:3187,"3,3-Dimethylacrylic acid",10931,3187,541-47-9,FlavorDB / FEMA Flavor Library,3187,https://www.femaflavor.org/flavor/3187
+FLVMOL:PUBCHEM:61209,"3-Methylcyclopentane-1,2-dione",61209,,765-70-8,FlavorDB / FEMA Flavor Library,61209,https://cosylab.iiitd.edu.in/flavordb2/entity_details?id=6
+FEMA:MOL:2627,Levulinic Acid,11579,2627,123-76-2,FlavorDB / FEMA Flavor Library,2627,https://www.femaflavor.org/flavor/2627
+FEMA:MOL:2615,Dodecanal,8194,2615,112-54-9,FlavorDB / FEMA Flavor Library,2615,https://www.femaflavor.org/flavor/2615
+FLVMOL:PUBCHEM:72277,(-)-Epigallocatechin,72277,,970-74-1,FlavorDB / FEMA Flavor Library,72277,https://cosylab.iiitd.edu.in/flavordb2/entity_details?id=6
+FEMA:MOL:3284,1-Furfurylpyrrole,15037,3284,1438-94-4,FlavorDB / FEMA Flavor Library,3284,https://www.femaflavor.org/flavor/3284
+FLVMOL:PUBCHEM:9064,Cianidanol,9064,,154-23-4,FlavorDB / FEMA Flavor Library,9064,https://cosylab.iiitd.edu.in/flavordb2/entity_details?id=6
+FEMA:MOL:3413,2-Methylpentanal,31245,3413,123-15-9,FlavorDB / FEMA Flavor Library,3413,https://www.femaflavor.org/flavor/3413
+FEMA:MOL:3721,"(2E,4E)-Octa-2,4-dienal",5283329,3721,38743-20-3,FlavorDB / FEMA Flavor Library,3721,https://www.femaflavor.org/flavor/3721
+FEMA:MOL:3202,2-Acetylpyrrole,14079,3202,1072-83-9,FlavorDB / FEMA Flavor Library,3202,https://www.femaflavor.org/flavor/3202
+FEMA:MOL:2789,1-Nonanol,8914,2789,143-08-8,FlavorDB / FEMA Flavor Library,2789,https://www.femaflavor.org/flavor/2789
+FEMA:MOL:3417,Methyl propenyl ketone,637920,3417,625-33-2,FlavorDB / FEMA Flavor Library,3417,https://www.femaflavor.org/flavor/3417
+FEMA:MOL:3219,Isoamylamine,7894,3219,107-85-7,FlavorDB / FEMA Flavor Library,3219,https://www.femaflavor.org/flavor/3219
+FLVMOL:PUBCHEM:65084,Gallocatechin,65084,,970-73-0,FlavorDB / FEMA Flavor Library,65084,https://cosylab.iiitd.edu.in/flavordb2/entity_details?id=6
+FLVMOL:PUBCHEM:72276,(-)-Epicatechin,72276,,490-46-0,FlavorDB / FEMA Flavor Library,72276,https://cosylab.iiitd.edu.in/flavordb2/entity_details?id=6
+FEMA:MOL:3362,Furfuryl methyl disulfide,62131,3362,57500-00-2,FlavorDB / FEMA Flavor Library,3362,https://www.femaflavor.org/flavor/3362
+FEMA:MOL:2135,Benzyl Acetate,8785,2135,140-11-4,FlavorDB / FEMA Flavor Library,2135,https://www.femaflavor.org/flavor/2135
+FEMA:MOL:3728,"4-Propenyl-2,6-dimethoxyphenol",5352905,3728,6635-22-9,FlavorDB / FEMA Flavor Library,3728,https://www.femaflavor.org/flavor/3728
+FEMA:MOL:3199,5-Methyl-2-phenyl-2-hexenal,5370602,3199,21834-92-4,FlavorDB / FEMA Flavor Library,3199,https://www.femaflavor.org/flavor/3199
+FLVMOL:PUBCHEM:12748,4-Methylthiazole,12748,,,FlavorDB / FEMA Flavor Library,12748,https://cosylab.iiitd.edu.in/flavordb2/entity_details?id=7
+FEMA:MOL:3914,4-Decenoic acid,5282726,3914,26303-90-2,FlavorDB / FEMA Flavor Library,3914,https://www.femaflavor.org/flavor/3914
+FEMA:MOL:3671,4-Ethylsyringol,61712,3671,14059-92-8,FlavorDB / FEMA Flavor Library,3671,https://www.femaflavor.org/flavor/3671
+FEMA:MOL:2724,Methyl Nonanoate,15606,2724,1731-84-6,FlavorDB / FEMA Flavor Library,2724,https://www.femaflavor.org/flavor/2724
+FEMA:MOL:4330,4'-Hydroxyacetophenone,7469,4330,99-93-4,FlavorDB / FEMA Flavor Library,4330,https://www.femaflavor.org/flavor/4330
+FEMA:MOL:3422,"(2E,4E)-Undeca-2,4-dienal",5367531,3422,30361-29-6,FlavorDB / FEMA Flavor Library,3422,https://www.femaflavor.org/flavor/3422
+FEMA:MOL:3874,Isobutyl mercaptan,10558,3874,513-44-0,FlavorDB / FEMA Flavor Library,3874,https://www.femaflavor.org/flavor/3874
+FEMA:MOL:2655,L-Malic acid,222656,2655,97-67-6,FlavorDB / FEMA Flavor Library,2655,https://www.femaflavor.org/flavor/2655
+FEMA:MOL:3135,"(2E,4E)-deca-2,4-dienal",5283349,3135,25152-84-5,FlavorDB / FEMA Flavor Library,3135,https://www.femaflavor.org/flavor/3135
+FEMA:MOL:2807,Octyl butyrate,61030,2807,110-39-4,FlavorDB / FEMA Flavor Library,2807,https://www.femaflavor.org/flavor/2807
+FEMA:MOL:2085,Isoamyl Isovalerate,12613,2085,659-70-1,FlavorDB / FEMA Flavor Library,2085,https://www.femaflavor.org/flavor/2085
+FEMA:MOL:2058,Isopentyl benzoate,7193,2058,54846-63-8,FlavorDB / FEMA Flavor Library,2058,https://www.femaflavor.org/flavor/2058
+FEMA:MOL:2221,butyric acid,264,2221,107-92-6,FlavorDB / FEMA Flavor Library,2221,https://www.femaflavor.org/flavor/2221
+FEMA:MOL:2525,glycerol,753,2525,8013-25-0,FlavorDB / FEMA Flavor Library,2525,https://www.femaflavor.org/flavor/2525
+FEMA:MOL:3642,Ethyl trans-4-decenoate,5362583,3642,76649-16-6,FlavorDB / FEMA Flavor Library,3642,https://www.femaflavor.org/flavor/3642
+FLVMOL:PUBCHEM:639665,Xanthohumol,639665,,6754-58-1,FlavorDB / FEMA Flavor Library,639665,https://cosylab.iiitd.edu.in/flavordb2/entity_details?id=9
+FEMA:MOL:2467,eugenol,3314,2467,97-53-0,FlavorDB / FEMA Flavor Library,2467,https://www.femaflavor.org/flavor/2467
+FEMA:MOL:3923,3-Hexenal,643139,3923,69112-21-6,FlavorDB / FEMA Flavor Library,3923,https://www.femaflavor.org/flavor/3923
+FEMA:MOL:2887,3-Phenylpropanal,7707,2887,104-53-0,FlavorDB / FEMA Flavor Library,2887,https://www.femaflavor.org/flavor/2887
+FEMA:MOL:2309,Citronellol,8842,2309,68916-43-8,FlavorDB / FEMA Flavor Library,2309,https://www.femaflavor.org/flavor/2309
+FEMA:MOL:3862,S-Methyl hexanethioate,75515,3862,2432-77-1,FlavorDB / FEMA Flavor Library,3862,https://www.femaflavor.org/flavor/3862
+FEMA:MOL:2360,gamma-Decalactone,12813,2360,706-14-9,FlavorDB / FEMA Flavor Library,2360,https://www.femaflavor.org/flavor/2360
+FEMA:MOL:3798,"2,4-dihydroxybenzoic acid",1491,3798,89-86-1,FlavorDB / FEMA Flavor Library,3798,https://www.femaflavor.org/flavor/3798
+FEMA:MOL:2539,gamma-Heptalactone,7742,2539,57129-71-2,FlavorDB / FEMA Flavor Library,2539,https://www.femaflavor.org/flavor/2539
+FLVMOL:PUBCHEM:445154,resveratrol,445154,,501-36-0,FlavorDB / FEMA Flavor Library,445154,https://cosylab.iiitd.edu.in/flavordb2/entity_details?id=9
+FEMA:MOL:3521,1-Propanethiol,7848,3521,79869-58-2,FlavorDB / FEMA Flavor Library,3521,https://www.femaflavor.org/flavor/3521
+FEMA:MOL:2730,Acetyl isobutyryl,24115,2730,7493-58-5,FlavorDB / FEMA Flavor Library,2730,https://www.femaflavor.org/flavor/2730
+FEMA:MOL:2856,Alpha-Phellandrene,7460,2856,99-83-2,FlavorDB / FEMA Flavor Library,2856,https://www.femaflavor.org/flavor/2856
+FEMA:MOL:3981,2-Heptyl butanoate,529496,3981,39026-94-3,FlavorDB / FEMA Flavor Library,3981,https://www.femaflavor.org/flavor/3981
+FEMA:MOL:3170,trans-3-Hexenoic acid,5282708,3170,1577-18-0,FlavorDB / FEMA Flavor Library,3170,https://www.femaflavor.org/flavor/3170
+FEMA:MOL:2558,"2,3-Hexanedione",19707,2558,3848-24-6,FlavorDB / FEMA Flavor Library,2558,https://www.femaflavor.org/flavor/2558
+FEMA:MOL:3342,Ethyl 3-Hexenoate,5362622,3342,2396-83-0,FlavorDB / FEMA Flavor Library,3342,https://www.femaflavor.org/flavor/3342
+FEMA:MOL:2547,Heptyl acetate,8159,2547,112-06-1,FlavorDB / FEMA Flavor Library,2547,https://www.femaflavor.org/flavor/2547
+FEMA:MOL:2689,1-Phenylethyl propionate,8432,2689,120-45-6,FlavorDB / FEMA Flavor Library,2689,https://www.femaflavor.org/flavor/2689
+FEMA:MOL:2552,Heptyl formate,8169,2552,112-23-2,FlavorDB / FEMA Flavor Library,2552,https://www.femaflavor.org/flavor/2552
+FEMA:MOL:3550,3-Hydroxy-2-Pentanone,62484,3550,3142-66-3,FlavorDB / FEMA Flavor Library,3550,https://www.femaflavor.org/flavor/3550
+FEMA:MOL:3220,Phenethylamine,1001,3220,64-04-0,FlavorDB / FEMA Flavor Library,3220,https://www.femaflavor.org/flavor/3220
+FEMA:MOL:3876,S-Methyl thioacetate,73750,3876,1534-08-3,FlavorDB / FEMA Flavor Library,3876,https://www.femaflavor.org/flavor/3876
+FEMA:MOL:3766,"2,6-Nonadienal",636687,3766,26370-28-5,FlavorDB / FEMA Flavor Library,3766,https://www.femaflavor.org/flavor/3766
+FEMA:MOL:2074,Pentyl Hexanoate,10886,2074,540-07-8,FlavorDB / FEMA Flavor Library,2074,https://www.femaflavor.org/flavor/2074
+FEMA:MOL:2362,Decanal,8175,2362,112-31-2,FlavorDB / FEMA Flavor Library,2362,https://www.femaflavor.org/flavor/2362
+FEMA:MOL:3004,Salicylaldehyde,6998,3004,90-02-8,FlavorDB / FEMA Flavor Library,3004,https://www.femaflavor.org/flavor/3004
+FEMA:MOL:3130,Butylamine,8007,3130,109-73-9,FlavorDB / FEMA Flavor Library,3130,https://www.femaflavor.org/flavor/3130
+FEMA:MOL:2560,trans-2-Hexenal,5281168,2560,6728-26-3,FlavorDB / FEMA Flavor Library,2560,https://www.femaflavor.org/flavor/2560
+FEMA:MOL:2617,1-Dodecanol,8193,2617,68551-07-5,FlavorDB / FEMA Flavor Library,2617,https://www.femaflavor.org/flavor/2617
+FEMA:MOL:3875,dimethyl sulfoxide,679,3875,67-68-5,FlavorDB / FEMA Flavor Library,3875,https://www.femaflavor.org/flavor/3875
+FEMA:MOL:4129,1-Hepten-3-Ol,21057,4129,4938-52-7,FlavorDB / FEMA Flavor Library,4129,https://www.femaflavor.org/flavor/4129
+FEMA:MOL:3825,Diethyl sulfide,9609,3825,352-93-2,FlavorDB / FEMA Flavor Library,3825,https://www.femaflavor.org/flavor/3825
+FEMA:MOL:2763,Tetradecanal,31291,2763,124-25-4,FlavorDB / FEMA Flavor Library,2763,https://www.femaflavor.org/flavor/2763
+FEMA:MOL:3222,2-Phenylethyl octanoate,229888,3222,5457-70-5,FlavorDB / FEMA Flavor Library,3222,https://www.femaflavor.org/flavor/3222
+FEMA:MOL:3896,Prenylthiol,146586,3896,5287-45-6,FlavorDB / FEMA Flavor Library,3896,https://www.femaflavor.org/flavor/3896
+FEMA:MOL:3997,19872-52-7,88290,3997,19872-52-7,FlavorDB / FEMA Flavor Library,3997,https://www.femaflavor.org/flavor/3997
+FLVMOL:PUBCHEM:5280343,quercetin,5280343,,117-39-5,FlavorDB / FEMA Flavor Library,5280343,https://cosylab.iiitd.edu.in/flavordb2/entity_details?id=9
+FEMA:MOL:3172,Hexyl isobutyrate,16872,3172,2349-07-7,FlavorDB / FEMA Flavor Library,3172,https://www.femaflavor.org/flavor/3172
+FEMA:MOL:2311,Citronellyl acetate,9017,2311,67650-82-2,FlavorDB / FEMA Flavor Library,2311,https://www.femaflavor.org/flavor/2311
+FEMA:MOL:3530,m-cresol,342,3530,108-39-4,FlavorDB / FEMA Flavor Library,3530,https://www.femaflavor.org/flavor/3530
+FEMA:MOL:3328,2-Acetylthiazole,520108,3328,24295-03-2,FlavorDB / FEMA Flavor Library,3328,https://www.femaflavor.org/flavor/3328
+FEMA:MOL:3282,S-Ethyl ethanethioate,61171,3282,625-60-5,FlavorDB / FEMA Flavor Library,3282,https://www.femaflavor.org/flavor/3282
+FEMA:MOL:3883,3-(Methylthio)propyl acetate,85519,3883,16630-55-0,FlavorDB / FEMA Flavor Library,3883,https://www.femaflavor.org/flavor/3883
+FEMA:MOL:3399,2-Hepten-4-One,5463238,3399,32397-56-1,FlavorDB / FEMA Flavor Library,3399,https://www.femaflavor.org/flavor/3399
+FEMA:MOL:3723,2-oxobutanoic acid,58,3723,600-18-0,FlavorDB / FEMA Flavor Library,3723,https://www.femaflavor.org/flavor/3723
+FEMA:MOL:3843,3-Hydroxypyruvic acid,964,3843,1113-60-6,FlavorDB / FEMA Flavor Library,3843,https://www.femaflavor.org/flavor/3843
+FEMA:MOL:3196,cis-Jasmone,1549018,3196,488-10-8,FlavorDB / FEMA Flavor Library,3196,https://www.femaflavor.org/flavor/3196
+FEMA:MOL:3858,Isoamyl mercaptan,10925,3858,541-31-1,FlavorDB / FEMA Flavor Library,3858,https://www.femaflavor.org/flavor/3858
+FEMA:MOL:3507,Isopentyl isobutyrate,519786,3507,2050-01-3,FlavorDB / FEMA Flavor Library,3507,https://www.femaflavor.org/flavor/3507
+FEMA:MOL:3256,Benzothiazole,7222,3256,95-16-9,FlavorDB / FEMA Flavor Library,3256,https://www.femaflavor.org/flavor/3256
+FLVMOL:PUBCHEM:513197,Isoxanthohumol,513197,,70872-29-6,FlavorDB / FEMA Flavor Library,513197,https://cosylab.iiitd.edu.in/flavordb2/entity_details?id=9
+FEMA:MOL:3163,2-Acetylfuran,14505,3163,1192-62-7,FlavorDB / FEMA Flavor Library,3163,https://www.femaflavor.org/flavor/3163
+FEMA:MOL:3291,gamma-Butyrolactone,7302,3291,96-48-0,FlavorDB / FEMA Flavor Library,3291,https://www.femaflavor.org/flavor/3291
+FEMA:MOL:2141,Benzyl isobutyrate,7646,2141,103-28-6,FlavorDB / FEMA Flavor Library,2141,https://www.femaflavor.org/flavor/2141
+FEMA:MOL:3589,resorcinol,5054,3589,108-46-3,FlavorDB / FEMA Flavor Library,3589,https://www.femaflavor.org/flavor/3589
+FEMA:MOL:2762,Myrcene,31253,2762,123-35-3,FlavorDB / FEMA Flavor Library,2762,https://www.femaflavor.org/flavor/2762
+FEMA:MOL:2788,Nonyl Acetate,8918,2788,143-13-5,FlavorDB / FEMA Flavor Library,2788,https://www.femaflavor.org/flavor/2788
+FEMA:MOL:2185,Isobutyl benzoate,61048,2185,120-50-3,FlavorDB / FEMA Flavor Library,2185,https://www.femaflavor.org/flavor/2185
+FEMA:MOL:3512,13679-85-1,61664,3512,13679-85-1,FlavorDB / FEMA Flavor Library,3512,https://www.femaflavor.org/flavor/3512
+FEMA:MOL:3660,9-Decenoic acid,61743,3660,14436-32-9,FlavorDB / FEMA Flavor Library,3660,https://www.femaflavor.org/flavor/3660
+FEMA:MOL:3704,"2,6-Dimethoxy-4-methylphenol",240925,3704,6638-05-7,FlavorDB / FEMA Flavor Library,3704,https://www.femaflavor.org/flavor/3704
+FEMA:MOL:2513@2775,Geranyl isobutyrate,6086514,2513@2775,2345-26-8,FlavorDB / FEMA Flavor Library,2513@2775,https://www.femaflavor.org/flavor/2513@2775
+FEMA:MOL:4193,2-Pentenoic Acid,638122,4193,626-98-2,FlavorDB / FEMA Flavor Library,4193,https://www.femaflavor.org/flavor/4193
+FLVMOL:PUBCHEM:442428,naringin,442428,,10236-47-2,FlavorDB / FEMA Flavor Library,442428,https://cosylab.iiitd.edu.in/flavordb2/entity_details?id=9
+FEMA:MOL:3394,3-Ethylpyridine,10823,3394,536-78-7,FlavorDB / FEMA Flavor Library,3394,https://www.femaflavor.org/flavor/3394
+FEMA:MOL:3634,28664-35-9,62835,3634,28664-35-9,FlavorDB / FEMA Flavor Library,3634,https://www.femaflavor.org/flavor/3634
+FEMA:MOL:2078,Isoamyl nonanoate,522676,2078,7779-70-6,FlavorDB / FEMA Flavor Library,2078,https://www.femaflavor.org/flavor/2078
+FEMA:MOL:3708,S-Methyl 2-methylbutanethioate,65285,3708,42075-45-6,FlavorDB / FEMA Flavor Library,3708,https://www.femaflavor.org/flavor/3708

@@ -1,16 +1,28 @@
 ID,Name,Source,source_record_id,source_url
-ROL-THICKENER,Thickener,Codex GSFA / FSSAI,ROLE-THICKENER,https://www.fao.org/gsfaonline
-ROL-STABILIZER,Stabilizer,Codex GSFA / FSSAI,ROLE-STABILIZER,https://www.fao.org/gsfaonline
-ROL-EMULSIFIER,Emulsifier,Codex GSFA / FSSAI,ROLE-EMULSIFIER,https://www.fao.org/gsfaonline
-ROL-ACIDULANT,Acidulant,Codex GSFA / FSSAI,ROLE-ACIDULANT,https://www.fao.org/gsfaonline
-ROL-PRESERVATIVE,Preservative,Codex GSFA / FSSAI,ROLE-PRESERVATIVE,https://www.fao.org/gsfaonline
-ROL-ANTIOXIDANT,Antioxidant,Codex GSFA / FSSAI,ROLE-ANTIOXIDANT,https://www.fao.org/gsfaonline
-ROL-SWEETENER,Sweetener,Codex GSFA / FSSAI,ROLE-SWEETENER,https://www.fao.org/gsfaonline
-ROL-COLOR,Color,Codex GSFA / FSSAI,ROLE-COLOR,https://www.fao.org/gsfaonline
-ROL-FLAVOR_ENHANCER,Flavor Enhancer,Codex GSFA / FSSAI,ROLE-FLAVOR_ENHANCER,https://www.fao.org/gsfaonline
-ROL-GLAZING_AGENT,Glazing Agent,Codex GSFA / FSSAI,ROLE-GLAZING_AGENT,https://www.fao.org/gsfaonline
-ROL-HUMECTANT,Humectant,Codex GSFA / FSSAI,ROLE-HUMECTANT,https://www.fao.org/gsfaonline
-ROL-FIRMING_AGENT,Firming Agent,Codex GSFA / FSSAI,ROLE-FIRMING_AGENT,https://www.fao.org/gsfaonline
-ROL-RAISING_AGENT,Raising Agent,Codex GSFA / FSSAI,ROLE-RAISING_AGENT,https://www.fao.org/gsfaonline
-ROL-BULKING_AGENT,Bulking Agent,Codex GSFA / FSSAI,ROLE-BULKING_AGENT,https://www.fao.org/gsfaonline
-ROL-FLOUR_TREATMENT_AGENT,Flour Treatment Agent,Codex GSFA / FSSAI,ROLE-FLOUR_TREATMENT,https://www.fao.org/gsfaonline
+CODEX-ROLE-ACIDITY_REGULATOR,Acidity Regulator,Codex Alimentarius Commission (FAO/WHO),Acidity regulator,https://www.fao.org/gsfaonline/docs/CXG_036e.pdf
+CODEX-ROLE-ANTICAKING_AGENT,Anticaking Agent,Codex Alimentarius Commission (FAO/WHO),Anticaking agent,https://www.fao.org/gsfaonline/docs/CXG_036e.pdf
+CODEX-ROLE-ANTIFOAMING_AGENT,Antifoaming Agent,Codex Alimentarius Commission (FAO/WHO),Antifoaming agent,https://www.fao.org/gsfaonline/docs/CXG_036e.pdf
+CODEX-ROLE-ANTIOXIDANT,Antioxidant,Codex Alimentarius Commission (FAO/WHO),Antioxidant,https://www.fao.org/gsfaonline/docs/CXG_036e.pdf
+CODEX-ROLE-BLEACHING_AGENT,Bleaching Agent,Codex Alimentarius Commission (FAO/WHO),Bleaching agent,https://www.fao.org/gsfaonline/docs/CXG_036e.pdf
+CODEX-ROLE-BULKING_AGENT,Bulking Agent,Codex Alimentarius Commission (FAO/WHO),Bulking agent,https://www.fao.org/gsfaonline/docs/CXG_036e.pdf
+CODEX-ROLE-CARBONATING_AGENT,Carbonating Agent,Codex Alimentarius Commission (FAO/WHO),Carbonating agent,https://www.fao.org/gsfaonline/docs/CXG_036e.pdf
+CODEX-ROLE-CARRIER,Carrier,Codex Alimentarius Commission (FAO/WHO),Carrier,https://www.fao.org/gsfaonline/docs/CXG_036e.pdf
+CODEX-ROLE-COLOR,Color,Codex Alimentarius Commission (FAO/WHO),Color,https://www.fao.org/gsfaonline/docs/CXG_036e.pdf
+CODEX-ROLE-COLOR_RETENTION_AGENT,Color Retention Agent,Codex Alimentarius Commission (FAO/WHO),Color retention agent,https://www.fao.org/gsfaonline/docs/CXG_036e.pdf
+CODEX-ROLE-EMULSIFIER,Emulsifier,Codex Alimentarius Commission (FAO/WHO),Emulsifier,https://www.fao.org/gsfaonline/docs/CXG_036e.pdf
+CODEX-ROLE-EMULSIFYING_SALT,Emulsifying Salt,Codex Alimentarius Commission (FAO/WHO),Emulsifying salt,https://www.fao.org/gsfaonline/docs/CXG_036e.pdf
+CODEX-ROLE-FIRMING_AGENT,Firming Agent,Codex Alimentarius Commission (FAO/WHO),Firming agent,https://www.fao.org/gsfaonline/docs/CXG_036e.pdf
+CODEX-ROLE-FLAVOR_ENHANCER,Flavor Enhancer,Codex Alimentarius Commission (FAO/WHO),Flavor enhancer,https://www.fao.org/gsfaonline/docs/CXG_036e.pdf
+CODEX-ROLE-FLOUR_TREATMENT_AGENT,Flour Treatment Agent,Codex Alimentarius Commission (FAO/WHO),Flour treatment agent,https://www.fao.org/gsfaonline/docs/CXG_036e.pdf
+CODEX-ROLE-FOAMING_AGENT,Foaming Agent,Codex Alimentarius Commission (FAO/WHO),Foaming agent,https://www.fao.org/gsfaonline/docs/CXG_036e.pdf
+CODEX-ROLE-GELLING_AGENT,Gelling Agent,Codex Alimentarius Commission (FAO/WHO),Gelling agent,https://www.fao.org/gsfaonline/docs/CXG_036e.pdf
+CODEX-ROLE-GLAZING_AGENT,Glazing Agent,Codex Alimentarius Commission (FAO/WHO),Glazing agent,https://www.fao.org/gsfaonline/docs/CXG_036e.pdf
+CODEX-ROLE-HUMECTANT,Humectant,Codex Alimentarius Commission (FAO/WHO),Humectant,https://www.fao.org/gsfaonline/docs/CXG_036e.pdf
+CODEX-ROLE-PACKAGING_GAS,Packaging Gas,Codex Alimentarius Commission (FAO/WHO),Packaging gas,https://www.fao.org/gsfaonline/docs/CXG_036e.pdf
+CODEX-ROLE-PRESERVATIVE,Preservative,Codex Alimentarius Commission (FAO/WHO),Preservative,https://www.fao.org/gsfaonline/docs/CXG_036e.pdf
+CODEX-ROLE-PROPELLANT,Propellant,Codex Alimentarius Commission (FAO/WHO),Propellant,https://www.fao.org/gsfaonline/docs/CXG_036e.pdf
+CODEX-ROLE-RAISING_AGENT,Raising Agent,Codex Alimentarius Commission (FAO/WHO),Raising agent,https://www.fao.org/gsfaonline/docs/CXG_036e.pdf
+CODEX-ROLE-SEQUESTRANT,Sequestrant,Codex Alimentarius Commission (FAO/WHO),Sequestrant,https://www.fao.org/gsfaonline/docs/CXG_036e.pdf
+CODEX-ROLE-STABILIZER,Stabilizer,Codex Alimentarius Commission (FAO/WHO),Stabilizer,https://www.fao.org/gsfaonline/docs/CXG_036e.pdf
+CODEX-ROLE-SWEETENER,Sweetener,Codex Alimentarius Commission (FAO/WHO),Sweetener,https://www.fao.org/gsfaonline/docs/CXG_036e.pdf
+CODEX-ROLE-THICKENER,Thickener,Codex Alimentarius Commission (FAO/WHO),Thickener,https://www.fao.org/gsfaonline/docs/CXG_036e.pdf

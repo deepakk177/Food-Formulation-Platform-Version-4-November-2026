@@ -18,45 +18,7 @@ interface RecentActivityProps {
 }
 
 export default function RecentActivity({ activities }: RecentActivityProps) {
-  const defaultActivities: ActivityItem[] = [
-    {
-      id: 'act_1',
-      type: 'formulate',
-      title: 'Synthesized Formulation',
-      detail: 'Generated Nutrition-Maximized Strategy for Protein Chocolate Snack Mix (FC-001).',
-      timestamp: '10 mins ago'
-    },
-    {
-      id: 'act_2',
-      type: 'compliance',
-      title: 'Regional Audit Completed',
-      detail: 'Evaluated safety against FSSAI, FDA, and EFSA standards (100% Pass).',
-      timestamp: '45 mins ago'
-    },
-    {
-      id: 'act_3',
-      type: 'export',
-      title: 'Technical Dossier Exported',
-      detail: 'Downloaded CSV & PDF report for Vegan High-Protein Bar v2.4.',
-      timestamp: '2 hours ago'
-    },
-    {
-      id: 'act_4',
-      type: 'duplicate',
-      title: 'Project Duplicated',
-      detail: 'Cloned Keto Snack Mix to create variant experiment FC-002.',
-      timestamp: 'Yesterday at 4:15 PM'
-    },
-    {
-      id: 'act_5',
-      type: 'compare',
-      title: 'Formulation Candidate Comparison',
-      detail: 'Compared FC-001 (Nutrition-Maximized) vs FC-002 (Cost-Optimized).',
-      timestamp: '2 days ago'
-    }
-  ];
-
-  const items = activities && activities.length > 0 ? activities : defaultActivities;
+  const items = activities && activities.length > 0 ? activities : [];
 
   const getIcon = (type: string) => {
     switch (type) {
@@ -81,20 +43,26 @@ export default function RecentActivity({ activities }: RecentActivityProps) {
       </div>
 
       <div className="space-y-3 font-mono text-xs">
-        {items.map((act) => (
-          <div key={act.id} className="flex items-start gap-3 p-3 rounded-xl border border-[#E5E9E6] bg-[#FAFAF8] hover:border-[#164E3D] transition">
-            <div className="p-2 rounded-xl bg-white border border-[#E5E9E6] shrink-0 shadow-2xs">
-              {getIcon(act.type)}
-            </div>
-            <div className="space-y-0.5 flex-1">
-              <div className="flex justify-between items-center">
-                <span className="font-sans font-extrabold text-[#191C1E] text-xs">{act.title}</span>
-                <span className="text-[10px] text-[#5F6D67] font-bold">{act.timestamp}</span>
-              </div>
-              <p className="text-[11px] text-[#5F6D67] font-sans font-bold leading-relaxed">{act.detail}</p>
-            </div>
+        {items.length === 0 ? (
+          <div className="py-8 text-center text-[#5F6D67] font-sans text-xs font-bold">
+            No recent activity recorded.
           </div>
-        ))}
+        ) : (
+          items.map((act) => (
+            <div key={act.id} className="flex items-start gap-3 p-3 rounded-xl border border-[#E5E9E6] bg-[#FAFAF8] hover:border-[#164E3D] transition">
+              <div className="p-2 rounded-xl bg-white border border-[#E5E9E6] shrink-0 shadow-2xs">
+                {getIcon(act.type)}
+              </div>
+              <div className="space-y-0.5 flex-1">
+                <div className="flex justify-between items-center">
+                  <span className="font-sans font-extrabold text-[#191C1E] text-xs">{act.title}</span>
+                  <span className="text-[10px] text-[#5F6D67] font-bold">{act.timestamp}</span>
+                </div>
+                <p className="text-[11px] text-[#5F6D67] font-sans font-bold leading-relaxed">{act.detail}</p>
+              </div>
+            </div>
+          ))
+        )}
       </div>
     </div>
   );

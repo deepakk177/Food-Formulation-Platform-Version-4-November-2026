@@ -1,0 +1,23 @@
+{
+  "PropertyTable": {
+    "Properties": [
+      {
+        "CID": 23665764,
+        "MolecularFormula": "C8H9NaO3S",
+        "MolecularWeight": "208.21",
+        "SMILES": "CC1=CC=C(C=C1)CS(=O)(=O)[O-].[Na+]",
+        "ConnectivitySMILES": "CC1=CC=C(C=C1)CS(=O)(=O)[O-].[Na+]",
+        "InChI": "InChI=1S/C8H10O3S.Na/c1-7-2-4-8(5-3-7)6-12(9,10)11;/h2-5H,6H2,1H3,(H,9,10,11);/q;+1/p-1",
+        "InChIKey": "DOHKGJGOONXOIA-UHFFFAOYSA-M",
+        "IUPACName": "sodium (4-methylphenyl)methanesulfonate"
+      }
+    ]
+  },
+  "Synonyms": [
+    "sodium p-methylbenzylsulfonate",
+    "SCHEMBL4680122",
+    "DOHKGJGOONXOIA-UHFFFAOYSA-M",
+    "30587-85-0",
+    "4-methylphenylmethanesulfonic acid sodium salt"
+  ]
+}

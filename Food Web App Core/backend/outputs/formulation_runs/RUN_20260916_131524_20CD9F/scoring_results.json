@@ -1,0 +1,90 @@
+[
+  {
+    "profile_name": "BALANCED",
+    "radar_scores": {
+      "Protein": 100.0,
+      "Nutrition": 100.0,
+      "Functional": 95.0,
+      "Texture": 95.0,
+      "Evidence": 100.0,
+      "Compatibility": 95.0,
+      "Cost": 66.8,
+      "Compliance": 98.0,
+      "Regulatory": 98.0
+    },
+    "overall_score": 93.0,
+    "cost_per_kg_inr": 13.29,
+    "confidence_metric_name": "Evidence & Constraint Coverage",
+    "confidence_value": 93.0,
+    "is_feasible": true,
+    "performance": {
+      "overall": 93.0
+    }
+  },
+  {
+    "profile_name": "BALANCED",
+    "radar_scores": {
+      "Protein": 100.0,
+      "Nutrition": 100.0,
+      "Functional": 95.0,
+      "Texture": 95.0,
+      "Evidence": 100.0,
+      "Compatibility": 95.0,
+      "Cost": 50.0,
+      "Compliance": 98.0,
+      "Regulatory": 98.0
+    },
+    "overall_score": 90.5,
+    "cost_per_kg_inr": 21.2,
+    "confidence_metric_name": "Evidence & Constraint Coverage",
+    "confidence_value": 90.5,
+    "is_feasible": true,
+    "performance": {
+      "overall": 90.5
+    }
+  },
+  {
+    "profile_name": "BALANCED",
+    "radar_scores": {
+      "Protein": 75.0,
+      "Nutrition": 75.0,
+      "Functional": 95.0,
+      "Texture": 95.0,
+      "Evidence": 100.0,
+      "Compatibility": 95.0,
+      "Cost": 68.8,
+      "Compliance": 98.0,
+      "Regulatory": 98.0
+    },
+    "overall_score": 88.3,
+    "cost_per_kg_inr": 12.5,
+    "confidence_metric_name": "Evidence & Constraint Coverage",
+    "confidence_value": 88.3,
+    "is_feasible": true,
+    "performance": {
+      "overall": 88.3
+    }
+  },
+  {
+    "profile_name": "BALANCED",
+    "radar_scores": {
+      "Protein": 0.0,
+      "Nutrition": 0.0,
+      "Functional": 95.0,
+      "Texture": 95.0,
+      "Evidence": 100.0,
+      "Compatibility": 95.0,
+      "Cost": 83.1,
+      "Compliance": 98.0,
+      "Regulatory": 98.0
+    },
+    "overall_score": 75.4,
+    "cost_per_kg_inr": 6.77,
+    "confidence_metric_name": "Evidence & Constraint Coverage",
+    "confidence_value": 75.4,
+    "is_feasible": true,
+    "performance": {
+      "overall": 75.4
+    }
+  }
+]

@@ -1,9 +1,9 @@
 """
-Formulation Completeness Layer for TCS Food Formulator
+Formulation Completeness Layer for TCS Food Formulator.
 Evaluates formulations against 15 industrial completeness criteria:
 Major, Functional, Additives, Preservatives, Emulsifiers, Flavors, Colors, Sweeteners,
 Acid Regulators, Leavening, Processing Aids, Fortification, Carriers, Regulatory, Justification.
-Assigns a Formulation Completeness Score (0-100%) and detailed diagnostic audit.
+Assigns a data-driven Formulation Completeness Score (0-100%) and detailed diagnostic audit without hardcoded True passes.
 """
 import logging
 from typing import Dict, Any, List, Optional
@@ -26,7 +26,6 @@ class FormulationCompletenessEngine:
         """
         all_components = composition.get("all_components", [])
         if not all_components:
-            # Fallback for simple compositions
             bulk = composition.get("bulk_ingredients", [])
             func = composition.get("functional_ingredients", [])
             all_components = bulk + func
@@ -42,26 +41,26 @@ class FormulationCompletenessEngine:
 
         checklist = {}
 
-        # 1. Are all major ingredients represented?
+        # 1. Are major ingredients represented?
         has_major = any(
-            any(k in r for k in ["base", "bulk", "flour", "fat", "sugar", "protein", "raw material", "general"])
+            any(k in r for k in ["base", "bulk", "flour", "fat", "sugar", "protein", "raw material"])
             for r in all_form_roles + all_categories
-        ) or len(all_components) >= 1
+        ) or len(all_components) >= 2
         checklist["major_ingredients_present"] = has_major
 
         # 2. Are required functional ingredients represented?
         has_functional = any(
-            any(k in r for k in ["emulsifier", "stabilizer", "thickener", "texturizer", "protein", "fiber", "binder"])
+            any(k in r for k in ["emulsifier", "stabilizer", "thickener", "texturizer", "binder"])
             for r in all_roles + all_categories
         )
         checklist["functional_ingredients_present"] = has_functional
 
         # 3. Are additives evaluated with INS/E-numbers?
         has_ins = any(bool(item.get("ins_number")) for item in all_components if isinstance(item, dict))
-        checklist["food_additives_evaluated"] = has_ins or len(all_components) >= 3
+        checklist["food_additives_evaluated"] = has_ins
 
         # 4. Are preservatives / antioxidants evaluated?
-        needs_preservatives = any(k in cat_lower or k in type_lower for k in ["bar", "snack", "bread", "beverage", "sauce", "processed"])
+        needs_preservatives = any(k in cat_lower or k in type_lower for k in ["bar", "snack", "bread", "beverage", "processed"])
         has_preservation = any(
             any(k in r for k in ["preservative", "antioxidant", "shelf", "sorbate", "benzoate", "tocopherol", "ascorbic"])
             for r in all_roles + all_names
@@ -69,27 +68,31 @@ class FormulationCompletenessEngine:
         checklist["preservatives_antioxidants_evaluated"] = has_preservation if needs_preservatives else True
 
         # 5. Are emulsifiers / stabilizers / thickeners evaluated?
-        needs_emulsifier = any(k in cat_lower or k in type_lower for k in ["bar", "confectionery", "chocolate", "bakery", "beverage", "sauce"])
+        needs_emulsifier = any(k in cat_lower or k in type_lower for k in ["bar", "confectionery", "chocolate", "bakery", "beverage"])
         has_emulsifier = any(
-            any(k in r for k in ["emulsifier", "hydrocolloid", "stabilizer", "gum", "lecithin", "pectin", "starch"])
+            any(k in r for k in ["emulsifier", "hydrocolloid", "stabilizer", "gum", "lecithin", "pectin"])
             for r in all_roles + all_categories + all_names
         )
         checklist["emulsifiers_stabilizers_evaluated"] = has_emulsifier if needs_emulsifier else True
 
-        # 6. Are flavors required / evaluated?
+        # 6. Are flavors evaluated?
         has_flavor = any(
-            any(k in r for k in ["flavor", "flavour", "vanilla", "cocoa", "aroma", "salt", "sweetener"])
+            any(k in r for k in ["flavor", "flavour", "vanilla", "cocoa", "aroma", "salt"])
             for r in all_roles + all_categories + all_names
         )
         checklist["flavor_sensory_system_evaluated"] = has_flavor
 
-        # 7. Are colors required / evaluated?
-        checklist["color_visual_system_evaluated"] = True  # Natural ingredient colors sufficient unless explicit
+        # 7. Are colors evaluated?
+        has_color = any(
+            any(k in r for k in ["color", "colour", "carotene", "curcumin", "beetroot"])
+            for r in all_roles + all_categories + all_names
+        )
+        checklist["color_visual_system_evaluated"] = has_color or ("chocolate" in cat_lower or "cacao" in cat_lower)
 
         # 8. Are sweeteners evaluated?
         needs_sweetener = any(k in cat_lower or k in type_lower for k in ["bar", "confectionery", "chocolate", "beverage", "sweet", "bakery"])
         has_sweetener = any(
-            any(k in r for k in ["sweetener", "sugar", "syrup", "monk", "stevia", "erythritol", "polyol"])
+            any(k in r for k in ["sweetener", "sugar", "syrup", "monk", "stevia", "erythritol", "allulose"])
             for r in all_roles + all_categories + all_names
         )
         checklist["sweeteners_evaluated"] = has_sweetener if needs_sweetener else True
@@ -101,18 +104,22 @@ class FormulationCompletenessEngine:
         )
         checklist["acidity_ph_regulators_evaluated"] = has_acidity or not ("beverage" in cat_lower or "sauce" in cat_lower)
 
-        # 10. Are leavening / raising agents evaluated?
+        # 10. Are leavening agents evaluated?
         needs_leavening = "bakery" in cat_lower or "bread" in cat_lower or "biscuit" in cat_lower
         has_leavening = any(
-            any(k in r for k in ["leavening", "raising", "bicarbonate", "yeast", "pyrophosphate"])
+            any(k in r for k in ["leavening", "raising", "bicarbonate", "yeast"])
             for r in all_roles + all_names
         )
         checklist["leavening_raising_agents_evaluated"] = has_leavening if needs_leavening else True
 
-        # 11. Are processing aids / minor components relevant?
-        checklist["processing_aids_evaluated"] = True
+        # 11. Are processing aids / texturizers present?
+        has_proc_aid = any(
+            any(k in r for k in ["processing aid", "anti-caking", "silica", "lubricant", "hydrocolloid"])
+            for r in all_roles + all_form_roles
+        )
+        checklist["processing_aids_evaluated"] = has_proc_aid or len(all_components) <= 5
 
-        # 12. Are fortification / nutritional ingredients relevant?
+        # 12. Are fortification / active nutrients present?
         has_fortification = any(
             any(k in r for k in ["protein", "fiber", "vitamin", "mineral", "calcium", "fortif"])
             for r in all_roles + all_categories
@@ -120,12 +127,17 @@ class FormulationCompletenessEngine:
         checklist["fortification_nutritional_evaluated"] = has_fortification
 
         # 13. Are carriers or delivery systems evaluated?
-        checklist["carriers_delivery_systems_evaluated"] = True
+        has_carrier = any(
+            any(k in r for k in ["maltodextrin", "fiber", "carrier", "flour", "starch"])
+            for r in all_names + all_categories
+        )
+        checklist["carriers_delivery_systems_evaluated"] = has_carrier
 
-        # 14. Are all regulatory constraints satisfied?
-        checklist["regulatory_limits_satisfied"] = True
+        # 14. Are regulatory clearances verified without UNKNOWNs?
+        has_unknown_reg = any(item.get("regulatory_status") == "UNKNOWN" for item in all_components if isinstance(item, dict))
+        checklist["regulatory_limits_satisfied"] = not has_unknown_reg
 
-        # 15. Do all components have a meaningful functional justification?
+        # 15. Do all components have meaningful justifications?
         has_justification = all(
             bool(item.get("why_present") or item.get("purpose") or item.get("functional_role"))
             for item in all_components if isinstance(item, dict)
@@ -138,22 +150,35 @@ class FormulationCompletenessEngine:
         completeness_score = round((passed_count / total_count) * 100.0, 1)
 
         status = "Complete Industrial Formulation" if completeness_score >= 90.0 else (
-            "Substantially Complete" if completeness_score >= 75.0 else "Needs Minor Component Review"
+            "Substantially Complete" if completeness_score >= 70.0 else "Needs Minor Component Review"
         )
 
         recommendations = []
         if not checklist["preservatives_antioxidants_evaluated"] and needs_preservatives:
-            recommendations.append("Consider antioxidant (e.g. Tocopherols INS 307) or sorbate for extended shelf life.")
+            recommendations.append("Consider antioxidant (e.g. Tocopherols INS 307) or sorbate for extended shelf stability.")
         if not checklist["emulsifiers_stabilizers_evaluated"] and needs_emulsifier:
             recommendations.append("Consider emulsifier (e.g. Lecithin INS 322i) for lipid phase stabilization.")
         if not checklist["sweeteners_evaluated"] and needs_sweetener:
             recommendations.append("Evaluate sweetener system (e.g. Monk Fruit Extract or Erythritol) for sensory balance.")
+        if not checklist["regulatory_limits_satisfied"]:
+            recommendations.append("Obtain regulatory dossier verification for unverified additives.")
 
         return {
             "completeness_score": completeness_score,
             "status": status,
+            "checks_passed": passed_count,
+            "total_checks": total_count,
             "checklist": checklist,
             "evaluated_aspects": list(checklist.keys()),
+            "evaluations": [
+                {
+                    "name": k.replace("_", " ").title(),
+                    "checked": bool(v),
+                    "status": "Passed" if v else "Warning",
+                    "reason": f"Industrial formulation audit for {k.replace('_', ' ')}: {'Satisfied & verified' if v else 'Requires evaluation or fortification'}"
+                }
+                for k, v in checklist.items()
+            ],
             "recommendations": recommendations
         }
 

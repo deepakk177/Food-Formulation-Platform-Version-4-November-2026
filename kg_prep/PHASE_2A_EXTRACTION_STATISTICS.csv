@@ -1,0 +1,17 @@
+source_id,source_name,asset_id,total_records_discovered,extracted_count,rejected_count,review_count,status,notes
+SRC-FOODON,Food Ontology (FoodOn),AST-FOODON-OWL-001,1000,1000,0,0,COMPLETED,"Extracted 1000 OWL classes with labels, definitions, synonyms, xrefs, and parent hierarchies from foodon.owl"
+SRC-CODEX-GSFA,Codex General Standard for Food Additives,AST-CODEX-GSFA-ADDITIVES-001,296,296,0,0,COMPLETED,Extracted 296 authentic additives with official GSFA IDs and INS numbers from verified local HTML index
+SRC-USDA-FDC,USDA FoodData Central,AST-USDA-SEARCH-MILK,20,20,0,0,COMPLETED,Foundation and SR Legacy query: milk
+SRC-USDA-FDC,USDA FoodData Central,AST-USDA-SEARCH-EGG,20,20,0,0,COMPLETED,Foundation and SR Legacy query: egg
+SRC-USDA-FDC,USDA FoodData Central,AST-USDA-SEARCH-WHEAT_FLOUR,20,20,0,0,COMPLETED,Foundation and SR Legacy query: wheat flour
+SRC-USDA-FDC,USDA FoodData Central,AST-USDA-SEARCH-CHEDDAR_CHEESE,20,20,0,0,COMPLETED,Foundation and SR Legacy query: cheddar cheese
+SRC-USDA-FDC,USDA FoodData Central,AST-USDA-SEARCH-SOYBEAN_OIL,20,20,0,0,COMPLETED,Foundation and SR Legacy query: soybean oil
+SRC-USDA-FDC,USDA FoodData Central,AST-USDA-SEARCH-SUCROSE,2,2,0,0,COMPLETED,Foundation and SR Legacy query: sucrose
+SRC-PUBCHEM,NCBI PubChem PUG REST,AST-PUBCHEM-CID-1183,1,1,0,0,COMPLETED,Vanillin (CID 1183) properties and 30 synonyms
+SRC-PUBCHEM,NCBI PubChem PUG REST,AST-PUBCHEM-CID-2519,1,1,0,0,COMPLETED,Caffeine (CID 2519) properties and 30 synonyms
+SRC-PUBCHEM,NCBI PubChem PUG REST,AST-PUBCHEM-CID-311,1,1,0,0,COMPLETED,Citric acid (CID 311) properties and 30 synonyms
+SRC-PUBCHEM,NCBI PubChem PUG REST,AST-PUBCHEM-CID-5988,1,1,0,0,COMPLETED,Sucrose (CID 5988) properties and 30 synonyms
+SRC-PUBCHEM,NCBI PubChem PUG REST,AST-PUBCHEM-CID-54670067,1,1,0,0,COMPLETED,Ascorbic acid / Vitamin C (CID 54670067) properties and 30 synonyms
+SRC-PUBCHEM,NCBI PubChem PUG REST,AST-PUBCHEM-CID-712,1,1,0,0,COMPLETED,Sodium benzoate (CID 712) properties and 30 synonyms
+SRC-PUBCHEM,NCBI PubChem PUG REST,AST-PUBCHEM-CID-23665764,1,1,0,0,COMPLETED,Potassium sorbate (CID 23665764) properties and 30 synonyms
+SRC-PUBCHEM,NCBI PubChem PUG REST,AST-PUBCHEM-CID-104,1,1,0,0,COMPLETED,Glycine (CID 104) properties and 30 synonyms

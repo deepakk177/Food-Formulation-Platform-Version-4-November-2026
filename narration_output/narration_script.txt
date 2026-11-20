@@ -1,0 +1,83 @@
+# Master Narration Script - Food Formulation Platform
+# Voice: en-US-JennyNeural | Speed: +23% (~155 WPM) | Max Pause <= 2.8s
+
+## [section_01] Introduction and Home Page Brief (00:00:00,500 --> 00:00:15,840)
+
+Welcome to our AI-powered Food Formulation Platform, an intelligent environment designed to streamline food product development through artificial intelligence and structured food science knowledge. On the home page, product developers can submit natural language briefs to initiate automated formulation workflows.
+
+## [section_02] Exploring an Already-Created Formulation (00:00:16,500 --> 00:01:21,680)
+
+Instead of going through every intermediate formulation step, we begin by directly opening an already-created formulation. This provides a simpler starting point for users who want to understand the final product before exploring the underlying technical process. The user can immediately access the formulation overview and examine the information associated with the developed product. This approach makes it easier to understand what the platform produces and how its different modules support food product development.
+
+Here on the primary dashboard, the platform visualizes core performance indicators, including eight out of eight satisfied constraints, a ninety-two percent artificial intelligence confidence score, predictable production yields, and a validated target water activity of zero point five eight. Scrolling down reveals the complete multi-layer formulation composition, spanning base raw materials, functional emulsifiers, and preservative systems. Product developers can review batch economics across pilot and commercial scales, direct ingredient cost allocations, and interconnected unit operations—such as refining limits and conching profiles. Reviewing these process control parameters confirms tight moisture regulation below eight percent and validated water activity limits to ensure ambient shelf stability.
+
+## [section_03] Ingredient Breakdown and Analytical Modules (00:01:24,000 --> 00:02:24,940)
+
+Moving into the analytical modules, the platform dissects the formulation across multiple critical quality dimensions. The ingredient breakdown classifies components by functional role—from prime press cocoa butter forming the lipid continuous phase, to ammonium phosphatides providing rheological control. Users can inspect exact inclusion percentages, unit costs, and category taxonomy.
+
+In the nutrition panel, macronutrient targets are verified against dietary standards, showing balanced caloric distribution and high protein density. The allergens and compliance module evaluates declared allergens, monitors cross-contact risks, and cross-checks regulatory claims like low sugar and GSFA additive compliance. Furthermore, the technical dossier consolidates regulatory documentation, processing specifications, and explainable AI rationales into an exportable record. With the formulation thoroughly audited across cost, stability, and safety benchmarks, users can transition seamlessly into the guided engine to configure custom product criteria and parameters. This consolidated technical record provides complete quality assurance before scaling up.
+
+## [section_04] Constraint Discovery and Configuration (00:02:26,440 --> 00:03:50,750)
+
+Now, we transition into the formulation engine to examine how recipes are synthesized from scratch through constraint configuration. The platform translates the natural language product brief into an active constraint matrix, categorizing requirements into strict hard constraints and multi-criteria soft objectives.
+
+Hard constraints act as non-negotiable feasibility vetoes. For our vegan white chocolate bar, the system enforces a strict twenty-five percent cocoa butter floor, a twenty-eight percent sugar ceiling, at least seven percent protein, and the absolute elimination of dairy and animal derivatives to guarantee vegan compliance. Formulations violating any hard constraint are immediately disqualified.
+
+In contrast, soft objectives govern optimization targets along the Pareto frontier—balancing sensory texture, creamy melt kinetics, acoustic snap, and raw material cost minimization. Technologists can interactively toggle constraints between hard vetoes and soft goals, adjust threshold boundaries, or insert custom compliance rules.
+
+As the user reviews the active constraints matrix, the system validates mass balance equality and prepares the parameter space for mathematical optimization. This explicit constraint hierarchy ensures that every candidate generated strictly satisfies safety and regulatory bounds while targeting peak sensory performance. The structured matrix eliminates ambiguity, allowing algorithmic solvers to explore only commercially and biochemically feasible ingredient spaces for industrial production. These dynamic constraint boundaries ensure rigorous formulation precision and factory reproducibility.
+
+## [section_05] Candidate Generation and Texture Strategy Inspection (00:03:52,250 --> 00:05:21,190)
+
+With constraints established, the platform initiates candidate generation. Rather than relying on empirical trial-and-error, the engine explores eligible ingredient spaces and applies sequential least squares programming—or SLSQP optimization—alongside Pareto-based frontier evaluation.
+
+Pareto scoring evaluates competing formulation criteria simultaneously, isolating non-dominated alternatives where improving nutritional density does not compromise cost or physical texture. The system groups the highest-scoring recipes into four specialized archetypes: Functionality and Texture, Balanced Pareto, Nutrition-Maximized, and Cost-Optimized.
+
+Opening the inspector for Candidate Set C—which achieved the top Pareto rank with an overall score of eighty-three point eight percent—reveals its underlying formulation rationale. This recipe optimizes the continuous lipid phase and emulsifier synergy to maximize sensory mouthfeel and bloom resistance.
+
+The mathematical solver card explicitly confirms exact one-hundred percent mass balance and water activity below zero point five eight. Transparent trade-off analytics notify formulators that the higher lipid fraction requires disciplined temper crystallization control to guarantee acoustic snap and shelf stability. The underlying solver maximizes emulsifier synergy and lipid crystal fractions under strict mass balance, ensuring optimal mouthfeel and zero phase separation. Formulators gain complete insight into algorithmic objective weights, thermodynamic feasibility, and ingredient synergy before advancing to selection, guaranteeing factory reproducibility. This transparent solver convergence provides complete scientific explainability across all matrix fractions.
+
+## [section_06] Multi-Candidate Comparison and Trade-Off Analysis (00:05:22,690 --> 00:06:23,630)
+
+Closing the modal, we transition into the comparative analysis view. Here, developers can benchmark candidate formulations side by side along the Pareto frontier.
+
+The Nutrition-Maximized candidate achieves an impressive forty-five grams of protein per serving using dense plant isolates, but incurs a higher ingredient cost of thirteen dollars and six cents per kilogram. In contrast, the Cost-Optimized candidate reduces unit cost to ten dollars and two cents while maintaining baseline functional standards. The Balanced set strikes an optimal commercial middle ground, while the Functionality set delivers premium structural integrity.
+
+By presenting multi-dimensional trade-offs transparently, the platform eliminates guesswork, enabling cross-functional teams from R and D, procurement, and brand management to select the winning formula collaboratively. This multi-objective trade-off analysis empowers teams to choose the exact balance of nutritional potency, sensory indulgence, and ingredient cost that fits their go-to-market strategy, confirming feasibility across all manufacturing, sensory, and economic criteria. Cross-functional teams can align on commercial launch strategies with total confidence.
+
+## [section_07] Final Formulation Report and Process Specifications (00:06:25,130 --> 00:07:30,530)
+
+Selecting Candidate Set C generates the comprehensive final formulation report. This dossier serves as the master technical specification for manufacturing handover.
+
+The report details exact ingredient inclusion percentages, scaled batch weights for pilot and commercial runs, and pre-calculated nutritional facts. Crucially, formulation components are linked directly to unit manufacturing operations. It prescribes mechanical particle refining below twenty-five microns, a forty-five degree Celsius conching cycle to disperse the fat phase, and precision seed tempering to induce form five polymorphic crystallization.
+
+Critical quality parameters—including a certified water activity of zero point five eight and a twelve-month ambient antioxidant stability pass—are validated upfront. Automated batch economics project cost per kilogram and yield across production volumes, establishing clear commercial viability before factory scheduling and pilot trial execution. This end-to-end documentation accelerates the transition from laboratory prototype to commercial line production without costly formulation rework, batch failures, or manufacturing delays. The complete technical dossier provides manufacturing teams with an immediate execution roadmap.
+
+## [section_08] Ingredient Library and Scientific Dossiers (00:07:32,030 --> 00:08:34,240)
+
+Beyond project-specific workflows, the platform provides dedicated scientific knowledge tools. Navigating to the Ingredient Library opens a centralized repository of verified food raw materials, functional properties, and regulatory profiles.
+
+Formulators can filter ingredients by functional category, allergen exclusions, or specific dietary claims. Opening an ingredient specification—such as Rare Sugar Allulose—displays comprehensive biochemical and regulatory metadata, including its official FDA GRAS notice number, near-zero caloric impact, and glycemic index profile.
+
+The library connects directly to the underlying Knowledge Graph, displaying localized subgraphs of functional interactions and clean-label substitution candidates. Visualizing this localized knowledge graph subgraph uncovers direct linkages between allulose, sweetness equivalence, and clean-label dietary compliance, empowering formulators to explore substitutions with complete confidence. This structured repository bridges ingredient procurement with biochemical science, ensuring consistent quality, regulatory compliance, and predictable functionality across global ingredient supply chains.
+
+## [section_09] Knowledge Graph Exploration and Reasoning Chains (00:08:35,740 --> 00:10:42,150)
+
+At the technological core of the platform is its Knowledge Graph—an ontology-driven semantic network that models food science relationships far beyond the limits of conventional databases.
+
+Rather than treating ingredients as isolated table records, the graph connects entities across multiple semantic layers—spanning raw agricultural inputs, functional molecules, physicochemical properties, sensory descriptors, processing unit operations, and regulatory standards.
+
+Selecting an ingredient like Pea Protein Isolate visualizes its immediate semantic neighborhood. The system displays an explainable AI reasoning chain, demonstrating how an eighty percent protein concentration satisfies high-protein targets, provides functional emulsification and water binding, and fulfills non-GMO, clean-label safety constraints.
+
+Formulators can dynamically adjust traversal depth to inspect higher-order relationships or switch between force-directed and concentric circle layouts. Traversal reveals critical manufacturing interactions—such as how thermal pasteurization at eighty-five degrees Celsius and twelve hundred RPM shear affects protein denaturation kinetics, emulsion stability, and volatile flavor retention.
+
+Switching to the concentric circles layout isolates the Thermal Pasteurized process node. Here, operational controls are quantified at eighty-five degrees Celsius with high-shear mixing at twelve hundred RPM. The graph dynamically maps how these thermal processing conditions interact with protein denaturation kinetics, lipid crystal polymorphism, and sensory shelf stability. By querying these structured semantic paths across allergens, processing constraints, and functional behaviors, the Knowledge Graph transforms raw food science into actionable engineering intelligence, ensuring every AI formulation is rigorously grounded in verifiable biochemical reality. Formulators can interactively filter by claims, nutrient thresholds, or process parameters, gaining full explainability into complex ingredient synergies.
+
+This continuous semantic reasoning ensures that formulations are not only mathematically optimal on paper, but also physically stable and manufacturable under real-world processing conditions. By unifying food informatics with mechanistic modeling, the Knowledge Graph empowers developers to de-risk recipes before entering pilot plant trials, connecting molecular properties directly to final product quality. This predictive intelligence guarantees manufacturing success.
+
+## [section_10] Enterprise Synthesis and Conclusion (00:10:44,000 --> 00:11:21,900)
+
+In conclusion, the Food Formulation Platform delivers an end-to-end intelligent environment for modern food product development. By integrating natural language brief interpretation, instant formulation auditing, constraint-driven mathematical optimization, and Knowledge Graph semantic reasoning, the platform empowers food scientists to innovate faster and with greater scientific certainty.
+
+From initial concept and feasibility checks to final pilot-ready technical dossiers, computational formulation transforms weeks of trial-and-error into minutes of data-driven design. It provides multidisciplinary teams with the speed, precision, and regulatory assurance needed to bring superior food products to market efficiently. Thank you for watching our demonstration.
+

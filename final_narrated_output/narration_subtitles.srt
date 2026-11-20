@@ -1,0 +1,284 @@
+1
+00:00:01,100 --> 00:00:07,346
+Welcome to our Knowledge Graph-Driven, Constraints-Aware AI-Based Food Formulation Platform.
+
+2
+00:00:07,296 --> 00:00:19,634
+This platform is designed to accelerate scientific food product development by combining artificial intelligence, knowledge graphs, ingredient intelligence, and constraint-based formulation.
+
+3
+00:00:19,634 --> 00:00:33,419
+The objective is to help food scientists and product developers identify suitable ingredients, generate formulation candidates, evaluate product characteristics, and make evidence-supported formulation decisions.
+
+4
+00:00:34,600 --> 00:00:41,366
+Let's begin with the home page, which serves as the primary entry point for the formulation process.
+
+5
+00:00:41,316 --> 00:00:47,519
+Users can describe their desired food product using a natural-language product brief.
+
+6
+00:00:47,519 --> 00:00:58,450
+This brief contains the product category, ingredient preferences, nutritional targets, functional requirements, flavor profile, and shelf-life expectations.
+
+7
+00:00:58,450 --> 00:01:04,217
+For this demonstration, we will work with a vegan white chocolate formulation.
+
+8
+00:01:04,217 --> 00:01:11,186
+The system takes this product description and prepares it for structured analysis and formulation.
+
+9
+00:01:11,100 --> 00:01:15,894
+After entering the platform, we reach the formulation dashboard.
+
+10
+00:01:15,844 --> 00:01:29,053
+The dashboard provides an overview of the formulation workflow, including candidate ingredients, formulation progress, nutritional information, functional properties, and evaluation results.
+
+11
+00:01:29,053 --> 00:01:41,192
+The platform organizes formulation information into multiple dimensions, allowing users to understand not only which ingredients are selected but also why they are suitable.
+
+12
+00:01:41,192 --> 00:01:51,913
+The dashboard also provides analytical summaries and visual representations of formulation performance, helping users compare different candidate formulations.
+
+13
+00:01:53,100 --> 00:01:57,250
+Next, we move to the ingredient selection stage.
+
+14
+00:01:57,200 --> 00:02:07,663
+The platform explores available ingredients from its underlying ingredient knowledge base and identifies candidates relevant to the product requirements.
+
+15
+00:02:07,662 --> 00:02:19,237
+Each candidate is associated with structured information such as ingredient category, functional properties, nutritional composition, and suitability information.
+
+16
+00:02:19,238 --> 00:02:30,225
+Rather than selecting ingredients using simple keyword matching alone, the platform uses relationships within the Knowledge Graph to support ingredient discovery.
+
+17
+00:02:30,225 --> 00:02:39,088
+This makes it possible to explore ingredients based on their functional roles and relationships with other food components.
+
+18
+00:02:39,088 --> 00:02:45,925
+The selected candidates are then passed to the subsequent formulation and evaluation stages.
+
+19
+00:02:48,100 --> 00:02:53,862
+An important component of this platform is constraint-aware formulation.
+
+20
+00:02:53,812 --> 00:03:02,012
+The system translates product requirements into structured constraints that can be used during candidate evaluation.
+
+21
+00:03:02,012 --> 00:03:09,575
+These constraints are divided into two major categories: hard constraints and soft constraints.
+
+22
+00:03:09,575 --> 00:03:15,837
+Hard constraints represent mandatory conditions that a formulation must satisfy.
+
+23
+00:03:15,838 --> 00:03:24,500
+For example, since our target product is vegan white chocolate, dairy-derived ingredients must be excluded.
+
+24
+00:03:24,500 --> 00:03:35,050
+Soft constraints represent preferred characteristics, such as a creamy texture, a particular flavor profile, or a preferred nutritional composition.
+
+25
+00:03:35,050 --> 00:03:45,588
+The platform also supports numerical constraints, including minimum protein content, maximum sugar content, and minimum cocoa butter concentration.
+
+26
+00:03:45,588 --> 00:03:52,050
+Each constraint can be associated with a condition, priority, and importance weight.
+
+27
+00:03:52,050 --> 00:04:01,350
+This structured representation allows the formulation engine to distinguish between mandatory requirements and optimization preferences.
+
+28
+00:04:01,350 --> 00:04:10,938
+The objective is not simply to generate a recipe, but to generate candidates that are consistent with the specified product requirements.
+
+29
+00:04:13,100 --> 00:04:17,938
+Now we move to the functional and texture evaluation stage.
+
+30
+00:04:17,887 --> 00:04:23,900
+Ingredient selection alone is not sufficient for successful food formulation.
+
+31
+00:04:23,900 --> 00:04:31,612
+Ingredients must also contribute to the required physical and functional characteristics of the final product.
+
+32
+00:04:31,613 --> 00:04:39,825
+For this reason, the platform evaluates candidate sets against different functional and textural requirements.
+
+33
+00:04:39,825 --> 00:04:50,988
+For our vegan white chocolate example, important characteristics include fat-system stability, smoothness, creamy mouthfeel, and melting behaviour.
+
+34
+00:04:50,988 --> 00:04:57,887
+The system presents the relevant functional attributes and their associated evaluation results.
+
+35
+00:04:57,887 --> 00:05:07,000
+This stage helps identify whether the selected combination of ingredients is suitable for the intended product characteristics.
+
+36
+00:05:07,000 --> 00:05:15,938
+It also provides a basis for comparing different ingredient combinations rather than relying entirely on manual selection.
+
+37
+00:05:15,938 --> 00:05:28,938
+These evaluations are intended as computational screening and decision-support results; experimental laboratory validation remains necessary to confirm actual product performance.
+
+38
+00:05:31,100 --> 00:05:39,550
+After the evaluation process, the platform organizes the available ingredient combinations into candidate sets.
+
+39
+00:05:39,500 --> 00:05:44,350
+Each candidate set represents a possible formulation direction.
+
+40
+00:05:44,350 --> 00:05:55,125
+Users can compare these candidates using their ingredient composition, functional suitability, nutritional characteristics, and constraint compliance.
+
+41
+00:05:55,125 --> 00:06:03,413
+The system provides a structured view of the candidate results, making it easier to identify promising combinations.
+
+42
+00:06:03,413 --> 00:06:12,525
+This approach supports systematic comparison and reduces the need to manually inspect every possible ingredient combination.
+
+43
+00:06:12,525 --> 00:06:21,962
+The objective is to shortlist formulations that offer a reasonable balance between product requirements and ingredient functionality.
+
+44
+00:06:24,100 --> 00:06:29,500
+Here, we return to the formulation results and analytical dashboard.
+
+45
+00:06:29,450 --> 00:06:35,600
+The dashboard brings together the information generated throughout the formulation workflow.
+
+46
+00:06:35,600 --> 00:06:45,713
+Users can examine the selected ingredients, candidate formulation scores, nutritional information, and different evaluation parameters.
+
+47
+00:06:45,712 --> 00:06:51,962
+The visual summaries help communicate the strengths and limitations of each candidate.
+
+48
+00:06:51,962 --> 00:07:01,812
+Instead of presenting only a final recipe, the platform provides supporting information that helps explain the formulation decision.
+
+49
+00:07:01,812 --> 00:07:11,375
+This is particularly important in research-oriented food product development, where transparency and traceability are essential.
+
+50
+00:07:15,100 --> 00:07:18,888
+Next, we explore the Ingredient Library.
+
+51
+00:07:18,837 --> 00:07:27,362
+The Ingredient Library acts as a centralized repository of food ingredients and their associated information.
+
+52
+00:07:27,363 --> 00:07:37,825
+Each ingredient can contain details such as its name, category, functional role, nutritional composition, and other available properties.
+
+53
+00:07:37,825 --> 00:07:49,825
+This structured information is important because the quality of formulation decisions depends heavily on the quality and organization of the underlying ingredient data.
+
+54
+00:07:49,825 --> 00:07:58,500
+The library also provides an interface for exploring individual ingredients and their associated information.
+
+55
+00:07:58,500 --> 00:08:10,775
+By maintaining ingredient information in a standardized structure, the platform creates a reusable foundation for multiple food product categories and formulation tasks.
+
+56
+00:08:30,100 --> 00:08:37,712
+Now, let's explore one of the most important components of our platform: the Food Knowledge Graph.
+
+57
+00:08:37,663 --> 00:08:44,562
+The Knowledge Graph represents food-related information through interconnected nodes and relationships.
+
+58
+00:08:44,562 --> 00:08:55,250
+Unlike a conventional database that primarily stores information in tables, a Knowledge Graph captures semantic relationships between different entities.
+
+59
+00:08:55,250 --> 00:09:07,075
+For example, an ingredient can be connected to its food category, functional role, nutritional properties, flavor characteristics, and other related entities.
+
+60
+00:09:07,075 --> 00:09:16,513
+These connections allow the platform to retrieve information through relationships rather than depending only on exact textual matches.
+
+61
+00:09:16,513 --> 00:09:21,988
+The graph explorer provides a visual representation of these connections.
+
+62
+00:09:21,987 --> 00:09:32,037
+Users can inspect individual nodes, explore their neighbouring entities, and understand how different food concepts are interconnected.
+
+63
+00:09:32,038 --> 00:09:41,275
+The platform also supports different levels of graph exploration, from individual ingredient relationships to broader subgraphs.
+
+64
+00:09:41,275 --> 00:09:54,025
+This graph-based representation is particularly useful for identifying related ingredients, understanding functional associations, and supporting context-aware ingredient retrieval.
+
+65
+00:09:54,025 --> 00:10:00,612
+The Knowledge Graph therefore acts as the structured knowledge foundation of the formulation system.
+
+66
+00:10:00,612 --> 00:10:07,425
+It connects ingredient intelligence with the constraint-aware retrieval and formulation workflow.
+
+67
+00:10:25,100 --> 00:10:41,190
+To conclude, this platform integrates natural-language product requirements, structured ingredient intelligence, Knowledge Graph-based retrieval, constraint-aware candidate selection, and formulation evaluation into a unified workflow.
+
+68
+00:10:41,140 --> 00:10:51,863
+The major contribution is the integration of food knowledge and formulation constraints to support more systematic and explainable food product development.
+
+69
+00:10:51,863 --> 00:11:04,730
+The platform is designed to assist food scientists and product developers in exploring ingredient combinations, evaluating formulation candidates, and making informed decisions.
+
+70
+00:11:04,730 --> 00:11:19,044
+Future work will focus on improving retrieval accuracy, expanding the ingredient knowledge base, strengthening formulation evaluation models, and validating generated candidates through laboratory experiments.
+
+71
+00:11:19,044 --> 00:11:22,267
+Thank you for watching this demonstration.
+

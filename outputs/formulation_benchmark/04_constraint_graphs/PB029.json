@@ -1,0 +1,67 @@
+{
+  "nodes": [
+    {
+      "id": "PROD-001",
+      "type": "ProductBrief",
+      "value": "Target Product (Plant-Based Beverages)",
+      "source": "User Product Brief"
+    },
+    {
+      "id": "CONST-001",
+      "type": "Product_CategoryConstraintNode",
+      "value": "product_category REQUIRED Plant-Based Beverages",
+      "source": "Formulate a gut-health prebiotic golden turmeric plant drink"
+    },
+    {
+      "id": "CONST-002",
+      "type": "NutritionConstraintNode",
+      "value": "protein_min >= 3.0 %",
+      "source": "3% protein"
+    },
+    {
+      "id": "CONST-003",
+      "type": "SensoryConstraintNode",
+      "value": "bitterness_masking REQUIRED Low Bitterness",
+      "source": "low bitterness"
+    },
+    {
+      "id": "CONST-004",
+      "type": "Shelf_LifeConstraintNode",
+      "value": "shelf_stability REQUIRED 6-month",
+      "source": "shelf life"
+    }
+  ],
+  "edges": [
+    {
+      "source": "PROD-001",
+      "relationship": "HAS_CONSTRAINT",
+      "target": "CONST-001"
+    },
+    {
+      "source": "PROD-001",
+      "relationship": "HAS_NUTRITION_CONSTRAINT",
+      "target": "CONST-002"
+    },
+    {
+      "source": "PROD-001",
+      "relationship": "HAS_SENSORY_CONSTRAINT",
+      "target": "CONST-003"
+    },
+    {
+      "source": "PROD-001",
+      "relationship": "HAS_PROCESSING_CONSTRAINT",
+      "target": "CONST-004"
+    }
+  ],
+  "summary": {
+    "Nutrition Constraints": 1,
+    "Functional Constraints": 0,
+    "Sensory Constraints": 1,
+    "Regulatory Constraints": 0,
+    "Cost Constraints": 0,
+    "Ingredient Restrictions": 0,
+    "Processing Constraints": 1,
+    "Graph Nodes": 5,
+    "Graph Edges": 4
+  }
+}

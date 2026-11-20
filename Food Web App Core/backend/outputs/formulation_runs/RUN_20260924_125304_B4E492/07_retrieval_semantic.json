@@ -1,0 +1,11 @@
+{
+  "strategy": "Semantic Vector Search",
+  "focus": "Conceptual similarity across flavor, texture & brief text",
+  "query_concept": "Create a dairy-free chocolate containing cocoa butter, plant protein, roasted almonds and caramel flavor. Target at least 25% cocoa butter, at least 7% protein, at least 8% almond content and at most 28% sugar. Develop a caramelized nut and vanilla flavor with creamy melt and 12-month shelf life. cocoa flavour chocolate flavour vanilla flavour",
+  "count": 36,
+  "top_matches": [
+    "Vanilla Flavour (Nature Identical Vanillin) (similarity: 0.5129)",
+    "Dutch Processed Cocoa Powder 10-12% (similarity: 0.3734)",
+    "Natural Bourbon Vanilla Extract (similarity: 0.3677)"
+  ]
+}

@@ -1,8 +1,7 @@
 source,source_type,jurisdiction,documents_available,documents_processed,constraints_extracted,constraints_validated,constraints_rejected,food_categories_found,additives_found,ingredients_found
-SRC-CODEX,Codex,Codex,308,308,308,308,0,9,199,199
+SRC-CODEX,International,International,199,199,199,199,0,78,199,199
 SRC-FDA,US,US,2,2,2,2,0,2,2,2
 SRC-FSSAI,India,India,4,4,4,4,0,4,4,4
-SRC-PATENT,US,US,1,1,1,1,0,1,1,1
 SRC-SCIENTIFIC-LITERATURE,Global,Global,2,2,2,2,0,2,2,2
 SRC-SUPPLIER-TDS,Commercial,Commercial,2,2,2,2,0,2,2,2
 SRC-USDA-FDC,Global,Global,1,1,1,1,0,1,1,1

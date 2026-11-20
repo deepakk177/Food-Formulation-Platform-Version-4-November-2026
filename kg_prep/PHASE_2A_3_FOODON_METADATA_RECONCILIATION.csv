@@ -1,0 +1,13 @@
+metadata_element,phase_2a_staged,phase_2a_1_audit,phase_2a_2_staged,phase_2a_3_actual_owl_count,definition_reconciliation_explanation
+total_named_classes,1000,39682,39682,39682,Phase 2A capped at max_records=1000. Phase 2A.2 removed limit and staged 100% of ontology.
+classes_with_definitions,382,19158,19158,19158,Unique owl:Class elements containing at least one IAO_0000115 definition text.
+total_definition_entries,N/A,N/A,N/A,19239,Total count of IAO_0000115 tags across all classes (81 classes possess multiple definitions).
+classes_with_synonyms,310,6819,12282,12282,Phase 2A.1 reported 6819 exact synonyms; 12282 includes exact, related, broad, narrow synonyms.
+total_synonym_entries,N/A,N/A,N/A,30241,Total count of all synonym elements (exact/related/broad/narrow) across the entire ontology.
+classes_with_external_xrefs,115,22969,4609,4609,Phase 2A.1 counted all cross-ontology tags; 4609 is strict count of classes with oboInOwl:hasDbXref.
+total_external_xref_entries,N/A,N/A,N/A,5898,Total count of oboInOwl:hasDbXref tags across all classes.
+deprecated_classes,14,587,587,587,Unique classes explicitly marked with owl:deprecated equal to true.
+classes_with_replacement_pointers,12,502,502,502,Unique deprecated classes specifying replacement term via IAO_0100001.
+total_replacement_entries,N/A,N/A,N/A,505,Total occurrences of IAO_0100001 replacement tags (3 classes contain multiple replacements).
+direct_named_subclass_edges,1162,46027,46027,46027,Direct subsumption edges where rdfs:subClassOf references a named rdf:resource IRI.
+anonymous_subclass_restrictions,N/A,N/A,N/A,9520,Anonymous owl:Restriction subclass expressions (e.g. someValuesFrom, hasValue).

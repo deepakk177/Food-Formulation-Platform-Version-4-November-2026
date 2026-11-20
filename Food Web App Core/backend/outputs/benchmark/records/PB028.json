@@ -1,0 +1,3429 @@
+{
+  "product_brief_id": "PB028",
+  "benchmark_category": "Plant-Based Beverages",
+  "extracted_product_category": "Plant-Based Beverages",
+  "product_name": "N Ultra-Low-Cost Commercial Plant-Based Tea Latte Beverage",
+  "product_brief": "Develop an ultra-low-cost commercial plant-based tea latte beverage containing at least 2.5% protein and raw material cost below 4.0 USD/kg. Must deliver smooth mouthfeel, authentic black tea and dairy-free creamy notes, and 12-month ambient stability. Exclude animal milk.",
+  "target_consumer": {
+    "consumer_group": "Health-Conscious Active Adults",
+    "diet": "General",
+    "special_requirements": [
+      "dairy"
+    ]
+  },
+  "dietary_requirements": [],
+  "all_constraints": [
+    {
+      "name": "product_category REQUIRED Plant-Based Beverages",
+      "type": "PRODUCT_CATEGORY",
+      "weight": 0.7,
+      "hard_or_soft": "SOFT",
+      "reason": "Extracted PRODUCT_CATEGORY requirement",
+      "source": "Product Brief Parser",
+      "parameter": "product_category",
+      "operator": "REQUIRED",
+      "target_value": "Plant-Based Beverages"
+    },
+    {
+      "name": "dairy FORBIDDEN milk_and_dairy_derivatives",
+      "type": "ALLERGEN",
+      "weight": 1.0,
+      "hard_or_soft": "HARD",
+      "reason": "Mandatory consumer allergen exclusion and cross-contact safety",
+      "source": "Allergen Exclusion Rules",
+      "parameter": "dairy",
+      "operator": "FORBIDDEN",
+      "target_value": "milk_and_dairy_derivatives"
+    },
+    {
+      "name": "protein_min >= 2.5",
+      "type": "NUTRITION",
+      "weight": 0.7,
+      "hard_or_soft": "SOFT",
+      "reason": "Extracted NUTRITION requirement",
+      "source": "Product Brief Parser",
+      "parameter": "protein_min",
+      "operator": ">=",
+      "target_value": 2.5
+    },
+    {
+      "name": "max_raw_material_cost <= 4.0",
+      "type": "COST",
+      "weight": 0.85,
+      "hard_or_soft": "SOFT",
+      "reason": "Commercial raw material cost target per kg",
+      "source": "Commercial Cost Target",
+      "parameter": "max_raw_material_cost",
+      "operator": "<=",
+      "target_value": 4.0
+    },
+    {
+      "name": "texture_profile PREFERRED Smooth",
+      "type": "SENSORY",
+      "weight": 0.7,
+      "hard_or_soft": "SOFT",
+      "reason": "Sensory flavor, visual color, and mouthfeel target profile",
+      "source": "Sensory Panel Targets",
+      "parameter": "texture_profile",
+      "operator": "PREFERRED",
+      "target_value": "Smooth"
+    },
+    {
+      "name": "texture_profile PREFERRED Creamy",
+      "type": "SENSORY",
+      "weight": 0.7,
+      "hard_or_soft": "SOFT",
+      "reason": "Sensory flavor, visual color, and mouthfeel target profile",
+      "source": "Sensory Panel Targets",
+      "parameter": "texture_profile",
+      "operator": "PREFERRED",
+      "target_value": "Creamy"
+    },
+    {
+      "name": "shelf_stability REQUIRED 12-month",
+      "type": "SHELF_LIFE",
+      "weight": 0.75,
+      "hard_or_soft": "SOFT",
+      "reason": "Target ambient shelf stability requirement",
+      "source": "Quality Assurance Standard",
+      "parameter": "shelf_stability",
+      "operator": "REQUIRED",
+      "target_value": "12-month"
+    }
+  ],
+  "hard_constraints": [
+    {
+      "name": "dairy FORBIDDEN milk_and_dairy_derivatives",
+      "type": "ALLERGEN",
+      "weight": 1.0,
+      "hard_or_soft": "HARD",
+      "reason": "Mandatory consumer allergen exclusion and cross-contact safety",
+      "source": "Allergen Exclusion Rules",
+      "parameter": "dairy",
+      "operator": "FORBIDDEN",
+      "target_value": "milk_and_dairy_derivatives"
+    }
+  ],
+  "soft_constraints": [
+    {
+      "name": "product_category REQUIRED Plant-Based Beverages",
+      "type": "PRODUCT_CATEGORY",
+      "weight": 0.7,
+      "hard_or_soft": "SOFT",
+      "reason": "Extracted PRODUCT_CATEGORY requirement",
+      "source": "Product Brief Parser",
+      "parameter": "product_category",
+      "operator": "REQUIRED",
+      "target_value": "Plant-Based Beverages"
+    },
+    {
+      "name": "protein_min >= 2.5",
+      "type": "NUTRITION",
+      "weight": 0.7,
+      "hard_or_soft": "SOFT",
+      "reason": "Extracted NUTRITION requirement",
+      "source": "Product Brief Parser",
+      "parameter": "protein_min",
+      "operator": ">=",
+      "target_value": 2.5
+    },
+    {
+      "name": "max_raw_material_cost <= 4.0",
+      "type": "COST",
+      "weight": 0.85,
+      "hard_or_soft": "SOFT",
+      "reason": "Commercial raw material cost target per kg",
+      "source": "Commercial Cost Target",
+      "parameter": "max_raw_material_cost",
+      "operator": "<=",
+      "target_value": 4.0
+    },
+    {
+      "name": "texture_profile PREFERRED Smooth",
+      "type": "SENSORY",
+      "weight": 0.7,
+      "hard_or_soft": "SOFT",
+      "reason": "Sensory flavor, visual color, and mouthfeel target profile",
+      "source": "Sensory Panel Targets",
+      "parameter": "texture_profile",
+      "operator": "PREFERRED",
+      "target_value": "Smooth"
+    },
+    {
+      "name": "texture_profile PREFERRED Creamy",
+      "type": "SENSORY",
+      "weight": 0.7,
+      "hard_or_soft": "SOFT",
+      "reason": "Sensory flavor, visual color, and mouthfeel target profile",
+      "source": "Sensory Panel Targets",
+      "parameter": "texture_profile",
+      "operator": "PREFERRED",
+      "target_value": "Creamy"
+    },
+    {
+      "name": "shelf_stability REQUIRED 12-month",
+      "type": "SHELF_LIFE",
+      "weight": 0.75,
+      "hard_or_soft": "SOFT",
+      "reason": "Target ambient shelf stability requirement",
+      "source": "Quality Assurance Standard",
+      "parameter": "shelf_stability",
+      "operator": "REQUIRED",
+      "target_value": "12-month"
+    }
+  ],
+  "constraint_graph": {
+    "nodes": [
+      {
+        "id": "PROD-001",
+        "type": "ProductBrief",
+        "value": "Target Product (Plant-Based Beverages)",
+        "source": "User Product Brief"
+      },
+      {
+        "id": "CONST-001",
+        "type": "Product_CategoryConstraintNode",
+        "value": "product_category REQUIRED Plant-Based Beverages",
+        "source": "Develop an ultra-low-cost commercial plant-based tea latte b"
+      },
+      {
+        "id": "CONST-002",
+        "type": "AllergenConstraintNode",
+        "value": "dairy FORBIDDEN milk_and_dairy_derivatives",
+        "source": "dairy-free"
+      },
+      {
+        "id": "CONST-003",
+        "type": "NutritionConstraintNode",
+        "value": "protein_min >= 2.5 %",
+        "source": "2.5% protein"
+      },
+      {
+        "id": "CONST-004",
+        "type": "CostConstraintNode",
+        "value": "max_raw_material_cost <= 4.0 USD/kg",
+        "source": "4.0 USD/kg"
+      },
+      {
+        "id": "CONST-005",
+        "type": "SensoryConstraintNode",
+        "value": "texture_profile PREFERRED Smooth",
+        "source": "smooth"
+      },
+      {
+        "id": "CONST-006",
+        "type": "SensoryConstraintNode",
+        "value": "texture_profile PREFERRED Creamy",
+        "source": "creamy"
+      },
+      {
+        "id": "CONST-007",
+        "type": "Shelf_LifeConstraintNode",
+        "value": "shelf_stability REQUIRED 12-month",
+        "source": "ambient"
+      }
+    ],
+    "edges": [
+      {
+        "source": "PROD-001",
+        "relationship": "HAS_CONSTRAINT",
+        "target": "CONST-001"
+      },
+      {
+        "source": "PROD-001",
+        "relationship": "HAS_ALLERGEN_CONSTRAINT",
+        "target": "CONST-002"
+      },
+      {
+        "source": "PROD-001",
+        "relationship": "HAS_NUTRITION_CONSTRAINT",
+        "target": "CONST-003"
+      },
+      {
+        "source": "PROD-001",
+        "relationship": "HAS_COST_CONSTRAINT",
+        "target": "CONST-004"
+      },
+      {
+        "source": "PROD-001",
+        "relationship": "HAS_SENSORY_CONSTRAINT",
+        "target": "CONST-005"
+      },
+      {
+        "source": "PROD-001",
+        "relationship": "HAS_SENSORY_CONSTRAINT",
+        "target": "CONST-006"
+      },
+      {
+        "source": "PROD-001",
+        "relationship": "HAS_PROCESSING_CONSTRAINT",
+        "target": "CONST-007"
+      }
+    ],
+    "summary": {
+      "Nutrition Constraints": 1,
+      "Functional Constraints": 0,
+      "Sensory Constraints": 2,
+      "Regulatory Constraints": 0,
+      "Cost Constraints": 1,
+      "Ingredient Restrictions": 1,
+      "Processing Constraints": 1,
+      "Graph Nodes": 8,
+      "Graph Edges": 7
+    }
+  },
+  "dynamic_subgraph": {
+    "nodes": [
+      {
+        "ingredient_id": "ing_ammonium_phosphatides",
+        "ingredient_name": "Ammonium Phosphatides (INS 442)",
+        "food_category": "Emulsifiers",
+        "functional_roles": [
+          "Emulsifier"
+        ],
+        "properties": {
+          "water_activity": "NOT_MEASURED",
+          "ph": "NEUTRAL"
+        },
+        "nutrition": {
+          "protein": 0.0,
+          "fat": 95.0,
+          "carbs": 0.0,
+          "calories": 850.0
+        },
+        "cost": {
+          "cost_per_kg": 6.8,
+          "currency": "USD"
+        },
+        "regulation": {
+          "status": "Permitted",
+          "jurisdiction": "FDA / Codex"
+        },
+        "allergens": [],
+        "compatibility": [],
+        "evidence": [
+          "Grounded Repository DB"
+        ],
+        "matched_constraints": [],
+        "source": {
+          "db": "tcs_food_formulator_kg.db",
+          "provenance": "USDA / FoodData Central"
+        }
+      },
+      {
+        "ingredient_id": "ing_cane_sugar",
+        "ingredient_name": "Refined Cane Sugar (Granulated)",
+        "food_category": "Sweeteners",
+        "functional_roles": [
+          "Sweetener"
+        ],
+        "properties": {
+          "water_activity": "NOT_MEASURED",
+          "ph": "NEUTRAL"
+        },
+        "nutrition": {
+          "protein": 0.0,
+          "fat": 0.0,
+          "carbs": 100.0,
+          "calories": 387.0
+        },
+        "cost": {
+          "cost_per_kg": 1.2,
+          "currency": "USD"
+        },
+        "regulation": {
+          "status": "Permitted",
+          "jurisdiction": "FDA / Codex"
+        },
+        "allergens": [],
+        "compatibility": [],
+        "evidence": [
+          "Grounded Repository DB"
+        ],
+        "matched_constraints": [],
+        "source": {
+          "db": "tcs_food_formulator_kg.db",
+          "provenance": "USDA / FoodData Central"
+        }
+      },
+      {
+        "ingredient_id": "ing_chicory_inulin",
+        "ingredient_name": "Chicory Root Inulin Fibre",
+        "food_category": "Fibres",
+        "functional_roles": [
+          "Fiber"
+        ],
+        "properties": {
+          "water_activity": "NOT_MEASURED",
+          "ph": "NEUTRAL"
+        },
+        "nutrition": {
+          "protein": 0.0,
+          "fat": 0.0,
+          "carbs": 95.0,
+          "calories": 210.0
+        },
+        "cost": {
+          "cost_per_kg": 9.2,
+          "currency": "USD"
+        },
+        "regulation": {
+          "status": "Permitted",
+          "jurisdiction": "FDA / Codex"
+        },
+        "allergens": [],
+        "compatibility": [],
+        "evidence": [
+          "Grounded Repository DB"
+        ],
+        "matched_constraints": [],
+        "source": {
+          "db": "tcs_food_formulator_kg.db",
+          "provenance": "USDA / FoodData Central"
+        }
+      },
+      {
+        "ingredient_id": "ing_citric_acid",
+        "ingredient_name": "Citric Acid Anhydrous (INS 330)",
+        "food_category": "Food Additives",
+        "functional_roles": [
+          "Acidity Regulator"
+        ],
+        "properties": {
+          "water_activity": "NOT_MEASURED",
+          "ph": "NEUTRAL"
+        },
+        "nutrition": {
+          "protein": 0.0,
+          "fat": 0.0,
+          "carbs": 100.0,
+          "calories": 247.0
+        },
+        "cost": {
+          "cost_per_kg": 3.2,
+          "currency": "USD"
+        },
+        "regulation": {
+          "status": "Permitted",
+          "jurisdiction": "FDA / Codex"
+        },
+        "allergens": [],
+        "compatibility": [],
+        "evidence": [
+          "Grounded Repository DB"
+        ],
+        "matched_constraints": [],
+        "source": {
+          "db": "tcs_food_formulator_kg.db",
+          "provenance": "USDA / FoodData Central"
+        }
+      },
+      {
+        "ingredient_id": "ing_cocoa_mass",
+        "ingredient_name": "Cocoa Solids / Cocoa Liquor (Mass)",
+        "food_category": "Cocoa Solids",
+        "functional_roles": [
+          "Cocoa Solids"
+        ],
+        "properties": {
+          "water_activity": "NOT_MEASURED",
+          "ph": "NEUTRAL"
+        },
+        "nutrition": {
+          "protein": 13.0,
+          "fat": 53.0,
+          "carbs": 28.0,
+          "calories": 640.0
+        },
+        "cost": {
+          "cost_per_kg": 11.5,
+          "currency": "USD"
+        },
+        "regulation": {
+          "status": "Permitted",
+          "jurisdiction": "FDA / Codex"
+        },
+        "allergens": [],
+        "compatibility": [],
+        "evidence": [
+          "Grounded Repository DB"
+        ],
+        "matched_constraints": [],
+        "source": {
+          "db": "tcs_food_formulator_kg.db",
+          "provenance": "USDA / FoodData Central"
+        }
+      },
+      {
+        "ingredient_id": "ing_cocoa_powder",
+        "ingredient_name": "Dutch Processed Cocoa Powder 10-12%",
+        "food_category": "Flavoring & Cocoa",
+        "functional_roles": [
+          "Flavor System"
+        ],
+        "properties": {
+          "water_activity": "NOT_MEASURED",
+          "ph": "NEUTRAL"
+        },
+        "nutrition": {
+          "protein": 20.0,
+          "fat": 11.0,
+          "carbs": 58.0,
+          "calories": 230.0
+        },
+        "cost": {
+          "cost_per_kg": 11.5,
+          "currency": "USD"
+        },
+        "regulation": {
+          "status": "Permitted",
+          "jurisdiction": "FDA / Codex"
+        },
+        "allergens": [],
+        "compatibility": [],
+        "evidence": [
+          "Grounded Repository DB"
+        ],
+        "matched_constraints": [],
+        "source": {
+          "db": "tcs_food_formulator_kg.db",
+          "provenance": "USDA / FoodData Central"
+        }
+      },
+      {
+        "ingredient_id": "ing_coconut_sugar",
+        "ingredient_name": "Organic Coconut Sugar",
+        "food_category": "Sweeteners",
+        "functional_roles": [
+          "Sweetener"
+        ],
+        "properties": {
+          "water_activity": "NOT_MEASURED",
+          "ph": "NEUTRAL"
+        },
+        "nutrition": {
+          "protein": 1.0,
+          "fat": 0.2,
+          "carbs": 93.0,
+          "calories": 375.0
+        },
+        "cost": {
+          "cost_per_kg": 4.8,
+          "currency": "USD"
+        },
+        "regulation": {
+          "status": "Permitted",
+          "jurisdiction": "FDA / Codex"
+        },
+        "allergens": [],
+        "compatibility": [],
+        "evidence": [
+          "Grounded Repository DB"
+        ],
+        "matched_constraints": [],
+        "source": {
+          "db": "tcs_food_formulator_kg.db",
+          "provenance": "USDA / FoodData Central"
+        }
+      },
+      {
+        "ingredient_id": "ing_erythritol",
+        "ingredient_name": "Erythritol Polyol",
+        "food_category": "Sweeteners",
+        "functional_roles": [
+          "Sweetener"
+        ],
+        "properties": {
+          "water_activity": "NOT_MEASURED",
+          "ph": "NEUTRAL"
+        },
+        "nutrition": {
+          "protein": 0.0,
+          "fat": 0.0,
+          "carbs": 100.0,
+          "calories": 0.0
+        },
+        "cost": {
+          "cost_per_kg": 6.2,
+          "currency": "USD"
+        },
+        "regulation": {
+          "status": "Permitted",
+          "jurisdiction": "FDA / Codex"
+        },
+        "allergens": [],
+        "compatibility": [],
+        "evidence": [
+          "Grounded Repository DB"
+        ],
+        "matched_constraints": [],
+        "source": {
+          "db": "tcs_food_formulator_kg.db",
+          "provenance": "USDA / FoodData Central"
+        }
+      },
+      {
+        "ingredient_id": "ing_guar_gum",
+        "ingredient_name": "Guar Gum 200 Mesh",
+        "food_category": "Hydrocolloids",
+        "functional_roles": [
+          "Stabilizer"
+        ],
+        "properties": {
+          "water_activity": "NOT_MEASURED",
+          "ph": "NEUTRAL"
+        },
+        "nutrition": {
+          "protein": 5.0,
+          "fat": 0.5,
+          "carbs": 82.0,
+          "calories": 330.0
+        },
+        "cost": {
+          "cost_per_kg": 9.8,
+          "currency": "USD"
+        },
+        "regulation": {
+          "status": "Permitted",
+          "jurisdiction": "FDA / Codex"
+        },
+        "allergens": [],
+        "compatibility": [],
+        "evidence": [
+          "Grounded Repository DB"
+        ],
+        "matched_constraints": [],
+        "source": {
+          "db": "tcs_food_formulator_kg.db",
+          "provenance": "USDA / FoodData Central"
+        }
+      },
+      {
+        "ingredient_id": "ing_mono_diglycerides",
+        "ingredient_name": "Mono- and Diglycerides of Fatty Acids (INS 471 / E471)",
+        "food_category": "Emulsifiers",
+        "functional_roles": [
+          "Emulsifier"
+        ],
+        "properties": {
+          "water_activity": "NOT_MEASURED",
+          "ph": "NEUTRAL"
+        },
+        "nutrition": {
+          "protein": 0.0,
+          "fat": 99.0,
+          "carbs": 0.0,
+          "calories": 890.0
+        },
+        "cost": {
+          "cost_per_kg": 8.5,
+          "currency": "USD"
+        },
+        "regulation": {
+          "status": "Permitted",
+          "jurisdiction": "FDA / Codex"
+        },
+        "allergens": [],
+        "compatibility": [],
+        "evidence": [
+          "Grounded Repository DB"
+        ],
+        "matched_constraints": [],
+        "source": {
+          "db": "tcs_food_formulator_kg.db",
+          "provenance": "USDA / FoodData Central"
+        }
+      },
+      {
+        "ingredient_id": "ing_oat_fiber",
+        "ingredient_name": "Organic Oat Fiber (90% Fibre)",
+        "food_category": "Fibres",
+        "functional_roles": [
+          "Fiber"
+        ],
+        "properties": {
+          "water_activity": "NOT_MEASURED",
+          "ph": "NEUTRAL"
+        },
+        "nutrition": {
+          "protein": 0.5,
+          "fat": 0.2,
+          "carbs": 93.0,
+          "calories": 20.0
+        },
+        "cost": {
+          "cost_per_kg": 6.8,
+          "currency": "USD"
+        },
+        "regulation": {
+          "status": "Permitted",
+          "jurisdiction": "FDA / Codex"
+        },
+        "allergens": [],
+        "compatibility": [],
+        "evidence": [
+          "Grounded Repository DB"
+        ],
+        "matched_constraints": [],
+        "source": {
+          "db": "tcs_food_formulator_kg.db",
+          "provenance": "USDA / FoodData Central"
+        }
+      },
+      {
+        "ingredient_id": "ing_pgpr",
+        "ingredient_name": "Polyglycerol Polyricinoleate (PGPR / INS 476)",
+        "food_category": "Emulsifiers",
+        "functional_roles": [
+          "Emulsifier"
+        ],
+        "properties": {
+          "water_activity": "NOT_MEASURED",
+          "ph": "NEUTRAL"
+        },
+        "nutrition": {
+          "protein": 0.0,
+          "fat": 100.0,
+          "carbs": 0.0,
+          "calories": 900.0
+        },
+        "cost": {
+          "cost_per_kg": 8.5,
+          "currency": "USD"
+        },
+        "regulation": {
+          "status": "Permitted",
+          "jurisdiction": "FDA / Codex"
+        },
+        "allergens": [],
+        "compatibility": [],
+        "evidence": [
+          "Grounded Repository DB"
+        ],
+        "matched_constraints": [],
+        "source": {
+          "db": "tcs_food_formulator_kg.db",
+          "provenance": "USDA / FoodData Central"
+        }
+      },
+      {
+        "ingredient_id": "ing_rice_protein",
+        "ingredient_name": "Organic Brown Rice Protein",
+        "food_category": "Proteins",
+        "functional_roles": [
+          "Protein Source"
+        ],
+        "properties": {
+          "water_activity": "NOT_MEASURED",
+          "ph": "NEUTRAL"
+        },
+        "nutrition": {
+          "protein": 80.0,
+          "fat": 3.0,
+          "carbs": 7.0,
+          "calories": 380.0
+        },
+        "cost": {
+          "cost_per_kg": 11.2,
+          "currency": "USD"
+        },
+        "regulation": {
+          "status": "Permitted",
+          "jurisdiction": "FDA / Codex"
+        },
+        "allergens": [],
+        "compatibility": [],
+        "evidence": [
+          "Grounded Repository DB"
+        ],
+        "matched_constraints": [],
+        "source": {
+          "db": "tcs_food_formulator_kg.db",
+          "provenance": "USDA / FoodData Central"
+        }
+      },
+      {
+        "ingredient_id": "ing_sea_salt",
+        "ingredient_name": "Natural Sea Salt",
+        "food_category": "Minerals",
+        "functional_roles": [
+          "Flavor System"
+        ],
+        "properties": {
+          "water_activity": "NOT_MEASURED",
+          "ph": "NEUTRAL"
+        },
+        "nutrition": {
+          "protein": 0.0,
+          "fat": 0.0,
+          "carbs": 0.0,
+          "calories": 0.0
+        },
+        "cost": {
+          "cost_per_kg": 1.5,
+          "currency": "USD"
+        },
+        "regulation": {
+          "status": "Permitted",
+          "jurisdiction": "FDA / Codex"
+        },
+        "allergens": [],
+        "compatibility": [],
+        "evidence": [
+          "Grounded Repository DB"
+        ],
+        "matched_constraints": [],
+        "source": {
+          "db": "tcs_food_formulator_kg.db",
+          "provenance": "USDA / FoodData Central"
+        }
+      },
+      {
+        "ingredient_id": "ing_sodium_bicarbonate",
+        "ingredient_name": "Sodium Bicarbonate / Baking Soda (INS 500ii)",
+        "food_category": "Food Additives",
+        "functional_roles": [
+          "Raising Agent"
+        ],
+        "properties": {
+          "water_activity": "NOT_MEASURED",
+          "ph": "NEUTRAL"
+        },
+        "nutrition": {
+          "protein": 0.0,
+          "fat": 0.0,
+          "carbs": 0.0,
+          "calories": 0.0
+        },
+        "cost": {
+          "cost_per_kg": 1.8,
+          "currency": "USD"
+        },
+        "regulation": {
+          "status": "Permitted",
+          "jurisdiction": "FDA / Codex"
+        },
+        "allergens": [],
+        "compatibility": [],
+        "evidence": [
+          "Grounded Repository DB"
+        ],
+        "matched_constraints": [],
+        "source": {
+          "db": "tcs_food_formulator_kg.db",
+          "provenance": "USDA / FoodData Central"
+        }
+      },
+      {
+        "ingredient_id": "ing_soluble_corn_fiber",
+        "ingredient_name": "Soluble Corn Fiber",
+        "food_category": "Fibres",
+        "functional_roles": [
+          "Fiber"
+        ],
+        "properties": {
+          "water_activity": "NOT_MEASURED",
+          "ph": "NEUTRAL"
+        },
+        "nutrition": {
+          "protein": 0.0,
+          "fat": 0.0,
+          "carbs": 92.0,
+          "calories": 160.0
+        },
+        "cost": {
+          "cost_per_kg": 8.5,
+          "currency": "USD"
+        },
+        "regulation": {
+          "status": "Permitted",
+          "jurisdiction": "FDA / Codex"
+        },
+        "allergens": [],
+        "compatibility": [],
+        "evidence": [
+          "Grounded Repository DB"
+        ],
+        "matched_constraints": [],
+        "source": {
+          "db": "tcs_food_formulator_kg.db",
+          "provenance": "USDA / FoodData Central"
+        }
+      },
+      {
+        "ingredient_id": "ing_soy_lecithin",
+        "ingredient_name": "Soy Lecithin (INS 322)",
+        "food_category": "Emulsifiers",
+        "functional_roles": [
+          "Emulsifier"
+        ],
+        "properties": {
+          "water_activity": "NOT_MEASURED",
+          "ph": "NEUTRAL"
+        },
+        "nutrition": {
+          "protein": 0.0,
+          "fat": 100.0,
+          "carbs": 0.0,
+          "calories": 760.0
+        },
+        "cost": {
+          "cost_per_kg": 4.2,
+          "currency": "USD"
+        },
+        "regulation": {
+          "status": "Permitted",
+          "jurisdiction": "FDA / Codex"
+        },
+        "allergens": [],
+        "compatibility": [],
+        "evidence": [
+          "Grounded Repository DB"
+        ],
+        "matched_constraints": [],
+        "source": {
+          "db": "tcs_food_formulator_kg.db",
+          "provenance": "USDA / FoodData Central"
+        }
+      },
+      {
+        "ingredient_id": "ing_soy_protein",
+        "ingredient_name": "Soy Protein Isolate",
+        "food_category": "Proteins",
+        "functional_roles": [
+          "General",
+          "Protein Source"
+        ],
+        "properties": {
+          "water_activity": "NOT_MEASURED",
+          "ph": "NEUTRAL"
+        },
+        "nutrition": {
+          "protein": 90.0,
+          "fat": 1.0,
+          "carbs": 1.0,
+          "calories": 370.0
+        },
+        "cost": {
+          "cost_per_kg": 10.8,
+          "currency": "USD"
+        },
+        "regulation": {
+          "status": "Permitted",
+          "jurisdiction": "FDA / Codex"
+        },
+        "allergens": [],
+        "compatibility": [],
+        "evidence": [
+          "Grounded Repository DB"
+        ],
+        "matched_constraints": [],
+        "source": {
+          "db": "tcs_food_formulator_kg.db",
+          "provenance": "USDA / FoodData Central"
+        }
+      },
+      {
+        "ingredient_id": "ing_sunflower_lecithin",
+        "ingredient_name": "Sunflower Lecithin",
+        "food_category": "Emulsifiers",
+        "functional_roles": [
+          "General",
+          "Emulsifier"
+        ],
+        "properties": {
+          "water_activity": "NOT_MEASURED",
+          "ph": "NEUTRAL"
+        },
+        "nutrition": {
+          "protein": 0.0,
+          "fat": 90.0,
+          "carbs": 8.0,
+          "calories": 720.0
+        },
+        "cost": {
+          "cost_per_kg": 10.5,
+          "currency": "USD"
+        },
+        "regulation": {
+          "status": "Permitted",
+          "jurisdiction": "FDA / Codex"
+        },
+        "allergens": [],
+        "compatibility": [],
+        "evidence": [
+          "Grounded Repository DB"
+        ],
+        "matched_constraints": [],
+        "source": {
+          "db": "tcs_food_formulator_kg.db",
+          "provenance": "USDA / FoodData Central"
+        }
+      },
+      {
+        "ingredient_id": "ing_sunflower_oil",
+        "ingredient_name": "High Oleic Sunflower Oil",
+        "food_category": "Fats & Oils",
+        "functional_roles": [
+          "Fats & Oils"
+        ],
+        "properties": {
+          "water_activity": "NOT_MEASURED",
+          "ph": "NEUTRAL"
+        },
+        "nutrition": {
+          "protein": 0.0,
+          "fat": 100.0,
+          "carbs": 0.0,
+          "calories": 884.0
+        },
+        "cost": {
+          "cost_per_kg": 5.4,
+          "currency": "USD"
+        },
+        "regulation": {
+          "status": "Permitted",
+          "jurisdiction": "FDA / Codex"
+        },
+        "allergens": [],
+        "compatibility": [],
+        "evidence": [
+          "Grounded Repository DB"
+        ],
+        "matched_constraints": [],
+        "source": {
+          "db": "tcs_food_formulator_kg.db",
+          "provenance": "USDA / FoodData Central"
+        }
+      },
+      {
+        "ingredient_id": "ing_tapioca_starch",
+        "ingredient_name": "Native Tapioca Starch",
+        "food_category": "Starches",
+        "functional_roles": [
+          "Emulsifier"
+        ],
+        "properties": {
+          "water_activity": "NOT_MEASURED",
+          "ph": "NEUTRAL"
+        },
+        "nutrition": {
+          "protein": 0.2,
+          "fat": 0.1,
+          "carbs": 88.0,
+          "calories": 350.0
+        },
+        "cost": {
+          "cost_per_kg": 3.8,
+          "currency": "USD"
+        },
+        "regulation": {
+          "status": "Permitted",
+          "jurisdiction": "FDA / Codex"
+        },
+        "allergens": [],
+        "compatibility": [],
+        "evidence": [
+          "Grounded Repository DB"
+        ],
+        "matched_constraints": [],
+        "source": {
+          "db": "tcs_food_formulator_kg.db",
+          "provenance": "USDA / FoodData Central"
+        }
+      }
+    ],
+    "edges": [],
+    "retrieval_queries": [
+      {
+        "intent_id": "INTENT-01",
+        "purpose": "Find ingredients satisfying protein requirement",
+        "entities": [
+          "Proteins",
+          "Protein Isolate",
+          "Plant Protein"
+        ],
+        "constraints": [
+          "Dairy-Free",
+          "NOT lactose",
+          "NOT whey",
+          "NOT butter",
+          "NOT milk",
+          "NOT dairy",
+          "NOT casein"
+        ],
+        "required_properties": [
+          "protein_g",
+          "solubility",
+          "pdcaas"
+        ]
+      },
+      {
+        "intent_id": "INTENT-02",
+        "purpose": "Find compatible lipid system and oil matrix",
+        "entities": [
+          "Fats",
+          "Oils",
+          "Lipid Matrix"
+        ],
+        "constraints": [
+          "Dairy-Free"
+        ],
+        "required_properties": [
+          "fat_g",
+          "solid_fat_index",
+          "melting_point"
+        ]
+      },
+      {
+        "intent_id": "INTENT-03",
+        "purpose": "Find permitted sweetener system for target sweetness profile",
+        "entities": [
+          "Sweeteners",
+          "Syrups",
+          "Polyols"
+        ],
+        "constraints": [
+          "Dairy-Free"
+        ],
+        "required_properties": [
+          "sweetness_index",
+          "glycemic_index"
+        ]
+      },
+      {
+        "intent_id": "INTENT-04",
+        "purpose": "Find emulsifier & texturizer agents for rheology",
+        "entities": [
+          "Emulsifiers",
+          "Hydrocolloids",
+          "Gums",
+          "Fibres"
+        ],
+        "constraints": [
+          "Food Additive Compliance"
+        ],
+        "required_properties": [
+          "emulsion_capacity",
+          "viscosity_impact"
+        ]
+      }
+    ],
+    "retrieval_methods": [
+      "KG",
+      "SEMANTIC",
+      "STRUCTURED"
+    ]
+  },
+  "candidate_sets": [
+    {
+      "candidate_id": "FC-001",
+      "title": "Experiment (Nutrition Maximized): Beverage Matrix",
+      "set_name": "Nutrition Maximized Strategy",
+      "composition": {
+        "bulk_ingredients": [
+          {
+            "name": "Refined Cane Sugar (Granulated)",
+            "ingredient": "Refined Cane Sugar (Granulated)",
+            "category": "Sweeteners",
+            "percentage": 60.1124,
+            "id": "ing_cane_sugar"
+          },
+          {
+            "name": "Dutch Processed Cocoa Powder 10-12%",
+            "ingredient": "Dutch Processed Cocoa Powder 10-12%",
+            "category": "Flavoring & Cocoa",
+            "percentage": 38.17,
+            "id": "ing_cocoa_powder"
+          }
+        ],
+        "functional_ingredients": [
+          {
+            "name": "Ammonium Phosphatides (INS 442)",
+            "ingredient": "Ammonium Phosphatides (INS 442)",
+            "functional_role": "Emulsifier",
+            "percentage": 0.9065,
+            "id": "ing_ammonium_phosphatides"
+          },
+          {
+            "name": "Citric Acid Anhydrous (INS 330)",
+            "ingredient": "Citric Acid Anhydrous (INS 330)",
+            "functional_role": "Acidity Control",
+            "percentage": 0.8111,
+            "id": "ing_citric_acid"
+          }
+        ],
+        "base_ingredients": [
+          {
+            "id": "ing_cane_sugar",
+            "name": "Refined Cane Sugar (Granulated)",
+            "category": "Sweeteners",
+            "subcategory": "Sweeteners",
+            "functional_role": "Sweetener",
+            "formulation_role": "Base Raw Material",
+            "percentage": 60.1124,
+            "quantity_g": 601.124,
+            "ins_number": null,
+            "cas_number": null,
+            "pubchem_id": null,
+            "regulatory_status": "Permitted",
+            "component_status": "Required",
+            "purpose": "Fulfills Sweetener",
+            "why_present": "Provides sweetener functionality in sweeteners matrix.",
+            "addition_stage": "Phase 1: Blending",
+            "addition_order": 1,
+            "confidence": null,
+            "confidence_status": "UNRATED",
+            "source_evidence": "Grounded Repository DB",
+            "cost_per_kg": 1.2,
+            "cost_status": "KNOWN",
+            "protein": 0.0,
+            "fat": 0.0,
+            "carbs": 100.0,
+            "calories": 387.0
+          },
+          {
+            "id": "ing_cocoa_powder",
+            "name": "Dutch Processed Cocoa Powder 10-12%",
+            "category": "Flavoring & Cocoa",
+            "subcategory": "Flavoring & Cocoa",
+            "functional_role": "Cocoa Solids",
+            "formulation_role": "Base Raw Material",
+            "percentage": 38.17,
+            "quantity_g": 381.7,
+            "ins_number": null,
+            "cas_number": null,
+            "pubchem_id": null,
+            "regulatory_status": "Permitted",
+            "component_status": "Required",
+            "purpose": "Fulfills Cocoa Solids",
+            "why_present": "Provides cocoa solids functionality in flavoring & cocoa matrix.",
+            "addition_stage": "Phase 1: Blending",
+            "addition_order": 3,
+            "confidence": 0.1198,
+            "confidence_status": "KNOWN",
+            "source_evidence": "Grounded Repository DB",
+            "cost_per_kg": 11.5,
+            "cost_status": "KNOWN",
+            "protein": 20.0,
+            "fat": 11.0,
+            "carbs": 58.0,
+            "calories": 230.0
+          }
+        ],
+        "functional_additives": [
+          {
+            "id": "ing_ammonium_phosphatides",
+            "name": "Ammonium Phosphatides (INS 442)",
+            "category": "Emulsifiers",
+            "subcategory": "Emulsifiers",
+            "functional_role": "Emulsifier",
+            "formulation_role": "Functional Texturizer",
+            "percentage": 0.9065,
+            "quantity_g": 9.065,
+            "ins_number": null,
+            "cas_number": null,
+            "pubchem_id": null,
+            "regulatory_status": "Permitted",
+            "component_status": "Required",
+            "purpose": "Fulfills Emulsifier",
+            "why_present": "Provides emulsifier functionality in emulsifiers matrix.",
+            "addition_stage": "Phase 1: Blending",
+            "addition_order": 4,
+            "confidence": null,
+            "confidence_status": "UNRATED",
+            "source_evidence": "Grounded Repository DB",
+            "cost_per_kg": 6.8,
+            "cost_status": "KNOWN",
+            "protein": 0.0,
+            "fat": 95.0,
+            "carbs": 0.0,
+            "calories": 850.0
+          }
+        ],
+        "fortification_system": [],
+        "preservation_system": [],
+        "leavening_system": [],
+        "processing_aids": [
+          {
+            "id": "ing_citric_acid",
+            "name": "Citric Acid Anhydrous (INS 330)",
+            "category": "Food Additives",
+            "subcategory": "Food Additives",
+            "functional_role": "Acidity Control",
+            "formulation_role": "Acidity & pH Control",
+            "percentage": 0.8111,
+            "quantity_g": 8.111,
+            "ins_number": null,
+            "cas_number": null,
+            "pubchem_id": null,
+            "regulatory_status": "Permitted",
+            "component_status": "Required",
+            "purpose": "Fulfills Acidity Control",
+            "why_present": "Provides acidity control functionality in food additives matrix.",
+            "addition_stage": "Phase 1: Blending",
+            "addition_order": 2,
+            "confidence": null,
+            "confidence_status": "UNRATED",
+            "source_evidence": "Grounded Repository DB",
+            "cost_per_kg": 3.2,
+            "cost_status": "KNOWN",
+            "protein": 0.0,
+            "fat": 0.0,
+            "carbs": 100.0,
+            "calories": 247.0
+          }
+        ],
+        "all_components": [
+          {
+            "id": "ing_cane_sugar",
+            "name": "Refined Cane Sugar (Granulated)",
+            "category": "Sweeteners",
+            "subcategory": "Sweeteners",
+            "functional_role": "Sweetener",
+            "formulation_role": "Base Raw Material",
+            "percentage": 60.1124,
+            "quantity_g": 601.124,
+            "ins_number": null,
+            "cas_number": null,
+            "pubchem_id": null,
+            "regulatory_status": "Permitted",
+            "component_status": "Required",
+            "purpose": "Fulfills Sweetener",
+            "why_present": "Provides sweetener functionality in sweeteners matrix.",
+            "addition_stage": "Phase 1: Blending",
+            "addition_order": 1,
+            "confidence": null,
+            "confidence_status": "UNRATED",
+            "source_evidence": "Grounded Repository DB",
+            "cost_per_kg": 1.2,
+            "cost_status": "KNOWN",
+            "protein": 0.0,
+            "fat": 0.0,
+            "carbs": 100.0,
+            "calories": 387.0
+          },
+          {
+            "id": "ing_citric_acid",
+            "name": "Citric Acid Anhydrous (INS 330)",
+            "category": "Food Additives",
+            "subcategory": "Food Additives",
+            "functional_role": "Acidity Control",
+            "formulation_role": "Acidity & pH Control",
+            "percentage": 0.8111,
+            "quantity_g": 8.111,
+            "ins_number": null,
+            "cas_number": null,
+            "pubchem_id": null,
+            "regulatory_status": "Permitted",
+            "component_status": "Required",
+            "purpose": "Fulfills Acidity Control",
+            "why_present": "Provides acidity control functionality in food additives matrix.",
+            "addition_stage": "Phase 1: Blending",
+            "addition_order": 2,
+            "confidence": null,
+            "confidence_status": "UNRATED",
+            "source_evidence": "Grounded Repository DB",
+            "cost_per_kg": 3.2,
+            "cost_status": "KNOWN",
+            "protein": 0.0,
+            "fat": 0.0,
+            "carbs": 100.0,
+            "calories": 247.0
+          },
+          {
+            "id": "ing_cocoa_powder",
+            "name": "Dutch Processed Cocoa Powder 10-12%",
+            "category": "Flavoring & Cocoa",
+            "subcategory": "Flavoring & Cocoa",
+            "functional_role": "Cocoa Solids",
+            "formulation_role": "Base Raw Material",
+            "percentage": 38.17,
+            "quantity_g": 381.7,
+            "ins_number": null,
+            "cas_number": null,
+            "pubchem_id": null,
+            "regulatory_status": "Permitted",
+            "component_status": "Required",
+            "purpose": "Fulfills Cocoa Solids",
+            "why_present": "Provides cocoa solids functionality in flavoring & cocoa matrix.",
+            "addition_stage": "Phase 1: Blending",
+            "addition_order": 3,
+            "confidence": 0.1198,
+            "confidence_status": "KNOWN",
+            "source_evidence": "Grounded Repository DB",
+            "cost_per_kg": 11.5,
+            "cost_status": "KNOWN",
+            "protein": 20.0,
+            "fat": 11.0,
+            "carbs": 58.0,
+            "calories": 230.0
+          },
+          {
+            "id": "ing_ammonium_phosphatides",
+            "name": "Ammonium Phosphatides (INS 442)",
+            "category": "Emulsifiers",
+            "subcategory": "Emulsifiers",
+            "functional_role": "Emulsifier",
+            "formulation_role": "Functional Texturizer",
+            "percentage": 0.9065,
+            "quantity_g": 9.065,
+            "ins_number": null,
+            "cas_number": null,
+            "pubchem_id": null,
+            "regulatory_status": "Permitted",
+            "component_status": "Required",
+            "purpose": "Fulfills Emulsifier",
+            "why_present": "Provides emulsifier functionality in emulsifiers matrix.",
+            "addition_stage": "Phase 1: Blending",
+            "addition_order": 4,
+            "confidence": null,
+            "confidence_status": "UNRATED",
+            "source_evidence": "Grounded Repository DB",
+            "cost_per_kg": 6.8,
+            "cost_status": "KNOWN",
+            "protein": 0.0,
+            "fat": 95.0,
+            "carbs": 0.0,
+            "calories": 850.0
+          }
+        ]
+      },
+      "total_percentage": 100.0,
+      "is_mathematically_valid": false,
+      "completeness_audit": {
+        "completeness_score": 66.7,
+        "status": "Needs Minor Component Review",
+        "checklist": {
+          "major_ingredients_present": true,
+          "functional_ingredients_present": true,
+          "food_additives_evaluated": false,
+          "preservatives_antioxidants_evaluated": false,
+          "emulsifiers_stabilizers_evaluated": true,
+          "flavor_sensory_system_evaluated": true,
+          "color_visual_system_evaluated": false,
+          "sweeteners_evaluated": true,
+          "acidity_ph_regulators_evaluated": true,
+          "leavening_raising_agents_evaluated": true,
+          "processing_aids_evaluated": true,
+          "fortification_nutritional_evaluated": false,
+          "carriers_delivery_systems_evaluated": false,
+          "regulatory_limits_satisfied": true,
+          "functional_justification_valid": true
+        },
+        "evaluated_aspects": [
+          "major_ingredients_present",
+          "functional_ingredients_present",
+          "food_additives_evaluated",
+          "preservatives_antioxidants_evaluated",
+          "emulsifiers_stabilizers_evaluated",
+          "flavor_sensory_system_evaluated",
+          "color_visual_system_evaluated",
+          "sweeteners_evaluated",
+          "acidity_ph_regulators_evaluated",
+          "leavening_raising_agents_evaluated",
+          "processing_aids_evaluated",
+          "fortification_nutritional_evaluated",
+          "carriers_delivery_systems_evaluated",
+          "regulatory_limits_satisfied",
+          "functional_justification_valid"
+        ],
+        "recommendations": [
+          "Consider antioxidant (e.g. Tocopherols INS 307) or sorbate for extended shelf stability."
+        ]
+      },
+      "compatibility": {
+        "is_compatible": true,
+        "compatibility_score": 100.0,
+        "incompatibilities": [],
+        "synergies": [],
+        "status": "CALCULATED"
+      },
+      "nutrition": {
+        "protein": 7.6,
+        "fat": 5.1,
+        "carbohydrates": 83.1,
+        "calories": 330.0,
+        "texture": "Laboratory testing required",
+        "mouthfeel": "Not measured",
+        "viscosity": "Not measured",
+        "shelf_life": null,
+        "shelf_life_status": "INSUFFICIENT_LABELED_DATA"
+      },
+      "cost_per_kg": 5.2,
+      "cost_status": "CALCULATED",
+      "process_steps": [
+        "Stage 1: De-aerate liquid base and measure ingredient dosing.",
+        "Stage 2: Hydrate hydrocolloids and emulsifiers under controlled shear.",
+        "Stage 3: Thermal pasteurization according to regulatory pathogen log-reduction guidelines.",
+        "Stage 4: Aseptic packaging and cold storage."
+      ],
+      "score": {
+        "overall_score": 64.1,
+        "radar_scores": {
+          "Nutrition": 0.0,
+          "Protein": 19.0,
+          "Functional": 40.0,
+          "Evidence": 100.0,
+          "Compatibility": 100.0,
+          "Cost": 74.0,
+          "Regulatory": 100.0,
+          "Compliance": 100.0
+        },
+        "profile_name": "BALANCED",
+        "explanation": "Overall score 64.1/100 computed under 'BALANCED' strategy. Nutrition compliance: 0.0% (Actual 7.6g vs Target 2.5g). Evidence coverage: 100.0% (4/4 grounded).",
+        "formulas": {
+          "nutrition_score": "min(100, (actual_protein / target_protein) * 100)",
+          "functional_score": "(covered_roles / required_roles) * 100",
+          "evidence_score": "(grounded_ingredients / total_ingredients) * 100",
+          "regulatory_score": "(permitted_ingredients / total_ingredients) * 100"
+        },
+        "cost_per_kg_inr": 5.2,
+        "cost_status": "CALCULATED",
+        "is_feasible": false,
+        "performance": {
+          "overall": 64.1
+        },
+        "confidence_metric_name": "Data & Provenance Completeness",
+        "confidence_value": 64.1
+      }
+    },
+    {
+      "candidate_id": "FC-002",
+      "title": "Experiment (Cost Optimized): Beverage Matrix",
+      "set_name": "Cost Optimized Strategy",
+      "composition": {
+        "bulk_ingredients": [
+          {
+            "name": "Refined Cane Sugar (Granulated)",
+            "ingredient": "Refined Cane Sugar (Granulated)",
+            "category": "Sweeteners",
+            "percentage": 60.1124,
+            "id": "ing_cane_sugar"
+          },
+          {
+            "name": "Dutch Processed Cocoa Powder 10-12%",
+            "ingredient": "Dutch Processed Cocoa Powder 10-12%",
+            "category": "Flavoring & Cocoa",
+            "percentage": 38.17,
+            "id": "ing_cocoa_powder"
+          }
+        ],
+        "functional_ingredients": [
+          {
+            "name": "Ammonium Phosphatides (INS 442)",
+            "ingredient": "Ammonium Phosphatides (INS 442)",
+            "functional_role": "Emulsifier",
+            "percentage": 0.9065,
+            "id": "ing_ammonium_phosphatides"
+          },
+          {
+            "name": "Citric Acid Anhydrous (INS 330)",
+            "ingredient": "Citric Acid Anhydrous (INS 330)",
+            "functional_role": "Acidity Control",
+            "percentage": 0.8111,
+            "id": "ing_citric_acid"
+          }
+        ],
+        "base_ingredients": [
+          {
+            "id": "ing_cane_sugar",
+            "name": "Refined Cane Sugar (Granulated)",
+            "category": "Sweeteners",
+            "subcategory": "Sweeteners",
+            "functional_role": "Sweetener",
+            "formulation_role": "Base Raw Material",
+            "percentage": 60.1124,
+            "quantity_g": 601.124,
+            "ins_number": null,
+            "cas_number": null,
+            "pubchem_id": null,
+            "regulatory_status": "Permitted",
+            "component_status": "Required",
+            "purpose": "Fulfills Sweetener",
+            "why_present": "Provides sweetener functionality in sweeteners matrix.",
+            "addition_stage": "Phase 1: Blending",
+            "addition_order": 1,
+            "confidence": null,
+            "confidence_status": "UNRATED",
+            "source_evidence": "Grounded Repository DB",
+            "cost_per_kg": 1.2,
+            "cost_status": "KNOWN",
+            "protein": 0.0,
+            "fat": 0.0,
+            "carbs": 100.0,
+            "calories": 387.0
+          },
+          {
+            "id": "ing_cocoa_powder",
+            "name": "Dutch Processed Cocoa Powder 10-12%",
+            "category": "Flavoring & Cocoa",
+            "subcategory": "Flavoring & Cocoa",
+            "functional_role": "Cocoa Solids",
+            "formulation_role": "Base Raw Material",
+            "percentage": 38.17,
+            "quantity_g": 381.7,
+            "ins_number": null,
+            "cas_number": null,
+            "pubchem_id": null,
+            "regulatory_status": "Permitted",
+            "component_status": "Required",
+            "purpose": "Fulfills Cocoa Solids",
+            "why_present": "Provides cocoa solids functionality in flavoring & cocoa matrix.",
+            "addition_stage": "Phase 1: Blending",
+            "addition_order": 3,
+            "confidence": 0.1198,
+            "confidence_status": "KNOWN",
+            "source_evidence": "Grounded Repository DB",
+            "cost_per_kg": 11.5,
+            "cost_status": "KNOWN",
+            "protein": 20.0,
+            "fat": 11.0,
+            "carbs": 58.0,
+            "calories": 230.0
+          }
+        ],
+        "functional_additives": [
+          {
+            "id": "ing_ammonium_phosphatides",
+            "name": "Ammonium Phosphatides (INS 442)",
+            "category": "Emulsifiers",
+            "subcategory": "Emulsifiers",
+            "functional_role": "Emulsifier",
+            "formulation_role": "Functional Texturizer",
+            "percentage": 0.9065,
+            "quantity_g": 9.065,
+            "ins_number": null,
+            "cas_number": null,
+            "pubchem_id": null,
+            "regulatory_status": "Permitted",
+            "component_status": "Required",
+            "purpose": "Fulfills Emulsifier",
+            "why_present": "Provides emulsifier functionality in emulsifiers matrix.",
+            "addition_stage": "Phase 1: Blending",
+            "addition_order": 4,
+            "confidence": null,
+            "confidence_status": "UNRATED",
+            "source_evidence": "Grounded Repository DB",
+            "cost_per_kg": 6.8,
+            "cost_status": "KNOWN",
+            "protein": 0.0,
+            "fat": 95.0,
+            "carbs": 0.0,
+            "calories": 850.0
+          }
+        ],
+        "fortification_system": [],
+        "preservation_system": [],
+        "leavening_system": [],
+        "processing_aids": [
+          {
+            "id": "ing_citric_acid",
+            "name": "Citric Acid Anhydrous (INS 330)",
+            "category": "Food Additives",
+            "subcategory": "Food Additives",
+            "functional_role": "Acidity Control",
+            "formulation_role": "Acidity & pH Control",
+            "percentage": 0.8111,
+            "quantity_g": 8.111,
+            "ins_number": null,
+            "cas_number": null,
+            "pubchem_id": null,
+            "regulatory_status": "Permitted",
+            "component_status": "Required",
+            "purpose": "Fulfills Acidity Control",
+            "why_present": "Provides acidity control functionality in food additives matrix.",
+            "addition_stage": "Phase 1: Blending",
+            "addition_order": 2,
+            "confidence": null,
+            "confidence_status": "UNRATED",
+            "source_evidence": "Grounded Repository DB",
+            "cost_per_kg": 3.2,
+            "cost_status": "KNOWN",
+            "protein": 0.0,
+            "fat": 0.0,
+            "carbs": 100.0,
+            "calories": 247.0
+          }
+        ],
+        "all_components": [
+          {
+            "id": "ing_cane_sugar",
+            "name": "Refined Cane Sugar (Granulated)",
+            "category": "Sweeteners",
+            "subcategory": "Sweeteners",
+            "functional_role": "Sweetener",
+            "formulation_role": "Base Raw Material",
+            "percentage": 60.1124,
+            "quantity_g": 601.124,
+            "ins_number": null,
+            "cas_number": null,
+            "pubchem_id": null,
+            "regulatory_status": "Permitted",
+            "component_status": "Required",
+            "purpose": "Fulfills Sweetener",
+            "why_present": "Provides sweetener functionality in sweeteners matrix.",
+            "addition_stage": "Phase 1: Blending",
+            "addition_order": 1,
+            "confidence": null,
+            "confidence_status": "UNRATED",
+            "source_evidence": "Grounded Repository DB",
+            "cost_per_kg": 1.2,
+            "cost_status": "KNOWN",
+            "protein": 0.0,
+            "fat": 0.0,
+            "carbs": 100.0,
+            "calories": 387.0
+          },
+          {
+            "id": "ing_citric_acid",
+            "name": "Citric Acid Anhydrous (INS 330)",
+            "category": "Food Additives",
+            "subcategory": "Food Additives",
+            "functional_role": "Acidity Control",
+            "formulation_role": "Acidity & pH Control",
+            "percentage": 0.8111,
+            "quantity_g": 8.111,
+            "ins_number": null,
+            "cas_number": null,
+            "pubchem_id": null,
+            "regulatory_status": "Permitted",
+            "component_status": "Required",
+            "purpose": "Fulfills Acidity Control",
+            "why_present": "Provides acidity control functionality in food additives matrix.",
+            "addition_stage": "Phase 1: Blending",
+            "addition_order": 2,
+            "confidence": null,
+            "confidence_status": "UNRATED",
+            "source_evidence": "Grounded Repository DB",
+            "cost_per_kg": 3.2,
+            "cost_status": "KNOWN",
+            "protein": 0.0,
+            "fat": 0.0,
+            "carbs": 100.0,
+            "calories": 247.0
+          },
+          {
+            "id": "ing_cocoa_powder",
+            "name": "Dutch Processed Cocoa Powder 10-12%",
+            "category": "Flavoring & Cocoa",
+            "subcategory": "Flavoring & Cocoa",
+            "functional_role": "Cocoa Solids",
+            "formulation_role": "Base Raw Material",
+            "percentage": 38.17,
+            "quantity_g": 381.7,
+            "ins_number": null,
+            "cas_number": null,
+            "pubchem_id": null,
+            "regulatory_status": "Permitted",
+            "component_status": "Required",
+            "purpose": "Fulfills Cocoa Solids",
+            "why_present": "Provides cocoa solids functionality in flavoring & cocoa matrix.",
+            "addition_stage": "Phase 1: Blending",
+            "addition_order": 3,
+            "confidence": 0.1198,
+            "confidence_status": "KNOWN",
+            "source_evidence": "Grounded Repository DB",
+            "cost_per_kg": 11.5,
+            "cost_status": "KNOWN",
+            "protein": 20.0,
+            "fat": 11.0,
+            "carbs": 58.0,
+            "calories": 230.0
+          },
+          {
+            "id": "ing_ammonium_phosphatides",
+            "name": "Ammonium Phosphatides (INS 442)",
+            "category": "Emulsifiers",
+            "subcategory": "Emulsifiers",
+            "functional_role": "Emulsifier",
+            "formulation_role": "Functional Texturizer",
+            "percentage": 0.9065,
+            "quantity_g": 9.065,
+            "ins_number": null,
+            "cas_number": null,
+            "pubchem_id": null,
+            "regulatory_status": "Permitted",
+            "component_status": "Required",
+            "purpose": "Fulfills Emulsifier",
+            "why_present": "Provides emulsifier functionality in emulsifiers matrix.",
+            "addition_stage": "Phase 1: Blending",
+            "addition_order": 4,
+            "confidence": null,
+            "confidence_status": "UNRATED",
+            "source_evidence": "Grounded Repository DB",
+            "cost_per_kg": 6.8,
+            "cost_status": "KNOWN",
+            "protein": 0.0,
+            "fat": 95.0,
+            "carbs": 0.0,
+            "calories": 850.0
+          }
+        ]
+      },
+      "total_percentage": 100.0,
+      "is_mathematically_valid": false,
+      "completeness_audit": {
+        "completeness_score": 66.7,
+        "status": "Needs Minor Component Review",
+        "checklist": {
+          "major_ingredients_present": true,
+          "functional_ingredients_present": true,
+          "food_additives_evaluated": false,
+          "preservatives_antioxidants_evaluated": false,
+          "emulsifiers_stabilizers_evaluated": true,
+          "flavor_sensory_system_evaluated": true,
+          "color_visual_system_evaluated": false,
+          "sweeteners_evaluated": true,
+          "acidity_ph_regulators_evaluated": true,
+          "leavening_raising_agents_evaluated": true,
+          "processing_aids_evaluated": true,
+          "fortification_nutritional_evaluated": false,
+          "carriers_delivery_systems_evaluated": false,
+          "regulatory_limits_satisfied": true,
+          "functional_justification_valid": true
+        },
+        "evaluated_aspects": [
+          "major_ingredients_present",
+          "functional_ingredients_present",
+          "food_additives_evaluated",
+          "preservatives_antioxidants_evaluated",
+          "emulsifiers_stabilizers_evaluated",
+          "flavor_sensory_system_evaluated",
+          "color_visual_system_evaluated",
+          "sweeteners_evaluated",
+          "acidity_ph_regulators_evaluated",
+          "leavening_raising_agents_evaluated",
+          "processing_aids_evaluated",
+          "fortification_nutritional_evaluated",
+          "carriers_delivery_systems_evaluated",
+          "regulatory_limits_satisfied",
+          "functional_justification_valid"
+        ],
+        "recommendations": [
+          "Consider antioxidant (e.g. Tocopherols INS 307) or sorbate for extended shelf stability."
+        ]
+      },
+      "compatibility": {
+        "is_compatible": true,
+        "compatibility_score": 100.0,
+        "incompatibilities": [],
+        "synergies": [],
+        "status": "CALCULATED"
+      },
+      "nutrition": {
+        "protein": 7.6,
+        "fat": 5.1,
+        "carbohydrates": 83.1,
+        "calories": 330.0,
+        "texture": "Laboratory testing required",
+        "mouthfeel": "Not measured",
+        "viscosity": "Not measured",
+        "shelf_life": null,
+        "shelf_life_status": "INSUFFICIENT_LABELED_DATA"
+      },
+      "cost_per_kg": 5.2,
+      "cost_status": "CALCULATED",
+      "process_steps": [
+        "Stage 1: De-aerate liquid base and measure ingredient dosing.",
+        "Stage 2: Hydrate hydrocolloids and emulsifiers under controlled shear.",
+        "Stage 3: Thermal pasteurization according to regulatory pathogen log-reduction guidelines.",
+        "Stage 4: Aseptic packaging and cold storage."
+      ],
+      "score": {
+        "overall_score": 64.1,
+        "radar_scores": {
+          "Nutrition": 0.0,
+          "Protein": 19.0,
+          "Functional": 40.0,
+          "Evidence": 100.0,
+          "Compatibility": 100.0,
+          "Cost": 74.0,
+          "Regulatory": 100.0,
+          "Compliance": 100.0
+        },
+        "profile_name": "BALANCED",
+        "explanation": "Overall score 64.1/100 computed under 'BALANCED' strategy. Nutrition compliance: 0.0% (Actual 7.6g vs Target 2.5g). Evidence coverage: 100.0% (4/4 grounded).",
+        "formulas": {
+          "nutrition_score": "min(100, (actual_protein / target_protein) * 100)",
+          "functional_score": "(covered_roles / required_roles) * 100",
+          "evidence_score": "(grounded_ingredients / total_ingredients) * 100",
+          "regulatory_score": "(permitted_ingredients / total_ingredients) * 100"
+        },
+        "cost_per_kg_inr": 5.2,
+        "cost_status": "CALCULATED",
+        "is_feasible": false,
+        "performance": {
+          "overall": 64.1
+        },
+        "confidence_metric_name": "Data & Provenance Completeness",
+        "confidence_value": 64.1
+      }
+    },
+    {
+      "candidate_id": "FC-003",
+      "title": "Experiment (Balanced): Beverage Matrix",
+      "set_name": "Balanced Strategy",
+      "composition": {
+        "bulk_ingredients": [
+          {
+            "name": "Refined Cane Sugar (Granulated)",
+            "ingredient": "Refined Cane Sugar (Granulated)",
+            "category": "Sweeteners",
+            "percentage": 60.1124,
+            "id": "ing_cane_sugar"
+          },
+          {
+            "name": "Dutch Processed Cocoa Powder 10-12%",
+            "ingredient": "Dutch Processed Cocoa Powder 10-12%",
+            "category": "Flavoring & Cocoa",
+            "percentage": 38.17,
+            "id": "ing_cocoa_powder"
+          }
+        ],
+        "functional_ingredients": [
+          {
+            "name": "Ammonium Phosphatides (INS 442)",
+            "ingredient": "Ammonium Phosphatides (INS 442)",
+            "functional_role": "Emulsifier",
+            "percentage": 0.9065,
+            "id": "ing_ammonium_phosphatides"
+          },
+          {
+            "name": "Citric Acid Anhydrous (INS 330)",
+            "ingredient": "Citric Acid Anhydrous (INS 330)",
+            "functional_role": "Acidity Control",
+            "percentage": 0.8111,
+            "id": "ing_citric_acid"
+          }
+        ],
+        "base_ingredients": [
+          {
+            "id": "ing_cane_sugar",
+            "name": "Refined Cane Sugar (Granulated)",
+            "category": "Sweeteners",
+            "subcategory": "Sweeteners",
+            "functional_role": "Sweetener",
+            "formulation_role": "Base Raw Material",
+            "percentage": 60.1124,
+            "quantity_g": 601.124,
+            "ins_number": null,
+            "cas_number": null,
+            "pubchem_id": null,
+            "regulatory_status": "Permitted",
+            "component_status": "Required",
+            "purpose": "Fulfills Sweetener",
+            "why_present": "Provides sweetener functionality in sweeteners matrix.",
+            "addition_stage": "Phase 1: Blending",
+            "addition_order": 1,
+            "confidence": null,
+            "confidence_status": "UNRATED",
+            "source_evidence": "Grounded Repository DB",
+            "cost_per_kg": 1.2,
+            "cost_status": "KNOWN",
+            "protein": 0.0,
+            "fat": 0.0,
+            "carbs": 100.0,
+            "calories": 387.0
+          },
+          {
+            "id": "ing_cocoa_powder",
+            "name": "Dutch Processed Cocoa Powder 10-12%",
+            "category": "Flavoring & Cocoa",
+            "subcategory": "Flavoring & Cocoa",
+            "functional_role": "Cocoa Solids",
+            "formulation_role": "Base Raw Material",
+            "percentage": 38.17,
+            "quantity_g": 381.7,
+            "ins_number": null,
+            "cas_number": null,
+            "pubchem_id": null,
+            "regulatory_status": "Permitted",
+            "component_status": "Required",
+            "purpose": "Fulfills Cocoa Solids",
+            "why_present": "Provides cocoa solids functionality in flavoring & cocoa matrix.",
+            "addition_stage": "Phase 1: Blending",
+            "addition_order": 3,
+            "confidence": 0.1198,
+            "confidence_status": "KNOWN",
+            "source_evidence": "Grounded Repository DB",
+            "cost_per_kg": 11.5,
+            "cost_status": "KNOWN",
+            "protein": 20.0,
+            "fat": 11.0,
+            "carbs": 58.0,
+            "calories": 230.0
+          }
+        ],
+        "functional_additives": [
+          {
+            "id": "ing_ammonium_phosphatides",
+            "name": "Ammonium Phosphatides (INS 442)",
+            "category": "Emulsifiers",
+            "subcategory": "Emulsifiers",
+            "functional_role": "Emulsifier",
+            "formulation_role": "Functional Texturizer",
+            "percentage": 0.9065,
+            "quantity_g": 9.065,
+            "ins_number": null,
+            "cas_number": null,
+            "pubchem_id": null,
+            "regulatory_status": "Permitted",
+            "component_status": "Required",
+            "purpose": "Fulfills Emulsifier",
+            "why_present": "Provides emulsifier functionality in emulsifiers matrix.",
+            "addition_stage": "Phase 1: Blending",
+            "addition_order": 4,
+            "confidence": null,
+            "confidence_status": "UNRATED",
+            "source_evidence": "Grounded Repository DB",
+            "cost_per_kg": 6.8,
+            "cost_status": "KNOWN",
+            "protein": 0.0,
+            "fat": 95.0,
+            "carbs": 0.0,
+            "calories": 850.0
+          }
+        ],
+        "fortification_system": [],
+        "preservation_system": [],
+        "leavening_system": [],
+        "processing_aids": [
+          {
+            "id": "ing_citric_acid",
+            "name": "Citric Acid Anhydrous (INS 330)",
+            "category": "Food Additives",
+            "subcategory": "Food Additives",
+            "functional_role": "Acidity Control",
+            "formulation_role": "Acidity & pH Control",
+            "percentage": 0.8111,
+            "quantity_g": 8.111,
+            "ins_number": null,
+            "cas_number": null,
+            "pubchem_id": null,
+            "regulatory_status": "Permitted",
+            "component_status": "Required",
+            "purpose": "Fulfills Acidity Control",
+            "why_present": "Provides acidity control functionality in food additives matrix.",
+            "addition_stage": "Phase 1: Blending",
+            "addition_order": 2,
+            "confidence": null,
+            "confidence_status": "UNRATED",
+            "source_evidence": "Grounded Repository DB",
+            "cost_per_kg": 3.2,
+            "cost_status": "KNOWN",
+            "protein": 0.0,
+            "fat": 0.0,
+            "carbs": 100.0,
+            "calories": 247.0
+          }
+        ],
+        "all_components": [
+          {
+            "id": "ing_cane_sugar",
+            "name": "Refined Cane Sugar (Granulated)",
+            "category": "Sweeteners",
+            "subcategory": "Sweeteners",
+            "functional_role": "Sweetener",
+            "formulation_role": "Base Raw Material",
+            "percentage": 60.1124,
+            "quantity_g": 601.124,
+            "ins_number": null,
+            "cas_number": null,
+            "pubchem_id": null,
+            "regulatory_status": "Permitted",
+            "component_status": "Required",
+            "purpose": "Fulfills Sweetener",
+            "why_present": "Provides sweetener functionality in sweeteners matrix.",
+            "addition_stage": "Phase 1: Blending",
+            "addition_order": 1,
+            "confidence": null,
+            "confidence_status": "UNRATED",
+            "source_evidence": "Grounded Repository DB",
+            "cost_per_kg": 1.2,
+            "cost_status": "KNOWN",
+            "protein": 0.0,
+            "fat": 0.0,
+            "carbs": 100.0,
+            "calories": 387.0
+          },
+          {
+            "id": "ing_citric_acid",
+            "name": "Citric Acid Anhydrous (INS 330)",
+            "category": "Food Additives",
+            "subcategory": "Food Additives",
+            "functional_role": "Acidity Control",
+            "formulation_role": "Acidity & pH Control",
+            "percentage": 0.8111,
+            "quantity_g": 8.111,
+            "ins_number": null,
+            "cas_number": null,
+            "pubchem_id": null,
+            "regulatory_status": "Permitted",
+            "component_status": "Required",
+            "purpose": "Fulfills Acidity Control",
+            "why_present": "Provides acidity control functionality in food additives matrix.",
+            "addition_stage": "Phase 1: Blending",
+            "addition_order": 2,
+            "confidence": null,
+            "confidence_status": "UNRATED",
+            "source_evidence": "Grounded Repository DB",
+            "cost_per_kg": 3.2,
+            "cost_status": "KNOWN",
+            "protein": 0.0,
+            "fat": 0.0,
+            "carbs": 100.0,
+            "calories": 247.0
+          },
+          {
+            "id": "ing_cocoa_powder",
+            "name": "Dutch Processed Cocoa Powder 10-12%",
+            "category": "Flavoring & Cocoa",
+            "subcategory": "Flavoring & Cocoa",
+            "functional_role": "Cocoa Solids",
+            "formulation_role": "Base Raw Material",
+            "percentage": 38.17,
+            "quantity_g": 381.7,
+            "ins_number": null,
+            "cas_number": null,
+            "pubchem_id": null,
+            "regulatory_status": "Permitted",
+            "component_status": "Required",
+            "purpose": "Fulfills Cocoa Solids",
+            "why_present": "Provides cocoa solids functionality in flavoring & cocoa matrix.",
+            "addition_stage": "Phase 1: Blending",
+            "addition_order": 3,
+            "confidence": 0.1198,
+            "confidence_status": "KNOWN",
+            "source_evidence": "Grounded Repository DB",
+            "cost_per_kg": 11.5,
+            "cost_status": "KNOWN",
+            "protein": 20.0,
+            "fat": 11.0,
+            "carbs": 58.0,
+            "calories": 230.0
+          },
+          {
+            "id": "ing_ammonium_phosphatides",
+            "name": "Ammonium Phosphatides (INS 442)",
+            "category": "Emulsifiers",
+            "subcategory": "Emulsifiers",
+            "functional_role": "Emulsifier",
+            "formulation_role": "Functional Texturizer",
+            "percentage": 0.9065,
+            "quantity_g": 9.065,
+            "ins_number": null,
+            "cas_number": null,
+            "pubchem_id": null,
+            "regulatory_status": "Permitted",
+            "component_status": "Required",
+            "purpose": "Fulfills Emulsifier",
+            "why_present": "Provides emulsifier functionality in emulsifiers matrix.",
+            "addition_stage": "Phase 1: Blending",
+            "addition_order": 4,
+            "confidence": null,
+            "confidence_status": "UNRATED",
+            "source_evidence": "Grounded Repository DB",
+            "cost_per_kg": 6.8,
+            "cost_status": "KNOWN",
+            "protein": 0.0,
+            "fat": 95.0,
+            "carbs": 0.0,
+            "calories": 850.0
+          }
+        ]
+      },
+      "total_percentage": 100.0,
+      "is_mathematically_valid": false,
+      "completeness_audit": {
+        "completeness_score": 66.7,
+        "status": "Needs Minor Component Review",
+        "checklist": {
+          "major_ingredients_present": true,
+          "functional_ingredients_present": true,
+          "food_additives_evaluated": false,
+          "preservatives_antioxidants_evaluated": false,
+          "emulsifiers_stabilizers_evaluated": true,
+          "flavor_sensory_system_evaluated": true,
+          "color_visual_system_evaluated": false,
+          "sweeteners_evaluated": true,
+          "acidity_ph_regulators_evaluated": true,
+          "leavening_raising_agents_evaluated": true,
+          "processing_aids_evaluated": true,
+          "fortification_nutritional_evaluated": false,
+          "carriers_delivery_systems_evaluated": false,
+          "regulatory_limits_satisfied": true,
+          "functional_justification_valid": true
+        },
+        "evaluated_aspects": [
+          "major_ingredients_present",
+          "functional_ingredients_present",
+          "food_additives_evaluated",
+          "preservatives_antioxidants_evaluated",
+          "emulsifiers_stabilizers_evaluated",
+          "flavor_sensory_system_evaluated",
+          "color_visual_system_evaluated",
+          "sweeteners_evaluated",
+          "acidity_ph_regulators_evaluated",
+          "leavening_raising_agents_evaluated",
+          "processing_aids_evaluated",
+          "fortification_nutritional_evaluated",
+          "carriers_delivery_systems_evaluated",
+          "regulatory_limits_satisfied",
+          "functional_justification_valid"
+        ],
+        "recommendations": [
+          "Consider antioxidant (e.g. Tocopherols INS 307) or sorbate for extended shelf stability."
+        ]
+      },
+      "compatibility": {
+        "is_compatible": true,
+        "compatibility_score": 100.0,
+        "incompatibilities": [],
+        "synergies": [],
+        "status": "CALCULATED"
+      },
+      "nutrition": {
+        "protein": 7.6,
+        "fat": 5.1,
+        "carbohydrates": 83.1,
+        "calories": 330.0,
+        "texture": "Laboratory testing required",
+        "mouthfeel": "Not measured",
+        "viscosity": "Not measured",
+        "shelf_life": null,
+        "shelf_life_status": "INSUFFICIENT_LABELED_DATA"
+      },
+      "cost_per_kg": 5.2,
+      "cost_status": "CALCULATED",
+      "process_steps": [
+        "Stage 1: De-aerate liquid base and measure ingredient dosing.",
+        "Stage 2: Hydrate hydrocolloids and emulsifiers under controlled shear.",
+        "Stage 3: Thermal pasteurization according to regulatory pathogen log-reduction guidelines.",
+        "Stage 4: Aseptic packaging and cold storage."
+      ],
+      "score": {
+        "overall_score": 64.1,
+        "radar_scores": {
+          "Nutrition": 0.0,
+          "Protein": 19.0,
+          "Functional": 40.0,
+          "Evidence": 100.0,
+          "Compatibility": 100.0,
+          "Cost": 74.0,
+          "Regulatory": 100.0,
+          "Compliance": 100.0
+        },
+        "profile_name": "BALANCED",
+        "explanation": "Overall score 64.1/100 computed under 'BALANCED' strategy. Nutrition compliance: 0.0% (Actual 7.6g vs Target 2.5g). Evidence coverage: 100.0% (4/4 grounded).",
+        "formulas": {
+          "nutrition_score": "min(100, (actual_protein / target_protein) * 100)",
+          "functional_score": "(covered_roles / required_roles) * 100",
+          "evidence_score": "(grounded_ingredients / total_ingredients) * 100",
+          "regulatory_score": "(permitted_ingredients / total_ingredients) * 100"
+        },
+        "cost_per_kg_inr": 5.2,
+        "cost_status": "CALCULATED",
+        "is_feasible": false,
+        "performance": {
+          "overall": 64.1
+        },
+        "confidence_metric_name": "Data & Provenance Completeness",
+        "confidence_value": 64.1
+      }
+    },
+    {
+      "candidate_id": "FC-004",
+      "title": "Experiment (Functionality Texture): Beverage Matrix",
+      "set_name": "Functionality Texture Strategy",
+      "composition": {
+        "bulk_ingredients": [
+          {
+            "name": "Refined Cane Sugar (Granulated)",
+            "ingredient": "Refined Cane Sugar (Granulated)",
+            "category": "Sweeteners",
+            "percentage": 60.1124,
+            "id": "ing_cane_sugar"
+          },
+          {
+            "name": "Dutch Processed Cocoa Powder 10-12%",
+            "ingredient": "Dutch Processed Cocoa Powder 10-12%",
+            "category": "Flavoring & Cocoa",
+            "percentage": 38.17,
+            "id": "ing_cocoa_powder"
+          }
+        ],
+        "functional_ingredients": [
+          {
+            "name": "Ammonium Phosphatides (INS 442)",
+            "ingredient": "Ammonium Phosphatides (INS 442)",
+            "functional_role": "Emulsifier",
+            "percentage": 0.9065,
+            "id": "ing_ammonium_phosphatides"
+          },
+          {
+            "name": "Citric Acid Anhydrous (INS 330)",
+            "ingredient": "Citric Acid Anhydrous (INS 330)",
+            "functional_role": "Acidity Control",
+            "percentage": 0.8111,
+            "id": "ing_citric_acid"
+          }
+        ],
+        "base_ingredients": [
+          {
+            "id": "ing_cane_sugar",
+            "name": "Refined Cane Sugar (Granulated)",
+            "category": "Sweeteners",
+            "subcategory": "Sweeteners",
+            "functional_role": "Sweetener",
+            "formulation_role": "Base Raw Material",
+            "percentage": 60.1124,
+            "quantity_g": 601.124,
+            "ins_number": null,
+            "cas_number": null,
+            "pubchem_id": null,
+            "regulatory_status": "Permitted",
+            "component_status": "Required",
+            "purpose": "Fulfills Sweetener",
+            "why_present": "Provides sweetener functionality in sweeteners matrix.",
+            "addition_stage": "Phase 1: Blending",
+            "addition_order": 1,
+            "confidence": null,
+            "confidence_status": "UNRATED",
+            "source_evidence": "Grounded Repository DB",
+            "cost_per_kg": 1.2,
+            "cost_status": "KNOWN",
+            "protein": 0.0,
+            "fat": 0.0,
+            "carbs": 100.0,
+            "calories": 387.0
+          },
+          {
+            "id": "ing_cocoa_powder",
+            "name": "Dutch Processed Cocoa Powder 10-12%",
+            "category": "Flavoring & Cocoa",
+            "subcategory": "Flavoring & Cocoa",
+            "functional_role": "Cocoa Solids",
+            "formulation_role": "Base Raw Material",
+            "percentage": 38.17,
+            "quantity_g": 381.7,
+            "ins_number": null,
+            "cas_number": null,
+            "pubchem_id": null,
+            "regulatory_status": "Permitted",
+            "component_status": "Required",
+            "purpose": "Fulfills Cocoa Solids",
+            "why_present": "Provides cocoa solids functionality in flavoring & cocoa matrix.",
+            "addition_stage": "Phase 1: Blending",
+            "addition_order": 3,
+            "confidence": 0.1198,
+            "confidence_status": "KNOWN",
+            "source_evidence": "Grounded Repository DB",
+            "cost_per_kg": 11.5,
+            "cost_status": "KNOWN",
+            "protein": 20.0,
+            "fat": 11.0,
+            "carbs": 58.0,
+            "calories": 230.0
+          }
+        ],
+        "functional_additives": [
+          {
+            "id": "ing_ammonium_phosphatides",
+            "name": "Ammonium Phosphatides (INS 442)",
+            "category": "Emulsifiers",
+            "subcategory": "Emulsifiers",
+            "functional_role": "Emulsifier",
+            "formulation_role": "Functional Texturizer",
+            "percentage": 0.9065,
+            "quantity_g": 9.065,
+            "ins_number": null,
+            "cas_number": null,
+            "pubchem_id": null,
+            "regulatory_status": "Permitted",
+            "component_status": "Required",
+            "purpose": "Fulfills Emulsifier",
+            "why_present": "Provides emulsifier functionality in emulsifiers matrix.",
+            "addition_stage": "Phase 1: Blending",
+            "addition_order": 4,
+            "confidence": null,
+            "confidence_status": "UNRATED",
+            "source_evidence": "Grounded Repository DB",
+            "cost_per_kg": 6.8,
+            "cost_status": "KNOWN",
+            "protein": 0.0,
+            "fat": 95.0,
+            "carbs": 0.0,
+            "calories": 850.0
+          }
+        ],
+        "fortification_system": [],
+        "preservation_system": [],
+        "leavening_system": [],
+        "processing_aids": [
+          {
+            "id": "ing_citric_acid",
+            "name": "Citric Acid Anhydrous (INS 330)",
+            "category": "Food Additives",
+            "subcategory": "Food Additives",
+            "functional_role": "Acidity Control",
+            "formulation_role": "Acidity & pH Control",
+            "percentage": 0.8111,
+            "quantity_g": 8.111,
+            "ins_number": null,
+            "cas_number": null,
+            "pubchem_id": null,
+            "regulatory_status": "Permitted",
+            "component_status": "Required",
+            "purpose": "Fulfills Acidity Control",
+            "why_present": "Provides acidity control functionality in food additives matrix.",
+            "addition_stage": "Phase 1: Blending",
+            "addition_order": 2,
+            "confidence": null,
+            "confidence_status": "UNRATED",
+            "source_evidence": "Grounded Repository DB",
+            "cost_per_kg": 3.2,
+            "cost_status": "KNOWN",
+            "protein": 0.0,
+            "fat": 0.0,
+            "carbs": 100.0,
+            "calories": 247.0
+          }
+        ],
+        "all_components": [
+          {
+            "id": "ing_cane_sugar",
+            "name": "Refined Cane Sugar (Granulated)",
+            "category": "Sweeteners",
+            "subcategory": "Sweeteners",
+            "functional_role": "Sweetener",
+            "formulation_role": "Base Raw Material",
+            "percentage": 60.1124,
+            "quantity_g": 601.124,
+            "ins_number": null,
+            "cas_number": null,
+            "pubchem_id": null,
+            "regulatory_status": "Permitted",
+            "component_status": "Required",
+            "purpose": "Fulfills Sweetener",
+            "why_present": "Provides sweetener functionality in sweeteners matrix.",
+            "addition_stage": "Phase 1: Blending",
+            "addition_order": 1,
+            "confidence": null,
+            "confidence_status": "UNRATED",
+            "source_evidence": "Grounded Repository DB",
+            "cost_per_kg": 1.2,
+            "cost_status": "KNOWN",
+            "protein": 0.0,
+            "fat": 0.0,
+            "carbs": 100.0,
+            "calories": 387.0
+          },
+          {
+            "id": "ing_citric_acid",
+            "name": "Citric Acid Anhydrous (INS 330)",
+            "category": "Food Additives",
+            "subcategory": "Food Additives",
+            "functional_role": "Acidity Control",
+            "formulation_role": "Acidity & pH Control",
+            "percentage": 0.8111,
+            "quantity_g": 8.111,
+            "ins_number": null,
+            "cas_number": null,
+            "pubchem_id": null,
+            "regulatory_status": "Permitted",
+            "component_status": "Required",
+            "purpose": "Fulfills Acidity Control",
+            "why_present": "Provides acidity control functionality in food additives matrix.",
+            "addition_stage": "Phase 1: Blending",
+            "addition_order": 2,
+            "confidence": null,
+            "confidence_status": "UNRATED",
+            "source_evidence": "Grounded Repository DB",
+            "cost_per_kg": 3.2,
+            "cost_status": "KNOWN",
+            "protein": 0.0,
+            "fat": 0.0,
+            "carbs": 100.0,
+            "calories": 247.0
+          },
+          {
+            "id": "ing_cocoa_powder",
+            "name": "Dutch Processed Cocoa Powder 10-12%",
+            "category": "Flavoring & Cocoa",
+            "subcategory": "Flavoring & Cocoa",
+            "functional_role": "Cocoa Solids",
+            "formulation_role": "Base Raw Material",
+            "percentage": 38.17,
+            "quantity_g": 381.7,
+            "ins_number": null,
+            "cas_number": null,
+            "pubchem_id": null,
+            "regulatory_status": "Permitted",
+            "component_status": "Required",
+            "purpose": "Fulfills Cocoa Solids",
+            "why_present": "Provides cocoa solids functionality in flavoring & cocoa matrix.",
+            "addition_stage": "Phase 1: Blending",
+            "addition_order": 3,
+            "confidence": 0.1198,
+            "confidence_status": "KNOWN",
+            "source_evidence": "Grounded Repository DB",
+            "cost_per_kg": 11.5,
+            "cost_status": "KNOWN",
+            "protein": 20.0,
+            "fat": 11.0,
+            "carbs": 58.0,
+            "calories": 230.0
+          },
+          {
+            "id": "ing_ammonium_phosphatides",
+            "name": "Ammonium Phosphatides (INS 442)",
+            "category": "Emulsifiers",
+            "subcategory": "Emulsifiers",
+            "functional_role": "Emulsifier",
+            "formulation_role": "Functional Texturizer",
+            "percentage": 0.9065,
+            "quantity_g": 9.065,
+            "ins_number": null,
+            "cas_number": null,
+            "pubchem_id": null,
+            "regulatory_status": "Permitted",
+            "component_status": "Required",
+            "purpose": "Fulfills Emulsifier",
+            "why_present": "Provides emulsifier functionality in emulsifiers matrix.",
+            "addition_stage": "Phase 1: Blending",
+            "addition_order": 4,
+            "confidence": null,
+            "confidence_status": "UNRATED",
+            "source_evidence": "Grounded Repository DB",
+            "cost_per_kg": 6.8,
+            "cost_status": "KNOWN",
+            "protein": 0.0,
+            "fat": 95.0,
+            "carbs": 0.0,
+            "calories": 850.0
+          }
+        ]
+      },
+      "total_percentage": 100.0,
+      "is_mathematically_valid": false,
+      "completeness_audit": {
+        "completeness_score": 66.7,
+        "status": "Needs Minor Component Review",
+        "checklist": {
+          "major_ingredients_present": true,
+          "functional_ingredients_present": true,
+          "food_additives_evaluated": false,
+          "preservatives_antioxidants_evaluated": false,
+          "emulsifiers_stabilizers_evaluated": true,
+          "flavor_sensory_system_evaluated": true,
+          "color_visual_system_evaluated": false,
+          "sweeteners_evaluated": true,
+          "acidity_ph_regulators_evaluated": true,
+          "leavening_raising_agents_evaluated": true,
+          "processing_aids_evaluated": true,
+          "fortification_nutritional_evaluated": false,
+          "carriers_delivery_systems_evaluated": false,
+          "regulatory_limits_satisfied": true,
+          "functional_justification_valid": true
+        },
+        "evaluated_aspects": [
+          "major_ingredients_present",
+          "functional_ingredients_present",
+          "food_additives_evaluated",
+          "preservatives_antioxidants_evaluated",
+          "emulsifiers_stabilizers_evaluated",
+          "flavor_sensory_system_evaluated",
+          "color_visual_system_evaluated",
+          "sweeteners_evaluated",
+          "acidity_ph_regulators_evaluated",
+          "leavening_raising_agents_evaluated",
+          "processing_aids_evaluated",
+          "fortification_nutritional_evaluated",
+          "carriers_delivery_systems_evaluated",
+          "regulatory_limits_satisfied",
+          "functional_justification_valid"
+        ],
+        "recommendations": [
+          "Consider antioxidant (e.g. Tocopherols INS 307) or sorbate for extended shelf stability."
+        ]
+      },
+      "compatibility": {
+        "is_compatible": true,
+        "compatibility_score": 100.0,
+        "incompatibilities": [],
+        "synergies": [],
+        "status": "CALCULATED"
+      },
+      "nutrition": {
+        "protein": 7.6,
+        "fat": 5.1,
+        "carbohydrates": 83.1,
+        "calories": 330.0,
+        "texture": "Laboratory testing required",
+        "mouthfeel": "Not measured",
+        "viscosity": "Not measured",
+        "shelf_life": null,
+        "shelf_life_status": "INSUFFICIENT_LABELED_DATA"
+      },
+      "cost_per_kg": 5.2,
+      "cost_status": "CALCULATED",
+      "process_steps": [
+        "Stage 1: De-aerate liquid base and measure ingredient dosing.",
+        "Stage 2: Hydrate hydrocolloids and emulsifiers under controlled shear.",
+        "Stage 3: Thermal pasteurization according to regulatory pathogen log-reduction guidelines.",
+        "Stage 4: Aseptic packaging and cold storage."
+      ],
+      "score": {
+        "overall_score": 64.1,
+        "radar_scores": {
+          "Nutrition": 0.0,
+          "Protein": 19.0,
+          "Functional": 40.0,
+          "Evidence": 100.0,
+          "Compatibility": 100.0,
+          "Cost": 74.0,
+          "Regulatory": 100.0,
+          "Compliance": 100.0
+        },
+        "profile_name": "BALANCED",
+        "explanation": "Overall score 64.1/100 computed under 'BALANCED' strategy. Nutrition compliance: 0.0% (Actual 7.6g vs Target 2.5g). Evidence coverage: 100.0% (4/4 grounded).",
+        "formulas": {
+          "nutrition_score": "min(100, (actual_protein / target_protein) * 100)",
+          "functional_score": "(covered_roles / required_roles) * 100",
+          "evidence_score": "(grounded_ingredients / total_ingredients) * 100",
+          "regulatory_score": "(permitted_ingredients / total_ingredients) * 100"
+        },
+        "cost_per_kg_inr": 5.2,
+        "cost_status": "CALCULATED",
+        "is_feasible": false,
+        "performance": {
+          "overall": 64.1
+        },
+        "confidence_metric_name": "Data & Provenance Completeness",
+        "confidence_value": 64.1
+      }
+    }
+  ],
+  "validation_result": {
+    "status": "PASS",
+    "hard_constraint_results": [
+      {
+        "constraint": "dairy FORBIDDEN milk_and_dairy_derivatives",
+        "result": "PASS",
+        "evidence": "Rule Evaluator",
+        "reason": "Satisfied"
+      }
+    ],
+    "property_completeness_results": [
+      {
+        "ingredient": "Refined Cane Sugar (Granulated)",
+        "status": "PASS",
+        "missing_properties": []
+      },
+      {
+        "ingredient": "Citric Acid Anhydrous (INS 330)",
+        "status": "PASS",
+        "missing_properties": []
+      },
+      {
+        "ingredient": "Dutch Processed Cocoa Powder 10-12%",
+        "status": "PASS",
+        "missing_properties": []
+      },
+      {
+        "ingredient": "Ammonium Phosphatides (INS 442)",
+        "status": "PASS",
+        "missing_properties": []
+      }
+    ],
+    "regulatory_results": [
+      {
+        "ingredient": "Refined Cane Sugar (Granulated)",
+        "permitted": true,
+        "ins_number": null,
+        "status": "Permitted",
+        "jurisdiction": "FSSAI / FDA / Codex"
+      },
+      {
+        "ingredient": "Citric Acid Anhydrous (INS 330)",
+        "permitted": true,
+        "ins_number": null,
+        "status": "Permitted",
+        "jurisdiction": "FSSAI / FDA / Codex"
+      },
+      {
+        "ingredient": "Dutch Processed Cocoa Powder 10-12%",
+        "permitted": true,
+        "ins_number": null,
+        "status": "Permitted",
+        "jurisdiction": "FSSAI / FDA / Codex"
+      },
+      {
+        "ingredient": "Ammonium Phosphatides (INS 442)",
+        "permitted": true,
+        "ins_number": null,
+        "status": "Permitted",
+        "jurisdiction": "FSSAI / FDA / Codex"
+      }
+    ],
+    "regional_compliance": {
+      "FSSAI": {
+        "status": "Warning",
+        "alerts": [
+          "Requires Evidence: Additive 'Ammonium Phosphatides (INS 442)' (No INS) requires regional dossier verification.",
+          "Partial regulatory clearance: Some ingredients require technical dossier verification."
+        ],
+        "verified_count": 3,
+        "total_evaluated": 4
+      },
+      "FDA": {
+        "status": "Warning",
+        "alerts": [
+          "Requires Evidence: Additive 'Ammonium Phosphatides (INS 442)' (No INS) requires regional dossier verification.",
+          "Partial regulatory clearance: Some ingredients require technical dossier verification."
+        ],
+        "verified_count": 3,
+        "total_evaluated": 4
+      },
+      "EFSA": {
+        "status": "Warning",
+        "alerts": [
+          "Requires Evidence: Additive 'Ammonium Phosphatides (INS 442)' (No INS) requires regional dossier verification.",
+          "Partial regulatory clearance: Some ingredients require technical dossier verification."
+        ],
+        "verified_count": 3,
+        "total_evaluated": 4
+      }
+    },
+    "allergen_results": [
+      {
+        "ingredient": "Refined Cane Sugar (Granulated)",
+        "allergen": "None Declared",
+        "status": "PASS"
+      },
+      {
+        "ingredient": "Citric Acid Anhydrous (INS 330)",
+        "allergen": "None Declared",
+        "status": "PASS"
+      },
+      {
+        "ingredient": "Dutch Processed Cocoa Powder 10-12%",
+        "allergen": "None Declared",
+        "status": "PASS"
+      },
+      {
+        "ingredient": "Ammonium Phosphatides (INS 442)",
+        "allergen": "None Declared",
+        "status": "PASS"
+      }
+    ],
+    "compatibility_results": [],
+    "groundedness_results": [
+      {
+        "claim": "Refined Cane Sugar (Granulated) (Sweetener)",
+        "source": "Grounded Repository DB",
+        "grounded": true
+      },
+      {
+        "claim": "Citric Acid Anhydrous (INS 330) (Acidity Control)",
+        "source": "Grounded Repository DB",
+        "grounded": true
+      },
+      {
+        "claim": "Dutch Processed Cocoa Powder 10-12% (Cocoa Solids)",
+        "source": "Grounded Repository DB",
+        "grounded": true
+      },
+      {
+        "claim": "Ammonium Phosphatides (INS 442) (Emulsifier)",
+        "source": "Grounded Repository DB",
+        "grounded": true
+      }
+    ],
+    "mass_balance_result": {
+      "total_percentage": 100.0,
+      "target_percentage": 100.0,
+      "is_feasible": true,
+      "status": "PASS"
+    },
+    "failure_reasons": [],
+    "requires_evidence_reasons": [],
+    "iteration_number": 1,
+    "max_iterations": 3,
+    "iteration_recommendation": "Proceed to Multi-Objective Scoring & Ranking"
+  },
+  "iteration_count": 1,
+  "ranking_profiles": {
+    "BALANCED": {
+      "profile": "BALANCED",
+      "weights": {},
+      "candidate_rankings": [
+        {
+          "candidate_id": "FC-001",
+          "overall_score": 64.1,
+          "radar": {
+            "Nutrition": 0.0,
+            "Protein": 19.0,
+            "Functional": 40.0,
+            "Evidence": 100.0,
+            "Compatibility": 100.0,
+            "Cost": 74.0,
+            "Regulatory": 100.0,
+            "Compliance": 100.0
+          }
+        },
+        {
+          "candidate_id": "FC-002",
+          "overall_score": 64.1,
+          "radar": {
+            "Nutrition": 0.0,
+            "Protein": 19.0,
+            "Functional": 40.0,
+            "Evidence": 100.0,
+            "Compatibility": 100.0,
+            "Cost": 74.0,
+            "Regulatory": 100.0,
+            "Compliance": 100.0
+          }
+        },
+        {
+          "candidate_id": "FC-003",
+          "overall_score": 64.1,
+          "radar": {
+            "Nutrition": 0.0,
+            "Protein": 19.0,
+            "Functional": 40.0,
+            "Evidence": 100.0,
+            "Compatibility": 100.0,
+            "Cost": 74.0,
+            "Regulatory": 100.0,
+            "Compliance": 100.0
+          }
+        },
+        {
+          "candidate_id": "FC-004",
+          "overall_score": 64.1,
+          "radar": {
+            "Nutrition": 0.0,
+            "Protein": 19.0,
+            "Functional": 40.0,
+            "Evidence": 100.0,
+            "Compatibility": 100.0,
+            "Cost": 74.0,
+            "Regulatory": 100.0,
+            "Compliance": 100.0
+          }
+        }
+      ],
+      "winner": "FC-001"
+    },
+    "NUTRITION_OPTIMIZED": {
+      "profile": "NUTRITION_OPTIMIZED",
+      "weights": {},
+      "candidate_rankings": [
+        {
+          "candidate_id": "FC-001",
+          "overall_score": 48.4,
+          "radar": {
+            "Nutrition": 0.0,
+            "Protein": 19.0,
+            "Functional": 40.0,
+            "Evidence": 100.0,
+            "Compatibility": 100.0,
+            "Cost": 74.0,
+            "Regulatory": 100.0,
+            "Compliance": 100.0
+          }
+        },
+        {
+          "candidate_id": "FC-002",
+          "overall_score": 48.4,
+          "radar": {
+            "Nutrition": 0.0,
+            "Protein": 19.0,
+            "Functional": 40.0,
+            "Evidence": 100.0,
+            "Compatibility": 100.0,
+            "Cost": 74.0,
+            "Regulatory": 100.0,
+            "Compliance": 100.0
+          }
+        },
+        {
+          "candidate_id": "FC-003",
+          "overall_score": 48.4,
+          "radar": {
+            "Nutrition": 0.0,
+            "Protein": 19.0,
+            "Functional": 40.0,
+            "Evidence": 100.0,
+            "Compatibility": 100.0,
+            "Cost": 74.0,
+            "Regulatory": 100.0,
+            "Compliance": 100.0
+          }
+        },
+        {
+          "candidate_id": "FC-004",
+          "overall_score": 48.4,
+          "radar": {
+            "Nutrition": 0.0,
+            "Protein": 19.0,
+            "Functional": 40.0,
+            "Evidence": 100.0,
+            "Compatibility": 100.0,
+            "Cost": 74.0,
+            "Regulatory": 100.0,
+            "Compliance": 100.0
+          }
+        }
+      ],
+      "winner": "FC-001"
+    },
+    "COST_OPTIMIZED": {
+      "profile": "COST_OPTIMIZED",
+      "weights": {},
+      "candidate_rankings": [
+        {
+          "candidate_id": "FC-001",
+          "overall_score": 65.6,
+          "radar": {
+            "Nutrition": 0.0,
+            "Protein": 19.0,
+            "Functional": 40.0,
+            "Evidence": 100.0,
+            "Compatibility": 100.0,
+            "Cost": 74.0,
+            "Regulatory": 100.0,
+            "Compliance": 100.0
+          }
+        },
+        {
+          "candidate_id": "FC-002",
+          "overall_score": 65.6,
+          "radar": {
+            "Nutrition": 0.0,
+            "Protein": 19.0,
+            "Functional": 40.0,
+            "Evidence": 100.0,
+            "Compatibility": 100.0,
+            "Cost": 74.0,
+            "Regulatory": 100.0,
+            "Compliance": 100.0
+          }
+        },
+        {
+          "candidate_id": "FC-003",
+          "overall_score": 65.6,
+          "radar": {
+            "Nutrition": 0.0,
+            "Protein": 19.0,
+            "Functional": 40.0,
+            "Evidence": 100.0,
+            "Compatibility": 100.0,
+            "Cost": 74.0,
+            "Regulatory": 100.0,
+            "Compliance": 100.0
+          }
+        },
+        {
+          "candidate_id": "FC-004",
+          "overall_score": 65.6,
+          "radar": {
+            "Nutrition": 0.0,
+            "Protein": 19.0,
+            "Functional": 40.0,
+            "Evidence": 100.0,
+            "Compatibility": 100.0,
+            "Cost": 74.0,
+            "Regulatory": 100.0,
+            "Compliance": 100.0
+          }
+        }
+      ],
+      "winner": "FC-001"
+    },
+    "FUNCTIONAL_OPTIMIZED": {
+      "profile": "FUNCTIONAL_OPTIMIZED",
+      "weights": {},
+      "candidate_rankings": [
+        {
+          "candidate_id": "FC-001",
+          "overall_score": 63.4,
+          "radar": {
+            "Nutrition": 0.0,
+            "Protein": 19.0,
+            "Functional": 40.0,
+            "Evidence": 100.0,
+            "Compatibility": 100.0,
+            "Cost": 74.0,
+            "Regulatory": 100.0,
+            "Compliance": 100.0
+          }
+        },
+        {
+          "candidate_id": "FC-002",
+          "overall_score": 63.4,
+          "radar": {
+            "Nutrition": 0.0,
+            "Protein": 19.0,
+            "Functional": 40.0,
+            "Evidence": 100.0,
+            "Compatibility": 100.0,
+            "Cost": 74.0,
+            "Regulatory": 100.0,
+            "Compliance": 100.0
+          }
+        },
+        {
+          "candidate_id": "FC-003",
+          "overall_score": 63.4,
+          "radar": {
+            "Nutrition": 0.0,
+            "Protein": 19.0,
+            "Functional": 40.0,
+            "Evidence": 100.0,
+            "Compatibility": 100.0,
+            "Cost": 74.0,
+            "Regulatory": 100.0,
+            "Compliance": 100.0
+          }
+        },
+        {
+          "candidate_id": "FC-004",
+          "overall_score": 63.4,
+          "radar": {
+            "Nutrition": 0.0,
+            "Protein": 19.0,
+            "Functional": 40.0,
+            "Evidence": 100.0,
+            "Compatibility": 100.0,
+            "Cost": 74.0,
+            "Regulatory": 100.0,
+            "Compliance": 100.0
+          }
+        }
+      ],
+      "winner": "FC-001"
+    }
+  },
+  "ranked_formulations": [
+    {
+      "formulation_id": "FORM_PB028_01",
+      "rank": 1,
+      "optimization_profile": "BALANCED",
+      "ingredients": [
+        {
+          "ingredient_id": "ing_cane_sugar",
+          "ingredient_name": "Refined Cane Sugar (Granulated)",
+          "percentage": 60.1124,
+          "quantity": 601.124,
+          "functional_role": "Sweetener"
+        },
+        {
+          "ingredient_id": "ing_citric_acid",
+          "ingredient_name": "Citric Acid Anhydrous (INS 330)",
+          "percentage": 0.8111,
+          "quantity": 8.111,
+          "functional_role": "Acidity Control"
+        },
+        {
+          "ingredient_id": "ing_cocoa_powder",
+          "ingredient_name": "Dutch Processed Cocoa Powder 10-12%",
+          "percentage": 38.17,
+          "quantity": 381.7,
+          "functional_role": "Cocoa Solids"
+        },
+        {
+          "ingredient_id": "ing_ammonium_phosphatides",
+          "ingredient_name": "Ammonium Phosphatides (INS 442)",
+          "percentage": 0.9065,
+          "quantity": 9.065,
+          "functional_role": "Emulsifier"
+        }
+      ],
+      "scores": {
+        "overall_score": 64.1,
+        "radar_scores": {
+          "Nutrition": 0.0,
+          "Protein": 19.0,
+          "Functional": 40.0,
+          "Evidence": 100.0,
+          "Compatibility": 100.0,
+          "Cost": 74.0,
+          "Regulatory": 100.0,
+          "Compliance": 100.0
+        },
+        "profile_name": "BALANCED",
+        "explanation": "Overall score 64.1/100 computed under 'BALANCED' strategy. Nutrition compliance: 0.0% (Actual 7.6g vs Target 2.5g). Evidence coverage: 100.0% (4/4 grounded).",
+        "formulas": {
+          "nutrition_score": "min(100, (actual_protein / target_protein) * 100)",
+          "functional_score": "(covered_roles / required_roles) * 100",
+          "evidence_score": "(grounded_ingredients / total_ingredients) * 100",
+          "regulatory_score": "(permitted_ingredients / total_ingredients) * 100"
+        },
+        "cost_per_kg_inr": 5.2,
+        "cost_status": "CALCULATED",
+        "is_feasible": false,
+        "performance": {
+          "overall": 64.1
+        },
+        "confidence_metric_name": "Data & Provenance Completeness",
+        "confidence_value": 64.1
+      },
+      "constraint_satisfaction": {
+        "hard_constraints_satisfied": true,
+        "soft_constraints_score": 0.0
+      },
+      "nutrition_profile": {},
+      "cost_analysis": {
+        "raw_material_cost_per_kg": null,
+        "status": null
+      },
+      "regulatory_summary": {
+        "overall": "Permitted",
+        "components_verified": 4
+      },
+      "allergen_summary": {
+        "allergens_present": [],
+        "statement": "Verified against formulation restrictions"
+      },
+      "compatibility_summary": {
+        "is_compatible": true,
+        "compatibility_score": 100.0,
+        "incompatibilities": [],
+        "synergies": [],
+        "status": "CALCULATED"
+      },
+      "manufacturing_process": [
+        "Stage 1: De-aerate liquid base and measure ingredient dosing.",
+        "Stage 2: Hydrate hydrocolloids and emulsifiers under controlled shear.",
+        "Stage 3: Thermal pasteurization according to regulatory pathogen log-reduction guidelines.",
+        "Stage 4: Aseptic packaging and cold storage."
+      ],
+      "evidence": [
+        "Grounded Repository DB",
+        "Grounded Repository DB",
+        "Grounded Repository DB",
+        "Grounded Repository DB"
+      ],
+      "assumptions": [
+        "Formulation components verified against TCS Food Formulator Knowledge Graph.",
+        "Mass balance constraint sum(percentage) == 100.0000% solved via SLSQP."
+      ]
+    },
+    {
+      "formulation_id": "FORM_PB028_02",
+      "rank": 2,
+      "optimization_profile": "NUTRITION_OPTIMIZED",
+      "ingredients": [
+        {
+          "ingredient_id": "ing_cane_sugar",
+          "ingredient_name": "Refined Cane Sugar (Granulated)",
+          "percentage": 60.1124,
+          "quantity": 601.124,
+          "functional_role": "Sweetener"
+        },
+        {
+          "ingredient_id": "ing_citric_acid",
+          "ingredient_name": "Citric Acid Anhydrous (INS 330)",
+          "percentage": 0.8111,
+          "quantity": 8.111,
+          "functional_role": "Acidity Control"
+        },
+        {
+          "ingredient_id": "ing_cocoa_powder",
+          "ingredient_name": "Dutch Processed Cocoa Powder 10-12%",
+          "percentage": 38.17,
+          "quantity": 381.7,
+          "functional_role": "Cocoa Solids"
+        },
+        {
+          "ingredient_id": "ing_ammonium_phosphatides",
+          "ingredient_name": "Ammonium Phosphatides (INS 442)",
+          "percentage": 0.9065,
+          "quantity": 9.065,
+          "functional_role": "Emulsifier"
+        }
+      ],
+      "scores": {
+        "overall_score": 64.1,
+        "radar_scores": {
+          "Nutrition": 0.0,
+          "Protein": 19.0,
+          "Functional": 40.0,
+          "Evidence": 100.0,
+          "Compatibility": 100.0,
+          "Cost": 74.0,
+          "Regulatory": 100.0,
+          "Compliance": 100.0
+        },
+        "profile_name": "BALANCED",
+        "explanation": "Overall score 64.1/100 computed under 'BALANCED' strategy. Nutrition compliance: 0.0% (Actual 7.6g vs Target 2.5g). Evidence coverage: 100.0% (4/4 grounded).",
+        "formulas": {
+          "nutrition_score": "min(100, (actual_protein / target_protein) * 100)",
+          "functional_score": "(covered_roles / required_roles) * 100",
+          "evidence_score": "(grounded_ingredients / total_ingredients) * 100",
+          "regulatory_score": "(permitted_ingredients / total_ingredients) * 100"
+        },
+        "cost_per_kg_inr": 5.2,
+        "cost_status": "CALCULATED",
+        "is_feasible": false,
+        "performance": {
+          "overall": 64.1
+        },
+        "confidence_metric_name": "Data & Provenance Completeness",
+        "confidence_value": 64.1
+      },
+      "constraint_satisfaction": {
+        "hard_constraints_satisfied": true,
+        "soft_constraints_score": 0.0
+      },
+      "nutrition_profile": {},
+      "cost_analysis": {
+        "raw_material_cost_per_kg": null,
+        "status": null
+      },
+      "regulatory_summary": {
+        "overall": "Permitted",
+        "components_verified": 4
+      },
+      "allergen_summary": {
+        "allergens_present": [],
+        "statement": "Verified against formulation restrictions"
+      },
+      "compatibility_summary": {
+        "is_compatible": true,
+        "compatibility_score": 100.0,
+        "incompatibilities": [],
+        "synergies": [],
+        "status": "CALCULATED"
+      },
+      "manufacturing_process": [
+        "Stage 1: De-aerate liquid base and measure ingredient dosing.",
+        "Stage 2: Hydrate hydrocolloids and emulsifiers under controlled shear.",
+        "Stage 3: Thermal pasteurization according to regulatory pathogen log-reduction guidelines.",
+        "Stage 4: Aseptic packaging and cold storage."
+      ],
+      "evidence": [
+        "Grounded Repository DB",
+        "Grounded Repository DB",
+        "Grounded Repository DB",
+        "Grounded Repository DB"
+      ],
+      "assumptions": [
+        "Formulation components verified against TCS Food Formulator Knowledge Graph.",
+        "Mass balance constraint sum(percentage) == 100.0000% solved via SLSQP."
+      ]
+    },
+    {
+      "formulation_id": "FORM_PB028_03",
+      "rank": 3,
+      "optimization_profile": "COST_OPTIMIZED",
+      "ingredients": [
+        {
+          "ingredient_id": "ing_cane_sugar",
+          "ingredient_name": "Refined Cane Sugar (Granulated)",
+          "percentage": 60.1124,
+          "quantity": 601.124,
+          "functional_role": "Sweetener"
+        },
+        {
+          "ingredient_id": "ing_citric_acid",
+          "ingredient_name": "Citric Acid Anhydrous (INS 330)",
+          "percentage": 0.8111,
+          "quantity": 8.111,
+          "functional_role": "Acidity Control"
+        },
+        {
+          "ingredient_id": "ing_cocoa_powder",
+          "ingredient_name": "Dutch Processed Cocoa Powder 10-12%",
+          "percentage": 38.17,
+          "quantity": 381.7,
+          "functional_role": "Cocoa Solids"
+        },
+        {
+          "ingredient_id": "ing_ammonium_phosphatides",
+          "ingredient_name": "Ammonium Phosphatides (INS 442)",
+          "percentage": 0.9065,
+          "quantity": 9.065,
+          "functional_role": "Emulsifier"
+        }
+      ],
+      "scores": {
+        "overall_score": 64.1,
+        "radar_scores": {
+          "Nutrition": 0.0,
+          "Protein": 19.0,
+          "Functional": 40.0,
+          "Evidence": 100.0,
+          "Compatibility": 100.0,
+          "Cost": 74.0,
+          "Regulatory": 100.0,
+          "Compliance": 100.0
+        },
+        "profile_name": "BALANCED",
+        "explanation": "Overall score 64.1/100 computed under 'BALANCED' strategy. Nutrition compliance: 0.0% (Actual 7.6g vs Target 2.5g). Evidence coverage: 100.0% (4/4 grounded).",
+        "formulas": {
+          "nutrition_score": "min(100, (actual_protein / target_protein) * 100)",
+          "functional_score": "(covered_roles / required_roles) * 100",
+          "evidence_score": "(grounded_ingredients / total_ingredients) * 100",
+          "regulatory_score": "(permitted_ingredients / total_ingredients) * 100"
+        },
+        "cost_per_kg_inr": 5.2,
+        "cost_status": "CALCULATED",
+        "is_feasible": false,
+        "performance": {
+          "overall": 64.1
+        },
+        "confidence_metric_name": "Data & Provenance Completeness",
+        "confidence_value": 64.1
+      },
+      "constraint_satisfaction": {
+        "hard_constraints_satisfied": true,
+        "soft_constraints_score": 0.0
+      },
+      "nutrition_profile": {},
+      "cost_analysis": {
+        "raw_material_cost_per_kg": null,
+        "status": null
+      },
+      "regulatory_summary": {
+        "overall": "Permitted",
+        "components_verified": 4
+      },
+      "allergen_summary": {
+        "allergens_present": [],
+        "statement": "Verified against formulation restrictions"
+      },
+      "compatibility_summary": {
+        "is_compatible": true,
+        "compatibility_score": 100.0,
+        "incompatibilities": [],
+        "synergies": [],
+        "status": "CALCULATED"
+      },
+      "manufacturing_process": [
+        "Stage 1: De-aerate liquid base and measure ingredient dosing.",
+        "Stage 2: Hydrate hydrocolloids and emulsifiers under controlled shear.",
+        "Stage 3: Thermal pasteurization according to regulatory pathogen log-reduction guidelines.",
+        "Stage 4: Aseptic packaging and cold storage."
+      ],
+      "evidence": [
+        "Grounded Repository DB",
+        "Grounded Repository DB",
+        "Grounded Repository DB",
+        "Grounded Repository DB"
+      ],
+      "assumptions": [
+        "Formulation components verified against TCS Food Formulator Knowledge Graph.",
+        "Mass balance constraint sum(percentage) == 100.0000% solved via SLSQP."
+      ]
+    },
+    {
+      "formulation_id": "FORM_PB028_04",
+      "rank": 4,
+      "optimization_profile": "FUNCTIONAL_OPTIMIZED",
+      "ingredients": [
+        {
+          "ingredient_id": "ing_cane_sugar",
+          "ingredient_name": "Refined Cane Sugar (Granulated)",
+          "percentage": 60.1124,
+          "quantity": 601.124,
+          "functional_role": "Sweetener"
+        },
+        {
+          "ingredient_id": "ing_citric_acid",
+          "ingredient_name": "Citric Acid Anhydrous (INS 330)",
+          "percentage": 0.8111,
+          "quantity": 8.111,
+          "functional_role": "Acidity Control"
+        },
+        {
+          "ingredient_id": "ing_cocoa_powder",
+          "ingredient_name": "Dutch Processed Cocoa Powder 10-12%",
+          "percentage": 38.17,
+          "quantity": 381.7,
+          "functional_role": "Cocoa Solids"
+        },
+        {
+          "ingredient_id": "ing_ammonium_phosphatides",
+          "ingredient_name": "Ammonium Phosphatides (INS 442)",
+          "percentage": 0.9065,
+          "quantity": 9.065,
+          "functional_role": "Emulsifier"
+        }
+      ],
+      "scores": {
+        "overall_score": 64.1,
+        "radar_scores": {
+          "Nutrition": 0.0,
+          "Protein": 19.0,
+          "Functional": 40.0,
+          "Evidence": 100.0,
+          "Compatibility": 100.0,
+          "Cost": 74.0,
+          "Regulatory": 100.0,
+          "Compliance": 100.0
+        },
+        "profile_name": "BALANCED",
+        "explanation": "Overall score 64.1/100 computed under 'BALANCED' strategy. Nutrition compliance: 0.0% (Actual 7.6g vs Target 2.5g). Evidence coverage: 100.0% (4/4 grounded).",
+        "formulas": {
+          "nutrition_score": "min(100, (actual_protein / target_protein) * 100)",
+          "functional_score": "(covered_roles / required_roles) * 100",
+          "evidence_score": "(grounded_ingredients / total_ingredients) * 100",
+          "regulatory_score": "(permitted_ingredients / total_ingredients) * 100"
+        },
+        "cost_per_kg_inr": 5.2,
+        "cost_status": "CALCULATED",
+        "is_feasible": false,
+        "performance": {
+          "overall": 64.1
+        },
+        "confidence_metric_name": "Data & Provenance Completeness",
+        "confidence_value": 64.1
+      },
+      "constraint_satisfaction": {
+        "hard_constraints_satisfied": true,
+        "soft_constraints_score": 0.0
+      },
+      "nutrition_profile": {},
+      "cost_analysis": {
+        "raw_material_cost_per_kg": null,
+        "status": null
+      },
+      "regulatory_summary": {
+        "overall": "Permitted",
+        "components_verified": 4
+      },
+      "allergen_summary": {
+        "allergens_present": [],
+        "statement": "Verified against formulation restrictions"
+      },
+      "compatibility_summary": {
+        "is_compatible": true,
+        "compatibility_score": 100.0,
+        "incompatibilities": [],
+        "synergies": [],
+        "status": "CALCULATED"
+      },
+      "manufacturing_process": [
+        "Stage 1: De-aerate liquid base and measure ingredient dosing.",
+        "Stage 2: Hydrate hydrocolloids and emulsifiers under controlled shear.",
+        "Stage 3: Thermal pasteurization according to regulatory pathogen log-reduction guidelines.",
+        "Stage 4: Aseptic packaging and cold storage."
+      ],
+      "evidence": [
+        "Grounded Repository DB",
+        "Grounded Repository DB",
+        "Grounded Repository DB",
+        "Grounded Repository DB"
+      ],
+      "assumptions": [
+        "Formulation components verified against TCS Food Formulator Knowledge Graph.",
+        "Mass balance constraint sum(percentage) == 100.0000% solved via SLSQP."
+      ]
+    }
+  ]
+}

@@ -1,0 +1,232 @@
+{
+  "status": "PASS",
+  "hard_constraint_results": [],
+  "property_completeness_results": [
+    {
+      "ingredient": "Refined Cane Sugar (Granulated)",
+      "status": "PASS",
+      "missing_properties": []
+    },
+    {
+      "ingredient": "Oat Milk Powder (Dairy-Free Milk Solids)",
+      "status": "PASS",
+      "missing_properties": []
+    },
+    {
+      "ingredient": "Egg White Powder",
+      "status": "PASS",
+      "missing_properties": []
+    },
+    {
+      "ingredient": "Prime Press Cocoa Butter",
+      "status": "PASS",
+      "missing_properties": []
+    },
+    {
+      "ingredient": "Ammonium Phosphatides (INS 442)",
+      "status": "PASS",
+      "missing_properties": []
+    },
+    {
+      "ingredient": "Vanilla Flavour (Nature Identical Vanillin)",
+      "status": "PASS",
+      "missing_properties": []
+    },
+    {
+      "ingredient": "Natural Sea Salt",
+      "status": "PASS",
+      "missing_properties": []
+    },
+    {
+      "ingredient": "Potassium Sorbate (INS 202)",
+      "status": "PASS",
+      "missing_properties": []
+    }
+  ],
+  "regulatory_results": [
+    {
+      "ingredient": "Refined Cane Sugar (Granulated)",
+      "permitted": true,
+      "ins_number": null,
+      "status": "Permitted",
+      "jurisdiction": "FSSAI / FDA / Codex"
+    },
+    {
+      "ingredient": "Oat Milk Powder (Dairy-Free Milk Solids)",
+      "permitted": true,
+      "ins_number": null,
+      "status": "Permitted",
+      "jurisdiction": "FSSAI / FDA / Codex"
+    },
+    {
+      "ingredient": "Egg White Powder",
+      "permitted": true,
+      "ins_number": null,
+      "status": "Permitted",
+      "jurisdiction": "FSSAI / FDA / Codex"
+    },
+    {
+      "ingredient": "Prime Press Cocoa Butter",
+      "permitted": true,
+      "ins_number": null,
+      "status": "Permitted",
+      "jurisdiction": "FSSAI / FDA / Codex"
+    },
+    {
+      "ingredient": "Ammonium Phosphatides (INS 442)",
+      "permitted": true,
+      "ins_number": null,
+      "status": "Permitted",
+      "jurisdiction": "FSSAI / FDA / Codex"
+    },
+    {
+      "ingredient": "Vanilla Flavour (Nature Identical Vanillin)",
+      "permitted": true,
+      "ins_number": null,
+      "status": "Permitted",
+      "jurisdiction": "FSSAI / FDA / Codex"
+    },
+    {
+      "ingredient": "Natural Sea Salt",
+      "permitted": true,
+      "ins_number": null,
+      "status": "Permitted",
+      "jurisdiction": "FSSAI / FDA / Codex"
+    },
+    {
+      "ingredient": "Potassium Sorbate (INS 202)",
+      "permitted": true,
+      "ins_number": null,
+      "status": "Permitted",
+      "jurisdiction": "FSSAI / FDA / Codex"
+    }
+  ],
+  "regional_compliance": {
+    "FSSAI": {
+      "status": "Warning",
+      "alerts": [
+        "Requires Evidence: Additive 'Ammonium Phosphatides (INS 442)' (No INS) requires regional dossier verification.",
+        "Requires Evidence: Additive 'Potassium Sorbate (INS 202)' (No INS) requires regional dossier verification.",
+        "Partial regulatory clearance: Some ingredients require technical dossier verification."
+      ],
+      "verified_count": 6,
+      "total_evaluated": 8
+    },
+    "FDA": {
+      "status": "Warning",
+      "alerts": [
+        "Requires Evidence: Additive 'Ammonium Phosphatides (INS 442)' (No INS) requires regional dossier verification.",
+        "Requires Evidence: Additive 'Potassium Sorbate (INS 202)' (No INS) requires regional dossier verification.",
+        "Partial regulatory clearance: Some ingredients require technical dossier verification."
+      ],
+      "verified_count": 6,
+      "total_evaluated": 8
+    },
+    "EFSA": {
+      "status": "Warning",
+      "alerts": [
+        "Requires Evidence: Additive 'Ammonium Phosphatides (INS 442)' (No INS) requires regional dossier verification.",
+        "Requires Evidence: Additive 'Potassium Sorbate (INS 202)' (No INS) requires regional dossier verification.",
+        "Partial regulatory clearance: Some ingredients require technical dossier verification."
+      ],
+      "verified_count": 6,
+      "total_evaluated": 8
+    }
+  },
+  "allergen_results": [
+    {
+      "ingredient": "Refined Cane Sugar (Granulated)",
+      "allergen": "None Declared",
+      "status": "PASS"
+    },
+    {
+      "ingredient": "Oat Milk Powder (Dairy-Free Milk Solids)",
+      "allergen": "None Declared",
+      "status": "PASS"
+    },
+    {
+      "ingredient": "Egg White Powder",
+      "allergen": "None Declared",
+      "status": "PASS"
+    },
+    {
+      "ingredient": "Prime Press Cocoa Butter",
+      "allergen": "None Declared",
+      "status": "PASS"
+    },
+    {
+      "ingredient": "Ammonium Phosphatides (INS 442)",
+      "allergen": "None Declared",
+      "status": "PASS"
+    },
+    {
+      "ingredient": "Vanilla Flavour (Nature Identical Vanillin)",
+      "allergen": "None Declared",
+      "status": "PASS"
+    },
+    {
+      "ingredient": "Natural Sea Salt",
+      "allergen": "None Declared",
+      "status": "PASS"
+    },
+    {
+      "ingredient": "Potassium Sorbate (INS 202)",
+      "allergen": "None Declared",
+      "status": "PASS"
+    }
+  ],
+  "compatibility_results": [],
+  "groundedness_results": [
+    {
+      "claim": "Refined Cane Sugar (Granulated) (Sweetener)",
+      "source": "Grounded Repository DB",
+      "grounded": true
+    },
+    {
+      "claim": "Oat Milk Powder (Dairy-Free Milk Solids) (Dairy Alternative Solids)",
+      "source": "Grounded Repository DB",
+      "grounded": true
+    },
+    {
+      "claim": "Egg White Powder (General)",
+      "source": "Grounded Repository DB",
+      "grounded": true
+    },
+    {
+      "claim": "Prime Press Cocoa Butter (Fats & Oils)",
+      "source": "Grounded Repository DB",
+      "grounded": true
+    },
+    {
+      "claim": "Ammonium Phosphatides (INS 442) (Emulsifier)",
+      "source": "Grounded Repository DB",
+      "grounded": true
+    },
+    {
+      "claim": "Vanilla Flavour (Nature Identical Vanillin) (Flavor System)",
+      "source": "Grounded Repository DB",
+      "grounded": true
+    },
+    {
+      "claim": "Natural Sea Salt (Flavor System)",
+      "source": "Grounded Repository DB",
+      "grounded": true
+    },
+    {
+      "claim": "Potassium Sorbate (INS 202) (Preservative)",
+      "source": "Grounded Repository DB",
+      "grounded": true
+    }
+  ],
+  "mass_balance_result": {
+    "total_percentage": 100.0,
+    "target_percentage": 100.0,
+    "is_feasible": true,
+    "status": "PASS"
+  },
+  "failure_reasons": [],
+  "requires_evidence_reasons": [],
+  "iteration_number": 1,
+  "max_iterations": 3,
+  "iteration_recommendation": "Proceed to Multi-Objective Scoring & Ranking"
+}

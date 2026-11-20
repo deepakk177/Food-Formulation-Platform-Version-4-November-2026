@@ -1,0 +1,5 @@
+source_id,source_name,dataset_id,total_available_records_in_raw,records_extracted,records_staged_in_duckdb,rejected_records,verification_status,unit_of_measure,notes
+SRC-FOODON,Food Ontology (FoodOn),DSK-FOODON-2024-03,39682,1000,1000,0,VERIFIED,OWL Classes,Full ontology contains 39682 named classes (50154 total Class elements); 1000 staged in Phase 2A verified batch.
+SRC-CODEX-GSFA,Codex General Standard for Food Additives,DSK-CODEX-GSFA-ONLINE,296,296,296,0,PARTIALLY_VERIFIED (PROVISIONS_BLOCKED),Additive Identities,296 genuine additives with INS numbers from local HTML index. Fine-grained category provisions blocked by Cloudflare anti-bot on remote portal.
+SRC-USDA-FDC,USDA FoodData Central,DSK-USDA-FDC-FOUNDATION,102,102,102,0,VERIFIED,Food Items (containing 8427 Nutrients),"102 food records from 6 staple queries (16 Foundation, 86 SR Legacy). 0 branded foods. 8427 distinct nutrient measurements contained in payloads."
+SRC-PUBCHEM,NCBI PubChem PUG REST,DSK-PUBCHEM-COMPOUNDS,8,8,8,0,VERIFIED,Chemical Compounds,"8 reference compound records with molecular formula, MW, SMILES, InChI, InChIKey, and synonyms."

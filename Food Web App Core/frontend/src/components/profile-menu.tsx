@@ -38,17 +38,14 @@ export default function ProfileMenu() {
       {/* Profile Trigger Button matching current UI */}
       <button
         onClick={() => setIsOpen(!isOpen)}
-        className="flex items-center gap-2.5 p-1 rounded-full hover:bg-[#F4F6F5] transition text-left focus:outline-none"
+        className="flex items-center gap-2.5 p-1.5 rounded-full hover:bg-[#F4F6F5] transition text-left focus:outline-none"
       >
         <div className="h-9 w-9 rounded-full bg-[#ECF4F0] border border-[#D1E2D9] text-[#164E3D] font-extrabold text-xs flex items-center justify-center font-mono shadow-2xs">
           {initials}
         </div>
-        <div className="hidden sm:flex flex-col text-left">
-          <span className="text-xs font-bold text-[#191C1E] leading-tight">{userName}</span>
-          <span className="text-[9px] font-mono text-[#5F6D67] uppercase tracking-wider leading-tight">
-            {userRole}
-          </span>
-        </div>
+        <span className="hidden sm:block text-xs font-bold text-[#191C1E] leading-none">
+          {userName}
+        </span>
         <ChevronDown className={`h-4 w-4 text-[#5F6D67] transition-transform ${isOpen ? 'rotate-180' : ''}`} />
       </button>
 

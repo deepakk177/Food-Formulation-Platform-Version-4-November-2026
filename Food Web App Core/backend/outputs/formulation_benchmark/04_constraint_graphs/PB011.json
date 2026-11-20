@@ -1,0 +1,111 @@
+{
+  "nodes": [
+    {
+      "id": "PROD-001",
+      "type": "ProductBrief",
+      "value": "Target Product (Protein Bars / Functional Snacks)",
+      "source": "User Product Brief"
+    },
+    {
+      "id": "CONST-001",
+      "type": "Product_CategoryConstraintNode",
+      "value": "product_category REQUIRED Protein Bars / Functional Snacks",
+      "source": "Design a gluten-free vegan apple cinnamon protein bar contai"
+    },
+    {
+      "id": "CONST-002",
+      "type": "DietaryConstraintNode",
+      "value": "dietary_pattern FORBIDDEN animal_derived_ingredients",
+      "source": "vegan"
+    },
+    {
+      "id": "CONST-003",
+      "type": "AllergenConstraintNode",
+      "value": "gluten FORBIDDEN gluten_containing_grains",
+      "source": "gluten-free"
+    },
+    {
+      "id": "CONST-004",
+      "type": "NutritionConstraintNode",
+      "value": "protein_min >= 16.0 %",
+      "source": "16% protein"
+    },
+    {
+      "id": "CONST-005",
+      "type": "NutritionConstraintNode",
+      "value": "fibre_min >= 8.0 %",
+      "source": "8% fibre"
+    },
+    {
+      "id": "CONST-006",
+      "type": "CostConstraintNode",
+      "value": "max_raw_material_cost <= 10.5 USD/kg",
+      "source": "10.5 USD/kg"
+    },
+    {
+      "id": "CONST-007",
+      "type": "SensoryConstraintNode",
+      "value": "texture_profile PREFERRED Soft",
+      "source": "soft"
+    },
+    {
+      "id": "CONST-008",
+      "type": "Shelf_LifeConstraintNode",
+      "value": "shelf_stability REQUIRED 6-month",
+      "source": "shelf life"
+    }
+  ],
+  "edges": [
+    {
+      "source": "PROD-001",
+      "relationship": "HAS_CONSTRAINT",
+      "target": "CONST-001"
+    },
+    {
+      "source": "PROD-001",
+      "relationship": "HAS_CONSTRAINT",
+      "target": "CONST-002"
+    },
+    {
+      "source": "PROD-001",
+      "relationship": "HAS_ALLERGEN_CONSTRAINT",
+      "target": "CONST-003"
+    },
+    {
+      "source": "PROD-001",
+      "relationship": "HAS_NUTRITION_CONSTRAINT",
+      "target": "CONST-004"
+    },
+    {
+      "source": "PROD-001",
+      "relationship": "HAS_NUTRITION_CONSTRAINT",
+      "target": "CONST-005"
+    },
+    {
+      "source": "PROD-001",
+      "relationship": "HAS_COST_CONSTRAINT",
+      "target": "CONST-006"
+    },
+    {
+      "source": "PROD-001",
+      "relationship": "HAS_SENSORY_CONSTRAINT",
+      "target": "CONST-007"
+    },
+    {
+      "source": "PROD-001",
+      "relationship": "HAS_PROCESSING_CONSTRAINT",
+      "target": "CONST-008"
+    }
+  ],
+  "summary": {
+    "Nutrition Constraints": 2,
+    "Functional Constraints": 0,
+    "Sensory Constraints": 1,
+    "Regulatory Constraints": 0,
+    "Cost Constraints": 1,
+    "Ingredient Restrictions": 1,
+    "Processing Constraints": 1,
+    "Graph Nodes": 9,
+    "Graph Edges": 8
+  }
+}

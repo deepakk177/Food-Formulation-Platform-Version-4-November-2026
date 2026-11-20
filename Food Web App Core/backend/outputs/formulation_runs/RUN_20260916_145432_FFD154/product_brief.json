@@ -1,0 +1,301 @@
+{
+  "category": "Confectionery & Chocolate",
+  "product_type": "chocolate_bar",
+  "description": "High-Protein Vegan Chocolate Bar\n\nCreate a vegan dark chocolate protein bar with \u226520% protein, \u226415% sugar and 28\u201332% fat.\nIt should have a smooth, firm texture with rich dark-chocolate flavor.\nTarget aw <0.60 and 9-month ambient shelf life, with no dairy or gelatin.",
+  "texture_requirements": [
+    "Smooth"
+  ],
+  "mouthfeel_requirements": [],
+  "dietary_requirements": [
+    "Vegan",
+    "Dairy-Free"
+  ],
+  "allergen_constraints": [
+    "butter",
+    "whey",
+    "egg",
+    "milk",
+    "gelatin",
+    "dairy"
+  ],
+  "nutrition_targets": {
+    "protein_min": 20.0,
+    "protein_max": null,
+    "fat_min": null,
+    "fat_max": 32.0,
+    "carbohydrate_max": null,
+    "sugar_max": null,
+    "fibre_min": null,
+    "sodium_max": null,
+    "calories_max": null
+  },
+  "functional_goals": [],
+  "flavor_profile": [
+    "chocolate flavour"
+  ],
+  "aroma_profile": [],
+  "processing_constraints": [],
+  "shelf_life_requirements": "9-month",
+  "water_activity_target": "0.60",
+  "pH_target": null,
+  "regulatory_market": [],
+  "cost_target": null,
+  "excluded_ingredients": [
+    "butter",
+    "whey",
+    "egg",
+    "milk",
+    "gelatin",
+    "dairy"
+  ],
+  "preferred_ingredients": [],
+  "required_claims": [],
+  "prohibited_claims": [],
+  "hard_constraints": [
+    "DIETARY_EXCLUSIVE_VEGAN",
+    "DIETARY_EXCLUSIVE_DAIRY_FREE",
+    "EXCLUDED_INGREDIENTS_PROHIBITION"
+  ],
+  "soft_objectives": [
+    "MAXIMIZE_PROTEIN_DENSITY",
+    "OPTIMIZE_TEXTURE_AND_MOUTHFEEL"
+  ],
+  "experiment_strategies": [
+    "nutrition_maximized",
+    "cost_optimized",
+    "balanced",
+    "functionality_texture"
+  ],
+  "constraint_items": [
+    {
+      "constraint_id": "CONST-001",
+      "type": "category",
+      "parameter": "product_category",
+      "operator": "REQUIRED",
+      "target_value": "Confectionery & Chocolate",
+      "unit": null,
+      "importance": "CRITICAL",
+      "source_text": "High-Protein Vegan Chocolate Bar\n\nCreate a vegan d",
+      "confidence": 0.95,
+      "hard_or_soft": null
+    },
+    {
+      "constraint_id": "CONST-002",
+      "type": "ingredient_restriction",
+      "parameter": "dietary_pattern",
+      "operator": "FORBIDDEN",
+      "target_value": "animal_derived_ingredients",
+      "unit": null,
+      "importance": "CRITICAL",
+      "source_text": "Vegan",
+      "confidence": 1.0,
+      "hard_or_soft": null
+    },
+    {
+      "constraint_id": "CONST-003",
+      "type": "allergen",
+      "parameter": "dairy",
+      "operator": "FORBIDDEN",
+      "target_value": "milk_and_dairy_derivatives",
+      "unit": null,
+      "importance": "CRITICAL",
+      "source_text": "no dairy",
+      "confidence": 1.0,
+      "hard_or_soft": null
+    },
+    {
+      "constraint_id": "CONST-004",
+      "type": "nutrition",
+      "parameter": "protein_min",
+      "operator": ">=",
+      "target_value": 20.0,
+      "unit": "%",
+      "importance": "CRITICAL",
+      "source_text": "20% protein",
+      "confidence": 0.98,
+      "hard_or_soft": null
+    },
+    {
+      "constraint_id": "CONST-005",
+      "type": "nutrition",
+      "parameter": "fat_max",
+      "operator": "<=",
+      "target_value": 32.0,
+      "unit": "%",
+      "importance": "HIGH",
+      "source_text": "32% fat",
+      "confidence": 0.98,
+      "hard_or_soft": null
+    },
+    {
+      "constraint_id": "CONST-006",
+      "type": "processing",
+      "parameter": "water_activity",
+      "operator": "<=",
+      "target_value": 0.6,
+      "unit": "Aw",
+      "importance": "HIGH",
+      "source_text": "low water activity",
+      "confidence": 0.9,
+      "hard_or_soft": null
+    },
+    {
+      "constraint_id": "CONST-007",
+      "type": "sensory",
+      "parameter": "texture_profile",
+      "operator": "PREFERRED",
+      "target_value": "Smooth",
+      "unit": null,
+      "importance": "MEDIUM",
+      "source_text": "smooth",
+      "confidence": 0.9,
+      "hard_or_soft": null
+    },
+    {
+      "constraint_id": "CONST-008",
+      "type": "sensory",
+      "parameter": "flavor_profile",
+      "operator": "PREFERRED",
+      "target_value": "chocolate flavour",
+      "unit": null,
+      "importance": "MEDIUM",
+      "source_text": "Chocolate",
+      "confidence": 0.9,
+      "hard_or_soft": null
+    },
+    {
+      "constraint_id": "CONST-009",
+      "type": "shelf_life",
+      "parameter": "shelf_stability",
+      "operator": "REQUIRED",
+      "target_value": "9-month",
+      "unit": null,
+      "importance": "MEDIUM",
+      "source_text": "ambient",
+      "confidence": 0.88,
+      "hard_or_soft": null
+    }
+  ],
+  "constraint_graph": {
+    "nodes": [
+      {
+        "id": "PROD-001",
+        "type": "ProductBrief",
+        "value": "Target Product (Confectionery & Chocolate)",
+        "source": "User Product Brief"
+      },
+      {
+        "id": "CONST-001",
+        "type": "CategoryConstraintNode",
+        "value": "product_category REQUIRED Confectionery & Chocolate",
+        "source": "High-Protein Vegan Chocolate Bar\n\nCreate a vegan d"
+      },
+      {
+        "id": "CONST-002",
+        "type": "Ingredient_RestrictionConstraintNode",
+        "value": "dietary_pattern FORBIDDEN animal_derived_ingredients",
+        "source": "Vegan"
+      },
+      {
+        "id": "CONST-003",
+        "type": "AllergenConstraintNode",
+        "value": "dairy FORBIDDEN milk_and_dairy_derivatives",
+        "source": "no dairy"
+      },
+      {
+        "id": "CONST-004",
+        "type": "NutritionConstraintNode",
+        "value": "protein_min >= 20.0 %",
+        "source": "20% protein"
+      },
+      {
+        "id": "CONST-005",
+        "type": "NutritionConstraintNode",
+        "value": "fat_max <= 32.0 %",
+        "source": "32% fat"
+      },
+      {
+        "id": "CONST-006",
+        "type": "ProcessingConstraintNode",
+        "value": "water_activity <= 0.6 Aw",
+        "source": "low water activity"
+      },
+      {
+        "id": "CONST-007",
+        "type": "SensoryConstraintNode",
+        "value": "texture_profile PREFERRED Smooth",
+        "source": "smooth"
+      },
+      {
+        "id": "CONST-008",
+        "type": "SensoryConstraintNode",
+        "value": "flavor_profile PREFERRED chocolate flavour",
+        "source": "Chocolate"
+      },
+      {
+        "id": "CONST-009",
+        "type": "Shelf_LifeConstraintNode",
+        "value": "shelf_stability REQUIRED 9-month",
+        "source": "ambient"
+      }
+    ],
+    "edges": [
+      {
+        "source": "PROD-001",
+        "relationship": "HAS_CONSTRAINT",
+        "target": "CONST-001"
+      },
+      {
+        "source": "PROD-001",
+        "relationship": "HAS_INGREDIENT_RESTRICTION",
+        "target": "CONST-002"
+      },
+      {
+        "source": "PROD-001",
+        "relationship": "HAS_ALLERGEN_CONSTRAINT",
+        "target": "CONST-003"
+      },
+      {
+        "source": "PROD-001",
+        "relationship": "HAS_NUTRITION_CONSTRAINT",
+        "target": "CONST-004"
+      },
+      {
+        "source": "PROD-001",
+        "relationship": "HAS_NUTRITION_CONSTRAINT",
+        "target": "CONST-005"
+      },
+      {
+        "source": "PROD-001",
+        "relationship": "HAS_PROCESSING_CONSTRAINT",
+        "target": "CONST-006"
+      },
+      {
+        "source": "PROD-001",
+        "relationship": "HAS_SENSORY_CONSTRAINT",
+        "target": "CONST-007"
+      },
+      {
+        "source": "PROD-001",
+        "relationship": "HAS_SENSORY_CONSTRAINT",
+        "target": "CONST-008"
+      },
+      {
+        "source": "PROD-001",
+        "relationship": "HAS_PROCESSING_CONSTRAINT",
+        "target": "CONST-009"
+      }
+    ],
+    "summary": {
+      "Nutrition Constraints": 2,
+      "Functional Constraints": 0,
+      "Sensory Constraints": 2,
+      "Regulatory Constraints": 0,
+      "Cost Constraints": 0,
+      "Ingredient Restrictions": 2,
+      "Processing Constraints": 2,
+      "Graph Nodes": 10,
+      "Graph Edges": 9
+    }
+  }
+}

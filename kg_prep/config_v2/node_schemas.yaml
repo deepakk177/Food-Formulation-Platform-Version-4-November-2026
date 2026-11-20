@@ -1,0 +1,1318 @@
+# ==============================================================================
+# Pipeline V2: Node Schemas Configuration
+# Version: 2.0.0
+# Description: Declarative node schemas for all canonical and reified entities
+#              frozen in Phase 0.2. Strict typing, nullability, and primary keys.
+# ==============================================================================
+
+version: "2.0.0"
+
+nodes:
+  - node_type: "Ingredient"
+    output_filename: "Nodes/Ingredients.csv"
+    primary_key: "ingredient_id"
+    required_fields:
+      - "ingredient_id"
+      - "canonical_name"
+      - "entity_type"
+      - "validation_status"
+      - "created_at"
+    optional_fields:
+      - "synonyms"
+      - "foodon_id"
+      - "botanical_name"
+      - "description"
+    field_types:
+      ingredient_id: "string"
+      canonical_name: "string"
+      entity_type: "string"
+      validation_status: "string"
+      created_at: "iso_datetime"
+      synonyms: "string"
+      foodon_id: "string"
+      botanical_name: "string"
+      description: "string"
+    uniqueness_constraints:
+      - "ingredient_id"
+      - "canonical_name"
+    nullability:
+      ingredient_id: false
+      canonical_name: false
+      entity_type: false
+      validation_status: false
+      created_at: false
+      synonyms: true
+      foodon_id: true
+      botanical_name: true
+      description: true
+    provenance_requirements:
+      - "source_dataset_id"
+      - "source_record_id"
+
+  - node_type: "IngredientGrade"
+    output_filename: "Nodes/IngredientGrades.csv"
+    primary_key: "ingredient_grade_id"
+    required_fields:
+      - "ingredient_grade_id"
+      - "ingredient_id"
+      - "grade_name"
+      - "quality_standard"
+    optional_fields:
+      - "purity_percentage"
+      - "material_state"
+      - "supplier_id"
+    field_types:
+      ingredient_grade_id: "string"
+      ingredient_id: "string"
+      grade_name: "string"
+      quality_standard: "string"
+      purity_percentage: "float"
+      material_state: "string"
+      supplier_id: "string"
+    uniqueness_constraints:
+      - "ingredient_grade_id"
+    nullability:
+      ingredient_grade_id: false
+      ingredient_id: false
+      grade_name: false
+      quality_standard: false
+      purity_percentage: true
+      material_state: true
+      supplier_id: true
+    provenance_requirements:
+      - "source_dataset_id"
+      - "source_record_id"
+
+  - node_type: "IngredientSpecification"
+    output_filename: "Nodes/IngredientSpecifications.csv"
+    primary_key: "specification_id"
+    required_fields:
+      - "specification_id"
+      - "ingredient_grade_id"
+      - "parameter_name"
+      - "operator"
+      - "unit"
+    optional_fields:
+      - "limit_min"
+      - "limit_max"
+      - "test_method"
+    field_types:
+      specification_id: "string"
+      ingredient_grade_id: "string"
+      parameter_name: "string"
+      operator: "string"
+      unit: "string"
+      limit_min: "float"
+      limit_max: "float"
+      test_method: "string"
+    uniqueness_constraints:
+      - "specification_id"
+    nullability:
+      specification_id: false
+      ingredient_grade_id: false
+      parameter_name: false
+      operator: false
+      unit: false
+      limit_min: true
+      limit_max: true
+      test_method: true
+    provenance_requirements:
+      - "source_dataset_id"
+      - "source_record_id"
+
+  - node_type: "PropertyMeasurement"
+    output_filename: "Nodes/PropertyMeasurements.csv"
+    primary_key: "measurement_id"
+    required_fields:
+      - "measurement_id"
+      - "target_entity_id"
+      - "property_name"
+      - "measured_value"
+      - "unit"
+    optional_fields:
+      - "test_method"
+      - "temperature_c"
+      - "ph_value"
+      - "shear_rate_s1"
+    field_types:
+      measurement_id: "string"
+      target_entity_id: "string"
+      property_name: "string"
+      measured_value: "float"
+      unit: "string"
+      test_method: "string"
+      temperature_c: "float"
+      ph_value: "float"
+      shear_rate_s1: "float"
+    uniqueness_constraints:
+      - "measurement_id"
+    nullability:
+      measurement_id: false
+      target_entity_id: false
+      property_name: false
+      measured_value: false
+      unit: false
+      test_method: true
+      temperature_c: true
+      ph_value: true
+      shear_rate_s1: true
+    provenance_requirements:
+      - "source_dataset_id"
+      - "source_record_id"
+
+  - node_type: "FoodCategory"
+    output_filename: "Nodes/FoodCategories.csv"
+    primary_key: "category_id"
+    required_fields:
+      - "category_id"
+      - "category_code"
+      - "category_name"
+      - "taxonomy_system"
+    optional_fields:
+      - "parent_category_id"
+      - "description"
+    field_types:
+      category_id: "string"
+      category_code: "string"
+      category_name: "string"
+      taxonomy_system: "string"
+      parent_category_id: "string"
+      description: "string"
+    uniqueness_constraints:
+      - "category_id"
+    nullability:
+      category_id: false
+      category_code: false
+      category_name: false
+      taxonomy_system: false
+      parent_category_id: true
+      description: true
+    provenance_requirements:
+      - "source_dataset_id"
+
+  - node_type: "ExternalIdentifier"
+    output_filename: "Nodes/ExternalIdentifiers.csv"
+    primary_key: "identifier_id"
+    required_fields:
+      - "identifier_id"
+      - "entity_id"
+      - "id_namespace"
+      - "external_key"
+    optional_fields:
+      - "source_url"
+      - "verification_date"
+    field_types:
+      identifier_id: "string"
+      entity_id: "string"
+      id_namespace: "string"
+      external_key: "string"
+      source_url: "string"
+      verification_date: "iso_datetime"
+    uniqueness_constraints:
+      - "identifier_id"
+    nullability:
+      identifier_id: false
+      entity_id: false
+      id_namespace: false
+      external_key: false
+      source_url: true
+      verification_date: true
+    provenance_requirements:
+      - "source_dataset_id"
+
+  - node_type: "Nutrient"
+    output_filename: "Nodes/Nutrients.csv"
+    primary_key: "nutrient_id"
+    required_fields:
+      - "nutrient_id"
+      - "canonical_name"
+      - "infoods_tag"
+      - "canonical_unit"
+    optional_fields:
+      - "nutrient_group"
+      - "description"
+    field_types:
+      nutrient_id: "string"
+      canonical_name: "string"
+      infoods_tag: "string"
+      canonical_unit: "string"
+      nutrient_group: "string"
+      description: "string"
+    uniqueness_constraints:
+      - "nutrient_id"
+      - "canonical_name"
+    nullability:
+      nutrient_id: false
+      canonical_name: false
+      infoods_tag: false
+      canonical_unit: false
+      nutrient_group: true
+      description: true
+    provenance_requirements:
+      - "source_dataset_id"
+
+  - node_type: "NutrientProfile"
+    output_filename: "Nodes/NutrientProfiles.csv"
+    primary_key: "nutrient_profile_id"
+    required_fields:
+      - "nutrient_profile_id"
+      - "ingredient_id"
+      - "source_dataset_id"
+      - "dataset_version"
+    optional_fields:
+      - "publication_date"
+      - "laboratory_name"
+    field_types:
+      nutrient_profile_id: "string"
+      ingredient_id: "string"
+      source_dataset_id: "string"
+      dataset_version: "string"
+      publication_date: "string"
+      laboratory_name: "string"
+    uniqueness_constraints:
+      - "nutrient_profile_id"
+    nullability:
+      nutrient_profile_id: false
+      ingredient_id: false
+      source_dataset_id: false
+      dataset_version: false
+      publication_date: true
+      laboratory_name: true
+    provenance_requirements:
+      - "source_dataset_id"
+
+  - node_type: "NutrientMeasurement"
+    output_filename: "Nodes/NutrientMeasurements.csv"
+    primary_key: "measurement_id"
+    required_fields:
+      - "measurement_id"
+      - "nutrient_profile_id"
+      - "nutrient_id"
+      - "value_numeric"
+      - "unit"
+      - "basis"
+    optional_fields:
+      - "value_min"
+      - "value_max"
+      - "derivation_method"
+    field_types:
+      measurement_id: "string"
+      nutrient_profile_id: "string"
+      nutrient_id: "string"
+      value_numeric: "float"
+      unit: "string"
+      basis: "string"
+      value_min: "float"
+      value_max: "float"
+      derivation_method: "string"
+    uniqueness_constraints:
+      - "measurement_id"
+    nullability:
+      measurement_id: false
+      nutrient_profile_id: false
+      nutrient_id: false
+      value_numeric: false
+      unit: false
+      basis: false
+      value_min: true
+      value_max: true
+      derivation_method: true
+    provenance_requirements:
+      - "source_dataset_id"
+      - "source_record_id"
+
+  - node_type: "Compound"
+    output_filename: "Nodes/Compounds.csv"
+    primary_key: "compound_id"
+    required_fields:
+      - "compound_id"
+      - "canonical_name"
+      - "molecular_formula"
+      - "molecular_weight"
+    optional_fields:
+      - "canonical_smiles"
+      - "inchi_key"
+      - "cas_number"
+    field_types:
+      compound_id: "string"
+      canonical_name: "string"
+      molecular_formula: "string"
+      molecular_weight: "float"
+      canonical_smiles: "string"
+      inchi_key: "string"
+      cas_number: "string"
+    uniqueness_constraints:
+      - "compound_id"
+    nullability:
+      compound_id: false
+      canonical_name: false
+      molecular_formula: false
+      molecular_weight: false
+      canonical_smiles: true
+      inchi_key: true
+      cas_number: true
+    provenance_requirements:
+      - "source_dataset_id"
+
+  - node_type: "FlavorMolecule"
+    output_filename: "Nodes/FlavorMolecules.csv"
+    primary_key: "flavor_molecule_id"
+    required_fields:
+      - "flavor_molecule_id"
+      - "canonical_name"
+      - "pubchem_cid"
+    optional_fields:
+      - "fema_number"
+      - "cas_number"
+      - "odor_threshold"
+    field_types:
+      flavor_molecule_id: "string"
+      canonical_name: "string"
+      pubchem_cid: "string"
+      fema_number: "string"
+      cas_number: "string"
+      odor_threshold: "string"
+    uniqueness_constraints:
+      - "flavor_molecule_id"
+    nullability:
+      flavor_molecule_id: false
+      canonical_name: false
+      pubchem_cid: false
+      fema_number: true
+      cas_number: true
+      odor_threshold: true
+    provenance_requirements:
+      - "source_dataset_id"
+
+  - node_type: "SensoryFlavorDescriptor"
+    output_filename: "Nodes/SensoryFlavorDescriptors.csv"
+    primary_key: "descriptor_id"
+    required_fields:
+      - "descriptor_id"
+      - "descriptor_name"
+    optional_fields:
+      - "flavor_category"
+      - "description"
+    field_types:
+      descriptor_id: "string"
+      descriptor_name: "string"
+      flavor_category: "string"
+      description: "string"
+    uniqueness_constraints:
+      - "descriptor_id"
+      - "descriptor_name"
+    nullability:
+      descriptor_id: false
+      descriptor_name: false
+      flavor_category: true
+      description: true
+    provenance_requirements:
+      - "source_dataset_id"
+
+  - node_type: "FunctionalRole"
+    output_filename: "Nodes/FunctionalRoles.csv"
+    primary_key: "functional_role_id"
+    required_fields:
+      - "functional_role_id"
+      - "role_name"
+      - "standard_code"
+    optional_fields:
+      - "definition"
+      - "technological_purpose"
+    field_types:
+      functional_role_id: "string"
+      role_name: "string"
+      standard_code: "string"
+      definition: "string"
+      technological_purpose: "string"
+    uniqueness_constraints:
+      - "functional_role_id"
+      - "role_name"
+    nullability:
+      functional_role_id: false
+      role_name: false
+      standard_code: false
+      definition: true
+      technological_purpose: true
+    provenance_requirements:
+      - "source_dataset_id"
+
+  - node_type: "Allergen"
+    output_filename: "Nodes/Allergens.csv"
+    primary_key: "allergen_id"
+    required_fields:
+      - "allergen_id"
+      - "allergen_name"
+      - "statutory_jurisdiction"
+    optional_fields:
+      - "allergenic_proteins"
+      - "advisory_code"
+    field_types:
+      allergen_id: "string"
+      allergen_name: "string"
+      statutory_jurisdiction: "string"
+      allergenic_proteins: "string"
+      advisory_code: "string"
+    uniqueness_constraints:
+      - "allergen_id"
+    nullability:
+      allergen_id: false
+      allergen_name: false
+      statutory_jurisdiction: false
+      allergenic_proteins: true
+      advisory_code: true
+    provenance_requirements:
+      - "source_dataset_id"
+
+  - node_type: "IngredientInteraction"
+    output_filename: "Nodes/IngredientInteractions.csv"
+    primary_key: "interaction_id"
+    required_fields:
+      - "interaction_id"
+      - "ingredient_a_id"
+      - "ingredient_b_id"
+      - "interaction_type"
+    optional_fields:
+      - "observed_effect"
+      - "ph_condition"
+      - "matrix_type"
+    field_types:
+      interaction_id: "string"
+      ingredient_a_id: "string"
+      ingredient_b_id: "string"
+      interaction_type: "string"
+      observed_effect: "string"
+      ph_condition: "string"
+      matrix_type: "string"
+    uniqueness_constraints:
+      - "interaction_id"
+    nullability:
+      interaction_id: false
+      ingredient_a_id: false
+      ingredient_b_id: false
+      interaction_type: false
+      observed_effect: true
+      ph_condition: true
+      matrix_type: true
+    provenance_requirements:
+      - "evidence_id"
+      - "source_dataset_id"
+
+  - node_type: "CompatibilityRule"
+    output_filename: "Nodes/CompatibilityRules.csv"
+    primary_key: "rule_id"
+    required_fields:
+      - "rule_id"
+      - "rule_name"
+      - "rule_expression"
+      - "severity"
+    optional_fields:
+      - "mitigation_strategy"
+      - "scientific_rationale"
+    field_types:
+      rule_id: "string"
+      rule_name: "string"
+      rule_expression: "string"
+      severity: "string"
+      mitigation_strategy: "string"
+      scientific_rationale: "string"
+    uniqueness_constraints:
+      - "rule_id"
+    nullability:
+      rule_id: false
+      rule_name: false
+      rule_expression: false
+      severity: false
+      mitigation_strategy: true
+      scientific_rationale: true
+    provenance_requirements:
+      - "source_dataset_id"
+
+  - node_type: "Constraint"
+    output_filename: "Nodes/Constraints.csv"
+    primary_key: "constraint_id"
+    required_fields:
+      - "constraint_id"
+      - "parameter_name"
+      - "operator"
+      - "unit"
+      - "basis"
+      - "scope"
+    optional_fields:
+      - "limit_value_numeric"
+      - "limit_min"
+      - "limit_max"
+    field_types:
+      constraint_id: "string"
+      parameter_name: "string"
+      operator: "string"
+      unit: "string"
+      basis: "string"
+      scope: "string"
+      limit_value_numeric: "float"
+      limit_min: "float"
+      limit_max: "float"
+    uniqueness_constraints:
+      - "constraint_id"
+    nullability:
+      constraint_id: false
+      parameter_name: false
+      operator: false
+      unit: false
+      basis: false
+      scope: false
+      limit_value_numeric: true
+      limit_min: true
+      limit_max: true
+    provenance_requirements:
+      - "source_dataset_id"
+
+  - node_type: "Recipe"
+    output_filename: "Nodes/Recipes.csv"
+    primary_key: "recipe_id"
+    required_fields:
+      - "recipe_id"
+      - "recipe_title"
+      - "cuisine"
+      - "source_dataset_id"
+    optional_fields:
+      - "prep_time_minutes"
+      - "cook_time_minutes"
+    field_types:
+      recipe_id: "string"
+      recipe_title: "string"
+      cuisine: "string"
+      source_dataset_id: "string"
+      prep_time_minutes: "integer"
+      cook_time_minutes: "integer"
+    uniqueness_constraints:
+      - "recipe_id"
+    nullability:
+      recipe_id: false
+      recipe_title: false
+      cuisine: false
+      source_dataset_id: false
+      prep_time_minutes: true
+      cook_time_minutes: true
+    provenance_requirements:
+      - "source_dataset_id"
+
+  - node_type: "RecipeComponent"
+    output_filename: "Nodes/RecipeComponents.csv"
+    primary_key: "recipe_component_id"
+    required_fields:
+      - "recipe_component_id"
+      - "recipe_id"
+      - "ingredient_id"
+      - "raw_text"
+    optional_fields:
+      - "quantity_numeric"
+      - "quantity_unit"
+      - "mass_grams"
+    field_types:
+      recipe_component_id: "string"
+      recipe_id: "string"
+      ingredient_id: "string"
+      raw_text: "string"
+      quantity_numeric: "float"
+      quantity_unit: "string"
+      mass_grams: "float"
+    uniqueness_constraints:
+      - "recipe_component_id"
+    nullability:
+      recipe_component_id: false
+      recipe_id: false
+      ingredient_id: false
+      raw_text: false
+      quantity_numeric: true
+      quantity_unit: true
+      mass_grams: true
+    provenance_requirements:
+      - "source_dataset_id"
+
+  - node_type: "RecipeStep"
+    output_filename: "Nodes/RecipeSteps.csv"
+    primary_key: "recipe_step_id"
+    required_fields:
+      - "recipe_step_id"
+      - "recipe_id"
+      - "step_number"
+      - "instruction_text"
+    optional_fields:
+      - "inferred_technique"
+    field_types:
+      recipe_step_id: "string"
+      recipe_id: "string"
+      step_number: "integer"
+      instruction_text: "string"
+      inferred_technique: "string"
+    uniqueness_constraints:
+      - "recipe_step_id"
+    nullability:
+      recipe_step_id: false
+      recipe_id: false
+      step_number: false
+      instruction_text: false
+      inferred_technique: true
+    provenance_requirements:
+      - "source_dataset_id"
+
+  - node_type: "CommercialProduct"
+    output_filename: "Nodes/CommercialProducts.csv"
+    primary_key: "product_id"
+    required_fields:
+      - "product_id"
+      - "gtin_barcode"
+      - "product_name"
+      - "brand_name"
+    optional_fields:
+      - "ingredients_text"
+      - "category_id"
+      - "net_weight"
+    field_types:
+      product_id: "string"
+      gtin_barcode: "string"
+      product_name: "string"
+      brand_name: "string"
+      ingredients_text: "string"
+      category_id: "string"
+      net_weight: "string"
+    uniqueness_constraints:
+      - "product_id"
+      - "gtin_barcode"
+    nullability:
+      product_id: false
+      gtin_barcode: false
+      product_name: false
+      brand_name: false
+      ingredients_text: true
+      category_id: true
+      net_weight: true
+    provenance_requirements:
+      - "source_dataset_id"
+      - "source_record_id"
+
+  - node_type: "ProductIngredientDeclaration"
+    output_filename: "Nodes/ProductIngredientDeclarations.csv"
+    primary_key: "declaration_id"
+    required_fields:
+      - "declaration_id"
+      - "product_id"
+      - "ingredient_id"
+      - "declaration_order"
+    optional_fields:
+      - "declared_percentage"
+      - "is_characterizing"
+    field_types:
+      declaration_id: "string"
+      product_id: "string"
+      ingredient_id: "string"
+      declaration_order: "integer"
+      declared_percentage: "float"
+      is_characterizing: "boolean"
+    uniqueness_constraints:
+      - "declaration_id"
+    nullability:
+      declaration_id: false
+      product_id: false
+      ingredient_id: false
+      declaration_order: false
+      declared_percentage: true
+      is_characterizing: true
+    provenance_requirements:
+      - "source_dataset_id"
+      - "source_record_id"
+
+  - node_type: "Formulation"
+    output_filename: "Nodes/Formulations.csv"
+    primary_key: "formulation_id"
+    required_fields:
+      - "formulation_id"
+      - "project_name"
+      - "target_category_id"
+      - "formulation_type"
+    optional_fields:
+      - "batch_mass_kg"
+      - "legal_jurisdiction"
+    field_types:
+      formulation_id: "string"
+      project_name: "string"
+      target_category_id: "string"
+      formulation_type: "string"
+      batch_mass_kg: "float"
+      legal_jurisdiction: "string"
+    uniqueness_constraints:
+      - "formulation_id"
+    nullability:
+      formulation_id: false
+      project_name: false
+      target_category_id: false
+      formulation_type: false
+      batch_mass_kg: true
+      legal_jurisdiction: true
+    provenance_requirements:
+      - "source_dataset_id"
+
+  - node_type: "FormulationVersion"
+    output_filename: "Nodes/FormulationVersions.csv"
+    primary_key: "version_id"
+    required_fields:
+      - "version_id"
+      - "formulation_id"
+      - "version_code"
+      - "is_validated"
+    optional_fields:
+      - "water_activity"
+      - "ph_measured"
+      - "moisture_pct"
+    field_types:
+      version_id: "string"
+      formulation_id: "string"
+      version_code: "string"
+      is_validated: "boolean"
+      water_activity: "float"
+      ph_measured: "float"
+      moisture_pct: "float"
+    uniqueness_constraints:
+      - "version_id"
+    nullability:
+      version_id: false
+      formulation_id: false
+      version_code: false
+      is_validated: false
+      water_activity: true
+      ph_measured: true
+      moisture_pct: true
+    provenance_requirements:
+      - "source_dataset_id"
+
+  - node_type: "FormulationComponent"
+    output_filename: "Nodes/FormulationComponents.csv"
+    primary_key: "component_id"
+    required_fields:
+      - "component_id"
+      - "version_id"
+      - "ingredient_grade_id"
+      - "inclusion_percentage"
+    optional_fields:
+      - "inclusion_min"
+      - "inclusion_max"
+      - "batch_phase"
+    field_types:
+      component_id: "string"
+      version_id: "string"
+      ingredient_grade_id: "string"
+      inclusion_percentage: "float"
+      inclusion_min: "float"
+      inclusion_max: "float"
+      batch_phase: "string"
+    uniqueness_constraints:
+      - "component_id"
+    nullability:
+      component_id: false
+      version_id: false
+      ingredient_grade_id: false
+      inclusion_percentage: false
+      inclusion_min: true
+      inclusion_max: true
+      batch_phase: true
+    provenance_requirements:
+      - "source_dataset_id"
+
+  - node_type: "Process"
+    output_filename: "Nodes/Processes.csv"
+    primary_key: "process_id"
+    required_fields:
+      - "process_id"
+      - "process_name"
+      - "unit_operation_type"
+    optional_fields:
+      - "description"
+      - "standard_classification"
+    field_types:
+      process_id: "string"
+      process_name: "string"
+      unit_operation_type: "string"
+      description: "string"
+      standard_classification: "string"
+    uniqueness_constraints:
+      - "process_id"
+      - "process_name"
+    nullability:
+      process_id: false
+      process_name: false
+      unit_operation_type: false
+      description: true
+      standard_classification: true
+    provenance_requirements:
+      - "source_dataset_id"
+
+  - node_type: "ProcessStep"
+    output_filename: "Nodes/ProcessSteps.csv"
+    primary_key: "process_step_id"
+    required_fields:
+      - "process_step_id"
+      - "version_id"
+      - "process_id"
+      - "sequence_order"
+    optional_fields:
+      - "duration_seconds"
+      - "temperature_c"
+      - "pressure_bar"
+    field_types:
+      process_step_id: "string"
+      version_id: "string"
+      process_id: "string"
+      sequence_order: "integer"
+      duration_seconds: "float"
+      temperature_c: "float"
+      pressure_bar: "float"
+    uniqueness_constraints:
+      - "process_step_id"
+    nullability:
+      process_step_id: false
+      version_id: false
+      process_id: false
+      sequence_order: false
+      duration_seconds: true
+      temperature_c: true
+      pressure_bar: true
+    provenance_requirements:
+      - "source_dataset_id"
+
+  - node_type: "Equipment"
+    output_filename: "Nodes/Equipment.csv"
+    primary_key: "equipment_id"
+    required_fields:
+      - "equipment_id"
+      - "equipment_name"
+      - "equipment_category"
+    optional_fields:
+      - "capacity_max"
+      - "manufacturer"
+    field_types:
+      equipment_id: "string"
+      equipment_name: "string"
+      equipment_category: "string"
+      capacity_max: "string"
+      manufacturer: "string"
+    uniqueness_constraints:
+      - "equipment_id"
+    nullability:
+      equipment_id: false
+      equipment_name: false
+      equipment_category: false
+      capacity_max: true
+      manufacturer: true
+    provenance_requirements:
+      - "source_dataset_id"
+
+  - node_type: "PackagingSpecification"
+    output_filename: "Nodes/PackagingSpecifications.csv"
+    primary_key: "packaging_id"
+    required_fields:
+      - "packaging_id"
+      - "package_format_name"
+    optional_fields:
+      - "otr_cc_m2_day"
+      - "wvtr_g_m2_day"
+      - "volume_ml"
+    field_types:
+      packaging_id: "string"
+      package_format_name: "string"
+      otr_cc_m2_day: "float"
+      wvtr_g_m2_day: "float"
+      volume_ml: "float"
+    uniqueness_constraints:
+      - "packaging_id"
+    nullability:
+      packaging_id: false
+      package_format_name: false
+      otr_cc_m2_day: true
+      wvtr_g_m2_day: true
+      volume_ml: true
+    provenance_requirements:
+      - "source_dataset_id"
+
+  - node_type: "PackagingMaterial"
+    output_filename: "Nodes/PackagingMaterials.csv"
+    primary_key: "material_id"
+    required_fields:
+      - "material_id"
+      - "material_name"
+      - "polymer_code"
+    optional_fields:
+      - "recycle_code"
+      - "barrier_properties"
+    field_types:
+      material_id: "string"
+      material_name: "string"
+      polymer_code: "string"
+      recycle_code: "string"
+      barrier_properties: "string"
+    uniqueness_constraints:
+      - "material_id"
+    nullability:
+      material_id: false
+      material_name: false
+      polymer_code: false
+      recycle_code: true
+      barrier_properties: true
+    provenance_requirements:
+      - "source_dataset_id"
+
+  - node_type: "Regulation"
+    output_filename: "Nodes/Regulations.csv"
+    primary_key: "regulation_id"
+    required_fields:
+      - "regulation_id"
+      - "regulation_name"
+      - "jurisdiction"
+      - "authority"
+    optional_fields:
+      - "effective_date"
+      - "version_code"
+    field_types:
+      regulation_id: "string"
+      regulation_name: "string"
+      jurisdiction: "string"
+      authority: "string"
+      effective_date: "string"
+      version_code: "string"
+    uniqueness_constraints:
+      - "regulation_id"
+    nullability:
+      regulation_id: false
+      regulation_name: false
+      jurisdiction: false
+      authority: false
+      effective_date: true
+      version_code: true
+    provenance_requirements:
+      - "source_dataset_id"
+
+  - node_type: "RegulatoryPermission"
+    output_filename: "Nodes/RegulatoryPermissions.csv"
+    primary_key: "permission_id"
+    required_fields:
+      - "permission_id"
+      - "regulation_id"
+      - "ingredient_id"
+      - "category_id"
+      - "status"
+    optional_fields:
+      - "max_level_numeric"
+      - "unit"
+      - "conditions_of_use"
+    field_types:
+      permission_id: "string"
+      regulation_id: "string"
+      ingredient_id: "string"
+      category_id: "string"
+      status: "string"
+      max_level_numeric: "float"
+      unit: "string"
+      conditions_of_use: "string"
+    uniqueness_constraints:
+      - "permission_id"
+    nullability:
+      permission_id: false
+      regulation_id: false
+      ingredient_id: false
+      category_id: false
+      status: false
+      max_level_numeric: true
+      unit: true
+      conditions_of_use: true
+    provenance_requirements:
+      - "evidence_id"
+      - "source_dataset_id"
+
+  - node_type: "Supplier"
+    output_filename: "Nodes/Suppliers.csv"
+    primary_key: "supplier_id"
+    required_fields:
+      - "supplier_id"
+      - "supplier_name"
+      - "country_headquarters"
+    optional_fields:
+      - "website_url"
+      - "supplier_type"
+    field_types:
+      supplier_id: "string"
+      supplier_name: "string"
+      country_headquarters: "string"
+      website_url: "string"
+      supplier_type: "string"
+    uniqueness_constraints:
+      - "supplier_id"
+    nullability:
+      supplier_id: false
+      supplier_name: false
+      country_headquarters: false
+      website_url: true
+      supplier_type: true
+    provenance_requirements:
+      - "source_dataset_id"
+
+  - node_type: "CostRecord"
+    output_filename: "Nodes/CostRecords.csv"
+    primary_key: "cost_record_id"
+    required_fields:
+      - "cost_record_id"
+      - "price_value"
+      - "currency"
+      - "pricing_unit"
+      - "price_type"
+      - "price_date"
+    optional_fields:
+      - "supplier_id"
+      - "ingredient_grade_id"
+      - "valid_until"
+    field_types:
+      cost_record_id: "string"
+      price_value: "float"
+      currency: "string"
+      pricing_unit: "string"
+      price_type: "string"
+      price_date: "string"
+      supplier_id: "string"
+      ingredient_grade_id: "string"
+      valid_until: "string"
+    uniqueness_constraints:
+      - "cost_record_id"
+    nullability:
+      cost_record_id: false
+      price_value: false
+      currency: false
+      pricing_unit: false
+      price_type: false
+      price_date: false
+      supplier_id: true
+      ingredient_grade_id: true
+      valid_until: true
+    provenance_requirements:
+      - "source_dataset_id"
+
+  - node_type: "ShelfLifeStudy"
+    output_filename: "Nodes/ShelfLifeStudies.csv"
+    primary_key: "study_id"
+    required_fields:
+      - "study_id"
+      - "target_entity_id"
+      - "temperature_celsius"
+      - "duration_days"
+    optional_fields:
+      - "relative_humidity_pct"
+      - "observed_failure_mode"
+    field_types:
+      study_id: "string"
+      target_entity_id: "string"
+      temperature_celsius: "float"
+      duration_days: "integer"
+      relative_humidity_pct: "float"
+      observed_failure_mode: "string"
+    uniqueness_constraints:
+      - "study_id"
+    nullability:
+      study_id: false
+      target_entity_id: false
+      temperature_celsius: false
+      duration_days: false
+      relative_humidity_pct: true
+      observed_failure_mode: true
+    provenance_requirements:
+      - "evidence_id"
+      - "source_dataset_id"
+
+  - node_type: "SensoryAttribute"
+    output_filename: "Nodes/SensoryAttributes.csv"
+    primary_key: "attribute_id"
+    required_fields:
+      - "attribute_id"
+      - "attribute_name"
+      - "sensory_modality"
+    optional_fields:
+      - "evaluation_scale"
+      - "reference_anchor"
+    field_types:
+      attribute_id: "string"
+      attribute_name: "string"
+      sensory_modality: "string"
+      evaluation_scale: "string"
+      reference_anchor: "string"
+    uniqueness_constraints:
+      - "attribute_id"
+      - "attribute_name"
+    nullability:
+      attribute_id: false
+      attribute_name: false
+      sensory_modality: false
+      evaluation_scale: true
+      reference_anchor: true
+    provenance_requirements:
+      - "source_dataset_id"
+
+  - node_type: "SensoryEvaluation"
+    output_filename: "Nodes/SensoryEvaluations.csv"
+    primary_key: "evaluation_id"
+    required_fields:
+      - "evaluation_id"
+      - "target_entity_id"
+      - "attribute_id"
+      - "mean_score"
+    optional_fields:
+      - "panel_size"
+      - "standard_deviation"
+    field_types:
+      evaluation_id: "string"
+      target_entity_id: "string"
+      attribute_id: "string"
+      mean_score: "float"
+      panel_size: "integer"
+      standard_deviation: "float"
+    uniqueness_constraints:
+      - "evaluation_id"
+    nullability:
+      evaluation_id: false
+      target_entity_id: false
+      attribute_id: false
+      mean_score: false
+      panel_size: true
+      standard_deviation: true
+    provenance_requirements:
+      - "evidence_id"
+      - "source_dataset_id"
+
+  - node_type: "Claim"
+    output_filename: "Nodes/Claims.csv"
+    primary_key: "claim_id"
+    required_fields:
+      - "claim_id"
+      - "claim_text"
+      - "claim_type"
+      - "regulatory_jurisdiction"
+    optional_fields:
+      - "minimum_threshold"
+      - "qualifying_criterion"
+    field_types:
+      claim_id: "string"
+      claim_text: "string"
+      claim_type: "string"
+      regulatory_jurisdiction: "string"
+      minimum_threshold: "string"
+      qualifying_criterion: "string"
+    uniqueness_constraints:
+      - "claim_id"
+    nullability:
+      claim_id: false
+      claim_text: false
+      claim_type: false
+      regulatory_jurisdiction: false
+      minimum_threshold: true
+      qualifying_criterion: true
+    provenance_requirements:
+      - "source_dataset_id"
+
+  - node_type: "Evidence"
+    output_filename: "Nodes/Evidence.csv"
+    primary_key: "evidence_id"
+    required_fields:
+      - "evidence_id"
+      - "evidence_type"
+      - "evidence_quality"
+      - "document_title"
+      - "source_dataset_id"
+    optional_fields:
+      - "document_doi"
+      - "patent_number"
+      - "page"
+      - "excerpt"
+    field_types:
+      evidence_id: "string"
+      evidence_type: "string"
+      evidence_quality: "string"
+      document_title: "string"
+      source_dataset_id: "string"
+      document_doi: "string"
+      patent_number: "string"
+      page: "string"
+      excerpt: "string"
+    uniqueness_constraints:
+      - "evidence_id"
+    nullability:
+      evidence_id: false
+      evidence_type: false
+      evidence_quality: false
+      document_title: false
+      source_dataset_id: false
+      document_doi: true
+      patent_number: true
+      page: true
+      excerpt: true
+    provenance_requirements:
+      - "source_dataset_id"
+
+  - node_type: "Source"
+    output_filename: "Nodes/Sources.csv"
+    primary_key: "source_id"
+    required_fields:
+      - "source_id"
+      - "source_name"
+      - "authority_organization"
+      - "official_url"
+    optional_fields:
+      - "jurisdiction"
+      - "licensing_terms"
+    field_types:
+      source_id: "string"
+      source_name: "string"
+      authority_organization: "string"
+      official_url: "string"
+      jurisdiction: "string"
+      licensing_terms: "string"
+    uniqueness_constraints:
+      - "source_id"
+      - "source_name"
+    nullability:
+      source_id: false
+      source_name: false
+      authority_organization: false
+      official_url: false
+      jurisdiction: true
+      licensing_terms: true
+    provenance_requirements:
+      - "source_id"
+
+  - node_type: "Dataset"
+    output_filename: "Nodes/Datasets.csv"
+    primary_key: "dataset_id"
+    required_fields:
+      - "dataset_id"
+      - "source_id"
+      - "dataset_version"
+      - "release_date"
+      - "sha256_hash"
+    optional_fields:
+      - "download_url"
+      - "record_count"
+    field_types:
+      dataset_id: "string"
+      source_id: "string"
+      dataset_version: "string"
+      release_date: "string"
+      sha256_hash: "string"
+      download_url: "string"
+      record_count: "integer"
+    uniqueness_constraints:
+      - "dataset_id"
+    nullability:
+      dataset_id: false
+      source_id: false
+      dataset_version: false
+      release_date: false
+      sha256_hash: false
+      download_url: true
+      record_count: true
+    provenance_requirements:
+      - "source_id"

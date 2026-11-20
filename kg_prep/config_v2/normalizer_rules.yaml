@@ -1,0 +1,144 @@
+# ==============================================================================
+# Pipeline V2: Normalizer Rules Configuration
+# Version: 2.0.0
+# Description: Deterministic normalization configuration for physical dimensions,
+#              scientific units, conversion factors, and canonical namespaces.
+#              Zero speculative or dimensionally invalid conversions.
+# ==============================================================================
+
+version: "2.0.0"
+
+canonical_namespaces:
+  foodon: "http://purl.obolibrary.org/obo/FOODON_"
+  fdc: "https://fdc.nal.usda.gov/fdc-app.html#/food-details/"
+  pubchem: "https://pubchem.ncbi.nlm.nih.gov/compound/"
+  cas: "urn:cas:"
+  ins: "urn:codex:ins:"
+  unii: "https://precision.fda.gov/uniisearch/srs/unii/"
+  chebi: "http://purl.obolibrary.org/obo/CHEBI_"
+  gtin: "urn:gs1:gtin:"
+  doi: "https://doi.org/"
+
+physical_dimensions:
+  mass:
+    canonical_unit: "g"
+    dimension: "M"
+    supported_units: ["g", "mg", "ug", "kg", "oz", "lb"]
+  volume:
+    canonical_unit: "ml"
+    dimension: "L3"
+    supported_units: ["ml", "l", "cup_us", "tbsp_us", "tsp_us", "fl_oz_us"]
+  concentration_additive:
+    canonical_unit: "mg_per_kg"
+    dimension: "M/M"
+    supported_units: ["mg_per_kg", "ppm", "ppb", "pct_ww"]
+  concentration_nutrient:
+    canonical_unit: "g_per_100g"
+    dimension: "M/M"
+    supported_units: ["g_per_100g", "mg_per_100g", "ug_per_100g", "pct_ww"]
+  energy:
+    canonical_unit: "kcal"
+    dimension: "M*L2/T2"
+    supported_units: ["kcal", "kj"]
+  temperature:
+    canonical_unit: "deg_c"
+    dimension: "Theta"
+    supported_units: ["deg_c", "deg_f", "k"]
+  pressure:
+    canonical_unit: "bar"
+    dimension: "M/(L*T2)"
+    supported_units: ["bar", "kpa", "mpa", "psi", "atm"]
+  viscosity:
+    canonical_unit: "mpa_s"
+    dimension: "M/(L*T)"
+    supported_units: ["mpa_s", "cp", "pa_s"]
+  density:
+    canonical_unit: "g_per_cm3"
+    dimension: "M/L3"
+    supported_units: ["g_per_cm3", "g_per_ml", "kg_per_m3"]
+  time:
+    canonical_unit: "s"
+    dimension: "T"
+    supported_units: ["s", "min", "h", "day"]
+  dimensionless:
+    canonical_unit: "ratio"
+    dimension: "1"
+    supported_units: ["ratio", "pct", "aw", "ph"]
+
+conversion_factors:
+  mass_to_grams:
+    g: 1.0
+    mg: 0.001
+    ug: 0.000001
+    kg: 1000.0
+    lb: 453.59237
+    oz: 28.349523125
+
+  volume_to_ml:
+    ml: 1.0
+    l: 1000.0
+    cup_us: 236.5882365
+    tbsp_us: 14.78676478125
+    tsp_us: 4.92892159375
+    fl_oz_us: 29.5735295625
+
+  time_to_seconds:
+    s: 1.0
+    min: 60.0
+    h: 3600.0
+    day: 86400.0
+
+  energy_to_kcal:
+    kcal: 1.0
+    kj: 0.2390057361
+
+  pressure_to_bar:
+    bar: 1.0
+    kpa: 0.01
+    mpa: 10.0
+    psi: 0.0689475729
+    atm: 1.01325
+
+  viscosity_to_mpa_s:
+    mpa_s: 1.0
+    cp: 1.0
+    pa_s: 1000.0
+
+  density_to_g_per_cm3:
+    g_per_cm3: 1.0
+    g_per_ml: 1.0
+    kg_per_m3: 0.001
+
+  concentration_additive_to_mg_per_kg:
+    mg_per_kg: 1.0
+    ppm: 1.0
+    ppb: 0.001
+    pct_ww: 10000.0
+
+  concentration_nutrient_to_g_per_100g:
+    g_per_100g: 1.0
+    mg_per_100g: 0.001
+    ug_per_100g: 0.000001
+    pct_ww: 1.0
+
+temperature_conversions:
+  formula_f_to_c: "(val - 32.0) * (5.0 / 9.0)"
+  formula_k_to_c: "val - 273.15"
+
+percentage_bases:
+  - "AS_IS"
+  - "DRY_BASIS"
+  - "PERCENT_WT"
+  - "PERCENT_VOL"
+
+supported_currencies:
+  - "USD"
+  - "INR"
+  - "EUR"
+  - "GBP"
+
+text_normalization:
+  case_folding: "lower"
+  unicode_normalization_form: "NFC"
+  strip_punctuation_regex: "[^\\w\\s\\-]"
+  whitespace_collapse: true

@@ -1,6 +1,31 @@
 ID,Name,Source,source_record_id,source_url
-EQ--PLATE_HEAT_EXCHANGER,Plate Heat Exchanger,Scientific Literature,plate_heat_exchanger,https://arxiv.org/abs/2607.09529
-EQ--HIGH_PRESSURE_HOMOGENIZER,High Pressure Homogenizer,Scientific Literature,high_pressure_homogenizer,https://arxiv.org/abs/2607.09529
-EQ--SPRAY_DRYER_TOWER,Spray Dryer Tower,Scientific Literature,spray_dryer_tower,https://arxiv.org/abs/2607.09529
-EQ--TWIN_SCREW_EXTRUDER,Twin Screw Extruder,Scientific Literature,twin_screw_extruder,https://arxiv.org/abs/2607.09529
-EQ--INDUSTRIAL_AUTOCLAVE_RETORT,Industrial Autoclave Retort,Scientific Literature,industrial_autoclave_retort,https://arxiv.org/abs/2607.09529
+FOODON:EQ:FOODON_00001063,Millet Beer Food Product,FoodOn Ontology,FOODON_00001063,http://purl.obolibrary.org/obo/FOODON_00001063
+FOODON:EQ:FOODON_00001089,Milled Corn Food Product,FoodOn Ontology,FOODON_00001089,http://purl.obolibrary.org/obo/FOODON_00001089
+FOODON:EQ:FOODON_00001632,Milled Barley Food Product,FoodOn Ontology,FOODON_00001632,http://purl.obolibrary.org/obo/FOODON_00001632
+FOODON:EQ:FOODON_00001823,Milled Durum Wheat,FoodOn Ontology,FOODON_00001823,http://purl.obolibrary.org/obo/FOODON_00001823
+FOODON:EQ:FOODON_00002038,Millet Food Product,FoodOn Ontology,FOODON_00002038,http://purl.obolibrary.org/obo/FOODON_00002038
+FOODON:EQ:FOODON_00002062,Milled Oat Food Product,FoodOn Ontology,FOODON_00002062,http://purl.obolibrary.org/obo/FOODON_00002062
+FOODON:EQ:FOODON_00002607,Semillon Wine,FoodOn Ontology,FOODON_00002607,http://purl.obolibrary.org/obo/FOODON_00002607
+FOODON:EQ:FOODON_00002608,Semillon Grape Cultivar,FoodOn Ontology,FOODON_00002608,http://purl.obolibrary.org/obo/FOODON_00002608
+FOODON:EQ:FOODON_00003254,Mille-Feuille Pastry,FoodOn Ontology,FOODON_00003254,http://purl.obolibrary.org/obo/FOODON_00003254
+FOODON:EQ:FOODON_00004083,Device Set,FoodOn Ontology,FOODON_00004083,http://purl.obolibrary.org/obo/FOODON_00004083
+FOODON:EQ:FOODON_00004086,Device Specification,FoodOn Ontology,FOODON_00004086,http://purl.obolibrary.org/obo/FOODON_00004086
+FOODON:EQ:FOODON_00004167,Diezmillo,FoodOn Ontology,FOODON_00004167,http://purl.obolibrary.org/obo/FOODON_00004167
+FOODON:EQ:FOODON_00004438,Common Millet (Cooked),FoodOn Ontology,FOODON_00004438,http://purl.obolibrary.org/obo/FOODON_00004438
+FOODON:EQ:FOODON_00004509,Milled Food Product,FoodOn Ontology,FOODON_00004509,http://purl.obolibrary.org/obo/FOODON_00004509
+FOODON:EQ:FOODON_00004570,Finger Millet Food Product,FoodOn Ontology,FOODON_00004570,http://purl.obolibrary.org/obo/FOODON_00004570
+FOODON:EQ:FOODON_00004571,Finger Millet Flour,FoodOn Ontology,FOODON_00004571,http://purl.obolibrary.org/obo/FOODON_00004571
+FOODON:EQ:FOODON_00004847,Escamillo Bell Pepper Cultivar,FoodOn Ontology,FOODON_00004847,http://purl.obolibrary.org/obo/FOODON_00004847
+FOODON:EQ:FOODON_00005207,Millet Seed,FoodOn Ontology,FOODON_00005207,http://purl.obolibrary.org/obo/FOODON_00005207
+FOODON:EQ:FOODON_03304553,"Rice (Milled, Enriched)",FoodOn Ontology,FOODON_03304553,http://purl.obolibrary.org/obo/FOODON_03304553
+FOODON:EQ:FOODON_03307147,Rice (Milled),FoodOn Ontology,FOODON_03307147,http://purl.obolibrary.org/obo/FOODON_03307147
+FOODON:EQ:FOODON_03307195,Tonic Mixer Beverage Base,FoodOn Ontology,FOODON_03307195,http://purl.obolibrary.org/obo/FOODON_03307195
+FOODON:EQ:FOODON_03308983,Vermillion Rockfish (Raw),FoodOn Ontology,FOODON_03308983,http://purl.obolibrary.org/obo/FOODON_03308983
+FOODON:EQ:FOODON_03309354,Pearl Millet Kernel (Raw),FoodOn Ontology,FOODON_03309354,http://purl.obolibrary.org/obo/FOODON_03309354
+FOODON:EQ:FOODON_03309702,Millet Seed (Dried),FoodOn Ontology,FOODON_03309702,http://purl.obolibrary.org/obo/FOODON_03309702
+FOODON:EQ:FOODON_03309865,Bajra Millet Meal,FoodOn Ontology,FOODON_03309865,http://purl.obolibrary.org/obo/FOODON_03309865
+FOODON:EQ:FOODON_03310137,Millet Flour,FoodOn Ontology,FOODON_03310137,http://purl.obolibrary.org/obo/FOODON_03310137
+FOODON:EQ:FOODON_03310690,Finger Millet Seed (Raw),FoodOn Ontology,FOODON_03310690,http://purl.obolibrary.org/obo/FOODON_03310690
+FOODON:EQ:FOODON_03311849,Pearl Millet Kernel (Cooked),FoodOn Ontology,FOODON_03311849,http://purl.obolibrary.org/obo/FOODON_03311849
+FOODON:EQ:FOODON_03315976,Beer With A Minimum Acidity Of 30 Mill.-Equivalents Expressed As Naoh,FoodOn Ontology,FOODON_03315976,http://purl.obolibrary.org/obo/FOODON_03315976
+FOODON:EQ:FOODON_03400149,Milled Grain Or Starch Product (Us Cfr),FoodOn Ontology,FOODON_03400149,http://purl.obolibrary.org/obo/FOODON_03400149

@@ -1,0 +1,10 @@
+metric,count,source_file,notes
+total_named_classes,39682,data/raw_v2/foodon/foodon.owl,All genuine named owl:Class elements parsed with no max_records limit
+classes_with_definitions,19158,data/raw_v2/foodon/foodon.owl,Classes containing IAO_0000115 text definitions
+classes_with_synonyms,12282,data/raw_v2/foodon/foodon.owl,Classes with exact/related/broad/narrow synonyms
+classes_with_external_xrefs,4609,data/raw_v2/foodon/foodon.owl,Classes with oboInOwl:hasDbXref cross references
+deprecated_classes,587,data/raw_v2/foodon/foodon.owl,Classes with owl:deprecated set to true
+classes_with_replacement_terms,502,data/raw_v2/foodon/foodon.owl,Classes with IAO_0100001 term replacement pointers
+subclass_subsumption_edges,46027,data/raw_v2/foodon/foodon.owl,Direct named rdfs:subClassOf subsumption hierarchy edges
+staged_in_duckdb_raw_records,39682,data/intermediate_v2/kg_staging.duckdb,100% staged in raw_records with source_id=SRC-FOODON
+rejected_classes,0,data/raw_v2/foodon/foodon.owl,Zero classes rejected; all genuine ontology classes preserved

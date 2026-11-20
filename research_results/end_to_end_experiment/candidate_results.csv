@@ -1,0 +1,9 @@
+iteration,candidate_id,strategy,profile,overall_score,nutrition_score,functional_coverage_frc,compatibility_ics,cost_score,regulatory_score,ses_evidence_score,raw_material_cost_usd_kg,mass_balance_status,feasibility_status,rank,selected
+1,FC-001,Nutrition-Maximized Strategy,BALANCED,87.1,100.0,60.0,91.2,82.2,100.0,74.7,13.36,PASS (100.0%),"FAIL (Sugar 34.27% > 30%, Cocoa Butter 15% < 25%)",1,True
+1,FC-003,Balanced Strategy,BALANCED,86.6,96.0,60.0,91.2,84.6,100.0,75.7,11.2,PASS (100.0%),FAIL (Sugar 34.0% > 30%),2,False
+1,FC-002,Cost-Optimized Strategy,BALANCED,63.1,0.0,60.0,91.2,87.0,100.0,75.7,9.45,PASS (100.0%),FAIL (Protein 0.0% < 5.0%),3,False
+1,FC-004,Functionality & Texture Strategy,BALANCED,63.1,0.0,60.0,91.2,87.0,100.0,75.7,9.45,PASS (100.0%),FAIL (Protein 0.0% < 5.0%),4,False
+2,FC-003,Balanced Strategy,COST_OPTIMIZED,86.5,96.0,60.0,91.2,85.8,100.0,73.3,10.63,PASS (100.0%),FAIL (Sugar 34.025% > 30%; Cocoa butter 32.79% >= 25% PASS),1,True
+2,FC-001,Nutrition-Maximized Strategy,COST_OPTIMIZED,86.2,100.0,60.0,91.2,83.4,100.0,72.0,12.8,PASS (100.0%),FAIL (Sugar 34.27% > 30%),2,False
+2,FC-002,Cost-Optimized Strategy,COST_OPTIMIZED,73.2,0.0,60.0,91.2,88.4,100.0,73.3,8.95,PASS (100.0%),FAIL (Protein 0.0% < 5.0%),3,False
+2,FC-004,Functionality & Texture Strategy,COST_OPTIMIZED,73.2,0.0,60.0,91.2,88.4,100.0,73.3,8.95,PASS (100.0%),FAIL (Protein 0.0% < 5.0%),4,False

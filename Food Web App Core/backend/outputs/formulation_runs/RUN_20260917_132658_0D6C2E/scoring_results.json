@@ -1,0 +1,118 @@
+[
+  {
+    "overall_score": 95.3,
+    "radar_scores": {
+      "Nutrition": 100.0,
+      "Protein": 100.0,
+      "Functional": 80.0,
+      "Evidence": 100.0,
+      "Compatibility": 100.0,
+      "Cost": 83.3,
+      "Regulatory": 100.0,
+      "Compliance": 100.0
+    },
+    "profile_name": "NUTRITION_OPTIMIZED",
+    "explanation": "Overall score 95.3/100 computed under 'NUTRITION_OPTIMIZED' strategy. Nutrition compliance: 100.0% (Actual 15.0g vs Target 15.0g). Evidence coverage: 100.0% (7/7 grounded).",
+    "formulas": {
+      "nutrition_score": "min(100, (actual_protein / target_protein) * 100)",
+      "functional_score": "(covered_roles / required_roles) * 100",
+      "evidence_score": "(grounded_ingredients / total_ingredients) * 100",
+      "regulatory_score": "(permitted_ingredients / total_ingredients) * 100"
+    },
+    "cost_per_kg_inr": 12.5,
+    "cost_status": "CALCULATED",
+    "is_feasible": true,
+    "performance": {
+      "overall": 95.3
+    },
+    "confidence_metric_name": "Data & Provenance Completeness",
+    "confidence_value": 95.3
+  },
+  {
+    "overall_score": 90.0,
+    "radar_scores": {
+      "Nutrition": 93.3,
+      "Protein": 93.3,
+      "Functional": 60.0,
+      "Evidence": 100.0,
+      "Compatibility": 100.0,
+      "Cost": 87.2,
+      "Regulatory": 100.0,
+      "Compliance": 100.0
+    },
+    "profile_name": "NUTRITION_OPTIMIZED",
+    "explanation": "Overall score 90.0/100 computed under 'NUTRITION_OPTIMIZED' strategy. Nutrition compliance: 93.3% (Actual 16.0g vs Target 15.0g). Evidence coverage: 100.0% (7/7 grounded).",
+    "formulas": {
+      "nutrition_score": "min(100, (actual_protein / target_protein) * 100)",
+      "functional_score": "(covered_roles / required_roles) * 100",
+      "evidence_score": "(grounded_ingredients / total_ingredients) * 100",
+      "regulatory_score": "(permitted_ingredients / total_ingredients) * 100"
+    },
+    "cost_per_kg_inr": 9.57,
+    "cost_status": "CALCULATED",
+    "is_feasible": true,
+    "performance": {
+      "overall": 90.0
+    },
+    "confidence_metric_name": "Data & Provenance Completeness",
+    "confidence_value": 90.0
+  },
+  {
+    "overall_score": 55.4,
+    "radar_scores": {
+      "Nutrition": 0.0,
+      "Protein": 0.0,
+      "Functional": 80.0,
+      "Evidence": 100.0,
+      "Compatibility": 100.0,
+      "Cost": 83.8,
+      "Regulatory": 100.0,
+      "Compliance": 100.0
+    },
+    "profile_name": "NUTRITION_OPTIMIZED",
+    "explanation": "Overall score 55.4/100 computed under 'NUTRITION_OPTIMIZED' strategy. Nutrition compliance: 0.0% (Actual 52.8g vs Target 15.0g). Evidence coverage: 100.0% (7/7 grounded).",
+    "formulas": {
+      "nutrition_score": "min(100, (actual_protein / target_protein) * 100)",
+      "functional_score": "(covered_roles / required_roles) * 100",
+      "evidence_score": "(grounded_ingredients / total_ingredients) * 100",
+      "regulatory_score": "(permitted_ingredients / total_ingredients) * 100"
+    },
+    "cost_per_kg_inr": 12.16,
+    "cost_status": "CALCULATED",
+    "is_feasible": true,
+    "performance": {
+      "overall": 55.4
+    },
+    "confidence_metric_name": "Data & Provenance Completeness",
+    "confidence_value": 55.4
+  },
+  {
+    "overall_score": 52.5,
+    "radar_scores": {
+      "Nutrition": 0.0,
+      "Protein": 0.0,
+      "Functional": 60.0,
+      "Evidence": 100.0,
+      "Compatibility": 100.0,
+      "Cost": 85.0,
+      "Regulatory": 100.0,
+      "Compliance": 100.0
+    },
+    "profile_name": "NUTRITION_OPTIMIZED",
+    "explanation": "Overall score 52.5/100 computed under 'NUTRITION_OPTIMIZED' strategy. Nutrition compliance: 0.0% (Actual 51.0g vs Target 15.0g). Evidence coverage: 100.0% (6/6 grounded).",
+    "formulas": {
+      "nutrition_score": "min(100, (actual_protein / target_protein) * 100)",
+      "functional_score": "(covered_roles / required_roles) * 100",
+      "evidence_score": "(grounded_ingredients / total_ingredients) * 100",
+      "regulatory_score": "(permitted_ingredients / total_ingredients) * 100"
+    },
+    "cost_per_kg_inr": 11.24,
+    "cost_status": "CALCULATED",
+    "is_feasible": true,
+    "performance": {
+      "overall": 52.5
+    },
+    "confidence_metric_name": "Data & Provenance Completeness",
+    "confidence_value": 52.5
+  }
+]

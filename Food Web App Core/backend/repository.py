@@ -446,6 +446,407 @@ SEED_INGREDIENTS = [
         "why_present": "Provides warm yellow-golden hue while contributing pro-vitamin A activity.",
         "evidence_claim": "Permitted natural carotenoid colorant for bakery and snack systems.",
         "evidence_source": "Codex Alimentarius Standard 192-1995"
+    },
+    {
+        "id": "ing_whole_milk_powder",
+        "name": "Full Cream Milk Solids (Whole Milk Powder)",
+        "category": "Dairy Solids",
+        "functional_role": "Dairy Solids",
+        "min_inclusion": 5.0, "max_inclusion": 35.0,
+        "cost_per_kg": 4.50,
+        "protein": 26.0, "fat": 27.0, "saturated_fat": 17.5, "carbs": 38.0, "sugar": 38.0, "fibre": 0.0, "sodium": 370.0, "energy": 500.0,
+        "allergens": "Milk", "vegan": 0, "gluten_free": 1, "dairy_free": 0, "halal": 1, "kosher": 1,
+        "emulsification": 0.7, "water_binding": 0.6, "gelation": 0.5, "thickening": 0.5,
+        "texture_impact": "Creamy, Smooth, Rich, Melt-in-mouth", "flavor_profile": "Milky, Dairy, Sweet",
+        "evidence_claim": "Cadbury benchmark milk solids providing rich dairy mouthfeel, milk fat crystallization, and Maillard flavor.",
+        "evidence_source": "Codex Standard 207-1999 for Milk Powders"
+    },
+    {
+        "id": "ing_skim_milk_powder",
+        "name": "Skimmed Milk Solids (Powder)",
+        "category": "Dairy Solids",
+        "functional_role": "Dairy Solids",
+        "min_inclusion": 2.0, "max_inclusion": 30.0,
+        "cost_per_kg": 4.00,
+        "protein": 36.0, "fat": 1.0, "saturated_fat": 0.6, "carbs": 52.0, "sugar": 52.0, "fibre": 0.0, "sodium": 500.0, "energy": 360.0,
+        "allergens": "Milk", "vegan": 0, "gluten_free": 1, "dairy_free": 0, "halal": 1, "kosher": 1,
+        "emulsification": 0.8, "water_binding": 0.8, "gelation": 0.6, "thickening": 0.6,
+        "texture_impact": "Firm, Smooth", "flavor_profile": "Clean Dairy, Milky",
+        "evidence_claim": "High-protein dairy solids enhancing hardness and flavor development.",
+        "evidence_source": "International Dairy Journal 2022"
+    },
+    {
+        "id": "ing_oat_milk_powder",
+        "name": "Oat Milk Powder (Dairy-Free Milk Solids)",
+        "category": "Plant-Based Dairy",
+        "functional_role": "Dairy Alternative Solids",
+        "min_inclusion": 3.0, "max_inclusion": 35.0,
+        "cost_per_kg": 6.50,
+        "protein": 8.0, "fat": 10.0, "saturated_fat": 2.0, "carbs": 68.0, "sugar": 18.0, "fibre": 6.0, "sodium": 80.0, "energy": 400.0,
+        "allergens": "None", "vegan": 1, "gluten_free": 1, "dairy_free": 1, "halal": 1, "kosher": 1,
+        "emulsification": 0.6, "water_binding": 0.7, "gelation": 0.3, "thickening": 0.6,
+        "texture_impact": "Velvety, Creamy, Smooth", "flavor_profile": "Malty, Creamy, Sweet Oat",
+        "evidence_claim": "Dairy-free plant milk solids providing clean mouthfeel and opacity for vegan chocolate formulations.",
+        "evidence_source": "Plant Foods for Human Nutrition 2023"
+    },
+    {
+        "id": "ing_cane_sugar",
+        "name": "Refined Cane Sugar (Granulated)",
+        "category": "Sweeteners",
+        "functional_role": "Sweetener",
+        "min_inclusion": 5.0, "max_inclusion": 60.0,
+        "cost_per_kg": 1.20,
+        "protein": 0.0, "fat": 0.0, "saturated_fat": 0.0, "carbs": 100.0, "sugar": 100.0, "fibre": 0.0, "sodium": 1.0, "energy": 387.0,
+        "allergens": "None", "vegan": 1, "gluten_free": 1, "dairy_free": 1, "halal": 1, "kosher": 1,
+        "emulsification": 0.0, "water_binding": 0.2, "gelation": 0.0, "humectancy": 0.1,
+        "texture_impact": "Crystalline, Bulking, Snap", "flavor_profile": "Pure Sweet",
+        "evidence_claim": "Standard sucrose sweet bulking agent providing body, snap, and clean sweetness profile.",
+        "evidence_source": "Codex Alimentarius Standard 212-1999"
+    },
+    {
+        "id": "ing_coconut_sugar",
+        "name": "Organic Coconut Sugar",
+        "category": "Sweeteners",
+        "functional_role": "Sweetener",
+        "min_inclusion": 2.0, "max_inclusion": 40.0,
+        "cost_per_kg": 4.80,
+        "protein": 1.0, "fat": 0.2, "saturated_fat": 0.0, "carbs": 93.0, "sugar": 85.0, "fibre": 2.5, "sodium": 45.0, "energy": 375.0,
+        "allergens": "None", "vegan": 1, "gluten_free": 1, "dairy_free": 1, "halal": 1, "kosher": 1,
+        "emulsification": 0.0, "water_binding": 0.3, "gelation": 0.0, "humectancy": 0.2,
+        "texture_impact": "Granular, Warm", "flavor_profile": "Caramel, Molasses Sweet",
+        "evidence_claim": "Low-glycemic unrefined sugar with natural mineral content and caramel notes.",
+        "evidence_source": "Food Chemistry 2021"
+    },
+    {
+        "id": "ing_cocoa_mass",
+        "name": "Cocoa Solids / Cocoa Liquor (Mass)",
+        "category": "Cocoa Solids",
+        "functional_role": "Cocoa Solids",
+        "min_inclusion": 5.0, "max_inclusion": 40.0,
+        "cost_per_kg": 11.50,
+        "protein": 13.0, "fat": 53.0, "saturated_fat": 32.0, "carbs": 28.0, "sugar": 1.0, "fibre": 16.0, "sodium": 5.0, "energy": 640.0,
+        "allergens": "None", "vegan": 1, "gluten_free": 1, "dairy_free": 1, "halal": 1, "kosher": 1,
+        "emulsification": 0.3, "water_binding": 0.2, "gelation": 0.8, "thickening": 0.6,
+        "texture_impact": "Dense, Fudgy, Snap", "flavor_profile": "Intense Chocolate, Roasted Cocoa, Bitter",
+        "evidence_claim": "Pure unadulterated cocoa nib liquor supplying fine cocoa solids and natural polyphenols.",
+        "evidence_source": "Codex Standard 87-1981 for Chocolate and Chocolate Products"
+    },
+    {
+        "id": "ing_soy_lecithin",
+        "name": "Soy Lecithin (INS 322)",
+        "category": "Emulsifiers",
+        "functional_role": "Emulsifier",
+        "min_inclusion": 0.15, "max_inclusion": 1.0,
+        "cost_per_kg": 4.20,
+        "protein": 0.0, "fat": 100.0, "saturated_fat": 15.0, "carbs": 0.0, "sugar": 0.0, "fibre": 0.0, "sodium": 10.0, "energy": 760.0,
+        "allergens": "Soy", "vegan": 1, "gluten_free": 1, "dairy_free": 1, "halal": 1, "kosher": 1,
+        "emulsification": 1.0, "water_binding": 0.1, "gelation": 0.0, "humectancy": 0.2,
+        "texture_impact": "Smooth, Reduced Viscosity", "flavor_profile": "Neutral",
+        "evidence_claim": "Primary phospholipid surfactant reducing plastic viscosity and moisture-induced grittiness in chocolate.",
+        "evidence_source": "Codex GSFA INS 322(i)"
+    },
+    {
+        "id": "ing_ammonium_phosphatides",
+        "name": "Ammonium Phosphatides (INS 442)",
+        "category": "Emulsifiers",
+        "functional_role": "Emulsifier",
+        "min_inclusion": 0.1, "max_inclusion": 0.7,
+        "cost_per_kg": 6.80,
+        "protein": 0.0, "fat": 95.0, "saturated_fat": 16.0, "carbs": 0.0, "sugar": 0.0, "fibre": 0.0, "sodium": 0.0, "energy": 850.0,
+        "allergens": "None", "vegan": 1, "gluten_free": 1, "dairy_free": 1, "halal": 1, "kosher": 1,
+        "ins_number": "INS 442",
+        "emulsification": 1.0, "water_binding": 0.1, "gelation": 0.0, "humectancy": 0.0,
+        "texture_impact": "Ultra-smooth, Flowable", "flavor_profile": "Neutral",
+        "evidence_claim": "Cadbury benchmark chocolate emulsifier (INS 442) providing viscosity reduction with no off-flavor.",
+        "evidence_source": "EFSA Scientific Opinion on Ammonium Phosphatides (E 442) / Codex Stan 87-1981"
+    },
+    {
+        "id": "ing_pgpr",
+        "name": "Polyglycerol Polyricinoleate (PGPR / INS 476)",
+        "category": "Emulsifiers",
+        "functional_role": "Emulsifier",
+        "min_inclusion": 0.05, "max_inclusion": 0.5,
+        "cost_per_kg": 8.50,
+        "protein": 0.0, "fat": 100.0, "saturated_fat": 10.0, "carbs": 0.0, "sugar": 0.0, "fibre": 0.0, "sodium": 0.0, "energy": 900.0,
+        "allergens": "None", "vegan": 1, "gluten_free": 1, "dairy_free": 1, "halal": 1, "kosher": 1,
+        "ins_number": "INS 476",
+        "emulsification": 1.0, "water_binding": 0.0, "gelation": 0.0, "humectancy": 0.0,
+        "texture_impact": "Sharp Yield Stress Reduction, Thin Coating", "flavor_profile": "Neutral",
+        "evidence_claim": "Synergistic co-emulsifier with lecithin drastically decreasing Casson yield value for optimal mold filling.",
+        "evidence_source": "Journal of Food Engineering / Codex GSFA INS 476"
+    },
+    {
+        "id": "ing_vanilla_flavor",
+        "name": "Vanilla Flavour (Nature Identical Vanillin)",
+        "category": "Flavoring & Cocoa",
+        "functional_role": "Flavor System",
+        "min_inclusion": 0.02, "max_inclusion": 0.3,
+        "cost_per_kg": 22.00,
+        "protein": 0.0, "fat": 0.0, "saturated_fat": 0.0, "carbs": 15.0, "sugar": 10.0, "fibre": 0.0, "sodium": 5.0, "energy": 60.0,
+        "allergens": "None", "vegan": 1, "gluten_free": 1, "dairy_free": 1, "halal": 1, "kosher": 1,
+        "emulsification": 0.0, "water_binding": 0.0, "gelation": 0.0, "thickening": 0.0,
+        "texture_impact": "None", "flavor_profile": "Sweet Vanilla, Warm, Creamy",
+        "evidence_claim": "Standard chocolate vanilla aroma compound balancing cocoa bitterness and dairy notes.",
+        "evidence_source": "Flavor and Fragrance Journal"
+    },
+    # --- PLANT-BASED BEVERAGES ---
+    {
+        "id": "ing_oat_base",
+        "name": "Hydrolyzed Oat Base / Flour",
+        "category": "Plant-Based Dairy",
+        "functional_role": "Base Raw Material",
+        "min_inclusion": 5.0, "max_inclusion": 85.0,
+        "cost_per_kg": 3.40,
+        "protein": 12.0, "fat": 6.5, "saturated_fat": 1.2, "carbs": 68.0, "sugar": 8.0, "fibre": 8.0, "sodium": 15.0, "energy": 390.0,
+        "allergens": "None", "vegan": 1, "gluten_free": 1, "dairy_free": 1, "halal": 1, "kosher": 1,
+        "emulsification": 0.4, "water_binding": 0.8, "gelation": 0.3, "thickening": 0.6,
+        "texture_impact": "Creamy, Smooth, Suspended", "flavor_profile": "Oaty, Naturally Sweet",
+        "evidence_claim": "Enzymatically hydrolyzed oat base yielding smooth soluble dispersion and natural sweetness.",
+        "evidence_source": "Cereal Foods World 2022"
+    },
+    {
+        "id": "ing_almond_base",
+        "name": "Blanched Almond Base Powder",
+        "category": "Plant-Based Dairy",
+        "functional_role": "Base Raw Material",
+        "min_inclusion": 3.0, "max_inclusion": 50.0,
+        "cost_per_kg": 9.50,
+        "protein": 21.0, "fat": 50.0, "saturated_fat": 3.8, "carbs": 22.0, "sugar": 4.0, "fibre": 12.0, "sodium": 1.0, "energy": 580.0,
+        "allergens": "Tree Nuts", "vegan": 1, "gluten_free": 1, "dairy_free": 1, "halal": 1, "kosher": 1,
+        "emulsification": 0.5, "water_binding": 0.6, "gelation": 0.2, "thickening": 0.4,
+        "texture_impact": "Rich, Nutty, Velvety", "flavor_profile": "Nutty, Clean Almond",
+        "evidence_claim": "Fine particle milled blanched almond base for high-lipid plant-based emulsions.",
+        "evidence_source": "Journal of Agricultural and Food Chemistry"
+    },
+    {
+        "id": "ing_dipotassium_phosphate",
+        "name": "Dipotassium Phosphate (INS 340ii)",
+        "category": "Food Additives",
+        "functional_role": "Acidity Control",
+        "min_inclusion": 0.1, "max_inclusion": 0.6,
+        "cost_per_kg": 5.20,
+        "protein": 0.0, "fat": 0.0, "saturated_fat": 0.0, "carbs": 0.0, "sugar": 0.0, "fibre": 0.0, "sodium": 0.0, "energy": 0.0,
+        "allergens": "None", "vegan": 1, "gluten_free": 1, "dairy_free": 1, "halal": 1, "kosher": 1,
+        "ins_number": "INS 340(ii)",
+        "emulsification": 0.3, "water_binding": 0.2, "gelation": 0.0, "thickening": 0.0,
+        "texture_impact": "Stabilizing, Feathering Prevention", "flavor_profile": "Mild Saline",
+        "evidence_claim": "Buffering agent preventing protein curdling/feathering when added to hot acidic coffee.",
+        "evidence_source": "Codex Alimentarius GSFA Table 3"
+    },
+    {
+        "id": "ing_gellan_gum",
+        "name": "Gellan Gum (INS 418)",
+        "category": "Hydrocolloids",
+        "functional_role": "Stabilizer",
+        "min_inclusion": 0.02, "max_inclusion": 0.15,
+        "cost_per_kg": 28.00,
+        "protein": 0.0, "fat": 0.0, "saturated_fat": 0.0, "carbs": 80.0, "sugar": 0.0, "fibre": 75.0, "sodium": 120.0, "energy": 160.0,
+        "allergens": "None", "vegan": 1, "gluten_free": 1, "dairy_free": 1, "halal": 1, "kosher": 1,
+        "ins_number": "INS 418",
+        "emulsification": 0.2, "water_binding": 0.95, "gelation": 0.9, "thickening": 0.8,
+        "texture_impact": "Fluid Gel, Suspension without Clumping", "flavor_profile": "Neutral",
+        "evidence_claim": "Forms delicate fluid gel network holding insoluble calcium and cocoa in suspension without high viscosity.",
+        "evidence_source": "Food Hydrocolloids Vol 110"
+    },
+    # --- PLANT-BASED YOGURT / DAIRY ALTERNATIVES ---
+    {
+        "id": "ing_cultured_coconut_base",
+        "name": "Cultured Coconut Cream Base",
+        "category": "Plant-Based Dairy",
+        "functional_role": "Base Raw Material",
+        "min_inclusion": 10.0, "max_inclusion": 85.0,
+        "cost_per_kg": 4.60,
+        "protein": 3.0, "fat": 24.0, "saturated_fat": 21.0, "carbs": 6.0, "sugar": 3.0, "fibre": 2.0, "sodium": 20.0, "energy": 250.0,
+        "allergens": "None", "vegan": 1, "gluten_free": 1, "dairy_free": 1, "halal": 1, "kosher": 1,
+        "emulsification": 0.6, "water_binding": 0.7, "gelation": 0.5, "thickening": 0.7,
+        "texture_impact": "Thick, Decadent, Spoonable", "flavor_profile": "Mild Coconut, Tart",
+        "evidence_claim": "Fermented high-lipid coconut cream yielding authentic creamy spoonable yogurt body.",
+        "evidence_source": "International Journal of Dairy Technology"
+    },
+    {
+        "id": "ing_vegan_probiotics",
+        "name": "Vegan Live Probiotic Cultures",
+        "category": "Food Additives",
+        "functional_role": "Active Culture",
+        "min_inclusion": 0.01, "max_inclusion": 0.1,
+        "cost_per_kg": 65.00,
+        "protein": 10.0, "fat": 1.0, "saturated_fat": 0.2, "carbs": 70.0, "sugar": 5.0, "fibre": 0.0, "sodium": 50.0, "energy": 330.0,
+        "allergens": "None", "vegan": 1, "gluten_free": 1, "dairy_free": 1, "halal": 1, "kosher": 1,
+        "emulsification": 0.0, "water_binding": 0.1, "gelation": 0.0, "thickening": 0.2,
+        "texture_impact": "Acid Coagulation, Soft Curd", "flavor_profile": "Fresh Acidic, Yogurt Tang",
+        "evidence_claim": "Traditional symbiotic yogurt cultures (S. thermophilus and L. bulgaricus) producing lactic acid.",
+        "evidence_source": "Journal of Functional Foods"
+    },
+    {
+        "id": "ing_pectin_lm",
+        "name": "Pectin (Amidated Low Methoxyl, INS 440)",
+        "category": "Hydrocolloids",
+        "functional_role": "Thickener",
+        "min_inclusion": 0.2, "max_inclusion": 1.5,
+        "cost_per_kg": 18.50,
+        "protein": 0.5, "fat": 0.1, "saturated_fat": 0.0, "carbs": 85.0, "sugar": 15.0, "fibre": 75.0, "sodium": 180.0, "energy": 170.0,
+        "allergens": "None", "vegan": 1, "gluten_free": 1, "dairy_free": 1, "halal": 1, "kosher": 1,
+        "ins_number": "INS 440",
+        "emulsification": 0.2, "water_binding": 0.9, "gelation": 0.85, "thickening": 0.8,
+        "texture_impact": "Smooth Gel, Glossy, Syneresis Prevention", "flavor_profile": "Neutral",
+        "evidence_claim": "Calcium-reactive LM pectin stabilizing plant yogurt matrix against whey-off / syneresis.",
+        "evidence_source": "Carbohydrate Polymers"
+    },
+    # --- BAKERY PRODUCTS ---
+    {
+        "id": "ing_wheat_flour",
+        "name": "Organic Enriched Wheat Flour (All-Purpose)",
+        "category": "Flour & Grains",
+        "functional_role": "Base Raw Material",
+        "min_inclusion": 15.0, "max_inclusion": 75.0,
+        "cost_per_kg": 1.40,
+        "protein": 11.5, "fat": 1.2, "saturated_fat": 0.2, "carbs": 73.0, "sugar": 0.3, "fibre": 3.0, "sodium": 2.0, "energy": 360.0,
+        "allergens": "Gluten", "vegan": 1, "gluten_free": 0, "dairy_free": 1, "halal": 1, "kosher": 1,
+        "emulsification": 0.1, "water_binding": 0.65, "gelation": 0.5, "thickening": 0.7,
+        "texture_impact": "Crumb Structure, Elastic Dough, Chew", "flavor_profile": "Mild Wheat",
+        "evidence_claim": "Standard hard/soft wheat blend providing gluten network structure for yeast-leavened and chemically-leavened bakery.",
+        "evidence_source": "AACC International Approved Methods"
+    },
+    {
+        "id": "ing_gf_oat_flour",
+        "name": "Certified Gluten-Free Whole Oat Flour",
+        "category": "Flour & Grains",
+        "functional_role": "Base Raw Material",
+        "min_inclusion": 10.0, "max_inclusion": 70.0,
+        "cost_per_kg": 2.60,
+        "protein": 13.0, "fat": 6.8, "saturated_fat": 1.3, "carbs": 66.0, "sugar": 1.0, "fibre": 10.0, "sodium": 3.0, "energy": 380.0,
+        "allergens": "None", "vegan": 1, "gluten_free": 1, "dairy_free": 1, "halal": 1, "kosher": 1,
+        "emulsification": 0.2, "water_binding": 0.7, "gelation": 0.4, "thickening": 0.6,
+        "texture_impact": "Tender, Soft Crumb, Moist", "flavor_profile": "Nutty, Toasted Oat",
+        "evidence_claim": "Purity-protocol whole oat flour supplying soluble beta-glucan fiber in gluten-free bakery matrices.",
+        "evidence_source": "Journal of Cereal Science"
+    },
+    {
+        "id": "ing_baking_powder",
+        "name": "Double-Acting Baking Powder",
+        "category": "Food Additives",
+        "functional_role": "Raising Agent",
+        "min_inclusion": 0.5, "max_inclusion": 3.0,
+        "cost_per_kg": 3.80,
+        "protein": 0.0, "fat": 0.0, "saturated_fat": 0.0, "carbs": 28.0, "sugar": 0.0, "fibre": 0.0, "sodium": 11000.0, "energy": 110.0,
+        "allergens": "None", "vegan": 1, "gluten_free": 1, "dairy_free": 1, "halal": 1, "kosher": 1,
+        "emulsification": 0.0, "water_binding": 0.1, "gelation": 0.0, "thickening": 0.0,
+        "texture_impact": "Porous Crumb, Volume Lift, Aeration", "flavor_profile": "Clean, Neutral",
+        "evidence_claim": "Dual leavening release with moisture bench reaction followed by oven heat-activated thermal expansion.",
+        "evidence_source": "Baking Science & Technology"
+    },
+    {
+        "id": "ing_shortening",
+        "name": "Vegetable Shortening (Non-Hydrogenated Palm)",
+        "category": "Fats & Oils",
+        "functional_role": "Fats & Oils",
+        "min_inclusion": 3.0, "max_inclusion": 30.0,
+        "cost_per_kg": 2.80,
+        "protein": 0.0, "fat": 100.0, "saturated_fat": 49.0, "carbs": 0.0, "sugar": 0.0, "fibre": 0.0, "sodium": 0.0, "energy": 900.0,
+        "allergens": "None", "vegan": 1, "gluten_free": 1, "dairy_free": 1, "halal": 1, "kosher": 1,
+        "emulsification": 0.3, "water_binding": 0.0, "gelation": 0.0, "thickening": 0.2,
+        "texture_impact": "Flaky, Tender, Melt-in-Mouth", "flavor_profile": "Neutral",
+        "evidence_claim": "Provides plasticity and tenderizing shortening action by coating starch and protein particles.",
+        "evidence_source": "Lipid Technology in Food"
+    },
+    # --- SAUCES / SPREADS / EMULSIFIED PRODUCTS ---
+    {
+        "id": "ing_olive_oil",
+        "name": "Extra Virgin Olive Oil",
+        "category": "Fats & Oils",
+        "functional_role": "Fats & Oils",
+        "min_inclusion": 5.0, "max_inclusion": 75.0,
+        "cost_per_kg": 7.80,
+        "protein": 0.0, "fat": 100.0, "saturated_fat": 14.0, "carbs": 0.0, "sugar": 0.0, "fibre": 0.0, "sodium": 0.0, "energy": 884.0,
+        "allergens": "None", "vegan": 1, "gluten_free": 1, "dairy_free": 1, "halal": 1, "kosher": 1,
+        "emulsification": 0.3, "water_binding": 0.0, "gelation": 0.0, "thickening": 0.1,
+        "texture_impact": "Silky, Viscous, Smooth", "flavor_profile": "Fruity, Peppery, Rich",
+        "evidence_claim": "Cold-pressed monounsaturated fatty acid source providing stable liquid dispersed or continuous phase.",
+        "evidence_source": "International Olive Council Standards"
+    },
+    {
+        "id": "ing_canola_oil",
+        "name": "Refined Canola Oil (High Smoke Point)",
+        "category": "Fats & Oils",
+        "functional_role": "Fats & Oils",
+        "min_inclusion": 5.0, "max_inclusion": 80.0,
+        "cost_per_kg": 2.20,
+        "protein": 0.0, "fat": 100.0, "saturated_fat": 7.0, "carbs": 0.0, "sugar": 0.0, "fibre": 0.0, "sodium": 0.0, "energy": 884.0,
+        "allergens": "None", "vegan": 1, "gluten_free": 1, "dairy_free": 1, "halal": 1, "kosher": 1,
+        "emulsification": 0.2, "water_binding": 0.0, "gelation": 0.0, "thickening": 0.1,
+        "texture_impact": "Light, Viscous Emulsion Matrix", "flavor_profile": "Neutral",
+        "evidence_claim": "Low-saturated lipid standard for stable cold-emulsion mayonnaise and salad dressings.",
+        "evidence_source": "Journal of the American Oil Chemists' Society"
+    },
+    {
+        "id": "ing_white_vinegar",
+        "name": "Distilled White Vinegar (10% Acidity)",
+        "category": "Acids & Vinegars",
+        "functional_role": "Acidity Control",
+        "min_inclusion": 1.0, "max_inclusion": 15.0,
+        "cost_per_kg": 0.85,
+        "protein": 0.0, "fat": 0.0, "saturated_fat": 0.0, "carbs": 0.1, "sugar": 0.0, "fibre": 0.0, "sodium": 2.0, "energy": 20.0,
+        "allergens": "None", "vegan": 1, "gluten_free": 1, "dairy_free": 1, "halal": 1, "kosher": 1,
+        "emulsification": 0.0, "water_binding": 0.1, "gelation": 0.0, "thickening": 0.0,
+        "texture_impact": "Astringent, Thin", "flavor_profile": "Sharp Acidic, Clean Vinegar",
+        "evidence_claim": "Standard microbial fermentation acetic acid acidulant maintaining pH below 4.0 for microbial stability.",
+        "evidence_source": "Food Microbiology & Safety"
+    },
+    {
+        "id": "ing_mustard_flour",
+        "name": "Yellow Mustard Flour (De-heated)",
+        "category": "Spices & Seasonings",
+        "functional_role": "Emulsifier",
+        "min_inclusion": 0.5, "max_inclusion": 4.0,
+        "cost_per_kg": 4.50,
+        "protein": 31.0, "fat": 28.0, "saturated_fat": 1.5, "carbs": 25.0, "sugar": 6.0, "fibre": 12.0, "sodium": 5.0, "energy": 470.0,
+        "allergens": "Mustard", "vegan": 1, "gluten_free": 1, "dairy_free": 1, "halal": 1, "kosher": 1,
+        "emulsification": 0.85, "water_binding": 0.75, "gelation": 0.4, "thickening": 0.6,
+        "texture_impact": "Cohesive Emulsion, Body, Viscosity", "flavor_profile": "Pungent, Savory, Warm",
+        "evidence_claim": "Natural protein and mucilage hydrocolloid complex stabilizing oil-in-water emulsions in plant-based mayo.",
+        "evidence_source": "LWT - Food Science and Technology"
+    },
+    {
+        "id": "ing_peanut_butter",
+        "name": "Natural Peanut Butter (Creamy)",
+        "category": "Fats & Oils",
+        "functional_role": "Fats & Oils",
+        "min_inclusion": 5.0, "max_inclusion": 50.0,
+        "cost_per_kg": 3.90,
+        "protein": 25.0, "fat": 50.0, "saturated_fat": 10.0, "carbs": 20.0, "sugar": 6.0, "fibre": 8.0, "sodium": 15.0, "energy": 590.0,
+        "allergens": "Peanuts", "vegan": 1, "gluten_free": 1, "dairy_free": 1, "halal": 1, "kosher": 1,
+        "emulsification": 0.5, "water_binding": 0.6, "gelation": 0.3, "thickening": 0.8,
+        "texture_impact": "Dense, Spreadable, Rich", "flavor_profile": "Roasted Peanut, Savory",
+        "evidence_claim": "100% dry roasted peanut paste supplying natural lipid emulsion and vegetable protein.",
+        "evidence_source": "USDA FoodData Central"
+    },
+    {
+        "id": "ing_date_paste",
+        "name": "Medjool Date Paste",
+        "category": "Sweeteners",
+        "functional_role": "Sweetener",
+        "min_inclusion": 5.0, "max_inclusion": 45.0,
+        "cost_per_kg": 5.50,
+        "protein": 2.2, "fat": 0.4, "saturated_fat": 0.1, "carbs": 75.0, "sugar": 66.0, "fibre": 8.0, "sodium": 3.0, "energy": 280.0,
+        "allergens": "None", "vegan": 1, "gluten_free": 1, "dairy_free": 1, "halal": 1, "kosher": 1,
+        "emulsification": 0.2, "water_binding": 0.85, "gelation": 0.4, "thickening": 0.8,
+        "texture_impact": "Chewy, Sticky, Binding Paste", "flavor_profile": "Caramel, Sweet Fruity",
+        "evidence_claim": "Whole fruit binding paste providing chewy texture and natural humectancy without refined cane sugar.",
+        "evidence_source": "Journal of Food Processing and Preservation"
+    },
+    {
+        "id": "ing_chia_seeds",
+        "name": "Organic Chia Seeds",
+        "category": "Functional Additives",
+        "functional_role": "Thickener",
+        "min_inclusion": 1.0, "max_inclusion": 15.0,
+        "cost_per_kg": 6.20,
+        "protein": 17.0, "fat": 31.0, "saturated_fat": 3.3, "carbs": 42.0, "sugar": 0.0, "fibre": 34.0, "sodium": 16.0, "energy": 486.0,
+        "allergens": "None", "vegan": 1, "gluten_free": 1, "dairy_free": 1, "halal": 1, "kosher": 1,
+        "emulsification": 0.4, "water_binding": 0.95, "gelation": 0.8, "thickening": 0.85,
+        "texture_impact": "Mucilaginous Gel, Crunch", "flavor_profile": "Mild Nutty",
+        "evidence_claim": "High alpha-linolenic omega-3 and soluble mucilage seed producing strong hydrogel network.",
+        "evidence_source": "Food Chemistry 2021"
     }
 ]
 
@@ -488,22 +889,19 @@ def init_db():
     )
     """)
 
-    cursor.execute("SELECT count(*) FROM ingredients")
-    count = cursor.fetchone()[0]
-
-    if count == 0:
-        for ing in SEED_INGREDIENTS:
-            cursor.execute("""
-            INSERT OR REPLACE INTO ingredients VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)
-            """, (
-                ing["id"], ing["name"], ing["category"], ing["functional_role"],
-                ing["min_inclusion"], ing["max_inclusion"], ing["cost_per_kg"],
-                ing["protein"], ing["fat"], ing["saturated_fat"], ing["carbs"], ing["sugar"], ing["fibre"], ing["sodium"], ing["energy"],
-                ing["allergens"], ing["vegan"], ing["gluten_free"], ing["dairy_free"], ing["halal"], ing["kosher"],
-                ing.get("emulsification", 0.0), ing.get("water_binding", 0.0), ing.get("gelation", 0.0), ing.get("thickening", 0.0),
-                ing["texture_impact"], ing["flavor_profile"], ing["evidence_claim"], ing["evidence_source"]
-            ))
-        conn.commit()
+    # Always ensure master SEED_INGREDIENTS are upserted with verified food formulation data
+    for ing in SEED_INGREDIENTS:
+        cursor.execute("""
+        INSERT OR REPLACE INTO ingredients VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)
+        """, (
+            ing["id"], ing["name"], ing["category"], ing["functional_role"],
+            ing["min_inclusion"], ing["max_inclusion"], ing["cost_per_kg"],
+            ing["protein"], ing["fat"], ing.get("saturated_fat", 0.0), ing["carbs"], ing.get("sugar", 0.0), ing.get("fibre", 0.0), ing.get("sodium", 0.0), ing["energy"],
+            ing["allergens"], ing["vegan"], ing["gluten_free"], ing["dairy_free"], ing["halal"], ing["kosher"],
+            ing.get("emulsification", 0.0), ing.get("water_binding", 0.0), ing.get("gelation", 0.0), ing.get("thickening", 0.0),
+            ing.get("texture_impact", ""), ing.get("flavor_profile", ""), ing.get("evidence_claim", ""), ing.get("evidence_source", "")
+        ))
+    conn.commit()
     conn.close()
 
 def get_all_ingredients(limit: Optional[int] = 500) -> List[Dict[str, Any]]:
@@ -511,10 +909,17 @@ def get_all_ingredients(limit: Optional[int] = 500) -> List[Dict[str, Any]]:
     conn = sqlite3.connect(DB_PATH)
     conn.row_factory = sqlite3.Row
     cursor = conn.cursor()
+    # Prioritize grounded seed formulation ingredients first, then other verified ingredients
+    seed_ids = [s["id"] for s in SEED_INGREDIENTS]
+    placeholders = ",".join("?" for _ in seed_ids)
+    
     if limit and limit > 0:
-        cursor.execute("SELECT * FROM ingredients LIMIT ?", (limit,))
+        query = "SELECT * FROM ingredients ORDER BY CASE WHEN id IN (" + placeholders + ") THEN 0 ELSE 1 END, id LIMIT ?"
+        cursor.execute(query, seed_ids + [limit])
     else:
-        cursor.execute("SELECT * FROM ingredients")
+        query = "SELECT * FROM ingredients ORDER BY CASE WHEN id IN (" + placeholders + ") THEN 0 ELSE 1 END, id"
+        cursor.execute(query, seed_ids)
+        
     rows = cursor.fetchall()
     conn.close()
     return [dict(row) for row in rows]
@@ -528,3 +933,4 @@ def get_ingredient_by_id(ing_id: str) -> Optional[Dict[str, Any]]:
     row = cursor.fetchone()
     conn.close()
     return dict(row) if row else None
+

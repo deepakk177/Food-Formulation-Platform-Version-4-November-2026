@@ -1,0 +1,70 @@
+{
+  "title": "Dairy‑Free Chocolate Bar Formulation (Candidate Set Only)",
+  "justification_summary": "The formulation uses only ingredients from the supplied validated candidate set and satisfies the protein requirement (≈7.36 %) and the flavor profile (cocoa, chocolate, vanilla). However, due to the absence of cocoa butter, almonds, and a sugar‑reduced ingredient, the constraints for ≥25 % cocoa butter, ≥8 % almond content, and ≤28 % sugar cannot be met. The formulation is presented with explicit warnings and notes that further ingredient additions or substitutions would be required to fully satisfy the brief.",
+  "ingredient_explanations": [
+    {
+      "ingredientId": "ing_cane_sugar",
+      "name": "Refined Cane Sugar (Granulated)",
+      "functionalRole": "Sweetener",
+      "justification": "Provides the primary sweetening function required for chocolate bars.",
+      "evidenceSource": "Grounded Repository DB"
+    },
+    {
+      "ingredientId": "ing_fava_protein",
+      "name": "Fava Bean Protein Isolate",
+      "functionalRole": "Protein Source",
+      "justification": "Contributes to the protein content, helping to meet the ≥7 % protein target.",
+      "evidenceSource": "Grounded Repository DB"
+    },
+    {
+      "ingredientId": "ing_mct_powder",
+      "name": "Coconut MCT Oil Powder (70 %)",
+      "functionalRole": "Fat Source",
+      "justification": "Adds fat content and improves mouthfeel, partially compensating for the lack of cocoa butter.",
+      "evidenceSource": "Grounded Repository DB"
+    },
+    {
+      "ingredientId": "ing_cocoa_mass",
+      "name": "Cocoa Solids / Cocoa Liquor (Mass)",
+      "functionalRole": "Cocoa Solids",
+      "justification": "Provides the core cocoa flavor and contributes protein and fat.",
+      "evidenceSource": "Grounded Repository DB"
+    },
+    {
+      "ingredientId": "ing_chewing_gum_containing_breath_freshener",
+      "name": "Chewing Gum Containing Breath Freshener",
+      "functionalRole": "Emulsifier",
+      "justification": "Acts as a minor emulsifier to aid in texture stability.",
+      "evidenceSource": "Grounded Repository DB"
+    },
+    {
+      "ingredientId": "ing_ammonium_phosphatides",
+      "name": "Ammonium Phosphatides (INS 442)",
+      "functionalRole": "Emulsifier",
+      "justification": "Provides emulsification and improves melt characteristics.",
+      "evidenceSource": "Grounded Repository DB"
+    },
+    {
+      "ingredientId": "ing_vanilla_flavor",
+      "name": "Vanilla Flavour (Nature Identical Vanillin)",
+      "functionalRole": "Flavor System",
+      "justification": "Adds vanilla notes to complement cocoa and chocolate flavors.",
+      "evidenceSource": "Grounded Repository DB"
+    },
+    {
+      "ingredientId": "ing_sea_salt",
+      "name": "Natural Sea Salt",
+      "functionalRole": "Flavor System",
+      "justification": "Balances sweetness and enhances overall flavor profile.",
+      "evidenceSource": "Grounded Repository DB"
+    },
+    {
+      "ingredientId": "ing_potassium_sorbate",
+      "name": "Potassium Sorbate (INS 202)",
+      "functionalRole": "Preservative",
+      "justification": "Provides microbial stability to support the 12‑month shelf life target.",
+      "evidenceSource": "Grounded Repository DB"
+    }
+  ],
+  "process_recommendations": [
+    "Phase 1 – Dry Blend: Combine cane sugar, fava protein

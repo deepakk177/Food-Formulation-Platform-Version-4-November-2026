@@ -1,0 +1,23 @@
+file_path,component_type,primary_responsibility,dependencies,verification_tests
+config_v2/source_registry.yaml,Configuration,Declarative source definitions for 12 approved datasets,"PyYAML, Pydantic","test_registry.py, test_schema_consistency.py"
+config_v2/node_schemas.yaml,Configuration,Declarative schema for 41 canonical and reified nodes,"PyYAML, Pydantic","test_registry.py, test_schema_consistency.py"
+config_v2/relationship_schemas.yaml,Configuration,Declarative contracts for 38 canonical relationships,"PyYAML, Pydantic","test_registry.py, test_schema_consistency.py"
+config_v2/normalizer_rules.yaml,Configuration,"Deterministic conversion factors, physical dimensions, namespaces",PyYAML,test_registry.py
+src/pipeline_v2/__init__.py,Core Package,Top-level package initialization and version,Python stdlib,test_registry.py
+src/pipeline_v2/core/__init__.py,Core Package,Core package exports,Python stdlib,All test suites
+src/pipeline_v2/core/exceptions.py,Error Handling,Structured exception hierarchy for pipeline errors,Python stdlib,All test suites
+src/pipeline_v2/core/logging_config.py,Telemetry,Credential-safe structured logging with execution tracking,Python stdlib,test_http_client.py
+src/pipeline_v2/core/registry.py,Configuration Engine,"YAML parser, validation, referential integrity checking","PyYAML, Pydantic","test_registry.py, test_schema_consistency.py"
+src/pipeline_v2/core/manifest.py,Asset Tracking,"SHA-256 calculation, asset verification, JSON/CSV serialization","hashlib, json, csv",test_manifest.py
+src/pipeline_v2/core/http_client.py,Acquisition Engine,"Streaming downloads, exponential backoff, rate limiting, atomic replace","requests, urllib3",test_http_client.py
+src/pipeline_v2/storage/__init__.py,Storage Package,Storage package exports,Python stdlib,test_duckdb_store.py
+src/pipeline_v2/storage/duckdb_store.py,Relational Store,"DuckDB relational staging, provenance tables, transactions","duckdb, json",test_duckdb_store.py
+src/pipeline_v2/models/__init__.py,Models Package,Models package exports,Python stdlib,All test suites
+src/pipeline_v2/models/source_models.py,Data Model,"Pydantic models for sources, nodes, relationships, rules",pydantic,test_registry.py
+src/pipeline_v2/models/manifest_models.py,Data Model,Pydantic models for assets and manifests,pydantic,test_manifest.py
+src/pipeline_v2/models/execution_models.py,Data Model,"Pydantic models for execution runs, errors, field/rel provenance",pydantic,test_duckdb_store.py
+src/pipeline_v2/tests/test_registry.py,Test Suite,Unit tests for configuration loading and validation,pytest,Self-verifying (7/7 passed)
+src/pipeline_v2/tests/test_manifest.py,Test Suite,Unit tests for SHA-256 calculation and asset verification,pytest,Self-verifying (7/7 passed)
+src/pipeline_v2/tests/test_http_client.py,Test Suite,Unit tests for streaming HTTP acquisition and rate limiting,pytest,Self-verifying (7/7 passed)
+src/pipeline_v2/tests/test_duckdb_store.py,Test Suite,"Unit tests for DuckDB schema, transactions, provenance",pytest,Self-verifying (5/5 passed)
+src/pipeline_v2/tests/test_schema_consistency.py,Test Suite,Unit tests for referential integrity across all 41 nodes and 38 edges,pytest,Self-verifying (8/8 passed)

@@ -1,0 +1,12 @@
+Scene_ID,Scene_Title,Route,Start_Time,End_Time,Duration_Seconds
+1,"Platform Introduction & Landing Page","/",00:00,00:55,55.01
+2,"Central Command Dashboard & Workspace Overview","/dashboard",00:55,01:49,54.02
+3,"Stage 1: Natural Language Product Brief Submission","/dashboard/formulate/guided (Stage 1)",01:49,02:49,60.84
+4,"Stage 2: Automated Constraint Discovery & Entity Extraction","/dashboard/formulate/guided (Stage 2)",02:49,03:45,55.39
+5,"Stage 3: Hard Constraints & Soft Objectives Prioritization","/dashboard/formulate/guided (Stage 3)",03:45,04:37,52.73
+6,"Stage 4: Pareto Candidate Generation & Deep-Dive Inspection","/dashboard/formulate/guided (Stage 4)",04:37,05:45,67.99
+7,"Stage 5: Final Formulation Dossier (All 7 Analytical Tabs)","/dashboard/formulate/guided (Stage 5)",05:45,07:27,101.64
+8,"Knowledge Graph Explorer & Semantic Traversal","/dashboard/knowledge-graph",07:27,08:21,53.90
+9,"Comprehensive Ingredient Library & Specification Drawer","/dashboard/ingredients",08:21,09:15,53.78
+10,"User Profile, Laboratory Settings & Formulation History","/dashboard/profile",09:15,09:55,40.63
+11,"Closing Summary & Dashboard Return","/dashboard",09:55,10:31,35.21

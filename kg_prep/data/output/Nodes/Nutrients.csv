@@ -99,3 +99,66 @@ NUT-RED_GRAM__TUR_DAL__PROTEIN,NUT-IFCT_B003-PROTEIN,Red Gram (Tur Dal) Protein,
 NUT-RED_GRAM__TUR_DAL__TOTAL_LIPID__FAT,NUT-IFCT_B003-TOTAL,Red Gram (Tur Dal) Total Lipid (Fat),Total Lipid (fat),1.49,g,per_100g,ICMR-NIN IFCT 2017,SRC-ICMR-NIN-IFCT-2017,B003-Total,VALIDATED,1.0
 NUT-RED_GRAM__TUR_DAL__CARBOHYDRATE__BY_DIFFERENCE,"NUT-IFCT_B003-CARBOHYDRATE,","Red Gram (Tur Dal) Carbohydrate, By Difference","Carbohydrate, by difference",56.4,g,per_100g,ICMR-NIN IFCT 2017,SRC-ICMR-NIN-IFCT-2017,"B003-Carbohydrate,",VALIDATED,1.0
 NUT-RED_GRAM__TUR_DAL__ENERGY,NUT-IFCT_B003-ENERGY,Red Gram (Tur Dal) Energy,Energy,335.0,g,per_100g,ICMR-NIN IFCT 2017,SRC-ICMR-NIN-IFCT-2017,B003-Energy,VALIDATED,1.0
+USDA:NUT:1001,1001,Water,Water,0.0,g,per_100g,USDA FoodData Central,SRC-USDA-FDC,1001,VALIDATED,1.0
+USDA:NUT:1002,1002,Nitrogen,Nitrogen,0.0,g,per_100g,USDA FoodData Central,SRC-USDA-FDC,1002,VALIDATED,1.0
+USDA:NUT:1003,1003,Protein,Protein,0.0,g,per_100g,USDA FoodData Central,SRC-USDA-FDC,1003,VALIDATED,1.0
+USDA:NUT:1004,1004,Total Lipid (Fat),Total lipid (fat),0.0,g,per_100g,USDA FoodData Central,SRC-USDA-FDC,1004,VALIDATED,1.0
+USDA:NUT:1005,1005,"Carbohydrate, By Difference","Carbohydrate, by difference",0.0,g,per_100g,USDA FoodData Central,SRC-USDA-FDC,1005,VALIDATED,1.0
+USDA:NUT:1007,1007,Ash,Ash,0.0,g,per_100g,USDA FoodData Central,SRC-USDA-FDC,1007,VALIDATED,1.0
+USDA:NUT:1008,1008,Energy,Energy,0.0,g,per_100g,USDA FoodData Central,SRC-USDA-FDC,1008,VALIDATED,1.0
+USDA:NUT:1009,1009,Energy (Kj),Energy (kJ),0.0,g,per_100g,USDA FoodData Central,SRC-USDA-FDC,1009,VALIDATED,1.0
+USDA:NUT:1010,1010,Starch,Starch,0.0,g,per_100g,USDA FoodData Central,SRC-USDA-FDC,1010,VALIDATED,1.0
+USDA:NUT:1011,1011,Sucrose,Sucrose,0.0,g,per_100g,USDA FoodData Central,SRC-USDA-FDC,1011,VALIDATED,1.0
+USDA:NUT:1012,1012,Glucose,Glucose,0.0,g,per_100g,USDA FoodData Central,SRC-USDA-FDC,1012,VALIDATED,1.0
+USDA:NUT:1013,1013,Fructose,Fructose,0.0,g,per_100g,USDA FoodData Central,SRC-USDA-FDC,1013,VALIDATED,1.0
+USDA:NUT:1014,1014,Lactose,Lactose,0.0,g,per_100g,USDA FoodData Central,SRC-USDA-FDC,1014,VALIDATED,1.0
+USDA:NUT:1015,1015,Maltose,Maltose,0.0,g,per_100g,USDA FoodData Central,SRC-USDA-FDC,1015,VALIDATED,1.0
+USDA:NUT:1016,1016,Galactose,Galactose,0.0,g,per_100g,USDA FoodData Central,SRC-USDA-FDC,1016,VALIDATED,1.0
+USDA:NUT:1018,1018,"Alcohol, Ethyl","Alcohol, ethyl",0.0,g,per_100g,USDA FoodData Central,SRC-USDA-FDC,1018,VALIDATED,1.0
+USDA:NUT:1051,1051,Total Sugars,Total sugars,0.0,g,per_100g,USDA FoodData Central,SRC-USDA-FDC,1051,VALIDATED,1.0
+USDA:NUT:1062,1062,Energy (Atwater Specific),Energy (Atwater Specific),0.0,g,per_100g,USDA FoodData Central,SRC-USDA-FDC,1062,VALIDATED,1.0
+USDA:NUT:1063,1063,"Sugars, Added","Sugars, added",0.0,g,per_100g,USDA FoodData Central,SRC-USDA-FDC,1063,VALIDATED,1.0
+USDA:NUT:1079,1079,"Fiber, Total Dietary","Fiber, total dietary",0.0,g,per_100g,USDA FoodData Central,SRC-USDA-FDC,1079,VALIDATED,1.0
+USDA:NUT:1082,1082,"Fiber, Soluble","Fiber, soluble",0.0,g,per_100g,USDA FoodData Central,SRC-USDA-FDC,1082,VALIDATED,1.0
+USDA:NUT:1084,1084,"Fiber, Insoluble","Fiber, insoluble",0.0,g,per_100g,USDA FoodData Central,SRC-USDA-FDC,1084,VALIDATED,1.0
+USDA:NUT:1087,1087,"Calcium, Ca","Calcium, Ca",0.0,g,per_100g,USDA FoodData Central,SRC-USDA-FDC,1087,VALIDATED,1.0
+USDA:NUT:1088,1088,"Iron, Fe","Iron, Fe",0.0,g,per_100g,USDA FoodData Central,SRC-USDA-FDC,1088,VALIDATED,1.0
+USDA:NUT:1089,1089,"Magnesium, Mg","Magnesium, Mg",0.0,g,per_100g,USDA FoodData Central,SRC-USDA-FDC,1089,VALIDATED,1.0
+USDA:NUT:1090,1090,"Phosphorus, P","Phosphorus, P",0.0,g,per_100g,USDA FoodData Central,SRC-USDA-FDC,1090,VALIDATED,1.0
+USDA:NUT:1091,1091,"Potassium, K","Potassium, K",0.0,g,per_100g,USDA FoodData Central,SRC-USDA-FDC,1091,VALIDATED,1.0
+USDA:NUT:1092,1092,"Sodium, Na","Sodium, Na",0.0,g,per_100g,USDA FoodData Central,SRC-USDA-FDC,1092,VALIDATED,1.0
+USDA:NUT:1093,1093,"Zinc, Zn","Zinc, Zn",0.0,g,per_100g,USDA FoodData Central,SRC-USDA-FDC,1093,VALIDATED,1.0
+USDA:NUT:1094,1094,"Copper, Cu","Copper, Cu",0.0,g,per_100g,USDA FoodData Central,SRC-USDA-FDC,1094,VALIDATED,1.0
+USDA:NUT:1095,1095,"Fluoride, F","Fluoride, F",0.0,g,per_100g,USDA FoodData Central,SRC-USDA-FDC,1095,VALIDATED,1.0
+USDA:NUT:1096,1096,"Manganese, Mn","Manganese, Mn",0.0,g,per_100g,USDA FoodData Central,SRC-USDA-FDC,1096,VALIDATED,1.0
+USDA:NUT:1097,1097,"Selenium, Se","Selenium, Se",0.0,g,per_100g,USDA FoodData Central,SRC-USDA-FDC,1097,VALIDATED,1.0
+USDA:NUT:1098,1098,"Vitamin A, Iu","Vitamin A, IU",0.0,g,per_100g,USDA FoodData Central,SRC-USDA-FDC,1098,VALIDATED,1.0
+USDA:NUT:1099,1099,Retinol,Retinol,0.0,g,per_100g,USDA FoodData Central,SRC-USDA-FDC,1099,VALIDATED,1.0
+USDA:NUT:1100,1100,"Vitamin A, Rae","Vitamin A, RAE",0.0,g,per_100g,USDA FoodData Central,SRC-USDA-FDC,1100,VALIDATED,1.0
+USDA:NUT:1101,1101,"Carotene, Beta","Carotene, beta",0.0,g,per_100g,USDA FoodData Central,SRC-USDA-FDC,1101,VALIDATED,1.0
+USDA:NUT:1102,1102,"Carotene, Alpha","Carotene, alpha",0.0,g,per_100g,USDA FoodData Central,SRC-USDA-FDC,1102,VALIDATED,1.0
+USDA:NUT:1103,1103,"Cryptoxanthin, Beta","Cryptoxanthin, beta",0.0,g,per_100g,USDA FoodData Central,SRC-USDA-FDC,1103,VALIDATED,1.0
+USDA:NUT:1104,1104,Vitamin D (D2 + D3),Vitamin D (D2 + D3),0.0,g,per_100g,USDA FoodData Central,SRC-USDA-FDC,1104,VALIDATED,1.0
+USDA:NUT:1105,1105,Vitamin D3 (Cholecalciferol),Vitamin D3 (cholecalciferol),0.0,g,per_100g,USDA FoodData Central,SRC-USDA-FDC,1105,VALIDATED,1.0
+USDA:NUT:1106,1106,Vitamin D2 (Ergocalciferol),Vitamin D2 (ergocalciferol),0.0,g,per_100g,USDA FoodData Central,SRC-USDA-FDC,1106,VALIDATED,1.0
+USDA:NUT:1109,1109,Vitamin E (Alpha-Tocopherol),Vitamin E (alpha-tocopherol),0.0,g,per_100g,USDA FoodData Central,SRC-USDA-FDC,1109,VALIDATED,1.0
+USDA:NUT:1114,1114,"Vitamin D (D2 + D3), International Units","Vitamin D (D2 + D3), International Units",0.0,g,per_100g,USDA FoodData Central,SRC-USDA-FDC,1114,VALIDATED,1.0
+USDA:NUT:1162,1162,"Vitamin C, Total Ascorbic Acid","Vitamin C, total ascorbic acid",0.0,g,per_100g,USDA FoodData Central,SRC-USDA-FDC,1162,VALIDATED,1.0
+USDA:NUT:1165,1165,Thiamin,Thiamin,0.0,g,per_100g,USDA FoodData Central,SRC-USDA-FDC,1165,VALIDATED,1.0
+USDA:NUT:1166,1166,Riboflavin,Riboflavin,0.0,g,per_100g,USDA FoodData Central,SRC-USDA-FDC,1166,VALIDATED,1.0
+USDA:NUT:1167,1167,Niacin,Niacin,0.0,g,per_100g,USDA FoodData Central,SRC-USDA-FDC,1167,VALIDATED,1.0
+USDA:NUT:1170,1170,Pantothenic Acid,Pantothenic acid,0.0,g,per_100g,USDA FoodData Central,SRC-USDA-FDC,1170,VALIDATED,1.0
+USDA:NUT:1175,1175,Vitamin B-6,Vitamin B-6,0.0,g,per_100g,USDA FoodData Central,SRC-USDA-FDC,1175,VALIDATED,1.0
+USDA:NUT:1176,1176,"Folate, Total","Folate, total",0.0,g,per_100g,USDA FoodData Central,SRC-USDA-FDC,1176,VALIDATED,1.0
+USDA:NUT:1177,1177,Vitamin B-12,Vitamin B-12,0.0,g,per_100g,USDA FoodData Central,SRC-USDA-FDC,1177,VALIDATED,1.0
+USDA:NUT:1178,1178,Folic Acid,Folic acid,0.0,g,per_100g,USDA FoodData Central,SRC-USDA-FDC,1178,VALIDATED,1.0
+USDA:NUT:1179,1179,"Folate, Food","Folate, food",0.0,g,per_100g,USDA FoodData Central,SRC-USDA-FDC,1179,VALIDATED,1.0
+USDA:NUT:1180,1180,"Folate, Dfe","Folate, DFE",0.0,g,per_100g,USDA FoodData Central,SRC-USDA-FDC,1180,VALIDATED,1.0
+USDA:NUT:1185,1185,"Choline, Total","Choline, total",0.0,g,per_100g,USDA FoodData Central,SRC-USDA-FDC,1185,VALIDATED,1.0
+USDA:NUT:1186,1186,Betaine,Betaine,0.0,g,per_100g,USDA FoodData Central,SRC-USDA-FDC,1186,VALIDATED,1.0
+USDA:NUT:1187,1187,Vitamin K (Phylloquinone),Vitamin K (phylloquinone),0.0,g,per_100g,USDA FoodData Central,SRC-USDA-FDC,1187,VALIDATED,1.0
+USDA:NUT:1253,1253,Cholesterol,Cholesterol,0.0,g,per_100g,USDA FoodData Central,SRC-USDA-FDC,1253,VALIDATED,1.0
+USDA:NUT:1257,1257,"Fatty Acids, Total Trans","Fatty acids, total trans",0.0,g,per_100g,USDA FoodData Central,SRC-USDA-FDC,1257,VALIDATED,1.0
+USDA:NUT:1258,1258,"Fatty Acids, Total Saturated","Fatty acids, total saturated",0.0,g,per_100g,USDA FoodData Central,SRC-USDA-FDC,1258,VALIDATED,1.0
+USDA:NUT:1259,1259,"Fatty Acids, Total Monounsaturated","Fatty acids, total monounsaturated",0.0,g,per_100g,USDA FoodData Central,SRC-USDA-FDC,1259,VALIDATED,1.0
+USDA:NUT:1260,1260,"Fatty Acids, Total Polyunsaturated","Fatty acids, total polyunsaturated",0.0,g,per_100g,USDA FoodData Central,SRC-USDA-FDC,1260,VALIDATED,1.0

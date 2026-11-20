@@ -1,0 +1,33 @@
+{
+  "PropertyTable": {
+    "Properties": [
+      {
+        "CID": 104,
+        "MolecularFormula": "C6H6O4",
+        "MolecularWeight": "142.11",
+        "SMILES": "C1C=C(OC1=O)CC(=O)O",
+        "ConnectivitySMILES": "C1C=C(OC1=O)CC(=O)O",
+        "InChI": "InChI=1S/C6H6O4/c7-5(8)3-4-1-2-6(9)10-4/h1H,2-3H2,(H,7,8)",
+        "InChIKey": "ZPEHSARSWGDCEX-UHFFFAOYSA-N",
+        "IUPACName": "2-(2-oxo-3H-furan-5-yl)acetic acid"
+      }
+    ]
+  },
+  "Synonyms": [
+    "3-Oxoadipate enol-lactone",
+    "RefChem:1068425",
+    "1124-49-8",
+    "5-oxo-4,5-dihydro-2-furylacetic acid",
+    "2-oxo-2,3-dihydrofuran-5-acetate",
+    "4,5-dihydro-5-oxofuran-2-acetate",
+    "5-oxo-4,5-dihydrofuran-2-acetate",
+    "2-(2-oxo-3H-furan-5-yl)acetic acid",
+    "(5-oxo-4,5-dihydrofuran-2-yl)acetic acid",
+    "C03586",
+    "SCHEMBL13176945",
+    "CHEBI:18267",
+    "4-carboxymethylbut-3-en-4-olide",
+    "AKOS006376286",
+    "Q27102959"
+  ]
+}

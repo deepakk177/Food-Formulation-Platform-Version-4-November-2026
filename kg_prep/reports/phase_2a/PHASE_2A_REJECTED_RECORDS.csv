@@ -1,0 +1,6 @@
+source_id,asset_id,native_record_id,entity_type,rejection_reason,source_location,rejection_details
+SRC-CODEX-GSFA,AST-CODEX-GSFA-LEGACY-PDF-001,CXS_192e.pdf,Document,CORRUPTED_HTML_REDIRECT,data/raw/unstructured/codex/CXS_192e.pdf,Legacy PDF was a 1-page HTML Microsoft login redirect (3190 bytes). Rejected in accordance with genuine data authenticity requirements.
+SRC-CODEX-GSFA,AST-CODEX-GSFA-LEGACY-PDF-002,CXG_036e.pdf,Document,CORRUPTED_HTML_REDIRECT,data/raw/unstructured/codex/ins/CXG_036e.pdf,Legacy PDF was a 1-page HTML Microsoft login redirect (3190 bytes). Rejected in accordance with genuine data authenticity requirements.
+SRC-CODEX-GSFA,AST-CODEX-GSFA-ONLINE,fao_gsfaonline_portal,WebPage,BLOCKED_BY_CLOUDFLARE,https://www.fao.org/gsfaonline/,Remote FAO GSFA online search portal returned HTTP 403 with Cloudflare Turnstile challenge. Automated bypass forbidden per safety guidelines.
+SRC-USDA-FDC,TEST-FIXTURE-BRANDED-001,FDC-999999,FoodItem,OUT_OF_SCOPE_DATA_TYPE:Branded,unit_test_fixture,"Branded foods strictly rejected per Decision D-01 to prevent uncurated, manufacturer-specific noise in canonical KG."
+SRC-FOODON,TEST-FIXTURE-CORRUPT-XML,FOODON_MALFORMED,OntologyClass,XML_PARSE_ERROR,unit_test_fixture,Malformed XML syntax rejected with explicit error tracking; zero data corruption permitted.

@@ -1,0 +1,10 @@
+table_name,total_rows,distinct_primary_keys,null_primary_keys,foreign_key_violations,reconciliation_status,notes
+source_registry,12,12,0,0,RECONCILED,Declarative source definitions from config_v2
+dataset_registry,4,4,0,0,RECONCILED,4 active dataset entries mapped to sources
+source_assets,16,16,0,0,RECONCILED,16 genuine raw assets with SHA-256 digests
+raw_records,1406,1406,0,0,RECONCILED,1000 FoodOn + 296 GSFA + 102 USDA + 8 PubChem
+field_provenance,0,0,0,0,RECONCILED,Populated during Phase 3 normalization
+relationship_provenance,0,0,0,0,RECONCILED,Populated during Phase 3/4 relationship building
+normalized_records,0,0,0,0,RECONCILED,Populated during Phase 3 normalization
+execution_runs,1,1,0,0,RECONCILED,RUN-PHASE-2A-ACQUISITION-01 marked COMPLETED
+execution_errors,0,0,0,0,RECONCILED,Zero unhandled staging errors

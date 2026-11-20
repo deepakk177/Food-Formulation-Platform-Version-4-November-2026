@@ -1,0 +1,36 @@
+Strategy,Candidate ID,Ingredient,Percentage,Objective Score,Feasible
+Nutrition-Maximized Strategy,FC-001,Refined Cane Sugar (Granulated),39.88,74.2,True
+Nutrition-Maximized Strategy,FC-001,Fava Bean Protein Isolate,49.995,74.2,True
+Nutrition-Maximized Strategy,FC-001,Coconut MCT Oil Powder (70%),5.0,74.2,True
+Nutrition-Maximized Strategy,FC-001,cocoa mass (fat-free),5.0,74.2,True
+Nutrition-Maximized Strategy,FC-001,chewing gum containing breath freshener,0.05,74.2,True
+Nutrition-Maximized Strategy,FC-001,Vanilla Flavour (Nature Identical Vanillin),0.02,74.2,True
+Nutrition-Maximized Strategy,FC-001,Natural Sea Salt,0.05,74.2,True
+Nutrition-Maximized Strategy,FC-001,Potassium Sorbate (INS 202),0.005,74.2,True
+Cost-Optimized Strategy,FC-002,Refined Cane Sugar (Granulated),58.005,94.8,True
+Cost-Optimized Strategy,FC-002,Fava Bean Protein Isolate,3.13,94.8,True
+Cost-Optimized Strategy,FC-002,Coconut MCT Oil Powder (70%),5.0,94.8,True
+Cost-Optimized Strategy,FC-002,Cocoa Solids / Cocoa Liquor (Mass),32.59,94.8,True
+Cost-Optimized Strategy,FC-002,chewing gum containing breath freshener,0.05,94.8,True
+Cost-Optimized Strategy,FC-002,Ammonium Phosphatides (INS 442),0.8,94.8,True
+Cost-Optimized Strategy,FC-002,Vanilla Flavour (Nature Identical Vanillin),0.02,94.8,True
+Cost-Optimized Strategy,FC-002,Natural Sea Salt,0.4,94.8,True
+Cost-Optimized Strategy,FC-002,Potassium Sorbate (INS 202),0.005,94.8,True
+Balanced Strategy,FC-003,Refined Cane Sugar (Granulated),58.0001,94.7,True
+Balanced Strategy,FC-003,Fava Bean Protein Isolate,7.94,94.7,True
+Balanced Strategy,FC-003,Coconut MCT Oil Powder (70%),5.0,94.7,True
+Balanced Strategy,FC-003,cocoa mass (fat-free),27.17,94.7,True
+Balanced Strategy,FC-003,chewing gum containing breath freshener,0.6649,94.7,True
+Balanced Strategy,FC-003,Ammonium Phosphatides (INS 442),0.8,94.7,True
+Balanced Strategy,FC-003,Vanilla Flavour (Nature Identical Vanillin),0.02,94.7,True
+Balanced Strategy,FC-003,Natural Sea Salt,0.4,94.7,True
+Balanced Strategy,FC-003,Potassium Sorbate (INS 202),0.005,94.7,True
+Functionality & Texture Strategy,FC-004,Refined Cane Sugar (Granulated),39.73,74.2,True
+Functionality & Texture Strategy,FC-004,Fava Bean Protein Isolate,49.995,74.2,True
+Functionality & Texture Strategy,FC-004,Coconut MCT Oil Powder (70%),5.0,74.2,True
+Functionality & Texture Strategy,FC-004,cocoa mass (fat-free),5.0,74.2,True
+Functionality & Texture Strategy,FC-004,chewing gum containing breath freshener,0.05,74.2,True
+Functionality & Texture Strategy,FC-004,Ammonium Phosphatides (INS 442),0.15,74.2,True
+Functionality & Texture Strategy,FC-004,Vanilla Flavour (Nature Identical Vanillin),0.02,74.2,True
+Functionality & Texture Strategy,FC-004,Natural Sea Salt,0.05,74.2,True
+Functionality & Texture Strategy,FC-004,Potassium Sorbate (INS 202),0.005,74.2,True

@@ -1,0 +1,17 @@
+pubchem_cid,chemical_name,iupac_name,molecular_formula,molecular_weight,dataset_id,raw_asset_id,phase_introduced,reconciliation_finding
+1183,Vanillin,4-hydroxy-3-methoxybenzaldehyde,C8H8O3,152.15,DSK-PUBCHEM-2026,AST-PUBCHEM-CID-1183,Phase 2A,PRESERVED_AUTHENTIC_PILOT (Mislabeled as Water in Phase 2A.2 text)
+2519,Caffeine,1,3,7-trimethylpurine-2,6-dione,C8H10N4O2,194.19,DSK-PUBCHEM-2026,AST-PUBCHEM-CID-2519,Phase 2A,PRESERVED_AUTHENTIC_PILOT
+311,Citric acid,2-hydroxypropane-1,2,3-tricarboxylic acid,C6H8O7,192.12,DSK-PUBCHEM-2026,AST-PUBCHEM-CID-311,Phase 2A,PRESERVED_AUTHENTIC_PILOT
+5988,Sucrose,(2R,3R,4S,5S,6R)-2-[(2S,3S,4S,5R)-3,4-dihydroxy-2,5-bis(hydroxymethyl)oxolan-2-yl]oxy-6-(hydroxymethyl)oxane-3,4,5-triol,C12H22O11,342.30,DSK-PUBCHEM-2026,AST-PUBCHEM-CID-5988,Phase 2A,PRESERVED_AUTHENTIC_PILOT
+54670067,L-Ascorbic acid,(2R)-2-[(1S)-1,2-dihydroxyethyl]-3,4-dihydroxy-2H-furan-5-one,C6H8O6,176.12,DSK-PUBCHEM-2026,AST-PUBCHEM-CID-54670067,Phase 2A,PRESERVED_AUTHENTIC_PILOT (Mislabeled as L-Lactic Acid in Phase 2A.2 text)
+712,Formaldehyde,formaldehyde,CH2O,30.026,DSK-PUBCHEM-2026,AST-PUBCHEM-CID-712,Phase 2A,PRESERVED_AUTHENTIC_PILOT (Mistakenly described as Sodium Benzoate in 2A and Sodium Chloride in 2A.2)
+23665764,Sodium p-methylbenzylsulfonate,sodium (4-methylphenyl)methanesulfonate,C8H9NaO3S,208.21,DSK-PUBCHEM-2026,AST-PUBCHEM-CID-23665764,Phase 2A,PRESERVED_AUTHENTIC_PILOT (Mistakenly described as Potassium Sorbate in 2A and Stevioside in 2A.2)
+104,3-Oxoadipate enol-lactone,2-(2-oxo-3H-furan-5-yl)acetic acid,C6H6O4,142.11,DSK-PUBCHEM-2026,AST-PUBCHEM-CID-104,Phase 2A,PRESERVED_AUTHENTIC_PILOT (Mistakenly described as Glycine in 2A and Nitrogen in 2A.2)
+962,Water,oxidane,H2O,18.015,DSK-PUBCHEM-COMPOUNDS,AST-PUBCHEM-CID-962,Phase 2A.3,NEWLY_STAGED_GENUINE_FOOD_COMPOUND
+750,Glycine,2-aminoacetic acid,C2H5NO2,75.067,DSK-PUBCHEM-COMPOUNDS,AST-PUBCHEM-CID-750,Phase 2A.3,NEWLY_STAGED_GENUINE_FOOD_COMPOUND
+517055,Sodium benzoate,sodium benzoate,C7H5NaO2,144.10,DSK-PUBCHEM-COMPOUNDS,AST-PUBCHEM-CID-517055,Phase 2A.3,NEWLY_STAGED_GENUINE_FOOD_COMPOUND
+23676745,Potassium sorbate,potassium (2E,4E)-hexa-2,4-dienoate,C6H7KO2,150.22,DSK-PUBCHEM-COMPOUNDS,AST-PUBCHEM-CID-23676745,Phase 2A.3,NEWLY_STAGED_GENUINE_FOOD_COMPOUND
+107689,L-Lactic acid,(2S)-2-hydroxypropanoic acid,C3H6O3,90.078,DSK-PUBCHEM-COMPOUNDS,AST-PUBCHEM-CID-107689,Phase 2A.3,NEWLY_STAGED_GENUINE_FOOD_COMPOUND
+5234,Sodium chloride,sodium chloride,ClNa,58.44,DSK-PUBCHEM-COMPOUNDS,AST-PUBCHEM-CID-5234,Phase 2A.3,NEWLY_STAGED_GENUINE_FOOD_COMPOUND
+442089,Stevioside,[(2S,3R,4S,5S,6R)-3,4,5-trihydroxy-6-(hydroxymethyl)oxan-2-yl] (1R,4S,5R,9S,10R,13S)-13-[(2S,3R,4S,5S,6R)-4,5-dihydroxy-6-(hydroxymethyl)-3-[(2S,3R,4S,5S,6R)-3,4,5-trihydroxy-6-(hydroxymethyl)oxan-2-yl]oxyoxan-2-yl]oxy-5,9-dimethyl-14-methylidenetetracyclo[11.2.1.01,10.04,9]hexadecane-5-carboxylate,C38H60O18,804.9,DSK-PUBCHEM-COMPOUNDS,AST-PUBCHEM-CID-442089,Phase 2A.3,NEWLY_STAGED_GENUINE_FOOD_COMPOUND
+947,Nitrogen,molecular nitrogen,N2,28.014,DSK-PUBCHEM-COMPOUNDS,AST-PUBCHEM-CID-947,Phase 2A.3,NEWLY_STAGED_GENUINE_FOOD_COMPOUND

@@ -1,0 +1,207 @@
+{
+  "status": "PASS",
+  "hard_constraint_results": [],
+  "property_completeness_results": [
+    {
+      "ingredient": "Rare Sugar Allulose",
+      "status": "PASS",
+      "missing_properties": []
+    },
+    {
+      "ingredient": "milk chocolate bar",
+      "status": "PASS",
+      "missing_properties": []
+    },
+    {
+      "ingredient": "Prime Press Cocoa Butter",
+      "status": "PASS",
+      "missing_properties": []
+    },
+    {
+      "ingredient": "Cocoa Solids / Cocoa Liquor (Mass)",
+      "status": "PASS",
+      "missing_properties": []
+    },
+    {
+      "ingredient": "Ammonium Phosphatides (INS 442)",
+      "status": "PASS",
+      "missing_properties": []
+    },
+    {
+      "ingredient": "Vanilla Flavour (Nature Identical Vanillin)",
+      "status": "PASS",
+      "missing_properties": []
+    },
+    {
+      "ingredient": "Natural Sea Salt",
+      "status": "PASS",
+      "missing_properties": []
+    }
+  ],
+  "regulatory_results": [
+    {
+      "ingredient": "Rare Sugar Allulose",
+      "permitted": true,
+      "ins_number": null,
+      "status": "Permitted",
+      "jurisdiction": "FSSAI / FDA / Codex"
+    },
+    {
+      "ingredient": "milk chocolate bar",
+      "permitted": true,
+      "ins_number": null,
+      "status": "Permitted",
+      "jurisdiction": "FSSAI / FDA / Codex"
+    },
+    {
+      "ingredient": "Prime Press Cocoa Butter",
+      "permitted": true,
+      "ins_number": null,
+      "status": "Permitted",
+      "jurisdiction": "FSSAI / FDA / Codex"
+    },
+    {
+      "ingredient": "Cocoa Solids / Cocoa Liquor (Mass)",
+      "permitted": true,
+      "ins_number": null,
+      "status": "Permitted",
+      "jurisdiction": "FSSAI / FDA / Codex"
+    },
+    {
+      "ingredient": "Ammonium Phosphatides (INS 442)",
+      "permitted": true,
+      "ins_number": null,
+      "status": "Permitted",
+      "jurisdiction": "FSSAI / FDA / Codex"
+    },
+    {
+      "ingredient": "Vanilla Flavour (Nature Identical Vanillin)",
+      "permitted": true,
+      "ins_number": null,
+      "status": "Permitted",
+      "jurisdiction": "FSSAI / FDA / Codex"
+    },
+    {
+      "ingredient": "Natural Sea Salt",
+      "permitted": true,
+      "ins_number": null,
+      "status": "Permitted",
+      "jurisdiction": "FSSAI / FDA / Codex"
+    }
+  ],
+  "regional_compliance": {
+    "FSSAI": {
+      "status": "Warning",
+      "alerts": [
+        "Requires Evidence: Additive 'Ammonium Phosphatides (INS 442)' (No INS) requires regional dossier verification.",
+        "Partial regulatory clearance: Some ingredients require technical dossier verification."
+      ],
+      "verified_count": 6,
+      "total_evaluated": 7
+    },
+    "FDA": {
+      "status": "Warning",
+      "alerts": [
+        "Requires Evidence: Additive 'Ammonium Phosphatides (INS 442)' (No INS) requires regional dossier verification.",
+        "Partial regulatory clearance: Some ingredients require technical dossier verification."
+      ],
+      "verified_count": 6,
+      "total_evaluated": 7
+    },
+    "EFSA": {
+      "status": "Warning",
+      "alerts": [
+        "Requires Evidence: Additive 'Ammonium Phosphatides (INS 442)' (No INS) requires regional dossier verification.",
+        "Partial regulatory clearance: Some ingredients require technical dossier verification."
+      ],
+      "verified_count": 6,
+      "total_evaluated": 7
+    }
+  },
+  "allergen_results": [
+    {
+      "ingredient": "Rare Sugar Allulose",
+      "allergen": "None Declared",
+      "status": "PASS"
+    },
+    {
+      "ingredient": "milk chocolate bar",
+      "allergen": "None Declared",
+      "status": "PASS"
+    },
+    {
+      "ingredient": "Prime Press Cocoa Butter",
+      "allergen": "None Declared",
+      "status": "PASS"
+    },
+    {
+      "ingredient": "Cocoa Solids / Cocoa Liquor (Mass)",
+      "allergen": "None Declared",
+      "status": "PASS"
+    },
+    {
+      "ingredient": "Ammonium Phosphatides (INS 442)",
+      "allergen": "None Declared",
+      "status": "PASS"
+    },
+    {
+      "ingredient": "Vanilla Flavour (Nature Identical Vanillin)",
+      "allergen": "None Declared",
+      "status": "PASS"
+    },
+    {
+      "ingredient": "Natural Sea Salt",
+      "allergen": "None Declared",
+      "status": "PASS"
+    }
+  ],
+  "compatibility_results": [],
+  "groundedness_results": [
+    {
+      "claim": "Rare Sugar Allulose (Sweetener)",
+      "source": "Grounded Repository DB",
+      "grounded": true
+    },
+    {
+      "claim": "milk chocolate bar (Bulking Agent)",
+      "source": "Grounded Repository DB",
+      "grounded": true
+    },
+    {
+      "claim": "Prime Press Cocoa Butter (Fats & Oils)",
+      "source": "Grounded Repository DB",
+      "grounded": true
+    },
+    {
+      "claim": "Cocoa Solids / Cocoa Liquor (Mass) (Cocoa Solids)",
+      "source": "Grounded Repository DB",
+      "grounded": true
+    },
+    {
+      "claim": "Ammonium Phosphatides (INS 442) (Emulsifier)",
+      "source": "Grounded Repository DB",
+      "grounded": true
+    },
+    {
+      "claim": "Vanilla Flavour (Nature Identical Vanillin) (Flavor System)",
+      "source": "Grounded Repository DB",
+      "grounded": true
+    },
+    {
+      "claim": "Natural Sea Salt (Flavor System)",
+      "source": "Grounded Repository DB",
+      "grounded": true
+    }
+  ],
+  "mass_balance_result": {
+    "total_percentage": 100.0,
+    "target_percentage": 100.0,
+    "is_feasible": true,
+    "status": "PASS"
+  },
+  "failure_reasons": [],
+  "requires_evidence_reasons": [],
+  "iteration_number": 1,
+  "max_iterations": 3,
+  "iteration_recommendation": "Proceed to Multi-Objective Scoring & Ranking"
+}

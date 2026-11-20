@@ -1,6 +1,51 @@
 ID,Name,Source,source_record_id,source_url
-PRO-HTST_PASTEURIZATION,Htst Pasteurization,Scientific Literature,arXiv:2607.09529v1,https://arxiv.org/abs/2607.09529
-PRO-HIGH_PRESSURE_HOMOGENIZATION,High Pressure Homogenization,Scientific Literature,arXiv:2607.09529v2,https://arxiv.org/abs/2607.09529
-PRO-SPRAY_DRYING_ATOMIZATION,Spray Drying Atomization,Scientific Literature,arXiv:2607.09529v3,https://arxiv.org/abs/2607.09529
-PRO-TWIN_SCREW_EXTRUSION,Twin Screw Extrusion,Scientific Literature,arXiv:2607.09529v4,https://arxiv.org/abs/2607.09529
-PRO-THERMAL_RETORT_STERILIZATION,Thermal Retort Sterilization,Scientific Literature,arXiv:2607.09529v5,https://arxiv.org/abs/2607.09529
+FOODON:PROC:FOODON_00000071,Food Cutting Process,FoodOn Ontology,FOODON_00000071,http://purl.obolibrary.org/obo/FOODON_00000071
+FOODON:PROC:FOODON_00001005,Fermenting Elaeis Palm Sap Food Product,FoodOn Ontology,FOODON_00001005,http://purl.obolibrary.org/obo/FOODON_00001005
+FOODON:PROC:FOODON_00001010,Processed Meat Food Product,FoodOn Ontology,FOODON_00001010,http://purl.obolibrary.org/obo/FOODON_00001010
+FOODON:PROC:FOODON_00001051,Fermented Rice Beverage,FoodOn Ontology,FOODON_00001051,http://purl.obolibrary.org/obo/FOODON_00001051
+FOODON:PROC:FOODON_00001078,Fermented Soybean Food Product,FoodOn Ontology,FOODON_00001078,http://purl.obolibrary.org/obo/FOODON_00001078
+FOODON:PROC:FOODON_00001096,Fermented Elaeis Palm Beverage,FoodOn Ontology,FOODON_00001096,http://purl.obolibrary.org/obo/FOODON_00001096
+FOODON:PROC:FOODON_00001097,Fermented Sugar Cane Beverage,FoodOn Ontology,FOODON_00001097,http://purl.obolibrary.org/obo/FOODON_00001097
+FOODON:PROC:FOODON_00001102,Fermented Grain Beverage,FoodOn Ontology,FOODON_00001102,http://purl.obolibrary.org/obo/FOODON_00001102
+FOODON:PROC:FOODON_00001135,Distilled Fermented Grain Beverage,FoodOn Ontology,FOODON_00001135,http://purl.obolibrary.org/obo/FOODON_00001135
+FOODON:PROC:FOODON_00001136,Distilled Fermented Beverage,FoodOn Ontology,FOODON_00001136,http://purl.obolibrary.org/obo/FOODON_00001136
+FOODON:PROC:FOODON_00001229,Processed Cheese Food Product,FoodOn Ontology,FOODON_00001229,http://purl.obolibrary.org/obo/FOODON_00001229
+FOODON:PROC:FOODON_00001255,Nonfermented Plant Derived Beverage Product,FoodOn Ontology,FOODON_00001255,http://purl.obolibrary.org/obo/FOODON_00001255
+FOODON:PROC:FOODON_00001258,Food (Fermented),FoodOn Ontology,FOODON_00001258,http://purl.obolibrary.org/obo/FOODON_00001258
+FOODON:PROC:FOODON_00001297,Unpasteurized Cow Milk Cheese Food Product,FoodOn Ontology,FOODON_00001297,http://purl.obolibrary.org/obo/FOODON_00001297
+FOODON:PROC:FOODON_00001298,Unpasteurized Camel Milk Beverage,FoodOn Ontology,FOODON_00001298,http://purl.obolibrary.org/obo/FOODON_00001298
+FOODON:PROC:FOODON_00001300,Unpasteurized Milk Beverage,FoodOn Ontology,FOODON_00001300,http://purl.obolibrary.org/obo/FOODON_00001300
+FOODON:PROC:FOODON_00001304,Food Fermentation,FoodOn Ontology,FOODON_00001304,http://purl.obolibrary.org/obo/FOODON_00001304
+FOODON:PROC:FOODON_00001784,Cow Milk Processed Cheese Product,FoodOn Ontology,FOODON_00001784,http://purl.obolibrary.org/obo/FOODON_00001784
+FOODON:PROC:FOODON_00001872,Food Material (To Be Processed),FoodOn Ontology,FOODON_00001872,http://purl.obolibrary.org/obo/FOODON_00001872
+FOODON:PROC:FOODON_00001875,Fermented Milk Food Product,FoodOn Ontology,FOODON_00001875,http://purl.obolibrary.org/obo/FOODON_00001875
+FOODON:PROC:FOODON_00002088,Pasteurized Blended Cheese Food Product,FoodOn Ontology,FOODON_00002088,http://purl.obolibrary.org/obo/FOODON_00002088
+FOODON:PROC:FOODON_00002089,Pasteurized Cheese Food Product,FoodOn Ontology,FOODON_00002089,http://purl.obolibrary.org/obo/FOODON_00002089
+FOODON:PROC:FOODON_00002090,Pasteurized Cheese Spread Food Product,FoodOn Ontology,FOODON_00002090,http://purl.obolibrary.org/obo/FOODON_00002090
+FOODON:PROC:FOODON_00002091,Pasteurized Process Cheese Food Product,FoodOn Ontology,FOODON_00002091,http://purl.obolibrary.org/obo/FOODON_00002091
+FOODON:PROC:FOODON_00002092,Pasteurized Process Cheese Spread Food Product,FoodOn Ontology,FOODON_00002092,http://purl.obolibrary.org/obo/FOODON_00002092
+FOODON:PROC:FOODON_00002415,Food Milling,FoodOn Ontology,FOODON_00002415,http://purl.obolibrary.org/obo/FOODON_00002415
+FOODON:PROC:FOODON_00002419,Food Evaporation Process,FoodOn Ontology,FOODON_00002419,http://purl.obolibrary.org/obo/FOODON_00002419
+FOODON:PROC:FOODON_00002451,Food Transformation Process,FoodOn Ontology,FOODON_00002451,http://purl.obolibrary.org/obo/FOODON_00002451
+FOODON:PROC:FOODON_00002645,Food Material By Process,FoodOn Ontology,FOODON_00002645,http://purl.obolibrary.org/obo/FOODON_00002645
+FOODON:PROC:FOODON_00002732,Food Seasoning Process,FoodOn Ontology,FOODON_00002732,http://purl.obolibrary.org/obo/FOODON_00002732
+FOODON:PROC:FOODON_00002740,Food Packaging Process,FoodOn Ontology,FOODON_00002740,http://purl.obolibrary.org/obo/FOODON_00002740
+FOODON:PROC:FOODON_00003307,Shell Removal Process,FoodOn Ontology,FOODON_00003307,http://purl.obolibrary.org/obo/FOODON_00003307
+FOODON:PROC:FOODON_00003365,Food Processing Contact Surface,FoodOn Ontology,FOODON_00003365,http://purl.obolibrary.org/obo/FOODON_00003365
+FOODON:PROC:FOODON_00003380,Food (Fermented From Innoculant),FoodOn Ontology,FOODON_00003380,http://purl.obolibrary.org/obo/FOODON_00003380
+FOODON:PROC:FOODON_00003862,Fermented Nut Food Product,FoodOn Ontology,FOODON_00003862,http://purl.obolibrary.org/obo/FOODON_00003862
+FOODON:PROC:FOODON_00004275,Processing Aid,FoodOn Ontology,FOODON_00004275,http://purl.obolibrary.org/obo/FOODON_00004275
+FOODON:PROC:FOODON_00004276,Regulated Processing Aid,FoodOn Ontology,FOODON_00004276,http://purl.obolibrary.org/obo/FOODON_00004276
+FOODON:PROC:FOODON_00004457,Food Recipe Process,FoodOn Ontology,FOODON_00004457,http://purl.obolibrary.org/obo/FOODON_00004457
+FOODON:PROC:FOODON_00004461,Process On Aggregate,FoodOn Ontology,FOODON_00004461,http://purl.obolibrary.org/obo/FOODON_00004461
+FOODON:PROC:FOODON_00004463,Recipe Total Processing Duration,FoodOn Ontology,FOODON_00004463,http://purl.obolibrary.org/obo/FOODON_00004463
+FOODON:PROC:FOODON_00004474,Slicing Process,FoodOn Ontology,FOODON_00004474,http://purl.obolibrary.org/obo/FOODON_00004474
+FOODON:PROC:FOODON_02010022,Animal Processed Carcass,FoodOn Ontology,FOODON_02010022,http://purl.obolibrary.org/obo/FOODON_02010022
+FOODON:PROC:FOODON_02020055,Avian Animal Processed Carcass,FoodOn Ontology,FOODON_02020055,http://purl.obolibrary.org/obo/FOODON_02020055
+FOODON:PROC:FOODON_02020070,Capon Processed Carcass,FoodOn Ontology,FOODON_02020070,http://purl.obolibrary.org/obo/FOODON_02020070
+FOODON:PROC:FOODON_02020085,Pigeon Processed Carcass,FoodOn Ontology,FOODON_02020085,http://purl.obolibrary.org/obo/FOODON_02020085
+FOODON:PROC:FOODON_02020100,Emu Processed Carcass,FoodOn Ontology,FOODON_02020100,http://purl.obolibrary.org/obo/FOODON_02020100
+FOODON:PROC:FOODON_02020126,Duck Processed Carcass,FoodOn Ontology,FOODON_02020126,http://purl.obolibrary.org/obo/FOODON_02020126
+FOODON:PROC:FOODON_02020166,Chicken Processed Carcass,FoodOn Ontology,FOODON_02020166,http://purl.obolibrary.org/obo/FOODON_02020166
+FOODON:PROC:FOODON_02020387,Goose Processed Carcass,FoodOn Ontology,FOODON_02020387,http://purl.obolibrary.org/obo/FOODON_02020387
+FOODON:PROC:FOODON_02020423,Turkey Processed Carcass,FoodOn Ontology,FOODON_02020423,http://purl.obolibrary.org/obo/FOODON_02020423

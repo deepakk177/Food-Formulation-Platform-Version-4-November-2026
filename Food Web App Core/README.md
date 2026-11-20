@@ -61,12 +61,19 @@ Copy [backend/.env.example](file:///backend/.env.example) to a new file named `b
 PORT=8000
 HOST=0.0.0.0
 
-# Database URL
+# Database URL (Relational DB for users/projects)
 # Leave blank to automatically fallback to the local SQLite database file (./tcs_food_formulator.db)
 DATABASE_URL=
 
-# Groq API Keys (Required for AI RAG generation)
-GROQ_API_KEY=your_groq_api_key_here
+# Neo4j Knowledge Graph Configuration (Live DB with 24,930 nodes & 5,265 relationships)
+NEO4J_URI=bolt://localhost:7687
+NEO4J_USER=neo4j
+NEO4J_PASSWORD=Food@123
+NEO4J_DATABASE=neo4j
+
+# Groq API Configuration (Fast high-throughput LLM reasoning)
+GROQ_API_KEY=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
+GROQ_MODEL=openai/gpt-oss-20b
 
 # USDA API Keys (Optional - default is DEMO_KEY)
 USDA_API_KEY=DEMO_KEY
@@ -80,7 +87,9 @@ JWT_SECRET=tcs_secret_key_67890
 ```
 
 > [!IMPORTANT]
-> The AI Recipe Generator relies on the `GROQ_API_KEY`. If this key is missing or invalid, the backend will return a `500 Server Error` when generating formulations.
+> - **Neo4j Knowledge Graph**: Operates on `bolt://localhost:7687` with verified credentials (`neo4j:Food@123`).
+> - **Groq LLM Engine**: Connected via `GROQ_API_KEY` using active model `openai/gpt-oss-20b` for formulation synthesis and reasoning.
+
 
 ### 2. Frontend Environment Setup (`frontend/.env.local`)
 Create or edit [frontend/.env.local](file:///frontend/.env.local) to point the Next.js app to your backend API URL:

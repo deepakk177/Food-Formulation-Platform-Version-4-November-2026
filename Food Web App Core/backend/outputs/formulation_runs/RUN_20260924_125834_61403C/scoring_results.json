@@ -1,0 +1,118 @@
+[
+  {
+    "overall_score": 94.8,
+    "radar_scores": {
+      "Nutrition": 100.0,
+      "Protein": 17.5,
+      "Functional": 80.0,
+      "Evidence": 100.0,
+      "Compatibility": 100.0,
+      "Cost": 92.1,
+      "Regulatory": 100.0,
+      "Compliance": 100.0
+    },
+    "profile_name": "BALANCED",
+    "explanation": "Overall score 94.8/100 computed under 'BALANCED' strategy. Nutrition compliance: 100.0% (Actual 7.0g vs Target 7.0g). Evidence coverage: 100.0% (9/9 grounded).",
+    "formulas": {
+      "nutrition_score": "min(100, (actual_protein / target_protein) * 100)",
+      "functional_score": "(covered_roles / required_roles) * 100",
+      "evidence_score": "(grounded_ingredients / total_ingredients) * 100",
+      "regulatory_score": "(permitted_ingredients / total_ingredients) * 100"
+    },
+    "cost_per_kg_inr": 5.92,
+    "cost_status": "CALCULATED",
+    "is_feasible": true,
+    "performance": {
+      "overall": 94.8
+    },
+    "confidence_metric_name": "Data & Provenance Completeness",
+    "confidence_value": 94.8
+  },
+  {
+    "overall_score": 94.7,
+    "radar_scores": {
+      "Nutrition": 100.0,
+      "Protein": 17.5,
+      "Functional": 80.0,
+      "Evidence": 100.0,
+      "Compatibility": 100.0,
+      "Cost": 91.6,
+      "Regulatory": 100.0,
+      "Compliance": 100.0
+    },
+    "profile_name": "BALANCED",
+    "explanation": "Overall score 94.7/100 computed under 'BALANCED' strategy. Nutrition compliance: 100.0% (Actual 7.0g vs Target 7.0g). Evidence coverage: 100.0% (9/9 grounded).",
+    "formulas": {
+      "nutrition_score": "min(100, (actual_protein / target_protein) * 100)",
+      "functional_score": "(covered_roles / required_roles) * 100",
+      "evidence_score": "(grounded_ingredients / total_ingredients) * 100",
+      "regulatory_score": "(permitted_ingredients / total_ingredients) * 100"
+    },
+    "cost_per_kg_inr": 6.31,
+    "cost_status": "CALCULATED",
+    "is_feasible": true,
+    "performance": {
+      "overall": 94.7
+    },
+    "confidence_metric_name": "Data & Provenance Completeness",
+    "confidence_value": 94.7
+  },
+  {
+    "overall_score": 74.2,
+    "radar_scores": {
+      "Nutrition": 0.0,
+      "Protein": 100.0,
+      "Functional": 80.0,
+      "Evidence": 100.0,
+      "Compatibility": 100.0,
+      "Cost": 88.0,
+      "Regulatory": 100.0,
+      "Compliance": 100.0
+    },
+    "profile_name": "BALANCED",
+    "explanation": "Overall score 74.2/100 computed under 'BALANCED' strategy. Nutrition compliance: 0.0% (Actual 44.0g vs Target 7.0g). Evidence coverage: 100.0% (8/8 grounded).",
+    "formulas": {
+      "nutrition_score": "min(100, (actual_protein / target_protein) * 100)",
+      "functional_score": "(covered_roles / required_roles) * 100",
+      "evidence_score": "(grounded_ingredients / total_ingredients) * 100",
+      "regulatory_score": "(permitted_ingredients / total_ingredients) * 100"
+    },
+    "cost_per_kg_inr": 8.99,
+    "cost_status": "CALCULATED",
+    "is_feasible": true,
+    "performance": {
+      "overall": 74.2
+    },
+    "confidence_metric_name": "Data & Provenance Completeness",
+    "confidence_value": 74.2
+  },
+  {
+    "overall_score": 74.2,
+    "radar_scores": {
+      "Nutrition": 0.0,
+      "Protein": 100.0,
+      "Functional": 80.0,
+      "Evidence": 100.0,
+      "Compatibility": 100.0,
+      "Cost": 88.0,
+      "Regulatory": 100.0,
+      "Compliance": 100.0
+    },
+    "profile_name": "BALANCED",
+    "explanation": "Overall score 74.2/100 computed under 'BALANCED' strategy. Nutrition compliance: 0.0% (Actual 44.0g vs Target 7.0g). Evidence coverage: 100.0% (9/9 grounded).",
+    "formulas": {
+      "nutrition_score": "min(100, (actual_protein / target_protein) * 100)",
+      "functional_score": "(covered_roles / required_roles) * 100",
+      "evidence_score": "(grounded_ingredients / total_ingredients) * 100",
+      "regulatory_score": "(permitted_ingredients / total_ingredients) * 100"
+    },
+    "cost_per_kg_inr": 9.0,
+    "cost_status": "CALCULATED",
+    "is_feasible": true,
+    "performance": {
+      "overall": 74.2
+    },
+    "confidence_metric_name": "Data & Provenance Completeness",
+    "confidence_value": 74.2
+  }
+]

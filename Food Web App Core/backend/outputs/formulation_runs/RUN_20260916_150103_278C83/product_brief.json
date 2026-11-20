@@ -1,0 +1,236 @@
+{
+  "category": "Confectionery & Chocolate",
+  "product_type": "chocolate_bar",
+  "description": "Peanut-Caramel Chocolate Bar\n\nDevelop a milk chocolate bar containing soft caramel and roasted peanut inclusions.\nTarget a smooth chocolate shell, chewy caramel and crunchy peanut texture.\nControl moisture migration and crystallization for a 9-month shelf life.",
+  "texture_requirements": [
+    "Smooth",
+    "Soft",
+    "Crunchy",
+    "Chewy"
+  ],
+  "mouthfeel_requirements": [],
+  "dietary_requirements": [],
+  "allergen_constraints": [],
+  "nutrition_targets": {
+    "protein_min": null,
+    "protein_max": null,
+    "fat_min": null,
+    "fat_max": null,
+    "carbohydrate_max": null,
+    "sugar_max": null,
+    "fibre_min": null,
+    "sodium_max": null,
+    "calories_max": null
+  },
+  "functional_goals": [],
+  "flavor_profile": [
+    "chocolate flavour"
+  ],
+  "aroma_profile": [],
+  "processing_constraints": [],
+  "shelf_life_requirements": "9-month",
+  "water_activity_target": null,
+  "pH_target": null,
+  "regulatory_market": [],
+  "cost_target": null,
+  "excluded_ingredients": [],
+  "preferred_ingredients": [],
+  "required_claims": [],
+  "prohibited_claims": [],
+  "hard_constraints": [],
+  "soft_objectives": [
+    "OPTIMIZE_TEXTURE_AND_MOUTHFEEL"
+  ],
+  "experiment_strategies": [
+    "nutrition_maximized",
+    "cost_optimized",
+    "balanced",
+    "functionality_texture"
+  ],
+  "constraint_items": [
+    {
+      "constraint_id": "CONST-001",
+      "type": "category",
+      "parameter": "product_category",
+      "operator": "REQUIRED",
+      "target_value": "Confectionery & Chocolate",
+      "unit": null,
+      "importance": "CRITICAL",
+      "source_text": "Peanut-Caramel Chocolate Bar\n\nDevelop a milk choco",
+      "confidence": 0.95,
+      "hard_or_soft": null
+    },
+    {
+      "constraint_id": "CONST-002",
+      "type": "sensory",
+      "parameter": "texture_profile",
+      "operator": "PREFERRED",
+      "target_value": "Smooth",
+      "unit": null,
+      "importance": "MEDIUM",
+      "source_text": "smooth",
+      "confidence": 0.9,
+      "hard_or_soft": null
+    },
+    {
+      "constraint_id": "CONST-003",
+      "type": "sensory",
+      "parameter": "texture_profile",
+      "operator": "PREFERRED",
+      "target_value": "Soft",
+      "unit": null,
+      "importance": "MEDIUM",
+      "source_text": "soft",
+      "confidence": 0.9,
+      "hard_or_soft": null
+    },
+    {
+      "constraint_id": "CONST-004",
+      "type": "sensory",
+      "parameter": "texture_profile",
+      "operator": "PREFERRED",
+      "target_value": "Crunchy",
+      "unit": null,
+      "importance": "MEDIUM",
+      "source_text": "crunchy",
+      "confidence": 0.9,
+      "hard_or_soft": null
+    },
+    {
+      "constraint_id": "CONST-005",
+      "type": "sensory",
+      "parameter": "texture_profile",
+      "operator": "PREFERRED",
+      "target_value": "Chewy",
+      "unit": null,
+      "importance": "MEDIUM",
+      "source_text": "chewy",
+      "confidence": 0.9,
+      "hard_or_soft": null
+    },
+    {
+      "constraint_id": "CONST-006",
+      "type": "sensory",
+      "parameter": "flavor_profile",
+      "operator": "PREFERRED",
+      "target_value": "chocolate flavour",
+      "unit": null,
+      "importance": "MEDIUM",
+      "source_text": "Chocolate",
+      "confidence": 0.9,
+      "hard_or_soft": null
+    },
+    {
+      "constraint_id": "CONST-007",
+      "type": "shelf_life",
+      "parameter": "shelf_stability",
+      "operator": "REQUIRED",
+      "target_value": "9-month",
+      "unit": null,
+      "importance": "MEDIUM",
+      "source_text": "shelf",
+      "confidence": 0.88,
+      "hard_or_soft": null
+    }
+  ],
+  "constraint_graph": {
+    "nodes": [
+      {
+        "id": "PROD-001",
+        "type": "ProductBrief",
+        "value": "Target Product (Confectionery & Chocolate)",
+        "source": "User Product Brief"
+      },
+      {
+        "id": "CONST-001",
+        "type": "CategoryConstraintNode",
+        "value": "product_category REQUIRED Confectionery & Chocolate",
+        "source": "Peanut-Caramel Chocolate Bar\n\nDevelop a milk choco"
+      },
+      {
+        "id": "CONST-002",
+        "type": "SensoryConstraintNode",
+        "value": "texture_profile PREFERRED Smooth",
+        "source": "smooth"
+      },
+      {
+        "id": "CONST-003",
+        "type": "SensoryConstraintNode",
+        "value": "texture_profile PREFERRED Soft",
+        "source": "soft"
+      },
+      {
+        "id": "CONST-004",
+        "type": "SensoryConstraintNode",
+        "value": "texture_profile PREFERRED Crunchy",
+        "source": "crunchy"
+      },
+      {
+        "id": "CONST-005",
+        "type": "SensoryConstraintNode",
+        "value": "texture_profile PREFERRED Chewy",
+        "source": "chewy"
+      },
+      {
+        "id": "CONST-006",
+        "type": "SensoryConstraintNode",
+        "value": "flavor_profile PREFERRED chocolate flavour",
+        "source": "Chocolate"
+      },
+      {
+        "id": "CONST-007",
+        "type": "Shelf_LifeConstraintNode",
+        "value": "shelf_stability REQUIRED 9-month",
+        "source": "shelf"
+      }
+    ],
+    "edges": [
+      {
+        "source": "PROD-001",
+        "relationship": "HAS_CONSTRAINT",
+        "target": "CONST-001"
+      },
+      {
+        "source": "PROD-001",
+        "relationship": "HAS_SENSORY_CONSTRAINT",
+        "target": "CONST-002"
+      },
+      {
+        "source": "PROD-001",
+        "relationship": "HAS_SENSORY_CONSTRAINT",
+        "target": "CONST-003"
+      },
+      {
+        "source": "PROD-001",
+        "relationship": "HAS_SENSORY_CONSTRAINT",
+        "target": "CONST-004"
+      },
+      {
+        "source": "PROD-001",
+        "relationship": "HAS_SENSORY_CONSTRAINT",
+        "target": "CONST-005"
+      },
+      {
+        "source": "PROD-001",
+        "relationship": "HAS_SENSORY_CONSTRAINT",
+        "target": "CONST-006"
+      },
+      {
+        "source": "PROD-001",
+        "relationship": "HAS_PROCESSING_CONSTRAINT",
+        "target": "CONST-007"
+      }
+    ],
+    "summary": {
+      "Nutrition Constraints": 0,
+      "Functional Constraints": 0,
+      "Sensory Constraints": 5,
+      "Regulatory Constraints": 0,
+      "Cost Constraints": 0,
+      "Ingredient Restrictions": 0,
+      "Processing Constraints": 1,
+      "Graph Nodes": 8,
+      "Graph Edges": 7
+    }
+  }
+}
